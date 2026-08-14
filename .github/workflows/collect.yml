@@ -1,0 +1,63 @@
+name: collect
+
+# 3시간마다 수집해 v1/ 을 갱신한다 (PLAN-R1 R1-T3).
+#
+# 실행하는 것은 코드 저장소에서 말아 커밋한 번들 하나뿐이다(.github/collector/collector.mjs).
+# 수집기 소스를 여기 두지 않는 이유는 D7이다 — 소스를 옮기면 @tidbit/feed-schema 가 따라와
+# 익스텐션 쪽 스키마와 두 벌이 된다. 번들은 스키마를 안에 말아 넣으므로 정본이 한 곳에 남는다.
+
+on:
+  schedule:
+    # UTC 기준 3시간 간격. Actions cron 은 수 분~수십 분 늦을 수 있고, 3시간 주기엔 무해하다.
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+
+# 앞 run 이 아직 커밋 중인데 다음 run 이 겹치면 push 가 서로를 밀어낸다.
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+        with:
+          # 기본 GITHUB_TOKEN 으로 push 하면 **다른 워크플로가 트리거되지 않는다**(GitHub 사양).
+          # 이 저장소는 push 가 Pages 빌드를 깨우는 구조라, 기본 토큰으로 밀면 파일은 바뀌는데
+          # 공개 URL 은 옛 데이터를 계속 서빙한다 — 정확히 "조용히 망가지는" 실패다.
+          token: ${{ secrets.GH_PAT }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Collect and publish
+        env:
+          DATA_DIR: ${{ github.workspace }}
+          # SRC2(GitHub Search) 용. 없으면 degraded 로 돌고 카테고리당 카드가 크게 준다.
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: node .github/collector/collector.mjs
+
+      - name: Commit and push
+        run: |
+          set -euo pipefail
+          git config user.name  'tidbit-collector'
+          git config user.email 'tidbit-collector@users.noreply.github.com'
+
+          # 수집기 소유 파일만 스테이징한다. summaries.json 과 overrides.json 은 다른 주체가
+          # 쓰므로, 여기서 add 하면 파일 소유자 분리가 깨지고 세 주체가 서로를 밀어내기 시작한다.
+          git add v1/index.json v1/feed v1/metrics.jsonl
+
+          if git diff --cached --quiet; then
+            echo 'NO_CHANGE: 발행할 변경이 없다'
+            exit 0
+          fi
+
+          git commit -m "chore(feed): collect $(date -u +%FT%TZ)"
+
+          # 요약 워커가 같은 저장소에 커밋하므로 경합이 실제로 난다. rebase 후 1회 재시도한다.
+          git push || { git pull --rebase && git push; }
