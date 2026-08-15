@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "engineering",
-  "generatedAt": "2026-08-14T23:48:13.033Z",
+  "generatedAt": "2026-08-15T01:17:51.138Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,13 +13,57 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 10347,
-        "starsDelta": 153
+        "stars": 10372,
+        "starsDelta": 165
       },
       "source": "github-trending",
+      "summaryEn": "Browser built for AI agents to automate tasks, sharing your logged-in session with tools like Codex or Claude Code.",
+      "summaryKo": "Codex나 Claude Code 같은 AI 에이전트가 로그인된 브라우저 상태를 그대로 공유해 자동화하는 브라우저",
+      "reasonEn": "Free, zero-config; steady growth from agent-browsing use cases.",
+      "reasonKo": "무료·제로설정, 에이전트 브라우징 수요로 꾸준한 스타 증가",
       "categories": [
         "ai-agents",
         "web",
+        "engineering"
+      ]
+    },
+    {
+      "id": "gh:tt-a1i/archify",
+      "type": "repo",
+      "title": "tt-a1i/archify",
+      "summaryOriginal": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "url": "https://github.com/tt-a1i/archify",
+      "lang": "HTML",
+      "tags": [
+        "agent-skills",
+        "anthropic",
+        "architecture-diagram",
+        "claude-skill",
+        "codex",
+        "dark-mode",
+        "data-flow-diagram",
+        "deepseek-harness",
+        "developer-tools",
+        "diagram-as-code",
+        "dsh-plugin",
+        "html-diagram",
+        "lifecycle-diagram",
+        "mermaid-alternative",
+        "opencode",
+        "sequence-diagram",
+        "svg",
+        "system-design",
+        "workflow-diagram"
+      ],
+      "metrics": {
+        "stars": 12566
+      },
+      "source": "github-search",
+      "publishedAt": "2026-04-15T05:27:37Z",
+      "updatedAt": "2026-08-14T16:30:40Z",
+      "categories": [
+        "devtools",
+        "ai-agents",
         "engineering"
       ]
     },
@@ -41,6 +85,7 @@
         "codex",
         "coding-agents",
         "dive",
+        "dsh-plugin",
         "evidence-driven",
         "first-principles",
         "opencode",
@@ -49,43 +94,16 @@
         "spec-kit"
       ],
       "metrics": {
-        "stars": 1000
+        "stars": 1002
       },
       "source": "github-search",
       "publishedAt": "2026-04-30T17:40:49Z",
-      "updatedAt": "2026-08-14T14:05:55Z",
+      "updatedAt": "2026-08-15T00:15:11Z",
+      "summaryEn": "Keeps AI coding agents architecture-aware with baseline-first, evidence-verified, drift-checked guardrails.",
+      "summaryKo": "긴 작업에서 AI 코딩 에이전트가 아키텍처를 인지하도록 베이스라인·근거·드리프트를 검증",
       "categories": [
         "engineering",
         "ai-agents"
-      ]
-    },
-    {
-      "id": "gh:Appllama/top-welcome-screens",
-      "type": "repo",
-      "title": "Appllama/top-welcome-screens",
-      "summaryOriginal": "How top iOS apps say hello | 10 animated welcome screens inspired by top-earning apps. Rebuilt in React Native + Expo.",
-      "url": "https://github.com/Appllama/top-welcome-screens",
-      "lang": "TypeScript",
-      "tags": [
-        "design",
-        "design-patterns",
-        "expo",
-        "ios",
-        "ios-app",
-        "motion",
-        "react",
-        "react-native",
-        "uiux-design"
-      ],
-      "metrics": {
-        "stars": 479
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-08T12:44:52Z",
-      "updatedAt": "2026-08-08T15:54:13Z",
-      "categories": [
-        "web",
-        "engineering"
       ]
     },
     {
@@ -369,35 +387,32 @@
       ]
     },
     {
-      "id": "gh:abdullahalnahhal/nexus",
+      "id": "gh:plwslpld-arch/deepseek-harness-internals",
       "type": "repo",
-      "title": "abdullahalnahhal/nexus",
-      "summaryOriginal": "A production-oriented SaaS platform exploring software architecture, distributed systems, scalability, observability, and modern engineering practices.",
-      "url": "https://github.com/abdullahalnahhal/nexus",
+      "title": "plwslpld-arch/deepseek-harness-internals",
+      "summaryOriginal": "DeepSeek Harness 中文源码、架构、插件生态与持续更新知识库",
+      "url": "https://github.com/plwslpld-arch/deepseek-harness-internals",
+      "lang": "JavaScript",
       "tags": [
-        "aws",
-        "ddd",
-        "distributed-systems",
-        "docker",
-        "event-driven-architecture",
-        "kafka",
-        "laravel",
-        "observability",
-        "php",
-        "postgresql",
-        "redis",
+        "agent-client-protocol",
+        "agent-harness",
+        "ai-agents",
+        "chinese-documentation",
+        "cordis",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "mcp",
+        "plugin-system",
         "software-architecture",
-        "staff-engineer",
-        "system-design",
-        "terraform",
-        "testing"
+        "source-code-analysis"
       ],
       "metrics": {
         "stars": 1
       },
       "source": "github-search",
-      "publishedAt": "2026-08-08T21:57:45Z",
-      "updatedAt": "2026-08-12T21:25:08Z",
+      "publishedAt": "2026-08-13T18:19:20Z",
+      "updatedAt": "2026-08-14T19:18:55Z",
       "categories": [
         "engineering"
       ]
@@ -448,33 +463,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-09T22:25:11Z",
       "updatedAt": "2026-08-11T00:15:42Z",
-      "categories": [
-        "engineering"
-      ]
-    },
-    {
-      "id": "gh:pup-pack/pup-core",
-      "type": "repo",
-      "title": "pup-pack/pup-core",
-      "summaryOriginal": "Shared core library for opinionated professional Python project tools.",
-      "url": "https://github.com/pup-pack/pup-core",
-      "lang": "Python",
-      "tags": [
-        "automation",
-        "developer-tooling",
-        "professional-python",
-        "project-metadata",
-        "python",
-        "python-projects",
-        "repository-inspection",
-        "software-architecture"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-08T18:34:25Z",
-      "updatedAt": "2026-08-14T04:09:38Z",
       "categories": [
         "engineering"
       ]
@@ -822,6 +810,56 @@
       ]
     },
     {
+      "id": "gh:kiquetal/using-plantuml-intellij",
+      "type": "repo",
+      "title": "kiquetal/using-plantuml-intellij",
+      "summaryOriginal": "C4-PlantUML architecture template — reusable skeleton for documenting software architectures with C4 model levels (Context, Container, Component, Code, Deployment)",
+      "url": "https://github.com/kiquetal/using-plantuml-intellij",
+      "tags": [
+        "architecture",
+        "c4-model",
+        "c4-plantuml",
+        "documentation",
+        "intellij",
+        "plantuml",
+        "software-architecture"
+      ],
+      "metrics": {
+        "stars": 0
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-10T12:00:17Z",
+      "updatedAt": "2026-08-10T12:45:35Z",
+      "categories": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "gh:devrodri-com/lem-box-platform-case-study",
+      "type": "repo",
+      "title": "devrodri-com/lem-box-platform-case-study",
+      "summaryOriginal": "Sanitized technical case study of the LEM-BOX logistics platform, including public architecture, selected workflows, synthetic examples, and dated visual evidence. Production source and data remain private.",
+      "url": "https://github.com/devrodri-com/lem-box-platform-case-study",
+      "tags": [
+        "case-study",
+        "logistics",
+        "product-development",
+        "software-architecture",
+        "synthetic-data",
+        "technical-documentation",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 0
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T16:26:56Z",
+      "updatedAt": "2026-08-14T16:27:18Z",
+      "categories": [
+        "engineering"
+      ]
+    },
+    {
       "id": "gh:mandresoeiro/soeirotech-engineering-atlas",
       "type": "repo",
       "title": "mandresoeiro/soeirotech-engineering-atlas",
@@ -874,87 +912,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-13T14:49:44Z",
       "updatedAt": "2026-08-13T14:54:57Z",
-      "categories": [
-        "engineering"
-      ]
-    },
-    {
-      "id": "gh:kiquetal/using-plantuml-intellij",
-      "type": "repo",
-      "title": "kiquetal/using-plantuml-intellij",
-      "summaryOriginal": "C4-PlantUML architecture template — reusable skeleton for documenting software architectures with C4 model levels (Context, Container, Component, Code, Deployment)",
-      "url": "https://github.com/kiquetal/using-plantuml-intellij",
-      "tags": [
-        "architecture",
-        "c4-model",
-        "c4-plantuml",
-        "documentation",
-        "intellij",
-        "plantuml",
-        "software-architecture"
-      ],
-      "metrics": {
-        "stars": 0
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-10T12:00:17Z",
-      "updatedAt": "2026-08-10T12:45:35Z",
-      "categories": [
-        "engineering"
-      ]
-    },
-    {
-      "id": "gh:devrodri-com/lem-box-platform-case-study",
-      "type": "repo",
-      "title": "devrodri-com/lem-box-platform-case-study",
-      "summaryOriginal": "Sanitized technical case study of the LEM-BOX logistics platform, including public architecture, selected workflows, synthetic examples, and dated visual evidence. Production source and data remain private.",
-      "url": "https://github.com/devrodri-com/lem-box-platform-case-study",
-      "tags": [
-        "case-study",
-        "logistics",
-        "product-development",
-        "software-architecture",
-        "synthetic-data",
-        "technical-documentation",
-        "typescript"
-      ],
-      "metrics": {
-        "stars": 0
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T16:26:56Z",
-      "updatedAt": "2026-08-14T16:27:18Z",
-      "categories": [
-        "engineering"
-      ]
-    },
-    {
-      "id": "gh:wu-tian807/nested-architecture-map-skill",
-      "type": "repo",
-      "title": "wu-tian807/nested-architecture-map-skill",
-      "summaryOriginal": "Source-grounded, drill-down codebase architecture maps with continuous cross-module data flow.",
-      "url": "https://github.com/wu-tian807/nested-architecture-map-skill",
-      "lang": "JavaScript",
-      "tags": [
-        "agent-skills",
-        "ai-agents",
-        "architecture-diagram",
-        "code-documentation",
-        "code-visualization",
-        "codebase",
-        "codebase-onboarding",
-        "codex",
-        "data-flow",
-        "developer-tools",
-        "interactive-diagram",
-        "software-architecture"
-      ],
-      "metrics": {
-        "stars": 0
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-08T16:52:54Z",
-      "updatedAt": "2026-08-11T02:58:20Z",
       "categories": [
         "engineering"
       ]
@@ -1021,30 +978,53 @@
       ]
     },
     {
-      "id": "gh:d2lang/d2",
+      "id": "gh:FajrOmar/laundry-pickup-system",
       "type": "repo",
-      "title": "d2lang/d2",
-      "summaryOriginal": "D2 is a modern diagram scripting language that turns text to diagrams.",
-      "url": "https://github.com/d2lang/d2",
-      "lang": "Go",
+      "title": "FajrOmar/laundry-pickup-system",
+      "summaryOriginal": "A Software Engineering project for designing a Laundry Pickup System, covering functional and non-functional requirements, use-case analysis, system modeling, behavioral diagrams, and client-server architecture.",
+      "url": "https://github.com/FajrOmar/laundry-pickup-system",
       "tags": [
-        "developer-tools",
-        "diagramming",
-        "diagrams",
-        "go",
-        "golang",
+        "class-diagram",
+        "client-server",
+        "laundry-management",
+        "requirements-engineering",
+        "sequence-diagram",
         "software-architecture",
-        "text-to-diagram"
+        "software-engineering",
+        "state-diagram",
+        "system-analysis",
+        "system-design",
+        "uml",
+        "use-case"
       ],
       "metrics": {
-        "stars": 24929
+        "stars": 0
       },
       "source": "github-search",
-      "publishedAt": "2022-09-05T23:12:27Z",
-      "updatedAt": "2026-08-12T04:44:59Z",
+      "publishedAt": "2026-08-10T18:09:25Z",
+      "updatedAt": "2026-08-10T18:11:51Z",
       "categories": [
-        "engineering",
-        "devtools"
+        "engineering"
+      ]
+    },
+    {
+      "id": "gh:mxagar/software_architecture_guide",
+      "type": "repo",
+      "title": "mxagar/software_architecture_guide",
+      "summaryOriginal": "Personal notes on Software Architecture",
+      "url": "https://github.com/mxagar/software_architecture_guide",
+      "tags": [
+        "desing-patterns",
+        "software-architecture"
+      ],
+      "metrics": {
+        "stars": 0
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-10T17:05:23Z",
+      "updatedAt": "2026-08-10T17:21:58Z",
+      "categories": [
+        "engineering"
       ]
     },
     {
@@ -1180,7 +1160,41 @@
       },
       "source": "github-search",
       "publishedAt": "2026-03-03T04:48:38Z",
-      "updatedAt": "2026-08-14T21:22:48Z",
+      "updatedAt": "2026-08-15T00:09:56Z",
+      "categories": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "gh:PaulDuvall/ai-development-patterns",
+      "type": "repo",
+      "title": "PaulDuvall/ai-development-patterns",
+      "summaryOriginal": "A comprehensive collection of AI development patterns for building software with AI assistance, organized by implementation maturity and development lifecycle phases. Includes Foundation, Development, and Operations patterns with practical examples and anti-patterns.",
+      "url": "https://github.com/PaulDuvall/ai-development-patterns",
+      "lang": "Python",
+      "tags": [
+        "ai-assisted-coding",
+        "ai-development",
+        "ai-tools",
+        "artificial-intelligence",
+        "automation",
+        "best-practices",
+        "ci-cd",
+        "coding-standards",
+        "developer-productivity",
+        "development-patterns",
+        "devops",
+        "documentation",
+        "security",
+        "software-architecture",
+        "software-engineering"
+      ],
+      "metrics": {
+        "stars": 637
+      },
+      "source": "github-search",
+      "publishedAt": "2025-06-15T19:45:16Z",
+      "updatedAt": "2026-08-15T01:03:41Z",
       "categories": [
         "engineering"
       ]
@@ -1301,6 +1315,38 @@
       ]
     },
     {
+      "id": "gh:aarushi-shanker/msa-design-patterns",
+      "type": "repo",
+      "title": "aarushi-shanker/msa-design-patterns",
+      "summaryOriginal": "Implementations for Core Design Patterns of Microservices",
+      "url": "https://github.com/aarushi-shanker/msa-design-patterns",
+      "lang": "Java",
+      "tags": [
+        "api-gateway",
+        "circuit-breaker",
+        "config-server",
+        "design-patterns",
+        "distributed-tracing",
+        "eureka-server",
+        "load-balancing",
+        "microservices",
+        "resilience4j",
+        "service-discovery",
+        "sleuth",
+        "spring-cloud",
+        "zipkin"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-09T11:30:18Z",
+      "updatedAt": "2026-08-12T04:48:52Z",
+      "categories": [
+        "engineering"
+      ]
+    },
+    {
       "id": "gh:vercel-labs/deepsec",
       "type": "repo",
       "title": "vercel-labs/deepsec",
@@ -1309,11 +1355,14 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 6,
-        "forks": 0,
+        "starsDelta": 6,
         "totalScore": 221.7497
       },
       "source": "ossinsight",
+      "summaryEn": "Security harness that uses coding agents to find vulnerabilities in your codebase.",
+      "summaryKo": "코딩 에이전트로 코드베이스 취약점을 찾는 보안 검사 하네스",
+      "reasonEn": "New Vercel Labs repo already gaining trending attention.",
+      "reasonKo": "Vercel Labs발 신규 저장소, 트렌딩 점수로 주목",
       "categories": [
         "ai-agents",
         "engineering"
@@ -1328,33 +1377,12 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 2,
-        "forks": 0,
+        "starsDelta": 2,
         "totalScore": 209.6535
       },
       "source": "ossinsight",
       "categories": [
         "web",
-        "engineering"
-      ]
-    },
-    {
-      "id": "gh:tt-a1i/archify",
-      "type": "repo",
-      "title": "tt-a1i/archify",
-      "summaryOriginal": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-      "url": "https://github.com/tt-a1i/archify",
-      "lang": "HTML",
-      "tags": [],
-      "metrics": {
-        "stars": 2,
-        "forks": 0,
-        "pushes": 1,
-        "totalScore": 207.276
-      },
-      "source": "ossinsight",
-      "categories": [
-        "ai-agents",
         "engineering"
       ]
     },
@@ -1367,8 +1395,7 @@
       "lang": "Swift",
       "tags": [],
       "metrics": {
-        "stars": 1,
-        "forks": 0,
+        "starsDelta": 1,
         "totalScore": 204.958
       },
       "source": "ossinsight",
@@ -1385,8 +1412,7 @@
       "lang": "Go",
       "tags": [],
       "metrics": {
-        "stars": 1,
-        "forks": 0,
+        "starsDelta": 1,
         "pushes": 5,
         "totalScore": 204.8794
       },
@@ -1406,8 +1432,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 1,
-        "forks": 0,
+        "starsDelta": 1,
         "totalScore": 204.8758
       },
       "source": "ossinsight",

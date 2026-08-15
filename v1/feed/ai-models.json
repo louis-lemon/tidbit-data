@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "ai-models",
-  "generatedAt": "2026-08-14T23:48:13.033Z",
+  "generatedAt": "2026-08-15T01:17:51.138Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,10 +13,14 @@
       "lang": "Go",
       "tags": [],
       "metrics": {
-        "stars": 88382,
-        "starsDelta": 474
+        "stars": 88387,
+        "starsDelta": 473
       },
       "source": "github-trending",
+      "summaryEn": "Open-source RAG engine combining retrieval-augmented generation with agent capabilities for LLM context.",
+      "summaryKo": "검색증강생성(RAG)과 에이전트 기능을 결합한 대표 오픈소스 RAG 엔진",
+      "reasonEn": "Already 88k+ stars; still adding hundreds more weekly.",
+      "reasonKo": "8만8천+ 스타에도 매주 수백 개씩 추가 증가",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -31,8 +35,8 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 71493,
-        "starsDelta": 502
+        "stars": 71514,
+        "starsDelta": 501
       },
       "source": "github-trending",
       "categories": [
@@ -59,7 +63,7 @@
         "typescript-tutorial"
       ],
       "metrics": {
-        "stars": 978
+        "stars": 979
       },
       "source": "github-search",
       "publishedAt": "2026-08-09T12:15:30Z",
@@ -87,11 +91,13 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 409
+        "stars": 418
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T06:28:56Z",
       "updatedAt": "2026-08-14T17:48:48Z",
+      "summaryEn": "Open-source alternative to Grok's coding bot — pick your own model and sandbox.",
+      "summaryKo": "Grok 봇의 오픈소스 대안, 모델과 샌드박스를 직접 선택",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -125,11 +131,13 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 398
+        "stars": 401
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T13:14:49Z",
       "updatedAt": "2026-08-14T14:50:30Z",
+      "summaryEn": "Curated hub of plugins, tools, and infrastructure for the DeepSeek Harness (DSH) ecosystem.",
+      "summaryKo": "DeepSeek Harness(DSH) 생태계 플러그인·도구·인프라를 정리한 큐레이션 허브",
       "categories": [
         "ai-models",
         "ai-agents",
@@ -137,40 +145,32 @@
       ]
     },
     {
-      "id": "gh:i3T4AN/KADATH",
+      "id": "gh:OpenSparX/MasterAgent",
       "type": "repo",
-      "title": "i3T4AN/KADATH",
-      "summaryOriginal": "Evolutionary multi-agent runtime that breeds, evaluates, and improves autonomous agents across reproducible epochs to converge on optimization of a goal.",
-      "url": "https://github.com/i3T4AN/KADATH",
-      "lang": "Python",
+      "title": "OpenSparX/MasterAgent",
+      "summaryOriginal": "Build AI agents that run 100% on-device. Sub-100ms latency on Qualcomm NPU. Zero cloud dependency.",
+      "url": "https://github.com/OpenSparX/MasterAgent",
+      "lang": "C++",
       "tags": [
-        "agent-evaluation-tools",
         "agent-framework",
-        "agent-swarms",
-        "agentic-ai",
-        "agents",
-        "ai",
-        "ai-agents",
-        "autonomous-agents",
-        "evolutionary-algorithms",
-        "generative-ai",
-        "genetic-algorithm",
+        "ai-agent",
+        "automotive",
+        "edge-ai",
+        "embedded",
+        "iot",
         "llm",
-        "llm-agents",
-        "llm-evaluation",
-        "multi-agent",
-        "multi-agent-systems",
-        "self-evolving-agents"
+        "npu",
+        "on-device",
+        "qualcomm"
       ],
       "metrics": {
-        "stars": 352
+        "stars": 207
       },
       "source": "github-search",
-      "publishedAt": "2026-08-08T15:49:55Z",
-      "updatedAt": "2026-08-09T21:01:28Z",
+      "publishedAt": "2026-08-10T18:43:36Z",
+      "updatedAt": "2026-08-14T13:05:18Z",
       "categories": [
-        "ai-models",
-        "ai-agents"
+        "ai-models"
       ]
     },
     {
@@ -195,7 +195,7 @@
         "tutorial"
       ],
       "metrics": {
-        "stars": 203
+        "stars": 205
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T15:22:29Z",
@@ -203,35 +203,6 @@
       "categories": [
         "ai-models",
         "ai-agents"
-      ]
-    },
-    {
-      "id": "gh:OpenSparX/MasterAgent",
-      "type": "repo",
-      "title": "OpenSparX/MasterAgent",
-      "summaryOriginal": "Build AI agents that run 100% on-device. Sub-100ms latency on Qualcomm NPU. Zero cloud dependency.",
-      "url": "https://github.com/OpenSparX/MasterAgent",
-      "lang": "C++",
-      "tags": [
-        "agent-framework",
-        "ai-agent",
-        "automotive",
-        "edge-ai",
-        "embedded",
-        "iot",
-        "llm",
-        "npu",
-        "on-device",
-        "qualcomm"
-      ],
-      "metrics": {
-        "stars": 194
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-10T18:43:36Z",
-      "updatedAt": "2026-08-14T13:05:18Z",
-      "categories": [
-        "ai-models"
       ]
     },
     {
@@ -334,42 +305,6 @@
       ]
     },
     {
-      "id": "gh:agents-universe/agents-universe",
-      "type": "repo",
-      "title": "agents-universe/agents-universe",
-      "summaryOriginal": "让智能体像人一样学习和工作",
-      "url": "https://github.com/agents-universe/agents-universe",
-      "lang": "Python",
-      "tags": [
-        "agent-framework",
-        "agent-orchestration",
-        "agent-platform",
-        "agentic",
-        "agentic-ai",
-        "ai-agents",
-        "codex",
-        "deepseek",
-        "deepseek-harness",
-        "fastapi",
-        "harness",
-        "harness-framework",
-        "knowledge-management",
-        "llm",
-        "muti-agent",
-        "self-hosted"
-      ],
-      "metrics": {
-        "stars": 87
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-08T08:33:12Z",
-      "updatedAt": "2026-08-14T15:06:14Z",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ]
-    },
-    {
       "id": "gh:p-e-w/lophius",
       "type": "repo",
       "title": "p-e-w/lophius",
@@ -411,7 +346,7 @@
         "token-pool"
       ],
       "metrics": {
-        "stars": 63
+        "stars": 66
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T07:06:43Z",
@@ -440,51 +375,13 @@
         "transcript"
       ],
       "metrics": {
-        "stars": 57
+        "stars": 58
       },
       "source": "github-search",
       "publishedAt": "2026-08-12T06:48:51Z",
       "updatedAt": "2026-08-13T11:12:30Z",
       "categories": [
         "ai-models"
-      ]
-    },
-    {
-      "id": "gh:memoket/memoket-kite",
-      "type": "repo",
-      "title": "memoket/memoket-kite",
-      "summaryOriginal": "Memory engine for AI agents with token-efficient, explainable retrieval beyond vector similarity.",
-      "url": "https://github.com/memoket/memoket-kite",
-      "lang": "Python",
-      "tags": [
-        "agent-memory",
-        "agents",
-        "ai",
-        "ai-agents",
-        "ai-memory",
-        "chatbot",
-        "genai",
-        "knowledge-management",
-        "llm",
-        "llm-memory",
-        "long-term-memory",
-        "memory",
-        "memory-engine",
-        "memory-layer",
-        "memory-management",
-        "python",
-        "rag",
-        "retrieval"
-      ],
-      "metrics": {
-        "stars": 46
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-12T03:19:07Z",
-      "updatedAt": "2026-08-14T09:23:57Z",
-      "categories": [
-        "ai-models",
-        "ai-agents"
       ]
     },
     {
@@ -517,7 +414,7 @@
         "zero-dependency"
       ],
       "metrics": {
-        "stars": 46
+        "stars": 50
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T08:09:10Z",
@@ -526,6 +423,44 @@
         "ai-models",
         "ai-agents",
         "devtools"
+      ]
+    },
+    {
+      "id": "gh:memoket/memoket-kite",
+      "type": "repo",
+      "title": "memoket/memoket-kite",
+      "summaryOriginal": "Memory engine for AI agents with token-efficient, explainable retrieval beyond vector similarity.",
+      "url": "https://github.com/memoket/memoket-kite",
+      "lang": "Python",
+      "tags": [
+        "agent-memory",
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "chatbot",
+        "genai",
+        "knowledge-management",
+        "llm",
+        "llm-memory",
+        "long-term-memory",
+        "memory",
+        "memory-engine",
+        "memory-layer",
+        "memory-management",
+        "python",
+        "rag",
+        "retrieval"
+      ],
+      "metrics": {
+        "stars": 47
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-12T03:19:07Z",
+      "updatedAt": "2026-08-14T09:23:57Z",
+      "categories": [
+        "ai-models",
+        "ai-agents"
       ]
     },
     {
@@ -596,6 +531,73 @@
       ]
     },
     {
+      "id": "gh:bradeGithub/DSH-Plugins-Marketplace",
+      "type": "repo",
+      "title": "bradeGithub/DSH-Plugins-Marketplace",
+      "summaryOriginal": "DSH插件市场 / DSH Plugin Marketplace: 在 DeepSeek Harness Web GUI 中一键浏览、安装与更新 GitHub topic:dsh-plugin 的全部插件 | browse, install & update all GitHub dsh-plugin plugins in the DSH Web GUI",
+      "url": "https://github.com/bradeGithub/DSH-Plugins-Marketplace",
+      "lang": "JavaScript",
+      "tags": [
+        "agent",
+        "ai-agents",
+        "cordis",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "javascript",
+        "llm",
+        "marketplace",
+        "nodejs",
+        "plugin",
+        "plugin-marketplace"
+      ],
+      "metrics": {
+        "stars": 31
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T16:01:59Z",
+      "updatedAt": "2026-08-14T22:42:05Z",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "gh:z15114664687-dot/hr-onboarding-agent",
+      "type": "repo",
+      "title": "z15114664687-dot/hr-onboarding-agent",
+      "summaryOriginal": "Open-source AI-assisted HR onboarding for Feishu/Lark: configurable workflows, document OCR and review, Bitable sync, reminders, and a zero-credential demo.",
+      "url": "https://github.com/z15114664687-dot/hr-onboarding-agent",
+      "lang": "Python",
+      "tags": [
+        "ai-agents",
+        "document-ai",
+        "fastapi",
+        "feishu",
+        "hr-tech",
+        "human-in-the-loop",
+        "lark",
+        "llm",
+        "ocr",
+        "onboarding",
+        "open-source",
+        "people-operations",
+        "python",
+        "rag",
+        "workflow-automation"
+      ],
+      "metrics": {
+        "stars": 27
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-11T11:22:22Z",
+      "updatedAt": "2026-08-11T12:47:03Z",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
       "id": "gh:TencentCloud/TencentDB-Agent-Memory",
       "type": "repo",
       "title": "TencentCloud/TencentDB-Agent-Memory",
@@ -604,11 +606,14 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 6,
-        "forks": 0,
+        "starsDelta": 6,
         "totalScore": 225.776
       },
       "source": "ossinsight",
+      "summaryEn": "Team memory hub for AI agents — turns chats, docs, and code into shared, governed memory assets.",
+      "summaryKo": "대화·문서·코드를 공유 가능한 메모리 자산으로 바꾸는 AI 에이전트용 팀 메모리 허브",
+      "reasonEn": "Just 6 stars but a high trending score — early buzz.",
+      "reasonKo": "스타 6개뿐이지만 트렌딩 점수 높아 신규 주목",
       "categories": [
         "ai-models",
         "ai-agents",
@@ -624,12 +629,13 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 2,
-        "forks": 0,
+        "starsDelta": 2,
         "pushes": 2,
         "totalScore": 209.9115
       },
       "source": "ossinsight",
+      "summaryEn": "AI agent built on openJiuwen that extends LLM capabilities into everyday messaging apps.",
+      "summaryKo": "openJiuwen 기반 에이전트, LLM 기능을 일상 메신저 앱까지 확장",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -644,8 +650,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 2,
-        "forks": 0,
+        "starsDelta": 2,
         "totalScore": 207.9525
       },
       "source": "ossinsight",
@@ -662,8 +667,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 1,
-        "forks": 0,
+        "starsDelta": 1,
         "totalScore": 204.9313
       },
       "source": "ossinsight",
@@ -681,8 +685,7 @@
       "lang": "Dart",
       "tags": [],
       "metrics": {
-        "stars": 1,
-        "forks": 0,
+        "starsDelta": 1,
         "totalScore": 204.8098
       },
       "source": "ossinsight",
@@ -701,8 +704,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 1,
-        "forks": 0,
+        "starsDelta": 1,
         "totalScore": 204.7819
       },
       "source": "ossinsight",
@@ -729,12 +731,16 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 8935,
+        "likes": 9013,
         "downloads": 2,
-        "trendingScore": 8632
+        "trendingScore": 8706
       },
       "source": "hf-models",
       "publishedAt": "2026-08-05T08:22:59.000Z",
+      "summaryEn": "Qwen's 27B multimodal model for image-and-text-to-text tasks and conversation.",
+      "summaryKo": "이미지·텍스트를 함께 처리하는 Qwen의 27B 멀티모달 대화 모델",
+      "reasonEn": "Trending score and likes spike despite near-zero downloads.",
+      "reasonKo": "다운로드는 적지만 트렌딩 점수·좋아요 급증, 신규 공개 화제",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -761,12 +767,16 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1510,
+        "likes": 1513,
         "downloads": 165300,
-        "trendingScore": 1415
+        "trendingScore": 1416
       },
       "source": "hf-models",
       "publishedAt": "2026-08-09T17:51:35.000Z",
+      "summaryEn": "Meta's 30B multimodal model for image-and-text-to-text conversational tasks.",
+      "summaryKo": "이미지와 텍스트를 함께 처리하는 메타의 30B 멀티모달 대화 모델",
+      "reasonEn": "High downloads and trending score for a fresh Meta release.",
+      "reasonKo": "다운로드·트렌딩 점수 모두 높은 메타의 신규 멀티모달 공개",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -791,12 +801,16 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 912,
+        "likes": 917,
         "downloads": 3832,
-        "trendingScore": 881
+        "trendingScore": 886
       },
       "source": "hf-models",
       "publishedAt": "2026-08-08T01:50:52.000Z",
+      "summaryEn": "Qwen's large mixture-of-experts text-generation model for conversational use.",
+      "summaryKo": "Qwen의 대형 MoE 텍스트 생성·대화 모델",
+      "reasonEn": "New large MoE release drawing early likes and downloads.",
+      "reasonKo": "대형 MoE 신규 공개로 좋아요·다운로드 초기 상승",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -832,10 +846,14 @@
       "metrics": {
         "likes": 3920,
         "downloads": 1997541,
-        "trendingScore": 826
+        "trendingScore": 820
       },
       "source": "hf-models",
       "publishedAt": "2026-07-28T10:45:18.000Z",
+      "summaryEn": "MiniMax's multimodal model generating synchronized audio and video from text, image, or video input.",
+      "summaryKo": "텍스트·이미지·영상 입력으로 동기화된 오디오·비디오를 생성하는 미니맥스 멀티모달 모델",
+      "reasonEn": "Nearly 2M downloads — strong adoption for audio-video generation.",
+      "reasonKo": "다운로드 200만 육박, 오디오-비디오 생성 강한 채택",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -860,12 +878,16 @@
         "conversational"
       ],
       "metrics": {
-        "likes": 774,
+        "likes": 807,
         "downloads": 0,
-        "trendingScore": 760
+        "trendingScore": 792
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T08:28:40.000Z",
+      "summaryEn": "GGUF-quantized version of Qwen's 27B model for running locally with tools like llama.cpp.",
+      "summaryKo": "llama.cpp 등으로 로컬 실행 가능한 Qwen 27B 모델의 GGUF 양자화 버전",
+      "reasonEn": "New quantized build riding the base Qwen3.8-27B release.",
+      "reasonKo": "기반 Qwen3.8-27B 공개에 편승한 신규 양자화 빌드",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -909,12 +931,16 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 852,
+        "likes": 858,
         "downloads": 207830,
-        "trendingScore": 720
+        "trendingScore": 724
       },
       "source": "hf-models",
       "publishedAt": "2026-07-23T07:55:24.000Z",
+      "summaryEn": "Lightricks' video generation model supporting image-to-video, text-to-video, and audio-video generation.",
+      "summaryKo": "이미지·텍스트·오디오를 영상으로 변환하는 라이트릭스의 비디오 생성 모델",
+      "reasonEn": "Active downloads for a fresh release in Lightricks' LTX line.",
+      "reasonKo": "라이트릭스 LTX 비디오 라인 신규 공개, 다운로드 활발",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -939,12 +965,16 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 649,
+        "likes": 652,
         "downloads": 63,
-        "trendingScore": 641
+        "trendingScore": 644
       },
       "source": "hf-models",
       "publishedAt": "2026-08-07T12:23:29.000Z",
+      "summaryEn": "MiniMax's text-to-music generation model for producing audio from text prompts.",
+      "summaryKo": "텍스트 프롬프트로 음악을 만드는 미니맥스의 텍스트투뮤직 모델",
+      "reasonEn": "New music-generation release picking up early likes.",
+      "reasonKo": "신규 음악 생성 모델, 초기 좋아요 상승",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -973,12 +1003,16 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 3381,
+        "likes": 3383,
         "downloads": 1606491,
-        "trendingScore": 494
+        "trendingScore": 490
       },
       "source": "hf-models",
       "publishedAt": "2026-07-31T07:30:24.000Z",
+      "summaryEn": "Fast, lightweight variant of DeepSeek's V4 text-generation model, deployable on Azure.",
+      "summaryKo": "Azure 배포 가능한 DeepSeek V4의 가볍고 빠른 텍스트 생성 모델",
+      "reasonEn": "1.6M+ downloads — DeepSeek V4 line seeing heavy adoption.",
+      "reasonKo": "다운로드 160만+, DeepSeek V4 라인 강한 채택",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -1005,12 +1039,16 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 431,
+        "likes": 433,
         "downloads": 245,
-        "trendingScore": 421
+        "trendingScore": 422
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T03:05:06.000Z",
+      "summaryEn": "Higher-capability Pro variant of DeepSeek's V4 text-generation model.",
+      "summaryKo": "DeepSeek V4의 상위 성능 Pro 텍스트 생성 모델",
+      "reasonEn": "Fresh Pro release of DeepSeek V4, early likes coming in.",
+      "reasonKo": "DeepSeek V4 신규 Pro 공개, 좋아요 초기 유입",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -1045,6 +1083,10 @@
       },
       "source": "hf-models",
       "publishedAt": "2026-08-10T09:11:29.000Z",
+      "summaryEn": "GGUF-quantized version of Meta's Muse-Glimmer-30B model for local inference.",
+      "summaryKo": "로컬 추론용 메타 Muse-Glimmer-30B 모델의 GGUF 양자화 버전",
+      "reasonEn": "Nearly 600k downloads — popular quantized build for local use.",
+      "reasonKo": "다운로드 60만 육박, 로컬용 양자화 빌드로 인기",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -1058,11 +1100,13 @@
       "url": "https://huggingface.co/papers/2608.02870",
       "tags": [],
       "metrics": {
-        "upvotes": 2,
+        "upvotes": 3,
         "comments": 1
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-05T00:00:00.000Z",
+      "summaryEn": "Recurrent Transformer with fixed-size memory that generalizes sliding-window attention while staying parallelizable to train.",
+      "summaryKo": "학습 시 병렬화를 유지하면서 슬라이딩 윈도우 어텐션을 일반화한 고정 크기 메모리 순환 트랜스포머",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -1076,12 +1120,16 @@
       "url": "https://huggingface.co/papers/2608.08020",
       "tags": [],
       "metrics": {
-        "upvotes": 2,
+        "upvotes": 3,
         "comments": 1,
         "githubStars": 3
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summaryEn": "Formalizes test-time reasoning as a compute-allocation problem, searching reasoning trajectories at the thought level.",
+      "summaryKo": "테스트 시점 추론을 부분 경로 단위 연산 배분 문제로 정식화해 사고 단위로 탐색",
+      "reasonEn": "Paired with a small but growing GitHub implementation.",
+      "reasonKo": "작지만 성장 중인 GitHub 구현체 동반",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -1101,6 +1149,8 @@
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-10T00:00:00.000Z",
+      "summaryEn": "Detects rib fractures in CT scans by pairing findings across two projections and triangulating them in 3D.",
+      "summaryKo": "CT 유래 두 방향 투영에서 갈비뼈 골절을 찾아 짝짓고 3D로 삼각측량하는 방법",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -1119,6 +1169,8 @@
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summaryEn": "Distillation method for autoregressive video generation that preserves causal, low-latency online control.",
+      "summaryKo": "인과적 저지연 온라인 제어를 유지하며 자기회귀 영상 생성을 가속하는 증류 기법",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -1132,11 +1184,13 @@
       "url": "https://huggingface.co/papers/2608.09158",
       "tags": [],
       "metrics": {
-        "upvotes": 1,
+        "upvotes": 2,
         "comments": 1
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-10T00:00:00.000Z",
+      "summaryEn": "Shows that low-frequency audio inaudible to humans can still influence and break audio-language models.",
+      "summaryKo": "사람에게 들리지 않는 저주파 오디오 입력이 오디오-언어모델을 오작동시킬 수 있음을 보인 연구",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -1168,7 +1222,7 @@
       "url": "https://huggingface.co/papers/2608.11660",
       "tags": [],
       "metrics": {
-        "upvotes": 3,
+        "upvotes": 4,
         "comments": 1
       },
       "source": "hf-papers",
@@ -1186,7 +1240,7 @@
       "url": "https://huggingface.co/papers/2608.12440",
       "tags": [],
       "metrics": {
-        "upvotes": 1,
+        "upvotes": 2,
         "comments": 3
       },
       "source": "hf-papers",

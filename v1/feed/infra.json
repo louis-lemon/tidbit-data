@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "infra",
-  "generatedAt": "2026-08-14T23:48:13.033Z",
+  "generatedAt": "2026-08-15T01:17:51.138Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,10 +13,14 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 39061,
-        "starsDelta": 302
+        "stars": 39083,
+        "starsDelta": 132
       },
       "source": "github-trending",
+      "summaryEn": "Open-source low-code platform for building internal tools, dashboards, workflows, and AI agents.",
+      "summaryKo": "내부 도구·대시보드·워크플로우·AI 에이전트를 만드는 오픈소스 로우코드 플랫폼",
+      "reasonEn": "39k+ stars, adding 300+ more — steady low-code growth.",
+      "reasonKo": "3만9천+ 스타, 로우코드 플랫폼 꾸준한 성장세",
       "categories": [
         "ai-agents",
         "infra"
@@ -42,11 +46,11 @@
         "testcontainers"
       ],
       "metrics": {
-        "stars": 20070
+        "stars": 20073
       },
       "source": "github-search",
       "publishedAt": "2026-02-18T02:28:29Z",
-      "updatedAt": "2026-08-14T22:34:08Z",
+      "updatedAt": "2026-08-15T01:03:56Z",
       "categories": [
         "infra"
       ]
@@ -81,11 +85,11 @@
         "prometheus"
       ],
       "metrics": {
-        "stars": 80186
+        "stars": 80182
       },
       "source": "github-search",
       "publishedAt": "2013-06-17T18:39:10Z",
-      "updatedAt": "2026-08-14T18:47:54Z",
+      "updatedAt": "2026-08-15T00:11:13Z",
       "categories": [
         "ai-models",
         "infra",
@@ -126,7 +130,7 @@
       },
       "source": "github-search",
       "publishedAt": "2016-11-01T02:13:26Z",
-      "updatedAt": "2026-08-14T20:48:59Z",
+      "updatedAt": "2026-08-15T00:40:45Z",
       "categories": [
         "web",
         "infra"
@@ -478,64 +482,6 @@
       ]
     },
     {
-      "id": "gh:GlediLami/kubetective",
-      "type": "repo",
-      "title": "GlediLami/kubetective",
-      "summaryOriginal": "Deterministic root causes for every Kubernetes incident you don't want to debug twice",
-      "url": "https://github.com/GlediLami/kubetective",
-      "lang": "Go",
-      "tags": [
-        "devops",
-        "gitops",
-        "golang",
-        "incident-response",
-        "kubectl",
-        "kubernetes",
-        "mcp",
-        "observability",
-        "oncall",
-        "prometheus",
-        "sre",
-        "troubleshooting"
-      ],
-      "metrics": {
-        "stars": 4
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-08T00:19:09Z",
-      "updatedAt": "2026-08-08T20:20:40Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:argorixlabs/cchia-skills",
-      "type": "repo",
-      "title": "argorixlabs/cchia-skills",
-      "summaryOriginal": "CCHIA Security Compiler and read-only security checks for AI, cloud, IAM, Kubernetes and agents",
-      "url": "https://github.com/argorixlabs/cchia-skills",
-      "lang": "Python",
-      "tags": [
-        "ai-security",
-        "cloud-security",
-        "codex-skills",
-        "cybersecurity",
-        "grc",
-        "kubernetes",
-        "nist",
-        "security-automation"
-      ],
-      "metrics": {
-        "stars": 3
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-08T23:47:57Z",
-      "updatedAt": "2026-08-08T23:59:53Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
       "id": "gh:apache/spark-connect-gateway",
       "type": "repo",
       "title": "apache/spark-connect-gateway",
@@ -587,6 +533,28 @@
       "source": "github-search",
       "publishedAt": "2026-08-10T13:37:36Z",
       "updatedAt": "2026-08-11T11:20:39Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:sodiqscript111/Elv",
+      "type": "repo",
+      "title": "sodiqscript111/Elv",
+      "summaryOriginal": "A cloud-native Kubernetes Log Drain Operator powered by Vector. Dynamically route, filter, and stream application container logs to Cloudflare R2, AWS S3, and MinIO with zero code changes.",
+      "url": "https://github.com/sodiqscript111/Elv",
+      "lang": "Go",
+      "tags": [
+        "kubernetes",
+        "log-drains",
+        "logging"
+      ],
+      "metrics": {
+        "stars": 2
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T12:25:05Z",
+      "updatedAt": "2026-08-14T18:40:19Z",
       "categories": [
         "infra"
       ]
@@ -977,29 +945,74 @@
       ]
     },
     {
-      "id": "gh:iagorp6/ensemble",
+      "id": "gh:byte-ish/argo-workflows-vs-kubeflow-pipelines",
       "type": "repo",
-      "title": "iagorp6/ensemble",
-      "summaryOriginal": "A personal Internal Developer Platform: Terraform, Ansible, GitHub Actions, ArgoCD, SOPS+age, Prometheus/Grafana/Loki, and local Ollama AIOps wired into one path from bare cloud to observed, self-explaining deployments.",
-      "url": "https://github.com/iagorp6/ensemble",
-      "lang": "HCL",
+      "title": "byte-ish/argo-workflows-vs-kubeflow-pipelines",
+      "summaryOriginal": "Decision-grade comparison: Argo Workflows vs Kubeflow Pipelines for ML/MLOps pipelines on Kubernetes. Versions, licences, adoption figures and pricing verified against the GitHub API, CNCF project pages and vendor docs.",
+      "url": "https://github.com/byte-ish/argo-workflows-vs-kubeflow-pipelines",
+      "lang": "Python",
       "tags": [
-        "aiops",
-        "ansible",
-        "argocd",
-        "devops",
-        "gitops",
+        "argo-workflows",
+        "kubeflow",
+        "kubeflow-pipelines",
         "kubernetes",
-        "observability",
-        "platform-engineering",
-        "terraform"
+        "mlops",
+        "technology-comparison"
       ],
       "metrics": {
         "stars": 1
       },
       "source": "github-search",
-      "publishedAt": "2026-08-08T20:17:00Z",
-      "updatedAt": "2026-08-09T05:46:27Z",
+      "publishedAt": "2026-08-11T10:51:29Z",
+      "updatedAt": "2026-08-12T14:18:02Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:ganeshkumarashok/ullage",
+      "type": "repo",
+      "title": "ganeshkumarashok/ullage",
+      "summaryOriginal": "Finds the GPUs your Kubernetes cluster pays for but nothing uses. Read-only CLI.",
+      "url": "https://github.com/ganeshkumarashok/ullage",
+      "lang": "Go",
+      "tags": [
+        "cost-optimization",
+        "finops",
+        "gpu",
+        "kubernetes",
+        "observability",
+        "prometheus"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-11T16:23:01Z",
+      "updatedAt": "2026-08-12T17:46:18Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:d3mio/Envoy-gateway-optimizer",
+      "type": "repo",
+      "title": "d3mio/Envoy-gateway-optimizer",
+      "summaryOriginal": "Automates Envoy gateway config for optimal perf",
+      "url": "https://github.com/d3mio/Envoy-gateway-optimizer",
+      "lang": "Python",
+      "tags": [
+        "envoy",
+        "kubernetes",
+        "performance-optimization",
+        "service-mesh"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-10T08:27:11Z",
+      "updatedAt": "2026-08-11T04:34:38Z",
       "categories": [
         "infra"
       ]
@@ -1104,31 +1117,6 @@
       ]
     },
     {
-      "id": "gh:byte-ish/argo-workflows-vs-kubeflow-pipelines",
-      "type": "repo",
-      "title": "byte-ish/argo-workflows-vs-kubeflow-pipelines",
-      "summaryOriginal": "Decision-grade comparison: Argo Workflows vs Kubeflow Pipelines for ML/MLOps pipelines on Kubernetes. Versions, licences, adoption figures and pricing verified against the GitHub API, CNCF project pages and vendor docs.",
-      "url": "https://github.com/byte-ish/argo-workflows-vs-kubeflow-pipelines",
-      "lang": "Python",
-      "tags": [
-        "argo-workflows",
-        "kubeflow",
-        "kubeflow-pipelines",
-        "kubernetes",
-        "mlops",
-        "technology-comparison"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T10:51:29Z",
-      "updatedAt": "2026-08-12T14:18:02Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
       "id": "gh:kubernetes/kubernetes",
       "type": "repo",
       "title": "kubernetes/kubernetes",
@@ -1142,7 +1130,7 @@
         "kubernetes"
       ],
       "metrics": {
-        "stars": 124500
+        "stars": 124494
       },
       "source": "github-search",
       "publishedAt": "2014-06-06T22:56:04Z",
@@ -1175,7 +1163,7 @@
         "zookeeper"
       ],
       "metrics": {
-        "stars": 64445
+        "stars": 64427
       },
       "source": "github-search",
       "publishedAt": "2015-09-13T19:04:02Z",
@@ -1272,7 +1260,7 @@
         "ui"
       ],
       "metrics": {
-        "stars": 38245
+        "stars": 38246
       },
       "source": "github-search",
       "publishedAt": "2016-05-19T20:15:28Z",
@@ -1290,11 +1278,14 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 6,
-        "forks": 0,
+        "starsDelta": 6,
         "totalScore": 225.776
       },
       "source": "ossinsight",
+      "summaryEn": "Team memory hub for AI agents — turns chats, docs, and code into shared, governed memory assets.",
+      "summaryKo": "대화·문서·코드를 공유 가능한 메모리 자산으로 바꾸는 AI 에이전트용 팀 메모리 허브",
+      "reasonEn": "Just 6 stars but a high trending score — early buzz.",
+      "reasonKo": "스타 6개뿐이지만 트렌딩 점수 높아 신규 주목",
       "categories": [
         "ai-models",
         "ai-agents",
@@ -1310,8 +1301,7 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 2,
-        "forks": 0,
+        "starsDelta": 2,
         "pushes": 17,
         "totalScore": 208.872
       },
@@ -1333,8 +1323,7 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 2,
-        "forks": 0,
+        "starsDelta": 2,
         "pushes": 5,
         "totalScore": 208.7196
       },
@@ -1352,8 +1341,7 @@
       "lang": "Svelte",
       "tags": [],
       "metrics": {
-        "stars": 1,
-        "forks": 0,
+        "starsDelta": 1,
         "totalScore": 204.8569
       },
       "source": "ossinsight",
@@ -1370,8 +1358,7 @@
       "lang": "Dart",
       "tags": [],
       "metrics": {
-        "stars": 1,
-        "forks": 0,
+        "starsDelta": 1,
         "totalScore": 204.8098
       },
       "source": "ossinsight",
@@ -1389,8 +1376,8 @@
       "url": "https://oxide.computer/blog/kubernetes-on-oxide",
       "tags": [],
       "metrics": {
-        "upvotes": 195,
-        "comments": 91
+        "upvotes": 196,
+        "comments": 92
       },
       "source": "hn",
       "publishedAt": "2026-08-13T14:26:41Z",
