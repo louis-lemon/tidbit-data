@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "infra",
-  "generatedAt": "2026-08-15T03:40:29.666Z",
+  "generatedAt": "2026-08-15T06:40:59.329Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,7 +13,7 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 39122,
+        "stars": 39180,
         "starsDelta": 132
       },
       "source": "github-trending",
@@ -46,11 +46,11 @@
         "testcontainers"
       ],
       "metrics": {
-        "stars": 20080
+        "stars": 20089
       },
       "source": "github-search",
       "publishedAt": "2026-02-18T02:28:29Z",
-      "updatedAt": "2026-08-15T02:59:48Z",
+      "updatedAt": "2026-08-15T04:52:47Z",
       "categories": [
         "infra"
       ]
@@ -85,11 +85,11 @@
         "prometheus"
       ],
       "metrics": {
-        "stars": 80185
+        "stars": 80187
       },
       "source": "github-search",
       "publishedAt": "2013-06-17T18:39:10Z",
-      "updatedAt": "2026-08-15T00:11:13Z",
+      "updatedAt": "2026-08-15T06:20:50Z",
       "categories": [
         "ai-models",
         "infra",
@@ -126,7 +126,7 @@
         "vue"
       ],
       "metrics": {
-        "stars": 57377
+        "stars": 57375
       },
       "source": "github-search",
       "publishedAt": "2016-11-01T02:13:26Z",
@@ -242,7 +242,7 @@
         "vps"
       ],
       "metrics": {
-        "stars": 36608
+        "stars": 36610
       },
       "source": "github-search",
       "publishedAt": "2024-04-19T07:49:30Z",
@@ -305,7 +305,7 @@
         "performance-optimization"
       ],
       "metrics": {
-        "stars": 49
+        "stars": 50
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T10:13:52Z",
@@ -400,6 +400,34 @@
       ]
     },
     {
+      "id": "gh:gogoaidev/awesome-sre-conferences",
+      "type": "repo",
+      "title": "gogoaidev/awesome-sre-conferences",
+      "summaryOriginal": "Every SRE, DevOps, Platform and cloud-native conference and open CFP, with real dates and deadlines. Updated weekly.",
+      "url": "https://github.com/gogoaidev/awesome-sre-conferences",
+      "tags": [
+        "awesome",
+        "awesome-list",
+        "cfp",
+        "cloud-native",
+        "conferences",
+        "devops",
+        "kubernetes",
+        "observability",
+        "platform-engineering",
+        "sre"
+      ],
+      "metrics": {
+        "stars": 5
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-12T13:22:11Z",
+      "updatedAt": "2026-08-12T15:03:33Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
       "id": "gh:getkipper/kipper",
       "type": "repo",
       "title": "getkipper/kipper",
@@ -421,34 +449,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-10T08:18:19Z",
       "updatedAt": "2026-08-14T22:14:32Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:gogoaidev/awesome-sre-conferences",
-      "type": "repo",
-      "title": "gogoaidev/awesome-sre-conferences",
-      "summaryOriginal": "Every SRE, DevOps, Platform and cloud-native conference and open CFP, with real dates and deadlines. Updated weekly.",
-      "url": "https://github.com/gogoaidev/awesome-sre-conferences",
-      "tags": [
-        "awesome",
-        "awesome-list",
-        "cfp",
-        "cloud-native",
-        "conferences",
-        "devops",
-        "kubernetes",
-        "observability",
-        "platform-engineering",
-        "sre"
-      ],
-      "metrics": {
-        "stars": 4
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-12T13:22:11Z",
-      "updatedAt": "2026-08-12T15:03:33Z",
       "categories": [
         "infra"
       ]
@@ -533,6 +533,32 @@
       "source": "github-search",
       "publishedAt": "2026-08-10T13:37:36Z",
       "updatedAt": "2026-08-11T11:20:39Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:AryanParashar24/Garund",
+      "type": "repo",
+      "title": "AryanParashar24/Garund",
+      "summaryOriginal": "Garund is a unified, cloud-native Kubernetes SRE observability and reliability control-plane application.",
+      "url": "https://github.com/AryanParashar24/Garund",
+      "lang": "Go",
+      "tags": [
+        "cloud",
+        "go",
+        "kubernetes",
+        "monitoring",
+        "observability",
+        "platform-engineering",
+        "sre"
+      ],
+      "metrics": {
+        "stars": 2
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-10T10:44:02Z",
+      "updatedAt": "2026-08-14T15:53:53Z",
       "categories": [
         "infra"
       ]
@@ -734,30 +760,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T10:39:33Z",
-      "updatedAt": "2026-08-14T23:16:49Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:dlvy/kube-iam-path",
-      "type": "repo",
-      "title": "dlvy/kube-iam-path",
-      "summaryOriginal": "A read-only CLI that explains exactly how a Kubernetes Pod gets AWS permissions — and where the IAM chain breaks",
-      "url": "https://github.com/dlvy/kube-iam-path",
-      "lang": "Rust",
-      "tags": [
-        "aws",
-        "aws-iam",
-        "iam",
-        "kubernetes"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-10T22:44:35Z",
-      "updatedAt": "2026-08-10T23:47:36Z",
+      "updatedAt": "2026-08-15T06:09:18Z",
       "categories": [
         "infra"
       ]
@@ -802,29 +805,24 @@
       ]
     },
     {
-      "id": "gh:Sh1c666/kani-sre",
+      "id": "gh:dlvy/kube-iam-path",
       "type": "repo",
-      "title": "Sh1c666/kani-sre",
-      "summaryOriginal": "Kani 🦀 — a personal, proactive SRE agent (LangGraph): read-only diagnosis, interrupt-gated writes, alert-driven & scheduled patrols.",
-      "url": "https://github.com/Sh1c666/kani-sre",
-      "lang": "Python",
+      "title": "dlvy/kube-iam-path",
+      "summaryOriginal": "A read-only CLI that explains exactly how a Kubernetes Pod gets AWS permissions — and where the IAM chain breaks",
+      "url": "https://github.com/dlvy/kube-iam-path",
+      "lang": "Rust",
       "tags": [
-        "ai-agent",
-        "alertmanager",
-        "kubernetes",
-        "langgraph",
-        "observability",
-        "oncall",
-        "prometheus",
-        "self-hosted",
-        "sre"
+        "aws",
+        "aws-iam",
+        "iam",
+        "kubernetes"
       ],
       "metrics": {
         "stars": 1
       },
       "source": "github-search",
-      "publishedAt": "2026-08-11T05:11:00Z",
-      "updatedAt": "2026-08-14T14:03:20Z",
+      "publishedAt": "2026-08-10T22:44:35Z",
+      "updatedAt": "2026-08-10T23:47:36Z",
       "categories": [
         "infra"
       ]
@@ -857,6 +855,34 @@
       "source": "github-search",
       "publishedAt": "2026-08-14T00:59:20Z",
       "updatedAt": "2026-08-14T13:45:29Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:Sh1c666/kani-sre",
+      "type": "repo",
+      "title": "Sh1c666/kani-sre",
+      "summaryOriginal": "Kani 🦀 — a personal, proactive SRE agent (LangGraph): read-only diagnosis, interrupt-gated writes, alert-driven & scheduled patrols.",
+      "url": "https://github.com/Sh1c666/kani-sre",
+      "lang": "Python",
+      "tags": [
+        "ai-agent",
+        "alertmanager",
+        "kubernetes",
+        "langgraph",
+        "observability",
+        "oncall",
+        "prometheus",
+        "self-hosted",
+        "sre"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-11T05:11:00Z",
+      "updatedAt": "2026-08-14T14:03:20Z",
       "categories": [
         "infra"
       ]
@@ -1094,29 +1120,6 @@
       ]
     },
     {
-      "id": "gh:d3mio/Envoy-gateway-optimizer",
-      "type": "repo",
-      "title": "d3mio/Envoy-gateway-optimizer",
-      "summaryOriginal": "Automates Envoy gateway config for optimal perf",
-      "url": "https://github.com/d3mio/Envoy-gateway-optimizer",
-      "lang": "Python",
-      "tags": [
-        "envoy",
-        "kubernetes",
-        "performance-optimization",
-        "service-mesh"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-10T08:27:11Z",
-      "updatedAt": "2026-08-11T04:34:38Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
       "id": "gh:kubernetes/kubernetes",
       "type": "repo",
       "title": "kubernetes/kubernetes",
@@ -1130,7 +1133,7 @@
         "kubernetes"
       ],
       "metrics": {
-        "stars": 124495
+        "stars": 124493
       },
       "source": "github-search",
       "publishedAt": "2014-06-06T22:56:04Z",
@@ -1163,7 +1166,7 @@
         "zookeeper"
       ],
       "metrics": {
-        "stars": 64428
+        "stars": 64432
       },
       "source": "github-search",
       "publishedAt": "2015-09-13T19:04:02Z",
@@ -1192,7 +1195,7 @@
         "raft"
       ],
       "metrics": {
-        "stars": 52128
+        "stars": 52129
       },
       "source": "github-search",
       "publishedAt": "2013-07-06T21:57:21Z",
@@ -1228,7 +1231,7 @@
         "service-mesh"
       ],
       "metrics": {
-        "stars": 38353
+        "stars": 38352
       },
       "source": "github-search",
       "publishedAt": "2016-11-18T23:57:21Z",
@@ -1260,7 +1263,7 @@
         "ui"
       ],
       "metrics": {
-        "stars": 38246
+        "stars": 38247
       },
       "source": "github-search",
       "publishedAt": "2016-05-19T20:15:28Z",
