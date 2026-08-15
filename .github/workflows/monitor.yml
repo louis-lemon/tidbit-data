@@ -1,0 +1,102 @@
+name: monitor
+
+# 30분마다 **공개 URL로** 피드를 검사한다 (D16 · PLAN-R1 R1-T4).
+#
+# 수집 워크플로와 분리한 이유는 둘이다 — 수집기가 죽으면 수집기의 자가검사도 같이 죽고,
+# CDN 경유 경로(캐시·CORS 헤더)는 수집기 안에서 볼 수 없다. 사용자가 겪는 경로를 그대로 탄다.
+#
+# 이 시스템은 조용히 망가진다: 부분 실패가 정상 경로라 깨져도 새 탭은 카드를 띄운다.
+# 그 카드가 3일 전 것일 뿐이다. 그래서 감시 대상은 프로세스가 아니라 데이터다.
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: monitor
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Read summaries.json commit age
+        id: summaries
+        run: |
+          set -euo pipefail
+          # 요약 워커(맥)가 죽거나 인증이 만료된 것을 GitHub 쪽에서 감지한다.
+          # 워커가 자기를 감시하면 워커가 죽을 때 감시도 같이 죽는다
+          # (docs/ops/summarizer-macos.md 5장).
+          echo "last=$(git log -1 --format=%cI -- v1/summaries.json)" >> "$GITHUB_OUTPUT"
+
+      - name: Run synthetic monitor
+        id: check
+        env:
+          FEED_BASE_URL: https://louis-lemon.github.io/tidbit-data
+          SUMMARIES_LAST_COMMIT: ${{ steps.summaries.outputs.last }}
+          # R1-T5(요약 워커)가 배포되면 이 줄을 지운다. 그전까지 이 판정은 영구 실패라
+          # 30분마다 빨간 모니터가 사람을 실패에 둔감하게 만든다.
+          SUMMARIES_CHECK: 'off'
+        run: |
+          set -o pipefail
+          node .github/monitor/monitor.mjs | tee report.md
+
+      - name: Open or update the alert issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          TITLE='합성 모니터 실패'
+          BODY="$(cat report.md 2>/dev/null || echo '리포트를 만들지 못했다 — 워크플로 로그를 봐라')"
+          BODY="${BODY}"$'\n\n'"[워크플로 실행 로그](${RUN_URL})"
+
+          # 30분마다 도는 워크플로라 새 Issue를 매번 열면 알림이 쓸모없어진다.
+          # 열려 있는 것이 있으면 댓글만 단다.
+          EXISTING=$(gh issue list --state open --label monitor --limit 1 --json number --jq '.[0].number // empty')
+
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --body "$BODY"
+          else
+            gh label create monitor --color B60205 --description '합성 모니터 알림' 2>/dev/null || true
+            gh issue create --title "$TITLE" --label monitor --body "$BODY"
+          fi
+
+      - name: Notify webhook
+        # webhook 시크릿이 없으면 조용히 건너뛴다 — Issue 생성만으로도 알림은 성립한다.
+        if: failure() && env.DISCORD_WEBHOOK != ''
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          curl -sS -X POST "$DISCORD_WEBHOOK" \
+            -H 'Content-Type: application/json' \
+            -d "$(jq -n --arg u "$RUN_URL" '{content: ("Tidbit 합성 모니터 실패 — " + $u)}')"
+
+      - name: Close the alert issue on recovery
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          # 복구를 사람이 손으로 닫게 두면 다음 장애 때 "이미 열려 있는 Issue"로 묻힌다.
+          EXISTING=$(gh issue list --state open --label monitor --limit 1 --json number --jq '.[0].number // empty')
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --body '복구됐다 — 이번 검사는 전 항목 통과.'
+            gh issue close "$EXISTING"
+          fi
