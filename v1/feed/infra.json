@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "infra",
-  "generatedAt": "2026-08-15T01:20:06.809Z",
+  "generatedAt": "2026-08-15T03:40:29.666Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,7 +13,7 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 39083,
+        "stars": 39122,
         "starsDelta": 132
       },
       "source": "github-trending",
@@ -46,11 +46,11 @@
         "testcontainers"
       ],
       "metrics": {
-        "stars": 20073
+        "stars": 20080
       },
       "source": "github-search",
       "publishedAt": "2026-02-18T02:28:29Z",
-      "updatedAt": "2026-08-15T01:03:56Z",
+      "updatedAt": "2026-08-15T02:59:48Z",
       "categories": [
         "infra"
       ]
@@ -85,7 +85,7 @@
         "prometheus"
       ],
       "metrics": {
-        "stars": 80182
+        "stars": 80185
       },
       "source": "github-search",
       "publishedAt": "2013-06-17T18:39:10Z",
@@ -242,7 +242,7 @@
         "vps"
       ],
       "metrics": {
-        "stars": 36604
+        "stars": 36608
       },
       "source": "github-search",
       "publishedAt": "2024-04-19T07:49:30Z",
@@ -305,7 +305,7 @@
         "performance-optimization"
       ],
       "metrics": {
-        "stars": 48
+        "stars": 49
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T10:13:52Z",
@@ -576,7 +576,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T22:09:57Z",
-      "updatedAt": "2026-08-14T16:42:10Z",
+      "updatedAt": "2026-08-15T02:28:30Z",
       "categories": [
         "infra"
       ]
@@ -740,6 +740,29 @@
       ]
     },
     {
+      "id": "gh:dlvy/kube-iam-path",
+      "type": "repo",
+      "title": "dlvy/kube-iam-path",
+      "summaryOriginal": "A read-only CLI that explains exactly how a Kubernetes Pod gets AWS permissions — and where the IAM chain breaks",
+      "url": "https://github.com/dlvy/kube-iam-path",
+      "lang": "Rust",
+      "tags": [
+        "aws",
+        "aws-iam",
+        "iam",
+        "kubernetes"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-10T22:44:35Z",
+      "updatedAt": "2026-08-10T23:47:36Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
       "id": "gh:QSOLKCB/WHOAMI-18437",
       "type": "repo",
       "title": "QSOLKCB/WHOAMI-18437",
@@ -774,29 +797,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-14T06:11:43Z",
       "updatedAt": "2026-08-14T15:36:55Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:dlvy/kube-iam-path",
-      "type": "repo",
-      "title": "dlvy/kube-iam-path",
-      "summaryOriginal": "A read-only CLI that explains exactly how a Kubernetes Pod gets AWS permissions — and where the IAM chain breaks",
-      "url": "https://github.com/dlvy/kube-iam-path",
-      "lang": "Rust",
-      "tags": [
-        "aws",
-        "aws-iam",
-        "iam",
-        "kubernetes"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-10T22:44:35Z",
-      "updatedAt": "2026-08-10T23:47:36Z",
       "categories": [
         "infra"
       ]
@@ -916,6 +916,105 @@
       ]
     },
     {
+      "id": "gh:shubhu-io/devops-learning",
+      "type": "repo",
+      "title": "shubhu-io/devops-learning",
+      "summaryOriginal": "Production-grade DevOps Learning Hub: Linux, Networking, AWS, Docker, Jenkins, Kubernetes, Terraform, Ansible, Helm, Prometheus, Grafana, ELK & DevSecOps. 16 docs chapters, 27 labs, 23 projects, 20 senior SRE guides, interview prep, wiki & live docs site.",
+      "url": "https://github.com/shubhu-io/devops-learning",
+      "lang": "Shell",
+      "tags": [
+        "ansible",
+        "aws",
+        "ci-cd",
+        "devops",
+        "devsecops",
+        "docker",
+        "elasticsearch",
+        "gitops",
+        "grafana",
+        "helm",
+        "infrastructure-as-code",
+        "jenkins",
+        "kubernetes",
+        "learning",
+        "linux",
+        "nginx",
+        "observability",
+        "prometheus",
+        "sre",
+        "terraform"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-09T10:13:57Z",
+      "updatedAt": "2026-08-11T09:11:09Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:7SteveJohn/netops-handbook",
+      "type": "repo",
+      "title": "7SteveJohn/netops-handbook",
+      "summaryOriginal": "NetOps 2.0 — 零基础到架构师的网络运维知识体系。100% 离线 Android 应用：58 知识模块、25 排障案例、500+ CLI 命令、多厂商命令字典、30 道面试真题",
+      "url": "https://github.com/7SteveJohn/netops-handbook",
+      "lang": "HTML",
+      "tags": [
+        "android-app",
+        "cisco",
+        "cli",
+        "cloud-native",
+        "devops",
+        "huawei",
+        "kubernetes",
+        "netops",
+        "network-automation",
+        "network-engineer",
+        "networking",
+        "offline-app",
+        "sre"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-09T11:05:57Z",
+      "updatedAt": "2026-08-12T15:38:18Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:SimoneParvizi/blueaccademy",
+      "type": "repo",
+      "title": "SimoneParvizi/blueaccademy",
+      "summaryOriginal": "Opensource learning platform for Kubernetes, Docker, Pulumi, and GitHub Actions",
+      "url": "https://github.com/SimoneParvizi/blueaccademy",
+      "lang": "TypeScript",
+      "tags": [
+        "actions",
+        "azure",
+        "ckad",
+        "devops",
+        "docker",
+        "docker-compose",
+        "github-actions",
+        "kubernetes",
+        "pulumi"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-09T09:29:28Z",
+      "updatedAt": "2026-08-13T19:19:44Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
       "id": "gh:robbeverhelst/unifi-reactor",
       "type": "repo",
       "title": "robbeverhelst/unifi-reactor",
@@ -1018,105 +1117,6 @@
       ]
     },
     {
-      "id": "gh:shubhu-io/devops-learning",
-      "type": "repo",
-      "title": "shubhu-io/devops-learning",
-      "summaryOriginal": "Production-grade DevOps Learning Hub: Linux, Networking, AWS, Docker, Jenkins, Kubernetes, Terraform, Ansible, Helm, Prometheus, Grafana, ELK & DevSecOps. 16 docs chapters, 27 labs, 23 projects, 20 senior SRE guides, interview prep, wiki & live docs site.",
-      "url": "https://github.com/shubhu-io/devops-learning",
-      "lang": "Shell",
-      "tags": [
-        "ansible",
-        "aws",
-        "ci-cd",
-        "devops",
-        "devsecops",
-        "docker",
-        "elasticsearch",
-        "gitops",
-        "grafana",
-        "helm",
-        "infrastructure-as-code",
-        "jenkins",
-        "kubernetes",
-        "learning",
-        "linux",
-        "nginx",
-        "observability",
-        "prometheus",
-        "sre",
-        "terraform"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-09T10:13:57Z",
-      "updatedAt": "2026-08-11T09:11:09Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:7SteveJohn/netops-handbook",
-      "type": "repo",
-      "title": "7SteveJohn/netops-handbook",
-      "summaryOriginal": "NetOps 2.0 — 零基础到架构师的网络运维知识体系。100% 离线 Android 应用：58 知识模块、25 排障案例、500+ CLI 命令、多厂商命令字典、30 道面试真题",
-      "url": "https://github.com/7SteveJohn/netops-handbook",
-      "lang": "HTML",
-      "tags": [
-        "android-app",
-        "cisco",
-        "cli",
-        "cloud-native",
-        "devops",
-        "huawei",
-        "kubernetes",
-        "netops",
-        "network-automation",
-        "network-engineer",
-        "networking",
-        "offline-app",
-        "sre"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-09T11:05:57Z",
-      "updatedAt": "2026-08-12T15:38:18Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:SimoneParvizi/blueaccademy",
-      "type": "repo",
-      "title": "SimoneParvizi/blueaccademy",
-      "summaryOriginal": "Opensource learning platform for Kubernetes, Docker, Pulumi, and GitHub Actions",
-      "url": "https://github.com/SimoneParvizi/blueaccademy",
-      "lang": "TypeScript",
-      "tags": [
-        "actions",
-        "azure",
-        "ckad",
-        "devops",
-        "docker",
-        "docker-compose",
-        "github-actions",
-        "kubernetes",
-        "pulumi"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-09T09:29:28Z",
-      "updatedAt": "2026-08-13T19:19:44Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
       "id": "gh:kubernetes/kubernetes",
       "type": "repo",
       "title": "kubernetes/kubernetes",
@@ -1130,7 +1130,7 @@
         "kubernetes"
       ],
       "metrics": {
-        "stars": 124494
+        "stars": 124495
       },
       "source": "github-search",
       "publishedAt": "2014-06-06T22:56:04Z",
@@ -1163,7 +1163,7 @@
         "zookeeper"
       ],
       "metrics": {
-        "stars": 64427
+        "stars": 64428
       },
       "source": "github-search",
       "publishedAt": "2015-09-13T19:04:02Z",
@@ -1192,7 +1192,7 @@
         "raft"
       ],
       "metrics": {
-        "stars": 52127
+        "stars": 52128
       },
       "source": "github-search",
       "publishedAt": "2013-07-06T21:57:21Z",
