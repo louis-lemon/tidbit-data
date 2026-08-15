@@ -1,9 +1,26 @@
 {
   "version": 1,
   "category": "backend",
-  "generatedAt": "2026-08-15T09:27:18.163Z",
+  "generatedAt": "2026-08-15T12:39:59.093Z",
   "ttlSeconds": 10800,
   "cards": [
+    {
+      "id": "gh:public-apis/public-apis",
+      "type": "repo",
+      "title": "public-apis/public-apis",
+      "summaryOriginal": "A collective list of free APIs",
+      "url": "https://github.com/public-apis/public-apis",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "stars": 459326,
+        "starsDelta": 2476
+      },
+      "source": "github-trending",
+      "categories": [
+        "backend"
+      ]
+    },
     {
       "id": "gh:herdrdev/herdr",
       "type": "repo",
@@ -32,11 +49,11 @@
         "workspace-manager"
       ],
       "metrics": {
-        "stars": 29288
+        "stars": 29338
       },
       "source": "github-search",
       "publishedAt": "2026-03-27T17:54:33Z",
-      "updatedAt": "2026-08-15T01:23:49Z",
+      "updatedAt": "2026-08-15T12:36:13Z",
       "summaryEn": "Terminal runtime and multiplexer for running and managing multiple coding agents together.",
       "summaryKo": "여러 코딩 에이전트를 함께 실행·관리하는 터미널 런타임 겸 멀티플렉서",
       "categories": [
@@ -75,11 +92,11 @@
         "web"
       ],
       "metrics": {
-        "stars": 56989
+        "stars": 56995
       },
       "source": "github-search",
       "publishedAt": "2019-04-08T16:36:25Z",
-      "updatedAt": "2026-08-15T08:21:11Z",
+      "updatedAt": "2026-08-15T10:17:09Z",
       "categories": [
         "web",
         "backend"
@@ -115,7 +132,7 @@
         "vue"
       ],
       "metrics": {
-        "stars": 37395
+        "stars": 37396
       },
       "source": "github-search",
       "publishedAt": "2012-12-12T01:35:36Z",
@@ -444,7 +461,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T21:48:54Z",
-      "updatedAt": "2026-08-15T09:25:33Z",
+      "updatedAt": "2026-08-15T11:34:58Z",
       "categories": [
         "backend"
       ]
@@ -538,10 +555,44 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-12T19:47:34Z",
-      "updatedAt": "2026-08-15T08:54:41Z",
+      "updatedAt": "2026-08-15T12:31:33Z",
       "categories": [
         "backend",
         "data"
+      ]
+    },
+    {
+      "id": "gh:kom50/express-zod-router",
+      "type": "repo",
+      "title": "kom50/express-zod-router",
+      "summaryOriginal": "FastAPI-style typed routing for Express with Zod validation, TypeScript inference, and automatic OpenAPI/Swagger docs.",
+      "url": "https://github.com/kom50/express-zod-router",
+      "lang": "TypeScript",
+      "tags": [
+        "api",
+        "api-client",
+        "api-rest",
+        "apis-json",
+        "backend",
+        "express",
+        "expressjs",
+        "fastapi",
+        "openapi",
+        "swagger",
+        "type-safe",
+        "typescript",
+        "typescript-library",
+        "validation",
+        "zod"
+      ],
+      "metrics": {
+        "stars": 2
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T09:53:08Z",
+      "updatedAt": "2026-08-14T10:08:56Z",
+      "categories": [
+        "backend"
       ]
     },
     {
@@ -606,6 +657,30 @@
       "source": "github-search",
       "publishedAt": "2026-08-13T12:23:04Z",
       "updatedAt": "2026-08-13T12:23:07Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:FarrukhDev-io/aura",
+      "type": "repo",
+      "title": "FarrukhDev-io/aura",
+      "summaryOriginal": "Aura Universal Web Agent API - Flask and Playwright-powered automated browser execution service.",
+      "url": "https://github.com/FarrukhDev-io/aura",
+      "lang": "Python",
+      "tags": [
+        "api",
+        "browser-automation",
+        "flask",
+        "playwright",
+        "python"
+      ],
+      "metrics": {
+        "stars": 2
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-09T12:46:35Z",
+      "updatedAt": "2026-08-15T12:30:56Z",
       "categories": [
         "backend"
       ]
@@ -688,6 +763,41 @@
       "updatedAt": "2026-08-13T17:29:08Z",
       "categories": [
         "backend"
+      ]
+    },
+    {
+      "id": "gh:coe-management-system/coe-management-system",
+      "type": "repo",
+      "title": "coe-management-system/coe-management-system",
+      "summaryOriginal": "College CoE Management System for centralized academic data, analytics, scheduling, workload optimization, and AI-assisted management.",
+      "url": "https://github.com/coe-management-system/coe-management-system",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "algorithms",
+        "api",
+        "artificial-intelligence",
+        "attendance-management-system",
+        "automation",
+        "backend",
+        "coe-managed",
+        "dashboard",
+        "data-analysis",
+        "data-visualization",
+        "database",
+        "fastapi",
+        "frontend",
+        "nlp"
+      ],
+      "metrics": {
+        "stars": 2
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-11T15:26:15Z",
+      "updatedAt": "2026-08-15T12:00:44Z",
+      "categories": [
+        "backend",
+        "data"
       ]
     },
     {
@@ -1001,132 +1111,6 @@
       ]
     },
     {
-      "id": "gh:giimendonca/vulnerabilidades_web",
-      "type": "repo",
-      "title": "giimendonca/vulnerabilidades_web",
-      "summaryOriginal": "Sistema de votação desenvolvido em PHP e MySQL para demonstrar vulnerabilidades web e suas correções. Possui versões vulnerável e segura, abordando SQL Injection, XSS, CSRF, autenticação, sessões, controle de acesso, uploads, APIs e outras práticas de segurança.",
-      "url": "https://github.com/giimendonca/vulnerabilidades_web",
-      "lang": "PHP",
-      "tags": [
-        "academic-project",
-        "api",
-        "authentication",
-        "csrf",
-        "css",
-        "cybersecurity",
-        "html",
-        "javascript",
-        "mysql",
-        "php",
-        "secure-coding",
-        "sql-injection",
-        "web-development",
-        "websecurity",
-        "xss"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-12T17:31:50Z",
-      "updatedAt": "2026-08-14T14:02:18Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:AlvaroMartinCrespo/iris",
-      "type": "repo",
-      "title": "AlvaroMartinCrespo/iris",
-      "summaryOriginal": "Buscador inverso de viajes que compara vuelos, alojamiento y transporte para descubrir las mejores escapadas según origen, fechas, presupuesto y viajeros.",
-      "url": "https://github.com/AlvaroMartinCrespo/iris",
-      "lang": "JavaScript",
-      "tags": [
-        "api",
-        "duffel",
-        "duffel-api",
-        "flight",
-        "reactjs",
-        "skyscanner",
-        "skyscanner-flight-search",
-        "skyscanner-scraper"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T14:16:28Z",
-      "updatedAt": "2026-08-13T16:59:45Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:Rgeirkou/Truemoney-Voucher-Go",
-      "type": "repo",
-      "title": "Rgeirkou/Truemoney-Voucher-Go",
-      "summaryOriginal": "REST API for verifying & redeeming TrueMoney gift vouchers via gift.truemoney.com - Go, with a Firefox 148 TLS/HTTP2 browser-mimicking transport",
-      "url": "https://github.com/Rgeirkou/Truemoney-Voucher-Go",
-      "lang": "Go",
-      "tags": [
-        "api",
-        "backend",
-        "cloudflare",
-        "docker",
-        "gift-voucher",
-        "go",
-        "golang",
-        "http2",
-        "rest-api",
-        "tls-fingerprint",
-        "truemoney",
-        "truewallet",
-        "utls",
-        "voucher"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T05:52:02Z",
-      "updatedAt": "2026-08-11T22:57:08Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:public-apis/public-apis",
-      "type": "repo",
-      "title": "public-apis/public-apis",
-      "summaryOriginal": "A collective list of free APIs",
-      "url": "https://github.com/public-apis/public-apis",
-      "lang": "Python",
-      "tags": [
-        "api",
-        "apis",
-        "dataset",
-        "development",
-        "free",
-        "list",
-        "lists",
-        "open-source",
-        "public",
-        "public-api",
-        "public-apis",
-        "resources",
-        "software"
-      ],
-      "metrics": {
-        "stars": 459094
-      },
-      "source": "github-search",
-      "publishedAt": "2016-03-20T23:49:42Z",
-      "updatedAt": "2026-08-13T21:07:34Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
       "id": "gh:neovim/neovim",
       "type": "repo",
       "title": "neovim/neovim",
@@ -1147,7 +1131,7 @@
       },
       "source": "github-search",
       "publishedAt": "2014-01-31T13:39:22Z",
-      "updatedAt": "2026-08-15T05:26:06Z",
+      "updatedAt": "2026-08-15T12:37:42Z",
       "categories": [
         "backend"
       ]
@@ -1182,7 +1166,7 @@
         "web"
       ],
       "metrics": {
-        "stars": 101603
+        "stars": 101605
       },
       "source": "github-search",
       "publishedAt": "2018-12-08T08:21:47Z",
@@ -1220,7 +1204,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 72917
+        "stars": 72922
       },
       "source": "github-search",
       "publishedAt": "2015-09-30T15:34:48Z",
@@ -1437,7 +1421,7 @@
       "url": "https://github.com/adanil-code/LRUHashTable",
       "tags": [],
       "metrics": {
-        "upvotes": 23,
+        "upvotes": 24,
         "comments": 0
       },
       "source": "hn",

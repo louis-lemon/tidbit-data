@@ -1,28 +1,47 @@
 {
   "version": 1,
   "category": "ai-agents",
-  "generatedAt": "2026-08-15T09:27:18.163Z",
+  "generatedAt": "2026-08-15T12:39:59.093Z",
   "ttlSeconds": 10800,
   "cards": [
     {
-      "id": "gh:macro-inc/macro",
+      "id": "gh:ToolJet/ToolJet",
       "type": "repo",
-      "title": "macro-inc/macro",
-      "summaryOriginal": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
-      "url": "https://github.com/macro-inc/macro",
-      "lang": "Rust",
+      "title": "ToolJet/ToolJet",
+      "summaryOriginal": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
+      "url": "https://github.com/ToolJet/ToolJet",
+      "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 3147,
-        "starsDelta": 436
+        "stars": 39307,
+        "starsDelta": 553
       },
       "source": "github-trending",
-      "summaryEn": "Unified team workspace: email, chat, docs, tasks, agents, calls, and CRM linked together with shared AI memory.",
-      "summaryKo": "이메일·채팅·문서·작업·에이전트·통화·CRM을 공유 AI 메모리로 연결한 팀 통합 워크스페이스",
-      "reasonEn": "Fast-growing all-in-one workspace repo, gaining stars quickly.",
-      "reasonKo": "스타 435 증가, 올인원 워크스페이스로 빠르게 성장",
+      "summaryEn": "Open-source low-code platform for building internal tools, dashboards, workflows, and AI agents.",
+      "summaryKo": "내부 도구·대시보드·워크플로우·AI 에이전트를 만드는 오픈소스 로우코드 플랫폼",
+      "reasonEn": "39k+ stars, adding 300+ more — steady low-code growth.",
+      "reasonKo": "3만9천+ 스타, 로우코드 플랫폼 꾸준한 성장세",
       "categories": [
-        "ai-agents"
+        "ai-agents",
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:HKUDS/CLI-Anything",
+      "type": "repo",
+      "title": "HKUDS/CLI-Anything",
+      "summaryOriginal": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "stars": 47154,
+        "starsDelta": 100
+      },
+      "source": "github-trending",
+      "categories": [
+        "ai-agents",
+        "devtools"
       ]
     },
     {
@@ -34,8 +53,8 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 10542,
-        "starsDelta": 165
+        "stars": 10626,
+        "starsDelta": 546
       },
       "source": "github-trending",
       "summaryEn": "Browser built for AI agents to automate tasks, sharing your logged-in session with tools like Codex or Claude Code.",
@@ -46,113 +65,6 @@
         "ai-agents",
         "web",
         "engineering"
-      ]
-    },
-    {
-      "id": "gh:holaboss-ai/holaOS",
-      "type": "repo",
-      "title": "holaboss-ai/holaOS",
-      "summaryOriginal": "Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.",
-      "url": "https://github.com/holaboss-ai/holaOS",
-      "lang": "TypeScript",
-      "tags": [],
-      "metrics": {
-        "stars": 7469,
-        "starsDelta": 769
-      },
-      "source": "github-trending",
-      "summaryEn": "All-in-one workspace to run agents like Claude Code or Codex across 100+ tools, apps, browser, and files.",
-      "summaryKo": "Claude Code, Codex 등 에이전트를 100개 이상 도구·앱·브라우저·파일에서 공유 메모리로 실행하는 통합 워크스페이스",
-      "reasonEn": "Star delta 769 — fast growth as an agent-orchestration hub.",
-      "reasonKo": "스타 769 증가, 에이전트 통합 허브로 빠르게 성장",
-      "categories": [
-        "ai-agents",
-        "web"
-      ]
-    },
-    {
-      "id": "gh:lightningpixel/modly",
-      "type": "repo",
-      "title": "lightningpixel/modly",
-      "summaryOriginal": "Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
-      "url": "https://github.com/lightningpixel/modly",
-      "lang": "TypeScript",
-      "tags": [],
-      "metrics": {
-        "stars": 6069,
-        "starsDelta": 579
-      },
-      "source": "github-trending",
-      "summaryEn": "Desktop app that generates 3D models from images or text prompts using local AI on your GPU.",
-      "summaryKo": "이미지나 프롬프트로 3D 모델을 생성하는 데스크톱 앱, GPU에서 로컬 실행",
-      "reasonEn": "580 new stars — local-first 3D generation catching interest.",
-      "reasonKo": "스타 580 증가, 로컬 3D 생성 도구로 주목",
-      "categories": [
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "gh:infiniflow/ragflow",
-      "type": "repo",
-      "title": "infiniflow/ragflow",
-      "summaryOriginal": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-      "url": "https://github.com/infiniflow/ragflow",
-      "lang": "Go",
-      "tags": [],
-      "metrics": {
-        "stars": 88499,
-        "starsDelta": 473
-      },
-      "source": "github-trending",
-      "summaryEn": "Open-source RAG engine combining retrieval-augmented generation with agent capabilities for LLM context.",
-      "summaryKo": "검색증강생성(RAG)과 에이전트 기능을 결합한 대표 오픈소스 RAG 엔진",
-      "reasonEn": "Already 88k+ stars; still adding hundreds more weekly.",
-      "reasonKo": "8만8천+ 스타에도 매주 수백 개씩 추가 증가",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "gh:deepseek-ai/awesome-deepseek-agent",
-      "type": "repo",
-      "title": "deepseek-ai/awesome-deepseek-agent",
-      "summaryOriginal": "deepseek-ai/awesome-deepseek-agent",
-      "url": "https://github.com/deepseek-ai/awesome-deepseek-agent",
-      "tags": [],
-      "metrics": {
-        "stars": 5827,
-        "starsDelta": 222
-      },
-      "source": "github-trending",
-      "summaryEn": "Curated list of DeepSeek agent projects, tools, and resources.",
-      "summaryKo": "DeepSeek 에이전트 프로젝트·도구·자료를 정리한 큐레이션 리스트",
-      "reasonEn": "Gaining stars fast as DeepSeek's agent ecosystem grows.",
-      "reasonKo": "DeepSeek 에이전트 생태계 성장에 힘입어 스타 급증",
-      "categories": [
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "gh:ToolJet/ToolJet",
-      "type": "repo",
-      "title": "ToolJet/ToolJet",
-      "summaryOriginal": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
-      "url": "https://github.com/ToolJet/ToolJet",
-      "lang": "JavaScript",
-      "tags": [],
-      "metrics": {
-        "stars": 39239,
-        "starsDelta": 132
-      },
-      "source": "github-trending",
-      "summaryEn": "Open-source low-code platform for building internal tools, dashboards, workflows, and AI agents.",
-      "summaryKo": "내부 도구·대시보드·워크플로우·AI 에이전트를 만드는 오픈소스 로우코드 플랫폼",
-      "reasonEn": "39k+ stars, adding 300+ more — steady low-code growth.",
-      "reasonKo": "3만9천+ 스타, 로우코드 플랫폼 꾸준한 성장세",
-      "categories": [
-        "ai-agents",
-        "infra"
       ]
     },
     {
@@ -174,7 +86,7 @@
         "rag"
       ],
       "metrics": {
-        "stars": 35702
+        "stars": 35722
       },
       "source": "github-search",
       "publishedAt": "2025-12-28T15:35:54Z",
@@ -211,11 +123,11 @@
         "workspace-manager"
       ],
       "metrics": {
-        "stars": 29288
+        "stars": 29338
       },
       "source": "github-search",
       "publishedAt": "2026-03-27T17:54:33Z",
-      "updatedAt": "2026-08-15T01:23:49Z",
+      "updatedAt": "2026-08-15T12:36:13Z",
       "summaryEn": "Terminal runtime and multiplexer for running and managing multiple coding agents together.",
       "summaryKo": "여러 코딩 에이전트를 함께 실행·관리하는 터미널 런타임 겸 멀티플렉서",
       "categories": [
@@ -243,7 +155,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 450
+        "stars": 456
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T06:28:56Z",
@@ -283,11 +195,11 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 443
+        "stars": 454
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T13:14:49Z",
-      "updatedAt": "2026-08-15T04:42:33Z",
+      "updatedAt": "2026-08-15T11:55:15Z",
       "summaryEn": "Curated hub of plugins, tools, and infrastructure for the DeepSeek Harness (DSH) ecosystem.",
       "summaryKo": "DeepSeek Harness(DSH) 생태계 플러그인·도구·인프라를 정리한 큐레이션 허브",
       "categories": [
@@ -318,7 +230,7 @@
         "tutorial"
       ],
       "metrics": {
-        "stars": 248
+        "stars": 268
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T15:22:29Z",
@@ -351,7 +263,7 @@
         "windsurf"
       ],
       "metrics": {
-        "stars": 141
+        "stars": 142
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T05:08:30Z",
@@ -427,7 +339,7 @@
         "zero-dependency"
       ],
       "metrics": {
-        "stars": 60
+        "stars": 66
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T08:09:10Z",
@@ -436,6 +348,143 @@
         "ai-models",
         "ai-agents",
         "devtools"
+      ]
+    },
+    {
+      "id": "gh:bradeGithub/DSH-Plugins-Marketplace",
+      "type": "repo",
+      "title": "bradeGithub/DSH-Plugins-Marketplace",
+      "summaryOriginal": "DSH插件市场 / DSH Plugin Marketplace: 在 DeepSeek Harness Web GUI 中一键浏览、安装与更新 GitHub topic:dsh-plugin 的全部插件 | browse, install & update all GitHub dsh-plugin plugins in the DSH Web GUI",
+      "url": "https://github.com/bradeGithub/DSH-Plugins-Marketplace",
+      "lang": "JavaScript",
+      "tags": [
+        "agent",
+        "ai-agents",
+        "cordis",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "javascript",
+        "llm",
+        "marketplace",
+        "nodejs",
+        "plugin",
+        "plugin-marketplace"
+      ],
+      "metrics": {
+        "stars": 57
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T16:01:59Z",
+      "updatedAt": "2026-08-15T12:27:20Z",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "gh:memoket/memoket-kite",
+      "type": "repo",
+      "title": "memoket/memoket-kite",
+      "summaryOriginal": "Memory engine for AI agents with token-efficient, explainable retrieval beyond vector similarity.",
+      "url": "https://github.com/memoket/memoket-kite",
+      "lang": "Python",
+      "tags": [
+        "agent-memory",
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "chatbot",
+        "genai",
+        "knowledge-management",
+        "llm",
+        "llm-memory",
+        "long-term-memory",
+        "memory",
+        "memory-engine",
+        "memory-layer",
+        "memory-management",
+        "python",
+        "rag",
+        "retrieval"
+      ],
+      "metrics": {
+        "stars": 51
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-12T03:19:07Z",
+      "updatedAt": "2026-08-14T09:23:57Z",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "gh:Dominic789654/awesome-deepseek-harness",
+      "type": "repo",
+      "title": "Dominic789654/awesome-deepseek-harness",
+      "summaryOriginal": "A curated list of plugins, skills, MCP servers, patch/profile layers, orchestrators & UIs for DeepSeek Harness (DSH). Visualization · PPT · Coding · Agents · Loops (auto-research) and more. #dsh",
+      "url": "https://github.com/Dominic789654/awesome-deepseek-harness",
+      "lang": "TypeScript",
+      "tags": [
+        "agent",
+        "agent-framework",
+        "ai-agent",
+        "ai-agents",
+        "awesome",
+        "awesome-list",
+        "coding-agent",
+        "deepseek",
+        "deepseek-ai",
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "deepseek-harness-plugins",
+        "dsh",
+        "dsh-patch",
+        "dsh-plugin",
+        "dsh-plugins",
+        "llm",
+        "llm-agent",
+        "mcp",
+        "plugins"
+      ],
+      "metrics": {
+        "stars": 45
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T13:54:05Z",
+      "updatedAt": "2026-08-15T12:37:04Z",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "gh:Leonxlnx/unlazy",
+      "type": "repo",
+      "title": "Leonxlnx/unlazy",
+      "summaryOriginal": "Anti-laziness skill for AI agents. Core: the Depth Tree method, which splits a task N layers deep and gives every leaf the full time budget of the whole task, so effort multiplies with depth. Grounded in 2025-2026 research on model laziness, underthinking and premature completion.",
+      "url": "https://github.com/Leonxlnx/unlazy",
+      "lang": "JavaScript",
+      "tags": [
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "llm",
+        "productivity",
+        "prompt-engineering",
+        "skill"
+      ],
+      "metrics": {
+        "stars": 37
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-09T23:39:12Z",
+      "updatedAt": "2026-08-11T15:40:17Z",
+      "categories": [
+        "ai-models",
+        "ai-agents"
       ]
     },
     {
@@ -455,6 +504,28 @@
       "summaryKo": "코딩 워크플로우와 장시간 자율 작업을 위한 자기개선형 에이전트",
       "reasonEn": "14 pushes despite few stars — active early-stage momentum.",
       "reasonKo": "커밋 14회로 활발, 스타는 적지만 초기 성장세",
+      "categories": [
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "gh:macro-inc/macro",
+      "type": "repo",
+      "title": "macro-inc/macro",
+      "summaryOriginal": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "url": "https://github.com/macro-inc/macro",
+      "lang": "Rust",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 2,
+        "pushes": 5,
+        "totalScore": 210.4411
+      },
+      "source": "ossinsight",
+      "summaryEn": "Unified team workspace: email, chat, docs, tasks, agents, calls, and CRM linked together with shared AI memory.",
+      "summaryKo": "이메일·채팅·문서·작업·에이전트·통화·CRM을 공유 AI 메모리로 연결한 팀 통합 워크스페이스",
+      "reasonEn": "Fast-growing all-in-one workspace repo, gaining stars quickly.",
+      "reasonKo": "스타 435 증가, 올인원 워크스페이스로 빠르게 성장",
       "categories": [
         "ai-agents"
       ]
@@ -533,6 +604,26 @@
       ]
     },
     {
+      "id": "gh:deepseek-ai/awesome-deepseek-agent",
+      "type": "repo",
+      "title": "deepseek-ai/awesome-deepseek-agent",
+      "summaryOriginal": "deepseek-ai/awesome-deepseek-agent",
+      "url": "https://github.com/deepseek-ai/awesome-deepseek-agent",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 204.6925
+      },
+      "source": "ossinsight",
+      "summaryEn": "Curated list of DeepSeek agent projects, tools, and resources.",
+      "summaryKo": "DeepSeek 에이전트 프로젝트·도구·자료를 정리한 큐레이션 리스트",
+      "reasonEn": "Gaining stars fast as DeepSeek's agent ecosystem grows.",
+      "reasonKo": "DeepSeek 에이전트 생태계 성장에 힘입어 스타 급증",
+      "categories": [
+        "ai-agents"
+      ]
+    },
+    {
       "id": "gh:breferrari/obsidian-mind",
       "type": "repo",
       "title": "breferrari/obsidian-mind",
@@ -585,42 +676,6 @@
       ]
     },
     {
-      "id": "gh:tirth8205/code-review-graph",
-      "type": "repo",
-      "title": "tirth8205/code-review-graph",
-      "summaryOriginal": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
-      "url": "https://github.com/tirth8205/code-review-graph",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "totalScore": 204.4147
-      },
-      "source": "ossinsight",
-      "categories": [
-        "ai-agents",
-        "devtools"
-      ]
-    },
-    {
-      "id": "gh:HKUDS/Vibe-Trading",
-      "type": "repo",
-      "title": "HKUDS/Vibe-Trading",
-      "summaryOriginal": "\"Vibe-Trading: Your Personal Trading Agent\"",
-      "url": "https://github.com/HKUDS/Vibe-Trading",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "pushes": 1,
-        "totalScore": 204.4058
-      },
-      "source": "ossinsight",
-      "categories": [
-        "ai-agents"
-      ]
-    },
-    {
       "id": "hf-model:Qwen/Qwen3.8-27B",
       "type": "model",
       "title": "Qwen/Qwen3.8-27B",
@@ -639,9 +694,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 9400,
+        "likes": 9483,
         "downloads": 91917,
-        "trendingScore": 9070
+        "trendingScore": 9144
       },
       "source": "hf-models",
       "publishedAt": "2026-08-05T08:22:59.000Z",
@@ -675,9 +730,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1536,
+        "likes": 1548,
         "downloads": 246454,
-        "trendingScore": 1432
+        "trendingScore": 1441
       },
       "source": "hf-models",
       "publishedAt": "2026-08-09T17:51:35.000Z",
@@ -709,9 +764,9 @@
         "conversational"
       ],
       "metrics": {
-        "likes": 969,
+        "likes": 1009,
         "downloads": 867963,
-        "trendingScore": 944
+        "trendingScore": 979
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T08:28:40.000Z",
@@ -743,9 +798,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 938,
+        "likes": 949,
         "downloads": 6381,
-        "trendingScore": 904
+        "trendingScore": 911
       },
       "source": "hf-models",
       "publishedAt": "2026-08-08T01:50:52.000Z",
@@ -786,9 +841,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 3941,
+        "likes": 3954,
         "downloads": 2212155,
-        "trendingScore": 787
+        "trendingScore": 783
       },
       "source": "hf-models",
       "publishedAt": "2026-07-28T10:45:18.000Z",
@@ -839,9 +894,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 887,
+        "likes": 898,
         "downloads": 378439,
-        "trendingScore": 741
+        "trendingScore": 751
       },
       "source": "hf-models",
       "publishedAt": "2026-07-23T07:55:24.000Z",
@@ -873,9 +928,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 716,
+        "likes": 731,
         "downloads": 5079,
-        "trendingScore": 706
+        "trendingScore": 721
       },
       "source": "hf-models",
       "publishedAt": "2026-08-07T12:23:29.000Z",
@@ -911,9 +966,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 3398,
+        "likes": 3402,
         "downloads": 1798247,
-        "trendingScore": 470
+        "trendingScore": 460
       },
       "source": "hf-models",
       "publishedAt": "2026-07-31T07:30:24.000Z",
@@ -947,9 +1002,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 453,
+        "likes": 462,
         "downloads": 19945,
-        "trendingScore": 437
+        "trendingScore": 443
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T03:05:06.000Z",
@@ -985,9 +1040,9 @@
         "conversational"
       ],
       "metrics": {
-        "likes": 420,
+        "likes": 426,
         "downloads": 682188,
-        "trendingScore": 408
+        "trendingScore": 411
       },
       "source": "hf-models",
       "publishedAt": "2026-08-10T09:11:29.000Z",
@@ -1008,7 +1063,7 @@
       "url": "https://huggingface.co/papers/2608.02870",
       "tags": [],
       "metrics": {
-        "upvotes": 3,
+        "upvotes": 4,
         "comments": 2
       },
       "source": "hf-papers",
@@ -1272,7 +1327,7 @@
       "tags": [],
       "metrics": {
         "upvotes": 164,
-        "comments": 204
+        "comments": 206
       },
       "source": "hn",
       "publishedAt": "2026-08-13T13:28:45Z",

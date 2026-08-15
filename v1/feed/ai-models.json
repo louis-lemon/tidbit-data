@@ -1,31 +1,9 @@
 {
   "version": 1,
   "category": "ai-models",
-  "generatedAt": "2026-08-15T09:27:18.163Z",
+  "generatedAt": "2026-08-15T12:39:59.093Z",
   "ttlSeconds": 10800,
   "cards": [
-    {
-      "id": "gh:infiniflow/ragflow",
-      "type": "repo",
-      "title": "infiniflow/ragflow",
-      "summaryOriginal": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-      "url": "https://github.com/infiniflow/ragflow",
-      "lang": "Go",
-      "tags": [],
-      "metrics": {
-        "stars": 88499,
-        "starsDelta": 473
-      },
-      "source": "github-trending",
-      "summaryEn": "Open-source RAG engine combining retrieval-augmented generation with agent capabilities for LLM context.",
-      "summaryKo": "검색증강생성(RAG)과 에이전트 기능을 결합한 대표 오픈소스 RAG 엔진",
-      "reasonEn": "Already 88k+ stars; still adding hundreds more weekly.",
-      "reasonKo": "8만8천+ 스타에도 매주 수백 개씩 추가 증가",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ]
-    },
     {
       "id": "gh:unslothai/unsloth",
       "type": "repo",
@@ -35,12 +13,30 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 71647,
-        "starsDelta": 501
+        "stars": 71706,
+        "starsDelta": 435
       },
       "source": "github-trending",
       "categories": [
         "ai-models"
+      ]
+    },
+    {
+      "id": "gh:MakazhanAlpamys/Soup",
+      "type": "repo",
+      "title": "MakazhanAlpamys/Soup",
+      "summaryOriginal": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+      "url": "https://github.com/MakazhanAlpamys/Soup",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "stars": 1435,
+        "starsDelta": 303
+      },
+      "source": "github-trending",
+      "categories": [
+        "ai-models",
+        "data"
       ]
     },
     {
@@ -63,7 +59,7 @@
         "typescript-tutorial"
       ],
       "metrics": {
-        "stars": 992
+        "stars": 996
       },
       "source": "github-search",
       "publishedAt": "2026-08-09T12:15:30Z",
@@ -91,7 +87,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 450
+        "stars": 456
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T06:28:56Z",
@@ -131,11 +127,11 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 443
+        "stars": 454
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T13:14:49Z",
-      "updatedAt": "2026-08-15T04:42:33Z",
+      "updatedAt": "2026-08-15T11:55:15Z",
       "summaryEn": "Curated hub of plugins, tools, and infrastructure for the DeepSeek Harness (DSH) ecosystem.",
       "summaryKo": "DeepSeek Harness(DSH) 생태계 플러그인·도구·인프라를 정리한 큐레이션 허브",
       "categories": [
@@ -195,7 +191,7 @@
         "tutorial"
       ],
       "metrics": {
-        "stars": 248
+        "stars": 268
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T15:22:29Z",
@@ -228,7 +224,7 @@
         "windsurf"
       ],
       "metrics": {
-        "stars": 141
+        "stars": 142
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T05:08:30Z",
@@ -258,7 +254,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 95
+        "stars": 94
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T01:59:03Z",
@@ -346,40 +342,11 @@
         "token-pool"
       ],
       "metrics": {
-        "stars": 73
+        "stars": 77
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T07:06:43Z",
-      "updatedAt": "2026-08-15T08:55:37Z",
-      "categories": [
-        "ai-models"
-      ]
-    },
-    {
-      "id": "gh:biuworks/bilibili-digest",
-      "type": "repo",
-      "title": "biuworks/bilibili-digest",
-      "summaryOriginal": "把 B 站视频变成学习资源的浏览器扩展（Chrome / Edge）：字幕阅读、双语对照、AI 概览、划词解释和带时间戳的笔记",
-      "url": "https://github.com/biuworks/bilibili-digest",
-      "lang": "JavaScript",
-      "tags": [
-        "ai",
-        "bilibili",
-        "browser-extension",
-        "chrome-extension",
-        "edge-extension",
-        "language-learning",
-        "llm",
-        "note-taking",
-        "subtitles",
-        "transcript"
-      ],
-      "metrics": {
-        "stars": 60
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-12T06:48:51Z",
-      "updatedAt": "2026-08-13T11:12:30Z",
+      "updatedAt": "2026-08-15T09:59:28Z",
       "categories": [
         "ai-models"
       ]
@@ -414,7 +381,7 @@
         "zero-dependency"
       ],
       "metrics": {
-        "stars": 60
+        "stars": 66
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T08:09:10Z",
@@ -423,6 +390,67 @@
         "ai-models",
         "ai-agents",
         "devtools"
+      ]
+    },
+    {
+      "id": "gh:biuworks/bilibili-digest",
+      "type": "repo",
+      "title": "biuworks/bilibili-digest",
+      "summaryOriginal": "已上架 Chrome 商店 🚀 把 B 站视频变成学习资源的浏览器扩展（Chrome / Edge）：字幕阅读、双语对照、AI 章节概览、划词解释和带时间戳的笔记",
+      "url": "https://github.com/biuworks/bilibili-digest",
+      "lang": "JavaScript",
+      "tags": [
+        "ai",
+        "bilibili",
+        "browser-extension",
+        "chrome-extension",
+        "edge-extension",
+        "language-learning",
+        "llm",
+        "note-taking",
+        "subtitles",
+        "transcript"
+      ],
+      "metrics": {
+        "stars": 61
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-12T06:48:51Z",
+      "updatedAt": "2026-08-15T10:14:20Z",
+      "categories": [
+        "ai-models"
+      ]
+    },
+    {
+      "id": "gh:bradeGithub/DSH-Plugins-Marketplace",
+      "type": "repo",
+      "title": "bradeGithub/DSH-Plugins-Marketplace",
+      "summaryOriginal": "DSH插件市场 / DSH Plugin Marketplace: 在 DeepSeek Harness Web GUI 中一键浏览、安装与更新 GitHub topic:dsh-plugin 的全部插件 | browse, install & update all GitHub dsh-plugin plugins in the DSH Web GUI",
+      "url": "https://github.com/bradeGithub/DSH-Plugins-Marketplace",
+      "lang": "JavaScript",
+      "tags": [
+        "agent",
+        "ai-agents",
+        "cordis",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "javascript",
+        "llm",
+        "marketplace",
+        "nodejs",
+        "plugin",
+        "plugin-marketplace"
+      ],
+      "metrics": {
+        "stars": 57
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T16:01:59Z",
+      "updatedAt": "2026-08-15T12:27:20Z",
+      "categories": [
+        "ai-models",
+        "ai-agents"
       ]
     },
     {
@@ -453,43 +481,11 @@
         "retrieval"
       ],
       "metrics": {
-        "stars": 48
+        "stars": 51
       },
       "source": "github-search",
       "publishedAt": "2026-08-12T03:19:07Z",
       "updatedAt": "2026-08-14T09:23:57Z",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "gh:bradeGithub/DSH-Plugins-Marketplace",
-      "type": "repo",
-      "title": "bradeGithub/DSH-Plugins-Marketplace",
-      "summaryOriginal": "DSH插件市场 / DSH Plugin Marketplace: 在 DeepSeek Harness Web GUI 中一键浏览、安装与更新 GitHub topic:dsh-plugin 的全部插件 | browse, install & update all GitHub dsh-plugin plugins in the DSH Web GUI",
-      "url": "https://github.com/bradeGithub/DSH-Plugins-Marketplace",
-      "lang": "JavaScript",
-      "tags": [
-        "agent",
-        "ai-agents",
-        "cordis",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "javascript",
-        "llm",
-        "marketplace",
-        "nodejs",
-        "plugin",
-        "plugin-marketplace"
-      ],
-      "metrics": {
-        "stars": 47
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T16:01:59Z",
-      "updatedAt": "2026-08-15T08:25:33Z",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -525,11 +521,11 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 41
+        "stars": 45
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T13:54:05Z",
-      "updatedAt": "2026-08-15T08:36:47Z",
+      "updatedAt": "2026-08-15T12:37:04Z",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -598,6 +594,61 @@
       ]
     },
     {
+      "id": "gh:woolcoxm/zero-mem-pi",
+      "type": "repo",
+      "title": "woolcoxm/zero-mem-pi",
+      "summaryOriginal": "Zero-Mem: Zero-Token Memory Operations for the pi coding agent (faithful reimplementation of arXiv:2607.29377)",
+      "url": "https://github.com/woolcoxm/zero-mem-pi",
+      "lang": "TypeScript",
+      "tags": [
+        "agents",
+        "embeddings",
+        "llm",
+        "memory",
+        "pi-coding-agent",
+        "retrieval-augmented-generation"
+      ],
+      "metrics": {
+        "stars": 28
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T15:51:22Z",
+      "updatedAt": "2026-08-14T16:11:03Z",
+      "categories": [
+        "ai-models"
+      ]
+    },
+    {
+      "id": "gh:Han-1413141/dsh-cost-meter",
+      "type": "repo",
+      "title": "Han-1413141/dsh-cost-meter",
+      "summaryOriginal": "DeepSeek Harness 会话费用统计插件:本会话费用、当日费用、历史记录与官方价格同步",
+      "url": "https://github.com/Han-1413141/dsh-cost-meter",
+      "lang": "JavaScript",
+      "tags": [
+        "cost-tracking",
+        "deepseek",
+        "deepseek-api",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugins",
+        "harness",
+        "llm",
+        "plugins",
+        "token-usage"
+      ],
+      "metrics": {
+        "stars": 28
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T14:57:55Z",
+      "updatedAt": "2026-08-15T11:56:28Z",
+      "categories": [
+        "ai-models"
+      ]
+    },
+    {
       "id": "gh:0toshigami/orbis-pictus",
       "type": "repo",
       "title": "0toshigami/orbis-pictus",
@@ -619,65 +670,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-11T00:16:54Z",
       "updatedAt": "2026-08-11T16:56:20Z",
-      "categories": [
-        "ai-models"
-      ]
-    },
-    {
-      "id": "gh:chang416/youtube-card-reader",
-      "type": "repo",
-      "title": "chang416/youtube-card-reader",
-      "summaryOriginal": "Turn any YouTube video into a deck of timestamped knowledge cards. Runs locally, works with free models.",
-      "url": "https://github.com/chang416/youtube-card-reader",
-      "lang": "Python",
-      "tags": [
-        "claude",
-        "fastapi",
-        "knowledge-base",
-        "knowledge-management",
-        "llm",
-        "note-taking",
-        "obsidian",
-        "react",
-        "transcription",
-        "youtube",
-        "youtube-api"
-      ],
-      "metrics": {
-        "stars": 26
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T12:33:00Z",
-      "updatedAt": "2026-08-13T12:42:34Z",
-      "categories": [
-        "ai-models",
-        "web"
-      ]
-    },
-    {
-      "id": "gh:bekkooazar/n8meter",
-      "type": "repo",
-      "title": "bekkooazar/n8meter",
-      "summaryOriginal": "Open-source cost metering for n8n AI workflows — token usage per workflow, priced daily, on your own machine.",
-      "url": "https://github.com/bekkooazar/n8meter",
-      "lang": "HTML",
-      "tags": [
-        "ai",
-        "anthropic",
-        "cost-tracking",
-        "dashboard",
-        "llm",
-        "n8n",
-        "openai",
-        "self-hosted",
-        "token-usage"
-      ],
-      "metrics": {
-        "stars": 25
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-10T10:37:32Z",
-      "updatedAt": "2026-08-13T09:49:23Z",
       "categories": [
         "ai-models"
       ]
@@ -761,9 +753,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 9400,
+        "likes": 9483,
         "downloads": 91917,
-        "trendingScore": 9070
+        "trendingScore": 9144
       },
       "source": "hf-models",
       "publishedAt": "2026-08-05T08:22:59.000Z",
@@ -797,9 +789,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1536,
+        "likes": 1548,
         "downloads": 246454,
-        "trendingScore": 1432
+        "trendingScore": 1441
       },
       "source": "hf-models",
       "publishedAt": "2026-08-09T17:51:35.000Z",
@@ -831,9 +823,9 @@
         "conversational"
       ],
       "metrics": {
-        "likes": 969,
+        "likes": 1009,
         "downloads": 867963,
-        "trendingScore": 944
+        "trendingScore": 979
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T08:28:40.000Z",
@@ -865,9 +857,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 938,
+        "likes": 949,
         "downloads": 6381,
-        "trendingScore": 904
+        "trendingScore": 911
       },
       "source": "hf-models",
       "publishedAt": "2026-08-08T01:50:52.000Z",
@@ -908,9 +900,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 3941,
+        "likes": 3954,
         "downloads": 2212155,
-        "trendingScore": 787
+        "trendingScore": 783
       },
       "source": "hf-models",
       "publishedAt": "2026-07-28T10:45:18.000Z",
@@ -961,9 +953,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 887,
+        "likes": 898,
         "downloads": 378439,
-        "trendingScore": 741
+        "trendingScore": 751
       },
       "source": "hf-models",
       "publishedAt": "2026-07-23T07:55:24.000Z",
@@ -995,9 +987,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 716,
+        "likes": 731,
         "downloads": 5079,
-        "trendingScore": 706
+        "trendingScore": 721
       },
       "source": "hf-models",
       "publishedAt": "2026-08-07T12:23:29.000Z",
@@ -1033,9 +1025,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 3398,
+        "likes": 3402,
         "downloads": 1798247,
-        "trendingScore": 470
+        "trendingScore": 460
       },
       "source": "hf-models",
       "publishedAt": "2026-07-31T07:30:24.000Z",
@@ -1069,9 +1061,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 453,
+        "likes": 462,
         "downloads": 19945,
-        "trendingScore": 437
+        "trendingScore": 443
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T03:05:06.000Z",
@@ -1107,9 +1099,9 @@
         "conversational"
       ],
       "metrics": {
-        "likes": 420,
+        "likes": 426,
         "downloads": 682188,
-        "trendingScore": 408
+        "trendingScore": 411
       },
       "source": "hf-models",
       "publishedAt": "2026-08-10T09:11:29.000Z",
@@ -1130,7 +1122,7 @@
       "url": "https://huggingface.co/papers/2608.02870",
       "tags": [],
       "metrics": {
-        "upvotes": 3,
+        "upvotes": 4,
         "comments": 2
       },
       "source": "hf-papers",
@@ -1326,7 +1318,7 @@
       "tags": [],
       "metrics": {
         "upvotes": 825,
-        "comments": 545
+        "comments": 546
       },
       "source": "hn",
       "publishedAt": "2026-08-09T19:16:49Z",
