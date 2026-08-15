@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "infra",
-  "generatedAt": "2026-08-15T15:22:39.870Z",
+  "generatedAt": "2026-08-15T18:32:14.982Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,7 +13,7 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 39363,
+        "stars": 39424,
         "starsDelta": 553
       },
       "source": "github-trending",
@@ -56,11 +56,11 @@
         "prometheus"
       ],
       "metrics": {
-        "stars": 80192
+        "stars": 80194
       },
       "source": "github-search",
       "publishedAt": "2013-06-17T18:39:10Z",
-      "updatedAt": "2026-08-15T06:20:50Z",
+      "updatedAt": "2026-08-15T18:30:53Z",
       "categories": [
         "ai-models",
         "infra",
@@ -97,7 +97,7 @@
         "vue"
       ],
       "metrics": {
-        "stars": 57385
+        "stars": 57386
       },
       "source": "github-search",
       "publishedAt": "2016-11-01T02:13:26Z",
@@ -136,7 +136,7 @@
         "serverless"
       ],
       "metrics": {
-        "stars": 16996
+        "stars": 16997
       },
       "source": "github-search",
       "publishedAt": "2019-04-10T02:02:05Z",
@@ -213,7 +213,7 @@
         "vps"
       ],
       "metrics": {
-        "stars": 36620
+        "stars": 36623
       },
       "source": "github-search",
       "publishedAt": "2024-04-19T07:49:30Z",
@@ -276,7 +276,7 @@
         "performance-optimization"
       ],
       "metrics": {
-        "stars": 53
+        "stars": 55
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T10:13:52Z",
@@ -366,6 +366,35 @@
       "source": "github-search",
       "publishedAt": "2026-08-13T15:41:41Z",
       "updatedAt": "2026-08-14T09:40:29Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:mdmahfujarrahman/home-lab",
+      "type": "repo",
+      "title": "mdmahfujarrahman/home-lab",
+      "summaryOriginal": "Kubernetes manifests for my single-node k3s homelab — Traefik ingress, MetalLB, NFS + local-path storage, Prometheus/Grafana, and self-hosted apps (AFFiNE, Ollama, AnythingLLM, Uptime Kuma). Secrets kept out of git.",
+      "url": "https://github.com/mdmahfujarrahman/home-lab",
+      "tags": [
+        "devops",
+        "grafana",
+        "homelab",
+        "infrastructure-as-code",
+        "k3s",
+        "kubernetes",
+        "metallb",
+        "ollama",
+        "prometheus",
+        "self-hosted",
+        "traefik"
+      ],
+      "metrics": {
+        "stars": 6
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-15T17:14:49Z",
+      "updatedAt": "2026-08-15T17:14:52Z",
       "categories": [
         "infra"
       ]
@@ -494,7 +523,46 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T22:09:57Z",
-      "updatedAt": "2026-08-15T14:43:46Z",
+      "updatedAt": "2026-08-15T18:31:47Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:QSOLKCB/WHOAMI-18437",
+      "type": "repo",
+      "title": "QSOLKCB/WHOAMI-18437",
+      "summaryOriginal": "Executable software-art satire: a four-token “Who am I?” becomes 18,437 tokens of orchestration, escapes through COBOL, FORTRAN, 6502, TypeScript, React, Docker and Kubernetes, then deterministically returns TRENT. Trent = Trent := by rfl.",
+      "url": "https://github.com/QSOLKCB/WHOAMI-18437",
+      "lang": "JavaScript",
+      "tags": [
+        "6502",
+        "ai",
+        "assembly",
+        "cobol",
+        "determinism",
+        "docker",
+        "esoteric-programming",
+        "fortran",
+        "github-actions",
+        "graphql",
+        "javascript",
+        "kubernetes",
+        "llm",
+        "opentelemetry",
+        "react",
+        "software-art",
+        "software-satire",
+        "typescript",
+        "xml",
+        "yaml"
+      ],
+      "metrics": {
+        "stars": 2
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T06:11:43Z",
+      "updatedAt": "2026-08-15T12:46:02Z",
       "categories": [
         "infra"
       ]
@@ -531,6 +599,28 @@
       ]
     },
     {
+      "id": "gh:sodiqscript111/Elv",
+      "type": "repo",
+      "title": "sodiqscript111/Elv",
+      "summaryOriginal": "A cloud-native Kubernetes Log Drain Operator powered by Vector. Dynamically route, filter, and stream application container logs to Cloudflare R2, AWS S3, and MinIO with zero code changes.",
+      "url": "https://github.com/sodiqscript111/Elv",
+      "lang": "Go",
+      "tags": [
+        "kubernetes",
+        "log-drains",
+        "logging"
+      ],
+      "metrics": {
+        "stars": 2
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T12:25:05Z",
+      "updatedAt": "2026-08-14T18:40:19Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
       "id": "gh:AryanParashar24/Garund",
       "type": "repo",
       "title": "AryanParashar24/Garund",
@@ -552,28 +642,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-10T10:44:02Z",
       "updatedAt": "2026-08-14T15:53:53Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:sodiqscript111/Elv",
-      "type": "repo",
-      "title": "sodiqscript111/Elv",
-      "summaryOriginal": "A cloud-native Kubernetes Log Drain Operator powered by Vector. Dynamically route, filter, and stream application container logs to Cloudflare R2, AWS S3, and MinIO with zero code changes.",
-      "url": "https://github.com/sodiqscript111/Elv",
-      "lang": "Go",
-      "tags": [
-        "kubernetes",
-        "log-drains",
-        "logging"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T12:25:05Z",
-      "updatedAt": "2026-08-14T18:40:19Z",
       "categories": [
         "infra"
       ]
@@ -634,40 +702,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-12T22:29:03Z",
       "updatedAt": "2026-08-14T03:00:17Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:abhi1693/home-assistant",
-      "type": "repo",
-      "title": "abhi1693/home-assistant",
-      "summaryOriginal": "GitOps-managed Home Assistant configuration with responsive family dashboards, policy-aware access, custom integrations, and reproducible bootstrap tooling.",
-      "url": "https://github.com/abhi1693/home-assistant",
-      "lang": "Python",
-      "tags": [
-        "atomberg",
-        "family-dashboard",
-        "gitops",
-        "home-assistant",
-        "home-automation",
-        "jellyfin",
-        "kubernetes",
-        "lovelace",
-        "music-assistant",
-        "rancher-fleet",
-        "responsive-design",
-        "self-hosted",
-        "smart-home",
-        "sops",
-        "unifi-protect"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-12T20:22:19Z",
-      "updatedAt": "2026-08-14T17:35:01Z",
       "categories": [
         "infra"
       ]
@@ -737,40 +771,35 @@
       ]
     },
     {
-      "id": "gh:QSOLKCB/WHOAMI-18437",
+      "id": "gh:abhi1693/home-assistant",
       "type": "repo",
-      "title": "QSOLKCB/WHOAMI-18437",
-      "summaryOriginal": "Executable software-art satire: a four-token “Who am I?” becomes 18,437 tokens of orchestration, escapes through COBOL, FORTRAN, 6502, TypeScript, React, Docker and Kubernetes, then deterministically returns TRENT. Trent = Trent := by rfl.",
-      "url": "https://github.com/QSOLKCB/WHOAMI-18437",
-      "lang": "JavaScript",
+      "title": "abhi1693/home-assistant",
+      "summaryOriginal": "GitOps-managed Home Assistant configuration with responsive family dashboards, policy-aware access, custom integrations, and reproducible bootstrap tooling.",
+      "url": "https://github.com/abhi1693/home-assistant",
+      "lang": "Python",
       "tags": [
-        "6502",
-        "ai",
-        "assembly",
-        "cobol",
-        "determinism",
-        "docker",
-        "esoteric-programming",
-        "fortran",
-        "github-actions",
-        "graphql",
-        "javascript",
+        "atomberg",
+        "family-dashboard",
+        "gitops",
+        "home-assistant",
+        "home-automation",
+        "jellyfin",
         "kubernetes",
-        "llm",
-        "opentelemetry",
-        "react",
-        "software-art",
-        "software-satire",
-        "typescript",
-        "xml",
-        "yaml"
+        "lovelace",
+        "music-assistant",
+        "rancher-fleet",
+        "responsive-design",
+        "self-hosted",
+        "smart-home",
+        "sops",
+        "unifi-protect"
       ],
       "metrics": {
         "stars": 1
       },
       "source": "github-search",
-      "publishedAt": "2026-08-14T06:11:43Z",
-      "updatedAt": "2026-08-15T12:46:02Z",
+      "publishedAt": "2026-08-12T20:22:19Z",
+      "updatedAt": "2026-08-15T18:06:38Z",
       "categories": [
         "infra"
       ]
@@ -803,6 +832,60 @@
       "source": "github-search",
       "publishedAt": "2026-08-15T05:27:43Z",
       "updatedAt": "2026-08-15T06:18:49Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:arpanpathak/ebpf-rust-networking-book",
+      "type": "repo",
+      "title": "arpanpathak/ebpf-rust-networking-book",
+      "summaryOriginal": "📖 eBPF from the ground up : the kernel packet path, verifier, XDP, tc, sockmap, Cilium & Kubernetes — every concept with a working Aya program in Rust and a clickable SVG diagram. Includes a full service-mesh data path capstone",
+      "url": "https://github.com/arpanpathak/ebpf-rust-networking-book",
+      "lang": "Rust",
+      "tags": [
+        "aya",
+        "cilium",
+        "ebpf",
+        "kubernetes",
+        "mdbook",
+        "networking",
+        "rust",
+        "sockmap",
+        "systems-programming",
+        "xdp"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-09T09:27:13Z",
+      "updatedAt": "2026-08-09T09:57:27Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:loutik/infrastructure-argocd",
+      "type": "repo",
+      "title": "loutik/infrastructure-argocd",
+      "summaryOriginal": "Dépôt contenant les manifests de l'infrastructure et la configuration d'ArgoCD.",
+      "url": "https://github.com/loutik/infrastructure-argocd",
+      "lang": "CSS",
+      "tags": [
+        "argocd",
+        "gitops",
+        "infrastructure",
+        "kubernetes",
+        "loutikcloud",
+        "manifests"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-09T15:39:21Z",
+      "updatedAt": "2026-08-12T20:55:47Z",
       "categories": [
         "infra"
       ]
@@ -858,34 +941,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-14T00:59:20Z",
       "updatedAt": "2026-08-14T13:45:29Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:Sh1c666/kani-sre",
-      "type": "repo",
-      "title": "Sh1c666/kani-sre",
-      "summaryOriginal": "Kani 🦀 — a personal, proactive SRE agent (LangGraph): read-only diagnosis, interrupt-gated writes, alert-driven & scheduled patrols.",
-      "url": "https://github.com/Sh1c666/kani-sre",
-      "lang": "Python",
-      "tags": [
-        "ai-agent",
-        "alertmanager",
-        "kubernetes",
-        "langgraph",
-        "observability",
-        "oncall",
-        "prometheus",
-        "self-hosted",
-        "sre"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T05:11:00Z",
-      "updatedAt": "2026-08-14T14:03:20Z",
       "categories": [
         "infra"
       ]
@@ -1035,63 +1090,6 @@
       ]
     },
     {
-      "id": "gh:SimoneParvizi/blueaccademy",
-      "type": "repo",
-      "title": "SimoneParvizi/blueaccademy",
-      "summaryOriginal": "Opensource learning platform for Kubernetes, Docker, Pulumi, and GitHub Actions",
-      "url": "https://github.com/SimoneParvizi/blueaccademy",
-      "lang": "TypeScript",
-      "tags": [
-        "actions",
-        "azure",
-        "ckad",
-        "devops",
-        "docker",
-        "docker-compose",
-        "github-actions",
-        "kubernetes",
-        "pulumi"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-09T09:29:28Z",
-      "updatedAt": "2026-08-13T19:19:44Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:arpanpathak/ebpf-rust-networking-book",
-      "type": "repo",
-      "title": "arpanpathak/ebpf-rust-networking-book",
-      "summaryOriginal": "📖 eBPF from the ground up : the kernel packet path, verifier, XDP, tc, sockmap, Cilium & Kubernetes — every concept with a working Aya program in Rust and a clickable SVG diagram. Includes a full service-mesh data path capstone",
-      "url": "https://github.com/arpanpathak/ebpf-rust-networking-book",
-      "lang": "Rust",
-      "tags": [
-        "aya",
-        "cilium",
-        "ebpf",
-        "kubernetes",
-        "mdbook",
-        "networking",
-        "rust",
-        "sockmap",
-        "systems-programming",
-        "xdp"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-09T09:27:13Z",
-      "updatedAt": "2026-08-09T09:57:27Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
       "id": "gh:kubernetes/kubernetes",
       "type": "repo",
       "title": "kubernetes/kubernetes",
@@ -1138,7 +1136,7 @@
         "zookeeper"
       ],
       "metrics": {
-        "stars": 64439
+        "stars": 64440
       },
       "source": "github-search",
       "publishedAt": "2015-09-13T19:04:02Z",
@@ -1167,7 +1165,7 @@
         "raft"
       ],
       "metrics": {
-        "stars": 52124
+        "stars": 52125
       },
       "source": "github-search",
       "publishedAt": "2013-07-06T21:57:21Z",
