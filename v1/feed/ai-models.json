@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "ai-models",
-  "generatedAt": "2026-08-15T12:39:59.093Z",
+  "generatedAt": "2026-08-15T15:22:39.870Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,7 +13,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 71706,
+        "stars": 71804,
         "starsDelta": 435
       },
       "source": "github-trending",
@@ -30,7 +30,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 1435,
+        "stars": 1491,
         "starsDelta": 303
       },
       "source": "github-trending",
@@ -59,44 +59,13 @@
         "typescript-tutorial"
       ],
       "metrics": {
-        "stars": 996
+        "stars": 1000
       },
       "source": "github-search",
       "publishedAt": "2026-08-09T12:15:30Z",
       "updatedAt": "2026-08-12T07:10:35Z",
       "categories": [
         "ai-models"
-      ]
-    },
-    {
-      "id": "gh:elie222/rakazo",
-      "type": "repo",
-      "title": "elie222/rakazo",
-      "summaryOriginal": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
-      "url": "https://github.com/elie222/rakazo",
-      "lang": "TypeScript",
-      "tags": [
-        "ai-agents",
-        "chatgpt",
-        "docker",
-        "electron",
-        "expo",
-        "grok",
-        "llm",
-        "self-hosted",
-        "typescript"
-      ],
-      "metrics": {
-        "stars": 456
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T06:28:56Z",
-      "updatedAt": "2026-08-14T17:48:48Z",
-      "summaryEn": "Open-source alternative to Grok's coding bot — pick your own model and sandbox.",
-      "summaryKo": "Grok 봇의 오픈소스 대안, 모델과 샌드박스를 직접 선택",
-      "categories": [
-        "ai-models",
-        "ai-agents"
       ]
     },
     {
@@ -127,17 +96,48 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 454
+        "stars": 472
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T13:14:49Z",
-      "updatedAt": "2026-08-15T11:55:15Z",
+      "updatedAt": "2026-08-15T14:54:08Z",
       "summaryEn": "Curated hub of plugins, tools, and infrastructure for the DeepSeek Harness (DSH) ecosystem.",
       "summaryKo": "DeepSeek Harness(DSH) 생태계 플러그인·도구·인프라를 정리한 큐레이션 허브",
       "categories": [
         "ai-models",
         "ai-agents",
         "devtools"
+      ]
+    },
+    {
+      "id": "gh:elie222/rakazo",
+      "type": "repo",
+      "title": "elie222/rakazo",
+      "summaryOriginal": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+      "url": "https://github.com/elie222/rakazo",
+      "lang": "TypeScript",
+      "tags": [
+        "ai-agents",
+        "chatgpt",
+        "docker",
+        "electron",
+        "expo",
+        "grok",
+        "llm",
+        "self-hosted",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 463
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T06:28:56Z",
+      "updatedAt": "2026-08-14T17:48:48Z",
+      "summaryEn": "Open-source alternative to Grok's coding bot — pick your own model and sandbox.",
+      "summaryKo": "Grok 봇의 오픈소스 대안, 모델과 샌드박스를 직접 선택",
+      "categories": [
+        "ai-models",
+        "ai-agents"
       ]
     },
     {
@@ -160,7 +160,7 @@
         "qualcomm"
       ],
       "metrics": {
-        "stars": 342
+        "stars": 344
       },
       "source": "github-search",
       "publishedAt": "2026-08-10T18:43:36Z",
@@ -191,11 +191,11 @@
         "tutorial"
       ],
       "metrics": {
-        "stars": 268
+        "stars": 279
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T15:22:29Z",
-      "updatedAt": "2026-08-15T08:38:47Z",
+      "updatedAt": "2026-08-15T15:21:59Z",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -224,7 +224,7 @@
         "windsurf"
       ],
       "metrics": {
-        "stars": 142
+        "stars": 146
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T05:08:30Z",
@@ -254,7 +254,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 94
+        "stars": 95
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T01:59:03Z",
@@ -289,7 +289,7 @@
         "workflow-automation"
       ],
       "metrics": {
-        "stars": 89
+        "stars": 90
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T04:06:22Z",
@@ -325,20 +325,29 @@
       "id": "gh:trefeon/freebuff-proxy",
       "type": "repo",
       "title": "trefeon/freebuff-proxy",
-      "summaryOriginal": "High-performance OpenAI-compatible gateway and token pool bridge for AI coding assistants with session lifecycle and TLS stealth",
+      "summaryOriginal": "OpenAI-compatible gateway for FreeBuff coding models. Token pool, session lifecycle, TLS stealth, embedded admin dashboard. No ads, no CLI, just /v1/chat/completions.",
       "url": "https://github.com/trefeon/freebuff-proxy",
       "lang": "Go",
       "tags": [
-        "ai-gateway",
+        "api-gateway",
+        "codebuff",
+        "coding-agent",
         "coding-assistant",
         "freebuff",
-        "go",
         "golang",
+        "htmx",
         "llm",
         "llm-router",
+        "multi-account",
         "openai",
         "openai-compatible",
         "proxy",
+        "reverse-proxy",
+        "self-hosted",
+        "session-management",
+        "single-binary",
+        "stealth",
+        "tls-fingerprinting",
         "token-pool"
       ],
       "metrics": {
@@ -346,7 +355,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T07:06:43Z",
-      "updatedAt": "2026-08-15T09:59:28Z",
+      "updatedAt": "2026-08-15T14:33:13Z",
       "categories": [
         "ai-models"
       ]
@@ -381,7 +390,7 @@
         "zero-dependency"
       ],
       "metrics": {
-        "stars": 66
+        "stars": 70
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T08:09:10Z",
@@ -390,35 +399,6 @@
         "ai-models",
         "ai-agents",
         "devtools"
-      ]
-    },
-    {
-      "id": "gh:biuworks/bilibili-digest",
-      "type": "repo",
-      "title": "biuworks/bilibili-digest",
-      "summaryOriginal": "已上架 Chrome 商店 🚀 把 B 站视频变成学习资源的浏览器扩展（Chrome / Edge）：字幕阅读、双语对照、AI 章节概览、划词解释和带时间戳的笔记",
-      "url": "https://github.com/biuworks/bilibili-digest",
-      "lang": "JavaScript",
-      "tags": [
-        "ai",
-        "bilibili",
-        "browser-extension",
-        "chrome-extension",
-        "edge-extension",
-        "language-learning",
-        "llm",
-        "note-taking",
-        "subtitles",
-        "transcript"
-      ],
-      "metrics": {
-        "stars": 61
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-12T06:48:51Z",
-      "updatedAt": "2026-08-15T10:14:20Z",
-      "categories": [
-        "ai-models"
       ]
     },
     {
@@ -443,14 +423,43 @@
         "plugin-marketplace"
       ],
       "metrics": {
-        "stars": 57
+        "stars": 65
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T16:01:59Z",
-      "updatedAt": "2026-08-15T12:27:20Z",
+      "updatedAt": "2026-08-15T15:20:32Z",
       "categories": [
         "ai-models",
         "ai-agents"
+      ]
+    },
+    {
+      "id": "gh:biuworks/bilibili-digest",
+      "type": "repo",
+      "title": "biuworks/bilibili-digest",
+      "summaryOriginal": "已上架 Chrome 商店 🚀 把 B 站视频变成学习资源的浏览器扩展（Chrome / Edge）：字幕阅读、双语对照、AI 章节概览、划词解释和带时间戳的笔记",
+      "url": "https://github.com/biuworks/bilibili-digest",
+      "lang": "JavaScript",
+      "tags": [
+        "ai",
+        "bilibili",
+        "browser-extension",
+        "chrome-extension",
+        "edge-extension",
+        "language-learning",
+        "llm",
+        "note-taking",
+        "subtitles",
+        "transcript"
+      ],
+      "metrics": {
+        "stars": 63
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-12T06:48:51Z",
+      "updatedAt": "2026-08-15T10:14:20Z",
+      "categories": [
+        "ai-models"
       ]
     },
     {
@@ -481,7 +490,7 @@
         "retrieval"
       ],
       "metrics": {
-        "stars": 51
+        "stars": 52
       },
       "source": "github-search",
       "publishedAt": "2026-08-12T03:19:07Z",
@@ -521,11 +530,11 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 45
+        "stars": 48
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T13:54:05Z",
-      "updatedAt": "2026-08-15T12:37:04Z",
+      "updatedAt": "2026-08-15T14:36:20Z",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -548,7 +557,7 @@
         "skill"
       ],
       "metrics": {
-        "stars": 37
+        "stars": 39
       },
       "source": "github-search",
       "publishedAt": "2026-08-09T23:39:12Z",
@@ -556,6 +565,62 @@
       "categories": [
         "ai-models",
         "ai-agents"
+      ]
+    },
+    {
+      "id": "gh:Han-1413141/dsh-cost-meter",
+      "type": "repo",
+      "title": "Han-1413141/dsh-cost-meter",
+      "summaryOriginal": "DeepSeek Harness 会话费用统计插件:本会话费用、当日费用、历史记录与官方价格同步",
+      "url": "https://github.com/Han-1413141/dsh-cost-meter",
+      "lang": "JavaScript",
+      "tags": [
+        "cost-tracking",
+        "deepseek",
+        "deepseek-api",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugins",
+        "harness",
+        "llm",
+        "plugins",
+        "token-usage"
+      ],
+      "metrics": {
+        "stars": 31
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T14:57:55Z",
+      "updatedAt": "2026-08-15T15:22:36Z",
+      "categories": [
+        "ai-models"
+      ]
+    },
+    {
+      "id": "gh:qiannianhuanxiang/DSHA",
+      "type": "repo",
+      "title": "qiannianhuanxiang/DSHA",
+      "summaryOriginal": "DeepSeek Harness 安卓启动器：内置 proot+Ubuntu，免 ROOT 免 Termux 一键运行 deepseek-harness，多源测速/分步安装/WebUI 预览/设备 Shell 桥接",
+      "url": "https://github.com/qiannianhuanxiang/DSHA",
+      "lang": "Java",
+      "tags": [
+        "android",
+        "deepseek",
+        "launcher",
+        "llm",
+        "proot",
+        "shizuku",
+        "webui"
+      ],
+      "metrics": {
+        "stars": 31
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T16:52:02Z",
+      "updatedAt": "2026-08-15T07:06:38Z",
+      "categories": [
+        "ai-models"
       ]
     },
     {
@@ -583,7 +648,7 @@
         "workflow-automation"
       ],
       "metrics": {
-        "stars": 30
+        "stars": 31
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T11:22:22Z",
@@ -594,84 +659,29 @@
       ]
     },
     {
-      "id": "gh:woolcoxm/zero-mem-pi",
+      "id": "gh:vikd1000/investment-council",
       "type": "repo",
-      "title": "woolcoxm/zero-mem-pi",
-      "summaryOriginal": "Zero-Mem: Zero-Token Memory Operations for the pi coding agent (faithful reimplementation of arXiv:2607.29377)",
-      "url": "https://github.com/woolcoxm/zero-mem-pi",
-      "lang": "TypeScript",
+      "title": "vikd1000/investment-council",
+      "summaryOriginal": "A stock picking tool that has 21 legendary investors like Warren Buffet, Peter Lynch, Michael Burry etc debate every stock pick and show you exactly where they agree, and where they don't. The second opinion your investment portfolio actually needs. No API key needed",
+      "url": "https://github.com/vikd1000/investment-council",
+      "lang": "Python",
       "tags": [
-        "agents",
-        "embeddings",
+        "ai-agents",
+        "claude-code",
+        "investing",
         "llm",
-        "memory",
-        "pi-coding-agent",
-        "retrieval-augmented-generation"
+        "multi-agent",
+        "stock-analysis"
       ],
       "metrics": {
-        "stars": 28
+        "stars": 30
       },
       "source": "github-search",
-      "publishedAt": "2026-08-13T15:51:22Z",
-      "updatedAt": "2026-08-14T16:11:03Z",
+      "publishedAt": "2026-08-09T16:09:05Z",
+      "updatedAt": "2026-08-10T15:03:39Z",
       "categories": [
-        "ai-models"
-      ]
-    },
-    {
-      "id": "gh:Han-1413141/dsh-cost-meter",
-      "type": "repo",
-      "title": "Han-1413141/dsh-cost-meter",
-      "summaryOriginal": "DeepSeek Harness 会话费用统计插件:本会话费用、当日费用、历史记录与官方价格同步",
-      "url": "https://github.com/Han-1413141/dsh-cost-meter",
-      "lang": "JavaScript",
-      "tags": [
-        "cost-tracking",
-        "deepseek",
-        "deepseek-api",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "dsh-plugins",
-        "harness",
-        "llm",
-        "plugins",
-        "token-usage"
-      ],
-      "metrics": {
-        "stars": 28
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T14:57:55Z",
-      "updatedAt": "2026-08-15T11:56:28Z",
-      "categories": [
-        "ai-models"
-      ]
-    },
-    {
-      "id": "gh:0toshigami/orbis-pictus",
-      "type": "repo",
-      "title": "0toshigami/orbis-pictus",
-      "summaryOriginal": "A tap-to-explore picture book where an AI draws every page in real time — type anything, click anything inside, and it draws a new page about what you clicked. No links, no markup, every pixel made on demand. An open-source homage to flipbook.page.",
-      "url": "https://github.com/0toshigami/orbis-pictus",
-      "lang": "TypeScript",
-      "tags": [
-        "ai",
-        "creative",
-        "creative-coding",
-        "generative-ai",
-        "image-generation",
-        "llm",
-        "text-to-image"
-      ],
-      "metrics": {
-        "stars": 27
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T00:16:54Z",
-      "updatedAt": "2026-08-11T16:56:20Z",
-      "categories": [
-        "ai-models"
+        "ai-models",
+        "ai-agents"
       ]
     },
     {
@@ -750,12 +760,13 @@
         "license:apache-2.0",
         "eval-results",
         "endpoints_compatible",
-        "region:us"
+        "region:us",
+        "deploy:azure"
       ],
       "metrics": {
-        "likes": 9483,
+        "likes": 9583,
         "downloads": 91917,
-        "trendingScore": 9144
+        "trendingScore": 9238
       },
       "source": "hf-models",
       "publishedAt": "2026-08-05T08:22:59.000Z",
@@ -789,9 +800,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1548,
+        "likes": 1560,
         "downloads": 246454,
-        "trendingScore": 1441
+        "trendingScore": 1450
       },
       "source": "hf-models",
       "publishedAt": "2026-08-09T17:51:35.000Z",
@@ -823,9 +834,9 @@
         "conversational"
       ],
       "metrics": {
-        "likes": 1009,
+        "likes": 1080,
         "downloads": 867963,
-        "trendingScore": 979
+        "trendingScore": 1041
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T08:28:40.000Z",
@@ -857,9 +868,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 949,
+        "likes": 952,
         "downloads": 6381,
-        "trendingScore": 911
+        "trendingScore": 914
       },
       "source": "hf-models",
       "publishedAt": "2026-08-08T01:50:52.000Z",
@@ -900,9 +911,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 3954,
+        "likes": 3962,
         "downloads": 2212155,
-        "trendingScore": 783
+        "trendingScore": 776
       },
       "source": "hf-models",
       "publishedAt": "2026-07-28T10:45:18.000Z",
@@ -953,9 +964,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 898,
+        "likes": 912,
         "downloads": 378439,
-        "trendingScore": 751
+        "trendingScore": 759
       },
       "source": "hf-models",
       "publishedAt": "2026-07-23T07:55:24.000Z",
@@ -987,9 +998,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 731,
+        "likes": 747,
         "downloads": 5079,
-        "trendingScore": 721
+        "trendingScore": 736
       },
       "source": "hf-models",
       "publishedAt": "2026-08-07T12:23:29.000Z",
@@ -1025,9 +1036,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 3402,
+        "likes": 3410,
         "downloads": 1798247,
-        "trendingScore": 460
+        "trendingScore": 456
       },
       "source": "hf-models",
       "publishedAt": "2026-07-31T07:30:24.000Z",
@@ -1061,9 +1072,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 462,
+        "likes": 468,
         "downloads": 19945,
-        "trendingScore": 443
+        "trendingScore": 448
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T03:05:06.000Z",
@@ -1099,9 +1110,9 @@
         "conversational"
       ],
       "metrics": {
-        "likes": 426,
+        "likes": 430,
         "downloads": 682188,
-        "trendingScore": 411
+        "trendingScore": 415
       },
       "source": "hf-models",
       "publishedAt": "2026-08-10T09:11:29.000Z",
@@ -1142,7 +1153,7 @@
       "url": "https://huggingface.co/papers/2608.08020",
       "tags": [],
       "metrics": {
-        "upvotes": 4,
+        "upvotes": 5,
         "comments": 2,
         "githubStars": 3
       },
@@ -1186,7 +1197,7 @@
       "url": "https://huggingface.co/papers/2608.13391",
       "tags": [],
       "metrics": {
-        "upvotes": 4,
+        "upvotes": 5,
         "comments": 2
       },
       "source": "hf-papers",
