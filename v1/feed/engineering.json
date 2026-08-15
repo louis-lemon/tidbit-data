@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "engineering",
-  "generatedAt": "2026-08-15T18:32:14.982Z",
+  "generatedAt": "2026-08-15T21:22:40.388Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,7 +13,7 @@
       "lang": "Swift",
       "tags": [],
       "metrics": {
-        "stars": 10250,
+        "stars": 10286,
         "starsDelta": 165
       },
       "source": "github-trending",
@@ -30,7 +30,7 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 10805,
+        "stars": 10896,
         "starsDelta": 546
       },
       "source": "github-trending",
@@ -365,7 +365,7 @@
       "id": "gh:plwslpld-arch/deepseek-harness-internals",
       "type": "repo",
       "title": "plwslpld-arch/deepseek-harness-internals",
-      "summaryOriginal": "DeepSeek Harness 中文源码、架构、插件生态与持续更新知识库",
+      "summaryOriginal": "DeepSeek Harness (dsh) 中文源码分析：prompt 怎么拼、KV-cache 怎么守、循环与工具怎么跑，并与 Claude Code / Codex / OpenCode / pi / mini-swe-agent 逐机制对照",
       "url": "https://github.com/plwslpld-arch/deepseek-harness-internals",
       "lang": "JavaScript",
       "tags": [
@@ -387,7 +387,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T18:19:20Z",
-      "updatedAt": "2026-08-15T13:03:26Z",
+      "updatedAt": "2026-08-15T18:58:22Z",
       "categories": [
         "engineering"
       ]
@@ -472,6 +472,27 @@
       ]
     },
     {
+      "id": "gh:kodaimura/humq",
+      "type": "repo",
+      "title": "kodaimura/humq",
+      "summaryOriginal": "Designing chaos in software architecture.",
+      "url": "https://github.com/kodaimura/humq",
+      "tags": [
+        "layered-architecture",
+        "maintainability",
+        "software-architecture"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-11T13:22:07Z",
+      "updatedAt": "2026-08-11T15:57:47Z",
+      "categories": [
+        "engineering"
+      ]
+    },
+    {
       "id": "gh:qinyu765/evolve-software-architecture",
       "type": "repo",
       "title": "qinyu765/evolve-software-architecture",
@@ -509,22 +530,31 @@
       ]
     },
     {
-      "id": "gh:kodaimura/humq",
+      "id": "gh:sujithgnth/engineering-observatory",
       "type": "repo",
-      "title": "kodaimura/humq",
-      "summaryOriginal": "Designing chaos in software architecture.",
-      "url": "https://github.com/kodaimura/humq",
+      "title": "sujithgnth/engineering-observatory",
+      "summaryOriginal": "Work in progress — evidence-first architecture, risk, and performance analysis for TypeScript repositories.",
+      "url": "https://github.com/sujithgnth/engineering-observatory",
+      "lang": "TypeScript",
       "tags": [
-        "layered-architecture",
-        "maintainability",
-        "software-architecture"
+        "angular",
+        "developer-tools",
+        "electron",
+        "nestjs",
+        "nx",
+        "postgresql",
+        "react",
+        "software-architecture",
+        "static-analysis",
+        "typescript",
+        "work-in-progress"
       ],
       "metrics": {
         "stars": 1
       },
       "source": "github-search",
-      "publishedAt": "2026-08-11T13:22:07Z",
-      "updatedAt": "2026-08-11T15:57:47Z",
+      "publishedAt": "2026-08-15T19:10:56Z",
+      "updatedAt": "2026-08-15T21:21:28Z",
       "categories": [
         "engineering"
       ]
@@ -895,6 +925,38 @@
       ]
     },
     {
+      "id": "gh:luismasuarez/harness-factory",
+      "type": "repo",
+      "title": "luismasuarez/harness-factory",
+      "summaryOriginal": "Standard architecture for coding-agent workflows: a natural-language intent becomes a versioned harness (orchestrator + skill-based experts + executor) with a safety runtime — baseline gates, human approval, slices. A Mixture-of-Experts factory for opencode.",
+      "url": "https://github.com/luismasuarez/harness-factory",
+      "tags": [
+        "agent-orchestration",
+        "agent-skills",
+        "agents",
+        "ai-agents",
+        "cli",
+        "coding-agents",
+        "ddd",
+        "developer-tools",
+        "llm",
+        "mixture-of-experts",
+        "multi-agent",
+        "opencode",
+        "skills",
+        "software-architecture"
+      ],
+      "metrics": {
+        "stars": 0
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T02:38:48Z",
+      "updatedAt": "2026-08-14T04:03:14Z",
+      "categories": [
+        "engineering"
+      ]
+    },
+    {
       "id": "gh:yossefebrahim/adr-scribe-skills",
       "type": "repo",
       "title": "yossefebrahim/adr-scribe-skills",
@@ -919,56 +981,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-11T17:19:21Z",
       "updatedAt": "2026-08-12T22:36:25Z",
-      "categories": [
-        "engineering"
-      ]
-    },
-    {
-      "id": "gh:FajrOmar/laundry-pickup-system",
-      "type": "repo",
-      "title": "FajrOmar/laundry-pickup-system",
-      "summaryOriginal": "A Software Engineering project for designing a Laundry Pickup System, covering functional and non-functional requirements, use-case analysis, system modeling, behavioral diagrams, and client-server architecture.",
-      "url": "https://github.com/FajrOmar/laundry-pickup-system",
-      "tags": [
-        "class-diagram",
-        "client-server",
-        "laundry-management",
-        "requirements-engineering",
-        "sequence-diagram",
-        "software-architecture",
-        "software-engineering",
-        "state-diagram",
-        "system-analysis",
-        "system-design",
-        "uml",
-        "use-case"
-      ],
-      "metrics": {
-        "stars": 0
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-10T18:09:25Z",
-      "updatedAt": "2026-08-10T18:11:51Z",
-      "categories": [
-        "engineering"
-      ]
-    },
-    {
-      "id": "gh:mxagar/software_architecture_guide",
-      "type": "repo",
-      "title": "mxagar/software_architecture_guide",
-      "summaryOriginal": "Personal notes on Software Architecture",
-      "url": "https://github.com/mxagar/software_architecture_guide",
-      "tags": [
-        "desing-patterns",
-        "software-architecture"
-      ],
-      "metrics": {
-        "stars": 0
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-10T17:05:23Z",
-      "updatedAt": "2026-08-10T17:21:58Z",
       "categories": [
         "engineering"
       ]
@@ -1140,7 +1152,7 @@
         "system-mapping"
       ],
       "metrics": {
-        "stars": 720
+        "stars": 721
       },
       "source": "github-search",
       "publishedAt": "2026-03-03T04:48:38Z",
@@ -1251,7 +1263,7 @@
         "static-analysis"
       ],
       "metrics": {
-        "stars": 12
+        "stars": 13
       },
       "source": "github-search",
       "publishedAt": "2026-08-09T05:49:27Z",

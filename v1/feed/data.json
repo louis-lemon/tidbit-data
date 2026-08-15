@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "data",
-  "generatedAt": "2026-08-15T18:32:14.982Z",
+  "generatedAt": "2026-08-15T21:22:40.388Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,7 +13,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 1560,
+        "stars": 1604,
         "starsDelta": 303
       },
       "source": "github-trending",
@@ -87,7 +87,7 @@
       },
       "source": "github-search",
       "publishedAt": "2013-06-17T18:39:10Z",
-      "updatedAt": "2026-08-15T18:30:53Z",
+      "updatedAt": "2026-08-15T21:02:25Z",
       "categories": [
         "ai-models",
         "infra",
@@ -162,7 +162,7 @@
         "superset"
       ],
       "metrics": {
-        "stars": 74267
+        "stars": 74270
       },
       "source": "github-search",
       "publishedAt": "2015-07-21T18:55:34Z",
@@ -202,7 +202,7 @@
         "vue"
       ],
       "metrics": {
-        "stars": 37404
+        "stars": 37406
       },
       "source": "github-search",
       "publishedAt": "2012-12-12T01:35:36Z",
@@ -438,11 +438,11 @@
         "raft"
       ],
       "metrics": {
-        "stars": 52125
+        "stars": 52127
       },
       "source": "github-search",
       "publishedAt": "2013-07-06T21:57:21Z",
-      "updatedAt": "2026-08-15T07:23:21Z",
+      "updatedAt": "2026-08-15T20:50:28Z",
       "categories": [
         "infra",
         "data"
@@ -478,7 +478,7 @@
         "workflow"
       ],
       "metrics": {
-        "stars": 27812
+        "stars": 27814
       },
       "source": "github-search",
       "publishedAt": "2019-08-24T13:56:15Z",
@@ -584,7 +584,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-15T04:53:19Z",
-      "updatedAt": "2026-08-15T11:21:23Z",
+      "updatedAt": "2026-08-15T19:35:47Z",
       "categories": [
         "data"
       ]
@@ -711,6 +711,39 @@
       ]
     },
     {
+      "id": "gh:rostamlabs/rostam",
+      "type": "repo",
+      "title": "rostamlabs/rostam",
+      "summaryOriginal": "Open-source vector database and sub-microsecond key-value store in one Go engine — embed it as a library, run it standalone, or replicate it across a Raft cluster. HNSW/IVF/Vamana indexes, quantization, hybrid dense+sparse and BM25 search, WASM stored procedures. Apache-2.0.",
+      "url": "https://github.com/rostamlabs/rostam",
+      "lang": "Go",
+      "tags": [
+        "bm25",
+        "database",
+        "distributed-systems",
+        "embeddings",
+        "hnsw",
+        "hybrid-search",
+        "key-value-store",
+        "llm",
+        "mcp",
+        "quantization",
+        "raft",
+        "rag",
+        "vector-database",
+        "vector-search"
+      ],
+      "metrics": {
+        "stars": 2
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-10T22:22:24Z",
+      "updatedAt": "2026-08-15T21:09:06Z",
+      "categories": [
+        "data"
+      ]
+    },
+    {
       "id": "gh:prerna-sharma-only/readora-book-notes",
       "type": "repo",
       "title": "prerna-sharma-only/readora-book-notes",
@@ -792,30 +825,6 @@
       ]
     },
     {
-      "id": "gh:STARDUSTLC666/dsh-sql",
-      "type": "repo",
-      "title": "STARDUSTLC666/dsh-sql",
-      "summaryOriginal": "DeepSeek Harness 工程师级数据库插件：sql_list/query/exec/schema 四工具，SQLite/MySQL/PostgreSQL 三引擎、只读白名单、写审批门、行数钳制。· Databases for DeepSeek Harness agents.",
-      "url": "https://github.com/STARDUSTLC666/dsh-sql",
-      "lang": "TypeScript",
-      "tags": [
-        "database",
-        "deepseek-harness",
-        "dsh-plugin",
-        "sql",
-        "sqlite"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T21:13:21Z",
-      "updatedAt": "2026-08-15T18:05:28Z",
-      "categories": [
-        "data"
-      ]
-    },
-    {
       "id": "gh:engr-rabbi/ml-handbook",
       "type": "repo",
       "title": "engr-rabbi/ml-handbook",
@@ -874,6 +883,30 @@
       "source": "github-search",
       "publishedAt": "2026-08-10T12:21:54Z",
       "updatedAt": "2026-08-15T07:35:17Z",
+      "categories": [
+        "data"
+      ]
+    },
+    {
+      "id": "gh:STARDUSTLC666/dsh-sql",
+      "type": "repo",
+      "title": "STARDUSTLC666/dsh-sql",
+      "summaryOriginal": "DeepSeek Harness 工程师级数据库插件：sql_list/query/exec/schema 四工具，SQLite/MySQL/PostgreSQL 三引擎、只读白名单、写审批门、行数钳制。· Databases for DeepSeek Harness agents.",
+      "url": "https://github.com/STARDUSTLC666/dsh-sql",
+      "lang": "TypeScript",
+      "tags": [
+        "database",
+        "deepseek-harness",
+        "dsh-plugin",
+        "sql",
+        "sqlite"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T21:13:21Z",
+      "updatedAt": "2026-08-15T19:46:08Z",
       "categories": [
         "data"
       ]
@@ -953,6 +986,31 @@
       ]
     },
     {
+      "id": "gh:alsabai2004/Banking-System-Oracle-PLSQL",
+      "type": "repo",
+      "title": "alsabai2004/Banking-System-Oracle-PLSQL",
+      "summaryOriginal": "Oracle PL/SQL Banking System demonstrating database programming, procedures, functions, transactions, and banking operations.",
+      "url": "https://github.com/alsabai2004/Banking-System-Oracle-PLSQL",
+      "lang": "PLSQL",
+      "tags": [
+        "banking-system",
+        "database",
+        "database-programming",
+        "oracle",
+        "plsql",
+        "sql"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-12T21:02:37Z",
+      "updatedAt": "2026-08-15T03:35:18Z",
+      "categories": [
+        "data"
+      ]
+    },
+    {
       "id": "gh:pivi-odoo/pg-llm-wiki",
       "type": "repo",
       "title": "pivi-odoo/pg-llm-wiki",
@@ -1005,31 +1063,6 @@
       ]
     },
     {
-      "id": "gh:alsabai2004/Banking-System-Oracle-PLSQL",
-      "type": "repo",
-      "title": "alsabai2004/Banking-System-Oracle-PLSQL",
-      "summaryOriginal": "Oracle PL/SQL Banking System demonstrating database programming, procedures, functions, transactions, and banking operations.",
-      "url": "https://github.com/alsabai2004/Banking-System-Oracle-PLSQL",
-      "lang": "PLSQL",
-      "tags": [
-        "banking-system",
-        "database",
-        "database-programming",
-        "oracle",
-        "plsql",
-        "sql"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-12T21:02:37Z",
-      "updatedAt": "2026-08-15T03:35:18Z",
-      "categories": [
-        "data"
-      ]
-    },
-    {
       "id": "gh:alsabai2004/ClinicAppointmentSystem",
       "type": "repo",
       "title": "alsabai2004/ClinicAppointmentSystem",
@@ -1049,6 +1082,31 @@
       "source": "github-search",
       "publishedAt": "2026-08-09T17:21:43Z",
       "updatedAt": "2026-08-15T03:35:21Z",
+      "categories": [
+        "data"
+      ]
+    },
+    {
+      "id": "gh:HelgeSverre/fsdb",
+      "type": "repo",
+      "title": "HelgeSverre/fsdb",
+      "summaryOriginal": "A MySQL-compatible database server in idiomatic F# — wire protocol, FParsec SQL grammar, DU-based relational algebra, SQLite-style function registration",
+      "url": "https://github.com/HelgeSverre/fsdb",
+      "lang": "F#",
+      "tags": [
+        "database",
+        "dotnet",
+        "fsharp",
+        "mysql",
+        "sql",
+        "wire-protocol"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T21:18:24Z",
+      "updatedAt": "2026-08-15T21:05:32Z",
       "categories": [
         "data"
       ]
@@ -1104,7 +1162,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T15:26:33Z",
-      "updatedAt": "2026-08-15T18:15:43Z",
+      "updatedAt": "2026-08-15T19:21:34Z",
       "categories": [
         "data"
       ]
@@ -1208,53 +1266,6 @@
       ]
     },
     {
-      "id": "gh:Manish-262/sql-learning",
-      "type": "repo",
-      "title": "Manish-262/sql-learning",
-      "summaryOriginal": "SQL concepts, queries, and practice problems learned throughout my SQL learning journey.",
-      "url": "https://github.com/Manish-262/sql-learning",
-      "lang": "TSQL",
-      "tags": [
-        "data-analysis",
-        "database",
-        "sql"
-      ],
-      "metrics": {
-        "stars": 0
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T08:16:44Z",
-      "updatedAt": "2026-08-11T08:31:54Z",
-      "categories": [
-        "data"
-      ]
-    },
-    {
-      "id": "gh:martin-k-m/quarry",
-      "type": "repo",
-      "title": "martin-k-m/quarry",
-      "summaryOriginal": "A SQL query engine over CSV files, in Python. Standard library only.",
-      "url": "https://github.com/martin-k-m/quarry",
-      "lang": "Python",
-      "tags": [
-        "csv",
-        "data-engineering",
-        "database",
-        "python",
-        "query-engine",
-        "sql"
-      ],
-      "metrics": {
-        "stars": 0
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T14:21:07Z",
-      "updatedAt": "2026-08-13T11:57:39Z",
-      "categories": [
-        "data"
-      ]
-    },
-    {
       "id": "gh:supabase/supabase",
       "type": "repo",
       "title": "supabase/supabase",
@@ -1283,7 +1294,7 @@
         "websockets"
       ],
       "metrics": {
-        "stars": 108018
+        "stars": 108021
       },
       "source": "github-search",
       "publishedAt": "2019-10-12T05:56:49Z",
@@ -1322,7 +1333,7 @@
         "vector-search"
       ],
       "metrics": {
-        "stars": 76019
+        "stars": 76022
       },
       "source": "github-search",
       "publishedAt": "2009-03-21T22:32:25Z",
@@ -1359,7 +1370,7 @@
         "sqlserver"
       ],
       "metrics": {
-        "stars": 51439
+        "stars": 51438
       },
       "source": "github-search",
       "publishedAt": "2015-10-21T08:26:28Z",
@@ -1399,7 +1410,7 @@
       },
       "source": "github-search",
       "publishedAt": "2016-06-02T08:28:18Z",
-      "updatedAt": "2026-08-15T18:32:47Z",
+      "updatedAt": "2026-08-15T21:21:10Z",
       "categories": [
         "data"
       ]
@@ -1432,11 +1443,11 @@
         "visualization"
       ],
       "metrics": {
-        "stars": 48773
+        "stars": 48774
       },
       "source": "github-search",
       "publishedAt": "2015-02-02T19:25:47Z",
-      "updatedAt": "2026-08-15T14:53:15Z",
+      "updatedAt": "2026-08-15T21:05:10Z",
       "categories": [
         "data"
       ]
