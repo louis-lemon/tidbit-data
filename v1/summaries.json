@@ -1,6 +1,213 @@
 {
   "_owner": "PC 요약 워커(services/summarizer)만 쓴다. 수집기·어드민은 읽기 전용. 상세는 README.md",
   "version": 1,
-  "updatedAt": "2026-08-14T07:00:32Z",
-  "summaries": {}
+  "updatedAt": "2026-08-15T00:55:10.458Z",
+  "summaries": {
+    "gh:macro-inc/macro": {
+      "summaryEn": "Unified team workspace: email, chat, docs, tasks, agents, calls, and CRM linked together with shared AI memory.",
+      "summaryKo": "이메일·채팅·문서·작업·에이전트·통화·CRM을 공유 AI 메모리로 연결한 팀 통합 워크스페이스",
+      "reasonEn": "Fast-growing all-in-one workspace repo, gaining stars quickly.",
+      "reasonKo": "스타 435 증가, 올인원 워크스페이스로 빠르게 성장"
+    },
+    "gh:citrolabs/ego-lite": {
+      "summaryEn": "Browser built for AI agents to automate tasks, sharing your logged-in session with tools like Codex or Claude Code.",
+      "summaryKo": "Codex나 Claude Code 같은 AI 에이전트가 로그인된 브라우저 상태를 그대로 공유해 자동화하는 브라우저",
+      "reasonEn": "Free, zero-config; steady growth from agent-browsing use cases.",
+      "reasonKo": "무료·제로설정, 에이전트 브라우징 수요로 꾸준한 스타 증가"
+    },
+    "gh:holaboss-ai/holaOS": {
+      "summaryEn": "All-in-one workspace to run agents like Claude Code or Codex across 100+ tools, apps, browser, and files.",
+      "summaryKo": "Claude Code, Codex 등 에이전트를 100개 이상 도구·앱·브라우저·파일에서 공유 메모리로 실행하는 통합 워크스페이스",
+      "reasonEn": "Star delta 769 — fast growth as an agent-orchestration hub.",
+      "reasonKo": "스타 769 증가, 에이전트 통합 허브로 빠르게 성장"
+    },
+    "gh:lightningpixel/modly": {
+      "summaryEn": "Desktop app that generates 3D models from images or text prompts using local AI on your GPU.",
+      "summaryKo": "이미지나 프롬프트로 3D 모델을 생성하는 데스크톱 앱, GPU에서 로컬 실행",
+      "reasonEn": "580 new stars — local-first 3D generation catching interest.",
+      "reasonKo": "스타 580 증가, 로컬 3D 생성 도구로 주목"
+    },
+    "gh:infiniflow/ragflow": {
+      "summaryEn": "Open-source RAG engine combining retrieval-augmented generation with agent capabilities for LLM context.",
+      "summaryKo": "검색증강생성(RAG)과 에이전트 기능을 결합한 대표 오픈소스 RAG 엔진",
+      "reasonEn": "Already 88k+ stars; still adding hundreds more weekly.",
+      "reasonKo": "8만8천+ 스타에도 매주 수백 개씩 추가 증가"
+    },
+    "gh:deepseek-ai/awesome-deepseek-agent": {
+      "summaryEn": "Curated list of DeepSeek agent projects, tools, and resources.",
+      "summaryKo": "DeepSeek 에이전트 프로젝트·도구·자료를 정리한 큐레이션 리스트",
+      "reasonEn": "Gaining stars fast as DeepSeek's agent ecosystem grows.",
+      "reasonKo": "DeepSeek 에이전트 생태계 성장에 힘입어 스타 급증"
+    },
+    "gh:ToolJet/ToolJet": {
+      "summaryEn": "Open-source low-code platform for building internal tools, dashboards, workflows, and AI agents.",
+      "summaryKo": "내부 도구·대시보드·워크플로우·AI 에이전트를 만드는 오픈소스 로우코드 플랫폼",
+      "reasonEn": "39k+ stars, adding 300+ more — steady low-code growth.",
+      "reasonKo": "3만9천+ 스타, 로우코드 플랫폼 꾸준한 성장세"
+    },
+    "gh:iOfficeAI/OfficeCLI": {
+      "summaryEn": "CLI Office suite letting AI agents read, edit, and automate Word, Excel, and PowerPoint files, no Office needed.",
+      "summaryKo": "AI 에이전트가 Office 설치 없이 Word·Excel·PowerPoint 파일을 읽고 편집·자동화하는 CLI"
+    },
+    "gh:calesthio/OpenMontage": {
+      "summaryEn": "Open-source agentic video production system turning AI coding assistants into a full video studio.",
+      "summaryKo": "AI 코딩 어시스턴트를 완전한 영상 제작 스튜디오로 바꾸는 오픈소스 에이전틱 영상 제작 시스템"
+    },
+    "gh:diegosouzapw/OmniRoute": {
+      "summaryEn": "Free AI gateway: one endpoint for 330+ providers and 1200+ models with auto-fallback and token-saving compression.",
+      "summaryKo": "330개 이상 제공자·1200개 이상 모델을 하나의 엔드포인트로 묶은 무료 AI 게이트웨이"
+    },
+    "gh:herdrdev/herdr": {
+      "summaryEn": "Terminal runtime and multiplexer for running and managing multiple coding agents together.",
+      "summaryKo": "여러 코딩 에이전트를 함께 실행·관리하는 터미널 런타임 겸 멀티플렉서"
+    },
+    "gh:GanyuanRan/Aegis": {
+      "summaryEn": "Keeps AI coding agents architecture-aware with baseline-first, evidence-verified, drift-checked guardrails.",
+      "summaryKo": "긴 작업에서 AI 코딩 에이전트가 아키텍처를 인지하도록 베이스라인·근거·드리프트를 검증"
+    },
+    "gh:elie222/rakazo": {
+      "summaryEn": "Open-source alternative to Grok's coding bot — pick your own model and sandbox.",
+      "summaryKo": "Grok 봇의 오픈소스 대안, 모델과 샌드박스를 직접 선택"
+    },
+    "gh:0xsline/awesome-deepseek-harness": {
+      "summaryEn": "Curated hub of plugins, tools, and infrastructure for the DeepSeek Harness (DSH) ecosystem.",
+      "summaryKo": "DeepSeek Harness(DSH) 생태계 플러그인·도구·인프라를 정리한 큐레이션 허브"
+    },
+    "gh:i3T4AN/KADATH": {
+      "summaryEn": "Evolutionary runtime that breeds and evaluates autonomous agents across epochs to optimize toward a goal.",
+      "summaryKo": "여러 세대(epoch)에 걸쳐 자율 에이전트를 교배·평가·개선하는 진화형 멀티에이전트 런타임"
+    },
+    "gh:TencentCloud/TencentDB-Agent-Memory": {
+      "summaryEn": "Team memory hub for AI agents — turns chats, docs, and code into shared, governed memory assets.",
+      "summaryKo": "대화·문서·코드를 공유 가능한 메모리 자산으로 바꾸는 AI 에이전트용 팀 메모리 허브",
+      "reasonEn": "Just 6 stars but a high trending score — early buzz.",
+      "reasonKo": "스타 6개뿐이지만 트렌딩 점수 높아 신규 주목"
+    },
+    "gh:Devin-AXIS/iPolloWork": {
+      "summaryEn": "Source-available, local-first alternative to Codex and Claude Code for code, docs, design, and video work.",
+      "summaryKo": "Codex·Claude Code 대안, 코드부터 문서·디자인·영상까지 다루는 로컬 우선 셀프호스팅 에이전트 워크스페이스",
+      "reasonEn": "Small and new, but trending score signals early momentum.",
+      "reasonKo": "작고 신규지만 트렌딩 점수로 초기 관심 신호"
+    },
+    "gh:vercel-labs/deepsec": {
+      "summaryEn": "Security harness that uses coding agents to find vulnerabilities in your codebase.",
+      "summaryKo": "코딩 에이전트로 코드베이스 취약점을 찾는 보안 검사 하네스",
+      "reasonEn": "New Vercel Labs repo already gaining trending attention.",
+      "reasonKo": "Vercel Labs발 신규 저장소, 트렌딩 점수로 주목"
+    },
+    "gh:PrimeIntellect-ai/prime-agent": {
+      "summaryEn": "Self-improving agent for coding workflows and long-running autonomous tasks.",
+      "summaryKo": "코딩 워크플로우와 장시간 자율 작업을 위한 자기개선형 에이전트",
+      "reasonEn": "14 pushes despite few stars — active early-stage momentum.",
+      "reasonKo": "커밋 14회로 활발, 스타는 적지만 초기 성장세"
+    },
+    "gh:whiteguo233/OpenBiliClaw": {
+      "summaryEn": "Local-first AI agent that learns your taste, then finds content for you across Bilibili, YouTube, X, and Reddit.",
+      "summaryKo": "사용자 취향을 학습해 빌리빌리·유튜브·X·레딧 등에서 콘텐츠를 찾아주는 로컬 우선 AI 에이전트"
+    },
+    "gh:HKUDS/CLI-Anything": {
+      "summaryEn": "Toolkit aiming to make any software agent-native via a CLI-first hub.",
+      "summaryKo": "모든 소프트웨어를 에이전트 친화적으로 만드는 CLI 허브"
+    },
+    "gh:yc-software/qm": {
+      "summaryEn": "Multiplayer harness for coordinating multiple coding agents working together.",
+      "summaryKo": "여러 코딩 에이전트가 함께 일하도록 조율하는 멀티플레이어 하네스",
+      "reasonEn": "23 pushes, active PRs — small but fast-moving project.",
+      "reasonKo": "푸시 23회·PR 활발, 작지만 빠르게 움직이는 프로젝트"
+    },
+    "gh:multica-ai/multica": {
+      "summaryEn": "Open-source platform to manage coding agents as teammates — assign tasks, track progress, compound skills.",
+      "summaryKo": "코딩 에이전트를 팀원처럼 관리하는 오픈소스 플랫폼, 작업 배정·진행 추적·스킬 축적"
+    },
+    "gh:openJiuwen-ai/jiuwenswarm": {
+      "summaryEn": "AI agent built on openJiuwen that extends LLM capabilities into everyday messaging apps.",
+      "summaryKo": "openJiuwen 기반 에이전트, LLM 기능을 일상 메신저 앱까지 확장"
+    },
+    "gh:Paritok-official/paritok-4b-v1": {
+      "summaryEn": "First open-source compression model built specifically for coding agents, 4B parameters, Apache 2.0.",
+      "summaryKo": "코딩 에이전트 전용으로 훈련된 최초의 오픈소스 압축 모델, 4B, Apache 2.0"
+    },
+    "hf-model:Qwen/Qwen3.8-27B": {
+      "summaryEn": "Qwen's 27B multimodal model for image-and-text-to-text tasks and conversation.",
+      "summaryKo": "이미지·텍스트를 함께 처리하는 Qwen의 27B 멀티모달 대화 모델",
+      "reasonEn": "Trending score and likes spike despite near-zero downloads.",
+      "reasonKo": "다운로드는 적지만 트렌딩 점수·좋아요 급증, 신규 공개 화제"
+    },
+    "hf-model:meta-models/Muse-Glimmer-30B": {
+      "summaryEn": "Meta's 30B multimodal model for image-and-text-to-text conversational tasks.",
+      "summaryKo": "이미지와 텍스트를 함께 처리하는 메타의 30B 멀티모달 대화 모델",
+      "reasonEn": "High downloads and trending score for a fresh Meta release.",
+      "reasonKo": "다운로드·트렌딩 점수 모두 높은 메타의 신규 멀티모달 공개"
+    },
+    "hf-model:Qwen/Qwen3.8-2.4T-A95B": {
+      "summaryEn": "Qwen's large mixture-of-experts text-generation model for conversational use.",
+      "summaryKo": "Qwen의 대형 MoE 텍스트 생성·대화 모델",
+      "reasonEn": "New large MoE release drawing early likes and downloads.",
+      "reasonKo": "대형 MoE 신규 공개로 좋아요·다운로드 초기 상승"
+    },
+    "hf-model:MiniMaxAI/MiniMax-H3": {
+      "summaryEn": "MiniMax's multimodal model generating synchronized audio and video from text, image, or video input.",
+      "summaryKo": "텍스트·이미지·영상 입력으로 동기화된 오디오·비디오를 생성하는 미니맥스 멀티모달 모델",
+      "reasonEn": "Nearly 2M downloads — strong adoption for audio-video generation.",
+      "reasonKo": "다운로드 200만 육박, 오디오-비디오 생성 강한 채택"
+    },
+    "hf-model:unsloth/Qwen3.8-27B-GGUF": {
+      "summaryEn": "GGUF-quantized version of Qwen's 27B model for running locally with tools like llama.cpp.",
+      "summaryKo": "llama.cpp 등으로 로컬 실행 가능한 Qwen 27B 모델의 GGUF 양자화 버전",
+      "reasonEn": "New quantized build riding the base Qwen3.8-27B release.",
+      "reasonKo": "기반 Qwen3.8-27B 공개에 편승한 신규 양자화 빌드"
+    },
+    "hf-model:Lightricks/LTX-2.5": {
+      "summaryEn": "Lightricks' video generation model supporting image-to-video, text-to-video, and audio-video generation.",
+      "summaryKo": "이미지·텍스트·오디오를 영상으로 변환하는 라이트릭스의 비디오 생성 모델",
+      "reasonEn": "Active downloads for a fresh release in Lightricks' LTX line.",
+      "reasonKo": "라이트릭스 LTX 비디오 라인 신규 공개, 다운로드 활발"
+    },
+    "hf-model:MiniMaxAI/MiniMax-Music3": {
+      "summaryEn": "MiniMax's text-to-music generation model for producing audio from text prompts.",
+      "summaryKo": "텍스트 프롬프트로 음악을 만드는 미니맥스의 텍스트투뮤직 모델",
+      "reasonEn": "New music-generation release picking up early likes.",
+      "reasonKo": "신규 음악 생성 모델, 초기 좋아요 상승"
+    },
+    "hf-model:deepseek-ai/DeepSeek-V4-Flash-0731": {
+      "summaryEn": "Fast, lightweight variant of DeepSeek's V4 text-generation model, deployable on Azure.",
+      "summaryKo": "Azure 배포 가능한 DeepSeek V4의 가볍고 빠른 텍스트 생성 모델",
+      "reasonEn": "1.6M+ downloads — DeepSeek V4 line seeing heavy adoption.",
+      "reasonKo": "다운로드 160만+, DeepSeek V4 라인 강한 채택"
+    },
+    "hf-model:deepseek-ai/DeepSeek-V4-Pro-0813": {
+      "summaryEn": "Higher-capability Pro variant of DeepSeek's V4 text-generation model.",
+      "summaryKo": "DeepSeek V4의 상위 성능 Pro 텍스트 생성 모델",
+      "reasonEn": "Fresh Pro release of DeepSeek V4, early likes coming in.",
+      "reasonKo": "DeepSeek V4 신규 Pro 공개, 좋아요 초기 유입"
+    },
+    "hf-model:unsloth/Muse-Glimmer-30B-GGUF": {
+      "summaryEn": "GGUF-quantized version of Meta's Muse-Glimmer-30B model for local inference.",
+      "summaryKo": "로컬 추론용 메타 Muse-Glimmer-30B 모델의 GGUF 양자화 버전",
+      "reasonEn": "Nearly 600k downloads — popular quantized build for local use.",
+      "reasonKo": "다운로드 60만 육박, 로컬용 양자화 빌드로 인기"
+    },
+    "hf-paper:2608.02870": {
+      "summaryEn": "Recurrent Transformer with fixed-size memory that generalizes sliding-window attention while staying parallelizable to train.",
+      "summaryKo": "학습 시 병렬화를 유지하면서 슬라이딩 윈도우 어텐션을 일반화한 고정 크기 메모리 순환 트랜스포머"
+    },
+    "hf-paper:2608.08020": {
+      "summaryEn": "Formalizes test-time reasoning as a compute-allocation problem, searching reasoning trajectories at the thought level.",
+      "summaryKo": "테스트 시점 추론을 부분 경로 단위 연산 배분 문제로 정식화해 사고 단위로 탐색",
+      "reasonEn": "Paired with a small but growing GitHub implementation.",
+      "reasonKo": "작지만 성장 중인 GitHub 구현체 동반"
+    },
+    "hf-paper:2608.06914": {
+      "summaryEn": "Detects rib fractures in CT scans by pairing findings across two projections and triangulating them in 3D.",
+      "summaryKo": "CT 유래 두 방향 투영에서 갈비뼈 골절을 찾아 짝짓고 3D로 삼각측량하는 방법"
+    },
+    "hf-paper:2608.13391": {
+      "summaryEn": "Distillation method for autoregressive video generation that preserves causal, low-latency online control.",
+      "summaryKo": "인과적 저지연 온라인 제어를 유지하며 자기회귀 영상 생성을 가속하는 증류 기법"
+    },
+    "hf-paper:2608.09158": {
+      "summaryEn": "Shows that low-frequency audio inaudible to humans can still influence and break audio-language models.",
+      "summaryKo": "사람에게 들리지 않는 저주파 오디오 입력이 오디오-언어모델을 오작동시킬 수 있음을 보인 연구"
+    }
+  }
 }
