@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "engineering",
-  "generatedAt": "2026-08-15T06:40:59.329Z",
+  "generatedAt": "2026-08-15T09:27:18.163Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,7 +13,7 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 10487,
+        "stars": 10542,
         "starsDelta": 165
       },
       "source": "github-trending",
@@ -25,45 +25,6 @@
         "ai-agents",
         "web",
         "engineering"
-      ]
-    },
-    {
-      "id": "gh:GanyuanRan/Aegis",
-      "type": "repo",
-      "title": "GanyuanRan/Aegis",
-      "summaryOriginal": "Make AI coding agents architecture-aware: baseline-first, evidence-verified, drift-checked, and safe across long tasks.",
-      "url": "https://github.com/GanyuanRan/Aegis",
-      "lang": "Python",
-      "tags": [
-        "agent-skills",
-        "ai-agents",
-        "ai-coding",
-        "architecture-driven-development",
-        "awsome-coding-plugin",
-        "baseline-first",
-        "claude-code",
-        "codex",
-        "coding-agents",
-        "dive",
-        "dsh-plugin",
-        "evidence-driven",
-        "first-principles",
-        "opencode",
-        "software-architecture",
-        "spec-driven-development",
-        "spec-kit"
-      ],
-      "metrics": {
-        "stars": 1007
-      },
-      "source": "github-search",
-      "publishedAt": "2026-04-30T17:40:49Z",
-      "updatedAt": "2026-08-15T00:15:11Z",
-      "summaryEn": "Keeps AI coding agents architecture-aware with baseline-first, evidence-verified, drift-checked guardrails.",
-      "summaryKo": "긴 작업에서 AI 코딩 에이전트가 아키텍처를 인지하도록 베이스라인·근거·드리프트를 검증",
-      "categories": [
-        "engineering",
-        "ai-agents"
       ]
     },
     {
@@ -252,7 +213,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T16:29:48Z",
-      "updatedAt": "2026-08-12T06:36:31Z",
+      "updatedAt": "2026-08-15T08:44:02Z",
       "categories": [
         "engineering"
       ]
@@ -372,7 +333,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T18:19:20Z",
-      "updatedAt": "2026-08-15T01:54:35Z",
+      "updatedAt": "2026-08-15T07:02:28Z",
       "categories": [
         "engineering"
       ]
@@ -571,29 +532,38 @@
       ]
     },
     {
-      "id": "gh:melih-ilgen/static-analysis-dashboard",
+      "id": "gh:taovietducofficial/OOP-Junior",
       "type": "repo",
-      "title": "melih-ilgen/static-analysis-dashboard",
-      "summaryOriginal": "An extended enterprise web application for static code analysis built with Java 21, Spring Boot 7, and Thymeleaf. Demonstrates sd&m layered architecture, high test & mutation coverage, and automated quality gates.",
-      "url": "https://github.com/melih-ilgen/static-analysis-dashboard",
+      "title": "taovietducofficial/OOP-Junior",
+      "summaryOriginal": "OOP-Junior is the next level after OOP-Student, advancing Object-Oriented Programming through practical design, SOLID, Clean Code, Design Patterns, testing, and software architecture with Java, C++, and Python.",
+      "url": "https://github.com/taovietducofficial/OOP-Junior",
       "lang": "Java",
       "tags": [
+        "advanced-oop",
         "clean-code",
-        "java-21",
-        "junit5",
-        "pitest",
-        "plantuml",
+        "cplusplus",
+        "cpp",
+        "dependency-injection",
+        "dependency-inversion",
+        "design-patterns",
+        "domain-driven-design",
+        "java",
+        "object-oriented-programming",
+        "oop",
+        "oop-junior",
+        "python",
         "software-architecture",
-        "spring-boot",
-        "static-code-analysis",
-        "thymeleaf-spring"
+        "software-design",
+        "solid",
+        "testability",
+        "unit-testing"
       ],
       "metrics": {
         "stars": 0
       },
       "source": "github-search",
-      "publishedAt": "2026-08-12T03:47:45Z",
-      "updatedAt": "2026-08-12T04:04:55Z",
+      "publishedAt": "2026-08-15T07:51:22Z",
+      "updatedAt": "2026-08-15T07:51:59Z",
       "categories": [
         "engineering"
       ]
@@ -620,6 +590,34 @@
       "source": "github-search",
       "publishedAt": "2026-08-09T22:05:22Z",
       "updatedAt": "2026-08-10T16:25:08Z",
+      "categories": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "gh:melih-ilgen/static-analysis-dashboard",
+      "type": "repo",
+      "title": "melih-ilgen/static-analysis-dashboard",
+      "summaryOriginal": "An extended enterprise web application for static code analysis built with Java 21, Spring Boot 7, and Thymeleaf. Demonstrates sd&m layered architecture, high test & mutation coverage, and automated quality gates.",
+      "url": "https://github.com/melih-ilgen/static-analysis-dashboard",
+      "lang": "Java",
+      "tags": [
+        "clean-code",
+        "java-21",
+        "junit5",
+        "pitest",
+        "plantuml",
+        "software-architecture",
+        "spring-boot",
+        "static-code-analysis",
+        "thymeleaf-spring"
+      ],
+      "metrics": {
+        "stars": 0
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-12T03:47:45Z",
+      "updatedAt": "2026-08-12T04:04:55Z",
       "categories": [
         "engineering"
       ]
@@ -773,56 +771,6 @@
       ]
     },
     {
-      "id": "gh:kiquetal/using-plantuml-intellij",
-      "type": "repo",
-      "title": "kiquetal/using-plantuml-intellij",
-      "summaryOriginal": "C4-PlantUML architecture template — reusable skeleton for documenting software architectures with C4 model levels (Context, Container, Component, Code, Deployment)",
-      "url": "https://github.com/kiquetal/using-plantuml-intellij",
-      "tags": [
-        "architecture",
-        "c4-model",
-        "c4-plantuml",
-        "documentation",
-        "intellij",
-        "plantuml",
-        "software-architecture"
-      ],
-      "metrics": {
-        "stars": 0
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-10T12:00:17Z",
-      "updatedAt": "2026-08-10T12:45:35Z",
-      "categories": [
-        "engineering"
-      ]
-    },
-    {
-      "id": "gh:devrodri-com/lem-box-platform-case-study",
-      "type": "repo",
-      "title": "devrodri-com/lem-box-platform-case-study",
-      "summaryOriginal": "Sanitized technical case study of the LEM-BOX logistics platform, including public architecture, selected workflows, synthetic examples, and dated visual evidence. Production source and data remain private.",
-      "url": "https://github.com/devrodri-com/lem-box-platform-case-study",
-      "tags": [
-        "case-study",
-        "logistics",
-        "product-development",
-        "software-architecture",
-        "synthetic-data",
-        "technical-documentation",
-        "typescript"
-      ],
-      "metrics": {
-        "stars": 0
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T16:26:56Z",
-      "updatedAt": "2026-08-14T16:27:18Z",
-      "categories": [
-        "engineering"
-      ]
-    },
-    {
       "id": "gh:mandresoeiro/soeirotech-engineering-atlas",
       "type": "repo",
       "title": "mandresoeiro/soeirotech-engineering-atlas",
@@ -875,6 +823,56 @@
       "source": "github-search",
       "publishedAt": "2026-08-13T14:49:44Z",
       "updatedAt": "2026-08-13T14:54:57Z",
+      "categories": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "gh:kiquetal/using-plantuml-intellij",
+      "type": "repo",
+      "title": "kiquetal/using-plantuml-intellij",
+      "summaryOriginal": "C4-PlantUML architecture template — reusable skeleton for documenting software architectures with C4 model levels (Context, Container, Component, Code, Deployment)",
+      "url": "https://github.com/kiquetal/using-plantuml-intellij",
+      "tags": [
+        "architecture",
+        "c4-model",
+        "c4-plantuml",
+        "documentation",
+        "intellij",
+        "plantuml",
+        "software-architecture"
+      ],
+      "metrics": {
+        "stars": 0
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-10T12:00:17Z",
+      "updatedAt": "2026-08-10T12:45:35Z",
+      "categories": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "gh:devrodri-com/lem-box-platform-case-study",
+      "type": "repo",
+      "title": "devrodri-com/lem-box-platform-case-study",
+      "summaryOriginal": "Sanitized technical case study of the LEM-BOX logistics platform, including public architecture, selected workflows, synthetic examples, and dated visual evidence. Production source and data remain private.",
+      "url": "https://github.com/devrodri-com/lem-box-platform-case-study",
+      "tags": [
+        "case-study",
+        "logistics",
+        "product-development",
+        "software-architecture",
+        "synthetic-data",
+        "technical-documentation",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 0
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T16:26:56Z",
+      "updatedAt": "2026-08-14T16:27:18Z",
       "categories": [
         "engineering"
       ]
@@ -971,26 +969,6 @@
       ]
     },
     {
-      "id": "gh:mxagar/software_architecture_guide",
-      "type": "repo",
-      "title": "mxagar/software_architecture_guide",
-      "summaryOriginal": "Personal notes on Software Architecture",
-      "url": "https://github.com/mxagar/software_architecture_guide",
-      "tags": [
-        "desing-patterns",
-        "software-architecture"
-      ],
-      "metrics": {
-        "stars": 0
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-10T17:05:23Z",
-      "updatedAt": "2026-08-10T17:21:58Z",
-      "categories": [
-        "engineering"
-      ]
-    },
-    {
       "id": "gh:evolutionary-architecture/evolutionary-architecture-by-example",
       "type": "repo",
       "title": "evolutionary-architecture/evolutionary-architecture-by-example",
@@ -1059,11 +1037,49 @@
         "traceability"
       ],
       "metrics": {
-        "stars": 2160
+        "stars": 2161
       },
       "source": "github-search",
       "publishedAt": "2025-10-14T10:25:11Z",
       "updatedAt": "2026-08-14T04:05:27Z",
+      "categories": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "gh:GanyuanRan/Aegis",
+      "type": "repo",
+      "title": "GanyuanRan/Aegis",
+      "summaryOriginal": "Make AI coding agents architecture-aware: baseline-first, evidence-verified, drift-checked, and safe across long tasks.",
+      "url": "https://github.com/GanyuanRan/Aegis",
+      "lang": "Python",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "ai-coding",
+        "architecture-driven-development",
+        "awsome-coding-plugin",
+        "baseline-first",
+        "claude-code",
+        "codex",
+        "coding-agents",
+        "dive",
+        "dsh-plugin",
+        "evidence-driven",
+        "first-principles",
+        "opencode",
+        "software-architecture",
+        "spec-driven-development",
+        "spec-kit"
+      ],
+      "metrics": {
+        "stars": 1013
+      },
+      "source": "github-search",
+      "publishedAt": "2026-04-30T17:40:49Z",
+      "updatedAt": "2026-08-15T00:15:11Z",
+      "summaryEn": "Keeps AI coding agents architecture-aware with baseline-first, evidence-verified, drift-checked guardrails.",
+      "summaryKo": "긴 작업에서 AI 코딩 에이전트가 아키텍처를 인지하도록 베이스라인·근거·드리프트를 검증",
       "categories": [
         "engineering"
       ]
@@ -1119,7 +1135,7 @@
         "system-mapping"
       ],
       "metrics": {
-        "stars": 708
+        "stars": 709
       },
       "source": "github-search",
       "publishedAt": "2026-03-03T04:48:38Z",
@@ -1230,7 +1246,7 @@
         "static-analysis"
       ],
       "metrics": {
-        "stars": 11
+        "stars": 12
       },
       "source": "github-search",
       "publishedAt": "2026-08-09T05:49:27Z",
@@ -1278,33 +1294,76 @@
       ]
     },
     {
-      "id": "gh:aarushi-shanker/msa-design-patterns",
+      "id": "gh:tt-a1i/archify",
       "type": "repo",
-      "title": "aarushi-shanker/msa-design-patterns",
-      "summaryOriginal": "Implementations for Core Design Patterns of Microservices",
-      "url": "https://github.com/aarushi-shanker/msa-design-patterns",
-      "lang": "Java",
-      "tags": [
-        "api-gateway",
-        "circuit-breaker",
-        "config-server",
-        "design-patterns",
-        "distributed-tracing",
-        "eureka-server",
-        "load-balancing",
-        "microservices",
-        "resilience4j",
-        "service-discovery",
-        "sleuth",
-        "spring-cloud",
-        "zipkin"
-      ],
+      "title": "tt-a1i/archify",
+      "summaryOriginal": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "url": "https://github.com/tt-a1i/archify",
+      "lang": "HTML",
+      "tags": [],
       "metrics": {
-        "stars": 1
+        "starsDelta": 3,
+        "pushes": 2,
+        "totalScore": 207.7226
       },
-      "source": "github-search",
-      "publishedAt": "2026-08-09T11:30:18Z",
-      "updatedAt": "2026-08-12T04:48:52Z",
+      "source": "ossinsight",
+      "categories": [
+        "ai-agents",
+        "engineering"
+      ]
+    },
+    {
+      "id": "gh:cdxiaodong/cain-agent",
+      "type": "repo",
+      "title": "cdxiaodong/cain-agent",
+      "summaryOriginal": "Real-world AI penetration testing engineer for authorized assessments — built-in cloud module covering AWS/Azure/GCP + Aliyun/Tencent/Huawei clouds. Built on Claude Agent SDK",
+      "url": "https://github.com/cdxiaodong/cain-agent",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 204.0757
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-agents",
+        "backend",
+        "infra",
+        "engineering"
+      ]
+    },
+    {
+      "id": "gh:Gabson0x/bountyforge",
+      "type": "repo",
+      "title": "Gabson0x/bountyforge",
+      "summaryOriginal": "All-round bug bounty skill for Claude Code parallelized agents for smart contract audits (EVM, Move, Solana, TRON), web/API security, and submission-ready reports for HackerOne, Bugcrowd, Intigriti & Immunefi.",
+      "url": "https://github.com/Gabson0x/bountyforge",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "pushes": 1,
+        "totalScore": 204.0418
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-agents",
+        "backend",
+        "engineering"
+      ]
+    },
+    {
+      "id": "gh:JesseCHale/HaleHound-CYD",
+      "type": "repo",
+      "title": "JesseCHale/HaleHound-CYD",
+      "summaryOriginal": "ESP32-DIV HaleHound Edition for Cheap Yellow Display - Multi-protocol offensive security toolkit",
+      "url": "https://github.com/JesseCHale/HaleHound-CYD",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 203.6536
+      },
+      "source": "ossinsight",
       "categories": [
         "engineering"
       ]
@@ -1318,8 +1377,8 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "starsDelta": 6,
-        "totalScore": 221.7497
+        "starsDelta": 1,
+        "totalScore": 203.6278
       },
       "source": "ossinsight",
       "summaryEn": "Security harness that uses coding agents to find vulnerabilities in your codebase.",
@@ -1332,53 +1391,17 @@
       ]
     },
     {
-      "id": "gh:CloakHQ/CloakBrowser",
+      "id": "gh:rukamori/ArchiveTune",
       "type": "repo",
-      "title": "CloakHQ/CloakBrowser",
-      "summaryOriginal": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
-      "url": "https://github.com/CloakHQ/CloakBrowser",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 2,
-        "totalScore": 209.6535
-      },
-      "source": "ossinsight",
-      "categories": [
-        "web",
-        "engineering"
-      ]
-    },
-    {
-      "id": "gh:tt-a1i/archify",
-      "type": "repo",
-      "title": "tt-a1i/archify",
-      "summaryOriginal": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-      "url": "https://github.com/tt-a1i/archify",
-      "lang": "HTML",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 2,
-        "pushes": 1,
-        "totalScore": 207.276
-      },
-      "source": "ossinsight",
-      "categories": [
-        "ai-agents",
-        "engineering"
-      ]
-    },
-    {
-      "id": "gh:notatestuser/ds4-control",
-      "type": "repo",
-      "title": "notatestuser/ds4-control",
-      "summaryOriginal": "macOS menu bar app for ds4: fast DeepSeek V4 Pro/Flash, with 1M context.",
-      "url": "https://github.com/notatestuser/ds4-control",
-      "lang": "Swift",
+      "title": "rukamori/ArchiveTune",
+      "summaryOriginal": "🌸 The Cutest Music Player With Support Local File and Youtube Music for Android!",
+      "url": "https://github.com/rukamori/ArchiveTune",
+      "lang": "Kotlin",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "totalScore": 204.958
+        "pushes": 2,
+        "totalScore": 202.9669
       },
       "source": "ossinsight",
       "categories": [
@@ -1386,36 +1409,16 @@
       ]
     },
     {
-      "id": "gh:kenn-io/roborev",
+      "id": "gh:FatihMakes/Mark-XLVIII",
       "type": "repo",
-      "title": "kenn-io/roborev",
-      "summaryOriginal": "Continuous background code review database for agents, work faster and smarter with accountability for every line of generated code.",
-      "url": "https://github.com/kenn-io/roborev",
-      "lang": "Go",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "pushes": 5,
-        "totalScore": 204.8794
-      },
-      "source": "ossinsight",
-      "categories": [
-        "ai-agents",
-        "data",
-        "engineering"
-      ]
-    },
-    {
-      "id": "gh:waiterve/wai-play",
-      "type": "repo",
-      "title": "waiterve/wai-play",
-      "summaryOriginal": "WAI Play - AI web game testing and quality evaluation platform",
-      "url": "https://github.com/waiterve/wai-play",
+      "title": "FatihMakes/Mark-XLVIII",
+      "summaryOriginal": "Newest, latest and most advanced model that is able to control computers and even more. We're improving that model day by day, so follow up to know and see new models.",
+      "url": "https://github.com/FatihMakes/Mark-XLVIII",
       "lang": "Python",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "totalScore": 204.8758
+        "totalScore": 202.831
       },
       "source": "ossinsight",
       "categories": [
