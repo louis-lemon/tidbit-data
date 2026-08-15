@@ -12,6 +12,14 @@ on:
   schedule:
     - cron: '*/30 * * * *'
   workflow_dispatch:
+    inputs:
+      base_url:
+        # G6은 "모니터를 일부러 실패시켜 Issue가 실제로 오는지"를 요구한다(PLAN-R1).
+        # 그때마다 워크플로를 편집하면 프로덕션 설정을 훈련용으로 고치게 되고, 되돌리는 것을
+        # 잊으면 감시가 죽는다. 입력으로 두면 훈련이 반복 가능하고 기본값은 안 건드린다.
+        description: '검사할 오리진. 비우면 실제 피드. 없는 URL을 넣으면 실패 훈련이 된다'
+        required: false
+        default: ''
 
 concurrency:
   group: monitor
@@ -45,7 +53,7 @@ jobs:
       - name: Run synthetic monitor
         id: check
         env:
-          FEED_BASE_URL: https://louis-lemon.github.io/tidbit-data
+          FEED_BASE_URL: ${{ inputs.base_url || 'https://louis-lemon.github.io/tidbit-data' }}
           SUMMARIES_LAST_COMMIT: ${{ steps.summaries.outputs.last }}
           # R1-T5(요약 워커)가 배포되면 이 줄을 지운다. 그전까지 이 판정은 영구 실패라
           # 30분마다 빨간 모니터가 사람을 실패에 둔감하게 만든다.
