@@ -60114,9 +60114,13 @@ var mapTrendRows = (rows) => rows.filter((row) => Boolean(row.repo_name)).map((r
     url: `https://github.com/${row.repo_name}`,
     ...language.length > 0 ? { lang: language } : {},
     tags: [],
+    // **이 소스의 `stars`·`forks`는 총량이 아니라 그 기간(24시간) 증분이다**(실측
+    // 2026-08-15: 상위 행이 18·15·4·7인데 같은 저장소의 GitHub 총 스타는 수천이다).
+    // `stars`로 실으면 카드가 7.6k짜리 저장소를 "6 stars"라고 말한다 — 크기를 묻는
+    // 자리에 증가율을 넣는 것이라 사용자가 읽는 뜻이 정반대가 된다.
+    // `forks`는 대응하는 증분 라벨이 없고 24시간 포크 수는 신호도 약해 싣지 않는다.
     metrics: compactMetrics({
-      stars: parseCount(row.stars),
-      forks: parseCount(row.forks),
+      starsDelta: parseCount(row.stars),
       pullRequests: parseCount(row.pull_requests),
       pushes: parseCount(row.pushes),
       totalScore: parseCount(row.total_score)
