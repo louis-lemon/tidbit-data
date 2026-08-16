@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "devtools",
-  "generatedAt": "2026-08-16T06:42:20.742Z",
+  "generatedAt": "2026-08-16T09:28:36.874Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,7 +13,7 @@
       "lang": "HTML",
       "tags": [],
       "metrics": {
-        "stars": 18885,
+        "stars": 19035,
         "starsDelta": 1607
       },
       "source": "github-trending",
@@ -30,7 +30,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 47480,
+        "stars": 47525,
         "starsDelta": 118
       },
       "source": "github-trending",
@@ -69,7 +69,7 @@
         "workspace-manager"
       ],
       "metrics": {
-        "stars": 29560
+        "stars": 29595
       },
       "source": "github-search",
       "publishedAt": "2026-03-27T17:54:33Z",
@@ -83,43 +83,68 @@
       ]
     },
     {
-      "id": "gh:tt-a1i/archify",
+      "id": "gh:KKKKhazix/khazix-skills",
       "type": "repo",
-      "title": "tt-a1i/archify",
-      "summaryOriginal": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-      "url": "https://github.com/tt-a1i/archify",
-      "lang": "HTML",
+      "title": "KKKKhazix/khazix-skills",
+      "summaryOriginal": "数字生命卡兹克开源的 AI Skills 合集 | Agent Skills: leader（帮你定义目标）, neat-freak 洁癖, hv-analysis, khazix-writer & more — Claude Code, Codex & 40+ agents",
+      "url": "https://github.com/KKKKhazix/khazix-skills",
+      "lang": "Python",
       "tags": [
         "agent-skills",
-        "anthropic",
-        "architecture-diagram",
-        "claude-skill",
+        "ai-agents",
+        "claude",
+        "claude-code",
         "codex",
-        "dark-mode",
-        "data-flow-diagram",
-        "deepseek-harness",
         "developer-tools",
-        "diagram-as-code",
-        "dsh-plugin",
-        "html-diagram",
-        "lifecycle-diagram",
-        "mermaid-alternative",
-        "opencode",
-        "sequence-diagram",
-        "svg",
-        "system-design",
-        "workflow-diagram"
+        "llm",
+        "skills",
+        "vibe-coding"
       ],
       "metrics": {
-        "stars": 13048
+        "stars": 19721
       },
       "source": "github-search",
-      "publishedAt": "2026-04-15T05:27:37Z",
-      "updatedAt": "2026-08-14T16:30:40Z",
+      "publishedAt": "2026-04-06T07:37:02Z",
+      "updatedAt": "2026-08-16T08:49:13Z",
       "categories": [
         "devtools",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "gh:teng-lin/notebooklm-py",
+      "type": "repo",
+      "title": "teng-lin/notebooklm-py",
+      "summaryOriginal": "Unofficial Python API and agentic skill for Google Gemini Notebook. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
+      "url": "https://github.com/teng-lin/notebooklm-py",
+      "lang": "Python",
+      "tags": [
+        "agentic-skill",
+        "api",
+        "claude",
+        "claude-skills",
+        "gemini-notebook",
+        "google-notebooklm",
+        "notebooklm",
+        "notebooklm-api",
+        "notebooklm-skill",
+        "openclaw-skills",
+        "podcast-generator",
+        "python",
+        "python-api",
+        "sdk",
+        "skills"
+      ],
+      "metrics": {
+        "stars": 18728
+      },
+      "source": "github-search",
+      "publishedAt": "2026-01-07T15:27:19Z",
+      "updatedAt": "2026-08-14T21:49:44Z",
+      "categories": [
+        "backend",
         "ai-agents",
-        "engineering"
+        "devtools"
       ]
     },
     {
@@ -150,7 +175,7 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 526
+        "stars": 543
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T13:14:49Z",
@@ -160,36 +185,6 @@
       "categories": [
         "ai-models",
         "ai-agents",
-        "devtools"
-      ]
-    },
-    {
-      "id": "gh:vuphongle/oss-pr-reviewer",
-      "type": "repo",
-      "title": "vuphongle/oss-pr-reviewer",
-      "summaryOriginal": "AI-powered CLI for reviewing GitHub pull requests, detecting potential bugs, security risks, regressions, and missing tests, with structured Markdown reports for open-source maintainers.",
-      "url": "https://github.com/vuphongle/oss-pr-reviewer",
-      "lang": "TypeScript",
-      "tags": [
-        "ai",
-        "cli",
-        "code-review",
-        "developer-tools",
-        "github",
-        "llm",
-        "maintainer-tools",
-        "open-source",
-        "pull-request",
-        "typescript"
-      ],
-      "metrics": {
-        "stars": 106
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T01:59:03Z",
-      "updatedAt": "2026-08-13T05:09:43Z",
-      "categories": [
-        "ai-models",
         "devtools"
       ]
     },
@@ -223,7 +218,7 @@
         "zero-dependency"
       ],
       "metrics": {
-        "stars": 101
+        "stars": 111
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T08:09:10Z",
@@ -231,6 +226,36 @@
       "categories": [
         "ai-models",
         "ai-agents",
+        "devtools"
+      ]
+    },
+    {
+      "id": "gh:vuphongle/oss-pr-reviewer",
+      "type": "repo",
+      "title": "vuphongle/oss-pr-reviewer",
+      "summaryOriginal": "AI-powered CLI for reviewing GitHub pull requests, detecting potential bugs, security risks, regressions, and missing tests, with structured Markdown reports for open-source maintainers.",
+      "url": "https://github.com/vuphongle/oss-pr-reviewer",
+      "lang": "TypeScript",
+      "tags": [
+        "ai",
+        "cli",
+        "code-review",
+        "developer-tools",
+        "github",
+        "llm",
+        "maintainer-tools",
+        "open-source",
+        "pull-request",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 106
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T01:59:03Z",
+      "updatedAt": "2026-08-13T05:09:43Z",
+      "categories": [
+        "ai-models",
         "devtools"
       ]
     },
@@ -360,7 +385,7 @@
         "productivity"
       ],
       "metrics": {
-        "stars": 240335
+        "stars": 240362
       },
       "source": "github-search",
       "publishedAt": "2026-01-18T00:51:51Z",
@@ -400,7 +425,7 @@
         "tree-sitter"
       ],
       "metrics": {
-        "stars": 106805
+        "stars": 106853
       },
       "source": "github-search",
       "publishedAt": "2026-04-03T15:49:07Z",
@@ -430,7 +455,7 @@
         "openai"
       ],
       "metrics": {
-        "stars": 84155
+        "stars": 84160
       },
       "source": "github-search",
       "publishedAt": "2024-03-13T03:33:31Z",
@@ -463,7 +488,7 @@
         "token-optimization"
       ],
       "metrics": {
-        "stars": 76250
+        "stars": 76261
       },
       "source": "github-search",
       "publishedAt": "2026-01-22T16:54:16Z",
@@ -547,7 +572,7 @@
         "yagni"
       ],
       "metrics": {
-        "stars": 117
+        "stars": 121
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T15:31:45Z",
@@ -607,7 +632,7 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 81
+        "stars": 82
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T13:52:04Z",
@@ -635,35 +660,11 @@
         "voice-dictation"
       ],
       "metrics": {
-        "stars": 48
+        "stars": 49
       },
       "source": "github-search",
       "publishedAt": "2026-08-10T16:47:07Z",
       "updatedAt": "2026-08-15T18:38:22Z",
-      "categories": [
-        "ai-agents",
-        "devtools"
-      ]
-    },
-    {
-      "id": "gh:regenrek/codex-proofloop",
-      "type": "repo",
-      "title": "regenrek/codex-proofloop",
-      "summaryOriginal": "Git-based test distillation for Codex agents: catch aggressively, commit reluctantly",
-      "url": "https://github.com/regenrek/codex-proofloop",
-      "lang": "Python",
-      "tags": [
-        "ai-agents",
-        "codex",
-        "developer-tools",
-        "testing"
-      ],
-      "metrics": {
-        "stars": 40
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-10T21:09:34Z",
-      "updatedAt": "2026-08-11T18:01:42Z",
       "categories": [
         "ai-agents",
         "devtools"
@@ -699,11 +700,35 @@
         "transcript"
       ],
       "metrics": {
-        "stars": 38
+        "stars": 41
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T14:21:58Z",
-      "updatedAt": "2026-08-16T04:41:15Z",
+      "updatedAt": "2026-08-16T07:36:47Z",
+      "categories": [
+        "ai-agents",
+        "devtools"
+      ]
+    },
+    {
+      "id": "gh:regenrek/codex-proofloop",
+      "type": "repo",
+      "title": "regenrek/codex-proofloop",
+      "summaryOriginal": "Git-based test distillation for Codex agents: catch aggressively, commit reluctantly",
+      "url": "https://github.com/regenrek/codex-proofloop",
+      "lang": "Python",
+      "tags": [
+        "ai-agents",
+        "codex",
+        "developer-tools",
+        "testing"
+      ],
+      "metrics": {
+        "stars": 40
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-10T21:09:34Z",
+      "updatedAt": "2026-08-11T18:01:42Z",
       "categories": [
         "ai-agents",
         "devtools"
@@ -764,11 +789,51 @@
         "yc-backed"
       ],
       "metrics": {
-        "stars": 46226
+        "stars": 46282
       },
       "source": "github-search",
       "publishedAt": "2026-03-17T03:28:57Z",
-      "updatedAt": "2026-08-16T06:37:04Z",
+      "updatedAt": "2026-08-16T09:28:00Z",
+      "categories": [
+        "ai-agents",
+        "devtools"
+      ]
+    },
+    {
+      "id": "gh:sickn33/agentic-awesome-skills",
+      "type": "repo",
+      "title": "sickn33/agentic-awesome-skills",
+      "summaryOriginal": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,005+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+      "url": "https://github.com/sickn33/agentic-awesome-skills",
+      "lang": "Python",
+      "tags": [
+        "agent-skills",
+        "agentic-skills",
+        "ai-agent-skills",
+        "ai-agents",
+        "ai-coding",
+        "ai-workflows",
+        "antigravity",
+        "antigravity-skills",
+        "claude-code",
+        "claude-code-skills",
+        "codex-cli",
+        "codex-skills",
+        "cursor",
+        "cursor-skills",
+        "developer-tools",
+        "gemini-cli",
+        "gemini-skills",
+        "kiro",
+        "mcp",
+        "skill-library"
+      ],
+      "metrics": {
+        "stars": 45008
+      },
+      "source": "github-search",
+      "publishedAt": "2026-01-14T17:48:09Z",
+      "updatedAt": "2026-08-16T09:25:55Z",
       "categories": [
         "ai-agents",
         "devtools"
@@ -829,7 +894,7 @@
         "workflows"
       ],
       "metrics": {
-        "stars": 38844
+        "stars": 38843
       },
       "source": "github-search",
       "publishedAt": "2025-07-24T23:28:14Z",
@@ -840,39 +905,40 @@
       ]
     },
     {
-      "id": "gh:JCodesMore/ai-website-cloner-template",
+      "id": "gh:Hilbert-beinghappy/seektty",
       "type": "repo",
-      "title": "JCodesMore/ai-website-cloner-template",
-      "summaryOriginal": "Clone any website with one command using AI coding agents",
-      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "title": "Hilbert-beinghappy/seektty",
+      "summaryOriginal": "Pluggable DeepSeek-colored TUI for DeepSeek Harness",
+      "url": "https://github.com/Hilbert-beinghappy/seektty",
       "lang": "JavaScript",
       "tags": [
-        "ai",
-        "ai-agents",
-        "ai-tools",
-        "automation",
-        "boilerplate",
-        "claude",
-        "claude-code",
-        "clone",
+        "agentic-ai",
+        "ai-agent",
+        "cli",
+        "coding-agent",
+        "command-line",
+        "deepseek",
+        "deepseek-harness",
         "developer-tools",
-        "nextjs",
-        "react",
-        "reverse-engineering",
-        "shadcn-ui",
-        "skills",
-        "tailwindcss",
-        "template",
+        "dsh",
+        "dsh-plugin",
+        "linux",
+        "llm",
+        "macos",
+        "seektty",
+        "syntax-highlighting",
+        "terminal",
+        "terminal-ui",
+        "tui",
         "typescript",
-        "web-scraping",
-        "website-clone"
+        "vscode-theme"
       ],
       "metrics": {
-        "stars": 32050
+        "stars": 11
       },
       "source": "github-search",
-      "publishedAt": "2026-03-13T11:14:39Z",
-      "updatedAt": "2026-08-14T22:02:06Z",
+      "publishedAt": "2026-08-14T11:10:57Z",
+      "updatedAt": "2026-08-16T09:15:46Z",
       "categories": [
         "ai-agents",
         "devtools"
@@ -905,7 +971,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 29700
+        "stars": 29701
       },
       "source": "github-search",
       "publishedAt": "2024-02-23T13:58:27Z",
@@ -930,7 +996,7 @@
         "sourcemap"
       ],
       "metrics": {
-        "stars": 34
+        "stars": 35
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T04:28:57Z",
@@ -970,7 +1036,7 @@
         "workflows"
       ],
       "metrics": {
-        "stars": 40677
+        "stars": 40676
       },
       "source": "github-search",
       "publishedAt": "2020-06-30T04:07:36Z",
@@ -1002,7 +1068,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 18593
+        "stars": 18592
       },
       "source": "github-search",
       "publishedAt": "2025-01-02T17:45:02Z",
@@ -1038,7 +1104,7 @@
         "llm"
       ],
       "metrics": {
-        "stars": 11
+        "stars": 12
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T15:41:41Z",
@@ -1070,7 +1136,7 @@
         "golang"
       ],
       "metrics": {
-        "stars": 17
+        "stars": 18
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T13:03:14Z",
@@ -1081,205 +1147,21 @@
       ]
     },
     {
-      "id": "gh:xyiqq/skilldoctor",
+      "id": "gh:lidge-jun/opencodex",
       "type": "repo",
-      "title": "xyiqq/skilldoctor",
-      "summaryOriginal": "Quality gate for Agent Skills: lint, security audit, and Claude/Cursor/Codex/OpenCode compatibility.",
-      "url": "https://github.com/xyiqq/skilldoctor",
-      "lang": "TypeScript",
-      "tags": [
-        "agent-skills",
-        "claude-code",
-        "cli",
-        "codex",
-        "cursor",
-        "linter",
-        "opencode",
-        "security"
-      ],
-      "metrics": {
-        "stars": 286
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T09:25:47Z",
-      "updatedAt": "2026-08-16T03:02:34Z",
-      "categories": [
-        "devtools"
-      ]
-    },
-    {
-      "id": "gh:yutat23/lsoff",
-      "type": "repo",
-      "title": "yutat23/lsoff",
-      "summaryOriginal": "CLI / TUI that lists listening TCP/UDP ports",
-      "url": "https://github.com/yutat23/lsoff",
-      "lang": "Go",
-      "tags": [
-        "cli",
-        "golang",
-        "linux",
-        "lsof",
-        "macos",
-        "tui",
-        "windows"
-      ],
-      "metrics": {
-        "stars": 61
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T14:27:33Z",
-      "updatedAt": "2026-08-15T18:10:14Z",
-      "categories": [
-        "devtools"
-      ]
-    },
-    {
-      "id": "gh:kkx94/oss-init",
-      "type": "repo",
-      "title": "kkx94/oss-init",
-      "summaryOriginal": "Zero-runtime-dependency CLI to scaffold, audit, and safely refresh bilingual Node.js and Python open-source repositories.",
-      "url": "https://github.com/kkx94/oss-init",
-      "lang": "JavaScript",
-      "tags": [
-        "cli",
-        "developer-tools",
-        "github-actions",
-        "nodejs",
-        "open-source",
-        "python",
-        "scaffolding",
-        "zero-dependencies"
-      ],
-      "metrics": {
-        "stars": 50
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-10T08:02:49Z",
-      "updatedAt": "2026-08-12T02:39:17Z",
-      "categories": [
-        "devtools"
-      ]
-    },
-    {
-      "id": "gh:breferrari/obsidian-mind",
-      "type": "repo",
-      "title": "breferrari/obsidian-mind",
-      "summaryOriginal": "A self-organizing Obsidian vault that gives AI coding agents persistent memory. Claude Code, Codex CLI, Gemini CLI.",
-      "url": "https://github.com/breferrari/obsidian-mind",
+      "title": "lidge-jun/opencodex",
+      "summaryOriginal": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
+      "url": "https://github.com/lidge-jun/opencodex",
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "starsDelta": 1,
-        "totalScore": 204.6457
+        "starsDelta": 4,
+        "pushes": 25,
+        "totalScore": 212.6557
       },
       "source": "ossinsight",
       "categories": [
-        "ai-agents",
-        "devtools"
-      ]
-    },
-    {
-      "id": "gh:ZzzLc0405/photo-abstract-editorial",
-      "type": "repo",
-      "title": "ZzzLc0405/photo-abstract-editorial",
-      "summaryOriginal": "ZzzLc0405/photo-abstract-editorial",
-      "url": "https://github.com/ZzzLc0405/photo-abstract-editorial",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "totalScore": 204.6457
-      },
-      "source": "ossinsight",
-      "categories": [
-        "devtools"
-      ]
-    },
-    {
-      "id": "gh:wiltodelta/remove-ai-watermarks",
-      "type": "repo",
-      "title": "wiltodelta/remove-ai-watermarks",
-      "summaryOriginal": "AI watermark remover. CLI and Python library to strip visible and invisible AI watermarks (Gemini / Nano Banana sparkle, SynthID) and provenance metadata (C2PA, EXIF, IPTC) from images.",
-      "url": "https://github.com/wiltodelta/remove-ai-watermarks",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "totalScore": 204.5824
-      },
-      "source": "ossinsight",
-      "categories": [
-        "devtools"
-      ]
-    },
-    {
-      "id": "gh:volcengine/mediakit-cli",
-      "type": "repo",
-      "title": "volcengine/mediakit-cli",
-      "summaryOriginal": "volcengine/mediakit-cli",
-      "url": "https://github.com/volcengine/mediakit-cli",
-      "lang": "Go",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "totalScore": 204.4585
-      },
-      "source": "ossinsight",
-      "categories": [
-        "devtools"
-      ]
-    },
-    {
-      "id": "gh:tirth8205/code-review-graph",
-      "type": "repo",
-      "title": "tirth8205/code-review-graph",
-      "summaryOriginal": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
-      "url": "https://github.com/tirth8205/code-review-graph",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "totalScore": 204.4147
-      },
-      "source": "ossinsight",
-      "categories": [
-        "ai-agents",
-        "devtools"
-      ]
-    },
-    {
-      "id": "gh:alirezarezvani/claude-skills",
-      "type": "repo",
-      "title": "alirezarezvani/claude-skills",
-      "summaryOriginal": "345 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
-      "url": "https://github.com/alirezarezvani/claude-skills",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "totalScore": 203.9323
-      },
-      "source": "ossinsight",
-      "categories": [
-        "ai-agents",
-        "devtools"
-      ]
-    },
-    {
-      "id": "gh:jacob-bd/gemini-notebook-mcp-cli",
-      "type": "repo",
-      "title": "jacob-bd/gemini-notebook-mcp-cli",
-      "summaryOriginal": "Programmatic access to Gemini Notebook - via command-line interface (CLI), Model Context Protocol (MCP) server, and AI agent skills.",
-      "url": "https://github.com/jacob-bd/gemini-notebook-mcp-cli",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "totalScore": 203.6536
-      },
-      "source": "ossinsight",
-      "categories": [
-        "ai-agents",
-        "backend",
+        "ai-models",
         "devtools"
       ]
     },
@@ -1292,8 +1174,8 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "starsDelta": 1,
-        "totalScore": 203.2705
+        "starsDelta": 2,
+        "totalScore": 206.529
       },
       "source": "ossinsight",
       "categories": [
@@ -1302,22 +1184,153 @@
       ]
     },
     {
-      "id": "gh:hassancs91/brainoutside",
+      "id": "gh:umputun/agterm",
       "type": "repo",
-      "title": "hassancs91/brainoutside",
-      "summaryOriginal": "Self-hosted memory server for AI agents. Your brain is a git repo, served over MCP and REST.",
-      "url": "https://github.com/hassancs91/brainoutside",
+      "title": "umputun/agterm",
+      "summaryOriginal": "Terminal for agentic flow",
+      "url": "https://github.com/umputun/agterm",
+      "lang": "Swift",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "pushes": 1,
+        "totalScore": 204.9241
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-agents",
+        "devtools"
+      ]
+    },
+    {
+      "id": "gh:duckyshell/ComfyUI-MiniMaxH3-Prompt-Writer",
+      "type": "repo",
+      "title": "duckyshell/ComfyUI-MiniMaxH3-Prompt-Writer",
+      "summaryOriginal": "Local multimodal MiniMax H3 prompt writer for ComfyUI, powered by Gemma 4 GGUF models.",
+      "url": "https://github.com/duckyshell/ComfyUI-MiniMaxH3-Prompt-Writer",
       "lang": "Python",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "totalScore": 202.8286
+        "totalScore": 204.8209
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-agents",
+        "devtools"
+      ]
+    },
+    {
+      "id": "gh:Gaurav-Gosain/tuios",
+      "type": "repo",
+      "title": "Gaurav-Gosain/tuios",
+      "summaryOriginal": "Terminal UI OS (Terminal Multiplexer)",
+      "url": "https://github.com/Gaurav-Gosain/tuios",
+      "lang": "Go",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 204.3427
+      },
+      "source": "ossinsight",
+      "categories": [
+        "devtools"
+      ]
+    },
+    {
+      "id": "gh:Nexting-ai/nexting",
+      "type": "repo",
+      "title": "Nexting-ai/nexting",
+      "summaryOriginal": "A wearable terminal to dispatch tasks to your own AI agents — Claude Code, OpenClaw, Codex. Tap, speak, dispatch. The first hardware built for OpenClaw. Open source (MIT).",
+      "url": "https://github.com/Nexting-ai/nexting",
+      "lang": "C",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 204.25
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-agents",
+        "devtools"
+      ]
+    },
+    {
+      "id": "gh:can1357/oh-my-pi",
+      "type": "repo",
+      "title": "can1357/oh-my-pi",
+      "summaryOriginal": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "lang": "TypeScript",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 204.0934
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-agents",
+        "web",
+        "devtools"
+      ]
+    },
+    {
+      "id": "gh:rorkai/App-Store-Connect-CLI",
+      "type": "repo",
+      "title": "rorkai/App-Store-Connect-CLI",
+      "summaryOriginal": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more. JSON-first, no interactive prompts",
+      "url": "https://github.com/rorkai/App-Store-Connect-CLI",
+      "lang": "Go",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "pushes": 1,
+        "totalScore": 204.0487
       },
       "source": "ossinsight",
       "categories": [
         "ai-agents",
         "backend",
-        "infra",
+        "data",
+        "engineering",
+        "devtools"
+      ]
+    },
+    {
+      "id": "gh:microsoft/waza",
+      "type": "repo",
+      "title": "microsoft/waza",
+      "summaryOriginal": "CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness",
+      "url": "https://github.com/microsoft/waza",
+      "lang": "Go",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 203.9407
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-agents",
+        "engineering",
+        "devtools"
+      ]
+    },
+    {
+      "id": "gh:compozy/compozy",
+      "type": "repo",
+      "title": "compozy/compozy",
+      "summaryOriginal": "An operating system for AI agents. Plug in the agent CLIs you already use (Claude Code, Codex, Gemini CLI, Cursor) and they become a team: they split the work, hand tasks to each other, run automated on jobs and loops, and share one project memory. You steer everything from the browser.",
+      "url": "https://github.com/compozy/compozy",
+      "lang": "Go",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 203.5918
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-agents",
+        "web",
         "devtools"
       ]
     },
