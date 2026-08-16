@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "data",
-  "generatedAt": "2026-08-15T21:22:40.388Z",
+  "generatedAt": "2026-08-16T01:24:37.058Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,8 +13,8 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 1604,
-        "starsDelta": 303
+        "stars": 1674,
+        "starsDelta": 297
       },
       "source": "github-trending",
       "categories": [
@@ -83,11 +83,11 @@
         "prometheus"
       ],
       "metrics": {
-        "stars": 80194
+        "stars": 80195
       },
       "source": "github-search",
       "publishedAt": "2013-06-17T18:39:10Z",
-      "updatedAt": "2026-08-15T21:02:25Z",
+      "updatedAt": "2026-08-16T00:11:27Z",
       "categories": [
         "ai-models",
         "infra",
@@ -124,7 +124,7 @@
         "workflow-orchestration"
       ],
       "metrics": {
-        "stars": 46502
+        "stars": 46503
       },
       "source": "github-search",
       "publishedAt": "2015-04-13T18:04:58Z",
@@ -162,7 +162,7 @@
         "superset"
       ],
       "metrics": {
-        "stars": 74270
+        "stars": 74271
       },
       "source": "github-search",
       "publishedAt": "2015-07-21T18:55:34Z",
@@ -202,7 +202,7 @@
         "vue"
       ],
       "metrics": {
-        "stars": 37406
+        "stars": 37410
       },
       "source": "github-search",
       "publishedAt": "2012-12-12T01:35:36Z",
@@ -348,44 +348,11 @@
         "vectors"
       ],
       "metrics": {
-        "stars": 58973
+        "stars": 58974
       },
       "source": "github-search",
       "publishedAt": "2018-04-23T11:45:28Z",
       "updatedAt": "2026-08-14T09:38:01Z",
-      "categories": [
-        "backend",
-        "data"
-      ]
-    },
-    {
-      "id": "gh:PostgREST/postgrest",
-      "type": "repo",
-      "title": "PostgREST/postgrest",
-      "summaryOriginal": "REST API for any Postgres database",
-      "url": "https://github.com/PostgREST/postgrest",
-      "lang": "Haskell",
-      "tags": [
-        "api",
-        "automatic-api",
-        "database",
-        "haskell",
-        "http",
-        "pg",
-        "pgsql",
-        "postgres",
-        "postgresql",
-        "postgrest",
-        "rest",
-        "server",
-        "sql"
-      ],
-      "metrics": {
-        "stars": 27600
-      },
-      "source": "github-search",
-      "publishedAt": "2014-06-13T00:23:00Z",
-      "updatedAt": "2026-08-13T21:06:15Z",
       "categories": [
         "backend",
         "data"
@@ -419,6 +386,36 @@
       ]
     },
     {
+      "id": "gh:valeriansaliou/sonic",
+      "type": "repo",
+      "title": "valeriansaliou/sonic",
+      "summaryOriginal": "🦔 Fast, lightweight & schema-less search backend. An alternative to Elasticsearch that runs on a few MBs of RAM.",
+      "url": "https://github.com/valeriansaliou/sonic",
+      "lang": "Rust",
+      "tags": [
+        "backend",
+        "database",
+        "graph",
+        "index",
+        "infrastructure",
+        "rust",
+        "search",
+        "search-engine",
+        "search-server",
+        "server"
+      ],
+      "metrics": {
+        "stars": 21313
+      },
+      "source": "github-search",
+      "publishedAt": "2019-02-26T13:16:58Z",
+      "updatedAt": "2026-08-15T23:38:55Z",
+      "categories": [
+        "backend",
+        "data"
+      ]
+    },
+    {
       "id": "gh:etcd-io/etcd",
       "type": "repo",
       "title": "etcd-io/etcd",
@@ -438,7 +435,7 @@
         "raft"
       ],
       "metrics": {
-        "stars": 52127
+        "stars": 52128
       },
       "source": "github-search",
       "publishedAt": "2013-07-06T21:57:21Z",
@@ -478,7 +475,7 @@
         "workflow"
       ],
       "metrics": {
-        "stars": 27814
+        "stars": 27818
       },
       "source": "github-search",
       "publishedAt": "2019-08-24T13:56:15Z",
@@ -521,38 +518,9 @@
       },
       "source": "github-search",
       "publishedAt": "2015-01-21T22:05:27Z",
-      "updatedAt": "2026-08-14T12:12:45Z",
+      "updatedAt": "2026-08-16T00:23:10Z",
       "categories": [
         "infra",
-        "data"
-      ]
-    },
-    {
-      "id": "gh:rexadbapp/RexaDB",
-      "type": "repo",
-      "title": "rexadbapp/RexaDB",
-      "summaryOriginal": "Multi-database desktop client for PostgreSQL, MySQL, MongoDB, SQLite, ClickHouse, Redis, and SQL Server.",
-      "url": "https://github.com/rexadbapp/RexaDB",
-      "lang": "TypeScript",
-      "tags": [
-        "clickhouse",
-        "database",
-        "desktop-app",
-        "mongodb",
-        "mssql",
-        "mysql",
-        "postgresql",
-        "redis",
-        "sql",
-        "sqlite"
-      ],
-      "metrics": {
-        "stars": 9
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-09T15:33:32Z",
-      "updatedAt": "2026-08-12T21:36:44Z",
-      "categories": [
         "data"
       ]
     },
@@ -629,32 +597,6 @@
       ]
     },
     {
-      "id": "gh:ryuzcorp/paranorm",
-      "type": "repo",
-      "title": "ryuzcorp/paranorm",
-      "summaryOriginal": "Kysely on steroids: author database schemas in YAML, infer Kysely types, apply schema-diff migrations, and query through a compact model API.",
-      "url": "https://github.com/ryuzcorp/paranorm",
-      "lang": "TypeScript",
-      "tags": [
-        "database",
-        "kysely",
-        "migration",
-        "orm",
-        "schema",
-        "typescript",
-        "yaml"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T14:12:26Z",
-      "updatedAt": "2026-08-11T18:10:58Z",
-      "categories": [
-        "data"
-      ]
-    },
-    {
       "id": "gh:FreClean/freclean-data",
       "type": "repo",
       "title": "FreClean/freclean-data",
@@ -680,32 +622,27 @@
       ]
     },
     {
-      "id": "gh:Truta446/nplusone",
+      "id": "gh:ryuzcorp/paranorm",
       "type": "repo",
-      "title": "Truta446/nplusone",
-      "summaryOriginal": "Catch N+1 queries in Node.js at runtime. ORM-agnostic, zero dependencies, fails your CI before they reach production.",
-      "url": "https://github.com/Truta446/nplusone",
+      "title": "ryuzcorp/paranorm",
+      "summaryOriginal": "Kysely on steroids: author database schemas in YAML, infer Kysely types, apply schema-diff migrations, and query through a compact model API.",
+      "url": "https://github.com/ryuzcorp/paranorm",
       "lang": "TypeScript",
       "tags": [
         "database",
-        "mysql",
-        "n-plus-one",
-        "nodejs",
+        "kysely",
+        "migration",
         "orm",
-        "performance",
-        "postgres",
-        "prisma",
-        "profiling",
-        "sql",
-        "sqlite",
-        "typescript"
+        "schema",
+        "typescript",
+        "yaml"
       ],
       "metrics": {
         "stars": 2
       },
       "source": "github-search",
-      "publishedAt": "2026-08-09T14:21:00Z",
-      "updatedAt": "2026-08-13T15:09:56Z",
+      "publishedAt": "2026-08-11T14:12:26Z",
+      "updatedAt": "2026-08-11T18:10:58Z",
       "categories": [
         "data"
       ]
@@ -738,41 +675,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-10T22:22:24Z",
-      "updatedAt": "2026-08-15T21:09:06Z",
-      "categories": [
-        "data"
-      ]
-    },
-    {
-      "id": "gh:prerna-sharma-only/readora-book-notes",
-      "type": "repo",
-      "title": "prerna-sharma-only/readora-book-notes",
-      "summaryOriginal": "A personal book notes & reading journal built with Node.js, Express, EJS and PostgreSQL. Add, rate, review, sort and remember the books worth keeping.",
-      "url": "https://github.com/prerna-sharma-only/readora-book-notes",
-      "lang": "CSS",
-      "tags": [
-        "axios",
-        "book-notes",
-        "crud",
-        "css",
-        "database",
-        "ejs",
-        "express",
-        "html",
-        "javascript",
-        "nodejs",
-        "open-library-api",
-        "postgresql",
-        "reading-journal",
-        "ui",
-        "ux"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-09T10:50:59Z",
-      "updatedAt": "2026-08-12T13:17:29Z",
+      "updatedAt": "2026-08-16T00:30:24Z",
       "categories": [
         "data"
       ]
@@ -797,60 +700,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-11T22:44:28Z",
       "updatedAt": "2026-08-15T03:37:31Z",
-      "categories": [
-        "data"
-      ]
-    },
-    {
-      "id": "gh:alsabai2004/DataBase-Project-",
-      "type": "repo",
-      "title": "alsabai2004/DataBase-Project-",
-      "summaryOriginal": "Database project demonstrating database design, data management, SQL concepts, and practical database operations.",
-      "url": "https://github.com/alsabai2004/DataBase-Project-",
-      "tags": [
-        "data-management",
-        "database",
-        "database-design",
-        "software-development",
-        "sql"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-09T02:06:27Z",
-      "updatedAt": "2026-08-15T03:37:37Z",
-      "categories": [
-        "data"
-      ]
-    },
-    {
-      "id": "gh:engr-rabbi/ml-handbook",
-      "type": "repo",
-      "title": "engr-rabbi/ml-handbook",
-      "summaryOriginal": "Complete Machine Learning Handbook covering Python, data preprocessing, statistics, exploratory data analysis, feature engineering, supervised and unsupervised learning, deep learning, NLP, computer vision, model evaluation, deployment, MLOps, projects, and practical real-world ML workflows.",
-      "url": "https://github.com/engr-rabbi/ml-handbook",
-      "lang": "HTML",
-      "tags": [
-        "data-analysis",
-        "data-analytics",
-        "data-engineering",
-        "data-science",
-        "data-visualization",
-        "database",
-        "machine-learning",
-        "machine-learning-projects",
-        "machine-learning-projects-beginners",
-        "python",
-        "pytorch",
-        "tensorflow"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-09T04:00:19Z",
-      "updatedAt": "2026-08-13T09:25:26Z",
       "categories": [
         "data"
       ]
@@ -960,7 +809,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T23:17:20Z",
-      "updatedAt": "2026-08-14T13:46:33Z",
+      "updatedAt": "2026-08-16T00:39:56Z",
       "categories": [
         "data"
       ]
@@ -981,31 +830,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-11T22:12:46Z",
       "updatedAt": "2026-08-14T23:13:50Z",
-      "categories": [
-        "data"
-      ]
-    },
-    {
-      "id": "gh:alsabai2004/Banking-System-Oracle-PLSQL",
-      "type": "repo",
-      "title": "alsabai2004/Banking-System-Oracle-PLSQL",
-      "summaryOriginal": "Oracle PL/SQL Banking System demonstrating database programming, procedures, functions, transactions, and banking operations.",
-      "url": "https://github.com/alsabai2004/Banking-System-Oracle-PLSQL",
-      "lang": "PLSQL",
-      "tags": [
-        "banking-system",
-        "database",
-        "database-programming",
-        "oracle",
-        "plsql",
-        "sql"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-12T21:02:37Z",
-      "updatedAt": "2026-08-15T03:35:18Z",
       "categories": [
         "data"
       ]
@@ -1063,30 +887,6 @@
       ]
     },
     {
-      "id": "gh:alsabai2004/ClinicAppointmentSystem",
-      "type": "repo",
-      "title": "alsabai2004/ClinicAppointmentSystem",
-      "summaryOriginal": "Clinic Appointment Management System for organizing patients, doctors, appointments, and healthcare scheduling.",
-      "url": "https://github.com/alsabai2004/ClinicAppointmentSystem",
-      "lang": "C#",
-      "tags": [
-        "appointment-system",
-        "clinic-management",
-        "database",
-        "management-system",
-        "software-development"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-09T17:21:43Z",
-      "updatedAt": "2026-08-15T03:35:21Z",
-      "categories": [
-        "data"
-      ]
-    },
-    {
       "id": "gh:HelgeSverre/fsdb",
       "type": "repo",
       "title": "HelgeSverre/fsdb",
@@ -1106,34 +906,46 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T21:18:24Z",
-      "updatedAt": "2026-08-15T21:05:32Z",
+      "updatedAt": "2026-08-16T00:43:30Z",
       "categories": [
         "data"
       ]
     },
     {
-      "id": "gh:rakxdev/RodeX",
+      "id": "gh:INTJ-boy/ExpoShare",
       "type": "repo",
-      "title": "rakxdev/RodeX",
-      "summaryOriginal": "RodexDB — your own database platform: per-app keys & tables on DynamoDB, one clean API + MCP for every coding agent. Serverless, TypeScript, $0 forever (AWS always-free + Cloudflare free tier).",
-      "url": "https://github.com/rakxdev/RodeX",
-      "lang": "TypeScript",
+      "title": "INTJ-boy/ExpoShare",
+      "summaryOriginal": "ExpoShare: a community platform where students, researchers, educators and professionals upload and discover educational presentations. Built with vanilla HTML/CSS/JS and Supabase . Trilingual (EN/FR/AR) ,made by Zekraoui Rabah AllaaEddine🦑 ©2026.",
+      "url": "https://github.com/INTJ-boy/ExpoShare",
+      "lang": "HTML",
       "tags": [
-        "cloudflare-workers",
+        "algeria",
+        "algerian-developpers",
+        "arabic",
+        "benevolent",
+        "biology",
         "database",
-        "dynamodb",
-        "hono",
-        "mcp",
-        "react",
-        "serverless",
-        "typescript"
+        "engineering",
+        "english",
+        "expository",
+        "free",
+        "french",
+        "microbiology",
+        "physics",
+        "presentations",
+        "research",
+        "researchers",
+        "science",
+        "sports",
+        "trilingual",
+        "worldwide"
       ],
       "metrics": {
         "stars": 1
       },
       "source": "github-search",
-      "publishedAt": "2026-08-09T08:46:57Z",
-      "updatedAt": "2026-08-12T15:08:47Z",
+      "publishedAt": "2026-08-13T23:08:29Z",
+      "updatedAt": "2026-08-15T21:31:45Z",
       "categories": [
         "data"
       ]
@@ -1163,6 +975,31 @@
       "source": "github-search",
       "publishedAt": "2026-08-14T15:26:33Z",
       "updatedAt": "2026-08-15T19:21:34Z",
+      "categories": [
+        "data"
+      ]
+    },
+    {
+      "id": "gh:alsabai2004/Banking-System-Oracle-PLSQL",
+      "type": "repo",
+      "title": "alsabai2004/Banking-System-Oracle-PLSQL",
+      "summaryOriginal": "Oracle PL/SQL Banking System demonstrating database programming, procedures, functions, transactions, and banking operations.",
+      "url": "https://github.com/alsabai2004/Banking-System-Oracle-PLSQL",
+      "lang": "PLSQL",
+      "tags": [
+        "banking-system",
+        "database",
+        "database-programming",
+        "oracle",
+        "plsql",
+        "sql"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-12T21:02:37Z",
+      "updatedAt": "2026-08-15T03:35:18Z",
       "categories": [
         "data"
       ]
@@ -1266,6 +1103,160 @@
       ]
     },
     {
+      "id": "gh:Manish-262/sql-learning",
+      "type": "repo",
+      "title": "Manish-262/sql-learning",
+      "summaryOriginal": "SQL concepts, queries, and practice problems learned throughout my SQL learning journey.",
+      "url": "https://github.com/Manish-262/sql-learning",
+      "lang": "TSQL",
+      "tags": [
+        "data-analysis",
+        "database",
+        "sql"
+      ],
+      "metrics": {
+        "stars": 0
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-11T08:16:44Z",
+      "updatedAt": "2026-08-11T08:31:54Z",
+      "categories": [
+        "data"
+      ]
+    },
+    {
+      "id": "gh:martin-k-m/quarry",
+      "type": "repo",
+      "title": "martin-k-m/quarry",
+      "summaryOriginal": "A SQL query engine over CSV files, in Python. Standard library only.",
+      "url": "https://github.com/martin-k-m/quarry",
+      "lang": "Python",
+      "tags": [
+        "csv",
+        "data-engineering",
+        "database",
+        "python",
+        "query-engine",
+        "sql"
+      ],
+      "metrics": {
+        "stars": 0
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-11T14:21:07Z",
+      "updatedAt": "2026-08-13T11:57:39Z",
+      "categories": [
+        "data"
+      ]
+    },
+    {
+      "id": "gh:aeyennmalla123/Pizza-Sales-SQL",
+      "type": "repo",
+      "title": "aeyennmalla123/Pizza-Sales-SQL",
+      "summaryOriginal": "Queries solved using SQL",
+      "url": "https://github.com/aeyennmalla123/Pizza-Sales-SQL",
+      "tags": [
+        "canva",
+        "data-analysis",
+        "database",
+        "sql"
+      ],
+      "metrics": {
+        "stars": 0
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-12T05:59:38Z",
+      "updatedAt": "2026-08-12T06:17:34Z",
+      "categories": [
+        "data"
+      ]
+    },
+    {
+      "id": "gh:namiezasfar7/data-management-projects",
+      "type": "repo",
+      "title": "namiezasfar7/data-management-projects",
+      "summaryOriginal": "A curated collection of database and data management projects built while learning Database Management Systems (DBMS), SQL, and relational database concepts. This repository documents my progress in understanding how data is structured, stored, queried, analyzed, and managed using practical database projects.",
+      "url": "https://github.com/namiezasfar7/data-management-projects",
+      "tags": [
+        "beginner",
+        "database",
+        "mssql",
+        "mysql"
+      ],
+      "metrics": {
+        "stars": 0
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T10:12:50Z",
+      "updatedAt": "2026-08-14T11:05:35Z",
+      "categories": [
+        "data"
+      ]
+    },
+    {
+      "id": "gh:Farshal/World-Layoffs-Project",
+      "type": "repo",
+      "title": "Farshal/World-Layoffs-Project",
+      "summaryOriginal": "Full data pipeline for the World Layoffs dataset: SQL cleaning → EDA → interactive dashboard (MySQL + Looker Studio).",
+      "url": "https://github.com/Farshal/World-Layoffs-Project",
+      "tags": [
+        "dashboard",
+        "data",
+        "data-analysis",
+        "data-analytics",
+        "data-c",
+        "data-visualisation",
+        "data-visualization",
+        "data-visualization-dashboard",
+        "data-visualization-project",
+        "data-visualizations",
+        "data-viz",
+        "data-vizualisation",
+        "database",
+        "excel",
+        "exploratory-data-analysis",
+        "looker-studio",
+        "portfolio-project",
+        "sql"
+      ],
+      "metrics": {
+        "stars": 0
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T02:07:00Z",
+      "updatedAt": "2026-08-14T13:31:42Z",
+      "categories": [
+        "data"
+      ]
+    },
+    {
+      "id": "gh:skibusts-ops/zcube",
+      "type": "repo",
+      "title": "skibusts-ops/zcube",
+      "summaryOriginal": "ZCube — embedded engine: columnar SQL + vector search + in-process embedding generation. Own HNSW, time-travel queries, realtime over SSE/WebSocket/WebTransport. Rust.",
+      "url": "https://github.com/skibusts-ops/zcube",
+      "lang": "Rust",
+      "tags": [
+        "arrow",
+        "database",
+        "datafusion",
+        "embeddings",
+        "hnsw",
+        "rust",
+        "sql",
+        "vector-database"
+      ],
+      "metrics": {
+        "stars": 0
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-10T12:33:21Z",
+      "updatedAt": "2026-08-14T18:58:47Z",
+      "categories": [
+        "data"
+      ]
+    },
+    {
       "id": "gh:supabase/supabase",
       "type": "repo",
       "title": "supabase/supabase",
@@ -1294,50 +1285,11 @@
         "websockets"
       ],
       "metrics": {
-        "stars": 108021
+        "stars": 108026
       },
       "source": "github-search",
       "publishedAt": "2019-10-12T05:56:49Z",
-      "updatedAt": "2026-08-15T08:15:00Z",
-      "categories": [
-        "data"
-      ]
-    },
-    {
-      "id": "gh:redis/redis",
-      "type": "repo",
-      "title": "redis/redis",
-      "summaryOriginal": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.",
-      "url": "https://github.com/redis/redis",
-      "lang": "C",
-      "tags": [
-        "cache",
-        "caching",
-        "database",
-        "distributed-systems",
-        "in-memory",
-        "in-memory-database",
-        "json",
-        "key-value",
-        "key-value-store",
-        "message-broker",
-        "message-queue",
-        "no-sql",
-        "nosql",
-        "open-source",
-        "real-time",
-        "realtime",
-        "redis",
-        "time-series",
-        "vector-databases",
-        "vector-search"
-      ],
-      "metrics": {
-        "stars": 76022
-      },
-      "source": "github-search",
-      "publishedAt": "2009-03-21T22:32:25Z",
-      "updatedAt": "2026-08-13T10:52:17Z",
+      "updatedAt": "2026-08-16T00:17:15Z",
       "categories": [
         "data"
       ]
@@ -1370,7 +1322,7 @@
         "sqlserver"
       ],
       "metrics": {
-        "stars": 51438
+        "stars": 51442
       },
       "source": "github-search",
       "publishedAt": "2015-10-21T08:26:28Z",
@@ -1406,11 +1358,11 @@
         "sql"
       ],
       "metrics": {
-        "stars": 49262
+        "stars": 49267
       },
       "source": "github-search",
       "publishedAt": "2016-06-02T08:28:18Z",
-      "updatedAt": "2026-08-15T21:21:10Z",
+      "updatedAt": "2026-08-16T01:17:01Z",
       "categories": [
         "data"
       ]
@@ -1447,7 +1399,46 @@
       },
       "source": "github-search",
       "publishedAt": "2015-02-02T19:25:47Z",
-      "updatedAt": "2026-08-15T21:05:10Z",
+      "updatedAt": "2026-08-16T00:23:22Z",
+      "categories": [
+        "data"
+      ]
+    },
+    {
+      "id": "gh:prisma/prisma",
+      "type": "repo",
+      "title": "prisma/prisma",
+      "summaryOriginal": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
+      "url": "https://github.com/prisma/prisma",
+      "lang": "TypeScript",
+      "tags": [
+        "cockroachdb",
+        "database",
+        "javascript",
+        "loggy-core",
+        "loggy-terminal",
+        "mariadb",
+        "mongodb",
+        "mssql",
+        "mysql",
+        "nodejs",
+        "orm",
+        "postgres",
+        "postgresql",
+        "prisma",
+        "prisma-client",
+        "query-builder",
+        "sql-server",
+        "sqlite",
+        "sqlserver",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 47577
+      },
+      "source": "github-search",
+      "publishedAt": "2019-06-20T13:33:47Z",
+      "updatedAt": "2026-08-14T17:12:15Z",
       "categories": [
         "data"
       ]

@@ -1,26 +1,9 @@
 {
   "version": 1,
   "category": "backend",
-  "generatedAt": "2026-08-15T21:22:40.388Z",
+  "generatedAt": "2026-08-16T01:24:37.058Z",
   "ttlSeconds": 10800,
   "cards": [
-    {
-      "id": "gh:public-apis/public-apis",
-      "type": "repo",
-      "title": "public-apis/public-apis",
-      "summaryOriginal": "A collective list of free APIs",
-      "url": "https://github.com/public-apis/public-apis",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "stars": 460058,
-        "starsDelta": 2476
-      },
-      "source": "github-trending",
-      "categories": [
-        "backend"
-      ]
-    },
     {
       "id": "gh:herdrdev/herdr",
       "type": "repo",
@@ -49,16 +32,54 @@
         "workspace-manager"
       ],
       "metrics": {
-        "stars": 29475
+        "stars": 29501
       },
       "source": "github-search",
       "publishedAt": "2026-03-27T17:54:33Z",
-      "updatedAt": "2026-08-15T21:05:25Z",
+      "updatedAt": "2026-08-15T23:10:50Z",
       "summaryEn": "Terminal runtime and multiplexer for running and managing multiple coding agents together.",
       "summaryKo": "여러 코딩 에이전트를 함께 실행·관리하는 터미널 런타임 겸 멀티플렉서",
       "categories": [
         "devtools",
         "ai-agents",
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:mudler/LocalAI",
+      "type": "repo",
+      "title": "mudler/LocalAI",
+      "summaryOriginal": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "url": "https://github.com/mudler/LocalAI",
+      "lang": "Go",
+      "tags": [
+        "agents",
+        "ai",
+        "api",
+        "audio-generation",
+        "decentralized",
+        "distributed",
+        "image-generation",
+        "libp2p",
+        "llama",
+        "llm",
+        "mamba",
+        "mcp",
+        "musicgen",
+        "object-detection",
+        "rerank",
+        "stable-diffusion",
+        "text-generation",
+        "tts"
+      ],
+      "metrics": {
+        "stars": 48497
+      },
+      "source": "github-search",
+      "publishedAt": "2023-03-18T22:58:02Z",
+      "updatedAt": "2026-08-16T01:00:30Z",
+      "categories": [
+        "ai-models",
         "backend"
       ]
     },
@@ -92,11 +113,11 @@
         "web"
       ],
       "metrics": {
-        "stars": 57006
+        "stars": 57010
       },
       "source": "github-search",
       "publishedAt": "2019-04-08T16:36:25Z",
-      "updatedAt": "2026-08-15T17:51:08Z",
+      "updatedAt": "2026-08-16T00:04:40Z",
       "categories": [
         "web",
         "backend"
@@ -132,7 +153,7 @@
         "vue"
       ],
       "metrics": {
-        "stars": 37406
+        "stars": 37410
       },
       "source": "github-search",
       "publishedAt": "2012-12-12T01:35:36Z",
@@ -190,7 +211,7 @@
         "token-usage"
       ],
       "metrics": {
-        "stars": 215
+        "stars": 216
       },
       "source": "github-search",
       "publishedAt": "2026-08-12T16:09:39Z",
@@ -277,132 +298,6 @@
       ]
     },
     {
-      "id": "gh:LopezDev7/public-apis-es",
-      "type": "repo",
-      "title": "LopezDev7/public-apis-es",
-      "summaryOriginal": "Catálogo de APIs públicas y gratuitas documentadas en español, ampliable con PRs de la comunidad.",
-      "url": "https://github.com/LopezDev7/public-apis-es",
-      "lang": "JavaScript",
-      "tags": [
-        "api",
-        "apis",
-        "awesome",
-        "awesome-list",
-        "contributions-welcome",
-        "espanol",
-        "first-timers-only",
-        "free-apis",
-        "good-first-issue",
-        "hacktoberfest",
-        "list",
-        "open-data",
-        "programacion",
-        "public-apis",
-        "rest-api",
-        "spanish"
-      ],
-      "metrics": {
-        "stars": 9
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-09T02:25:01Z",
-      "updatedAt": "2026-08-09T02:51:00Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:tigusigalpa/bitget-go",
-      "type": "repo",
-      "title": "tigusigalpa/bitget-go",
-      "summaryOriginal": "Idiomatic Go SDK for the Bitget Unified Trading Account (UTA) API v3. Lightweight, dependency-minimal client with context.Context, typed REST models, string-based prices/quantities to avoid float rounding, plus reconnecting WebSocket with auto-resubscription. Built for safe and reliable crypto trading automation.",
-      "url": "https://github.com/tigusigalpa/bitget-go",
-      "lang": "Go",
-      "tags": [
-        "api",
-        "bitcoin",
-        "bitget",
-        "bitget-api",
-        "bitget-api-client",
-        "bitget-api-sdk",
-        "chainlink",
-        "go",
-        "golang",
-        "litecoin",
-        "near-protocol",
-        "near-protocol-crypto"
-      ],
-      "metrics": {
-        "stars": 8
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-09T06:09:37Z",
-      "updatedAt": "2026-08-09T09:15:19Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:tigusigalpa/tokenterminal-php",
-      "type": "repo",
-      "title": "tigusigalpa/tokenterminal-php",
-      "summaryOriginal": "PHP 8.1+ SDK for the Token Terminal API v2. Covers all 24 endpoints across assets, projects, market sectors, metrics and datasets, with typed requests, immutable results, partial-success responses, retries with backoff and jitter, 308 rename redirects and an exception per HTTP status. PSR-18 based, with Laravel integration.",
-      "url": "https://github.com/tigusigalpa/tokenterminal-php",
-      "lang": "PHP",
-      "tags": [
-        "api",
-        "bitcoin",
-        "chainlink",
-        "crypto",
-        "cryptocurrency",
-        "laravel",
-        "nearprotocol",
-        "php",
-        "tokenterminal"
-      ],
-      "metrics": {
-        "stars": 8
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-09T05:40:37Z",
-      "updatedAt": "2026-08-09T06:51:49Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:tigusigalpa/bitget-php",
-      "type": "repo",
-      "title": "tigusigalpa/bitget-php",
-      "summaryOriginal": "Production-grade PHP/Laravel SDK for the Bitget UTA v3 API: market data, account, and trade endpoints with HMAC-SHA256 signing, typed exceptions, PSR-3 logging, and a reconnecting WebSocket client. PHP 8.2+. Built for demo-first trading safety.",
-      "url": "https://github.com/tigusigalpa/bitget-php",
-      "lang": "PHP",
-      "tags": [
-        "api",
-        "bitcoin",
-        "bitcoin-core",
-        "bitget",
-        "bitget-api",
-        "bitget-api-client",
-        "crypto",
-        "cryptocurrency",
-        "laravel",
-        "ltc",
-        "near-protocol",
-        "nearprotocol",
-        "php"
-      ],
-      "metrics": {
-        "stars": 8
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-09T08:54:46Z",
-      "updatedAt": "2026-08-09T09:10:52Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
       "id": "gh:prabhavalabs/lanka-data-layer",
       "type": "repo",
       "title": "prabhavalabs/lanka-data-layer",
@@ -461,7 +356,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T21:48:54Z",
-      "updatedAt": "2026-08-15T21:19:24Z",
+      "updatedAt": "2026-08-15T23:29:05Z",
       "categories": [
         "backend"
       ]
@@ -558,6 +453,32 @@
       ]
     },
     {
+      "id": "gh:Ntmib/razbor-servisa",
+      "type": "repo",
+      "title": "Ntmib/razbor-servisa",
+      "summaryOriginal": "Скилл для Claude Code: превращает сервис без API в CLI-инструмент, которым управляет агент. Режим разработчика браузера → скрытый API → CLI → Skill.",
+      "url": "https://github.com/Ntmib/razbor-servisa",
+      "tags": [
+        "ai-agents",
+        "api",
+        "automation",
+        "claude-code",
+        "claude-skill",
+        "cli",
+        "devtools",
+        "reverse-engineering"
+      ],
+      "metrics": {
+        "stars": 2
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T14:04:56Z",
+      "updatedAt": "2026-08-14T14:26:33Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
       "id": "gh:AfnanTawsif/ff-catalog",
       "type": "repo",
       "title": "AfnanTawsif/ff-catalog",
@@ -594,32 +515,6 @@
       "categories": [
         "backend",
         "data"
-      ]
-    },
-    {
-      "id": "gh:Ntmib/razbor-servisa",
-      "type": "repo",
-      "title": "Ntmib/razbor-servisa",
-      "summaryOriginal": "Скилл для Claude Code: превращает сервис без API в CLI-инструмент, которым управляет агент. Режим разработчика браузера → скрытый API → CLI → Skill.",
-      "url": "https://github.com/Ntmib/razbor-servisa",
-      "tags": [
-        "ai-agents",
-        "api",
-        "automation",
-        "claude-code",
-        "claude-skill",
-        "cli",
-        "devtools",
-        "reverse-engineering"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T14:04:56Z",
-      "updatedAt": "2026-08-14T14:26:33Z",
-      "categories": [
-        "backend"
       ]
     },
     {
@@ -723,83 +618,6 @@
       ]
     },
     {
-      "id": "gh:FarrukhDev-io/aura",
-      "type": "repo",
-      "title": "FarrukhDev-io/aura",
-      "summaryOriginal": "Aura Universal Web Agent API - Flask and Playwright-powered automated browser execution service.",
-      "url": "https://github.com/FarrukhDev-io/aura",
-      "lang": "Python",
-      "tags": [
-        "api",
-        "browser-automation",
-        "flask",
-        "playwright",
-        "python"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-09T12:46:35Z",
-      "updatedAt": "2026-08-15T17:17:26Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:Webisso/minecraft-item-icons",
-      "type": "repo",
-      "title": "Webisso/minecraft-item-icons",
-      "summaryOriginal": "An open-source Minecraft icon library. Browse, search, and ship pixel-perfect item, block, mob, structure, UI, and particle icons from a clean local catalog.",
-      "url": "https://github.com/Webisso/minecraft-item-icons",
-      "lang": "JavaScript",
-      "tags": [
-        "api",
-        "cdn",
-        "icons",
-        "items",
-        "minecraft"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-12T09:37:54Z",
-      "updatedAt": "2026-08-12T10:35:26Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:asale-ai/llm-verify",
-      "type": "repo",
-      "title": "asale-ai/llm-verify",
-      "summaryOriginal": "Verify the LLM endpoint you're actually using: model authenticity, billing inflation, relay provenance, performance and silent downgrades. Single binary, no dependencies, HTML report with CI-friendly exit codes.",
-      "url": "https://github.com/asale-ai/llm-verify",
-      "lang": "Rust",
-      "tags": [
-        "anthropic",
-        "api",
-        "cli",
-        "devtools",
-        "llm",
-        "llm-security",
-        "llmops",
-        "monitoring",
-        "openai",
-        "rust"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T03:22:42Z",
-      "updatedAt": "2026-08-15T13:20:19Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
       "id": "gh:artemisss/mos_public_bus",
       "type": "repo",
       "title": "artemisss/mos_public_bus",
@@ -879,6 +697,59 @@
       ]
     },
     {
+      "id": "gh:Webisso/minecraft-item-icons",
+      "type": "repo",
+      "title": "Webisso/minecraft-item-icons",
+      "summaryOriginal": "An open-source Minecraft icon library. Browse, search, and ship pixel-perfect item, block, mob, structure, UI, and particle icons from a clean local catalog.",
+      "url": "https://github.com/Webisso/minecraft-item-icons",
+      "lang": "JavaScript",
+      "tags": [
+        "api",
+        "cdn",
+        "icons",
+        "items",
+        "minecraft"
+      ],
+      "metrics": {
+        "stars": 2
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-12T09:37:54Z",
+      "updatedAt": "2026-08-12T10:35:26Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:asale-ai/llm-verify",
+      "type": "repo",
+      "title": "asale-ai/llm-verify",
+      "summaryOriginal": "Verify the LLM endpoint you're actually using: model authenticity, billing inflation, relay provenance, performance and silent downgrades. Single binary, no dependencies, HTML report with CI-friendly exit codes.",
+      "url": "https://github.com/asale-ai/llm-verify",
+      "lang": "Rust",
+      "tags": [
+        "anthropic",
+        "api",
+        "cli",
+        "devtools",
+        "llm",
+        "llm-security",
+        "llmops",
+        "monitoring",
+        "openai",
+        "rust"
+      ],
+      "metrics": {
+        "stars": 2
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T03:22:42Z",
+      "updatedAt": "2026-08-15T13:20:19Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
       "id": "gh:TaqsBlaze/capsule",
       "type": "repo",
       "title": "TaqsBlaze/capsule",
@@ -926,45 +797,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-11T04:00:12Z",
       "updatedAt": "2026-08-11T05:02:43Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:Anil-matcha/awesome-minimax-music-3-prompts",
-      "type": "repo",
-      "title": "Anil-matcha/awesome-minimax-music-3-prompts",
-      "summaryOriginal": "Curated MiniMax Music 3.0 prompt library, lyrics-formatting guide, and MuAPI Python client for text-to-music generation",
-      "url": "https://github.com/Anil-matcha/awesome-minimax-music-3-prompts",
-      "lang": "Python",
-      "tags": [
-        "ai-music",
-        "ai-music-generation",
-        "api",
-        "api-wrapper",
-        "audio-generation",
-        "awesome-list",
-        "generative-ai",
-        "generative-music",
-        "lyrics-to-song",
-        "minimax",
-        "minimax-music",
-        "minimax-music-3",
-        "muapi",
-        "music-ai",
-        "music-generation",
-        "prompt-engineering",
-        "prompt-library",
-        "python",
-        "song-generation",
-        "text-to-music"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-15T08:26:36Z",
-      "updatedAt": "2026-08-15T08:42:40Z",
       "categories": [
         "backend"
       ]
@@ -1073,6 +905,80 @@
       ]
     },
     {
+      "id": "gh:Anil-matcha/awesome-minimax-music-3-prompts",
+      "type": "repo",
+      "title": "Anil-matcha/awesome-minimax-music-3-prompts",
+      "summaryOriginal": "Curated MiniMax Music 3.0 prompt library, lyrics-formatting guide, and MuAPI Python client for text-to-music generation",
+      "url": "https://github.com/Anil-matcha/awesome-minimax-music-3-prompts",
+      "lang": "Python",
+      "tags": [
+        "ai-music",
+        "ai-music-generation",
+        "api",
+        "api-wrapper",
+        "audio-generation",
+        "awesome-list",
+        "generative-ai",
+        "generative-music",
+        "lyrics-to-song",
+        "minimax",
+        "minimax-music",
+        "minimax-music-3",
+        "muapi",
+        "music-ai",
+        "music-generation",
+        "prompt-engineering",
+        "prompt-library",
+        "python",
+        "song-generation",
+        "text-to-music"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-15T08:26:36Z",
+      "updatedAt": "2026-08-15T08:42:40Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:PhotonJackdaw/autoseller-tg-bot-aiogram",
+      "type": "repo",
+      "title": "PhotonJackdaw/autoseller-tg-bot-aiogram",
+      "summaryOriginal": "AutoSeller TG Bot (aiogram) is an asynchronous Python-based Telegram bot template designed to automate digital product sales, manage inventory, process payments, and handle customer orders directly within Telegram.",
+      "url": "https://github.com/PhotonJackdaw/autoseller-tg-bot-aiogram",
+      "lang": "Rust",
+      "tags": [
+        "aiogram-bot",
+        "aiogram3",
+        "api",
+        "apscheduler",
+        "autosell",
+        "crypto",
+        "cryptocurrency",
+        "cryptoinvoicegenerator",
+        "cryptotelegrambot",
+        "mongodb",
+        "payment-bot-telegram",
+        "sellix",
+        "sellixapi",
+        "shop-bot",
+        "sqlite",
+        "yoomoney"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-11T18:09:14Z",
+      "updatedAt": "2026-08-11T18:15:53Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
       "id": "gh:hideshopkeeperbound/ebay-kleinanzeigen-api-interface",
       "type": "repo",
       "title": "hideshopkeeperbound/ebay-kleinanzeigen-api-interface",
@@ -1100,6 +1006,138 @@
       ]
     },
     {
+      "id": "gh:giimendonca/vulnerabilidades_web",
+      "type": "repo",
+      "title": "giimendonca/vulnerabilidades_web",
+      "summaryOriginal": "Sistema de votação desenvolvido em PHP e MySQL para demonstrar vulnerabilidades web e suas correções. Possui versões vulnerável e segura, abordando SQL Injection, XSS, CSRF, autenticação, sessões, controle de acesso, uploads, APIs e outras práticas de segurança.",
+      "url": "https://github.com/giimendonca/vulnerabilidades_web",
+      "lang": "PHP",
+      "tags": [
+        "academic-project",
+        "api",
+        "authentication",
+        "csrf",
+        "css",
+        "cybersecurity",
+        "html",
+        "javascript",
+        "mysql",
+        "php",
+        "secure-coding",
+        "sql-injection",
+        "web-development",
+        "websecurity",
+        "xss"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-12T17:31:50Z",
+      "updatedAt": "2026-08-14T14:02:18Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:AlvaroMartinCrespo/iris",
+      "type": "repo",
+      "title": "AlvaroMartinCrespo/iris",
+      "summaryOriginal": "Buscador inverso de viajes que compara vuelos, alojamiento y transporte para descubrir las mejores escapadas según origen, fechas, presupuesto y viajeros.",
+      "url": "https://github.com/AlvaroMartinCrespo/iris",
+      "lang": "JavaScript",
+      "tags": [
+        "api",
+        "duffel",
+        "duffel-api",
+        "flight",
+        "reactjs",
+        "skyscanner",
+        "skyscanner-flight-search",
+        "skyscanner-scraper"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T14:16:28Z",
+      "updatedAt": "2026-08-13T16:59:45Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:CreaturePrawn/nexusggr-casino-api",
+      "type": "repo",
+      "title": "CreaturePrawn/nexusggr-casino-api",
+      "summaryOriginal": "NexusGGR Casino API is a unified iGaming aggregation engine designed to seamlessly connect online casino platforms with thousands of games, live dealer tables, and unified wallet services through a single integration endpoint.",
+      "url": "https://github.com/CreaturePrawn/nexusggr-casino-api",
+      "lang": "Go",
+      "tags": [
+        "api",
+        "bahis",
+        "betting",
+        "cheap",
+        "evolution",
+        "free",
+        "gambling-website",
+        "game-provider-api",
+        "igaming-software",
+        "pgsoft",
+        "pragmatic",
+        "roulette",
+        "script",
+        "slot",
+        "slot-game",
+        "solution",
+        "sportsbook",
+        "turnkey",
+        "whitelabel"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-15T11:47:16Z",
+      "updatedAt": "2026-08-15T11:54:05Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:Rgeirkou/Truemoney-Voucher-Go",
+      "type": "repo",
+      "title": "Rgeirkou/Truemoney-Voucher-Go",
+      "summaryOriginal": "REST API for verifying & redeeming TrueMoney gift vouchers via gift.truemoney.com - Go, with a Firefox 148 TLS/HTTP2 browser-mimicking transport",
+      "url": "https://github.com/Rgeirkou/Truemoney-Voucher-Go",
+      "lang": "Go",
+      "tags": [
+        "api",
+        "backend",
+        "cloudflare",
+        "docker",
+        "gift-voucher",
+        "go",
+        "golang",
+        "http2",
+        "rest-api",
+        "tls-fingerprint",
+        "truemoney",
+        "truewallet",
+        "utls",
+        "voucher"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-11T05:52:02Z",
+      "updatedAt": "2026-08-11T22:57:08Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
       "id": "gh:neovim/neovim",
       "type": "repo",
       "title": "neovim/neovim",
@@ -1116,11 +1154,11 @@
         "vim"
       ],
       "metrics": {
-        "stars": 101818
+        "stars": 101821
       },
       "source": "github-search",
       "publishedAt": "2014-01-31T13:39:22Z",
-      "updatedAt": "2026-08-15T17:34:51Z",
+      "updatedAt": "2026-08-15T23:47:39Z",
       "categories": [
         "backend"
       ]
@@ -1155,7 +1193,7 @@
         "web"
       ],
       "metrics": {
-        "stars": 101614
+        "stars": 101615
       },
       "source": "github-search",
       "publishedAt": "2018-12-08T08:21:47Z",
@@ -1193,7 +1231,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 72929
+        "stars": 72934
       },
       "source": "github-search",
       "publishedAt": "2015-09-30T15:34:48Z",
