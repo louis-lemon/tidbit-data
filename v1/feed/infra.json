@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "infra",
-  "generatedAt": "2026-08-16T03:50:04.781Z",
+  "generatedAt": "2026-08-16T06:42:20.742Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,7 +13,7 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 39581,
+        "stars": 39649,
         "starsDelta": 544
       },
       "source": "github-trending",
@@ -56,11 +56,11 @@
         "prometheus"
       ],
       "metrics": {
-        "stars": 80194
+        "stars": 80195
       },
       "source": "github-search",
       "publishedAt": "2013-06-17T18:39:10Z",
-      "updatedAt": "2026-08-16T00:11:27Z",
+      "updatedAt": "2026-08-16T06:18:06Z",
       "categories": [
         "ai-models",
         "infra",
@@ -97,7 +97,7 @@
         "vue"
       ],
       "metrics": {
-        "stars": 57393
+        "stars": 57397
       },
       "source": "github-search",
       "publishedAt": "2016-11-01T02:13:26Z",
@@ -210,7 +210,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 12258
+        "stars": 12259
       },
       "source": "github-search",
       "publishedAt": "2021-02-17T16:33:24Z",
@@ -246,33 +246,6 @@
       ]
     },
     {
-      "id": "gh:SoulKyu/leandro",
-      "type": "repo",
-      "title": "SoulKyu/leandro",
-      "summaryOriginal": "AI SRE agent diagnosing Kubernetes incidents over Google Chat — security-first sandbox: NixOS VM, default-deny egress, hard tool denylist against prompt injection",
-      "url": "https://github.com/SoulKyu/leandro",
-      "lang": "Python",
-      "tags": [
-        "ai-agents",
-        "kubernetes",
-        "llm",
-        "mcp",
-        "nixos",
-        "prompt-injection",
-        "security",
-        "sre"
-      ],
-      "metrics": {
-        "stars": 9
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-12T07:17:09Z",
-      "updatedAt": "2026-08-14T09:14:45Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
       "id": "gh:runzhliu/deepseek-harness-docker",
       "type": "repo",
       "title": "runzhliu/deepseek-harness-docker",
@@ -298,11 +271,39 @@
         "llm"
       ],
       "metrics": {
-        "stars": 9
+        "stars": 11
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T15:41:41Z",
       "updatedAt": "2026-08-14T09:40:29Z",
+      "categories": [
+        "infra",
+        "devtools"
+      ]
+    },
+    {
+      "id": "gh:SoulKyu/leandro",
+      "type": "repo",
+      "title": "SoulKyu/leandro",
+      "summaryOriginal": "AI SRE agent diagnosing Kubernetes incidents over Google Chat — security-first sandbox: NixOS VM, default-deny egress, hard tool denylist against prompt injection",
+      "url": "https://github.com/SoulKyu/leandro",
+      "lang": "Python",
+      "tags": [
+        "ai-agents",
+        "kubernetes",
+        "llm",
+        "mcp",
+        "nixos",
+        "prompt-injection",
+        "security",
+        "sre"
+      ],
+      "metrics": {
+        "stars": 9
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-12T07:17:09Z",
+      "updatedAt": "2026-08-14T09:14:45Z",
       "categories": [
         "infra"
       ]
@@ -585,6 +586,44 @@
       "source": "github-search",
       "publishedAt": "2026-08-10T12:24:45Z",
       "updatedAt": "2026-08-14T10:25:39Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:dwin-gharibi/AmazingScanner",
+      "type": "repo",
+      "title": "dwin-gharibi/AmazingScanner",
+      "summaryOriginal": "AmazingScanner is a document scanner built from scratch. It detects page corners, rectifies tilted photos with homography, removes shadows and lighting artifacts, enhances degraded pages to scanner quality, and produces upright, styled, exportable scans. Includes corner detection, OCR evaluation, synthetic degradations, and an end-to-end scanner.",
+      "url": "https://github.com/dwin-gharibi/AmazingScanner",
+      "lang": "Python",
+      "tags": [
+        "ansible",
+        "computer-vision",
+        "computer-vision-ai",
+        "corner-detection",
+        "deep-learning",
+        "docker",
+        "document-scanner",
+        "helm",
+        "image-enhancement",
+        "kubernetes",
+        "kubernetes-deployment",
+        "ocr",
+        "ocr-recognition",
+        "opencv",
+        "python",
+        "pytorch",
+        "synthetic-data",
+        "vagrant",
+        "vagrantfile"
+      ],
+      "metrics": {
+        "stars": 2
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-11T18:04:33Z",
+      "updatedAt": "2026-08-14T12:48:19Z",
       "categories": [
         "infra"
       ]
@@ -946,6 +985,33 @@
       ]
     },
     {
+      "id": "gh:SamuelSupe/rustprofile",
+      "type": "repo",
+      "title": "SamuelSupe/rustprofile",
+      "summaryOriginal": "Linux continuous CPU and sampled-heap profiling for native processes, Docker containers, and Kubernetes application containers",
+      "url": "https://github.com/SamuelSupe/rustprofile",
+      "lang": "Rust",
+      "tags": [
+        "ebpf",
+        "kubernetes",
+        "linux",
+        "opentelemetry",
+        "performance",
+        "pprof",
+        "profiling",
+        "rust"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-16T01:19:03Z",
+      "updatedAt": "2026-08-16T01:56:31Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
       "id": "gh:byte-ish/argo-workflows-vs-kubeflow-pipelines",
       "type": "repo",
       "title": "byte-ish/argo-workflows-vs-kubeflow-pipelines",
@@ -1019,72 +1085,6 @@
       ]
     },
     {
-      "id": "gh:dwin-gharibi/AmazingScanner",
-      "type": "repo",
-      "title": "dwin-gharibi/AmazingScanner",
-      "summaryOriginal": "AmazingScanner is a document scanner built from scratch. It detects page corners, rectifies tilted photos with homography, removes shadows and lighting artifacts, enhances degraded pages to scanner quality, and produces upright, styled, exportable scans. Includes corner detection, OCR evaluation, synthetic degradations, and an end-to-end scanner.",
-      "url": "https://github.com/dwin-gharibi/AmazingScanner",
-      "lang": "Python",
-      "tags": [
-        "ansible",
-        "computer-vision",
-        "computer-vision-ai",
-        "corner-detection",
-        "deep-learning",
-        "docker",
-        "document-scanner",
-        "helm",
-        "image-enhancement",
-        "kubernetes",
-        "kubernetes-deployment",
-        "ocr",
-        "ocr-recognition",
-        "opencv",
-        "python",
-        "pytorch",
-        "synthetic-data",
-        "vagrant",
-        "vagrantfile"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T18:04:33Z",
-      "updatedAt": "2026-08-14T12:48:19Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:Ritesh-Prasad/Ritesh-Prasad",
-      "type": "repo",
-      "title": "Ritesh-Prasad/Ritesh-Prasad",
-      "summaryOriginal": "Cloud & DevOps Engineer portfolio featuring AWS, Terraform, Kubernetes, Jenkins, Docker, ArgoCD, CI/CD, and infrastructure automation projects.",
-      "url": "https://github.com/Ritesh-Prasad/Ritesh-Prasad",
-      "tags": [
-        "argocd",
-        "aws",
-        "ci-cd",
-        "cloud",
-        "devops",
-        "docker",
-        "infrastructure-as-code",
-        "jenkins",
-        "kubernetes",
-        "terraform"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-15T09:28:38Z",
-      "updatedAt": "2026-08-15T09:43:47Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
       "id": "gh:kubernetes/kubernetes",
       "type": "repo",
       "title": "kubernetes/kubernetes",
@@ -1098,7 +1098,7 @@
         "kubernetes"
       ],
       "metrics": {
-        "stars": 124505
+        "stars": 124507
       },
       "source": "github-search",
       "publishedAt": "2014-06-06T22:56:04Z",
