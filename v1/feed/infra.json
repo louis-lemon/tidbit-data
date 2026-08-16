@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "infra",
-  "generatedAt": "2026-08-16T09:28:36.874Z",
+  "generatedAt": "2026-08-16T12:41:45.388Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,8 +13,8 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 39693,
-        "starsDelta": 544
+        "stars": 39745,
+        "starsDelta": 446
       },
       "source": "github-trending",
       "summaryEn": "Open-source low-code platform for building internal tools, dashboards, workflows, and AI agents.",
@@ -56,7 +56,7 @@
         "workflow-automation"
       ],
       "metrics": {
-        "stars": 47056
+        "stars": 47060
       },
       "source": "github-search",
       "publishedAt": "2026-02-01T07:16:15Z",
@@ -96,7 +96,7 @@
         "prometheus"
       ],
       "metrics": {
-        "stars": 80198
+        "stars": 80200
       },
       "source": "github-search",
       "publishedAt": "2013-06-17T18:39:10Z",
@@ -137,7 +137,7 @@
         "vue"
       ],
       "metrics": {
-        "stars": 57403
+        "stars": 57404
       },
       "source": "github-search",
       "publishedAt": "2016-11-01T02:13:26Z",
@@ -176,7 +176,7 @@
         "serverless"
       ],
       "metrics": {
-        "stars": 16997
+        "stars": 16998
       },
       "source": "github-search",
       "publishedAt": "2019-04-10T02:02:05Z",
@@ -213,7 +213,7 @@
         "vps"
       ],
       "metrics": {
-        "stars": 36634
+        "stars": 36639
       },
       "source": "github-search",
       "publishedAt": "2024-04-19T07:49:30Z",
@@ -250,7 +250,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 12260
+        "stars": 12261
       },
       "source": "github-search",
       "publishedAt": "2021-02-17T16:33:24Z",
@@ -280,7 +280,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T10:13:52Z",
-      "updatedAt": "2026-08-14T10:39:37Z",
+      "updatedAt": "2026-08-16T12:40:19Z",
       "categories": [
         "infra"
       ]
@@ -914,6 +914,40 @@
       ]
     },
     {
+      "id": "gh:ciliverse/dawngrid",
+      "type": "repo",
+      "title": "ciliverse/dawngrid",
+      "summaryOriginal": "One login, one grid. Host shell for cluster, training, robots, and any console as plugins.",
+      "url": "https://github.com/ciliverse/dawngrid",
+      "lang": "TypeScript",
+      "tags": [
+        "admin-dashboard",
+        "hono",
+        "iframe",
+        "inference",
+        "kubernetes",
+        "llm",
+        "mlops",
+        "monorepo",
+        "plugin-system",
+        "react",
+        "robot",
+        "robotics",
+        "training",
+        "typescript",
+        "vite"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-16T10:44:22Z",
+      "updatedAt": "2026-08-16T11:22:55Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
       "id": "gh:Ananyanagaraj11/enterprise-integration-hub",
       "type": "repo",
       "title": "Ananyanagaraj11/enterprise-integration-hub",
@@ -996,62 +1030,6 @@
       ]
     },
     {
-      "id": "gh:robbeverhelst/unifi-reactor",
-      "type": "repo",
-      "title": "robbeverhelst/unifi-reactor",
-      "summaryOriginal": "Kubernetes operator for UniFi networks. Reacts to WAN failover, UPS power loss and device health with declarative Automations.",
-      "url": "https://github.com/robbeverhelst/unifi-reactor",
-      "lang": "Go",
-      "tags": [
-        "automation",
-        "go",
-        "helm-chart",
-        "homelab",
-        "kubernetes",
-        "kubernetes-operator",
-        "self-hosted",
-        "unifi",
-        "unifi-network",
-        "ups"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T12:08:12Z",
-      "updatedAt": "2026-08-16T09:08:31Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:SamuelSupe/rustprofile",
-      "type": "repo",
-      "title": "SamuelSupe/rustprofile",
-      "summaryOriginal": "Linux continuous CPU and sampled-heap profiling for native processes, Docker containers, and Kubernetes application containers",
-      "url": "https://github.com/SamuelSupe/rustprofile",
-      "lang": "Rust",
-      "tags": [
-        "ebpf",
-        "kubernetes",
-        "linux",
-        "opentelemetry",
-        "performance",
-        "pprof",
-        "profiling",
-        "rust"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-16T01:19:03Z",
-      "updatedAt": "2026-08-16T01:56:31Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
       "id": "gh:byte-ish/argo-workflows-vs-kubeflow-pipelines",
       "type": "repo",
       "title": "byte-ish/argo-workflows-vs-kubeflow-pipelines",
@@ -1120,6 +1098,33 @@
       "source": "github-search",
       "publishedAt": "2026-08-10T08:27:11Z",
       "updatedAt": "2026-08-11T04:34:38Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:SamuelSupe/rustprofile",
+      "type": "repo",
+      "title": "SamuelSupe/rustprofile",
+      "summaryOriginal": "Linux continuous CPU and sampled-heap profiling for native processes, Docker containers, and Kubernetes application containers",
+      "url": "https://github.com/SamuelSupe/rustprofile",
+      "lang": "Rust",
+      "tags": [
+        "ebpf",
+        "kubernetes",
+        "linux",
+        "opentelemetry",
+        "performance",
+        "pprof",
+        "profiling",
+        "rust"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-16T01:19:03Z",
+      "updatedAt": "2026-08-16T01:56:31Z",
       "categories": [
         "infra"
       ]
@@ -1235,7 +1240,7 @@
         "ui"
       ],
       "metrics": {
-        "stars": 38254
+        "stars": 38255
       },
       "source": "github-search",
       "publishedAt": "2016-05-19T20:15:28Z",
@@ -1269,7 +1274,7 @@
         "vulnerability-scanners"
       ],
       "metrics": {
-        "stars": 37423
+        "stars": 37424
       },
       "source": "github-search",
       "publishedAt": "2019-04-11T01:01:07Z",
@@ -1375,7 +1380,7 @@
       "tags": [],
       "metrics": {
         "upvotes": 197,
-        "comments": 92
+        "comments": 93
       },
       "source": "hn",
       "publishedAt": "2026-08-13T14:26:41Z",

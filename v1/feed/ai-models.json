@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "ai-models",
-  "generatedAt": "2026-08-16T09:28:36.874Z",
+  "generatedAt": "2026-08-16T12:41:45.388Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,30 +13,12 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 72219,
-        "starsDelta": 434
+        "stars": 72269,
+        "starsDelta": 580
       },
       "source": "github-trending",
       "categories": [
         "ai-models"
-      ]
-    },
-    {
-      "id": "gh:MakazhanAlpamys/Soup",
-      "type": "repo",
-      "title": "MakazhanAlpamys/Soup",
-      "summaryOriginal": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
-      "url": "https://github.com/MakazhanAlpamys/Soup",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "stars": 1843,
-        "starsDelta": 297
-      },
-      "source": "github-trending",
-      "categories": [
-        "ai-models",
-        "data"
       ]
     },
     {
@@ -67,7 +49,7 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 543
+        "stars": 566
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T13:14:49Z",
@@ -99,11 +81,11 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 504
+        "stars": 514
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T06:28:56Z",
-      "updatedAt": "2026-08-16T09:13:32Z",
+      "updatedAt": "2026-08-16T12:41:03Z",
       "summaryEn": "Open-source alternative to Grok's coding bot — pick your own model and sandbox.",
       "summaryKo": "Grok 봇의 오픈소스 대안, 모델과 샌드박스를 직접 선택",
       "categories": [
@@ -162,11 +144,11 @@
         "tutorial"
       ],
       "metrics": {
-        "stars": 326
+        "stars": 342
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T15:22:29Z",
-      "updatedAt": "2026-08-15T16:52:24Z",
+      "updatedAt": "2026-08-16T10:23:47Z",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -195,7 +177,7 @@
         "windsurf"
       ],
       "metrics": {
-        "stars": 161
+        "stars": 163
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T05:08:30Z",
@@ -235,7 +217,7 @@
         "zero-dependency"
       ],
       "metrics": {
-        "stars": 111
+        "stars": 123
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T08:09:10Z",
@@ -277,6 +259,45 @@
       ]
     },
     {
+      "id": "gh:trefeon/freebuff-proxy",
+      "type": "repo",
+      "title": "trefeon/freebuff-proxy",
+      "summaryOriginal": "OpenAI-compatible gateway for FreeBuff coding models. Token pool, session lifecycle, TLS stealth, embedded admin dashboard. No ads, no CLI, just /v1/chat/completions.",
+      "url": "https://github.com/trefeon/freebuff-proxy",
+      "lang": "Go",
+      "tags": [
+        "api-gateway",
+        "codebuff",
+        "coding-agent",
+        "coding-assistant",
+        "freebuff",
+        "golang",
+        "htmx",
+        "llm",
+        "llm-router",
+        "multi-account",
+        "openai",
+        "openai-compatible",
+        "proxy",
+        "reverse-proxy",
+        "self-hosted",
+        "session-management",
+        "single-binary",
+        "stealth",
+        "tls-fingerprinting",
+        "token-pool"
+      ],
+      "metrics": {
+        "stars": 90
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-11T07:06:43Z",
+      "updatedAt": "2026-08-16T09:42:21Z",
+      "categories": [
+        "ai-models"
+      ]
+    },
+    {
       "id": "gh:thiientv/godmode",
       "type": "repo",
       "title": "thiientv/godmode",
@@ -313,106 +334,6 @@
       ]
     },
     {
-      "id": "gh:trefeon/freebuff-proxy",
-      "type": "repo",
-      "title": "trefeon/freebuff-proxy",
-      "summaryOriginal": "OpenAI-compatible gateway for FreeBuff coding models. Token pool, session lifecycle, TLS stealth, embedded admin dashboard. No ads, no CLI, just /v1/chat/completions.",
-      "url": "https://github.com/trefeon/freebuff-proxy",
-      "lang": "Go",
-      "tags": [
-        "api-gateway",
-        "codebuff",
-        "coding-agent",
-        "coding-assistant",
-        "freebuff",
-        "golang",
-        "htmx",
-        "llm",
-        "llm-router",
-        "multi-account",
-        "openai",
-        "openai-compatible",
-        "proxy",
-        "reverse-proxy",
-        "self-hosted",
-        "session-management",
-        "single-binary",
-        "stealth",
-        "tls-fingerprinting",
-        "token-pool"
-      ],
-      "metrics": {
-        "stars": 87
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T07:06:43Z",
-      "updatedAt": "2026-08-16T05:28:31Z",
-      "categories": [
-        "ai-models"
-      ]
-    },
-    {
-      "id": "gh:bradeGithub/DSH-Plugins-Marketplace",
-      "type": "repo",
-      "title": "bradeGithub/DSH-Plugins-Marketplace",
-      "summaryOriginal": "DSH插件市场 / DSH Plugin Marketplace: 在 DeepSeek Harness Web GUI 中一键浏览、安装与更新 GitHub topic:dsh-plugin 的全部插件 | browse, install & update all GitHub dsh-plugin plugins in the DSH Web GUI",
-      "url": "https://github.com/bradeGithub/DSH-Plugins-Marketplace",
-      "lang": "JavaScript",
-      "tags": [
-        "agent",
-        "ai-agents",
-        "cordis",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "javascript",
-        "llm",
-        "marketplace",
-        "nodejs",
-        "plugin",
-        "plugin-marketplace"
-      ],
-      "metrics": {
-        "stars": 74
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T16:01:59Z",
-      "updatedAt": "2026-08-16T09:23:15Z",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "gh:biuworks/bilibili-digest",
-      "type": "repo",
-      "title": "biuworks/bilibili-digest",
-      "summaryOriginal": "已上架 Chrome 商店 🚀 把 B 站视频变成学习资源的浏览器扩展（Chrome / Edge）：字幕阅读、双语对照、AI 章节概览、划词解释和带时间戳的笔记",
-      "url": "https://github.com/biuworks/bilibili-digest",
-      "lang": "JavaScript",
-      "tags": [
-        "ai",
-        "bilibili",
-        "browser-extension",
-        "chrome-extension",
-        "edge-extension",
-        "language-learning",
-        "llm",
-        "note-taking",
-        "subtitles",
-        "transcript"
-      ],
-      "metrics": {
-        "stars": 66
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-12T06:48:51Z",
-      "updatedAt": "2026-08-15T21:57:19Z",
-      "categories": [
-        "ai-models"
-      ]
-    },
-    {
       "id": "gh:Dominic789654/awesome-deepseek-harness",
       "type": "repo",
       "title": "Dominic789654/awesome-deepseek-harness",
@@ -442,14 +363,75 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 65
+        "stars": 79
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T13:54:05Z",
-      "updatedAt": "2026-08-16T08:38:21Z",
+      "updatedAt": "2026-08-16T12:41:40Z",
       "categories": [
         "ai-models",
         "ai-agents"
+      ]
+    },
+    {
+      "id": "gh:bradeGithub/DSH-Plugins-Marketplace",
+      "type": "repo",
+      "title": "bradeGithub/DSH-Plugins-Marketplace",
+      "summaryOriginal": "DSH插件市场 / DSH Plugin Marketplace: 在 DeepSeek Harness Web GUI 中一键浏览、安装与更新 GitHub topic:dsh-plugin 的全部插件 | browse, install & update all GitHub dsh-plugin plugins in the DSH Web GUI",
+      "url": "https://github.com/bradeGithub/DSH-Plugins-Marketplace",
+      "lang": "JavaScript",
+      "tags": [
+        "agent",
+        "ai-agents",
+        "cordis",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "javascript",
+        "llm",
+        "marketplace",
+        "nodejs",
+        "plugin",
+        "plugin-marketplace"
+      ],
+      "metrics": {
+        "stars": 78
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T16:01:59Z",
+      "updatedAt": "2026-08-16T12:41:04Z",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "gh:biuworks/bilibili-digest",
+      "type": "repo",
+      "title": "biuworks/bilibili-digest",
+      "summaryOriginal": "已上架 Chrome 商店 🚀 把 B 站视频变成学习资源的浏览器扩展（Chrome / Edge）：字幕阅读、双语对照、AI 章节概览、划词解释和带时间戳的笔记",
+      "url": "https://github.com/biuworks/bilibili-digest",
+      "lang": "JavaScript",
+      "tags": [
+        "ai",
+        "bilibili",
+        "browser-extension",
+        "chrome-extension",
+        "edge-extension",
+        "language-learning",
+        "llm",
+        "note-taking",
+        "subtitles",
+        "transcript"
+      ],
+      "metrics": {
+        "stars": 67
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-12T06:48:51Z",
+      "updatedAt": "2026-08-15T21:57:19Z",
+      "categories": [
+        "ai-models"
       ]
     },
     {
@@ -507,11 +489,11 @@
         "webui"
       ],
       "metrics": {
-        "stars": 56
+        "stars": 60
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T16:52:02Z",
-      "updatedAt": "2026-08-16T06:45:04Z",
+      "updatedAt": "2026-08-16T10:44:53Z",
       "categories": [
         "ai-models"
       ]
@@ -537,7 +519,7 @@
         "token-usage"
       ],
       "metrics": {
-        "stars": 40
+        "stars": 44
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T14:57:55Z",
@@ -571,7 +553,7 @@
         "workflow-automation"
       ],
       "metrics": {
-        "stars": 37
+        "stars": 41
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T11:22:22Z",
@@ -602,6 +584,34 @@
       "source": "github-search",
       "publishedAt": "2026-08-13T15:51:22Z",
       "updatedAt": "2026-08-14T16:11:03Z",
+      "categories": [
+        "ai-models"
+      ]
+    },
+    {
+      "id": "gh:diegosouzapw/OmniCopilot",
+      "type": "repo",
+      "title": "diegosouzapw/OmniCopilot",
+      "summaryOriginal": "1200+ AI models in your GitHub Copilot Chat — free & forever free. VS Code extension powered by OmniRoute: 340+ providers (90+ free) — Kimi, Claude, GPT, Gemini, GLM, DeepSeek, Qwen — with agent mode, tool calling, vision and quota-aware auto-fallback. MIT.",
+      "url": "https://github.com/diegosouzapw/OmniCopilot",
+      "lang": "TypeScript",
+      "tags": [
+        "ai",
+        "byok",
+        "copilot-chat",
+        "github-copilot",
+        "language-models",
+        "llm",
+        "omniroute",
+        "openai-compatible",
+        "vscode-extension"
+      ],
+      "metrics": {
+        "stars": 30
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T14:33:05Z",
+      "updatedAt": "2026-08-15T23:11:33Z",
       "categories": [
         "ai-models"
       ]
@@ -736,9 +746,9 @@
         "deploy:azure"
       ],
       "metrics": {
-        "likes": 9971,
+        "likes": 10031,
         "downloads": 267725,
-        "trendingScore": 9580
+        "trendingScore": 9633
       },
       "source": "hf-models",
       "publishedAt": "2026-08-05T08:22:59.000Z",
@@ -772,9 +782,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1596,
+        "likes": 1601,
         "downloads": 292973,
-        "trendingScore": 1479
+        "trendingScore": 1483
       },
       "source": "hf-models",
       "publishedAt": "2026-08-09T17:51:35.000Z",
@@ -806,9 +816,9 @@
         "conversational"
       ],
       "metrics": {
-        "likes": 1312,
+        "likes": 1342,
         "downloads": 1945635,
-        "trendingScore": 1257
+        "trendingScore": 1284
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T08:28:40.000Z",
@@ -840,9 +850,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 989,
+        "likes": 995,
         "downloads": 7932,
-        "trendingScore": 948
+        "trendingScore": 954
       },
       "source": "hf-models",
       "publishedAt": "2026-08-08T01:50:52.000Z",
@@ -893,9 +903,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 969,
+        "likes": 976,
         "downloads": 424099,
-        "trendingScore": 801
+        "trendingScore": 807
       },
       "source": "hf-models",
       "publishedAt": "2026-07-23T07:55:24.000Z",
@@ -927,9 +937,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 791,
+        "likes": 798,
         "downloads": 8639,
-        "trendingScore": 776
+        "trendingScore": 782
       },
       "source": "hf-models",
       "publishedAt": "2026-08-07T12:23:29.000Z",
@@ -970,9 +980,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 3997,
+        "likes": 4005,
         "downloads": 2307541,
-        "trendingScore": 720
+        "trendingScore": 703
       },
       "source": "hf-models",
       "publishedAt": "2026-07-28T10:45:18.000Z",
@@ -1006,9 +1016,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 509,
+        "likes": 516,
         "downloads": 21873,
-        "trendingScore": 485
+        "trendingScore": 491
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T03:05:06.000Z",
@@ -1016,6 +1026,38 @@
       "summaryKo": "DeepSeek V4의 상위 성능 Pro 텍스트 생성 모델",
       "reasonEn": "Fresh Pro release of DeepSeek V4, early likes coming in.",
       "reasonKo": "DeepSeek V4 신규 Pro 공개, 좋아요 초기 유입",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "hf-model:Qwen/Qwen3.8-27B-FP8",
+      "type": "model",
+      "title": "Qwen/Qwen3.8-27B-FP8",
+      "summaryOriginal": "image-text-to-text model · transformers, safetensors, qwen3_5, image-text-to-text, conversational",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+      "lang": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "conversational",
+        "base_model:Qwen/Qwen3.8-27B",
+        "base_model:quantized:Qwen/Qwen3.8-27B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "fp8",
+        "region:us"
+      ],
+      "metrics": {
+        "likes": 454,
+        "downloads": 352971,
+        "trendingScore": 435
+      },
+      "source": "hf-models",
+      "publishedAt": "2026-08-13T08:01:58.000Z",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -1044,9 +1086,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 3435,
+        "likes": 3438,
         "downloads": 1872232,
-        "trendingScore": 435
+        "trendingScore": 431
       },
       "source": "hf-models",
       "publishedAt": "2026-07-31T07:30:24.000Z",
@@ -1054,38 +1096,6 @@
       "summaryKo": "Azure 배포 가능한 DeepSeek V4의 가볍고 빠른 텍스트 생성 모델",
       "reasonEn": "1.6M+ downloads — DeepSeek V4 line seeing heavy adoption.",
       "reasonKo": "다운로드 160만+, DeepSeek V4 라인 강한 채택",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "hf-model:Qwen/Qwen3.8-27B-FP8",
-      "type": "model",
-      "title": "Qwen/Qwen3.8-27B-FP8",
-      "summaryOriginal": "image-text-to-text model · transformers, safetensors, qwen3_5, image-text-to-text, conversational",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
-      "lang": "image-text-to-text",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5",
-        "image-text-to-text",
-        "conversational",
-        "base_model:Qwen/Qwen3.8-27B",
-        "base_model:quantized:Qwen/Qwen3.8-27B",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "fp8",
-        "region:us"
-      ],
-      "metrics": {
-        "likes": 448,
-        "downloads": 352971,
-        "trendingScore": 429
-      },
-      "source": "hf-models",
-      "publishedAt": "2026-08-13T08:01:58.000Z",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -1294,7 +1304,7 @@
       "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
       "tags": [],
       "metrics": {
-        "upvotes": 827,
+        "upvotes": 828,
         "comments": 547
       },
       "source": "hn",

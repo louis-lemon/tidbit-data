@@ -1,9 +1,26 @@
 {
   "version": 1,
   "category": "ai-agents",
-  "generatedAt": "2026-08-16T09:28:36.874Z",
+  "generatedAt": "2026-08-16T12:41:45.388Z",
   "ttlSeconds": 10800,
   "cards": [
+    {
+      "id": "gh:akitaonrails/ai-memory",
+      "type": "repo",
+      "title": "akitaonrails/ai-memory",
+      "summaryOriginal": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "lang": "Rust",
+      "tags": [],
+      "metrics": {
+        "stars": 1547,
+        "starsDelta": 41
+      },
+      "source": "github-trending",
+      "categories": [
+        "ai-agents"
+      ]
+    },
     {
       "id": "gh:ToolJet/ToolJet",
       "type": "repo",
@@ -13,8 +30,8 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 39693,
-        "starsDelta": 544
+        "stars": 39745,
+        "starsDelta": 446
       },
       "source": "github-trending",
       "summaryEn": "Open-source low-code platform for building internal tools, dashboards, workflows, and AI agents.",
@@ -24,49 +41,6 @@
       "categories": [
         "ai-agents",
         "infra"
-      ]
-    },
-    {
-      "id": "gh:HKUDS/CLI-Anything",
-      "type": "repo",
-      "title": "HKUDS/CLI-Anything",
-      "summaryOriginal": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "stars": 47525,
-        "starsDelta": 118
-      },
-      "source": "github-trending",
-      "summaryEn": "Toolkit aiming to make any software agent-native via a CLI-first hub.",
-      "summaryKo": "모든 소프트웨어를 에이전트 친화적으로 만드는 CLI 허브",
-      "categories": [
-        "ai-agents",
-        "devtools"
-      ]
-    },
-    {
-      "id": "gh:citrolabs/ego-lite",
-      "type": "repo",
-      "title": "citrolabs/ego-lite",
-      "summaryOriginal": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
-      "url": "https://github.com/citrolabs/ego-lite",
-      "lang": "JavaScript",
-      "tags": [],
-      "metrics": {
-        "stars": 11216,
-        "starsDelta": 545
-      },
-      "source": "github-trending",
-      "summaryEn": "Browser built for AI agents to automate tasks, sharing your logged-in session with tools like Codex or Claude Code.",
-      "summaryKo": "Codex나 Claude Code 같은 AI 에이전트가 로그인된 브라우저 상태를 그대로 공유해 자동화하는 브라우저",
-      "reasonEn": "Free, zero-config; steady growth from agent-browsing use cases.",
-      "reasonKo": "무료·제로설정, 에이전트 브라우징 수요로 꾸준한 스타 증가",
-      "categories": [
-        "ai-agents",
-        "web",
-        "engineering"
       ]
     },
     {
@@ -97,11 +71,11 @@
         "workspace-manager"
       ],
       "metrics": {
-        "stars": 29595
+        "stars": 29629
       },
       "source": "github-search",
       "publishedAt": "2026-03-27T17:54:33Z",
-      "updatedAt": "2026-08-15T23:10:50Z",
+      "updatedAt": "2026-08-16T12:30:57Z",
       "summaryEn": "Terminal runtime and multiplexer for running and managing multiple coding agents together.",
       "summaryKo": "여러 코딩 에이전트를 함께 실행·관리하는 터미널 런타임 겸 멀티플렉서",
       "categories": [
@@ -129,7 +103,7 @@
         "vibe-coding"
       ],
       "metrics": {
-        "stars": 19721
+        "stars": 19726
       },
       "source": "github-search",
       "publishedAt": "2026-04-06T07:37:02Z",
@@ -168,11 +142,13 @@
         "video-production"
       ],
       "metrics": {
-        "stars": 48262
+        "stars": 48280
       },
       "source": "github-search",
       "publishedAt": "2026-03-29T15:23:22Z",
       "updatedAt": "2026-08-14T00:23:49Z",
+      "summaryEn": "Open-source agentic video production system turning AI coding assistants into a full video studio.",
+      "summaryKo": "AI 코딩 어시스턴트를 완전한 영상 제작 스튜디오로 바꾸는 오픈소스 에이전틱 영상 제작 시스템",
       "categories": [
         "ai-agents"
       ]
@@ -207,7 +183,7 @@
         "workflow-automation"
       ],
       "metrics": {
-        "stars": 47056
+        "stars": 47060
       },
       "source": "github-search",
       "publishedAt": "2026-02-01T07:16:15Z",
@@ -242,7 +218,7 @@
         "skills"
       ],
       "metrics": {
-        "stars": 18728
+        "stars": 18730
       },
       "source": "github-search",
       "publishedAt": "2026-01-07T15:27:19Z",
@@ -283,11 +259,13 @@
         "token-saver"
       ],
       "metrics": {
-        "stars": 48776
+        "stars": 48863
       },
       "source": "github-search",
       "publishedAt": "2026-02-13T12:38:31Z",
       "updatedAt": "2026-08-16T06:29:39Z",
+      "summaryEn": "Free AI gateway: one endpoint for 330+ providers and 1200+ models with auto-fallback and token-saving compression.",
+      "summaryKo": "330개 이상 제공자·1200개 이상 모델을 하나의 엔드포인트로 묶은 무료 AI 게이트웨이",
       "categories": [
         "ai-agents"
       ]
@@ -320,7 +298,7 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 543
+        "stars": 566
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T13:14:49Z",
@@ -352,11 +330,11 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 504
+        "stars": 514
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T06:28:56Z",
-      "updatedAt": "2026-08-16T09:13:32Z",
+      "updatedAt": "2026-08-16T12:41:03Z",
       "summaryEn": "Open-source alternative to Grok's coding bot — pick your own model and sandbox.",
       "summaryKo": "Grok 봇의 오픈소스 대안, 모델과 샌드박스를 직접 선택",
       "categories": [
@@ -386,11 +364,11 @@
         "tutorial"
       ],
       "metrics": {
-        "stars": 326
+        "stars": 342
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T15:22:29Z",
-      "updatedAt": "2026-08-15T16:52:24Z",
+      "updatedAt": "2026-08-16T10:23:47Z",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -419,7 +397,7 @@
         "windsurf"
       ],
       "metrics": {
-        "stars": 161
+        "stars": 163
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T05:08:30Z",
@@ -459,7 +437,7 @@
         "zero-dependency"
       ],
       "metrics": {
-        "stars": 111
+        "stars": 123
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T08:09:10Z",
@@ -502,6 +480,66 @@
       "updatedAt": "2026-08-16T05:20:06Z",
       "categories": [
         "ai-models",
+        "ai-agents",
+        "devtools"
+      ]
+    },
+    {
+      "id": "gh:Dominic789654/awesome-deepseek-harness",
+      "type": "repo",
+      "title": "Dominic789654/awesome-deepseek-harness",
+      "summaryOriginal": "A curated list of plugins, skills, MCP servers, patch/profile layers, orchestrators & UIs for DeepSeek Harness (DSH). Visualization · PPT · Coding · Agents · Loops (auto-research) and more. #dsh",
+      "url": "https://github.com/Dominic789654/awesome-deepseek-harness",
+      "lang": "TypeScript",
+      "tags": [
+        "agent",
+        "agent-framework",
+        "ai-agent",
+        "ai-agents",
+        "awesome",
+        "awesome-list",
+        "coding-agent",
+        "deepseek",
+        "deepseek-ai",
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "deepseek-harness-plugins",
+        "dsh",
+        "dsh-patch",
+        "dsh-plugin",
+        "dsh-plugins",
+        "llm",
+        "llm-agent",
+        "mcp",
+        "plugins"
+      ],
+      "metrics": {
+        "stars": 79
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T13:54:05Z",
+      "updatedAt": "2026-08-16T12:41:40Z",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "gh:HKUDS/CLI-Anything",
+      "type": "repo",
+      "title": "HKUDS/CLI-Anything",
+      "summaryOriginal": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 2,
+        "totalScore": 208.6482
+      },
+      "source": "ossinsight",
+      "summaryEn": "Toolkit aiming to make any software agent-native via a CLI-first hub.",
+      "summaryKo": "모든 소프트웨어를 에이전트 친화적으로 만드는 CLI 허브",
+      "categories": [
         "ai-agents",
         "devtools"
       ]
@@ -669,24 +707,6 @@
       ]
     },
     {
-      "id": "gh:dimetron/pi-go",
-      "type": "repo",
-      "title": "dimetron/pi-go",
-      "summaryOriginal": "Go implementation of AI coding agent",
-      "url": "https://github.com/dimetron/pi-go",
-      "lang": "Go",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "pushes": 1,
-        "totalScore": 204.7024
-      },
-      "source": "ossinsight",
-      "categories": [
-        "ai-agents"
-      ]
-    },
-    {
       "id": "hf-model:Qwen/Qwen3.8-27B",
       "type": "model",
       "title": "Qwen/Qwen3.8-27B",
@@ -706,9 +726,9 @@
         "deploy:azure"
       ],
       "metrics": {
-        "likes": 9971,
+        "likes": 10031,
         "downloads": 267725,
-        "trendingScore": 9580
+        "trendingScore": 9633
       },
       "source": "hf-models",
       "publishedAt": "2026-08-05T08:22:59.000Z",
@@ -742,9 +762,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1596,
+        "likes": 1601,
         "downloads": 292973,
-        "trendingScore": 1479
+        "trendingScore": 1483
       },
       "source": "hf-models",
       "publishedAt": "2026-08-09T17:51:35.000Z",
@@ -776,9 +796,9 @@
         "conversational"
       ],
       "metrics": {
-        "likes": 1312,
+        "likes": 1342,
         "downloads": 1945635,
-        "trendingScore": 1257
+        "trendingScore": 1284
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T08:28:40.000Z",
@@ -810,9 +830,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 989,
+        "likes": 995,
         "downloads": 7932,
-        "trendingScore": 948
+        "trendingScore": 954
       },
       "source": "hf-models",
       "publishedAt": "2026-08-08T01:50:52.000Z",
@@ -863,9 +883,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 969,
+        "likes": 976,
         "downloads": 424099,
-        "trendingScore": 801
+        "trendingScore": 807
       },
       "source": "hf-models",
       "publishedAt": "2026-07-23T07:55:24.000Z",
@@ -897,9 +917,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 791,
+        "likes": 798,
         "downloads": 8639,
-        "trendingScore": 776
+        "trendingScore": 782
       },
       "source": "hf-models",
       "publishedAt": "2026-08-07T12:23:29.000Z",
@@ -940,9 +960,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 3997,
+        "likes": 4005,
         "downloads": 2307541,
-        "trendingScore": 720
+        "trendingScore": 703
       },
       "source": "hf-models",
       "publishedAt": "2026-07-28T10:45:18.000Z",
@@ -976,9 +996,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 509,
+        "likes": 516,
         "downloads": 21873,
-        "trendingScore": 485
+        "trendingScore": 491
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T03:05:06.000Z",
@@ -986,6 +1006,38 @@
       "summaryKo": "DeepSeek V4의 상위 성능 Pro 텍스트 생성 모델",
       "reasonEn": "Fresh Pro release of DeepSeek V4, early likes coming in.",
       "reasonKo": "DeepSeek V4 신규 Pro 공개, 좋아요 초기 유입",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "hf-model:Qwen/Qwen3.8-27B-FP8",
+      "type": "model",
+      "title": "Qwen/Qwen3.8-27B-FP8",
+      "summaryOriginal": "image-text-to-text model · transformers, safetensors, qwen3_5, image-text-to-text, conversational",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+      "lang": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "conversational",
+        "base_model:Qwen/Qwen3.8-27B",
+        "base_model:quantized:Qwen/Qwen3.8-27B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "fp8",
+        "region:us"
+      ],
+      "metrics": {
+        "likes": 454,
+        "downloads": 352971,
+        "trendingScore": 435
+      },
+      "source": "hf-models",
+      "publishedAt": "2026-08-13T08:01:58.000Z",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -1014,9 +1066,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 3435,
+        "likes": 3438,
         "downloads": 1872232,
-        "trendingScore": 435
+        "trendingScore": 431
       },
       "source": "hf-models",
       "publishedAt": "2026-07-31T07:30:24.000Z",
@@ -1024,38 +1076,6 @@
       "summaryKo": "Azure 배포 가능한 DeepSeek V4의 가볍고 빠른 텍스트 생성 모델",
       "reasonEn": "1.6M+ downloads — DeepSeek V4 line seeing heavy adoption.",
       "reasonKo": "다운로드 160만+, DeepSeek V4 라인 강한 채택",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "hf-model:Qwen/Qwen3.8-27B-FP8",
-      "type": "model",
-      "title": "Qwen/Qwen3.8-27B-FP8",
-      "summaryOriginal": "image-text-to-text model · transformers, safetensors, qwen3_5, image-text-to-text, conversational",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
-      "lang": "image-text-to-text",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5",
-        "image-text-to-text",
-        "conversational",
-        "base_model:Qwen/Qwen3.8-27B",
-        "base_model:quantized:Qwen/Qwen3.8-27B",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "fp8",
-        "region:us"
-      ],
-      "metrics": {
-        "likes": 448,
-        "downloads": 352971,
-        "trendingScore": 429
-      },
-      "source": "hf-models",
-      "publishedAt": "2026-08-13T08:01:58.000Z",
       "categories": [
         "ai-models",
         "ai-agents"
