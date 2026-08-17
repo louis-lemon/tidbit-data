@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "engineering",
-  "generatedAt": "2026-08-17T12:47:38.700Z",
+  "generatedAt": "2026-08-17T15:26:36.586Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,8 +13,8 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 53653,
-        "starsDelta": 856
+        "stars": 53784,
+        "starsDelta": 656
       },
       "source": "github-trending",
       "categories": [
@@ -30,7 +30,7 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 25686,
+        "stars": 25731,
         "starsDelta": 115
       },
       "source": "github-trending",
@@ -48,7 +48,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 28111,
+        "stars": 28165,
         "starsDelta": 156
       },
       "source": "github-trending",
@@ -120,7 +120,7 @@
         "unit-testing"
       ],
       "metrics": {
-        "stars": 23
+        "stars": 25
       },
       "source": "github-search",
       "publishedAt": "2026-08-15T07:51:22Z",
@@ -165,32 +165,6 @@
       ]
     },
     {
-      "id": "gh:MaySudo/rigor3",
-      "type": "repo",
-      "title": "MaySudo/rigor3",
-      "summaryOriginal": "Prompt-only, three-axis repository hygiene assessments for coding agents.",
-      "url": "https://github.com/MaySudo/rigor3",
-      "tags": [
-        "agent-skills",
-        "claude-code",
-        "code-quality",
-        "codex",
-        "coding-agents",
-        "prompt-engineering",
-        "repository-hygiene",
-        "software-architecture"
-      ],
-      "metrics": {
-        "stars": 7
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T05:55:42Z",
-      "updatedAt": "2026-08-13T14:58:02Z",
-      "categories": [
-        "engineering"
-      ]
-    },
-    {
       "id": "gh:taovietducofficial/OOP-Competitive",
       "type": "repo",
       "title": "taovietducofficial/OOP-Competitive",
@@ -213,11 +187,37 @@
         "unit-testing"
       ],
       "metrics": {
-        "stars": 6
+        "stars": 10
       },
       "source": "github-search",
       "publishedAt": "2026-08-16T04:08:46Z",
       "updatedAt": "2026-08-17T10:50:43Z",
+      "categories": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "gh:MaySudo/rigor3",
+      "type": "repo",
+      "title": "MaySudo/rigor3",
+      "summaryOriginal": "Prompt-only, three-axis repository hygiene assessments for coding agents.",
+      "url": "https://github.com/MaySudo/rigor3",
+      "tags": [
+        "agent-skills",
+        "claude-code",
+        "code-quality",
+        "codex",
+        "coding-agents",
+        "prompt-engineering",
+        "repository-hygiene",
+        "software-architecture"
+      ],
+      "metrics": {
+        "stars": 7
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-11T05:55:42Z",
+      "updatedAt": "2026-08-13T14:58:02Z",
       "categories": [
         "engineering"
       ]
@@ -359,36 +359,6 @@
       ]
     },
     {
-      "id": "gh:sujithgnth/engineering-observatory",
-      "type": "repo",
-      "title": "sujithgnth/engineering-observatory",
-      "summaryOriginal": "Work in progress — evidence-first engineering analysis built with TypeScript, JavaScript, HTML, CSS, and SQL.",
-      "url": "https://github.com/sujithgnth/engineering-observatory",
-      "lang": "TypeScript",
-      "tags": [
-        "angular",
-        "developer-tools",
-        "electron",
-        "nestjs",
-        "nx",
-        "postgresql",
-        "react",
-        "software-architecture",
-        "static-analysis",
-        "typescript",
-        "work-in-progress"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-15T21:25:50Z",
-      "updatedAt": "2026-08-16T07:59:40Z",
-      "categories": [
-        "engineering"
-      ]
-    },
-    {
       "id": "gh:qinyu765/evolve-software-architecture",
       "type": "repo",
       "title": "qinyu765/evolve-software-architecture",
@@ -455,6 +425,36 @@
       "source": "github-search",
       "publishedAt": "2026-08-15T20:52:56Z",
       "updatedAt": "2026-08-15T21:15:19Z",
+      "categories": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "gh:sujithgnth/engineering-observatory",
+      "type": "repo",
+      "title": "sujithgnth/engineering-observatory",
+      "summaryOriginal": "Work in progress — evidence-first engineering analysis built with TypeScript, JavaScript, HTML, CSS, and SQL.",
+      "url": "https://github.com/sujithgnth/engineering-observatory",
+      "lang": "TypeScript",
+      "tags": [
+        "angular",
+        "developer-tools",
+        "electron",
+        "nestjs",
+        "nx",
+        "postgresql",
+        "react",
+        "software-architecture",
+        "static-analysis",
+        "typescript",
+        "work-in-progress"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-15T21:25:50Z",
+      "updatedAt": "2026-08-16T07:59:40Z",
       "categories": [
         "engineering"
       ]
@@ -633,62 +633,6 @@
       ]
     },
     {
-      "id": "gh:kunkun9494/senior-software-engineering-agent-skill",
-      "type": "repo",
-      "title": "kunkun9494/senior-software-engineering-agent-skill",
-      "summaryOriginal": "A reusable Agent Skill for senior-level software engineering workflows: requirements analysis, repository exploration, architecture, database/API design, implementation, testing, verification, and over-engineering prevention.",
-      "url": "https://github.com/kunkun9494/senior-software-engineering-agent-skill",
-      "lang": "Python",
-      "tags": [
-        "agent-skills",
-        "ai-agents",
-        "code-review",
-        "codex",
-        "codex-skill",
-        "codex-skills",
-        "coding-agent",
-        "developer-tools",
-        "llm",
-        "prompt-engineering",
-        "software-architecture",
-        "software-engineering"
-      ],
-      "metrics": {
-        "stars": 0
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T06:08:21Z",
-      "updatedAt": "2026-08-11T07:14:52Z",
-      "categories": [
-        "engineering"
-      ]
-    },
-    {
-      "id": "gh:Druspect/pause",
-      "type": "repo",
-      "title": "Druspect/pause",
-      "summaryOriginal": "A human-selected index of computing knowledge from before the AI explosion.",
-      "url": "https://github.com/Druspect/pause",
-      "lang": "TypeScript",
-      "tags": [
-        "computer-history",
-        "digital-preservation",
-        "retrocomputing",
-        "software-architecture",
-        "software-heritage",
-        "source-code"
-      ],
-      "metrics": {
-        "stars": 0
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-12T20:56:00Z",
-      "updatedAt": "2026-08-13T02:41:11Z",
-      "categories": [
-        "engineering"
-      ]
-    },
-    {
       "id": "gh:melih-ilgen/static-analysis-dashboard",
       "type": "repo",
       "title": "melih-ilgen/static-analysis-dashboard",
@@ -778,6 +722,62 @@
       ]
     },
     {
+      "id": "gh:kunkun9494/senior-software-engineering-agent-skill",
+      "type": "repo",
+      "title": "kunkun9494/senior-software-engineering-agent-skill",
+      "summaryOriginal": "A reusable Agent Skill for senior-level software engineering workflows: requirements analysis, repository exploration, architecture, database/API design, implementation, testing, verification, and over-engineering prevention.",
+      "url": "https://github.com/kunkun9494/senior-software-engineering-agent-skill",
+      "lang": "Python",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "code-review",
+        "codex",
+        "codex-skill",
+        "codex-skills",
+        "coding-agent",
+        "developer-tools",
+        "llm",
+        "prompt-engineering",
+        "software-architecture",
+        "software-engineering"
+      ],
+      "metrics": {
+        "stars": 0
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-11T06:08:21Z",
+      "updatedAt": "2026-08-11T07:14:52Z",
+      "categories": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "gh:Druspect/pause",
+      "type": "repo",
+      "title": "Druspect/pause",
+      "summaryOriginal": "A human-selected index of computing knowledge from before the AI explosion.",
+      "url": "https://github.com/Druspect/pause",
+      "lang": "TypeScript",
+      "tags": [
+        "computer-history",
+        "digital-preservation",
+        "retrocomputing",
+        "software-architecture",
+        "software-heritage",
+        "source-code"
+      ],
+      "metrics": {
+        "stars": 0
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-12T20:56:00Z",
+      "updatedAt": "2026-08-13T02:41:11Z",
+      "categories": [
+        "engineering"
+      ]
+    },
+    {
       "id": "gh:RafaSilva03/News-API-Android-App",
       "type": "repo",
       "title": "RafaSilva03/News-API-Android-App",
@@ -860,6 +860,33 @@
       ]
     },
     {
+      "id": "gh:ltaoist/nano-desktop-os",
+      "type": "repo",
+      "title": "ltaoist/nano-desktop-os",
+      "summaryOriginal": "为python+javascript的软件的纵深开发提供可靠的、直接可用的通用设施",
+      "url": "https://github.com/ltaoist/nano-desktop-os",
+      "lang": "JavaScript",
+      "tags": [
+        "component",
+        "interoperability",
+        "js",
+        "python",
+        "software",
+        "software-architecture",
+        "software-development",
+        "software-engineering"
+      ],
+      "metrics": {
+        "stars": 0
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-12T13:50:44Z",
+      "updatedAt": "2026-08-17T13:38:49Z",
+      "categories": [
+        "engineering"
+      ]
+    },
+    {
       "id": "gh:yossefebrahim/adr-scribe-skills",
       "type": "repo",
       "title": "yossefebrahim/adr-scribe-skills",
@@ -884,6 +911,38 @@
       "source": "github-search",
       "publishedAt": "2026-08-11T17:19:21Z",
       "updatedAt": "2026-08-12T22:36:25Z",
+      "categories": [
+        "engineering"
+      ]
+    },
+    {
+      "id": "gh:luismasuarez/harness-factory",
+      "type": "repo",
+      "title": "luismasuarez/harness-factory",
+      "summaryOriginal": "Standard architecture for coding-agent workflows: a natural-language intent becomes a versioned harness (orchestrator + skill-based experts + executor) with a safety runtime — baseline gates, human approval, slices. A Mixture-of-Experts factory for opencode.",
+      "url": "https://github.com/luismasuarez/harness-factory",
+      "tags": [
+        "agent-orchestration",
+        "agent-skills",
+        "agents",
+        "ai-agents",
+        "cli",
+        "coding-agents",
+        "ddd",
+        "developer-tools",
+        "llm",
+        "mixture-of-experts",
+        "multi-agent",
+        "opencode",
+        "skills",
+        "software-architecture"
+      ],
+      "metrics": {
+        "stars": 0
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T02:38:48Z",
+      "updatedAt": "2026-08-14T04:03:14Z",
       "categories": [
         "engineering"
       ]
@@ -920,51 +979,40 @@
       ]
     },
     {
-      "id": "gh:WENGENG-boop/blueprint-architect-plugin",
+      "id": "gh:tt-a1i/archify",
       "type": "repo",
-      "title": "WENGENG-boop/blueprint-architect-plugin",
-      "summaryOriginal": "Codex plugin that turns PRDs into reviewed, compatible project blueprints before coding.",
-      "url": "https://github.com/WENGENG-boop/blueprint-architect-plugin",
-      "lang": "TypeScript",
+      "title": "tt-a1i/archify",
+      "summaryOriginal": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "url": "https://github.com/tt-a1i/archify",
+      "lang": "HTML",
       "tags": [
+        "agent-skills",
+        "architecture-as-code",
+        "architecture-diagram",
+        "claude-skill",
+        "code-visualization",
         "codex",
+        "coding-agents",
+        "data-flow-diagram",
+        "deepseek-harness",
         "developer-tools",
-        "openai",
-        "prd",
-        "software-architecture"
-      ],
-      "metrics": {
-        "stars": 0
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T13:50:03Z",
-      "updatedAt": "2026-08-15T03:39:57Z",
-      "categories": [
-        "engineering"
-      ]
-    },
-    {
-      "id": "gh:Kauerc10/atlas-notarial-case-study",
-      "type": "repo",
-      "title": "Kauerc10/atlas-notarial-case-study",
-      "summaryOriginal": "Case study técnico público do Atlas Notarial: arquitetura multi-tenant, segurança e decisões de engenharia.",
-      "url": "https://github.com/Kauerc10/atlas-notarial-case-study",
-      "lang": "Python",
-      "tags": [
-        "case-study",
-        "firebase",
-        "multi-tenant",
-        "nextjs",
-        "security",
+        "diagram-as-code",
+        "diagrams",
+        "diagrams-as-code",
+        "dsh-plugin",
+        "mermaid-alternative",
+        "opencode",
+        "sequence-diagram",
         "software-architecture",
-        "typescript"
+        "system-design",
+        "text-to-diagram"
       ],
       "metrics": {
-        "stars": 0
+        "stars": 13787
       },
       "source": "github-search",
-      "publishedAt": "2026-08-13T01:17:05Z",
-      "updatedAt": "2026-08-13T02:48:11Z",
+      "publishedAt": "2026-04-15T05:27:37Z",
+      "updatedAt": "2026-08-17T06:16:50Z",
       "categories": [
         "engineering"
       ]
@@ -1035,7 +1083,7 @@
         "spec-kit"
       ],
       "metrics": {
-        "stars": 1037
+        "stars": 1039
       },
       "source": "github-search",
       "publishedAt": "2026-04-30T17:40:49Z",
@@ -1073,11 +1121,11 @@
         "system-mapping"
       ],
       "metrics": {
-        "stars": 745
+        "stars": 747
       },
       "source": "github-search",
       "publishedAt": "2026-03-03T04:48:38Z",
-      "updatedAt": "2026-08-17T04:23:54Z",
+      "updatedAt": "2026-08-17T13:55:58Z",
       "categories": [
         "engineering"
       ]
@@ -1185,7 +1233,7 @@
         "solid"
       ],
       "metrics": {
-        "stars": 23
+        "stars": 26
       },
       "source": "github-search",
       "publishedAt": "2026-08-15T05:52:12Z",
@@ -1212,38 +1260,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-13T18:24:49Z",
       "updatedAt": "2026-08-14T19:14:32Z",
-      "categories": [
-        "engineering"
-      ]
-    },
-    {
-      "id": "gh:CarolineErcegovic/hw06-live-data-feed-design-patterns-neu-cs2100",
-      "type": "repo",
-      "title": "CarolineErcegovic/hw06-live-data-feed-design-patterns-neu-cs2100",
-      "summaryOriginal": "CS 2100 Homework 6 — a Python project implementing Data Pull and Observer design patterns using live RSS feeds, inheritance, abstract classes, and correlation analysis.",
-      "url": "https://github.com/CarolineErcegovic/hw06-live-data-feed-design-patterns-neu-cs2100",
-      "lang": "Python",
-      "tags": [
-        "abstraction",
-        "correlation",
-        "cs2100",
-        "data-pull",
-        "design-patterns",
-        "feedparser",
-        "inheritance",
-        "live-data",
-        "object-oriented-programming",
-        "observer-pattern",
-        "python",
-        "rss",
-        "xml"
-      ],
-      "metrics": {
-        "stars": 0
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-16T19:41:03Z",
-      "updatedAt": "2026-08-16T19:42:23Z",
       "categories": [
         "engineering"
       ]
