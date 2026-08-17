@@ -1,31 +1,9 @@
 {
   "version": 1,
   "category": "infra",
-  "generatedAt": "2026-08-16T21:22:10.896Z",
+  "generatedAt": "2026-08-17T01:21:22.422Z",
   "ttlSeconds": 10800,
   "cards": [
-    {
-      "id": "gh:ToolJet/ToolJet",
-      "type": "repo",
-      "title": "ToolJet/ToolJet",
-      "summaryOriginal": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
-      "url": "https://github.com/ToolJet/ToolJet",
-      "lang": "JavaScript",
-      "tags": [],
-      "metrics": {
-        "stars": 39960,
-        "starsDelta": 446
-      },
-      "source": "github-trending",
-      "summaryEn": "Open-source low-code platform for building internal tools, dashboards, workflows, and AI agents.",
-      "summaryKo": "내부 도구·대시보드·워크플로우·AI 에이전트를 만드는 오픈소스 로우코드 플랫폼",
-      "reasonEn": "39k+ stars, adding 300+ more — steady low-code growth.",
-      "reasonKo": "3만9천+ 스타, 로우코드 플랫폼 꾸준한 성장세",
-      "categories": [
-        "ai-agents",
-        "infra"
-      ]
-    },
     {
       "id": "gh:HKUDS/nanobot",
       "type": "repo",
@@ -56,7 +34,7 @@
         "workflow-automation"
       ],
       "metrics": {
-        "stars": 47065
+        "stars": 47067
       },
       "source": "github-search",
       "publishedAt": "2026-02-01T07:16:15Z",
@@ -64,6 +42,43 @@
       "categories": [
         "ai-agents",
         "infra"
+      ]
+    },
+    {
+      "id": "gh:runzhliu/deepseek-harness-docker",
+      "type": "repo",
+      "title": "runzhliu/deepseek-harness-docker",
+      "summaryOriginal": "Community Docker and Kubernetes packaging for DeepSeek Harness (@deepseek-ai/dsh), with a hardened image, Compose stack, Helm chart, Web UI, and headless CLI.",
+      "url": "https://github.com/runzhliu/deepseek-harness-docker",
+      "lang": "JavaScript",
+      "tags": [
+        "agent-runtime",
+        "ai-agents",
+        "cli",
+        "deepseek",
+        "deepseek-ai",
+        "deepseek-harness",
+        "docker",
+        "docker-compose",
+        "docker-image",
+        "dockerfile",
+        "dsh",
+        "dsh-plugin",
+        "helm",
+        "host-self",
+        "kubernetes",
+        "llm"
+      ],
+      "metrics": {
+        "stars": 15
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T15:41:41Z",
+      "updatedAt": "2026-08-14T09:40:29Z",
+      "categories": [
+        "ai-models",
+        "infra",
+        "devtools"
       ]
     },
     {
@@ -100,11 +115,51 @@
       },
       "source": "github-search",
       "publishedAt": "2013-06-17T18:39:10Z",
-      "updatedAt": "2026-08-16T06:18:06Z",
+      "updatedAt": "2026-08-17T00:10:17Z",
       "categories": [
         "ai-models",
         "infra",
         "data"
+      ]
+    },
+    {
+      "id": "gh:MarinJursic/production-readiness-checklist",
+      "type": "repo",
+      "title": "MarinJursic/production-readiness-checklist",
+      "summaryOriginal": "Evidence-driven production readiness checklist for shipping web applications with confidence",
+      "url": "https://github.com/MarinJursic/production-readiness-checklist",
+      "lang": "Python",
+      "tags": [
+        "ai-agents",
+        "checklist",
+        "claude",
+        "claude-code",
+        "deployment",
+        "devops",
+        "devsecops",
+        "incident-response",
+        "observability",
+        "open-source",
+        "production-readiness",
+        "release-checklist",
+        "release-engineering",
+        "security",
+        "software-engineering",
+        "software-quality",
+        "sre",
+        "testing",
+        "web-development",
+        "web-security"
+      ],
+      "metrics": {
+        "stars": 26
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-15T11:09:43Z",
+      "updatedAt": "2026-08-15T17:45:02Z",
+      "categories": [
+        "ai-agents",
+        "infra"
       ]
     },
     {
@@ -137,126 +192,13 @@
         "vue"
       ],
       "metrics": {
-        "stars": 57416
+        "stars": 57415
       },
       "source": "github-search",
       "publishedAt": "2016-11-01T02:13:26Z",
-      "updatedAt": "2026-08-16T14:35:31Z",
+      "updatedAt": "2026-08-17T00:22:35Z",
       "categories": [
         "web",
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:apache/apisix",
-      "type": "repo",
-      "title": "apache/apisix",
-      "summaryOriginal": "The Cloud-Native API Gateway and AI Gateway",
-      "url": "https://github.com/apache/apisix",
-      "lang": "Lua",
-      "tags": [
-        "ai-gateway",
-        "api",
-        "api-gateway",
-        "api-management",
-        "apisix",
-        "cloud-native",
-        "devops",
-        "iot",
-        "kubernetes",
-        "kubernetes-ingress",
-        "loadbalancing",
-        "luajit",
-        "microservices",
-        "nginx",
-        "openapi",
-        "openapi3",
-        "openapi31",
-        "reverse-proxy",
-        "serverless"
-      ],
-      "metrics": {
-        "stars": 16999
-      },
-      "source": "github-search",
-      "publishedAt": "2019-04-10T02:02:05Z",
-      "updatedAt": "2026-08-14T09:59:27Z",
-      "categories": [
-        "backend",
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:Dokploy/dokploy",
-      "type": "repo",
-      "title": "Dokploy/dokploy",
-      "summaryOriginal": "Open Source Alternative to Vercel, Netlify and Heroku.",
-      "url": "https://github.com/Dokploy/dokploy",
-      "lang": "TypeScript",
-      "tags": [
-        "agents",
-        "ai",
-        "backend",
-        "backups",
-        "databases",
-        "deployment",
-        "deployments",
-        "devops",
-        "docker",
-        "frontend",
-        "mariadb",
-        "mongodb",
-        "mysql",
-        "nextjs",
-        "postgresql",
-        "self-hosted",
-        "vps"
-      ],
-      "metrics": {
-        "stars": 36650
-      },
-      "source": "github-search",
-      "publishedAt": "2024-04-19T07:49:30Z",
-      "updatedAt": "2026-08-14T16:20:42Z",
-      "categories": [
-        "backend",
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:encoredev/encore",
-      "type": "repo",
-      "title": "encoredev/encore",
-      "summaryOriginal": "The infrastructure platform for the intelligence era",
-      "url": "https://github.com/encoredev/encore",
-      "lang": "Go",
-      "tags": [
-        "aws",
-        "backend",
-        "cloud",
-        "cloud-native",
-        "database",
-        "devops",
-        "devops-automation",
-        "distributed-systems",
-        "encore",
-        "gcp",
-        "go",
-        "golang",
-        "infrastructure-as-code",
-        "infrastructure-automation",
-        "microservices",
-        "serverless",
-        "typescript"
-      ],
-      "metrics": {
-        "stars": 12262
-      },
-      "source": "github-search",
-      "publishedAt": "2021-02-17T16:33:24Z",
-      "updatedAt": "2026-08-14T12:53:44Z",
-      "categories": [
-        "backend",
         "infra"
       ]
     },
@@ -279,49 +221,13 @@
         "performance-optimization"
       ],
       "metrics": {
-        "stars": 73
+        "stars": 77
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T10:13:52Z",
       "updatedAt": "2026-08-16T16:12:26Z",
       "categories": [
         "infra"
-      ]
-    },
-    {
-      "id": "gh:runzhliu/deepseek-harness-docker",
-      "type": "repo",
-      "title": "runzhliu/deepseek-harness-docker",
-      "summaryOriginal": "Community Docker and Kubernetes packaging for DeepSeek Harness (@deepseek-ai/dsh), with a hardened image, Compose stack, Helm chart, Web UI, and headless CLI.",
-      "url": "https://github.com/runzhliu/deepseek-harness-docker",
-      "lang": "JavaScript",
-      "tags": [
-        "agent-runtime",
-        "ai-agents",
-        "cli",
-        "deepseek",
-        "deepseek-ai",
-        "deepseek-harness",
-        "docker",
-        "docker-compose",
-        "docker-image",
-        "dockerfile",
-        "dsh",
-        "dsh-plugin",
-        "helm",
-        "host-self",
-        "kubernetes",
-        "llm"
-      ],
-      "metrics": {
-        "stars": 15
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T15:41:41Z",
-      "updatedAt": "2026-08-14T09:40:29Z",
-      "categories": [
-        "infra",
-        "devtools"
       ]
     },
     {
@@ -376,32 +282,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-15T17:14:49Z",
       "updatedAt": "2026-08-15T17:14:52Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:getkipper/kipper",
-      "type": "repo",
-      "title": "getkipper/kipper",
-      "summaryOriginal": "Zero to production Kubernetes in one command. Web console, automatic SSL, one-command app deployments.",
-      "url": "https://github.com/getkipper/kipper",
-      "lang": "Go",
-      "tags": [
-        "devops",
-        "golang",
-        "k3s",
-        "kubernetes",
-        "paas",
-        "platform-engineering",
-        "self-hosted"
-      ],
-      "metrics": {
-        "stars": 6
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-10T08:18:19Z",
-      "updatedAt": "2026-08-16T08:50:20Z",
       "categories": [
         "infra"
       ]
@@ -479,7 +359,35 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T22:09:57Z",
-      "updatedAt": "2026-08-16T21:17:44Z",
+      "updatedAt": "2026-08-17T00:25:21Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:amdadulbari/ai-devops-roadmap",
+      "type": "repo",
+      "title": "amdadulbari/ai-devops-roadmap",
+      "summaryOriginal": "A practical, human-in-the-loop roadmap for using AI in DevOps and SRE: monitoring, incidents, CI/CD, and platform work, with prompts, runnable examples, and safety guardrails.",
+      "url": "https://github.com/amdadulbari/ai-devops-roadmap",
+      "tags": [
+        "ai",
+        "aiops",
+        "devops",
+        "gitops",
+        "human-in-the-loop",
+        "kubernetes",
+        "llm",
+        "observability",
+        "platform-engineering",
+        "sre"
+      ],
+      "metrics": {
+        "stars": 2
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T19:19:53Z",
+      "updatedAt": "2026-08-15T16:55:00Z",
       "categories": [
         "infra"
       ]
@@ -524,65 +432,6 @@
       ]
     },
     {
-      "id": "gh:amdadulbari/ai-devops-roadmap",
-      "type": "repo",
-      "title": "amdadulbari/ai-devops-roadmap",
-      "summaryOriginal": "A practical, human-in-the-loop roadmap for using AI in DevOps and SRE: monitoring, incidents, CI/CD, and platform work, with prompts, runnable examples, and safety guardrails.",
-      "url": "https://github.com/amdadulbari/ai-devops-roadmap",
-      "tags": [
-        "ai",
-        "aiops",
-        "devops",
-        "gitops",
-        "human-in-the-loop",
-        "kubernetes",
-        "llm",
-        "observability",
-        "platform-engineering",
-        "sre"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T19:19:53Z",
-      "updatedAt": "2026-08-15T16:55:00Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:yassinebenameur/probara",
-      "type": "repo",
-      "title": "yassinebenameur/probara",
-      "summaryOriginal": "Self-hosted, Kubernetes-first uptime monitoring — multi-location checks, connectivity mesh, status pages, voice/SIP monitoring, alerting. AGPL-3.0.",
-      "url": "https://github.com/yassinebenameur/probara",
-      "lang": "Go",
-      "tags": [
-        "golang",
-        "kubernetes",
-        "monitoring",
-        "nextjs",
-        "observability",
-        "self-hosted",
-        "sip",
-        "status-page",
-        "uptime",
-        "uptime-kuma",
-        "uptime-monitor",
-        "uptime-monitoring"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-10T13:37:36Z",
-      "updatedAt": "2026-08-11T11:20:39Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
       "id": "gh:sodiqscript111/Elv",
       "type": "repo",
       "title": "sodiqscript111/Elv",
@@ -600,63 +449,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-14T12:25:05Z",
       "updatedAt": "2026-08-14T18:40:19Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:AryanParashar24/Garund",
-      "type": "repo",
-      "title": "AryanParashar24/Garund",
-      "summaryOriginal": "Garund is a unified, cloud-native Kubernetes SRE observability and reliability control-plane application.",
-      "url": "https://github.com/AryanParashar24/Garund",
-      "lang": "Go",
-      "tags": [
-        "cloud",
-        "go",
-        "kubernetes",
-        "monitoring",
-        "observability",
-        "platform-engineering",
-        "sre"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-10T10:44:02Z",
-      "updatedAt": "2026-08-14T15:53:53Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:pierinho13/external-service-discovery-operator",
-      "type": "repo",
-      "title": "pierinho13/external-service-discovery-operator",
-      "summaryOriginal": "Kubernetes operator that discovers external workloads and synchronizes them into native Services and EndpointSlices.",
-      "url": "https://github.com/pierinho13/external-service-discovery-operator",
-      "lang": "Go",
-      "tags": [
-        "dns",
-        "endpointslice",
-        "gitops",
-        "golang",
-        "helm",
-        "hybrid-cloud",
-        "kubebuilder",
-        "kubernetes",
-        "kubernetes-controller",
-        "kubernetes-operator",
-        "networking",
-        "service-discovery"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-10T12:24:45Z",
-      "updatedAt": "2026-08-14T10:25:39Z",
       "categories": [
         "infra"
       ]
@@ -888,61 +680,6 @@
       ]
     },
     {
-      "id": "gh:Vicky2-code/devops-platform",
-      "type": "repo",
-      "title": "Vicky2-code/devops-platform",
-      "summaryOriginal": "DevOps Automation Platform - CLI, FastAPI backend, React dashboard, Docker, CI/CD, Terraform/AWS, K8s, Prometheus/Grafana",
-      "url": "https://github.com/Vicky2-code/devops-platform",
-      "lang": "Python",
-      "tags": [
-        "automation",
-        "aws",
-        "ci-cd",
-        "devops",
-        "docker",
-        "fastapi",
-        "github-actions",
-        "grafana",
-        "infrastructure-as-code",
-        "kubernetes",
-        "prometheus",
-        "react",
-        "terraform"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-15T05:27:43Z",
-      "updatedAt": "2026-08-15T06:18:49Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:dlvy/kube-iam-path",
-      "type": "repo",
-      "title": "dlvy/kube-iam-path",
-      "summaryOriginal": "A read-only CLI that explains exactly how a Kubernetes Pod gets AWS permissions — and where the IAM chain breaks",
-      "url": "https://github.com/dlvy/kube-iam-path",
-      "lang": "Rust",
-      "tags": [
-        "aws",
-        "aws-iam",
-        "iam",
-        "kubernetes"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-10T22:44:35Z",
-      "updatedAt": "2026-08-10T23:47:36Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
       "id": "gh:BRYANN2K/skills",
       "type": "repo",
       "title": "BRYANN2K/skills",
@@ -965,6 +702,34 @@
       "source": "github-search",
       "publishedAt": "2026-08-12T16:51:28Z",
       "updatedAt": "2026-08-15T21:35:48Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:Sh1c666/kani-sre",
+      "type": "repo",
+      "title": "Sh1c666/kani-sre",
+      "summaryOriginal": "Kani 🦀 — a personal, proactive SRE agent (LangGraph): read-only diagnosis, interrupt-gated writes, alert-driven & scheduled patrols.",
+      "url": "https://github.com/Sh1c666/kani-sre",
+      "lang": "Python",
+      "tags": [
+        "ai-agent",
+        "alertmanager",
+        "kubernetes",
+        "langgraph",
+        "observability",
+        "oncall",
+        "prometheus",
+        "self-hosted",
+        "sre"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-11T05:11:00Z",
+      "updatedAt": "2026-08-14T14:03:20Z",
       "categories": [
         "infra"
       ]
@@ -1028,29 +793,67 @@
       ]
     },
     {
-      "id": "gh:Sh1c666/kani-sre",
+      "id": "gh:Vicky2-code/devops-platform",
       "type": "repo",
-      "title": "Sh1c666/kani-sre",
-      "summaryOriginal": "Kani 🦀 — a personal, proactive SRE agent (LangGraph): read-only diagnosis, interrupt-gated writes, alert-driven & scheduled patrols.",
-      "url": "https://github.com/Sh1c666/kani-sre",
+      "title": "Vicky2-code/devops-platform",
+      "summaryOriginal": "DevOps Automation Platform - CLI, FastAPI backend, React dashboard, Docker, CI/CD, Terraform/AWS, K8s, Prometheus/Grafana",
+      "url": "https://github.com/Vicky2-code/devops-platform",
       "lang": "Python",
       "tags": [
-        "ai-agent",
-        "alertmanager",
+        "automation",
+        "aws",
+        "ci-cd",
+        "devops",
+        "docker",
+        "fastapi",
+        "github-actions",
+        "grafana",
+        "infrastructure-as-code",
         "kubernetes",
-        "langgraph",
-        "observability",
-        "oncall",
         "prometheus",
-        "self-hosted",
-        "sre"
+        "react",
+        "terraform"
       ],
       "metrics": {
         "stars": 1
       },
       "source": "github-search",
-      "publishedAt": "2026-08-11T05:11:00Z",
-      "updatedAt": "2026-08-14T14:03:20Z",
+      "publishedAt": "2026-08-15T05:27:43Z",
+      "updatedAt": "2026-08-15T06:18:49Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:ciliverse/dawngrid",
+      "type": "repo",
+      "title": "ciliverse/dawngrid",
+      "summaryOriginal": "One login, one grid. Host shell for cluster, training, robots, and any console as plugins.",
+      "url": "https://github.com/ciliverse/dawngrid",
+      "lang": "TypeScript",
+      "tags": [
+        "admin-dashboard",
+        "hono",
+        "iframe",
+        "inference",
+        "kubernetes",
+        "llm",
+        "mlops",
+        "monorepo",
+        "plugin-system",
+        "react",
+        "robot",
+        "robotics",
+        "training",
+        "typescript",
+        "vite"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-16T10:44:22Z",
+      "updatedAt": "2026-08-16T11:22:55Z",
       "categories": [
         "infra"
       ]
@@ -1112,58 +915,135 @@
       ]
     },
     {
-      "id": "gh:ciliverse/dawngrid",
+      "id": "gh:byte-ish/argo-workflows-vs-kubeflow-pipelines",
       "type": "repo",
-      "title": "ciliverse/dawngrid",
-      "summaryOriginal": "One login, one grid. Host shell for cluster, training, robots, and any console as plugins.",
-      "url": "https://github.com/ciliverse/dawngrid",
-      "lang": "TypeScript",
+      "title": "byte-ish/argo-workflows-vs-kubeflow-pipelines",
+      "summaryOriginal": "Decision-grade comparison: Argo Workflows vs Kubeflow Pipelines for ML/MLOps pipelines on Kubernetes. Versions, licences, adoption figures and pricing verified against the GitHub API, CNCF project pages and vendor docs.",
+      "url": "https://github.com/byte-ish/argo-workflows-vs-kubeflow-pipelines",
+      "lang": "Python",
       "tags": [
-        "admin-dashboard",
-        "hono",
-        "iframe",
-        "inference",
+        "argo-workflows",
+        "kubeflow",
+        "kubeflow-pipelines",
         "kubernetes",
-        "llm",
         "mlops",
-        "monorepo",
-        "plugin-system",
-        "react",
-        "robot",
-        "robotics",
-        "training",
-        "typescript",
-        "vite"
+        "technology-comparison"
       ],
       "metrics": {
         "stars": 1
       },
       "source": "github-search",
-      "publishedAt": "2026-08-16T10:44:22Z",
-      "updatedAt": "2026-08-16T11:22:55Z",
+      "publishedAt": "2026-08-11T10:51:29Z",
+      "updatedAt": "2026-08-12T14:18:02Z",
       "categories": [
         "infra"
       ]
     },
     {
-      "id": "gh:kubernetes/kubernetes",
+      "id": "gh:ganeshkumarashok/ullage",
       "type": "repo",
-      "title": "kubernetes/kubernetes",
-      "summaryOriginal": "Production-Grade Container Scheduling and Management",
-      "url": "https://github.com/kubernetes/kubernetes",
+      "title": "ganeshkumarashok/ullage",
+      "summaryOriginal": "Finds the GPUs your Kubernetes cluster pays for but nothing uses. Read-only CLI.",
+      "url": "https://github.com/ganeshkumarashok/ullage",
       "lang": "Go",
       "tags": [
-        "cncf",
-        "containers",
-        "go",
-        "kubernetes"
+        "cost-optimization",
+        "finops",
+        "gpu",
+        "kubernetes",
+        "observability",
+        "prometheus"
       ],
       "metrics": {
-        "stars": 124519
+        "stars": 1
       },
       "source": "github-search",
-      "publishedAt": "2014-06-06T22:56:04Z",
-      "updatedAt": "2026-08-14T00:41:27Z",
+      "publishedAt": "2026-08-11T16:23:01Z",
+      "updatedAt": "2026-08-12T17:46:18Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:Ritesh-Prasad/Ritesh-Prasad",
+      "type": "repo",
+      "title": "Ritesh-Prasad/Ritesh-Prasad",
+      "summaryOriginal": "Cloud & DevOps Engineer portfolio featuring AWS, Terraform, Kubernetes, Jenkins, Docker, ArgoCD, CI/CD, and infrastructure automation projects.",
+      "url": "https://github.com/Ritesh-Prasad/Ritesh-Prasad",
+      "tags": [
+        "argocd",
+        "aws",
+        "ci-cd",
+        "cloud",
+        "devops",
+        "docker",
+        "infrastructure-as-code",
+        "jenkins",
+        "kubernetes",
+        "terraform"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-15T09:28:38Z",
+      "updatedAt": "2026-08-15T09:43:47Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:3900563672/hello-k8s-ai",
+      "type": "repo",
+      "title": "3900563672/hello-k8s-ai",
+      "summaryOriginal": "基于 Kubernetes 的 AI 推理调度与仿真平台，包含 Controller、Simulator、Dashboard 和可观测性系统。",
+      "url": "https://github.com/3900563672/hello-k8s-ai",
+      "lang": "Go",
+      "tags": [
+        "ai",
+        "controller",
+        "golang",
+        "kubernetes",
+        "observability",
+        "react",
+        "scheduling",
+        "simulator"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T12:47:16Z",
+      "updatedAt": "2026-08-17T01:03:06Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:augusttw/svcprobe",
+      "type": "repo",
+      "title": "augusttw/svcprobe",
+      "summaryOriginal": "High-performance network diagnostic & observability CLI for distributed systems (DNS, TCP, TLS, HTTP)",
+      "url": "https://github.com/augusttw/svcprobe",
+      "lang": "Go",
+      "tags": [
+        "cli",
+        "diagnostics",
+        "dns",
+        "go",
+        "http",
+        "kubernetes",
+        "microservices",
+        "networking",
+        "observability",
+        "tls"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T20:49:20Z",
+      "updatedAt": "2026-08-13T20:57:02Z",
       "categories": [
         "infra"
       ]
@@ -1238,41 +1118,6 @@
       ]
     },
     {
-      "id": "gh:istio/istio",
-      "type": "repo",
-      "title": "istio/istio",
-      "summaryOriginal": "Connect, secure, control, and observe services.",
-      "url": "https://github.com/istio/istio",
-      "lang": "Go",
-      "tags": [
-        "api-management",
-        "circuit-breaker",
-        "consul",
-        "enforce-policies",
-        "envoy",
-        "fault-injection",
-        "kubernetes",
-        "lyft-envoy",
-        "microservice",
-        "microservices",
-        "nomad",
-        "polyglot-microservices",
-        "proxies",
-        "request-routing",
-        "resiliency",
-        "service-mesh"
-      ],
-      "metrics": {
-        "stars": 38353
-      },
-      "source": "github-search",
-      "publishedAt": "2016-11-18T23:57:21Z",
-      "updatedAt": "2026-08-14T22:18:11Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
       "id": "gh:portainer/portainer",
       "type": "repo",
       "title": "portainer/portainer",
@@ -1295,11 +1140,148 @@
         "ui"
       ],
       "metrics": {
-        "stars": 38255
+        "stars": 38256
       },
       "source": "github-search",
       "publishedAt": "2016-05-19T20:15:28Z",
       "updatedAt": "2026-08-15T13:10:50Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:seaweedfs/seaweedfs",
+      "type": "repo",
+      "title": "seaweedfs/seaweedfs",
+      "summaryOriginal": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "lang": "Go",
+      "tags": [
+        "blob-storage",
+        "cloud-drive",
+        "distributed-file-system",
+        "distributed-storage",
+        "distributed-systems",
+        "erasure-coding",
+        "fuse",
+        "hadoop-hdfs",
+        "hdfs",
+        "kubernetes",
+        "object-storage",
+        "posix",
+        "replication",
+        "s3",
+        "s3-storage",
+        "seaweedfs",
+        "tiered-file-system"
+      ],
+      "metrics": {
+        "stars": 34084
+      },
+      "source": "github-search",
+      "publishedAt": "2014-07-14T16:41:37Z",
+      "updatedAt": "2026-08-16T19:57:14Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:k3s-io/k3s",
+      "type": "repo",
+      "title": "k3s-io/k3s",
+      "summaryOriginal": "Lightweight Kubernetes",
+      "url": "https://github.com/k3s-io/k3s",
+      "lang": "Go",
+      "tags": [
+        "k8s",
+        "kubernetes"
+      ],
+      "metrics": {
+        "stars": 33740
+      },
+      "source": "github-search",
+      "publishedAt": "2018-05-31T01:37:46Z",
+      "updatedAt": "2026-08-15T18:11:46Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:podman-container-tools/podman",
+      "type": "repo",
+      "title": "podman-container-tools/podman",
+      "summaryOriginal": "Podman: A tool for managing OCI containers and pods.",
+      "url": "https://github.com/podman-container-tools/podman",
+      "lang": "Go",
+      "tags": [
+        "containers",
+        "docker",
+        "kubernetes",
+        "linux",
+        "oci"
+      ],
+      "metrics": {
+        "stars": 32594
+      },
+      "source": "github-search",
+      "publishedAt": "2017-11-01T15:01:27Z",
+      "updatedAt": "2026-08-16T00:55:25Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:kubernetes/minikube",
+      "type": "repo",
+      "title": "kubernetes/minikube",
+      "summaryOriginal": "Run Kubernetes locally",
+      "url": "https://github.com/kubernetes/minikube",
+      "lang": "Go",
+      "tags": [
+        "cluster",
+        "cncf",
+        "containers",
+        "go",
+        "kubernetes",
+        "minikube"
+      ],
+      "metrics": {
+        "stars": 32038
+      },
+      "source": "github-search",
+      "publishedAt": "2016-04-15T22:38:35Z",
+      "updatedAt": "2026-08-16T15:50:00Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:goharbor/harbor",
+      "type": "repo",
+      "title": "goharbor/harbor",
+      "summaryOriginal": "An open source trusted cloud native registry project that stores, signs, and scans content.",
+      "url": "https://github.com/goharbor/harbor",
+      "lang": "Go",
+      "tags": [
+        "cloud-native",
+        "cncf",
+        "cncf-project",
+        "container",
+        "container-management",
+        "container-registry",
+        "containers",
+        "docker",
+        "hacktoberfest",
+        "helm",
+        "kubernetes",
+        "registry"
+      ],
+      "metrics": {
+        "stars": 29164
+      },
+      "source": "github-search",
+      "publishedAt": "2016-01-28T21:10:28Z",
+      "updatedAt": "2026-08-17T00:32:54Z",
       "categories": [
         "infra"
       ]
