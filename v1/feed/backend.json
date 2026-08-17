@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "backend",
-  "generatedAt": "2026-08-17T06:58:41.597Z",
+  "generatedAt": "2026-08-17T09:43:01.039Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,7 +13,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 462306,
+        "stars": 462586,
         "starsDelta": 1588
       },
       "source": "github-trending",
@@ -22,80 +22,44 @@
       ]
     },
     {
-      "id": "gh:herdrdev/herdr",
+      "id": "gh:DeusData/codebase-memory-mcp",
       "type": "repo",
-      "title": "herdrdev/herdr",
-      "summaryOriginal": "the runtime your coding agents live on",
-      "url": "https://github.com/herdrdev/herdr",
-      "lang": "Rust",
+      "title": "DeusData/codebase-memory-mcp",
+      "summaryOriginal": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "lang": "C",
       "tags": [
-        "agent",
-        "agent-orchestration",
-        "ai",
-        "ai-agents",
+        "aider",
+        "ast",
         "claude-code",
-        "cli",
+        "code-analysis",
+        "code-intelligence",
         "codex",
-        "coding-agents",
+        "cursor",
+        "cypher",
         "developer-tools",
-        "devtools",
-        "multiplexer",
-        "rust",
-        "terminal",
-        "terminal-multiplexer",
-        "terminal-ui",
-        "tmux",
-        "tui",
-        "workspace-manager"
+        "gemini-cli",
+        "graph-visualization",
+        "kilocode",
+        "knowledge-graph",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "opencode",
+        "sqlite",
+        "tree-sitter",
+        "windsurf"
       ],
       "metrics": {
-        "stars": 29840
+        "stars": 39201
       },
       "source": "github-search",
-      "publishedAt": "2026-03-27T17:54:33Z",
-      "updatedAt": "2026-08-16T12:30:57Z",
-      "summaryEn": "Terminal runtime and multiplexer for running and managing multiple coding agents together.",
-      "summaryKo": "여러 코딩 에이전트를 함께 실행·관리하는 터미널 런타임 겸 멀티플렉서",
+      "publishedAt": "2026-02-24T22:01:00Z",
+      "updatedAt": "2026-08-17T05:57:33Z",
       "categories": [
         "devtools",
         "ai-agents",
         "backend"
-      ]
-    },
-    {
-      "id": "gh:teng-lin/notebooklm-py",
-      "type": "repo",
-      "title": "teng-lin/notebooklm-py",
-      "summaryOriginal": "Unofficial Python API and agentic skill for Google Gemini Notebook. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
-      "url": "https://github.com/teng-lin/notebooklm-py",
-      "lang": "Python",
-      "tags": [
-        "agentic-skill",
-        "api",
-        "claude",
-        "claude-skills",
-        "gemini-notebook",
-        "google-notebooklm",
-        "notebooklm",
-        "notebooklm-api",
-        "notebooklm-skill",
-        "openclaw-skills",
-        "podcast-generator",
-        "python",
-        "python-api",
-        "sdk",
-        "skills"
-      ],
-      "metrics": {
-        "stars": 18744
-      },
-      "source": "github-search",
-      "publishedAt": "2026-01-07T15:27:19Z",
-      "updatedAt": "2026-08-16T22:07:13Z",
-      "categories": [
-        "backend",
-        "ai-agents",
-        "devtools"
       ]
     },
     {
@@ -126,11 +90,11 @@
         "tts"
       ],
       "metrics": {
-        "stars": 48517
+        "stars": 48522
       },
       "source": "github-search",
       "publishedAt": "2023-03-18T22:58:02Z",
-      "updatedAt": "2026-08-17T06:57:31Z",
+      "updatedAt": "2026-08-17T08:04:44Z",
       "categories": [
         "ai-models",
         "backend"
@@ -166,11 +130,11 @@
         "web"
       ],
       "metrics": {
-        "stars": 57032
+        "stars": 57033
       },
       "source": "github-search",
       "publishedAt": "2019-04-08T16:36:25Z",
-      "updatedAt": "2026-08-17T06:24:23Z",
+      "updatedAt": "2026-08-17T09:42:32Z",
       "categories": [
         "web",
         "backend"
@@ -204,7 +168,7 @@
         "websocket"
       ],
       "metrics": {
-        "stars": 80046
+        "stars": 80047
       },
       "source": "github-search",
       "publishedAt": "2019-08-21T13:15:24Z",
@@ -213,6 +177,47 @@
         "web",
         "backend",
         "devtools"
+      ]
+    },
+    {
+      "id": "gh:directus/directus",
+      "type": "repo",
+      "title": "directus/directus",
+      "summaryOriginal": "The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.",
+      "url": "https://github.com/directus/directus",
+      "lang": "TypeScript",
+      "tags": [
+        "api",
+        "app",
+        "cms",
+        "composable",
+        "data-visualization",
+        "database",
+        "directus",
+        "graphql",
+        "headless-cms",
+        "javascript",
+        "mariadb",
+        "mssql",
+        "mysql",
+        "no-code",
+        "node",
+        "postgresql",
+        "sql",
+        "sqlite",
+        "typescript",
+        "vue"
+      ],
+      "metrics": {
+        "stars": 37433
+      },
+      "source": "github-search",
+      "publishedAt": "2012-12-12T01:35:36Z",
+      "updatedAt": "2026-08-17T09:25:02Z",
+      "categories": [
+        "web",
+        "backend",
+        "data"
       ]
     },
     {
@@ -262,7 +267,7 @@
         "token-usage"
       ],
       "metrics": {
-        "stars": 220
+        "stars": 222
       },
       "source": "github-search",
       "publishedAt": "2026-08-12T16:09:39Z",
@@ -287,7 +292,7 @@
         "sri-lanka"
       ],
       "metrics": {
-        "stars": 18
+        "stars": 20
       },
       "source": "github-search",
       "publishedAt": "2026-08-12T12:44:34Z",
@@ -368,7 +373,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T21:48:54Z",
-      "updatedAt": "2026-08-17T05:57:18Z",
+      "updatedAt": "2026-08-17T08:37:30Z",
       "categories": [
         "backend"
       ]
@@ -428,7 +433,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T15:26:15Z",
-      "updatedAt": "2026-08-16T06:14:08Z",
+      "updatedAt": "2026-08-17T09:14:42Z",
       "categories": [
         "backend",
         "data"
@@ -537,7 +542,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-12T14:07:13Z",
-      "updatedAt": "2026-08-17T06:32:29Z",
+      "updatedAt": "2026-08-17T09:09:10Z",
       "categories": [
         "backend"
       ]
@@ -569,6 +574,44 @@
       "source": "github-search",
       "publishedAt": "2026-08-13T04:43:14Z",
       "updatedAt": "2026-08-13T05:22:29Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:CreaturePrawn/nexusggr-casino-api",
+      "type": "repo",
+      "title": "CreaturePrawn/nexusggr-casino-api",
+      "summaryOriginal": "NexusGGR Casino API is a unified iGaming aggregation engine designed to seamlessly connect online casino platforms with thousands of games, live dealer tables, and unified wallet services through a single integration endpoint.",
+      "url": "https://github.com/CreaturePrawn/nexusggr-casino-api",
+      "lang": "Go",
+      "tags": [
+        "api",
+        "bahis",
+        "betting",
+        "cheap",
+        "evolution",
+        "free",
+        "gambling-website",
+        "game-provider-api",
+        "igaming-software",
+        "pgsoft",
+        "pragmatic",
+        "roulette",
+        "script",
+        "slot",
+        "slot-game",
+        "solution",
+        "sportsbook",
+        "turnkey",
+        "whitelabel"
+      ],
+      "metrics": {
+        "stars": 2
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-15T11:47:16Z",
+      "updatedAt": "2026-08-15T11:54:05Z",
       "categories": [
         "backend"
       ]
@@ -610,44 +653,6 @@
       "categories": [
         "backend",
         "data"
-      ]
-    },
-    {
-      "id": "gh:CreaturePrawn/nexusggr-casino-api",
-      "type": "repo",
-      "title": "CreaturePrawn/nexusggr-casino-api",
-      "summaryOriginal": "NexusGGR Casino API is a unified iGaming aggregation engine designed to seamlessly connect online casino platforms with thousands of games, live dealer tables, and unified wallet services through a single integration endpoint.",
-      "url": "https://github.com/CreaturePrawn/nexusggr-casino-api",
-      "lang": "Go",
-      "tags": [
-        "api",
-        "bahis",
-        "betting",
-        "cheap",
-        "evolution",
-        "free",
-        "gambling-website",
-        "game-provider-api",
-        "igaming-software",
-        "pgsoft",
-        "pragmatic",
-        "roulette",
-        "script",
-        "slot",
-        "slot-game",
-        "solution",
-        "sportsbook",
-        "turnkey",
-        "whitelabel"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-15T11:47:16Z",
-      "updatedAt": "2026-08-15T11:54:05Z",
-      "categories": [
-        "backend"
       ]
     },
     {
@@ -712,6 +717,45 @@
       ]
     },
     {
+      "id": "gh:SolveGate/cloudflare-turnstile-solver-api",
+      "type": "repo",
+      "title": "SolveGate/cloudflare-turnstile-solver-api",
+      "summaryOriginal": "Cloudflare Turnstile solver API for E2E tests, CI pipelines and synthetic monitoring — clears Turnstile (managed, non-interactive, invisible) and Turnstile WAF pages on sites you own or are authorised to test. Zero-dependency Node + Python SDKs. First 1,000 solves free.",
+      "url": "https://github.com/SolveGate/cloudflare-turnstile-solver-api",
+      "lang": "Python",
+      "tags": [
+        "api",
+        "ci",
+        "cloudflare-bypass",
+        "cloudflare-challenge",
+        "cloudflare-turnstile",
+        "cloudflare-turnstile-bypass",
+        "cloudflare-turnstile-solver",
+        "e2e-testing",
+        "nodejs",
+        "playwright",
+        "puppeteer",
+        "python",
+        "qa-automation",
+        "selenium",
+        "synthetic-monitoring",
+        "testing-tools",
+        "turnstile",
+        "turnstile-bypass",
+        "turnstile-solver",
+        "turnstile-waf"
+      ],
+      "metrics": {
+        "stars": 2
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T12:23:04Z",
+      "updatedAt": "2026-08-13T12:23:07Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
       "id": "gh:Webisso/minecraft-item-icons",
       "type": "repo",
       "title": "Webisso/minecraft-item-icons",
@@ -760,45 +804,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-13T03:22:42Z",
       "updatedAt": "2026-08-17T05:57:08Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:SolveGate/cloudflare-turnstile-solver-api",
-      "type": "repo",
-      "title": "SolveGate/cloudflare-turnstile-solver-api",
-      "summaryOriginal": "Cloudflare Turnstile solver API for E2E tests, CI pipelines and synthetic monitoring — clears Turnstile (managed, non-interactive, invisible) and Turnstile WAF pages on sites you own or are authorised to test. Zero-dependency Node + Python SDKs. First 1,000 solves free.",
-      "url": "https://github.com/SolveGate/cloudflare-turnstile-solver-api",
-      "lang": "Python",
-      "tags": [
-        "api",
-        "ci",
-        "cloudflare-bypass",
-        "cloudflare-challenge",
-        "cloudflare-turnstile",
-        "cloudflare-turnstile-bypass",
-        "cloudflare-turnstile-solver",
-        "e2e-testing",
-        "nodejs",
-        "playwright",
-        "puppeteer",
-        "python",
-        "qa-automation",
-        "selenium",
-        "synthetic-monitoring",
-        "testing-tools",
-        "turnstile",
-        "turnstile-bypass",
-        "turnstile-solver",
-        "turnstile-waf"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T12:23:04Z",
-      "updatedAt": "2026-08-13T12:23:07Z",
       "categories": [
         "backend"
       ]
@@ -1045,6 +1050,33 @@
       ]
     },
     {
+      "id": "gh:AlvaroMartinCrespo/iris",
+      "type": "repo",
+      "title": "AlvaroMartinCrespo/iris",
+      "summaryOriginal": "Buscador inverso de viajes que compara vuelos, alojamiento y transporte para descubrir las mejores escapadas según origen, fechas, presupuesto y viajeros.",
+      "url": "https://github.com/AlvaroMartinCrespo/iris",
+      "lang": "JavaScript",
+      "tags": [
+        "api",
+        "duffel",
+        "duffel-api",
+        "flight",
+        "reactjs",
+        "skyscanner",
+        "skyscanner-flight-search",
+        "skyscanner-scraper"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T14:16:28Z",
+      "updatedAt": "2026-08-13T16:59:45Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
       "id": "gh:hideshopkeeperbound/ebay-kleinanzeigen-api-interface",
       "type": "repo",
       "title": "hideshopkeeperbound/ebay-kleinanzeigen-api-interface",
@@ -1106,33 +1138,6 @@
       ]
     },
     {
-      "id": "gh:AlvaroMartinCrespo/iris",
-      "type": "repo",
-      "title": "AlvaroMartinCrespo/iris",
-      "summaryOriginal": "Buscador inverso de viajes que compara vuelos, alojamiento y transporte para descubrir las mejores escapadas según origen, fechas, presupuesto y viajeros.",
-      "url": "https://github.com/AlvaroMartinCrespo/iris",
-      "lang": "JavaScript",
-      "tags": [
-        "api",
-        "duffel",
-        "duffel-api",
-        "flight",
-        "reactjs",
-        "skyscanner",
-        "skyscanner-flight-search",
-        "skyscanner-scraper"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T14:16:28Z",
-      "updatedAt": "2026-08-13T16:59:45Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
       "id": "gh:PhotonJackdaw/autoseller-tg-bot-aiogram",
       "type": "repo",
       "title": "PhotonJackdaw/autoseller-tg-bot-aiogram",
@@ -1184,121 +1189,66 @@
         "vim"
       ],
       "metrics": {
-        "stars": 101853
+        "stars": 101805
       },
       "source": "github-search",
       "publishedAt": "2014-01-31T13:39:22Z",
-      "updatedAt": "2026-08-17T06:10:06Z",
+      "updatedAt": "2026-08-17T09:37:06Z",
       "categories": [
         "backend"
       ]
     },
     {
-      "id": "gh:CelestoAI/SmolVM",
+      "id": "gh:t8y2/dbx",
       "type": "repo",
-      "title": "CelestoAI/SmolVM",
-      "summaryOriginal": "Open-source AI sandbox infrastructure with unified API for VMMs -- Firecracker, QEMU and libkrun.",
-      "url": "https://github.com/CelestoAI/SmolVM",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "totalScore": 204.8983
-      },
-      "source": "ossinsight",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:off-grid-ai/OGAM",
-      "type": "repo",
-      "title": "off-grid-ai/OGAM",
-      "summaryOriginal": "The Swiss Army Knife of Offline AI. Chat, see, speak, and generate images on your phone or Mac — GGUF LLMs, vision, Whisper speech-to-text, Stable Diffusion, tool calling, and local-network servers. Runs on your CPU, GPU, or NPU. No account, no API key, zero data leaves your device.",
-      "url": "https://github.com/off-grid-ai/OGAM",
-      "lang": "TypeScript",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "totalScore": 204.8563
-      },
-      "source": "ossinsight",
-      "categories": [
-        "ai-models",
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:NVIDIA-NeMo/Switchyard",
-      "type": "repo",
-      "title": "NVIDIA-NeMo/Switchyard",
-      "summaryOriginal": "Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
-      "url": "https://github.com/NVIDIA-NeMo/Switchyard",
+      "title": "t8y2/dbx",
+      "summaryOriginal": "20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
+      "url": "https://github.com/t8y2/dbx",
       "lang": "Rust",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "totalScore": 204.4657
-      },
-      "source": "ossinsight",
-      "categories": [
-        "ai-models",
-        "ai-agents",
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:sandbaseai/managed-agents",
-      "type": "repo",
-      "title": "sandbaseai/managed-agents",
-      "summaryOriginal": "Open-source CMA-compatible agent runtime. Run multi-agent systems locally with any model (Ollama/vLLM/Claude/GPT), MCP tools, scenario templates, and a beautiful dashboard. One command start. Built for enterprise teams.",
-      "url": "https://github.com/sandbaseai/managed-agents",
-      "lang": "TypeScript",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "totalScore": 204.2344
-      },
-      "source": "ossinsight",
-      "categories": [
-        "ai-models",
-        "ai-agents",
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:rorkai/App-Store-Connect-CLI",
-      "type": "repo",
-      "title": "rorkai/App-Store-Connect-CLI",
-      "summaryOriginal": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more. JSON-first, no interactive prompts",
-      "url": "https://github.com/rorkai/App-Store-Connect-CLI",
-      "lang": "Go",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "pushes": 1,
-        "totalScore": 204.0487
+        "pushes": 5,
+        "totalScore": 204.9829
       },
       "source": "ossinsight",
       "categories": [
         "ai-agents",
         "backend",
+        "infra",
         "data",
-        "engineering",
         "devtools"
       ]
     },
     {
-      "id": "gh:qixing-jk/all-api-hub",
+      "id": "gh:opensandbox-group/OpenSandbox",
       "type": "repo",
-      "title": "qixing-jk/all-api-hub",
-      "summaryOriginal": "All-in-one New-API/Sub2API account hub: balance/usage dashboard, auto check-in, one-click keys, price comparison, health checks, plus advanced channel management | 一站式 New-API/Sub2API 等中转站账号管理：余额/用量看板、自动签到、密钥一键使用、价格对比、可用性测试，另提供高级渠道管理",
-      "url": "https://github.com/qixing-jk/all-api-hub",
-      "lang": "TypeScript",
+      "title": "opensandbox-group/OpenSandbox",
+      "summaryOriginal": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
+      "url": "https://github.com/opensandbox-group/OpenSandbox",
+      "lang": "Python",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "totalScore": 203.9905
+        "pushes": 1,
+        "totalScore": 204.8983
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-agents",
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:jjang-ai/mlxstudio",
+      "type": "repo",
+      "title": "jjang-ai/mlxstudio",
+      "summaryOriginal": "MLX Studio - Home of JANG_Q - Image Gen/Edit + Chat/Code All in one - + OpenClaw (Anthropic API)",
+      "url": "https://github.com/jjang-ai/mlxstudio",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 204.7732
       },
       "source": "ossinsight",
       "categories": [
@@ -1306,71 +1256,124 @@
       ]
     },
     {
-      "id": "gh:ForkWrenGuide/AnyUnlock",
+      "id": "gh:zhishile/codex-auth-helper",
       "type": "repo",
-      "title": "ForkWrenGuide/AnyUnlock",
-      "summaryOriginal": "Open-source toolkit and diagnostic guides inspired by AnyUnlock capabilities. Focuses on iOS data recovery, passcode auditing, MDM architecture analysis, and Apple ID backup management for educational purposes and authorized security research.",
-      "url": "https://github.com/ForkWrenGuide/AnyUnlock",
+      "title": "zhishile/codex-auth-helper",
+      "summaryOriginal": "Codex登陆助手：安全地在本地导出您的已登录 ChatGPT 会话配置，生成符合 Codex 规范的 auth.json 本地备份文件。",
+      "url": "https://github.com/zhishile/codex-auth-helper",
+      "lang": "CSS",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "totalScore": 203.8165
+        "totalScore": 204.481
       },
       "source": "ossinsight",
       "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:OpenLabs-so/openanalytics",
+      "type": "repo",
+      "title": "OpenLabs-so/openanalytics",
+      "summaryOriginal": "Open-source, privacy-first and cookieless web analytics with revenue attribution and an MCP server.",
+      "url": "https://github.com/OpenLabs-so/openanalytics",
+      "lang": "TypeScript",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 204.1702
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-agents",
+        "backend",
+        "data"
+      ]
+    },
+    {
+      "id": "gh:apple/coreai-models",
+      "type": "repo",
+      "title": "apple/coreai-models",
+      "summaryOriginal": "Model export recipes, Python primitives, and Swift runtime utilities for on-device AI",
+      "url": "https://github.com/apple/coreai-models",
+      "lang": "Swift",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 203.5855
+      },
+      "source": "ossinsight",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:anysearch-ai/anysearch-mcp-server",
+      "type": "repo",
+      "title": "anysearch-ai/anysearch-mcp-server",
+      "summaryOriginal": "Unified real-time search engine skill for AI agents.",
+      "url": "https://github.com/anysearch-ai/anysearch-mcp-server",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 203.5069
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-agents",
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:Alignbase/sunpeak",
+      "type": "repo",
+      "title": "Alignbase/sunpeak",
+      "summaryOriginal": "Server-agnostic MCP testing framework and full-stack MCP App framework for ChatGPT Apps, Claude Connectors, and more.",
+      "url": "https://github.com/Alignbase/sunpeak",
+      "lang": "TypeScript",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 203.326
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-agents",
         "backend",
         "engineering"
       ]
     },
     {
-      "id": "gh:David-Crty/databasement",
+      "id": "gh:kimimgo/awesome-ai-cae",
       "type": "repo",
-      "title": "David-Crty/databasement",
-      "summaryOriginal": "Self-hosted database backup manager with a web UI. Schedule, backup, and restore MySQL, PostgreSQL, MariaDB, Microsoft SQL Server, MongoDB, SQLite & Redis to S3, SFTP, Samba or local storage. SSH Tunnel support.",
-      "url": "https://github.com/David-Crty/databasement",
-      "lang": "PHP",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "totalScore": 203.7655
-      },
-      "source": "ossinsight",
-      "categories": [
-        "backend",
-        "infra",
-        "data"
-      ]
-    },
-    {
-      "id": "gh:Osmantic/ODS",
-      "type": "repo",
-      "title": "Osmantic/ODS",
-      "summaryOriginal": "Turn your PC, Mac, or Linux box into an AI server. LLM inference, chat UI, voice, agents, workflows, RAG, and image generation.",
-      "url": "https://github.com/Osmantic/ODS",
+      "title": "kimimgo/awesome-ai-cae",
+      "summaryOriginal": "A curated list of 100+ AI-ready tools for Computer-Aided Engineering, ranked by an AI-Readiness Score (agent-callability: MCP, Python API, CLI, pip). CFD, FEA, SPH, DEM, differentiable simulation, neural operators, PINNs, MCP servers.",
+      "url": "https://github.com/kimimgo/awesome-ai-cae",
       "lang": "Python",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "totalScore": 203.6386
+        "totalScore": 203.3053
       },
       "source": "ossinsight",
       "categories": [
-        "ai-models",
         "ai-agents",
-        "backend"
+        "backend",
+        "devtools"
       ]
     },
     {
-      "id": "gh:davidwhitney/JsxCore",
+      "id": "gh:coder/ghostty-web",
       "type": "repo",
-      "title": "davidwhitney/JsxCore",
-      "summaryOriginal": "Native support for JSX and TSX as a server and client rendered view engine for ASP.NET Core. Bringing the modern web to ASP.NET.",
-      "url": "https://github.com/davidwhitney/JsxCore",
-      "lang": "C#",
+      "title": "coder/ghostty-web",
+      "summaryOriginal": "Ghostty for the web with xterm.js API compatibility",
+      "url": "https://github.com/coder/ghostty-web",
+      "lang": "TypeScript",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "totalScore": 203.4118
+        "totalScore": 203.302
       },
       "source": "ossinsight",
       "categories": [

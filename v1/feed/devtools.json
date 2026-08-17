@@ -1,44 +1,44 @@
 {
   "version": 1,
   "category": "devtools",
-  "generatedAt": "2026-08-17T06:58:41.597Z",
+  "generatedAt": "2026-08-17T09:43:01.039Z",
   "ttlSeconds": 10800,
   "cards": [
     {
-      "id": "gh:herdrdev/herdr",
+      "id": "gh:DeusData/codebase-memory-mcp",
       "type": "repo",
-      "title": "herdrdev/herdr",
-      "summaryOriginal": "the runtime your coding agents live on",
-      "url": "https://github.com/herdrdev/herdr",
-      "lang": "Rust",
+      "title": "DeusData/codebase-memory-mcp",
+      "summaryOriginal": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "lang": "C",
       "tags": [
-        "agent",
-        "agent-orchestration",
-        "ai",
-        "ai-agents",
+        "aider",
+        "ast",
         "claude-code",
-        "cli",
+        "code-analysis",
+        "code-intelligence",
         "codex",
-        "coding-agents",
+        "cursor",
+        "cypher",
         "developer-tools",
-        "devtools",
-        "multiplexer",
-        "rust",
-        "terminal",
-        "terminal-multiplexer",
-        "terminal-ui",
-        "tmux",
-        "tui",
-        "workspace-manager"
+        "gemini-cli",
+        "graph-visualization",
+        "kilocode",
+        "knowledge-graph",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "opencode",
+        "sqlite",
+        "tree-sitter",
+        "windsurf"
       ],
       "metrics": {
-        "stars": 29840
+        "stars": 39201
       },
       "source": "github-search",
-      "publishedAt": "2026-03-27T17:54:33Z",
-      "updatedAt": "2026-08-16T12:30:57Z",
-      "summaryEn": "Terminal runtime and multiplexer for running and managing multiple coding agents together.",
-      "summaryKo": "여러 코딩 에이전트를 함께 실행·관리하는 터미널 런타임 겸 멀티플렉서",
+      "publishedAt": "2026-02-24T22:01:00Z",
+      "updatedAt": "2026-08-17T05:57:33Z",
       "categories": [
         "devtools",
         "ai-agents",
@@ -46,104 +46,57 @@
       ]
     },
     {
-      "id": "gh:KKKKhazix/khazix-skills",
+      "id": "gh:1838904818/audit-repo",
       "type": "repo",
-      "title": "KKKKhazix/khazix-skills",
-      "summaryOriginal": "数字生命卡兹克开源的 AI Skills 合集 | Agent Skills: leader（帮你定义目标）, neat-freak 洁癖, hv-analysis, khazix-writer & more — Claude Code, Codex & 40+ agents",
-      "url": "https://github.com/KKKKhazix/khazix-skills",
+      "title": "1838904818/audit-repo",
+      "summaryOriginal": "A practical Codex skill for evidence-backed repository health audits",
+      "url": "https://github.com/1838904818/audit-repo",
       "lang": "Python",
       "tags": [
-        "agent-skills",
-        "ai-agents",
-        "claude",
-        "claude-code",
+        "code-quality",
         "codex",
+        "codex-skill",
         "developer-tools",
-        "llm",
-        "skills",
-        "vibe-coding"
-      ],
-      "metrics": {
-        "stars": 19759
-      },
-      "source": "github-search",
-      "publishedAt": "2026-04-06T07:37:02Z",
-      "updatedAt": "2026-08-16T08:49:13Z",
-      "categories": [
-        "devtools",
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "gh:teng-lin/notebooklm-py",
-      "type": "repo",
-      "title": "teng-lin/notebooklm-py",
-      "summaryOriginal": "Unofficial Python API and agentic skill for Google Gemini Notebook. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
-      "url": "https://github.com/teng-lin/notebooklm-py",
-      "lang": "Python",
-      "tags": [
-        "agentic-skill",
-        "api",
-        "claude",
-        "claude-skills",
-        "gemini-notebook",
-        "google-notebooklm",
-        "notebooklm",
-        "notebooklm-api",
-        "notebooklm-skill",
-        "openclaw-skills",
-        "podcast-generator",
+        "openai",
         "python",
-        "python-api",
-        "sdk",
-        "skills"
+        "repository-audit",
+        "repository-health",
+        "security-audit",
+        "static-analysis",
+        "technical-debt"
       ],
       "metrics": {
-        "stars": 18744
+        "stars": 125
       },
       "source": "github-search",
-      "publishedAt": "2026-01-07T15:27:19Z",
-      "updatedAt": "2026-08-16T22:07:13Z",
+      "publishedAt": "2026-08-11T08:52:31Z",
+      "updatedAt": "2026-08-13T04:46:38Z",
       "categories": [
-        "backend",
-        "ai-agents",
         "devtools"
       ]
     },
     {
-      "id": "gh:can1357/oh-my-pi",
+      "id": "gh:Gitlawb/openclaude",
       "type": "repo",
-      "title": "can1357/oh-my-pi",
-      "summaryOriginal": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
-      "url": "https://github.com/can1357/oh-my-pi",
+      "title": "Gitlawb/openclaude",
+      "summaryOriginal": "runs anywhere. uses anything",
+      "url": "https://github.com/Gitlawb/openclaude",
       "lang": "TypeScript",
       "tags": [
+        "ai",
         "ai-agent",
-        "ai-coding-agent",
-        "anthropic",
-        "bun",
-        "claude",
+        "ai-tools",
         "cli",
-        "coding-assistant",
-        "llm",
-        "mcp",
-        "multi-provider",
-        "openai",
-        "rust",
-        "terminal",
-        "tui",
-        "typescript"
+        "coding"
       ],
       "metrics": {
-        "stars": 25312
+        "stars": 30718
       },
       "source": "github-search",
-      "publishedAt": "2025-12-31T14:01:28Z",
-      "updatedAt": "2026-08-17T03:09:00Z",
+      "publishedAt": "2026-04-01T03:15:49Z",
+      "updatedAt": "2026-08-16T22:44:32Z",
       "categories": [
-        "devtools",
-        "ai-agents",
-        "web"
+        "devtools"
       ]
     },
     {
@@ -174,11 +127,11 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 649
+        "stars": 664
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T13:14:49Z",
-      "updatedAt": "2026-08-17T05:55:35Z",
+      "updatedAt": "2026-08-17T08:29:26Z",
       "summaryEn": "Curated hub of plugins, tools, and infrastructure for the DeepSeek Harness (DSH) ecosystem.",
       "summaryKo": "DeepSeek Harness(DSH) 생태계 플러그인·도구·인프라를 정리한 큐레이션 허브",
       "categories": [
@@ -248,7 +201,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 108
+        "stars": 109
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T01:59:03Z",
@@ -287,7 +240,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T04:06:22Z",
-      "updatedAt": "2026-08-17T06:55:01Z",
+      "updatedAt": "2026-08-17T07:59:48Z",
       "categories": [
         "ai-models",
         "ai-agents",
@@ -324,7 +277,7 @@
         "upgrade"
       ],
       "metrics": {
-        "stars": 33
+        "stars": 35
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T12:41:58Z",
@@ -365,7 +318,7 @@
         "python"
       ],
       "metrics": {
-        "stars": 26
+        "stars": 30
       },
       "source": "github-search",
       "publishedAt": "2026-08-16T05:51:52Z",
@@ -433,7 +386,7 @@
         "llm"
       ],
       "metrics": {
-        "stars": 17
+        "stars": 18
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T15:41:41Z",
@@ -462,7 +415,7 @@
         "productivity"
       ],
       "metrics": {
-        "stars": 240555
+        "stars": 240586
       },
       "source": "github-search",
       "publishedAt": "2026-01-18T00:51:51Z",
@@ -502,7 +455,7 @@
         "tree-sitter"
       ],
       "metrics": {
-        "stars": 107222
+        "stars": 107286
       },
       "source": "github-search",
       "publishedAt": "2026-04-03T15:49:07Z",
@@ -532,11 +485,11 @@
         "openai"
       ],
       "metrics": {
-        "stars": 84252
+        "stars": 84264
       },
       "source": "github-search",
       "publishedAt": "2024-03-13T03:33:31Z",
-      "updatedAt": "2026-08-16T23:06:25Z",
+      "updatedAt": "2026-08-17T09:29:57Z",
       "categories": [
         "ai-models",
         "devtools"
@@ -565,7 +518,7 @@
         "token-optimization"
       ],
       "metrics": {
-        "stars": 76317
+        "stars": 76334
       },
       "source": "github-search",
       "publishedAt": "2026-01-22T16:54:16Z",
@@ -593,7 +546,7 @@
         "streamlit"
       ],
       "metrics": {
-        "stars": 45554
+        "stars": 45555
       },
       "source": "github-search",
       "publishedAt": "2019-08-24T00:14:52Z",
@@ -626,11 +579,11 @@
         "web-app"
       ],
       "metrics": {
-        "stars": 22355
+        "stars": 22357
       },
       "source": "github-search",
       "publishedAt": "2023-08-14T18:56:20Z",
-      "updatedAt": "2026-08-17T04:08:41Z",
+      "updatedAt": "2026-08-17T08:48:53Z",
       "categories": [
         "ai-models",
         "devtools"
@@ -651,7 +604,7 @@
         "prompts"
       ],
       "metrics": {
-        "stars": 152
+        "stars": 153
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T23:41:31Z",
@@ -682,11 +635,11 @@
         "yagni"
       ],
       "metrics": {
-        "stars": 132
+        "stars": 136
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T15:31:45Z",
-      "updatedAt": "2026-08-16T16:06:44Z",
+      "updatedAt": "2026-08-17T08:36:08Z",
       "categories": [
         "ai-agents",
         "devtools"
@@ -714,7 +667,7 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 107
+        "stars": 111
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T13:52:04Z",
@@ -773,7 +726,7 @@
         "supply-chain"
       ],
       "metrics": {
-        "stars": 60
+        "stars": 63
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T14:25:39Z",
@@ -817,7 +770,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T14:21:58Z",
-      "updatedAt": "2026-08-16T15:29:12Z",
+      "updatedAt": "2026-08-17T09:42:31Z",
       "categories": [
         "ai-agents",
         "devtools"
@@ -840,7 +793,7 @@
         "mcp-server"
       ],
       "metrics": {
-        "stars": 106533
+        "stars": 106532
       },
       "source": "github-search",
       "publishedAt": "2025-04-17T17:04:31Z",
@@ -878,11 +831,11 @@
         "yc-backed"
       ],
       "metrics": {
-        "stars": 46810
+        "stars": 46965
       },
       "source": "github-search",
       "publishedAt": "2026-03-17T03:28:57Z",
-      "updatedAt": "2026-08-17T06:53:36Z",
+      "updatedAt": "2026-08-17T09:42:13Z",
       "categories": [
         "ai-agents",
         "devtools"
@@ -918,7 +871,7 @@
         "skill-library"
       ],
       "metrics": {
-        "stars": 45042
+        "stars": 45045
       },
       "source": "github-search",
       "publishedAt": "2026-01-14T17:48:09Z",
@@ -943,11 +896,11 @@
         "python"
       ],
       "metrics": {
-        "stars": 41737
+        "stars": 41742
       },
       "source": "github-search",
       "publishedAt": "2022-05-04T15:23:02Z",
-      "updatedAt": "2026-08-17T06:49:56Z",
+      "updatedAt": "2026-08-17T09:41:12Z",
       "categories": [
         "ai-agents",
         "devtools"
@@ -983,7 +936,7 @@
         "workflows"
       ],
       "metrics": {
-        "stars": 38858
+        "stars": 38861
       },
       "source": "github-search",
       "publishedAt": "2025-07-24T23:28:14Z",
@@ -994,38 +947,40 @@
       ]
     },
     {
-      "id": "gh:bar181/bar-observatory",
+      "id": "gh:Hilbert-beinghappy/seektty",
       "type": "repo",
-      "title": "bar181/bar-observatory",
-      "summaryOriginal": "Deterministic, local-only audit reports for Claude Code AI agent sessions. Rust + SQLite. Zero network calls. MCP server for agents.",
-      "url": "https://github.com/bar181/bar-observatory",
-      "lang": "HTML",
+      "title": "Hilbert-beinghappy/seektty",
+      "summaryOriginal": "Pluggable DeepSeek-colored TUI for DeepSeek Harness",
+      "url": "https://github.com/Hilbert-beinghappy/seektty",
+      "lang": "JavaScript",
       "tags": [
-        "agent-monitoring",
         "agentic-ai",
-        "ai-agents",
-        "ai-engineering",
-        "audit",
-        "audit-log",
-        "claude-code",
-        "claude-code-plugin",
-        "deterministic",
+        "ai-agent",
+        "cli",
+        "coding-agent",
+        "command-line",
+        "deepseek",
+        "deepseek-harness",
         "developer-tools",
-        "llm-observability",
-        "local-first",
-        "mcp",
-        "mcp-server",
-        "observability",
-        "rust",
-        "sqlite",
-        "telemetry"
+        "dsh",
+        "dsh-plugin",
+        "linux",
+        "llm",
+        "macos",
+        "seektty",
+        "syntax-highlighting",
+        "terminal",
+        "terminal-ui",
+        "tui",
+        "typescript",
+        "vscode-theme"
       ],
       "metrics": {
-        "stars": 17
+        "stars": 12
       },
       "source": "github-search",
-      "publishedAt": "2026-08-12T21:15:22Z",
-      "updatedAt": "2026-08-14T18:09:50Z",
+      "publishedAt": "2026-08-14T11:10:57Z",
+      "updatedAt": "2026-08-17T09:14:17Z",
       "categories": [
         "ai-agents",
         "devtools"
@@ -1058,7 +1013,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 29727
+        "stars": 29730
       },
       "source": "github-search",
       "publishedAt": "2024-02-23T13:58:27Z",
@@ -1098,7 +1053,7 @@
         "prompt-engineering"
       ],
       "metrics": {
-        "stars": 24536
+        "stars": 24543
       },
       "source": "github-search",
       "publishedAt": "2025-10-19T04:04:05Z",
@@ -1171,11 +1126,11 @@
         "workflows"
       ],
       "metrics": {
-        "stars": 40679
+        "stars": 40680
       },
       "source": "github-search",
       "publishedAt": "2020-06-30T04:07:36Z",
-      "updatedAt": "2026-08-17T06:19:28Z",
+      "updatedAt": "2026-08-17T08:43:48Z",
       "categories": [
         "web",
         "devtools"
@@ -1209,7 +1164,7 @@
         "websocket"
       ],
       "metrics": {
-        "stars": 80046
+        "stars": 80047
       },
       "source": "github-search",
       "publishedAt": "2019-08-21T13:15:24Z",
@@ -1217,6 +1172,38 @@
       "categories": [
         "web",
         "backend",
+        "devtools"
+      ]
+    },
+    {
+      "id": "gh:kunmi02/git-declutter",
+      "type": "repo",
+      "title": "kunmi02/git-declutter",
+      "summaryOriginal": "GitDeclutter — safely analyze and clean stale local Git branches. Classifies branches as SAFE, REVIEW, KEEP or PROTECTED.",
+      "url": "https://github.com/kunmi02/git-declutter",
+      "lang": "Go",
+      "tags": [
+        "cli",
+        "command-line",
+        "dev",
+        "developer-tools",
+        "development",
+        "devops",
+        "devtools",
+        "git",
+        "github",
+        "gitlab",
+        "go",
+        "golang"
+      ],
+      "metrics": {
+        "stars": 18
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T13:03:14Z",
+      "updatedAt": "2026-08-15T22:09:46Z",
+      "categories": [
+        "infra",
         "devtools"
       ]
     },
@@ -1229,83 +1216,86 @@
       "lang": "HTML",
       "tags": [],
       "metrics": {
-        "starsDelta": 5,
-        "totalScore": 222.4786
-      },
-      "source": "ossinsight",
-      "categories": [
-        "devtools"
-      ]
-    },
-    {
-      "id": "gh:lidge-jun/opencodex",
-      "type": "repo",
-      "title": "lidge-jun/opencodex",
-      "summaryOriginal": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
-      "url": "https://github.com/lidge-jun/opencodex",
-      "lang": "TypeScript",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 4,
-        "pushes": 25,
-        "totalScore": 212.6557
-      },
-      "source": "ossinsight",
-      "categories": [
-        "ai-models",
-        "devtools"
-      ]
-    },
-    {
-      "id": "gh:HKUDS/CLI-Anything",
-      "type": "repo",
-      "title": "HKUDS/CLI-Anything",
-      "summaryOriginal": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
         "starsDelta": 2,
-        "totalScore": 208.6482
+        "totalScore": 207.5895
       },
       "source": "ossinsight",
-      "summaryEn": "Toolkit aiming to make any software agent-native via a CLI-first hub.",
-      "summaryKo": "모든 소프트웨어를 에이전트 친화적으로 만드는 CLI 허브",
       "categories": [
-        "ai-agents",
         "devtools"
       ]
     },
     {
-      "id": "gh:xingkongliang/skills-manager",
+      "id": "gh:t8y2/dbx",
       "type": "repo",
-      "title": "xingkongliang/skills-manager",
-      "summaryOriginal": "A lightweight desktop app to manage, sync, and organize AI agent skills across 50+ coding tools — Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
-      "url": "https://github.com/xingkongliang/skills-manager",
+      "title": "t8y2/dbx",
+      "summaryOriginal": "20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
+      "url": "https://github.com/t8y2/dbx",
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "starsDelta": 2,
-        "totalScore": 206.529
+        "starsDelta": 1,
+        "pushes": 5,
+        "totalScore": 204.9829
       },
       "source": "ossinsight",
       "categories": [
         "ai-agents",
+        "backend",
+        "infra",
+        "data",
         "devtools"
       ]
     },
     {
-      "id": "gh:umputun/agterm",
+      "id": "gh:jackwener/OpenCLI",
       "type": "repo",
-      "title": "umputun/agterm",
-      "summaryOriginal": "A genuinely good terminal",
-      "url": "https://github.com/umputun/agterm",
-      "lang": "Swift",
+      "title": "jackwener/OpenCLI",
+      "summaryOriginal": "Make Any Website into CLI & Use your logged-in browser by AI agent.",
+      "url": "https://github.com/jackwener/OpenCLI",
+      "lang": "JavaScript",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 204.9052
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-agents",
+        "web",
+        "devtools"
+      ]
+    },
+    {
+      "id": "gh:Untrivial-ai/agent-orchestrator",
+      "type": "repo",
+      "title": "Untrivial-ai/agent-orchestrator",
+      "summaryOriginal": "Agent IDE that enables you to manage fleets of coding agents. It comes with an agentic orchestrator that plans tasks, spawns agents, and autonomously handles CI fixes, merge conflicts, and code reviews.",
+      "url": "https://github.com/Untrivial-ai/agent-orchestrator",
+      "lang": "Go",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "pushes": 7,
+        "totalScore": 204.5944
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-agents",
+        "engineering",
+        "devtools"
+      ]
+    },
+    {
+      "id": "gh:ZzzLc0405/photo-abstract-editorial",
+      "type": "repo",
+      "title": "ZzzLc0405/photo-abstract-editorial",
+      "summaryOriginal": "ZzzLc0405/photo-abstract-editorial",
+      "url": "https://github.com/ZzzLc0405/photo-abstract-editorial",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
         "pushes": 1,
-        "totalScore": 204.9241
+        "totalScore": 204.4606
       },
       "source": "ossinsight",
       "categories": [
@@ -1313,16 +1303,34 @@
       ]
     },
     {
-      "id": "gh:duckyshell/ComfyUI-MiniMaxH3-Prompt-Writer",
+      "id": "gh:guohuiyuan/go-music-dl",
       "type": "repo",
-      "title": "duckyshell/ComfyUI-MiniMaxH3-Prompt-Writer",
-      "summaryOriginal": "Local multimodal MiniMax H3 prompt writer for ComfyUI, powered by Gemma 4 GGUF models.",
-      "url": "https://github.com/duckyshell/ComfyUI-MiniMaxH3-Prompt-Writer",
-      "lang": "Python",
+      "title": "guohuiyuan/go-music-dl",
+      "summaryOriginal": "一个基于 Go 语言的全网音乐搜索与下载工具。支持 CLI 命令行与 Web 服务双模式，内置网易云、QQ、酷狗、Bilibili、汽水音乐等 10+ 个主流平台，支持多源并发搜索与无损音质解析。music-dl交流群：755087923",
+      "url": "https://github.com/guohuiyuan/go-music-dl",
+      "lang": "Go",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "totalScore": 204.8209
+        "totalScore": 204.3292
+      },
+      "source": "ossinsight",
+      "categories": [
+        "devtools"
+      ]
+    },
+    {
+      "id": "gh:AVIDS2/memorix",
+      "type": "repo",
+      "title": "AVIDS2/memorix",
+      "summaryOriginal": "Open-source cross-agent memory layer for coding agents via MCP. Compatible with Claude Code, Codex, Cursor, Windsurf, Gemini CLI, Antigravity, OpenClaw, Hermes Agent, Oh-my-Pi, Pi, Copilot, Kiro, OpenCode, and Trae.",
+      "url": "https://github.com/AVIDS2/memorix",
+      "lang": "TypeScript",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "pushes": 1,
+        "totalScore": 204.3055
       },
       "source": "ossinsight",
       "categories": [
@@ -1339,8 +1347,8 @@
       "lang": "Go",
       "tags": [],
       "metrics": {
-        "starsDelta": 1,
-        "totalScore": 204.3427
+        "starsDelta": 2,
+        "totalScore": 204.1467
       },
       "source": "ossinsight",
       "categories": [
@@ -1348,61 +1356,38 @@
       ]
     },
     {
-      "id": "gh:Nexting-ai/nexting",
+      "id": "gh:hanliang97/MatrixMedia",
       "type": "repo",
-      "title": "Nexting-ai/nexting",
-      "summaryOriginal": "A wearable terminal to dispatch tasks to your own AI agents — Claude Code, OpenClaw, Codex. Tap, speak, dispatch. The first hardware built for OpenClaw. Open source (MIT).",
-      "url": "https://github.com/Nexting-ai/nexting",
-      "lang": "C",
+      "title": "hanliang97/MatrixMedia",
+      "summaryOriginal": "视频矩阵工具 vue electorn puppeteer 批量发布 视频到各个视频平台 自媒体 矩阵 抖音 小红书 头条 视频号 快手等 ai 自动化 cli",
+      "url": "https://github.com/hanliang97/MatrixMedia",
+      "lang": "JavaScript",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "totalScore": 204.25
+        "pushes": 2,
+        "totalScore": 204.1024
       },
       "source": "ossinsight",
       "categories": [
-        "ai-agents",
+        "web",
         "devtools"
       ]
     },
     {
-      "id": "gh:rorkai/App-Store-Connect-CLI",
+      "id": "gh:baairon/torlink",
       "type": "repo",
-      "title": "rorkai/App-Store-Connect-CLI",
-      "summaryOriginal": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more. JSON-first, no interactive prompts",
-      "url": "https://github.com/rorkai/App-Store-Connect-CLI",
-      "lang": "Go",
+      "title": "baairon/torlink",
+      "summaryOriginal": "👾 A sleek, zero-setup torrent finder and downloader that lives right in your terminal.",
+      "url": "https://github.com/baairon/torlink",
+      "lang": "TypeScript",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "pushes": 1,
-        "totalScore": 204.0487
+        "totalScore": 203.8327
       },
       "source": "ossinsight",
       "categories": [
-        "ai-agents",
-        "backend",
-        "data",
-        "engineering",
-        "devtools"
-      ]
-    },
-    {
-      "id": "gh:microsoft/waza",
-      "type": "repo",
-      "title": "microsoft/waza",
-      "summaryOriginal": "CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness",
-      "url": "https://github.com/microsoft/waza",
-      "lang": "Go",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "totalScore": 203.9407
-      },
-      "source": "ossinsight",
-      "categories": [
-        "ai-agents",
-        "engineering",
         "devtools"
       ]
     },
@@ -1431,8 +1416,8 @@
       "url": "https://www.science.org/content/article/nih-ending-key-grant-budding-clinical-researchers",
       "tags": [],
       "metrics": {
-        "upvotes": 149,
-        "comments": 74
+        "upvotes": 154,
+        "comments": 80
       },
       "source": "hn",
       "publishedAt": "2026-08-16T16:14:55Z",

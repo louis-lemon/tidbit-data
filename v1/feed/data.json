@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "data",
-  "generatedAt": "2026-08-17T06:58:41.597Z",
+  "generatedAt": "2026-08-17T09:43:01.039Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -65,11 +65,11 @@
         "prometheus"
       ],
       "metrics": {
-        "stars": 80208
+        "stars": 80207
       },
       "source": "github-search",
       "publishedAt": "2013-06-17T18:39:10Z",
-      "updatedAt": "2026-08-17T04:54:09Z",
+      "updatedAt": "2026-08-17T09:38:30Z",
       "categories": [
         "ai-models",
         "infra",
@@ -110,7 +110,7 @@
       },
       "source": "github-search",
       "publishedAt": "2015-04-13T18:04:58Z",
-      "updatedAt": "2026-08-17T06:20:43Z",
+      "updatedAt": "2026-08-17T09:37:09Z",
       "categories": [
         "ai-models",
         "data"
@@ -144,13 +144,54 @@
         "superset"
       ],
       "metrics": {
-        "stars": 74284
+        "stars": 74286
       },
       "source": "github-search",
       "publishedAt": "2015-07-21T18:55:34Z",
-      "updatedAt": "2026-08-17T03:10:06Z",
+      "updatedAt": "2026-08-17T07:13:12Z",
       "categories": [
         "web",
+        "data"
+      ]
+    },
+    {
+      "id": "gh:directus/directus",
+      "type": "repo",
+      "title": "directus/directus",
+      "summaryOriginal": "The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.",
+      "url": "https://github.com/directus/directus",
+      "lang": "TypeScript",
+      "tags": [
+        "api",
+        "app",
+        "cms",
+        "composable",
+        "data-visualization",
+        "database",
+        "directus",
+        "graphql",
+        "headless-cms",
+        "javascript",
+        "mariadb",
+        "mssql",
+        "mysql",
+        "no-code",
+        "node",
+        "postgresql",
+        "sql",
+        "sqlite",
+        "typescript",
+        "vue"
+      ],
+      "metrics": {
+        "stars": 37433
+      },
+      "source": "github-search",
+      "publishedAt": "2012-12-12T01:35:36Z",
+      "updatedAt": "2026-08-17T09:25:02Z",
+      "categories": [
+        "web",
+        "backend",
         "data"
       ]
     },
@@ -183,7 +224,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T15:26:15Z",
-      "updatedAt": "2026-08-16T06:14:08Z",
+      "updatedAt": "2026-08-17T09:14:42Z",
       "categories": [
         "backend",
         "data"
@@ -251,7 +292,7 @@
         "sql"
       ],
       "metrics": {
-        "stars": 27599
+        "stars": 27602
       },
       "source": "github-search",
       "publishedAt": "2014-06-13T00:23:00Z",
@@ -308,7 +349,7 @@
         "server"
       ],
       "metrics": {
-        "stars": 21313
+        "stars": 21314
       },
       "source": "github-search",
       "publishedAt": "2019-02-26T13:16:58Z",
@@ -338,7 +379,7 @@
         "raft"
       ],
       "metrics": {
-        "stars": 52120
+        "stars": 52121
       },
       "source": "github-search",
       "publishedAt": "2013-07-06T21:57:21Z",
@@ -371,49 +412,11 @@
         "tsdb"
       ],
       "metrics": {
-        "stars": 17547
+        "stars": 17551
       },
       "source": "github-search",
       "publishedAt": "2018-09-30T09:58:01Z",
-      "updatedAt": "2026-08-17T06:12:29Z",
-      "categories": [
-        "infra",
-        "data"
-      ]
-    },
-    {
-      "id": "gh:argoproj/argo-workflows",
-      "type": "repo",
-      "title": "argoproj/argo-workflows",
-      "summaryOriginal": "Workflow Engine for Kubernetes",
-      "url": "https://github.com/argoproj/argo-workflows",
-      "lang": "Go",
-      "tags": [
-        "airflow",
-        "argo",
-        "argo-workflows",
-        "batch-processing",
-        "cloud-native",
-        "cncf",
-        "dag",
-        "data-engineering",
-        "gitops",
-        "hacktoberfest",
-        "k8s",
-        "knative",
-        "kubernetes",
-        "machine-learning",
-        "mlops",
-        "pipelines",
-        "workflow",
-        "workflow-engine"
-      ],
-      "metrics": {
-        "stars": 16904
-      },
-      "source": "github-search",
-      "publishedAt": "2017-08-21T18:50:44Z",
-      "updatedAt": "2026-08-16T22:40:13Z",
+      "updatedAt": "2026-08-17T09:31:25Z",
       "categories": [
         "infra",
         "data"
@@ -449,11 +452,11 @@
         "workflow"
       ],
       "metrics": {
-        "stars": 27835
+        "stars": 27836
       },
       "source": "github-search",
       "publishedAt": "2019-08-24T13:56:15Z",
-      "updatedAt": "2026-08-17T06:10:38Z",
+      "updatedAt": "2026-08-17T09:39:54Z",
       "categories": [
         "infra",
         "data"
@@ -595,6 +598,32 @@
       ]
     },
     {
+      "id": "gh:pivi-odoo/pg-llm-wiki",
+      "type": "repo",
+      "title": "pivi-odoo/pg-llm-wiki",
+      "summaryOriginal": "A source-backed, Obsidian-browsable wiki for understanding PostgreSQL internals.",
+      "url": "https://github.com/pivi-odoo/pg-llm-wiki",
+      "lang": "Python",
+      "tags": [
+        "database",
+        "database-internals",
+        "obsidian",
+        "postgresql",
+        "postgresql-internals",
+        "technical-documentation",
+        "wiki"
+      ],
+      "metrics": {
+        "stars": 2
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T11:29:56Z",
+      "updatedAt": "2026-08-13T11:30:20Z",
+      "categories": [
+        "data"
+      ]
+    },
+    {
       "id": "gh:ryuzcorp/paranorm",
       "type": "repo",
       "title": "ryuzcorp/paranorm",
@@ -668,7 +697,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T12:27:09Z",
-      "updatedAt": "2026-08-17T06:11:43Z",
+      "updatedAt": "2026-08-17T09:43:24Z",
       "categories": [
         "data"
       ]
@@ -752,21 +781,40 @@
       ]
     },
     {
-      "id": "gh:Village-V-Studio/Database-Creator",
+      "id": "gh:omar-dulaimi/supawatch",
       "type": "repo",
-      "title": "Village-V-Studio/Database-Creator",
-      "summaryOriginal": "Database Creator is a powerful yet incredibly easy-to-use MySQL (MariaDB) database manager designed specifically for developers, system administrators, and microservice networks.",
-      "url": "https://github.com/Village-V-Studio/Database-Creator",
-      "lang": "Java",
+      "title": "omar-dulaimi/supawatch",
+      "summaryOriginal": "Your Postgres schema, compiled to everything: validators, types, API layers, AI surfaces, tests and docs. Regenerated by the database itself, verified against real rows.",
+      "url": "https://github.com/omar-dulaimi/supawatch",
+      "lang": "TypeScript",
       "tags": [
-        "database"
+        "arktype",
+        "code-generation",
+        "codegen",
+        "database",
+        "effect",
+        "graphql",
+        "json-schema",
+        "mcp",
+        "orpc",
+        "postgres",
+        "postgresql",
+        "schema",
+        "supabase",
+        "trpc",
+        "type-safety",
+        "typebox",
+        "typescript",
+        "valibot",
+        "validation",
+        "zod"
       ],
       "metrics": {
         "stars": 1
       },
       "source": "github-search",
-      "publishedAt": "2026-08-11T22:12:46Z",
-      "updatedAt": "2026-08-14T23:13:50Z",
+      "publishedAt": "2026-08-14T19:15:45Z",
+      "updatedAt": "2026-08-17T09:36:05Z",
       "categories": [
         "data"
       ]
@@ -840,7 +888,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T21:18:24Z",
-      "updatedAt": "2026-08-17T06:16:36Z",
+      "updatedAt": "2026-08-17T08:49:03Z",
       "categories": [
         "data"
       ]
@@ -875,32 +923,6 @@
       ]
     },
     {
-      "id": "gh:pivi-odoo/pg-llm-wiki",
-      "type": "repo",
-      "title": "pivi-odoo/pg-llm-wiki",
-      "summaryOriginal": "A source-backed, Obsidian-browsable wiki for understanding PostgreSQL internals.",
-      "url": "https://github.com/pivi-odoo/pg-llm-wiki",
-      "lang": "Python",
-      "tags": [
-        "database",
-        "database-internals",
-        "obsidian",
-        "postgresql",
-        "postgresql-internals",
-        "technical-documentation",
-        "wiki"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T11:29:56Z",
-      "updatedAt": "2026-08-13T11:30:20Z",
-      "categories": [
-        "data"
-      ]
-    },
-    {
       "id": "gh:DHUKK/pgwire-explorer",
       "type": "repo",
       "title": "DHUKK/pgwire-explorer",
@@ -922,6 +944,26 @@
       "source": "github-search",
       "publishedAt": "2026-08-11T14:59:33Z",
       "updatedAt": "2026-08-14T23:24:26Z",
+      "categories": [
+        "data"
+      ]
+    },
+    {
+      "id": "gh:Village-V-Studio/Database-Creator",
+      "type": "repo",
+      "title": "Village-V-Studio/Database-Creator",
+      "summaryOriginal": "Database Creator is a powerful yet incredibly easy-to-use MySQL (MariaDB) database manager designed specifically for developers, system administrators, and microservice networks.",
+      "url": "https://github.com/Village-V-Studio/Database-Creator",
+      "lang": "Java",
+      "tags": [
+        "database"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-11T22:12:46Z",
+      "updatedAt": "2026-08-14T23:13:50Z",
       "categories": [
         "data"
       ]
@@ -1016,36 +1058,6 @@
       ]
     },
     {
-      "id": "gh:Lunch418/ora2pg-gap-report",
-      "type": "repo",
-      "title": "Lunch418/ora2pg-gap-report",
-      "summaryOriginal": "Detectors that find Oracle → PostgreSQL migration gaps ora2pg misses or converts incorrectly, each verified against real ora2pg and PostgreSQL runs.",
-      "url": "https://github.com/Lunch418/ora2pg-gap-report",
-      "lang": "Python",
-      "tags": [
-        "database",
-        "database-migration",
-        "migration-tool",
-        "ora2pg",
-        "oracle",
-        "oracle-database",
-        "plpgsql",
-        "plsql",
-        "postgres-pro",
-        "postgresql",
-        "static-analysis"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T10:08:39Z",
-      "updatedAt": "2026-08-17T05:50:53Z",
-      "categories": [
-        "data"
-      ]
-    },
-    {
       "id": "gh:dbwarden-org/dbwarden-harness",
       "type": "repo",
       "title": "dbwarden-org/dbwarden-harness",
@@ -1080,6 +1092,36 @@
       "source": "github-search",
       "publishedAt": "2026-08-15T02:17:45Z",
       "updatedAt": "2026-08-15T14:24:39Z",
+      "categories": [
+        "data"
+      ]
+    },
+    {
+      "id": "gh:Lunch418/ora2pg-gap-report",
+      "type": "repo",
+      "title": "Lunch418/ora2pg-gap-report",
+      "summaryOriginal": "Detectors that find Oracle → PostgreSQL migration gaps ora2pg misses or converts incorrectly, each verified against real ora2pg and PostgreSQL runs.",
+      "url": "https://github.com/Lunch418/ora2pg-gap-report",
+      "lang": "Python",
+      "tags": [
+        "database",
+        "database-migration",
+        "migration-tool",
+        "ora2pg",
+        "oracle",
+        "oracle-database",
+        "plpgsql",
+        "plsql",
+        "postgres-pro",
+        "postgresql",
+        "static-analysis"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T10:08:39Z",
+      "updatedAt": "2026-08-17T09:22:24Z",
       "categories": [
         "data"
       ]
@@ -1168,179 +1210,128 @@
       ]
     },
     {
-      "id": "gh:Manish-262/sql-learning",
+      "id": "gh:hydra-db/hydradb",
       "type": "repo",
-      "title": "Manish-262/sql-learning",
-      "summaryOriginal": "SQL concepts, queries, and practice problems learned throughout my SQL learning journey.",
-      "url": "https://github.com/Manish-262/sql-learning",
-      "lang": "TSQL",
-      "tags": [
-        "data-analysis",
-        "database",
-        "sql"
-      ],
+      "title": "hydra-db/hydradb",
+      "summaryOriginal": "HydraDB - fast graph database on object storage",
+      "url": "https://github.com/hydra-db/hydradb",
+      "lang": "Rust",
+      "tags": [],
       "metrics": {
-        "stars": 0
+        "starsDelta": 2,
+        "totalScore": 205.8306
       },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T08:16:44Z",
-      "updatedAt": "2026-08-11T08:31:54Z",
+      "source": "ossinsight",
       "categories": [
         "data"
       ]
     },
     {
-      "id": "gh:aeyennmalla123/Pizza-Sales-SQL",
+      "id": "gh:t8y2/dbx",
       "type": "repo",
-      "title": "aeyennmalla123/Pizza-Sales-SQL",
-      "summaryOriginal": "Queries solved using SQL",
-      "url": "https://github.com/aeyennmalla123/Pizza-Sales-SQL",
-      "tags": [
-        "canva",
-        "data-analysis",
-        "database",
-        "sql"
-      ],
-      "metrics": {
-        "stars": 0
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-12T05:59:38Z",
-      "updatedAt": "2026-08-12T06:17:34Z",
-      "categories": [
-        "data"
-      ]
-    },
-    {
-      "id": "gh:namiezasfar7/data-management-projects",
-      "type": "repo",
-      "title": "namiezasfar7/data-management-projects",
-      "summaryOriginal": "A curated collection of database and data management projects built while learning Database Management Systems (DBMS), SQL, and relational database concepts. This repository documents my progress in understanding how data is structured, stored, queried, analyzed, and managed using practical database projects.",
-      "url": "https://github.com/namiezasfar7/data-management-projects",
-      "tags": [
-        "beginner",
-        "database",
-        "mssql",
-        "mysql"
-      ],
-      "metrics": {
-        "stars": 0
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T10:12:50Z",
-      "updatedAt": "2026-08-14T11:05:35Z",
-      "categories": [
-        "data"
-      ]
-    },
-    {
-      "id": "gh:supabase/supabase",
-      "type": "repo",
-      "title": "supabase/supabase",
-      "summaryOriginal": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
-      "url": "https://github.com/supabase/supabase",
-      "lang": "TypeScript",
-      "tags": [
-        "ai",
-        "alternative",
-        "auth",
-        "database",
-        "deno",
-        "embeddings",
-        "example",
-        "firebase",
-        "nextjs",
-        "oauth2",
-        "pgvector",
-        "postgis",
-        "postgres",
-        "postgresql",
-        "postgrest",
-        "realtime",
-        "supabase",
-        "vectors",
-        "websockets"
-      ],
-      "metrics": {
-        "stars": 108074
-      },
-      "source": "github-search",
-      "publishedAt": "2019-10-12T05:56:49Z",
-      "updatedAt": "2026-08-17T06:42:03Z",
-      "categories": [
-        "data"
-      ]
-    },
-    {
-      "id": "gh:ferrumox/rabbit",
-      "type": "repo",
-      "title": "ferrumox/rabbit",
-      "summaryOriginal": "Run Qwen 3.8 MAX (2.4T MoE) on a 50GB-RAM consumer machine in pure Rust, experts streamed from disk. Tiny engine, immense model.",
-      "url": "https://github.com/ferrumox/rabbit",
+      "title": "t8y2/dbx",
+      "summaryOriginal": "20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
+      "url": "https://github.com/t8y2/dbx",
       "lang": "Rust",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "totalScore": 204.7027
-      },
-      "source": "ossinsight",
-      "categories": [
-        "data"
-      ]
-    },
-    {
-      "id": "gh:EKKOLearnAI/hermes-studio",
-      "type": "repo",
-      "title": "EKKOLearnAI/hermes-studio",
-      "summaryOriginal": "Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics",
-      "url": "https://github.com/EKKOLearnAI/hermes-studio",
-      "lang": "TypeScript",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "pullRequests": 1,
-        "totalScore": 204.4474
-      },
-      "source": "ossinsight",
-      "categories": [
-        "ai-agents",
-        "data"
-      ]
-    },
-    {
-      "id": "gh:rorkai/App-Store-Connect-CLI",
-      "type": "repo",
-      "title": "rorkai/App-Store-Connect-CLI",
-      "summaryOriginal": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more. JSON-first, no interactive prompts",
-      "url": "https://github.com/rorkai/App-Store-Connect-CLI",
-      "lang": "Go",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "pushes": 1,
-        "totalScore": 204.0487
+        "pushes": 5,
+        "totalScore": 204.9829
       },
       "source": "ossinsight",
       "categories": [
         "ai-agents",
         "backend",
+        "infra",
         "data",
-        "engineering",
         "devtools"
       ]
     },
     {
-      "id": "gh:kenn-io/msgvault",
+      "id": "gh:VexDB-THU/VexDB-Lite",
       "type": "repo",
-      "title": "kenn-io/msgvault",
-      "summaryOriginal": "Archive a lifetime of email and chat. Offline search, analytics, and AI query over your full message history. Powered by SQLite and DuckDB",
-      "url": "https://github.com/kenn-io/msgvault",
+      "title": "VexDB-THU/VexDB-Lite",
+      "summaryOriginal": "A cross-platform vector database, which can be integrated into existing databases as a plugin.",
+      "url": "https://github.com/VexDB-THU/VexDB-Lite",
+      "lang": "C++",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 204.9064
+      },
+      "source": "ossinsight",
+      "categories": [
+        "data"
+      ]
+    },
+    {
+      "id": "gh:K-Dense-AI/scientific-agent-skills",
+      "type": "repo",
+      "title": "K-Dense-AI/scientific-agent-skills",
+      "summaryOriginal": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 170,000+ scientists worldwide. 161 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 204.337
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-agents",
+        "data"
+      ]
+    },
+    {
+      "id": "gh:OpenLabs-so/openanalytics",
+      "type": "repo",
+      "title": "OpenLabs-so/openanalytics",
+      "summaryOriginal": "Open-source, privacy-first and cookieless web analytics with revenue attribution and an MCP server.",
+      "url": "https://github.com/OpenLabs-so/openanalytics",
+      "lang": "TypeScript",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 204.1702
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-agents",
+        "backend",
+        "data"
+      ]
+    },
+    {
+      "id": "gh:kenn-io/agentsview",
+      "type": "repo",
+      "title": "kenn-io/agentsview",
+      "summaryOriginal": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.",
+      "url": "https://github.com/kenn-io/agentsview",
       "lang": "Go",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
         "pushes": 2,
-        "totalScore": 203.8357
+        "totalScore": 204.1282
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-agents",
+        "data"
+      ]
+    },
+    {
+      "id": "gh:OpenMOSS/MOSS-TTS",
+      "type": "repo",
+      "title": "OpenMOSS/MOSS-TTS",
+      "summaryOriginal": "MOSS‑TTS Family is an open‑source speech and sound generation model family from MOSI.AI and the OpenMOSS team. It is designed for high‑fidelity, high‑expressiveness, and complex real‑world scenarios, covering stable long‑form speech, multi‑speaker dialogue, voice/character design, environmental sound effects, and real‑time streaming TTS.",
+      "url": "https://github.com/OpenMOSS/MOSS-TTS",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 203.5756
       },
       "source": "ossinsight",
       "categories": [
@@ -1348,20 +1339,20 @@
       ]
     },
     {
-      "id": "gh:David-Crty/databasement",
+      "id": "gh:ministackorg/ministack",
       "type": "repo",
-      "title": "David-Crty/databasement",
-      "summaryOriginal": "Self-hosted database backup manager with a web UI. Schedule, backup, and restore MySQL, PostgreSQL, MariaDB, Microsoft SQL Server, MongoDB, SQLite & Redis to S3, SFTP, Samba or local storage. SSH Tunnel support.",
-      "url": "https://github.com/David-Crty/databasement",
-      "lang": "PHP",
+      "title": "ministackorg/ministack",
+      "summaryOriginal": "Ministack: Free, open-source local AWS emulator - 60+ services, Terraform compatible, real databases. Free forever. MIT licensed.",
+      "url": "https://github.com/ministackorg/ministack",
+      "lang": "Python",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "totalScore": 203.7655
+        "pushes": 3,
+        "totalScore": 203.4724
       },
       "source": "ossinsight",
       "categories": [
-        "backend",
         "infra",
         "data"
       ]
