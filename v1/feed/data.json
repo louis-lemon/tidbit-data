@@ -1,9 +1,40 @@
 {
   "version": 1,
   "category": "data",
-  "generatedAt": "2026-08-17T15:26:36.586Z",
+  "generatedAt": "2026-08-17T18:41:13.692Z",
   "ttlSeconds": 10800,
   "cards": [
+    {
+      "id": "gh:YANGRUID/traffic-forecasting-platform",
+      "type": "repo",
+      "title": "YANGRUID/traffic-forecasting-platform",
+      "summaryOriginal": "Singapore traffic forecasting and journey-planning platform using Python, FastAPI, PostgreSQL, machine learning and route-aware scheduled forecasting.",
+      "url": "https://github.com/YANGRUID/traffic-forecasting-platform",
+      "lang": "Python",
+      "tags": [
+        "data-engineering",
+        "docker",
+        "fastapi",
+        "machine-learning",
+        "mlops",
+        "postgresql",
+        "python",
+        "singapore",
+        "streamlit",
+        "time-series",
+        "traffic-forecasting"
+      ],
+      "metrics": {
+        "stars": 2
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T10:56:31Z",
+      "updatedAt": "2026-08-13T12:44:47Z",
+      "categories": [
+        "ai-models",
+        "data"
+      ]
+    },
     {
       "id": "gh:netdata/netdata",
       "type": "repo",
@@ -34,11 +65,11 @@
         "prometheus"
       ],
       "metrics": {
-        "stars": 80209
+        "stars": 80211
       },
       "source": "github-search",
       "publishedAt": "2013-06-17T18:39:10Z",
-      "updatedAt": "2026-08-17T13:30:11Z",
+      "updatedAt": "2026-08-17T16:35:04Z",
       "categories": [
         "ai-models",
         "infra",
@@ -75,11 +106,11 @@
         "workflow-orchestration"
       ],
       "metrics": {
-        "stars": 46508
+        "stars": 46513
       },
       "source": "github-search",
       "publishedAt": "2015-04-13T18:04:58Z",
-      "updatedAt": "2026-08-17T14:55:30Z",
+      "updatedAt": "2026-08-17T18:04:16Z",
       "categories": [
         "ai-models",
         "data"
@@ -113,11 +144,11 @@
         "superset"
       ],
       "metrics": {
-        "stars": 74287
+        "stars": 74288
       },
       "source": "github-search",
       "publishedAt": "2015-07-21T18:55:34Z",
-      "updatedAt": "2026-08-17T14:09:38Z",
+      "updatedAt": "2026-08-17T18:31:39Z",
       "categories": [
         "web",
         "data"
@@ -153,11 +184,11 @@
         "vue"
       ],
       "metrics": {
-        "stars": 37436
+        "stars": 37442
       },
       "source": "github-search",
       "publishedAt": "2012-12-12T01:35:36Z",
-      "updatedAt": "2026-08-17T09:25:02Z",
+      "updatedAt": "2026-08-17T18:27:48Z",
       "categories": [
         "web",
         "backend",
@@ -388,11 +419,11 @@
         "workflow"
       ],
       "metrics": {
-        "stars": 27836
+        "stars": 27837
       },
       "source": "github-search",
       "publishedAt": "2019-08-24T13:56:15Z",
-      "updatedAt": "2026-08-17T15:00:26Z",
+      "updatedAt": "2026-08-17T18:29:21Z",
       "categories": [
         "infra",
         "data"
@@ -431,9 +462,34 @@
       },
       "source": "github-search",
       "publishedAt": "2015-01-21T22:05:27Z",
-      "updatedAt": "2026-08-17T11:06:12Z",
+      "updatedAt": "2026-08-17T18:05:26Z",
       "categories": [
         "infra",
+        "data"
+      ]
+    },
+    {
+      "id": "gh:pgrundev/pgbot",
+      "type": "repo",
+      "title": "pgrundev/pgbot",
+      "summaryOriginal": "pgbot - Postgres intelligence for AI agents & apps",
+      "url": "https://github.com/pgrundev/pgbot",
+      "lang": "Go",
+      "tags": [
+        "ai",
+        "data-analysis",
+        "database",
+        "postgres",
+        "postgresql",
+        "postgresql-database"
+      ],
+      "metrics": {
+        "stars": 190
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-11T23:41:52Z",
+      "updatedAt": "2026-08-17T18:10:37Z",
+      "categories": [
         "data"
       ]
     },
@@ -534,32 +590,6 @@
       ]
     },
     {
-      "id": "gh:pivi-odoo/pg-llm-wiki",
-      "type": "repo",
-      "title": "pivi-odoo/pg-llm-wiki",
-      "summaryOriginal": "A source-backed, Obsidian-browsable wiki for understanding PostgreSQL internals.",
-      "url": "https://github.com/pivi-odoo/pg-llm-wiki",
-      "lang": "Python",
-      "tags": [
-        "database",
-        "database-internals",
-        "obsidian",
-        "postgresql",
-        "postgresql-internals",
-        "technical-documentation",
-        "wiki"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T11:29:56Z",
-      "updatedAt": "2026-08-13T11:30:20Z",
-      "categories": [
-        "data"
-      ]
-    },
-    {
       "id": "gh:ryuzcorp/paranorm",
       "type": "repo",
       "title": "ryuzcorp/paranorm",
@@ -581,6 +611,32 @@
       "source": "github-search",
       "publishedAt": "2026-08-11T14:12:26Z",
       "updatedAt": "2026-08-11T18:10:58Z",
+      "categories": [
+        "data"
+      ]
+    },
+    {
+      "id": "gh:pivi-odoo/pg-llm-wiki",
+      "type": "repo",
+      "title": "pivi-odoo/pg-llm-wiki",
+      "summaryOriginal": "A source-backed, Obsidian-browsable wiki for understanding PostgreSQL internals.",
+      "url": "https://github.com/pivi-odoo/pg-llm-wiki",
+      "lang": "Python",
+      "tags": [
+        "database",
+        "database-internals",
+        "obsidian",
+        "postgresql",
+        "postgresql-internals",
+        "technical-documentation",
+        "wiki"
+      ],
+      "metrics": {
+        "stars": 2
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T11:29:56Z",
+      "updatedAt": "2026-08-13T11:30:20Z",
       "categories": [
         "data"
       ]
@@ -717,27 +773,28 @@
       ]
     },
     {
-      "id": "gh:DHUKK/pgwire-explorer",
+      "id": "gh:teaql/teaql-ai-sdk",
       "type": "repo",
-      "title": "DHUKK/pgwire-explorer",
-      "summaryOriginal": "Visualise and explore the postgres wire protocol",
-      "url": "https://github.com/DHUKK/pgwire-explorer",
+      "title": "teaql/teaql-ai-sdk",
+      "summaryOriginal": "Generated, typed, auditable business tools for Vercel AI SDK agents",
+      "url": "https://github.com/teaql/teaql-ai-sdk",
       "lang": "TypeScript",
       "tags": [
+        "ai-agents",
+        "ai-sdk",
         "database",
-        "databases",
-        "learning",
-        "postgres",
-        "postgresql",
-        "visualization",
-        "wire-protocol"
+        "teaql",
+        "tool-calling",
+        "typed-tools",
+        "typescript",
+        "vercel-ai-sdk"
       ],
       "metrics": {
         "stars": 1
       },
       "source": "github-search",
-      "publishedAt": "2026-08-11T14:59:33Z",
-      "updatedAt": "2026-08-14T23:24:26Z",
+      "publishedAt": "2026-08-17T18:31:53Z",
+      "updatedAt": "2026-08-17T18:32:48Z",
       "categories": [
         "data"
       ]
@@ -802,30 +859,27 @@
       ]
     },
     {
-      "id": "gh:LioranGroupOfficial/Liorandb",
+      "id": "gh:DHUKK/pgwire-explorer",
       "type": "repo",
-      "title": "LioranGroupOfficial/Liorandb",
-      "summaryOriginal": "Official documentation for LioranDB, a developer-first NoSQL document database powered by Rust.",
-      "url": "https://github.com/LioranGroupOfficial/Liorandb",
+      "title": "DHUKK/pgwire-explorer",
+      "summaryOriginal": "Visualise and explore the postgres wire protocol",
+      "url": "https://github.com/DHUKK/pgwire-explorer",
       "lang": "TypeScript",
       "tags": [
         "database",
-        "database-engine",
-        "developer-tools",
-        "document-database",
-        "documentation",
-        "docusaurus",
-        "liorandb",
-        "nosql",
-        "rust",
-        "typescript"
+        "databases",
+        "learning",
+        "postgres",
+        "postgresql",
+        "visualization",
+        "wire-protocol"
       ],
       "metrics": {
         "stars": 1
       },
       "source": "github-search",
-      "publishedAt": "2026-08-14T15:26:33Z",
-      "updatedAt": "2026-08-15T19:21:34Z",
+      "publishedAt": "2026-08-11T14:59:33Z",
+      "updatedAt": "2026-08-14T23:24:26Z",
       "categories": [
         "data"
       ]
@@ -899,46 +953,36 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T21:18:24Z",
-      "updatedAt": "2026-08-17T14:38:34Z",
+      "updatedAt": "2026-08-17T18:15:40Z",
       "categories": [
         "data"
       ]
     },
     {
-      "id": "gh:INTJ-boy/ExpoShare",
+      "id": "gh:LioranGroupOfficial/Liorandb",
       "type": "repo",
-      "title": "INTJ-boy/ExpoShare",
-      "summaryOriginal": "ExpoShare: a community platform where students, researchers, educators and professionals upload and discover educational presentations. Built with vanilla HTML/CSS/JS and Supabase . Trilingual (EN/FR/AR) ,made by Zekraoui Rabah AllaaEddine🦑 ©2026.",
-      "url": "https://github.com/INTJ-boy/ExpoShare",
-      "lang": "HTML",
+      "title": "LioranGroupOfficial/Liorandb",
+      "summaryOriginal": "Official documentation for LioranDB, a developer-first NoSQL document database powered by Rust.",
+      "url": "https://github.com/LioranGroupOfficial/Liorandb",
+      "lang": "TypeScript",
       "tags": [
-        "algeria",
-        "algerian-developpers",
-        "arabic",
-        "benevolent",
-        "biology",
         "database",
-        "engineering",
-        "english",
-        "expository",
-        "free",
-        "french",
-        "microbiology",
-        "physics",
-        "presentations",
-        "research",
-        "researchers",
-        "science",
-        "sports",
-        "trilingual",
-        "worldwide"
+        "database-engine",
+        "developer-tools",
+        "document-database",
+        "documentation",
+        "docusaurus",
+        "liorandb",
+        "nosql",
+        "rust",
+        "typescript"
       ],
       "metrics": {
         "stars": 1
       },
       "source": "github-search",
-      "publishedAt": "2026-08-13T23:08:29Z",
-      "updatedAt": "2026-08-15T21:31:45Z",
+      "publishedAt": "2026-08-14T15:26:33Z",
+      "updatedAt": "2026-08-17T17:50:15Z",
       "categories": [
         "data"
       ]
@@ -994,6 +1038,73 @@
       ]
     },
     {
+      "id": "gh:abdurrahmancce/Hotel-Reservation-System",
+      "type": "repo",
+      "title": "abdurrahmancce/Hotel-Reservation-System",
+      "summaryOriginal": "A relational database project built with MySQL to manage hotels, rooms, guests, reservations, payments, staff, services, and reviews. The system demonstrates practical DBMS concepts including ER design, normalization, SQL queries, joins, views, functions, stored procedures, triggers, and management reports.",
+      "url": "https://github.com/abdurrahmancce/Hotel-Reservation-System",
+      "tags": [
+        "database",
+        "database-design",
+        "dbms",
+        "hotel-management-system",
+        "hotel-reservation-system",
+        "mysql",
+        "normalization",
+        "relational-databases",
+        "sql",
+        "sql-triggers"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T03:55:49Z",
+      "updatedAt": "2026-08-14T09:40:06Z",
+      "categories": [
+        "data"
+      ]
+    },
+    {
+      "id": "gh:INTJ-boy/ExpoShare",
+      "type": "repo",
+      "title": "INTJ-boy/ExpoShare",
+      "summaryOriginal": "ExpoShare: a community platform where students, researchers, educators and professionals upload and discover educational presentations. Built with vanilla HTML/CSS/JS and Supabase . Trilingual (EN/FR/AR) ,made by Zekraoui Rabah AllaaEddine🦑 ©2026.",
+      "url": "https://github.com/INTJ-boy/ExpoShare",
+      "lang": "HTML",
+      "tags": [
+        "algeria",
+        "algerian-developpers",
+        "arabic",
+        "benevolent",
+        "biology",
+        "database",
+        "engineering",
+        "english",
+        "expository",
+        "free",
+        "french",
+        "microbiology",
+        "physics",
+        "presentations",
+        "research",
+        "researchers",
+        "science",
+        "sports",
+        "trilingual",
+        "worldwide"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T23:08:29Z",
+      "updatedAt": "2026-08-15T21:31:45Z",
+      "categories": [
+        "data"
+      ]
+    },
+    {
       "id": "gh:Lunch418/ora2pg-gap-report",
       "type": "repo",
       "title": "Lunch418/ora2pg-gap-report",
@@ -1043,163 +1154,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-16T13:51:44Z",
       "updatedAt": "2026-08-16T14:28:41Z",
-      "categories": [
-        "data"
-      ]
-    },
-    {
-      "id": "gh:dbwarden-org/dbwarden-harness",
-      "type": "repo",
-      "title": "dbwarden-org/dbwarden-harness",
-      "summaryOriginal": "Standalone black-box validation harness for DBWarden releases, database backends, plugins, migrations, and schema convergence",
-      "url": "https://github.com/dbwarden-org/dbwarden-harness",
-      "lang": "Python",
-      "tags": [
-        "black-box-testing",
-        "ci",
-        "clickhouse",
-        "database",
-        "database-testing",
-        "dbwarden",
-        "docker",
-        "integration-testing",
-        "mariadb",
-        "migrations",
-        "mysql",
-        "plugins",
-        "postgresql",
-        "python",
-        "schema-convergence",
-        "schema-migrations",
-        "sqlalchemy",
-        "sqlite",
-        "test-harness",
-        "testcontainers"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-15T02:17:45Z",
-      "updatedAt": "2026-08-15T14:24:39Z",
-      "categories": [
-        "data"
-      ]
-    },
-    {
-      "id": "gh:shinyobjectz/blazie",
-      "type": "repo",
-      "title": "shinyobjectz/blazie",
-      "summaryOriginal": "The backend agents run on — durable memory that records where every fact came from, a graph nobody had to model, sandboxes to run agent code in, and one line that touches the outside world.",
-      "url": "https://github.com/shinyobjectz/blazie",
-      "lang": "Elixir",
-      "tags": [
-        "agents",
-        "ai-agents",
-        "append-only",
-        "database",
-        "elixir",
-        "event-sourcing",
-        "graph-database",
-        "immutable",
-        "lua",
-        "provenance",
-        "sandbox",
-        "webassembly"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T01:49:35Z",
-      "updatedAt": "2026-08-14T22:21:13Z",
-      "categories": [
-        "data"
-      ]
-    },
-    {
-      "id": "gh:Josleio/radar-inmobiliario",
-      "type": "repo",
-      "title": "Josleio/radar-inmobiliario",
-      "summaryOriginal": "Pipeline designed for the extraction of real state data in Medellin utilizing ETL and medallion architecture",
-      "url": "https://github.com/Josleio/radar-inmobiliario",
-      "lang": "HTML",
-      "tags": [
-        "apache-airflow",
-        "aws",
-        "data-analysis",
-        "data-engineering",
-        "data-structures",
-        "database",
-        "medallion-architecture",
-        "python",
-        "web-scraping"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T20:34:55Z",
-      "updatedAt": "2026-08-14T21:05:59Z",
-      "categories": [
-        "data"
-      ]
-    },
-    {
-      "id": "gh:DholaSain/pgshuttle",
-      "type": "repo",
-      "title": "DholaSain/pgshuttle",
-      "summaryOriginal": "Resumable PostgreSQL database copy for local debugging. Survives dropped connections, shows real progress, and exports one file your team can restore.",
-      "url": "https://github.com/DholaSain/pgshuttle",
-      "lang": "Shell",
-      "tags": [
-        "backup",
-        "bash",
-        "cli",
-        "database",
-        "database-backup",
-        "database-migration",
-        "database-tools",
-        "dba",
-        "developer-tools",
-        "devops",
-        "docker",
-        "pg-dump",
-        "pg-restore",
-        "pgdump",
-        "postgres",
-        "postgresql",
-        "restore",
-        "resumable"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-16T00:50:13Z",
-      "updatedAt": "2026-08-16T01:23:16Z",
-      "categories": [
-        "data"
-      ]
-    },
-    {
-      "id": "gh:Manish-262/sql-learning",
-      "type": "repo",
-      "title": "Manish-262/sql-learning",
-      "summaryOriginal": "SQL concepts, queries, and practice problems learned throughout my SQL learning journey.",
-      "url": "https://github.com/Manish-262/sql-learning",
-      "lang": "TSQL",
-      "tags": [
-        "data-analysis",
-        "database",
-        "sql"
-      ],
-      "metrics": {
-        "stars": 0
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T08:16:44Z",
-      "updatedAt": "2026-08-11T08:31:54Z",
       "categories": [
         "data"
       ]
@@ -1349,6 +1303,23 @@
       "source": "ossinsight",
       "categories": [
         "infra",
+        "data"
+      ]
+    },
+    {
+      "id": "hn:49330978",
+      "type": "article",
+      "title": "How to ship a database every day",
+      "summaryOriginal": "How to ship a database every day",
+      "url": "https://turbopuffer.com/blog/control-plane",
+      "tags": [],
+      "metrics": {
+        "upvotes": 48,
+        "comments": 7
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-17T13:56:38Z",
+      "categories": [
         "data"
       ]
     },

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "ai-models",
-  "generatedAt": "2026-08-17T15:26:36.586Z",
+  "generatedAt": "2026-08-17T18:41:13.692Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,7 +13,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 105512,
+        "stars": 105716,
         "starsDelta": 1275
       },
       "source": "github-trending",
@@ -30,7 +30,7 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 25731,
+        "stars": 25791,
         "starsDelta": 115
       },
       "source": "github-trending",
@@ -48,7 +48,7 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 32079,
+        "stars": 32153,
         "starsDelta": 239
       },
       "source": "github-trending",
@@ -65,7 +65,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 18874,
+        "stars": 18919,
         "starsDelta": 96
       },
       "source": "github-trending",
@@ -93,7 +93,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 705
+        "stars": 742
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T06:28:56Z",
@@ -133,7 +133,7 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 681
+        "stars": 687
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T13:14:49Z",
@@ -168,11 +168,11 @@
         "tutorial"
       ],
       "metrics": {
-        "stars": 444
+        "stars": 448
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T15:22:29Z",
-      "updatedAt": "2026-08-17T14:45:57Z",
+      "updatedAt": "2026-08-17T16:33:12Z",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -201,7 +201,7 @@
         "windsurf"
       ],
       "metrics": {
-        "stars": 182
+        "stars": 183
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T05:08:30Z",
@@ -282,7 +282,7 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 119
+        "stars": 123
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T13:54:05Z",
@@ -314,11 +314,11 @@
         "plugin-marketplace"
       ],
       "metrics": {
-        "stars": 113
+        "stars": 114
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T16:01:59Z",
-      "updatedAt": "2026-08-17T13:27:41Z",
+      "updatedAt": "2026-08-17T17:12:33Z",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -384,7 +384,7 @@
         "token-pool"
       ],
       "metrics": {
-        "stars": 97
+        "stars": 98
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T07:06:43Z",
@@ -459,7 +459,7 @@
         "retrieval"
       ],
       "metrics": {
-        "stars": 77
+        "stars": 78
       },
       "source": "github-search",
       "publishedAt": "2026-08-12T03:19:07Z",
@@ -549,7 +549,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T14:57:55Z",
-      "updatedAt": "2026-08-17T14:27:18Z",
+      "updatedAt": "2026-08-17T15:28:24Z",
       "categories": [
         "ai-models"
       ]
@@ -709,9 +709,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 10572,
+        "likes": 10632,
         "downloads": 415039,
-        "trendingScore": 10081
+        "trendingScore": 10127
       },
       "source": "hf-models",
       "publishedAt": "2026-08-05T08:22:59.000Z",
@@ -743,9 +743,9 @@
         "conversational"
       ],
       "metrics": {
-        "likes": 1581,
+        "likes": 1605,
         "downloads": 2727609,
-        "trendingScore": 1501
+        "trendingScore": 1525
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T08:28:40.000Z",
@@ -753,6 +753,40 @@
       "summaryKo": "llama.cpp 등으로 로컬 실행 가능한 Qwen 27B 모델의 GGUF 양자화 버전",
       "reasonEn": "New quantized build riding the base Qwen3.8-27B release.",
       "reasonKo": "기반 Qwen3.8-27B 공개에 편승한 신규 양자화 빌드",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "hf-model:Qwen/Qwen3.8-2.4T-A95B",
+      "type": "model",
+      "title": "Qwen/Qwen3.8-2.4T-A95B",
+      "summaryOriginal": "text-generation model · transformers, safetensors, qwen3_5_moe_text, text-generation, conversational",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+      "lang": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5_moe_text",
+        "text-generation",
+        "conversational",
+        "license:other",
+        "eval-results",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "metrics": {
+        "likes": 1034,
+        "downloads": 9465,
+        "trendingScore": 991
+      },
+      "source": "hf-models",
+      "publishedAt": "2026-08-08T01:50:52.000Z",
+      "summaryEn": "Qwen's large mixture-of-experts text-generation model for conversational use.",
+      "summaryKo": "Qwen의 대형 MoE 텍스트 생성·대화 모델",
+      "reasonEn": "New large MoE release drawing early likes and downloads.",
+      "reasonKo": "대형 MoE 신규 공개로 좋아요·다운로드 초기 상승",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -779,9 +813,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1648,
+        "likes": 1655,
         "downloads": 334099,
-        "trendingScore": 1114
+        "trendingScore": 989
       },
       "source": "hf-models",
       "publishedAt": "2026-08-09T17:51:35.000Z",
@@ -789,40 +823,6 @@
       "summaryKo": "이미지와 텍스트를 함께 처리하는 메타의 30B 멀티모달 대화 모델",
       "reasonEn": "High downloads and trending score for a fresh Meta release.",
       "reasonKo": "다운로드·트렌딩 점수 모두 높은 메타의 신규 멀티모달 공개",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "hf-model:Qwen/Qwen3.8-2.4T-A95B",
-      "type": "model",
-      "title": "Qwen/Qwen3.8-2.4T-A95B",
-      "summaryOriginal": "text-generation model · transformers, safetensors, qwen3_5_moe_text, text-generation, conversational",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
-      "lang": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5_moe_text",
-        "text-generation",
-        "conversational",
-        "license:other",
-        "eval-results",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "metrics": {
-        "likes": 1028,
-        "downloads": 9465,
-        "trendingScore": 986
-      },
-      "source": "hf-models",
-      "publishedAt": "2026-08-08T01:50:52.000Z",
-      "summaryEn": "Qwen's large mixture-of-experts text-generation model for conversational use.",
-      "summaryKo": "Qwen의 대형 MoE 텍스트 생성·대화 모델",
-      "reasonEn": "New large MoE release drawing early likes and downloads.",
-      "reasonKo": "대형 MoE 신규 공개로 좋아요·다운로드 초기 상승",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -866,9 +866,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1077,
+        "likes": 1085,
         "downloads": 465529,
-        "trendingScore": 876
+        "trendingScore": 878
       },
       "source": "hf-models",
       "publishedAt": "2026-07-23T07:55:24.000Z",
@@ -900,9 +900,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 887,
+        "likes": 892,
         "downloads": 10375,
-        "trendingScore": 864
+        "trendingScore": 868
       },
       "source": "hf-models",
       "publishedAt": "2026-08-07T12:23:29.000Z",
@@ -943,9 +943,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 4069,
+        "likes": 4079,
         "downloads": 2403238,
-        "trendingScore": 596
+        "trendingScore": 588
       },
       "source": "hf-models",
       "publishedAt": "2026-07-28T10:45:18.000Z",
@@ -979,9 +979,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 565,
+        "likes": 569,
         "downloads": 25006,
-        "trendingScore": 527
+        "trendingScore": 530
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T03:05:06.000Z",
@@ -1015,9 +1015,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 516,
+        "likes": 522,
         "downloads": 495646,
-        "trendingScore": 488
+        "trendingScore": 492
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T08:01:58.000Z",
@@ -1027,38 +1027,63 @@
       ]
     },
     {
-      "id": "hf-model:deepseek-ai/DeepSeek-V4-Flash-0731",
+      "id": "hf-model:orcarouter/Qwen3.8-27B-Uncensored-FP8",
       "type": "model",
-      "title": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "summaryOriginal": "text-generation model · transformers, safetensors, deepseek_v4, text-generation, conversational",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
-      "lang": "text-generation",
+      "title": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
+      "summaryOriginal": "image-text-to-text model · transformers, safetensors, qwen3_5, image-text-to-text, abliterated",
+      "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
+      "lang": "image-text-to-text",
       "tags": [
         "transformers",
         "safetensors",
-        "deepseek_v4",
-        "text-generation",
-        "conversational",
-        "arxiv:2606.19348",
-        "license:mit",
-        "eval-results",
-        "endpoints_compatible",
-        "8-bit",
+        "qwen3_5",
+        "image-text-to-text",
+        "abliterated",
+        "qwen3.8",
+        "uncensored",
+        "ai-red-team",
+        "red-teaming",
         "fp8",
-        "deploy:azure",
+        "block-fp8",
+        "vllm",
+        "function-calling",
+        "reasoning",
+        "mtp",
+        "conversational",
+        "en",
+        "zh",
+        "base_model:Qwen/Qwen3.8-27B",
+        "base_model:quantized:Qwen/Qwen3.8-27B",
+        "license:apache-2.0",
+        "endpoints_compatible",
         "region:us"
       ],
       "metrics": {
-        "likes": 3488,
-        "downloads": 1978298,
-        "trendingScore": 370
+        "likes": 422,
+        "downloads": 15812,
+        "trendingScore": 372
       },
       "source": "hf-models",
-      "publishedAt": "2026-07-31T07:30:24.000Z",
-      "summaryEn": "Fast, lightweight variant of DeepSeek's V4 text-generation model, deployable on Azure.",
-      "summaryKo": "Azure 배포 가능한 DeepSeek V4의 가볍고 빠른 텍스트 생성 모델",
-      "reasonEn": "1.6M+ downloads — DeepSeek V4 line seeing heavy adoption.",
-      "reasonKo": "다운로드 160만+, DeepSeek V4 라인 강한 채택",
+      "publishedAt": "2026-08-15T05:45:04.000Z",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "hf-paper:2608.13987",
+      "type": "paper",
+      "title": "Nanbeige4.2-3B on Apple Silicon: Fixing Deployment Bugs and Decreasing Looped Transformer Memory Overhead",
+      "summaryOriginal": "Nanbeige4.2-3B is a 3B-parameter agentic model built around a Looped Transformer (LT) that reuses one stack of layers for a second forward pass, adding effective depth without additional parameters. Evaluated on Apple Silicon (MPS), we identify five independent bugs which prevent the released checkpoint from running via Hugging Face transformers out of the box (including a silently-zeroed RoPE bu…",
+      "url": "https://huggingface.co/papers/2608.13987",
+      "tags": [],
+      "metrics": {
+        "upvotes": 2,
+        "comments": 1,
+        "githubStars": 1
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -1072,7 +1097,7 @@
       "url": "https://huggingface.co/papers/2608.13760",
       "tags": [],
       "metrics": {
-        "upvotes": 1,
+        "upvotes": 2,
         "comments": 1
       },
       "source": "hf-papers",
@@ -1090,7 +1115,7 @@
       "url": "https://huggingface.co/papers/2608.13567",
       "tags": [],
       "metrics": {
-        "upvotes": 7,
+        "upvotes": 9,
         "comments": 1,
         "githubStars": 69
       },
@@ -1109,7 +1134,7 @@
       "url": "https://huggingface.co/papers/2608.11341",
       "tags": [],
       "metrics": {
-        "upvotes": 12,
+        "upvotes": 20,
         "comments": 1
       },
       "source": "hf-papers",
@@ -1146,7 +1171,7 @@
       "url": "https://huggingface.co/papers/2608.13517",
       "tags": [],
       "metrics": {
-        "upvotes": 17,
+        "upvotes": 19,
         "comments": 1,
         "githubStars": 0
       },
@@ -1165,7 +1190,7 @@
       "url": "https://huggingface.co/papers/2608.03744",
       "tags": [],
       "metrics": {
-        "upvotes": 1,
+        "upvotes": 4,
         "comments": 1,
         "githubStars": 2
       },
@@ -1221,27 +1246,8 @@
       "url": "https://huggingface.co/papers/2608.14144",
       "tags": [],
       "metrics": {
-        "upvotes": 124,
+        "upvotes": 142,
         "comments": 3
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "hf-paper:2608.14277",
-      "type": "paper",
-      "title": "SimpleOPD: Simple Tokenizer-Agnostic On-Policy Distillation for Long-Context Reasoning",
-      "summaryOriginal": "On-policy distillation (OPD) offers a promising way to transfer reasoning capabilities from stronger teacher models, but applying it to long-context reasoning teachers and short-context students introduces practical challenges, including tokenizer mismatch, teacher-student distribution mismatch, response length explosion, and training instability. In this work, we study this setting by transferri…",
-      "url": "https://huggingface.co/papers/2608.14277",
-      "tags": [],
-      "metrics": {
-        "upvotes": 19,
-        "comments": 1,
-        "githubStars": 3
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-14T00:00:00.000Z",
@@ -1265,24 +1271,6 @@
       "publishedAt": "2026-08-11T13:22:00Z",
       "categories": [
         "ai-models"
-      ]
-    },
-    {
-      "id": "hn:49246804",
-      "type": "article",
-      "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
-      "summaryOriginal": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
-      "url": "https://cactuscompute.com/needle",
-      "tags": [],
-      "metrics": {
-        "upvotes": 532,
-        "comments": 183
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-10T17:22:07Z",
-      "categories": [
-        "ai-models",
-        "engineering"
       ]
     },
     {
@@ -1332,6 +1320,23 @@
       },
       "source": "hn",
       "publishedAt": "2026-08-16T07:37:53Z",
+      "categories": [
+        "ai-models"
+      ]
+    },
+    {
+      "id": "hn:49307700",
+      "type": "article",
+      "title": "Show HN: ThoughtDAG – An editable context graph for LLM conversations",
+      "summaryOriginal": "Show HN: ThoughtDAG – An editable context graph for LLM conversations",
+      "url": "https://chenxiachan.github.io/thoughtdag/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 133,
+        "comments": 61
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-15T04:42:07Z",
       "categories": [
         "ai-models"
       ]
