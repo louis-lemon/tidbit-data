@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "infra",
-  "generatedAt": "2026-08-17T18:41:13.692Z",
+  "generatedAt": "2026-08-17T21:27:36.872Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,8 +13,8 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 111001,
-        "starsDelta": 140
+        "stars": 111081,
+        "starsDelta": 337
       },
       "source": "github-trending",
       "categories": [
@@ -51,11 +51,11 @@
         "workflow-automation"
       ],
       "metrics": {
-        "stars": 47098
+        "stars": 47100
       },
       "source": "github-search",
       "publishedAt": "2026-02-01T07:16:15Z",
-      "updatedAt": "2026-08-17T18:13:50Z",
+      "updatedAt": "2026-08-17T19:21:02Z",
       "categories": [
         "ai-agents",
         "infra"
@@ -91,11 +91,11 @@
         "prometheus"
       ],
       "metrics": {
-        "stars": 80211
+        "stars": 80212
       },
       "source": "github-search",
       "publishedAt": "2013-06-17T18:39:10Z",
-      "updatedAt": "2026-08-17T16:35:04Z",
+      "updatedAt": "2026-08-17T18:45:20Z",
       "categories": [
         "ai-models",
         "infra",
@@ -132,11 +132,11 @@
         "vue"
       ],
       "metrics": {
-        "stars": 57441
+        "stars": 57452
       },
       "source": "github-search",
       "publishedAt": "2016-11-01T02:13:26Z",
-      "updatedAt": "2026-08-17T18:19:21Z",
+      "updatedAt": "2026-08-17T20:30:25Z",
       "categories": [
         "web",
         "infra"
@@ -208,7 +208,7 @@
         "vps"
       ],
       "metrics": {
-        "stars": 36660
+        "stars": 36663
       },
       "source": "github-search",
       "publishedAt": "2024-04-19T07:49:30Z",
@@ -237,7 +237,7 @@
         "performance-optimization"
       ],
       "metrics": {
-        "stars": 88
+        "stars": 89
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T10:13:52Z",
@@ -283,6 +283,35 @@
       ]
     },
     {
+      "id": "gh:robbeverhelst/unifi-reactor",
+      "type": "repo",
+      "title": "robbeverhelst/unifi-reactor",
+      "summaryOriginal": "Kubernetes operator for UniFi networks. Reacts to WAN failover, UPS power loss and device health with declarative Automations.",
+      "url": "https://github.com/robbeverhelst/unifi-reactor",
+      "lang": "Go",
+      "tags": [
+        "automation",
+        "go",
+        "helm-chart",
+        "homelab",
+        "kubernetes",
+        "kubernetes-operator",
+        "self-hosted",
+        "unifi",
+        "unifi-network",
+        "ups"
+      ],
+      "metrics": {
+        "stars": 13
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-11T12:08:12Z",
+      "updatedAt": "2026-08-17T17:27:31Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
       "id": "gh:SoulKyu/leandro",
       "type": "repo",
       "title": "SoulKyu/leandro",
@@ -305,35 +334,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-12T07:17:09Z",
       "updatedAt": "2026-08-14T09:14:45Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:robbeverhelst/unifi-reactor",
-      "type": "repo",
-      "title": "robbeverhelst/unifi-reactor",
-      "summaryOriginal": "Kubernetes operator for UniFi networks. Reacts to WAN failover, UPS power loss and device health with declarative Automations.",
-      "url": "https://github.com/robbeverhelst/unifi-reactor",
-      "lang": "Go",
-      "tags": [
-        "automation",
-        "go",
-        "helm-chart",
-        "homelab",
-        "kubernetes",
-        "kubernetes-operator",
-        "self-hosted",
-        "unifi",
-        "unifi-network",
-        "ups"
-      ],
-      "metrics": {
-        "stars": 10
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T12:08:12Z",
-      "updatedAt": "2026-08-17T17:27:31Z",
       "categories": [
         "infra"
       ]
@@ -704,6 +704,35 @@
       ]
     },
     {
+      "id": "gh:srmcguirt/devops-ai-prompt-pack",
+      "type": "repo",
+      "title": "srmcguirt/devops-ai-prompt-pack",
+      "summaryOriginal": "DevOps AI Prompt Pack — 8 battle-tested system prompts for Terraform, K8s, CI/CD, and cloud ops by Shane McGuirt",
+      "url": "https://github.com/srmcguirt/devops-ai-prompt-pack",
+      "tags": [
+        "ai-prompts",
+        "cicd",
+        "claude-ai",
+        "cursor",
+        "devops",
+        "gpt4",
+        "infrastructure-as-code",
+        "kubernetes",
+        "prompt-engineering",
+        "terraform",
+        "wireforge"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-11T03:47:02Z",
+      "updatedAt": "2026-08-12T21:14:07Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
       "id": "gh:Ritesh-Prasad/end-to-end-devsecops-gitops-pipeline",
       "type": "repo",
       "title": "Ritesh-Prasad/end-to-end-devsecops-gitops-pipeline",
@@ -728,41 +757,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-13T15:35:55Z",
       "updatedAt": "2026-08-14T20:53:51Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:Helpfulnessevasion410/Gatekeeper-FlipperZero",
-      "type": "repo",
-      "title": "Helpfulnessevasion410/Gatekeeper-FlipperZero",
-      "summaryOriginal": "Scan before you tap — Gatekeeper reveals phishing NFC tag redirects on your Flipper Zero before your phone loads the link.",
-      "url": "https://github.com/Helpfulnessevasion410/Gatekeeper-FlipperZero",
-      "lang": "C",
-      "tags": [
-        "admission",
-        "anti-ddos",
-        "cfw",
-        "cncf",
-        "custom",
-        "custom-firmware",
-        "firmware",
-        "flipperzero",
-        "jailbreak",
-        "kubernetes",
-        "ndef",
-        "phishing",
-        "security",
-        "subghz",
-        "unofficial",
-        "url-analysis"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T10:39:33Z",
-      "updatedAt": "2026-08-15T06:09:18Z",
       "categories": [
         "infra"
       ]
@@ -797,6 +791,41 @@
       "source": "github-search",
       "publishedAt": "2026-08-12T20:22:19Z",
       "updatedAt": "2026-08-15T21:36:42Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:Helpfulnessevasion410/Gatekeeper-FlipperZero",
+      "type": "repo",
+      "title": "Helpfulnessevasion410/Gatekeeper-FlipperZero",
+      "summaryOriginal": "Scan before you tap — Gatekeeper reveals phishing NFC tag redirects on your Flipper Zero before your phone loads the link.",
+      "url": "https://github.com/Helpfulnessevasion410/Gatekeeper-FlipperZero",
+      "lang": "C",
+      "tags": [
+        "admission",
+        "anti-ddos",
+        "cfw",
+        "cncf",
+        "custom",
+        "custom-firmware",
+        "firmware",
+        "flipperzero",
+        "jailbreak",
+        "kubernetes",
+        "ndef",
+        "phishing",
+        "security",
+        "subghz",
+        "unofficial",
+        "url-analysis"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T10:39:33Z",
+      "updatedAt": "2026-08-17T20:29:59Z",
       "categories": [
         "infra"
       ]
@@ -896,6 +925,56 @@
       ]
     },
     {
+      "id": "gh:byte-ish/argo-workflows-vs-kubeflow-pipelines",
+      "type": "repo",
+      "title": "byte-ish/argo-workflows-vs-kubeflow-pipelines",
+      "summaryOriginal": "Decision-grade comparison: Argo Workflows vs Kubeflow Pipelines for ML/MLOps pipelines on Kubernetes. Versions, licences, adoption figures and pricing verified against the GitHub API, CNCF project pages and vendor docs.",
+      "url": "https://github.com/byte-ish/argo-workflows-vs-kubeflow-pipelines",
+      "lang": "Python",
+      "tags": [
+        "argo-workflows",
+        "kubeflow",
+        "kubeflow-pipelines",
+        "kubernetes",
+        "mlops",
+        "technology-comparison"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-11T10:51:29Z",
+      "updatedAt": "2026-08-12T14:18:02Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:ganeshkumarashok/ullage",
+      "type": "repo",
+      "title": "ganeshkumarashok/ullage",
+      "summaryOriginal": "Finds the GPUs your Kubernetes cluster pays for but nothing uses. Read-only CLI.",
+      "url": "https://github.com/ganeshkumarashok/ullage",
+      "lang": "Go",
+      "tags": [
+        "cost-optimization",
+        "finops",
+        "gpu",
+        "kubernetes",
+        "observability",
+        "prometheus"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-11T16:23:01Z",
+      "updatedAt": "2026-08-12T17:46:18Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
       "id": "gh:justin-tahara/kubectl-mole",
       "type": "repo",
       "title": "justin-tahara/kubectl-mole",
@@ -949,56 +1028,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-13T00:23:09Z",
       "updatedAt": "2026-08-16T18:49:44Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:byte-ish/argo-workflows-vs-kubeflow-pipelines",
-      "type": "repo",
-      "title": "byte-ish/argo-workflows-vs-kubeflow-pipelines",
-      "summaryOriginal": "Decision-grade comparison: Argo Workflows vs Kubeflow Pipelines for ML/MLOps pipelines on Kubernetes. Versions, licences, adoption figures and pricing verified against the GitHub API, CNCF project pages and vendor docs.",
-      "url": "https://github.com/byte-ish/argo-workflows-vs-kubeflow-pipelines",
-      "lang": "Python",
-      "tags": [
-        "argo-workflows",
-        "kubeflow",
-        "kubeflow-pipelines",
-        "kubernetes",
-        "mlops",
-        "technology-comparison"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T10:51:29Z",
-      "updatedAt": "2026-08-12T14:18:02Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:ganeshkumarashok/ullage",
-      "type": "repo",
-      "title": "ganeshkumarashok/ullage",
-      "summaryOriginal": "Finds the GPUs your Kubernetes cluster pays for but nothing uses. Read-only CLI.",
-      "url": "https://github.com/ganeshkumarashok/ullage",
-      "lang": "Go",
-      "tags": [
-        "cost-optimization",
-        "finops",
-        "gpu",
-        "kubernetes",
-        "observability",
-        "prometheus"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T16:23:01Z",
-      "updatedAt": "2026-08-12T17:46:18Z",
       "categories": [
         "infra"
       ]
@@ -1059,35 +1088,6 @@
       ]
     },
     {
-      "id": "gh:augusttw/svcprobe",
-      "type": "repo",
-      "title": "augusttw/svcprobe",
-      "summaryOriginal": "High-performance network diagnostic & observability CLI for distributed systems (DNS, TCP, TLS, HTTP)",
-      "url": "https://github.com/augusttw/svcprobe",
-      "lang": "Go",
-      "tags": [
-        "cli",
-        "diagnostics",
-        "dns",
-        "go",
-        "http",
-        "kubernetes",
-        "microservices",
-        "networking",
-        "observability",
-        "tls"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T20:49:20Z",
-      "updatedAt": "2026-08-13T20:57:02Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
       "id": "gh:kubernetes/kubernetes",
       "type": "repo",
       "title": "kubernetes/kubernetes",
@@ -1101,11 +1101,11 @@
         "kubernetes"
       ],
       "metrics": {
-        "stars": 124505
+        "stars": 124521
       },
       "source": "github-search",
       "publishedAt": "2014-06-06T22:56:04Z",
-      "updatedAt": "2026-08-17T13:26:19Z",
+      "updatedAt": "2026-08-17T18:51:47Z",
       "categories": [
         "infra"
       ]
@@ -1203,7 +1203,7 @@
         "serverless"
       ],
       "metrics": {
-        "stars": 43990
+        "stars": 43991
       },
       "source": "github-search",
       "publishedAt": "2014-11-17T23:56:08Z",
@@ -1241,7 +1241,7 @@
         "workflow-automation"
       ],
       "metrics": {
-        "stars": 40382
+        "stars": 40389
       },
       "source": "github-search",
       "publishedAt": "2021-03-30T08:51:34Z",
@@ -1284,7 +1284,7 @@
       },
       "source": "github-search",
       "publishedAt": "2016-11-18T23:57:21Z",
-      "updatedAt": "2026-08-17T18:25:40Z",
+      "updatedAt": "2026-08-17T20:40:32Z",
       "categories": [
         "infra"
       ]
