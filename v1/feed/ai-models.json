@@ -1,24 +1,77 @@
 {
   "version": 1,
   "category": "ai-models",
-  "generatedAt": "2026-08-17T09:43:01.039Z",
+  "generatedAt": "2026-08-17T12:47:38.700Z",
   "ttlSeconds": 10800,
   "cards": [
     {
-      "id": "gh:unslothai/unsloth",
+      "id": "gh:harry0703/MoneyPrinterTurbo",
       "type": "repo",
-      "title": "unslothai/unsloth",
-      "summaryOriginal": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
-      "url": "https://github.com/unslothai/unsloth",
+      "title": "harry0703/MoneyPrinterTurbo",
+      "summaryOriginal": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 72960,
-        "starsDelta": 572
+        "stars": 105322,
+        "starsDelta": 494
       },
       "source": "github-trending",
       "categories": [
         "ai-models"
+      ]
+    },
+    {
+      "id": "gh:nautechsystems/nautilus_trader",
+      "type": "repo",
+      "title": "nautechsystems/nautilus_trader",
+      "summaryOriginal": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "lang": "Rust",
+      "tags": [],
+      "metrics": {
+        "stars": 25686,
+        "starsDelta": 115
+      },
+      "source": "github-trending",
+      "categories": [
+        "engineering",
+        "ai-models"
+      ]
+    },
+    {
+      "id": "gh:AlexsJones/llmfit",
+      "type": "repo",
+      "title": "AlexsJones/llmfit",
+      "summaryOriginal": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "lang": "Rust",
+      "tags": [],
+      "metrics": {
+        "stars": 32028,
+        "starsDelta": 187
+      },
+      "source": "github-trending",
+      "categories": [
+        "ai-models"
+      ]
+    },
+    {
+      "id": "gh:jundot/omlx",
+      "type": "repo",
+      "title": "jundot/omlx",
+      "summaryOriginal": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "url": "https://github.com/jundot/omlx",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "stars": 18849,
+        "starsDelta": 60
+      },
+      "source": "github-trending",
+      "categories": [
+        "ai-models",
+        "backend"
       ]
     },
     {
@@ -49,11 +102,11 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 664
+        "stars": 676
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T13:14:49Z",
-      "updatedAt": "2026-08-17T08:29:26Z",
+      "updatedAt": "2026-08-17T10:01:13Z",
       "summaryEn": "Curated hub of plugins, tools, and infrastructure for the DeepSeek Harness (DSH) ecosystem.",
       "summaryKo": "DeepSeek Harness(DSH) 생태계 플러그인·도구·인프라를 정리한 큐레이션 허브",
       "categories": [
@@ -81,11 +134,11 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 617
+        "stars": 665
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T06:28:56Z",
-      "updatedAt": "2026-08-17T08:47:06Z",
+      "updatedAt": "2026-08-17T12:19:40Z",
       "summaryEn": "Open-source alternative to Grok's coding bot — pick your own model and sandbox.",
       "summaryKo": "Grok 봇의 오픈소스 대안, 모델과 샌드박스를 직접 선택",
       "categories": [
@@ -115,11 +168,11 @@
         "tutorial"
       ],
       "metrics": {
-        "stars": 432
+        "stars": 438
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T15:22:29Z",
-      "updatedAt": "2026-08-17T09:12:24Z",
+      "updatedAt": "2026-08-17T12:33:14Z",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -148,7 +201,7 @@
         "windsurf"
       ],
       "metrics": {
-        "stars": 179
+        "stars": 181
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T05:08:30Z",
@@ -188,7 +241,7 @@
         "zero-dependency"
       ],
       "metrics": {
-        "stars": 150
+        "stars": 153
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T08:09:10Z",
@@ -229,11 +282,43 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 112
+        "stars": 117
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T13:54:05Z",
-      "updatedAt": "2026-08-17T08:42:17Z",
+      "updatedAt": "2026-08-17T12:39:59Z",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "gh:bradeGithub/DSH-Plugins-Marketplace",
+      "type": "repo",
+      "title": "bradeGithub/DSH-Plugins-Marketplace",
+      "summaryOriginal": "DSH插件市场 / DSH Plugin Marketplace: 在 DeepSeek Harness Web GUI 中一键浏览、安装与更新 GitHub topic:dsh-plugin 的全部插件 | browse, install & update all GitHub dsh-plugin plugins in the DSH Web GUI",
+      "url": "https://github.com/bradeGithub/DSH-Plugins-Marketplace",
+      "lang": "JavaScript",
+      "tags": [
+        "agent",
+        "ai-agents",
+        "cordis",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "javascript",
+        "llm",
+        "marketplace",
+        "nodejs",
+        "plugin",
+        "plugin-marketplace"
+      ],
+      "metrics": {
+        "stars": 113
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T16:01:59Z",
+      "updatedAt": "2026-08-17T11:14:19Z",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -259,7 +344,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 109
+        "stars": 110
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T01:59:03Z",
@@ -267,38 +352,6 @@
       "categories": [
         "ai-models",
         "devtools"
-      ]
-    },
-    {
-      "id": "gh:bradeGithub/DSH-Plugins-Marketplace",
-      "type": "repo",
-      "title": "bradeGithub/DSH-Plugins-Marketplace",
-      "summaryOriginal": "DSH插件市场 / DSH Plugin Marketplace: 在 DeepSeek Harness Web GUI 中一键浏览、安装与更新 GitHub topic:dsh-plugin 的全部插件 | browse, install & update all GitHub dsh-plugin plugins in the DSH Web GUI",
-      "url": "https://github.com/bradeGithub/DSH-Plugins-Marketplace",
-      "lang": "JavaScript",
-      "tags": [
-        "agent",
-        "ai-agents",
-        "cordis",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "javascript",
-        "llm",
-        "marketplace",
-        "nodejs",
-        "plugin",
-        "plugin-marketplace"
-      ],
-      "metrics": {
-        "stars": 108
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T16:01:59Z",
-      "updatedAt": "2026-08-17T09:32:21Z",
-      "categories": [
-        "ai-models",
-        "ai-agents"
       ]
     },
     {
@@ -331,11 +384,11 @@
         "token-pool"
       ],
       "metrics": {
-        "stars": 95
+        "stars": 97
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T07:06:43Z",
-      "updatedAt": "2026-08-17T09:39:06Z",
+      "updatedAt": "2026-08-17T11:47:33Z",
       "categories": [
         "ai-models"
       ]
@@ -380,7 +433,7 @@
       "id": "gh:memoket/memoket-kite",
       "type": "repo",
       "title": "memoket/memoket-kite",
-      "summaryOriginal": "Memory engine for AI agents with token-efficient, explainable retrieval beyond vector similarity.",
+      "summaryOriginal": "An open-source, vector-free long-term memory engine for AI agents, achieving SOTA on LoCoMo and LongMemEval with significantly less context.",
       "url": "https://github.com/memoket/memoket-kite",
       "lang": "Python",
       "tags": [
@@ -394,7 +447,9 @@
         "knowledge-management",
         "llm",
         "llm-memory",
+        "locomo",
         "long-term-memory",
+        "longmemeval",
         "memory",
         "memory-engine",
         "memory-layer",
@@ -404,11 +459,11 @@
         "retrieval"
       ],
       "metrics": {
-        "stars": 72
+        "stars": 76
       },
       "source": "github-search",
       "publishedAt": "2026-08-12T03:19:07Z",
-      "updatedAt": "2026-08-14T09:23:57Z",
+      "updatedAt": "2026-08-17T12:07:12Z",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -431,7 +486,7 @@
         "webui"
       ],
       "metrics": {
-        "stars": 72
+        "stars": 75
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T16:52:02Z",
@@ -444,7 +499,7 @@
       "id": "gh:biuworks/bilibili-digest",
       "type": "repo",
       "title": "biuworks/bilibili-digest",
-      "summaryOriginal": "已上架 Chrome 商店 🚀 把 B 站视频变成学习资源的浏览器扩展（Chrome / Edge）：字幕阅读、双语对照、AI 章节概览、划词解释和带时间戳的笔记",
+      "summaryOriginal": "已上架 Chrome / Edge 商店 🚀 把 B 站视频变成学习资源的浏览器扩展：字幕阅读、双语对照、AI 章节概览、划词解释和带时间戳的笔记",
       "url": "https://github.com/biuworks/bilibili-digest",
       "lang": "JavaScript",
       "tags": [
@@ -460,11 +515,11 @@
         "transcript"
       ],
       "metrics": {
-        "stars": 70
+        "stars": 71
       },
       "source": "github-search",
       "publishedAt": "2026-08-12T06:48:51Z",
-      "updatedAt": "2026-08-15T21:57:19Z",
+      "updatedAt": "2026-08-17T11:31:20Z",
       "categories": [
         "ai-models"
       ]
@@ -490,48 +545,13 @@
         "token-usage"
       ],
       "metrics": {
-        "stars": 66
+        "stars": 69
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T14:57:55Z",
       "updatedAt": "2026-08-17T07:50:56Z",
       "categories": [
         "ai-models"
-      ]
-    },
-    {
-      "id": "gh:z15114664687-dot/hr-onboarding-agent",
-      "type": "repo",
-      "title": "z15114664687-dot/hr-onboarding-agent",
-      "summaryOriginal": "Open-source AI-assisted HR onboarding for Feishu/Lark: configurable workflows, document OCR and review, Bitable sync, reminders, and a zero-credential demo.",
-      "url": "https://github.com/z15114664687-dot/hr-onboarding-agent",
-      "lang": "Python",
-      "tags": [
-        "ai-agents",
-        "document-ai",
-        "fastapi",
-        "feishu",
-        "hr-tech",
-        "human-in-the-loop",
-        "lark",
-        "llm",
-        "ocr",
-        "onboarding",
-        "open-source",
-        "people-operations",
-        "python",
-        "rag",
-        "workflow-automation"
-      ],
-      "metrics": {
-        "stars": 50
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T11:22:22Z",
-      "updatedAt": "2026-08-11T12:47:03Z",
-      "categories": [
-        "ai-models",
-        "ai-agents"
       ]
     },
     {
@@ -553,93 +573,13 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 48
+        "stars": 53
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T11:38:54Z",
       "updatedAt": "2026-08-17T06:18:36Z",
       "categories": [
         "ai-models"
-      ]
-    },
-    {
-      "id": "gh:Greninja9257/LabLLM",
-      "type": "repo",
-      "title": "Greninja9257/LabLLM",
-      "summaryOriginal": "A native macOS lab for teaching tiny language models to think — build the architecture, train the weights, and watch a small LLM emerge from scratch, locally on Apple Silicon with custom data, tokenizers, checkpoints, and MLX acceleration.",
-      "url": "https://github.com/Greninja9257/LabLLM",
-      "lang": "Swift",
-      "tags": [
-        "ai",
-        "apple-silicon",
-        "artificial-intelligence",
-        "deep-learning",
-        "fine-tuning",
-        "generative-ai",
-        "gpt",
-        "large-language-model",
-        "llm",
-        "local-ai",
-        "lora",
-        "machine-learning",
-        "macos",
-        "mlx",
-        "on-device-ai",
-        "open-source-llm",
-        "quantization",
-        "swift",
-        "swiftui",
-        "transformers"
-      ],
-      "metrics": {
-        "stars": 40
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-15T22:16:40Z",
-      "updatedAt": "2026-08-16T04:02:49Z",
-      "categories": [
-        "ai-models"
-      ]
-    },
-    {
-      "id": "gh:diyanbogdanov/emend",
-      "type": "repo",
-      "title": "diyanbogdanov/emend",
-      "summaryOriginal": "Verified AI dependency migrations. Finds which of your lines a version bump actually breaks, fixes them, and proves the result still compiles and passes your tests.",
-      "url": "https://github.com/diyanbogdanov/emend",
-      "lang": "TypeScript",
-      "tags": [
-        "ai-agents",
-        "automation",
-        "breaking-changes",
-        "cli",
-        "code-migration",
-        "codemod",
-        "dependabot",
-        "dependency-management",
-        "developer-tools",
-        "devtools",
-        "llm",
-        "migration",
-        "npm",
-        "openapi",
-        "refactoring",
-        "static-analysis",
-        "supply-chain-security",
-        "technical-debt",
-        "typescript",
-        "upgrade"
-      ],
-      "metrics": {
-        "stars": 35
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T12:41:58Z",
-      "updatedAt": "2026-08-14T17:15:24Z",
-      "categories": [
-        "ai-models",
-        "ai-agents",
-        "devtools"
       ]
     },
     {
@@ -768,9 +708,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 10470,
+        "likes": 10532,
         "downloads": 415039,
-        "trendingScore": 9996
+        "trendingScore": 10048
       },
       "source": "hf-models",
       "publishedAt": "2026-08-05T08:22:59.000Z",
@@ -778,6 +718,40 @@
       "summaryKo": "이미지·텍스트를 함께 처리하는 Qwen의 27B 멀티모달 대화 모델",
       "reasonEn": "Trending score and likes spike despite near-zero downloads.",
       "reasonKo": "다운로드는 적지만 트렌딩 점수·좋아요 급증, 신규 공개 화제",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "hf-model:unsloth/Qwen3.8-27B-GGUF",
+      "type": "model",
+      "title": "unsloth/Qwen3.8-27B-GGUF",
+      "summaryOriginal": "model · gguf, qwen3_5, unsloth, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B",
+      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+      "tags": [
+        "gguf",
+        "qwen3_5",
+        "unsloth",
+        "base_model:Qwen/Qwen3.8-27B",
+        "base_model:quantized:Qwen/Qwen3.8-27B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "imatrix",
+        "conversational"
+      ],
+      "metrics": {
+        "likes": 1555,
+        "downloads": 2727609,
+        "trendingScore": 1482
+      },
+      "source": "hf-models",
+      "publishedAt": "2026-08-13T08:28:40.000Z",
+      "summaryEn": "GGUF-quantized version of Qwen's 27B model for running locally with tools like llama.cpp.",
+      "summaryKo": "llama.cpp 등으로 로컬 실행 가능한 Qwen 27B 모델의 GGUF 양자화 버전",
+      "reasonEn": "New quantized build riding the base Qwen3.8-27B release.",
+      "reasonKo": "기반 Qwen3.8-27B 공개에 편승한 신규 양자화 빌드",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -804,9 +778,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1642,
+        "likes": 1648,
         "downloads": 334099,
-        "trendingScore": 1520
+        "trendingScore": 1277
       },
       "source": "hf-models",
       "publishedAt": "2026-08-09T17:51:35.000Z",
@@ -814,40 +788,6 @@
       "summaryKo": "이미지와 텍스트를 함께 처리하는 메타의 30B 멀티모달 대화 모델",
       "reasonEn": "High downloads and trending score for a fresh Meta release.",
       "reasonKo": "다운로드·트렌딩 점수 모두 높은 메타의 신규 멀티모달 공개",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "hf-model:unsloth/Qwen3.8-27B-GGUF",
-      "type": "model",
-      "title": "unsloth/Qwen3.8-27B-GGUF",
-      "summaryOriginal": "model · gguf, qwen3_5, unsloth, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B",
-      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
-      "tags": [
-        "gguf",
-        "qwen3_5",
-        "unsloth",
-        "base_model:Qwen/Qwen3.8-27B",
-        "base_model:quantized:Qwen/Qwen3.8-27B",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us",
-        "imatrix",
-        "conversational"
-      ],
-      "metrics": {
-        "likes": 1529,
-        "downloads": 2727609,
-        "trendingScore": 1457
-      },
-      "source": "hf-models",
-      "publishedAt": "2026-08-13T08:28:40.000Z",
-      "summaryEn": "GGUF-quantized version of Qwen's 27B model for running locally with tools like llama.cpp.",
-      "summaryKo": "llama.cpp 등으로 로컬 실행 가능한 Qwen 27B 모델의 GGUF 양자화 버전",
-      "reasonEn": "New quantized build riding the base Qwen3.8-27B release.",
-      "reasonKo": "기반 Qwen3.8-27B 공개에 편승한 신규 양자화 빌드",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -872,9 +812,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1020,
+        "likes": 1027,
         "downloads": 9465,
-        "trendingScore": 978
+        "trendingScore": 985
       },
       "source": "hf-models",
       "publishedAt": "2026-08-08T01:50:52.000Z",
@@ -925,9 +865,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1050,
+        "likes": 1067,
         "downloads": 465529,
-        "trendingScore": 858
+        "trendingScore": 869
       },
       "source": "hf-models",
       "publishedAt": "2026-07-23T07:55:24.000Z",
@@ -959,9 +899,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 868,
+        "likes": 880,
         "downloads": 10375,
-        "trendingScore": 847
+        "trendingScore": 857
       },
       "source": "hf-models",
       "publishedAt": "2026-08-07T12:23:29.000Z",
@@ -1002,9 +942,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 4053,
+        "likes": 4060,
         "downloads": 2403238,
-        "trendingScore": 620
+        "trendingScore": 610
       },
       "source": "hf-models",
       "publishedAt": "2026-07-28T10:45:18.000Z",
@@ -1038,9 +978,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 553,
+        "likes": 558,
         "downloads": 25006,
-        "trendingScore": 518
+        "trendingScore": 521
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T03:05:06.000Z",
@@ -1074,9 +1014,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 502,
+        "likes": 508,
         "downloads": 495646,
-        "trendingScore": 476
+        "trendingScore": 481
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T08:01:58.000Z",
@@ -1086,38 +1026,71 @@
       ]
     },
     {
-      "id": "hf-model:unsloth/Muse-Glimmer-30B-GGUF",
+      "id": "hf-model:deepseek-ai/DeepSeek-V4-Flash-0731",
       "type": "model",
-      "title": "unsloth/Muse-Glimmer-30B-GGUF",
-      "summaryOriginal": "image-text-to-text model · transformers, gguf, unsloth, meta, image-text-to-text",
-      "url": "https://huggingface.co/unsloth/Muse-Glimmer-30B-GGUF",
-      "lang": "image-text-to-text",
+      "title": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "summaryOriginal": "text-generation model · transformers, safetensors, deepseek_v4, text-generation, conversational",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "lang": "text-generation",
       "tags": [
         "transformers",
-        "gguf",
-        "unsloth",
-        "meta",
-        "image-text-to-text",
-        "arxiv:2504.13181",
-        "arxiv:2602.06036",
-        "base_model:meta-models/Muse-Glimmer-30B",
-        "base_model:quantized:meta-models/Muse-Glimmer-30B",
-        "license:apache-2.0",
+        "safetensors",
+        "deepseek_v4",
+        "text-generation",
+        "conversational",
+        "arxiv:2606.19348",
+        "license:mit",
+        "eval-results",
         "endpoints_compatible",
-        "region:us",
-        "conversational"
+        "8-bit",
+        "fp8",
+        "deploy:azure",
+        "region:us"
       ],
       "metrics": {
-        "likes": 464,
-        "downloads": 755125,
-        "trendingScore": 440
+        "likes": 3482,
+        "downloads": 1978298,
+        "trendingScore": 374
       },
       "source": "hf-models",
-      "publishedAt": "2026-08-10T09:11:29.000Z",
-      "summaryEn": "GGUF-quantized version of Meta's Muse-Glimmer-30B model for local inference.",
-      "summaryKo": "로컬 추론용 메타 Muse-Glimmer-30B 모델의 GGUF 양자화 버전",
-      "reasonEn": "Nearly 600k downloads — popular quantized build for local use.",
-      "reasonKo": "다운로드 60만 육박, 로컬용 양자화 빌드로 인기",
+      "publishedAt": "2026-07-31T07:30:24.000Z",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "hf-paper:2608.13517",
+      "type": "paper",
+      "title": "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
+      "summaryOriginal": "Current large language model development relies on massive, often non-permissible datasets, creating a high barrier for researchers committed to open-source and ethically sourced data. We introduce Mimir v1, a 1-billion-parameter language model based on the Hierarchical Reasoning Model (HRM) architecture, that is trained from scratch and delivers highly competitive performance for English and set…",
+      "url": "https://huggingface.co/papers/2608.13517",
+      "tags": [],
+      "metrics": {
+        "upvotes": 11,
+        "comments": 1
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "hf-paper:2608.03744",
+      "type": "paper",
+      "title": "Agents Catching Agents: Shortcut Cascades and Benchmark Gaming in Clinical Multi-Agent Systems",
+      "summaryOriginal": "Clinical decision support is moving toward committees of language-model agents deliberating on a shared workspace. We ask whether such committees can be gamed by shortcuts, cues a benchmark rewards but a clinician would ignore. Across seven cohorts on six public datasets spanning text (MedQA-USMLE, MedMCQA, MIMIC-CXR reports), imaging (NIH ChestX-ray14, MIMIC-CXR-JPG, CheXpert) and tabular ICU re…",
+      "url": "https://huggingface.co/papers/2608.03744",
+      "tags": [],
+      "metrics": {
+        "upvotes": 0,
+        "comments": 1,
+        "githubStars": 2
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-08-04T14:37:16.000Z",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -1131,7 +1104,7 @@
       "url": "https://huggingface.co/papers/2608.14075",
       "tags": [],
       "metrics": {
-        "upvotes": 1,
+        "upvotes": 2,
         "comments": 1,
         "githubStars": 0
       },
@@ -1168,7 +1141,7 @@
       "url": "https://huggingface.co/papers/2608.14144",
       "tags": [],
       "metrics": {
-        "upvotes": 25,
+        "upvotes": 84,
         "comments": 1
       },
       "source": "hf-papers",
@@ -1186,7 +1159,7 @@
       "url": "https://huggingface.co/papers/2608.14277",
       "tags": [],
       "metrics": {
-        "upvotes": 12,
+        "upvotes": 17,
         "comments": 1,
         "githubStars": 3
       },
@@ -1223,7 +1196,7 @@
       "url": "https://huggingface.co/papers/2608.10835",
       "tags": [],
       "metrics": {
-        "upvotes": 2,
+        "upvotes": 3,
         "comments": 1
       },
       "source": "hf-papers",
@@ -1259,48 +1232,11 @@
       "url": "https://huggingface.co/papers/2608.13667",
       "tags": [],
       "metrics": {
-        "upvotes": 6,
-        "comments": 1
+        "upvotes": 7,
+        "comments": 2
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-13T18:04:53.000Z",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "hf-paper:2608.13040",
-      "type": "paper",
-      "title": "Latent On-Policy Self-Distillation",
-      "summaryOriginal": "Enabling agents to learn from experience and internalize it into their policy has become a central problem in self-evolving AI. On-policy self-distillation (OPSD) offers an effective pathway by using a privileged self-teacher to provide dense supervision on the student's own trajectories; however, existing methods still rely heavily on designer-specified privileged artifacts (e.g., answers, feedb…",
-      "url": "https://huggingface.co/papers/2608.13040",
-      "tags": [],
-      "metrics": {
-        "upvotes": 7,
-        "comments": 1,
-        "githubStars": 20
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "hf-paper:2608.14284",
-      "type": "paper",
-      "title": "PRM-as-a-Judge 1.5: A Toolkit for Robot Process Assessment",
-      "summaryOriginal": "Fine-grained robotic evaluation matters for understanding embodied models, going beyond binary success rates and rule-based process scores. We present PRM-as-a-Judge 1.5, a toolkit for robot process assessment that turns rollout videos into dense progress curves and derives multiple fine metrics. PRM-as-a-Judge 1.5 introduces three metrics, building on version 1.0, that characterize failure-side…",
-      "url": "https://huggingface.co/papers/2608.14284",
-      "tags": [],
-      "metrics": {
-        "upvotes": 6,
-        "comments": 1
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -1383,8 +1319,8 @@
       "url": "https://littlelearner-ll.github.io/",
       "tags": [],
       "metrics": {
-        "upvotes": 240,
-        "comments": 207
+        "upvotes": 241,
+        "comments": 208
       },
       "source": "hn",
       "publishedAt": "2026-08-16T07:37:53Z",
