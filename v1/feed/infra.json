@@ -1,9 +1,31 @@
 {
   "version": 1,
   "category": "infra",
-  "generatedAt": "2026-08-17T03:51:43.154Z",
+  "generatedAt": "2026-08-17T06:58:41.597Z",
   "ttlSeconds": 10800,
   "cards": [
+    {
+      "id": "gh:ToolJet/ToolJet",
+      "type": "repo",
+      "title": "ToolJet/ToolJet",
+      "summaryOriginal": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
+      "url": "https://github.com/ToolJet/ToolJet",
+      "lang": "JavaScript",
+      "tags": [],
+      "metrics": {
+        "stars": 40239,
+        "starsDelta": 452
+      },
+      "source": "github-trending",
+      "summaryEn": "Open-source low-code platform for building internal tools, dashboards, workflows, and AI agents.",
+      "summaryKo": "내부 도구·대시보드·워크플로우·AI 에이전트를 만드는 오픈소스 로우코드 플랫폼",
+      "reasonEn": "39k+ stars, adding 300+ more — steady low-code growth.",
+      "reasonKo": "3만9천+ 스타, 로우코드 플랫폼 꾸준한 성장세",
+      "categories": [
+        "ai-agents",
+        "infra"
+      ]
+    },
     {
       "id": "gh:HKUDS/nanobot",
       "type": "repo",
@@ -34,11 +56,11 @@
         "workflow-automation"
       ],
       "metrics": {
-        "stars": 47072
+        "stars": 47076
       },
       "source": "github-search",
       "publishedAt": "2026-02-01T07:16:15Z",
-      "updatedAt": "2026-08-17T03:17:38Z",
+      "updatedAt": "2026-08-17T05:36:33Z",
       "categories": [
         "ai-agents",
         "infra"
@@ -70,7 +92,7 @@
         "llm"
       ],
       "metrics": {
-        "stars": 15
+        "stars": 17
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T15:41:41Z",
@@ -111,11 +133,11 @@
         "prometheus"
       ],
       "metrics": {
-        "stars": 80205
+        "stars": 80208
       },
       "source": "github-search",
       "publishedAt": "2013-06-17T18:39:10Z",
-      "updatedAt": "2026-08-17T00:10:17Z",
+      "updatedAt": "2026-08-17T04:54:09Z",
       "categories": [
         "ai-models",
         "infra",
@@ -192,7 +214,7 @@
         "vue"
       ],
       "metrics": {
-        "stars": 57417
+        "stars": 57418
       },
       "source": "github-search",
       "publishedAt": "2016-11-01T02:13:26Z",
@@ -235,7 +257,7 @@
       },
       "source": "github-search",
       "publishedAt": "2019-04-10T02:02:05Z",
-      "updatedAt": "2026-08-17T01:29:01Z",
+      "updatedAt": "2026-08-17T06:27:34Z",
       "categories": [
         "backend",
         "infra"
@@ -260,7 +282,7 @@
         "performance-optimization"
       ],
       "metrics": {
-        "stars": 79
+        "stars": 84
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T10:13:52Z",
@@ -493,39 +515,28 @@
       ]
     },
     {
-      "id": "gh:dwin-gharibi/AmazingScanner",
+      "id": "gh:SamuelSupe/rustprofile",
       "type": "repo",
-      "title": "dwin-gharibi/AmazingScanner",
-      "summaryOriginal": "AmazingScanner is a document scanner built from scratch. It detects page corners, rectifies tilted photos with homography, removes shadows and lighting artifacts, enhances degraded pages to scanner quality, and produces upright, styled, exportable scans. Includes corner detection, OCR evaluation, synthetic degradations, and an end-to-end scanner.",
-      "url": "https://github.com/dwin-gharibi/AmazingScanner",
-      "lang": "Python",
+      "title": "SamuelSupe/rustprofile",
+      "summaryOriginal": "Linux continuous CPU and sampled-heap profiling for native processes, Docker containers, and Kubernetes application containers",
+      "url": "https://github.com/SamuelSupe/rustprofile",
+      "lang": "Rust",
       "tags": [
-        "ansible",
-        "computer-vision",
-        "computer-vision-ai",
-        "corner-detection",
-        "deep-learning",
-        "docker",
-        "document-scanner",
-        "helm",
-        "image-enhancement",
+        "ebpf",
         "kubernetes",
-        "kubernetes-deployment",
-        "ocr",
-        "ocr-recognition",
-        "opencv",
-        "python",
-        "pytorch",
-        "synthetic-data",
-        "vagrant",
-        "vagrantfile"
+        "linux",
+        "opentelemetry",
+        "performance",
+        "pprof",
+        "profiling",
+        "rust"
       ],
       "metrics": {
         "stars": 2
       },
       "source": "github-search",
-      "publishedAt": "2026-08-11T18:04:33Z",
-      "updatedAt": "2026-08-14T12:48:19Z",
+      "publishedAt": "2026-08-16T01:19:03Z",
+      "updatedAt": "2026-08-17T04:48:30Z",
       "categories": [
         "infra"
       ]
@@ -681,7 +692,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-16T09:58:01Z",
-      "updatedAt": "2026-08-17T03:26:38Z",
+      "updatedAt": "2026-08-17T06:57:40Z",
       "categories": [
         "infra"
       ]
@@ -719,33 +730,6 @@
       ]
     },
     {
-      "id": "gh:BRYANN2K/skills",
-      "type": "repo",
-      "title": "BRYANN2K/skills",
-      "summaryOriginal": "Production-grade agent skills for infrastructure, DevOps, and developer documentation.",
-      "url": "https://github.com/BRYANN2K/skills",
-      "lang": "Python",
-      "tags": [
-        "agent-skills",
-        "devops",
-        "infrastructure-as-code",
-        "kubernetes",
-        "mermaid",
-        "sre",
-        "technical-writing",
-        "terraform"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-12T16:51:28Z",
-      "updatedAt": "2026-08-15T21:35:48Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
       "id": "gh:Vicky2-code/devops-platform",
       "type": "repo",
       "title": "Vicky2-code/devops-platform",
@@ -773,34 +757,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-15T05:27:43Z",
       "updatedAt": "2026-08-15T06:18:49Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:Sh1c666/kani-sre",
-      "type": "repo",
-      "title": "Sh1c666/kani-sre",
-      "summaryOriginal": "Kani 🦀 — a personal, proactive SRE agent (LangGraph): read-only diagnosis, interrupt-gated writes, alert-driven & scheduled patrols.",
-      "url": "https://github.com/Sh1c666/kani-sre",
-      "lang": "Python",
-      "tags": [
-        "ai-agent",
-        "alertmanager",
-        "kubernetes",
-        "langgraph",
-        "observability",
-        "oncall",
-        "prometheus",
-        "self-hosted",
-        "sre"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T05:11:00Z",
-      "updatedAt": "2026-08-14T14:03:20Z",
       "categories": [
         "infra"
       ]
@@ -864,6 +820,61 @@
       ]
     },
     {
+      "id": "gh:Sh1c666/kani-sre",
+      "type": "repo",
+      "title": "Sh1c666/kani-sre",
+      "summaryOriginal": "Kani 🦀 — a personal, proactive SRE agent (LangGraph): read-only diagnosis, interrupt-gated writes, alert-driven & scheduled patrols.",
+      "url": "https://github.com/Sh1c666/kani-sre",
+      "lang": "Python",
+      "tags": [
+        "ai-agent",
+        "alertmanager",
+        "kubernetes",
+        "langgraph",
+        "observability",
+        "oncall",
+        "prometheus",
+        "self-hosted",
+        "sre"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-11T05:11:00Z",
+      "updatedAt": "2026-08-14T14:03:20Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:BRYANN2K/skills",
+      "type": "repo",
+      "title": "BRYANN2K/skills",
+      "summaryOriginal": "Production-grade agent skills for infrastructure, DevOps, and developer documentation.",
+      "url": "https://github.com/BRYANN2K/skills",
+      "lang": "Python",
+      "tags": [
+        "agent-skills",
+        "devops",
+        "infrastructure-as-code",
+        "kubernetes",
+        "mermaid",
+        "sre",
+        "technical-writing",
+        "terraform"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-12T16:51:28Z",
+      "updatedAt": "2026-08-15T21:35:48Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
       "id": "gh:ciliverse/dawngrid",
       "type": "repo",
       "title": "ciliverse/dawngrid",
@@ -893,33 +904,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-16T10:44:22Z",
       "updatedAt": "2026-08-16T11:22:55Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:SamuelSupe/rustprofile",
-      "type": "repo",
-      "title": "SamuelSupe/rustprofile",
-      "summaryOriginal": "Linux continuous CPU and sampled-heap profiling for native processes, Docker containers, and Kubernetes application containers",
-      "url": "https://github.com/SamuelSupe/rustprofile",
-      "lang": "Rust",
-      "tags": [
-        "ebpf",
-        "kubernetes",
-        "linux",
-        "opentelemetry",
-        "performance",
-        "pprof",
-        "profiling",
-        "rust"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-16T01:19:03Z",
-      "updatedAt": "2026-08-16T01:56:31Z",
       "categories": [
         "infra"
       ]
@@ -1004,6 +988,44 @@
       ]
     },
     {
+      "id": "gh:dwin-gharibi/AmazingScanner",
+      "type": "repo",
+      "title": "dwin-gharibi/AmazingScanner",
+      "summaryOriginal": "AmazingScanner is a document scanner built from scratch. It detects page corners, rectifies tilted photos with homography, removes shadows and lighting artifacts, enhances degraded pages to scanner quality, and produces upright, styled, exportable scans. Includes corner detection, OCR evaluation, synthetic degradations, and an end-to-end scanner.",
+      "url": "https://github.com/dwin-gharibi/AmazingScanner",
+      "lang": "Python",
+      "tags": [
+        "ansible",
+        "computer-vision",
+        "computer-vision-ai",
+        "corner-detection",
+        "deep-learning",
+        "docker",
+        "document-scanner",
+        "helm",
+        "image-enhancement",
+        "kubernetes",
+        "kubernetes-deployment",
+        "ocr",
+        "ocr-recognition",
+        "opencv",
+        "python",
+        "pytorch",
+        "synthetic-data",
+        "vagrant",
+        "vagrantfile"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-11T18:04:33Z",
+      "updatedAt": "2026-08-14T12:48:19Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
       "id": "gh:Ritesh-Prasad/Ritesh-Prasad",
       "type": "repo",
       "title": "Ritesh-Prasad/Ritesh-Prasad",
@@ -1053,7 +1075,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T12:47:16Z",
-      "updatedAt": "2026-08-17T01:03:06Z",
+      "updatedAt": "2026-08-17T05:37:24Z",
       "categories": [
         "infra"
       ]
@@ -1107,7 +1129,7 @@
         "raft"
       ],
       "metrics": {
-        "stars": 52119
+        "stars": 52120
       },
       "source": "github-search",
       "publishedAt": "2013-07-06T21:57:21Z",
@@ -1147,7 +1169,7 @@
         "serverless"
       ],
       "metrics": {
-        "stars": 43989
+        "stars": 43988
       },
       "source": "github-search",
       "publishedAt": "2014-11-17T23:56:08Z",
@@ -1215,11 +1237,11 @@
         "tiered-file-system"
       ],
       "metrics": {
-        "stars": 34086
+        "stars": 34088
       },
       "source": "github-search",
       "publishedAt": "2014-07-14T16:41:37Z",
-      "updatedAt": "2026-08-17T03:24:49Z",
+      "updatedAt": "2026-08-17T05:59:12Z",
       "categories": [
         "infra"
       ]
@@ -1236,7 +1258,7 @@
         "kubernetes"
       ],
       "metrics": {
-        "stars": 33741
+        "stars": 33742
       },
       "source": "github-search",
       "publishedAt": "2018-05-31T01:37:46Z",
@@ -1275,31 +1297,7 @@
       },
       "source": "github-search",
       "publishedAt": "2018-06-15T06:49:27Z",
-      "updatedAt": "2026-08-17T02:51:53Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:podman-container-tools/podman",
-      "type": "repo",
-      "title": "podman-container-tools/podman",
-      "summaryOriginal": "Podman: A tool for managing OCI containers and pods.",
-      "url": "https://github.com/podman-container-tools/podman",
-      "lang": "Go",
-      "tags": [
-        "containers",
-        "docker",
-        "kubernetes",
-        "linux",
-        "oci"
-      ],
-      "metrics": {
-        "stars": 32596
-      },
-      "source": "github-search",
-      "publishedAt": "2017-11-01T15:01:27Z",
-      "updatedAt": "2026-08-16T00:55:25Z",
+      "updatedAt": "2026-08-17T06:44:40Z",
       "categories": [
         "infra"
       ]
