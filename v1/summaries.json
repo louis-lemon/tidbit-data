@@ -1,7 +1,7 @@
 {
   "_owner": "PC 요약 워커(services/summarizer)만 쓴다. 수집기·어드민은 읽기 전용. 상세는 README.md",
   "version": 1,
-  "updatedAt": "2026-08-18T09:00:47.673Z",
+  "updatedAt": "2026-08-18T09:09:14.011Z",
   "summaries": {
     "gh:macro-inc/macro": {
       "summaryEn": "Unified team workspace: email, chat, docs, tasks, agents, calls, and CRM linked together with shared AI memory.",
@@ -586,6 +586,190 @@
     "gh:ishandutta2007/Awesome-Web3-API-Platform": {
       "summaryEn": "Curated list of top Web3 API platforms for blockchain developers.",
       "summaryKo": "블록체인 개발자를 위한 주요 Web3 API 플랫폼 큐레이션 목록."
+    },
+    "gh:pppscn/SmsForwarder": {
+      "summaryEn": "Android app that forwards SMS, calls, and app notifications to Telegram, WeChat, DingTalk, email, webhooks, and more via custom rules.",
+      "summaryKo": "안드로이드 문자·전화·알림을 텔레그램, 위챗, 딩톡, 이메일, 웹훅 등으로 규칙 기반 전달하는 앱."
+    },
+    "gh:zhaoxuya520/reverse-skill": {
+      "summaryEn": "AI-routed skill pack for reverse engineering and authorized pentesting, with on-demand tool bootstrapping for Claude Code, Cursor, and similar clients.",
+      "summaryKo": "리버스 엔지니어링·인가된 침투테스트용 AI 라우팅 스킬팩, Claude Code·Cursor 등 지원.",
+      "reasonEn": "New repo gaining early stars on GitHub",
+      "reasonKo": "신규 저장소, 초기 스타 증가 중"
+    },
+    "gh:Hommy-master/capcut-mate": {
+      "summaryEn": "Open-source toolkit to generate and download CapCut draft files programmatically, exposed as an API and Coze plugin.",
+      "summaryKo": "캡컷(CapCut) 초안 파일을 API·플러그인으로 자동 생성·다운로드하는 오픈소스 툴킷.",
+      "reasonEn": "New repo, recent push and early stars",
+      "reasonKo": "신규 저장소, 최근 푸시·초기 스타"
+    },
+    "gh:HiThink-Tech/Financial-API": {
+      "summaryEn": "Official Tonghuashun A-share market data service — real-time quotes, financials, indices — for AI agents and quant research, via API, MCP, CLI, Python.",
+      "summaryKo": "통화순(Tonghuashun) 공식 중국 A주 시세·재무 데이터, API/MCP/CLI/Python으로 AI·퀀트 연구에 제공.",
+      "reasonEn": "New repo gaining early stars",
+      "reasonKo": "신규 저장소, 초기 스타 증가 중"
+    },
+    "gh:Laplace-bit/dsh-smooth-stream": {
+      "summaryEn": "Plugin for DeepSeek Harness that renders streaming LLM output smoothly without flicker, typewriter-style.",
+      "summaryKo": "디프시크 하니스(DeepSeek Harness)용 플러그인, 스트리밍 출력 깜빡임 없이 부드럽게 렌더링."
+    },
+    "gh:Nwflower/dsh-chat-import": {
+      "summaryEn": "Imports chat histories from 14+ AI coding tools (Claude Code, Codex, Cursor, Gemini, etc.) into DeepSeek Harness as resumable sessions.",
+      "summaryKo": "클로드 코드, 코덱스, 커서, 제미니 등 14개 이상 AI 도구의 대화 기록을 디프시크 하니스로 가져와 이어서 사용."
+    },
+    "gh:ccch1mneyyy/dsh-TUI": {
+      "summaryEn": "Claude Code-style terminal UI plugin for DeepSeek Harness — status bar, streaming thoughts, double-Esc rollback, context/TPS tracking.",
+      "summaryKo": "디프시크 하니스용 클로드 코드 스타일 터미널 UI, 상태바·스트리밍·더블Esc 되돌리기 지원."
+    },
+    "gh:fancyboi999/goofish-cli": {
+      "summaryEn": "Command-line tool for automating Xianyu (Goofish), China's secondhand marketplace, with native MCP support for AI agents.",
+      "summaryKo": "중국 중고거래 플랫폼 셴위(闲鱼) 자동화 CLI, MCP 네이티브 지원으로 AI 에이전트 연동.",
+      "reasonEn": "New repo gaining early stars",
+      "reasonKo": "신규 저장소, 초기 스타 증가 중"
+    },
+    "gh:vastxie/99AI-plugin-edition": {
+      "summaryEn": "Open-source all-in-one AI web platform — multi-model chat, agent workflows, MCP tools, usage quotas and billing — full NestJS + Vue3 stack, Docker-ready.",
+      "summaryKo": "멀티모델 채팅·에이전트 워크플로·MCP·과금 기능 갖춘 올인원 오픈소스 AI 웹 플랫폼, NestJS+Vue3."
+    },
+    "gh:Dest1ny-Sec/dhunter": {
+      "summaryEn": "AI-driven autonomous pentesting platform: recon, planning, active testing, vulnerability verification, and report generation, for security research only.",
+      "summaryKo": "AI 자율 침투테스트 플랫폼, 정찰부터 취약점 검증·리포트까지 자동화(보안 연구 전용)."
+    },
+    "gh:LYH105/iCloudEmail-Lite": {
+      "summaryEn": "Cross-platform desktop app to manage multiple iCloud Hide My Email accounts.",
+      "summaryKo": "아이클라우드 Hide My Email 다중 계정을 관리하는 크로스플랫폼 데스크톱 앱."
+    },
+    "gh:liver-detox/bazi-ziwei-calculator": {
+      "summaryEn": "Local-first calculator for Chinese BaZi and Zi Wei Dou Shu astrology charts, with year-by-year updates and privacy-safe export.",
+      "summaryKo": "로컬 우선 사주(팔자)·자미두수 계산기, 연운 연동과 개인정보 보호 내보내기 지원."
+    },
+    "gh:LerSent001/orb": {
+      "summaryEn": "Real-time WebGPU liquid-glass orb editor exporting to Web and SwiftUI/Metal, built with help from OpenAI Codex.",
+      "summaryKo": "실시간 WebGPU 액체유리 구체 에디터, 웹·SwiftUI/Metal 내보내기, OpenAI Codex로 개발."
+    },
+    "gh:Moresyl/dsh-studio": {
+      "summaryEn": "Native desktop client for DeepSeek Harness, built with Rust and Tauri, for Linux, macOS, and Windows.",
+      "summaryKo": "러스트+타우리로 만든 디프시크 하니스 네이티브 데스크톱 클라이언트(리눅스/맥/윈도)."
+    },
+    "gh:zhyese/grid-qa": {
+      "summaryEn": "LLM and RAG-based question-answering system for power grid operations, built with Vue3, FastAPI, Milvus, and DeepSeek.",
+      "summaryKo": "전력망 운영을 위한 LLM+RAG 기반 질의응답 시스템, Vue3+FastAPI+Milvus+DeepSeek.",
+      "reasonEn": "New repo gaining early stars",
+      "reasonKo": "신규 저장소, 초기 스타 증가 중"
+    },
+    "gh:public-apis/public-apis": {
+      "summaryEn": "A massive community-maintained list of free public APIs across every category.",
+      "summaryKo": "모든 분야 무료 공개 API를 모아놓은 대규모 커뮤니티 목록."
+    },
+    "gh:neovim/neovim": {
+      "summaryEn": "A Vim fork focused on extensibility and usability, with a Lua-based plugin ecosystem and rich API.",
+      "summaryKo": "확장성과 사용성에 집중한 Vim 포크, Lua 기반 플러그인 생태계와 풍부한 API 제공."
+    },
+    "gh:fastapi/fastapi": {
+      "summaryEn": "High-performance Python web framework for building APIs, with automatic docs and type-based validation via Pydantic.",
+      "summaryKo": "파이썬 고성능 웹 API 프레임워크, 자동 문서화와 Pydantic 기반 타입 검증 지원."
+    },
+    "gh:ccxt/ccxt": {
+      "summaryEn": "A unified trading API library covering 100+ crypto exchanges and prediction markets, in JS, Python, PHP, and more.",
+      "summaryKo": "100개 이상 암호화폐 거래소·예측시장을 통합한 트레이딩 API 라이브러리(JS/파이썬/PHP 등)."
+    },
+    "gh:Kong/insomnia": {
+      "summaryEn": "Open-source, cross-platform API client for REST, GraphQL, gRPC, WebSockets, and SSE, with cloud or local/Git storage.",
+      "summaryKo": "REST·그래프QL·gRPC·웹소켓 지원 오픈소스 API 클라이언트, 클라우드/로컬/깃 저장 가능."
+    },
+    "gh:hasura/graphql-engine": {
+      "summaryEn": "Instant realtime GraphQL APIs over your existing data, with fine-grained access control and database webhook triggers.",
+      "summaryKo": "기존 데이터 위에 즉시 실시간 그래프QL API 제공, 세밀한 접근 제어와 DB 웹훅 트리거 지원."
+    },
+    "gh:PostgREST/postgrest": {
+      "summaryEn": "Turns any Postgres database directly into a REST API, written in Haskell.",
+      "summaryKo": "포스트그레스 DB를 바로 REST API로 만들어주는 하스켈 기반 서버."
+    },
+    "gh:OpenAPITools/openapi-generator": {
+      "summaryEn": "Generates client SDKs, server stubs, and docs automatically from an OpenAPI spec (v2/v3), across many languages.",
+      "summaryKo": "OpenAPI 명세(v2/v3)로부터 클라이언트 SDK·서버 스텁·문서를 다국어로 자동 생성."
+    },
+    "gh:Skyvern-AI/skyvern": {
+      "summaryEn": "Automates browser-based workflows using AI vision and LLMs instead of brittle selectors, built on Playwright/Selenium.",
+      "summaryKo": "취약한 선택자 대신 AI 비전·LLM으로 브라우저 워크플로를 자동화(플레이라이트/셀레니움 기반)."
+    },
+    "gh:wwebjs/whatsapp-web.js": {
+      "summaryEn": "A Node.js library that controls WhatsApp by driving the WhatsApp Web browser client, for building bots and integrations.",
+      "summaryKo": "왓츠앱 웹 브라우저 클라이언트를 제어하는 Node.js 라이브러리, 봇·연동 개발용."
+    },
+    "gh:bitwarden/server": {
+      "summaryEn": "Backend infrastructure for the Bitwarden password manager — API, database, and Docker deployment, in C#/.NET.",
+      "summaryKo": "비트워든 비밀번호 관리자의 백엔드 인프라(API·DB·도커), C#/.NET 기반."
+    },
+    "gh:iii-hq/iii": {
+      "summaryEn": "A runtime for composing, extending, and observing services together in real time, across JS, Python, and Rust.",
+      "summaryKo": "JS·파이썬·러스트 서비스를 실시간으로 조합·확장·관찰하는 런타임."
+    },
+    "gh:apache/apisix": {
+      "summaryEn": "A cloud-native API gateway with built-in AI gateway features, load balancing, and Kubernetes ingress support.",
+      "summaryKo": "AI 게이트웨이 기능을 내장한 클라우드 네이티브 API 게이트웨이, 로드밸런싱·쿠버네티스 인그레스 지원."
+    },
+    "gh:Jackett/Jackett": {
+      "summaryEn": "A proxy that adds unified API/search support for torrent tracker sites, used by tools like Sonarr and Radarr.",
+      "summaryKo": "토렌트 트래커 사이트에 통합 API 검색을 붙여주는 프록시, 소나르·라다르 등에서 사용."
+    },
+    "gh:gotify/server": {
+      "summaryEn": "A lightweight self-hosted server for sending and receiving push notifications in real time over WebSocket, with a web UI.",
+      "summaryKo": "웹소켓 기반 실시간 푸시 알림을 위한 경량 셀프호스팅 서버, 웹 UI 포함."
+    },
+    "gh:jsdoc/jsdoc": {
+      "summaryEn": "The standard API documentation generator for JavaScript, producing docs from source comments.",
+      "summaryKo": "자바스크립트 표준 API 문서 생성기, 소스 주석에서 문서를 뽑아냄."
+    },
+    "gh:dnshe/DNSHE-FreeDomains": {
+      "summaryEn": "A service offering free, stable subdomains for developers with 180-day renewal, Anycast DNS, and a REST API.",
+      "summaryKo": "개발자용 무료 안정 서브도메인 제공 서비스, 180일 갱신·애니캐스트 DNS·REST API 지원.",
+      "reasonEn": "New repo gaining early stars",
+      "reasonKo": "신규 저장소, 초기 스타 증가 중"
+    },
+    "gh:NVIDIA/OpenShell": {
+      "summaryEn": "A safe, private runtime environment for running autonomous AI agents.",
+      "summaryKo": "자율 AI 에이전트를 안전하고 사적으로 실행하는 런타임 환경.",
+      "reasonEn": "New repo with recent commits and early stars",
+      "reasonKo": "신규 저장소, 최근 커밋·초기 스타"
+    },
+    "gh:MeroZemory/ida-multi-mcp": {
+      "summaryEn": "An MCP server that lets AI tools analyze multiple IDA Pro binary instances at once through a single endpoint.",
+      "summaryKo": "하나의 MCP 엔드포인트로 여러 IDA Pro 바이너리를 동시 분석하는 MCP 서버.",
+      "reasonEn": "New repo gaining early stars",
+      "reasonKo": "신규 저장소, 초기 스타 증가 중"
+    },
+    "gh:KunAgent/Kun": {
+      "summaryEn": "A local-first AI agent workspace for coding, writing, design, research, and automation, with desktop GUI and TUI modes.",
+      "summaryKo": "코딩·글쓰기·디자인·리서치·자동화를 위한 로컬 우선 AI 에이전트 워크스페이스, GUI·TUI 지원.",
+      "reasonEn": "New repo gaining early stars",
+      "reasonKo": "신규 저장소, 초기 스타 증가 중"
+    },
+    "gh:pagecat/vowifi_gateway": {
+      "summaryEn": "A VoWiFi-to-SIP gateway with full SMS and calling support, needing only a Linux server and a PC/SC card reader.",
+      "summaryKo": "VoWiFi를 SIP로 연결하는 게이트웨이, SMS·통화 지원(리눅스 서버+PCSC 카드리더만 필요).",
+      "reasonEn": "New repo gaining early stars",
+      "reasonKo": "신규 저장소, 초기 스타 증가 중"
+    },
+    "hn:49276673": {
+      "summaryEn": "A Show HN web app for building custom interval timers for workouts or stretching routines.",
+      "summaryKo": "운동·스트레칭용 인터벌 타이머를 직접 짤 수 있는 Show HN 웹앱.",
+      "reasonEn": "Show HN post drawing early discussion",
+      "reasonKo": "Show HN 게시물, 초반 반응 활발(추천 30·댓글 14)"
+    },
+    "hn:49303292": {
+      "summaryEn": "A write-up on building a high-performance LRU cache using an array-backed hash table instead of pointer-based linked lists.",
+      "summaryKo": "포인터 연결리스트 대신 배열 기반 해시테이블로 만든 고성능 LRU 캐시 설명 글.",
+      "reasonEn": "Front-page Hacker News discussion",
+      "reasonKo": "해커뉴스 프론트페이지 노출(추천 27)"
+    },
+    "gh:divanshusingh-ds/Pixotic-ai-bot": {
+      "summaryEn": "A student's Telegram-based personal AI assistant project, built while learning AI agent and automation development.",
+      "summaryKo": "AI 에이전트·자동화를 배우며 만든 학생 프로젝트, 텔레그램 기반 개인 AI 비서 봇."
+    },
+    "gh:netdata/netdata": {
+      "summaryEn": "Real-time full-stack observability and monitoring platform with AI-assisted alerting, covering infra, containers, and databases.",
+      "summaryKo": "인프라·컨테이너·DB를 아우르는 실시간 풀스택 관측·모니터링 플랫폼, AI 기반 알림 지원."
     }
   }
 }
