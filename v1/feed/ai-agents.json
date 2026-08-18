@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "ai-agents",
-  "generatedAt": "2026-08-18T09:09:43.683Z",
+  "generatedAt": "2026-08-18T09:35:32.139Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,7 +13,7 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 2372,
+        "stars": 2387,
         "starsDelta": 207
       },
       "source": "github-trending",
@@ -34,7 +34,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 28710,
+        "stars": 28722,
         "starsDelta": 198
       },
       "source": "github-trending",
@@ -76,57 +76,14 @@
         "yc-backed"
       ],
       "metrics": {
-        "stars": 47752
+        "stars": 47763
       },
       "source": "github-search",
       "publishedAt": "2026-03-17T03:28:57Z",
-      "updatedAt": "2026-08-18T09:09:47Z",
+      "updatedAt": "2026-08-18T09:35:22Z",
       "summaryEn": "An IDE for running many coding agents in parallel with your own subscriptions, on desktop, mobile, or VPS.",
       "summaryKo": "여러 코딩 에이전트를 병렬 실행하는 IDE. 데스크톱·모바일·VPS 지원, 자기 구독 사용.",
       "categories": [
-        "ai-agents",
-        "devtools"
-      ]
-    },
-    {
-      "id": "gh:tt-a1i/archify",
-      "type": "repo",
-      "title": "tt-a1i/archify",
-      "summaryOriginal": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-      "url": "https://github.com/tt-a1i/archify",
-      "lang": "HTML",
-      "tags": [
-        "agent-skills",
-        "architecture-as-code",
-        "architecture-diagram",
-        "claude-skill",
-        "code-visualization",
-        "codex",
-        "coding-agents",
-        "data-flow-diagram",
-        "deepseek-harness",
-        "developer-tools",
-        "diagram-as-code",
-        "diagrams",
-        "diagrams-as-code",
-        "dsh-plugin",
-        "mermaid-alternative",
-        "opencode",
-        "sequence-diagram",
-        "software-architecture",
-        "system-design",
-        "text-to-diagram"
-      ],
-      "metrics": {
-        "stars": 14067
-      },
-      "source": "github-search",
-      "publishedAt": "2026-04-15T05:27:37Z",
-      "updatedAt": "2026-08-17T15:47:26Z",
-      "summaryEn": "An agent skill that generates verifiable architecture and workflow diagrams as self-contained animated HTML.",
-      "summaryKo": "에이전트용 스킬. 아키텍처·워크플로우 다이어그램을 애니메이션 HTML로 생성.",
-      "categories": [
-        "engineering",
         "ai-agents"
       ]
     },
@@ -160,7 +117,7 @@
         "workspace"
       ],
       "metrics": {
-        "stars": 9596
+        "stars": 9601
       },
       "source": "github-search",
       "publishedAt": "2026-03-22T07:36:16Z",
@@ -197,7 +154,7 @@
         "reinforcement-learning"
       ],
       "metrics": {
-        "stars": 38791
+        "stars": 38815
       },
       "source": "github-search",
       "publishedAt": "2025-09-09T02:41:44Z",
@@ -238,17 +195,101 @@
         "windsurf"
       ],
       "metrics": {
-        "stars": 39330
+        "stars": 39333
       },
       "source": "github-search",
       "publishedAt": "2026-02-24T22:01:00Z",
-      "updatedAt": "2026-08-18T09:00:03Z",
+      "updatedAt": "2026-08-18T09:21:37Z",
       "summaryEn": "MCP server that indexes codebases into a knowledge graph for sub-millisecond code queries across 158 languages.",
       "summaryKo": "코드베이스를 지식 그래프로 색인하는 MCP 서버. 158개 언어, 밀리초 이하 질의 지원.",
       "categories": [
         "ai-agents",
-        "backend",
-        "devtools"
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:deepseek-ai/deepseek-harness",
+      "type": "repo",
+      "title": "deepseek-ai/deepseek-harness",
+      "summaryOriginal": "DeepSeek Harness: Everything is a Plugin.",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "lang": "TypeScript",
+      "tags": [
+        "ai-agents",
+        "cordis",
+        "dsh",
+        "dsh-plugin"
+      ],
+      "metrics": {
+        "stars": 156406
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T11:56:32Z",
+      "updatedAt": "2026-08-17T12:01:58Z",
+      "categories": [
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "gh:Leutenegger/book-to-skill",
+      "type": "repo",
+      "title": "Leutenegger/book-to-skill",
+      "summaryOriginal": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "url": "https://github.com/Leutenegger/book-to-skill",
+      "lang": "Python",
+      "tags": [
+        "agent",
+        "agent-memory",
+        "agent-skill",
+        "agent-skills",
+        "agentic",
+        "agentic-ai",
+        "agents",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skills",
+        "github-copilot",
+        "pdf",
+        "pdf-document",
+        "pdf-generation",
+        "pdf-parser",
+        "pdf-tools",
+        "pdf-viewer",
+        "skill-generator"
+      ],
+      "metrics": {
+        "stars": 1186
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T13:15:23Z",
+      "updatedAt": "2026-08-14T11:41:40Z",
+      "categories": [
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "gh:dataelement/dsh-desktop",
+      "type": "repo",
+      "title": "dataelement/dsh-desktop",
+      "summaryOriginal": "DeepSeek Harness Desktop",
+      "url": "https://github.com/dataelement/dsh-desktop",
+      "lang": "TypeScript",
+      "tags": [
+        "ai-agents",
+        "deepseek",
+        "desktop",
+        "dsh-plugins"
+      ],
+      "metrics": {
+        "stars": 884
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T13:45:50Z",
+      "updatedAt": "2026-08-18T08:35:26Z",
+      "categories": [
+        "ai-agents"
       ]
     },
     {
@@ -270,7 +311,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 810
+        "stars": 811
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T06:28:56Z",
@@ -278,10 +319,38 @@
       "summaryEn": "Open-source alternative to Grok's coding bot — pick your own model and sandbox.",
       "summaryKo": "Grok 봇의 오픈소스 대안, 모델과 샌드박스를 직접 선택",
       "categories": [
-        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "gh:decionis/agent-safe-pipeline",
+      "type": "repo",
+      "title": "decionis/agent-safe-pipeline",
+      "summaryOriginal": "Reference architecture for AI agents that propose actions but cannot authorize them — immutable intent capture, an independent Decionis policy verdict (ALLOW/ESCALATE/BLOCK), verified human approval, and a SafeExecutor that consumes a single-use intent-bound grant.",
+      "url": "https://github.com/decionis/agent-safe-pipeline",
+      "lang": "TypeScript",
+      "tags": [
+        "agentic-ai",
+        "ai-agent-permissions",
         "ai-agents",
-        "web",
-        "infra"
+        "ai-governance",
+        "ai-safety",
+        "authorization",
+        "decionis",
+        "human-in-the-loop",
+        "mcp",
+        "policy-as-code",
+        "reference-architecture",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 531
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T21:36:19Z",
+      "updatedAt": "2026-08-17T21:37:07Z",
+      "categories": [
+        "ai-agents"
       ]
     },
     {
@@ -306,7 +375,7 @@
         "tutorial"
       ],
       "metrics": {
-        "stars": 478
+        "stars": 479
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T15:22:29Z",
@@ -314,7 +383,30 @@
       "summaryEn": "In-depth handbook for DeepSeek Harness (dsh): install, plugin dev, performance tuning, and multi-agent benchmarks.",
       "summaryKo": "DeepSeek Harness(dsh) 심화 핸드북. 설치·플러그인 개발·성능 튜닝·멀티 에이전트 비교.",
       "categories": [
-        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "gh:soumatheusgomes/vibe-coding-toolkit",
+      "type": "repo",
+      "title": "soumatheusgomes/vibe-coding-toolkit",
+      "summaryOriginal": "A curated, battle-tested AI-coding toolkit: Claude Code plugins, subagent orchestration, quality gates, and ready-to-copy prompts, extracted from real production use.",
+      "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit",
+      "tags": [
+        "ai-agents",
+        "ai-coding",
+        "claude-code",
+        "developer-tools",
+        "llm-agents",
+        "prompts"
+      ],
+      "metrics": {
+        "stars": 182
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T23:41:31Z",
+      "updatedAt": "2026-08-15T16:49:18Z",
+      "categories": [
         "ai-agents"
       ]
     },
@@ -356,210 +448,34 @@
       "summaryEn": "Local tool that scores prose files your agent saves for AI-writing patterns, no network or model needed.",
       "summaryKo": "에이전트가 저장한 글의 AI 작문 패턴을 로컬에서 점수화. 네트워크·모델 불필요.",
       "categories": [
-        "ai-models",
-        "ai-agents",
-        "devtools"
-      ]
-    },
-    {
-      "id": "gh:Dominic789654/awesome-deepseek-harness",
-      "type": "repo",
-      "title": "Dominic789654/awesome-deepseek-harness",
-      "summaryOriginal": "A curated list of plugins, skills, MCP servers, patch/profile layers, orchestrators & UIs for DeepSeek Harness (DSH). Visualization · PPT · Coding · Agents · Loops (auto-research) and more. #dsh",
-      "url": "https://github.com/Dominic789654/awesome-deepseek-harness",
-      "lang": "TypeScript",
-      "tags": [
-        "agent",
-        "agent-framework",
-        "ai-agent",
-        "ai-agents",
-        "awesome",
-        "awesome-list",
-        "coding-agent",
-        "deepseek",
-        "deepseek-ai",
-        "deepseek-harness",
-        "deepseek-harness-plugin",
-        "deepseek-harness-plugins",
-        "dsh",
-        "dsh-patch",
-        "dsh-plugin",
-        "dsh-plugins",
-        "llm",
-        "llm-agent",
-        "mcp",
-        "plugins"
-      ],
-      "metrics": {
-        "stars": 139
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T13:54:05Z",
-      "updatedAt": "2026-08-18T08:43:40Z",
-      "summaryEn": "Curated list of plugins, skills, MCP servers, and orchestrators for DeepSeek Harness (DSH).",
-      "summaryKo": "DeepSeek Harness(DSH)용 플러그인·스킬·MCP 서버·오케스트레이터 큐레이션 목록.",
-      "categories": [
-        "ai-models",
         "ai-agents"
       ]
     },
     {
-      "id": "gh:bradeGithub/DSH-Plugins-Marketplace",
+      "id": "gh:wang2122/sprix-sage-router",
       "type": "repo",
-      "title": "bradeGithub/DSH-Plugins-Marketplace",
-      "summaryOriginal": "DSH插件市场 / DSH Plugin Marketplace: 在 DeepSeek Harness Web GUI 中一键浏览、安装与更新 GitHub topic:dsh-plugin 的全部插件 | browse, install & update all GitHub dsh-plugin plugins in the DSH Web GUI",
-      "url": "https://github.com/bradeGithub/DSH-Plugins-Marketplace",
-      "lang": "JavaScript",
-      "tags": [
-        "agent",
-        "ai-agents",
-        "cordis",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "javascript",
-        "llm",
-        "marketplace",
-        "nodejs",
-        "plugin",
-        "plugin-marketplace"
-      ],
-      "metrics": {
-        "stars": 123
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T16:01:59Z",
-      "updatedAt": "2026-08-18T07:30:30Z",
-      "summaryEn": "Marketplace to browse, install, and update DeepSeek Harness plugins directly from its web GUI.",
-      "summaryKo": "DeepSeek Harness 웹 GUI에서 dsh 플러그인을 찾아 설치·업데이트하는 마켓플레이스.",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "gh:thiientv/godmode",
-      "type": "repo",
-      "title": "thiientv/godmode",
-      "summaryOriginal": "Production-grade Agent Skills for AI coding agents—composable workflows for planning, TDD, debugging, review, UI/UX, releases, incidents, and evals.",
-      "url": "https://github.com/thiientv/godmode",
+      "title": "wang2122/sprix-sage-router",
+      "summaryOriginal": "Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.",
+      "url": "https://github.com/wang2122/sprix-sage-router",
       "lang": "Python",
       "tags": [
-        "agent-evaluation",
-        "agent-skills",
+        "a2a",
+        "agent-orchestration",
+        "agent-routing",
         "ai-agents",
-        "ai-coding",
-        "claude-code",
-        "code-review",
-        "codex",
-        "coding-agents",
-        "developer-tools",
-        "llm",
-        "prompt-engineering",
-        "software-engineering",
-        "test-driven-development",
-        "ui-ux",
-        "workflow-automation"
-      ],
-      "metrics": {
-        "stars": 89
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T04:06:22Z",
-      "updatedAt": "2026-08-18T01:22:59Z",
-      "summaryEn": "Production-grade agent skills covering planning, TDD, debugging, code review, releases, and incident response.",
-      "summaryKo": "계획·TDD·디버깅·리뷰·릴리스·인시던트 대응을 아우르는 프로덕션급 에이전트 스킬 모음.",
-      "categories": [
-        "ai-models",
-        "ai-agents",
-        "devtools"
-      ]
-    },
-    {
-      "id": "gh:memoket/memoket-kite",
-      "type": "repo",
-      "title": "memoket/memoket-kite",
-      "summaryOriginal": "An open-source, vector-free long-term memory engine for AI agents, achieving SOTA on LoCoMo and LongMemEval with significantly less context.",
-      "url": "https://github.com/memoket/memoket-kite",
-      "lang": "Python",
-      "tags": [
-        "agent-memory",
-        "agents",
-        "ai",
-        "ai-agents",
-        "ai-memory",
-        "chatbot",
-        "genai",
-        "knowledge-management",
-        "llm",
-        "llm-memory",
-        "locomo",
-        "long-term-memory",
-        "longmemeval",
-        "memory",
-        "memory-engine",
-        "memory-layer",
-        "memory-management",
+        "multi-agent-systems",
         "python",
-        "rag",
-        "retrieval"
+        "sprix-ai",
+        "task-scheduling"
       ],
       "metrics": {
-        "stars": 85
+        "stars": 153
       },
       "source": "github-search",
-      "publishedAt": "2026-08-12T03:19:07Z",
-      "updatedAt": "2026-08-17T13:15:41Z",
-      "summaryEn": "Vector-free long-term memory engine for AI agents, hitting SOTA on LoCoMo and LongMemEval with less context.",
-      "summaryKo": "벡터 없는 AI 에이전트 장기 기억 엔진. LoCoMo·LongMemEval에서 SOTA, 컨텍스트 사용량 적음.",
+      "publishedAt": "2026-08-18T04:08:11Z",
+      "updatedAt": "2026-08-18T04:56:20Z",
       "categories": [
-        "ai-models",
         "ai-agents"
-      ]
-    },
-    {
-      "id": "gh:diyanbogdanov/emend",
-      "type": "repo",
-      "title": "diyanbogdanov/emend",
-      "summaryOriginal": "Verified AI dependency migrations. Finds which of your lines a version bump actually breaks, fixes them, and proves the result still compiles and passes your tests.",
-      "url": "https://github.com/diyanbogdanov/emend",
-      "lang": "TypeScript",
-      "tags": [
-        "ai-agents",
-        "automation",
-        "breaking-changes",
-        "cli",
-        "code-migration",
-        "codemod",
-        "dependabot",
-        "dependency-management",
-        "developer-tools",
-        "devtools",
-        "llm",
-        "migration",
-        "npm",
-        "openapi",
-        "refactoring",
-        "static-analysis",
-        "supply-chain-security",
-        "technical-debt",
-        "typescript",
-        "upgrade"
-      ],
-      "metrics": {
-        "stars": 39
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T12:41:58Z",
-      "updatedAt": "2026-08-14T17:15:24Z",
-      "summaryEn": "AI tool that finds which lines a dependency version bump breaks, fixes them, and verifies tests still pass.",
-      "summaryKo": "의존성 버전 업그레이드로 깨지는 코드를 찾아 수정하고 테스트 통과까지 검증하는 AI 도구.",
-      "categories": [
-        "ai-models",
-        "ai-agents",
-        "web",
-        "engineering",
-        "devtools"
       ]
     },
     {
@@ -603,6 +519,26 @@
       "reasonKo": "신규 공개, 초기 관심 (+5)",
       "categories": [
         "ai-agents"
+      ]
+    },
+    {
+      "id": "gh:tt-a1i/archify",
+      "type": "repo",
+      "title": "tt-a1i/archify",
+      "summaryOriginal": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "url": "https://github.com/tt-a1i/archify",
+      "lang": "HTML",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 3,
+        "totalScore": 211.3061
+      },
+      "source": "ossinsight",
+      "summaryEn": "An agent skill that generates verifiable architecture and workflow diagrams as self-contained animated HTML.",
+      "summaryKo": "에이전트용 스킬. 아키텍처·워크플로우 다이어그램을 애니메이션 HTML로 생성.",
+      "categories": [
+        "ai-agents",
+        "engineering"
       ]
     },
     {
@@ -760,30 +696,6 @@
       ]
     },
     {
-      "id": "gh:alibaba/open-code-review",
-      "type": "repo",
-      "title": "alibaba/open-code-review",
-      "summaryOriginal": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "url": "https://github.com/alibaba/open-code-review",
-      "lang": "Go",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "totalScore": 204.7675
-      },
-      "source": "ossinsight",
-      "summaryEn": "Alibaba's open-source code review tool combining deterministic pipelines with an LLM agent for line-level comments.",
-      "summaryKo": "알리바바 오픈소스 코드 리뷰 도구. 결정적 파이프라인 + LLM 에이전트로 라인 단위 코멘트.",
-      "reasonEn": "Slow, steady growth",
-      "reasonKo": "완만한 성장",
-      "categories": [
-        "ai-models",
-        "ai-agents",
-        "data",
-        "engineering"
-      ]
-    },
-    {
       "id": "hf-model:Qwen/Qwen3.8-27B",
       "type": "model",
       "title": "Qwen/Qwen3.8-27B",
@@ -803,9 +715,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 10891,
+        "likes": 10904,
         "downloads": 665513,
-        "trendingScore": 10356
+        "trendingScore": 10367
       },
       "source": "hf-models",
       "publishedAt": "2026-08-05T08:22:59.000Z",
@@ -837,9 +749,9 @@
         "conversational"
       ],
       "metrics": {
-        "likes": 1706,
+        "likes": 1713,
         "downloads": 3561466,
-        "trendingScore": 1616
+        "trendingScore": 1622
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T08:28:40.000Z",
@@ -924,9 +836,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1152,
+        "likes": 1157,
         "downloads": 503632,
-        "trendingScore": 925
+        "trendingScore": 929
       },
       "source": "hf-models",
       "publishedAt": "2026-07-23T07:55:24.000Z",
@@ -958,7 +870,7 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 921,
+        "likes": 922,
         "downloads": 11745,
         "trendingScore": 894
       },
@@ -994,9 +906,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1669,
+        "likes": 1670,
         "downloads": 384097,
-        "trendingScore": 693
+        "trendingScore": 688
       },
       "source": "hf-models",
       "publishedAt": "2026-08-09T17:51:35.000Z",
@@ -1030,9 +942,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 579,
+        "likes": 582,
         "downloads": 30985,
-        "trendingScore": 537
+        "trendingScore": 539
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T03:05:06.000Z",
@@ -1073,9 +985,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 4103,
+        "likes": 4105,
         "downloads": 2855539,
-        "trendingScore": 532
+        "trendingScore": 533
       },
       "source": "hf-models",
       "publishedAt": "2026-07-28T10:45:18.000Z",
@@ -1109,9 +1021,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 544,
+        "likes": 545,
         "downloads": 741011,
-        "trendingScore": 514
+        "trendingScore": 515
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T08:01:58.000Z",
@@ -1157,9 +1069,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 471,
+        "likes": 473,
         "downloads": 45465,
-        "trendingScore": 417
+        "trendingScore": 419
       },
       "source": "hf-models",
       "publishedAt": "2026-08-15T05:45:04.000Z",
@@ -1173,6 +1085,24 @@
       ]
     },
     {
+      "id": "hf-paper:2608.16328",
+      "type": "paper",
+      "title": "GRNEdit: Efficient General Video Editing from a New Binary-Evidence Perspective in Generative Refinement Networks",
+      "summaryOriginal": "Instruction-based general video editing seeks to unify diverse editing operations within a single, intuitive interface. Existing approaches often rely on resource-intensive conditioning, using either heavyweight branches or costly source concatenation. Is there any efficient way to model editing intent? Thus, we introduce GRNEdit, a lightweight two-stage framework. GRN inspires our approach by en…",
+      "url": "https://huggingface.co/papers/2608.16328",
+      "tags": [],
+      "metrics": {
+        "upvotes": 4,
+        "comments": 1
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
       "id": "hf-paper:2608.15045",
       "type": "paper",
       "title": "MOSS-VL Technical Report",
@@ -1180,8 +1110,9 @@
       "url": "https://huggingface.co/papers/2608.15045",
       "tags": [],
       "metrics": {
-        "upvotes": 4,
-        "comments": 1
+        "upvotes": 21,
+        "comments": 1,
+        "githubStars": 430
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-15T00:00:00.000Z",
@@ -1199,7 +1130,8 @@
       "tags": [],
       "metrics": {
         "upvotes": 1,
-        "comments": 1
+        "comments": 1,
+        "githubStars": 1
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-17T00:00:00.000Z",
@@ -1234,8 +1166,9 @@
       "url": "https://huggingface.co/papers/2608.15669",
       "tags": [],
       "metrics": {
-        "upvotes": 20,
-        "comments": 2
+        "upvotes": 22,
+        "comments": 2,
+        "githubStars": 5
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-16T00:00:00.000Z",
@@ -1315,7 +1248,7 @@
       "url": "https://huggingface.co/papers/2608.16072",
       "tags": [],
       "metrics": {
-        "upvotes": 15,
+        "upvotes": 18,
         "comments": 1
       },
       "source": "hf-papers",
@@ -1344,26 +1277,6 @@
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "summaryEn": "Built a 128-GPU cluster from retired datacenter GPUs to serve LLaMA-70B inference cheaply.",
       "summaryKo": "폐기된 데이터센터 GPU 128개로 클러스터를 구축해 LLaMA-70B를 저비용 서빙.",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "hf-paper:2608.16485",
-      "type": "paper",
-      "title": "HiFi-BRep: High-Fidelity Latent Representation for Robust B-Rep Generation",
-      "summaryOriginal": "Boundary representation (B-Rep) generation is a fundamental task in computer-aided design, yet the direct synthesis of high-fidelity and structurally valid B-Reps remains a major challenge. Existing deep generative methods suffer from two forms of brittleness: representation brittleness, caused by padding noise and feature contamination in the latent space, and generation brittleness, stemming fr…",
-      "url": "https://huggingface.co/papers/2608.16485",
-      "tags": [],
-      "metrics": {
-        "upvotes": 0,
-        "comments": 1
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summaryEn": "A high-fidelity latent representation for generating robust, structurally valid CAD boundary representations.",
-      "summaryKo": "구조적으로 타당한 CAD 경계 표현(B-Rep)을 생성하는 고정밀 잠재 표현 기법.",
       "categories": [
         "ai-models",
         "ai-agents"
