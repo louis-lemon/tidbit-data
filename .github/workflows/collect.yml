@@ -40,6 +40,10 @@ jobs:
           DATA_DIR: ${{ github.workspace }}
           # SRC2(GitHub Search) 용. 없으면 degraded 로 돌고 카테고리당 카드가 크게 준다.
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          # 분류용이다. 요약은 맥 워커가 하지만(D23) **분류는 여기서 해야 한다** —
+          # 없으면 HN 카드가 isDevRelevant 판정을 못 받아 전멸하고(D22, 판정 실패=탈락)
+          # R3 분류도 죽어 트렌딩 카드 절반이 카테고리 없이 탈락한다.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node .github/collector/collector.mjs
 
       - name: Commit and push
