@@ -45449,17 +45449,18 @@ var truncate = (raw, maxLength) => raw.length <= maxLength ? raw : `${raw.slice(
 var SOURCE = "github-search";
 var SEARCH_URL = "https://api.github.com/search/repositories";
 var PER_PAGE = 30;
-var TOPICS_PER_CATEGORY = 2;
+var TOPICS_PER_CATEGORY = 4;
 var MIN_REQUEST_INTERVAL_MS = 2200;
 var NEW_REPO_WINDOW_DAYS = 7;
 var ACTIVE_REPO_WINDOW_DAYS = 3;
 var ACTIVE_REPO_MIN_STARS = 500;
+var NEW_REPO_MIN_STARS = 3;
 var toDateFilter = (now, daysAgo) => {
   const at = new Date(now.getTime() - daysAgo * 24 * 60 * 60 * 1e3);
   return at.toISOString().slice(0, 10);
 };
 var buildQueries = (topics, now) => topics.slice(0, TOPICS_PER_CATEGORY).flatMap((topic) => [
-  `created:>${toDateFilter(now, NEW_REPO_WINDOW_DAYS)} topic:${topic}`,
+  `created:>${toDateFilter(now, NEW_REPO_WINDOW_DAYS)} topic:${topic} stars:>=${NEW_REPO_MIN_STARS}`,
   `pushed:>${toDateFilter(now, ACTIVE_REPO_WINDOW_DAYS)} topic:${topic} stars:>${ACTIVE_REPO_MIN_STARS}`
 ]);
 var mapSearchItems = (items) => items.map((item) => {
