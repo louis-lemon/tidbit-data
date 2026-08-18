@@ -1,47 +1,9 @@
 {
   "version": 1,
   "category": "engineering",
-  "generatedAt": "2026-08-18T09:35:32.139Z",
+  "generatedAt": "2026-08-18T12:50:05.916Z",
   "ttlSeconds": 10800,
   "cards": [
-    {
-      "id": "gh:usestrix/strix",
-      "type": "repo",
-      "title": "usestrix/strix",
-      "summaryOriginal": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-      "url": "https://github.com/usestrix/strix",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "stars": 54714,
-        "starsDelta": 598
-      },
-      "source": "github-trending",
-      "categories": [
-        "engineering"
-      ]
-    },
-    {
-      "id": "gh:nautechsystems/nautilus_trader",
-      "type": "repo",
-      "title": "nautechsystems/nautilus_trader",
-      "summaryOriginal": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
-      "url": "https://github.com/nautechsystems/nautilus_trader",
-      "lang": "Rust",
-      "tags": [],
-      "metrics": {
-        "stars": 26162,
-        "starsDelta": 120
-      },
-      "source": "github-trending",
-      "summaryEn": "Rust-native algorithmic trading engine with deterministic, event-driven execution for production use.",
-      "summaryKo": "결정론적 이벤트 기반 실행을 지원하는 러스트 기반 프로덕션급 트레이딩 엔진.",
-      "reasonEn": "+120 stars today",
-      "reasonKo": "오늘 스타 120개 증가",
-      "categories": [
-        "engineering"
-      ]
-    },
     {
       "id": "gh:mukul975/Anthropic-Cybersecurity-Skills",
       "type": "repo",
@@ -51,10 +13,11 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 28722,
-        "starsDelta": 198
+        "stars": 28815,
+        "starsDelta": 726
       },
       "source": "github-trending",
+      "admitReason": "trending",
       "summaryEn": "817 cybersecurity skills for AI agents, mapped to MITRE ATT&CK, NIST CSF, and other frameworks; works across 20+ agent platforms.",
       "summaryKo": "AI 에이전트용 보안 스킬 817개, MITRE ATT&CK 등 6개 프레임워크 매핑, 20개+ 플랫폼 지원.",
       "reasonEn": "28.6k stars, +198 this period",
@@ -63,7 +26,1593 @@
         "ai-agents",
         "engineering",
         "devtools"
-      ]
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:tt-a1i/archify",
+      "type": "repo",
+      "title": "tt-a1i/archify",
+      "summaryOriginal": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "url": "https://github.com/tt-a1i/archify",
+      "lang": "HTML",
+      "tags": [
+        "agent-skills",
+        "architecture-as-code",
+        "architecture-diagram",
+        "claude-skill",
+        "code-visualization",
+        "codex",
+        "coding-agents",
+        "data-flow-diagram",
+        "deepseek-harness",
+        "developer-tools",
+        "diagram-as-code",
+        "diagrams",
+        "diagrams-as-code",
+        "dsh-plugin",
+        "mermaid-alternative",
+        "opencode",
+        "sequence-diagram",
+        "software-architecture",
+        "system-design",
+        "text-to-diagram"
+      ],
+      "metrics": {
+        "stars": 14123
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2026-04-15T05:27:37Z",
+      "updatedAt": "2026-08-17T15:47:26Z",
+      "summaryEn": "An agent skill that generates verifiable architecture and workflow diagrams as self-contained animated HTML.",
+      "summaryKo": "에이전트용 스킬. 아키텍처·워크플로우 다이어그램을 애니메이션 HTML로 생성.",
+      "categories": [
+        "ai-agents",
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:antinomie-lab/pi-book",
+      "type": "repo",
+      "title": "antinomie-lab/pi-book",
+      "summaryOriginal": "Source-backed architecture notes on building an agent",
+      "url": "https://github.com/antinomie-lab/pi-book",
+      "lang": "Vue",
+      "tags": [
+        "agent-loop",
+        "ai-agent",
+        "book",
+        "chinese",
+        "code-reading",
+        "llm",
+        "pi-agent",
+        "pi-agent-core",
+        "software-architecture",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 352
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-08-07T17:14:43Z",
+      "updatedAt": "2026-08-12T18:11:16Z",
+      "categories": [
+        "ai-models",
+        "web",
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:keploy/keploy",
+      "type": "repo",
+      "title": "keploy/keploy",
+      "summaryOriginal": "Open-source platform for creating safe, isolated production sandboxes for API, integration, and E2E testing.",
+      "url": "https://github.com/keploy/keploy",
+      "lang": "Go",
+      "tags": [
+        "agentic-ai",
+        "ai-testing-tool",
+        "api-testing",
+        "code-quality",
+        "mock",
+        "mock-data-generator",
+        "mock-framework",
+        "test-automation",
+        "test-automation-framework",
+        "test-generation",
+        "testing",
+        "testing-library",
+        "testing-tool",
+        "testing-tools"
+      ],
+      "metrics": {
+        "stars": 18403
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2022-01-19T10:40:31Z",
+      "updatedAt": "2026-08-18T12:42:10Z",
+      "categories": [
+        "ai-agents",
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:tractorjuice/arc-kit",
+      "type": "repo",
+      "title": "tractorjuice/arc-kit",
+      "summaryOriginal": "The Enterprise Architecture Governance Harness — strategy, architecture, delivery, and assurance using AI coding assistants",
+      "url": "https://github.com/tractorjuice/arc-kit",
+      "lang": "JavaScript",
+      "tags": [
+        "ai-agents",
+        "ai-governance",
+        "architecture-decision-records",
+        "architecture-governance",
+        "arckit",
+        "claude-code",
+        "codex-cli",
+        "compliance",
+        "enterprise-architecture",
+        "gemini-cli",
+        "github-copilot",
+        "govtech",
+        "mcp",
+        "model-context-protocol",
+        "opencode",
+        "procurement",
+        "public-sector",
+        "requirements-engineering",
+        "software-architecture",
+        "traceability"
+      ],
+      "metrics": {
+        "stars": 2177
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2025-10-14T10:25:11Z",
+      "updatedAt": "2026-08-18T09:37:04Z",
+      "categories": [
+        "ai-agents",
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:Appllama/top-welcome-screens",
+      "type": "repo",
+      "title": "Appllama/top-welcome-screens",
+      "summaryOriginal": "How top iOS apps say hello | 10 animated welcome screens inspired by top-earning apps. Rebuilt in React Native + Expo.",
+      "url": "https://github.com/Appllama/top-welcome-screens",
+      "lang": "TypeScript",
+      "tags": [
+        "design",
+        "design-patterns",
+        "expo",
+        "ios",
+        "ios-app",
+        "motion",
+        "react",
+        "react-native",
+        "uiux-design"
+      ],
+      "metrics": {
+        "stars": 528
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-08-08T12:44:52Z",
+      "updatedAt": "2026-08-08T15:54:13Z",
+      "categories": [
+        "web",
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:storybookjs/storybook",
+      "type": "repo",
+      "title": "storybookjs/storybook",
+      "summaryOriginal": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation",
+      "url": "https://github.com/storybookjs/storybook",
+      "lang": "TypeScript",
+      "tags": [
+        "angular",
+        "components",
+        "design-systems",
+        "documentation",
+        "html",
+        "javascript",
+        "react",
+        "react-native",
+        "stories",
+        "storybook",
+        "styleguide",
+        "svelte",
+        "testing",
+        "typescript",
+        "ui",
+        "vite",
+        "vue",
+        "web-components",
+        "webpack",
+        "workshop"
+      ],
+      "metrics": {
+        "stars": 90867
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2016-03-18T04:23:44Z",
+      "updatedAt": "2026-08-18T12:50:47Z",
+      "categories": [
+        "web",
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:hoppscotch/hoppscotch",
+      "type": "repo",
+      "title": "hoppscotch/hoppscotch",
+      "summaryOriginal": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
+      "url": "https://github.com/hoppscotch/hoppscotch",
+      "lang": "TypeScript",
+      "tags": [
+        "api",
+        "api-client",
+        "api-rest",
+        "api-testing",
+        "developer-tools",
+        "graphql",
+        "http",
+        "http-client",
+        "pwa",
+        "rest",
+        "rest-api",
+        "spa",
+        "testing",
+        "testing-tools",
+        "tools",
+        "vue",
+        "vuejs",
+        "websocket"
+      ],
+      "metrics": {
+        "stars": 80051
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2019-08-21T13:15:24Z",
+      "updatedAt": "2026-08-16T19:17:55Z",
+      "categories": [
+        "web",
+        "backend",
+        "engineering",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:idavidov13/agentic-playwright",
+      "type": "repo",
+      "title": "idavidov13/agentic-playwright",
+      "summaryOriginal": "Production-grade Playwright + TypeScript Scaffold for Agentic Testing. Harness for all major AI coding agents baked in.",
+      "url": "https://github.com/idavidov13/agentic-playwright",
+      "lang": "Python",
+      "tags": [
+        "agentic",
+        "ai",
+        "api-testing",
+        "claude-code",
+        "cursor",
+        "e2e",
+        "github-copilot",
+        "playwright",
+        "test-automation",
+        "testing",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 104
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-08-13T08:12:20Z",
+      "updatedAt": "2026-08-13T13:09:18Z",
+      "categories": [
+        "web",
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:karatelabs/karate",
+      "type": "repo",
+      "title": "karatelabs/karate",
+      "summaryOriginal": "Test Automation Made Simple",
+      "url": "https://github.com/karatelabs/karate",
+      "lang": "Java",
+      "tags": [
+        "api-testing",
+        "assertions",
+        "automated-testing",
+        "automation",
+        "bdd",
+        "contract-testing",
+        "cucumber",
+        "developer-tools",
+        "load-testing",
+        "microservices",
+        "mock-server",
+        "test-automation",
+        "testing",
+        "testing-framework",
+        "testing-tools",
+        "webdriver"
+      ],
+      "metrics": {
+        "stars": 8924
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2017-02-07T15:59:17Z",
+      "updatedAt": "2026-08-17T10:28:58Z",
+      "categories": [
+        "backend",
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:GanyuanRan/Aegis",
+      "type": "repo",
+      "title": "GanyuanRan/Aegis",
+      "summaryOriginal": "Make AI coding agents architecture-aware: baseline-first, evidence-verified, drift-checked, and safe across long tasks.",
+      "url": "https://github.com/GanyuanRan/Aegis",
+      "lang": "Python",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "ai-coding",
+        "architecture-driven-development",
+        "awsome-coding-plugin",
+        "baseline-first",
+        "claude-code",
+        "codex",
+        "coding-agents",
+        "dive",
+        "dsh-plugin",
+        "evidence-driven",
+        "first-principles",
+        "opencode",
+        "software-architecture",
+        "spec-driven-development",
+        "spec-kit"
+      ],
+      "metrics": {
+        "stars": 1053
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2026-04-30T17:40:49Z",
+      "updatedAt": "2026-08-18T01:16:08Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:iluwatar/java-design-patterns",
+      "type": "repo",
+      "title": "iluwatar/java-design-patterns",
+      "summaryOriginal": "Design patterns implemented in Java",
+      "url": "https://github.com/iluwatar/java-design-patterns",
+      "lang": "Java",
+      "tags": [
+        "awesome-list",
+        "design-patterns",
+        "hacktoberfest",
+        "java",
+        "principles",
+        "snippets",
+        "snippets-collection",
+        "snippets-library"
+      ],
+      "metrics": {
+        "stars": 94579
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2014-08-09T16:45:18Z",
+      "updatedAt": "2026-08-17T22:42:48Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:taiga-family/taiga-ui",
+      "type": "repo",
+      "title": "taiga-family/taiga-ui",
+      "summaryOriginal": "Angular components library for awesome people",
+      "url": "https://github.com/taiga-family/taiga-ui",
+      "lang": "TypeScript",
+      "tags": [
+        "angular",
+        "best-practices",
+        "cdk",
+        "component-library",
+        "components",
+        "design-patterns",
+        "figma",
+        "hacktoberfest",
+        "mobile",
+        "resposive-design",
+        "typescript",
+        "ui",
+        "ui-components",
+        "ui-design",
+        "uikit",
+        "web"
+      ],
+      "metrics": {
+        "stars": 4037
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2020-09-25T16:09:18Z",
+      "updatedAt": "2026-08-18T12:29:57Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:ardalis/GuardClauses",
+      "type": "repo",
+      "title": "ardalis/GuardClauses",
+      "summaryOriginal": "A simple package with guard clause extensions.",
+      "url": "https://github.com/ardalis/GuardClauses",
+      "lang": "C#",
+      "tags": [
+        "clean-architecture",
+        "clean-code",
+        "design-patterns",
+        "dotnet",
+        "dotnet-core",
+        "guard",
+        "guard-clause",
+        "guard-clauses",
+        "hacktoberfest",
+        "pattern",
+        "patterns"
+      ],
+      "metrics": {
+        "stars": 3311
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2017-09-12T19:02:33Z",
+      "updatedAt": "2026-08-17T12:23:29Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:layer5io/layer5",
+      "type": "repo",
+      "title": "layer5io/layer5",
+      "summaryOriginal": "Layer5, expect more from your infrastructure",
+      "url": "https://github.com/layer5io/layer5",
+      "lang": "JavaScript",
+      "tags": [
+        "cloud",
+        "cloud-native",
+        "cncf",
+        "configuration-management",
+        "design-patterns",
+        "design-system",
+        "gatsbyjs",
+        "hacktoberfest",
+        "internship",
+        "kanvas",
+        "kubernetes",
+        "lfx",
+        "management-plane",
+        "meshery",
+        "orchestration",
+        "playground",
+        "visual-designer",
+        "visualization"
+      ],
+      "metrics": {
+        "stars": 1094
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2018-06-07T02:30:12Z",
+      "updatedAt": "2026-08-18T12:16:00Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:ast-grep/ast-grep",
+      "type": "repo",
+      "title": "ast-grep/ast-grep",
+      "summaryOriginal": "⚡A CLI tool for code structural search, lint and rewriting. Written in Rust",
+      "url": "https://github.com/ast-grep/ast-grep",
+      "lang": "Rust",
+      "tags": [
+        "ast",
+        "babel",
+        "codemod",
+        "codereview",
+        "command-line",
+        "command-line-tool",
+        "grep",
+        "linter",
+        "refactoring",
+        "rust",
+        "search",
+        "static-analysis",
+        "structural-search",
+        "tree-sitter",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 15566
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2022-07-01T19:21:00Z",
+      "updatedAt": "2026-08-17T10:35:51Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:pre-commit/pre-commit",
+      "type": "repo",
+      "title": "pre-commit/pre-commit",
+      "summaryOriginal": "A framework for managing and maintaining multi-language pre-commit hooks.",
+      "url": "https://github.com/pre-commit/pre-commit",
+      "lang": "Python",
+      "tags": [
+        "git",
+        "linter",
+        "pre-commit",
+        "python",
+        "refactoring"
+      ],
+      "metrics": {
+        "stars": 15507
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2014-03-13T00:39:38Z",
+      "updatedAt": "2026-08-17T23:37:08Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:pre-commit/pre-commit-hooks",
+      "type": "repo",
+      "title": "pre-commit/pre-commit-hooks",
+      "summaryOriginal": "Some out-of-the-box hooks for pre-commit",
+      "url": "https://github.com/pre-commit/pre-commit-hooks",
+      "lang": "Python",
+      "tags": [
+        "git",
+        "linter",
+        "pre-commit",
+        "python",
+        "refactoring"
+      ],
+      "metrics": {
+        "stars": 6661
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2014-03-13T15:21:46Z",
+      "updatedAt": "2026-08-17T23:37:42Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:repowise-dev/repowise",
+      "type": "repo",
+      "title": "repowise-dev/repowise",
+      "summaryOriginal": "Codebase intelligence for AI and humans: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP.",
+      "url": "https://github.com/repowise-dev/repowise",
+      "lang": "Python",
+      "tags": [
+        "ai",
+        "code-complexity",
+        "code-health",
+        "code-intelligence",
+        "code-quality",
+        "dead-code",
+        "developer-tools",
+        "documentation",
+        "git-analytics",
+        "mcp",
+        "open-source",
+        "python",
+        "refactoring",
+        "static-analysis",
+        "technical-debt"
+      ],
+      "metrics": {
+        "stars": 5983
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2026-03-23T09:12:28Z",
+      "updatedAt": "2026-08-18T12:31:13Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:biomejs/gritql",
+      "type": "repo",
+      "title": "biomejs/gritql",
+      "summaryOriginal": "GritQL is a query language for searching, linting, and modifying code.",
+      "url": "https://github.com/biomejs/gritql",
+      "lang": "Rust",
+      "tags": [
+        "ast",
+        "codemod",
+        "javascript",
+        "linter",
+        "refactoring",
+        "rust",
+        "search",
+        "tree-sitter"
+      ],
+      "metrics": {
+        "stars": 4574
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2024-03-08T23:18:51Z",
+      "updatedAt": "2026-08-16T03:41:31Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:openrewrite/rewrite",
+      "type": "repo",
+      "title": "openrewrite/rewrite",
+      "summaryOriginal": "Automated mass refactoring of source code.",
+      "url": "https://github.com/openrewrite/rewrite",
+      "lang": "Java",
+      "tags": [
+        "abstract-syntax-tree",
+        "ast",
+        "code-search",
+        "java",
+        "refactoring",
+        "refactoring-tools"
+      ],
+      "metrics": {
+        "stars": 3654
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2020-05-12T20:16:14Z",
+      "updatedAt": "2026-08-18T11:23:50Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:python-rope/rope",
+      "type": "repo",
+      "title": "python-rope/rope",
+      "summaryOriginal": "a python refactoring library",
+      "url": "https://github.com/python-rope/rope",
+      "lang": "Python",
+      "tags": [
+        "ast",
+        "python",
+        "refactoring",
+        "refactoring-tools"
+      ],
+      "metrics": {
+        "stars": 2233
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2013-11-30T15:30:20Z",
+      "updatedAt": "2026-08-16T15:08:33Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:puppeteer/puppeteer",
+      "type": "repo",
+      "title": "puppeteer/puppeteer",
+      "summaryOriginal": "JavaScript API for Chrome and Firefox",
+      "url": "https://github.com/puppeteer/puppeteer",
+      "lang": "TypeScript",
+      "tags": [
+        "automation",
+        "chrome",
+        "chromium",
+        "developer-tools",
+        "firefox",
+        "headless-chrome",
+        "node-module",
+        "testing",
+        "web"
+      ],
+      "metrics": {
+        "stars": 95461
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2017-05-09T22:16:13Z",
+      "updatedAt": "2026-08-18T09:04:58Z",
+      "categories": [
+        "engineering",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:microsoft/playwright",
+      "type": "repo",
+      "title": "microsoft/playwright",
+      "summaryOriginal": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.",
+      "url": "https://github.com/microsoft/playwright",
+      "lang": "TypeScript",
+      "tags": [
+        "automation",
+        "chrome",
+        "chromium",
+        "e2e-testing",
+        "electron",
+        "end-to-end-testing",
+        "firefox",
+        "javascript",
+        "playwright",
+        "test",
+        "test-automation",
+        "testing",
+        "testing-tools",
+        "web",
+        "webkit"
+      ],
+      "metrics": {
+        "stars": 94675
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2019-11-15T18:32:42Z",
+      "updatedAt": "2026-08-18T06:48:24Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:usebruno/bruno",
+      "type": "repo",
+      "title": "usebruno/bruno",
+      "summaryOriginal": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
+      "url": "https://github.com/usebruno/bruno",
+      "lang": "JavaScript",
+      "tags": [
+        "api-client",
+        "api-testing",
+        "automation",
+        "developer-tools",
+        "git",
+        "graphql-client",
+        "http-client",
+        "javascript",
+        "openapi",
+        "openapi3",
+        "opensource",
+        "rest-api",
+        "testing",
+        "testing-tools"
+      ],
+      "metrics": {
+        "stars": 46396
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2022-09-27T20:51:45Z",
+      "updatedAt": "2026-08-18T10:54:34Z",
+      "categories": [
+        "engineering",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:jestjs/jest",
+      "type": "repo",
+      "title": "jestjs/jest",
+      "summaryOriginal": "Delightful JavaScript Testing.",
+      "url": "https://github.com/jestjs/jest",
+      "lang": "TypeScript",
+      "tags": [
+        "easy",
+        "expectation",
+        "facebook",
+        "immersive",
+        "javascript",
+        "painless",
+        "painless-javascript-testing",
+        "snapshot",
+        "testing"
+      ],
+      "metrics": {
+        "stars": 45467
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2013-12-10T00:18:04Z",
+      "updatedAt": "2026-08-18T11:25:23Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:stretchr/testify",
+      "type": "repo",
+      "title": "stretchr/testify",
+      "summaryOriginal": "A toolkit with common assertions and mocks that plays nicely with the standard library",
+      "url": "https://github.com/stretchr/testify",
+      "lang": "Go",
+      "tags": [
+        "assertions",
+        "go",
+        "golang",
+        "mocking",
+        "testify",
+        "testing",
+        "toolkit"
+      ],
+      "metrics": {
+        "stars": 26162
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2012-10-16T16:43:17Z",
+      "updatedAt": "2026-08-17T08:24:06Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:promptfoo/promptfoo",
+      "type": "repo",
+      "title": "promptfoo/promptfoo",
+      "summaryOriginal": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration. Used by OpenAI and Anthropic.",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "lang": "TypeScript",
+      "tags": [
+        "ci",
+        "ci-cd",
+        "cicd",
+        "evaluation",
+        "evaluation-framework",
+        "llm",
+        "llm-eval",
+        "llm-evaluation",
+        "llm-evaluation-framework",
+        "llmops",
+        "pentesting",
+        "prompt-engineering",
+        "prompt-testing",
+        "prompts",
+        "rag",
+        "red-teaming",
+        "testing",
+        "vulnerability-scanners"
+      ],
+      "metrics": {
+        "stars": 24337
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2023-04-28T15:48:49Z",
+      "updatedAt": "2026-08-18T03:57:47Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:quii/learn-go-with-tests",
+      "type": "repo",
+      "title": "quii/learn-go-with-tests",
+      "summaryOriginal": "Learn Go with test-driven development",
+      "url": "https://github.com/quii/learn-go-with-tests",
+      "lang": "Go",
+      "tags": [
+        "go",
+        "golang",
+        "tdd",
+        "test-driven-development",
+        "testing"
+      ],
+      "metrics": {
+        "stars": 23820
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2018-03-02T11:41:14Z",
+      "updatedAt": "2026-08-18T09:28:22Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:mochajs/mocha",
+      "type": "repo",
+      "title": "mochajs/mocha",
+      "summaryOriginal": "☕️ Classic, reliable, trusted test framework for Node.js and the browser",
+      "url": "https://github.com/mochajs/mocha",
+      "lang": "JavaScript",
+      "tags": [
+        "bdd",
+        "browser",
+        "javascript",
+        "mocha",
+        "mochajs",
+        "node",
+        "nodejs",
+        "tdd",
+        "test",
+        "test-framework",
+        "testing",
+        "testing-tools"
+      ],
+      "metrics": {
+        "stars": 22902
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2011-03-07T18:44:25Z",
+      "updatedAt": "2026-08-17T11:08:45Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:Orange-OpenSource/hurl",
+      "type": "repo",
+      "title": "Orange-OpenSource/hurl",
+      "summaryOriginal": "Hurl, run and test HTTP requests with plain text.",
+      "url": "https://github.com/Orange-OpenSource/hurl",
+      "lang": "Rust",
+      "tags": [
+        "api-testing",
+        "cli",
+        "curl",
+        "http",
+        "http-client",
+        "integration-testing",
+        "testing",
+        "testing-tools"
+      ],
+      "metrics": {
+        "stars": 19151
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2020-08-25T14:50:56Z",
+      "updatedAt": "2026-08-18T03:35:51Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:jasmine/jasmine",
+      "type": "repo",
+      "title": "jasmine/jasmine",
+      "summaryOriginal": "Simple JavaScript testing framework for browsers and node.js",
+      "url": "https://github.com/jasmine/jasmine",
+      "lang": "JavaScript",
+      "tags": [
+        "jasmine",
+        "javascript",
+        "tdd",
+        "testing"
+      ],
+      "metrics": {
+        "stars": 15822
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2008-12-02T23:46:37Z",
+      "updatedAt": "2026-08-18T03:58:08Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:web-infra-dev/midscene",
+      "type": "repo",
+      "title": "web-infra-dev/midscene",
+      "summaryOriginal": "GUI Agent for E2E Testing",
+      "url": "https://github.com/web-infra-dev/midscene",
+      "lang": "TypeScript",
+      "tags": [
+        "browser-use",
+        "computer-use",
+        "e2e-testing",
+        "gpt-operator",
+        "gui-agent",
+        "javascript",
+        "phone-use",
+        "testing"
+      ],
+      "metrics": {
+        "stars": 14605
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2024-07-23T04:03:50Z",
+      "updatedAt": "2026-08-18T12:48:52Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:pytest-dev/pytest",
+      "type": "repo",
+      "title": "pytest-dev/pytest",
+      "summaryOriginal": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing",
+      "url": "https://github.com/pytest-dev/pytest",
+      "lang": "Python",
+      "tags": [
+        "hacktoberfest",
+        "python",
+        "test",
+        "testing",
+        "unit-testing"
+      ],
+      "metrics": {
+        "stars": 14425
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2015-06-15T20:28:27Z",
+      "updatedAt": "2026-08-18T11:27:59Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:phpstan/phpstan",
+      "type": "repo",
+      "title": "phpstan/phpstan",
+      "summaryOriginal": "PHP Static Analysis Tool - discover bugs in your code without running it!",
+      "url": "https://github.com/phpstan/phpstan",
+      "lang": "PHP",
+      "tags": [
+        "php",
+        "php7",
+        "phpstan",
+        "static-analysis",
+        "static-analyzer",
+        "static-code-analysis",
+        "testing"
+      ],
+      "metrics": {
+        "stars": 14073
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2016-01-04T18:22:16Z",
+      "updatedAt": "2026-08-18T11:55:15Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:robotframework/robotframework",
+      "type": "repo",
+      "title": "robotframework/robotframework",
+      "summaryOriginal": "Generic automation framework for acceptance testing and RPA",
+      "url": "https://github.com/robotframework/robotframework",
+      "lang": "Python",
+      "tags": [
+        "attd",
+        "automation",
+        "bdd",
+        "python",
+        "robotframework",
+        "rpa",
+        "testautomation",
+        "testing"
+      ],
+      "metrics": {
+        "stars": 11825
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2014-06-27T11:10:38Z",
+      "updatedAt": "2026-08-18T11:22:53Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:pestphp/pest",
+      "type": "repo",
+      "title": "pestphp/pest",
+      "summaryOriginal": "The elegant testing framework for PHP developers and AI agents.",
+      "url": "https://github.com/pestphp/pest",
+      "lang": "PHP",
+      "tags": [
+        "framework",
+        "pest",
+        "php",
+        "testing"
+      ],
+      "metrics": {
+        "stars": 11666
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2020-03-11T20:36:55Z",
+      "updatedAt": "2026-08-16T14:08:46Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:foundry-rs/foundry",
+      "type": "repo",
+      "title": "foundry-rs/foundry",
+      "summaryOriginal": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.",
+      "url": "https://github.com/foundry-rs/foundry",
+      "lang": "Rust",
+      "tags": [
+        "alloy",
+        "blockchain",
+        "bytecode",
+        "compiler",
+        "compilers",
+        "dapp",
+        "eth",
+        "ethereum",
+        "evm",
+        "framework",
+        "fuzzing",
+        "ir",
+        "rust",
+        "smart-contracts",
+        "solidity",
+        "tempo",
+        "testing",
+        "tooling",
+        "toolkit",
+        "vyper"
+      ],
+      "metrics": {
+        "stars": 10570
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2021-09-08T11:23:11Z",
+      "updatedAt": "2026-08-18T12:51:06Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:HypothesisWorks/hypothesis",
+      "type": "repo",
+      "title": "HypothesisWorks/hypothesis",
+      "summaryOriginal": "The property-based testing library for Python",
+      "url": "https://github.com/HypothesisWorks/hypothesis",
+      "lang": "Python",
+      "tags": [
+        "fuzzing",
+        "property-based-testing",
+        "python",
+        "testing"
+      ],
+      "metrics": {
+        "stars": 8895
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2013-03-10T13:51:19Z",
+      "updatedAt": "2026-08-16T22:58:11Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:react-cosmos/react-cosmos",
+      "type": "repo",
+      "title": "react-cosmos/react-cosmos",
+      "summaryOriginal": "Sandbox for developing and testing UI components in isolation",
+      "url": "https://github.com/react-cosmos/react-cosmos",
+      "lang": "TypeScript",
+      "tags": [
+        "components",
+        "devtools",
+        "react",
+        "sandbox",
+        "testing",
+        "ui"
+      ],
+      "metrics": {
+        "stars": 8687
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2014-02-05T18:48:27Z",
+      "updatedAt": "2026-08-17T19:36:17Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:autoscrape-labs/pydoll",
+      "type": "repo",
+      "title": "autoscrape-labs/pydoll",
+      "summaryOriginal": "Pydoll is a library for automating chromium-based browsers without a WebDriver, offering realistic interactions.",
+      "url": "https://github.com/autoscrape-labs/pydoll",
+      "lang": "Python",
+      "tags": [
+        "anti-detection",
+        "automation",
+        "browser-automation",
+        "cdp",
+        "chromium",
+        "crawler",
+        "e2e-tests",
+        "fingerprinting",
+        "headless",
+        "playwright",
+        "puppeteer",
+        "recaptcha-v3",
+        "scraping",
+        "selenium",
+        "testing",
+        "testing-tools",
+        "turnstile-solver",
+        "web-scraping",
+        "webdriver"
+      ],
+      "metrics": {
+        "stars": 7026
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2024-10-27T15:46:43Z",
+      "updatedAt": "2026-08-18T12:45:30Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:AFLplusplus/AFLplusplus",
+      "type": "repo",
+      "title": "AFLplusplus/AFLplusplus",
+      "summaryOriginal": "The fuzzer afl++ is afl with community patches, qemu 5.1 upgrade, collision-free coverage, enhanced laf-intel & redqueen, AFLfast++ power schedules, MOpt mutators, unicorn_mode, and a lot more!",
+      "url": "https://github.com/AFLplusplus/AFLplusplus",
+      "lang": "C",
+      "tags": [
+        "afl",
+        "afl-compiler",
+        "afl-fuzz",
+        "afl-fuzzer",
+        "afl-gcc",
+        "fuzz-testing",
+        "fuzzer",
+        "fuzzer-afl",
+        "fuzzing",
+        "instrumentation",
+        "qemu",
+        "security",
+        "testing",
+        "unicorn-emulator",
+        "unicorn-mode"
+      ],
+      "metrics": {
+        "stars": 6720
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2019-05-28T14:29:06Z",
+      "updatedAt": "2026-08-18T12:40:07Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:google/syzkaller",
+      "type": "repo",
+      "title": "google/syzkaller",
+      "summaryOriginal": "syzkaller is an unsupervised coverage-guided kernel fuzzer",
+      "url": "https://github.com/google/syzkaller",
+      "lang": "Go",
+      "tags": [
+        "fuzz-testing",
+        "fuzzer",
+        "fuzzing",
+        "kernel",
+        "linux",
+        "security",
+        "security-tools",
+        "security-vulnerability",
+        "testing"
+      ],
+      "metrics": {
+        "stars": 6302
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2015-10-12T06:05:05Z",
+      "updatedAt": "2026-08-17T12:49:23Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:web-platform-tests/wpt",
+      "type": "repo",
+      "title": "web-platform-tests/wpt",
+      "summaryOriginal": "Test suites for Web platform specs — including WHATWG, W3C, and others",
+      "url": "https://github.com/web-platform-tests/wpt",
+      "lang": "HTML",
+      "tags": [
+        "blink",
+        "browser",
+        "dom",
+        "firefox",
+        "gecko",
+        "google-chrome",
+        "html",
+        "javascript",
+        "microsoft-edge",
+        "opera",
+        "safari",
+        "test-automation",
+        "test-runner",
+        "testing",
+        "w3c",
+        "web-development",
+        "web-standards",
+        "webkit",
+        "whatwg"
+      ],
+      "metrics": {
+        "stars": 6103
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2012-03-04T12:58:11Z",
+      "updatedAt": "2026-08-18T12:49:31Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:maildev/maildev",
+      "type": "repo",
+      "title": "maildev/maildev",
+      "summaryOriginal": ":mailbox: SMTP Server + Web Interface for viewing and testing emails during development.",
+      "url": "https://github.com/maildev/maildev",
+      "lang": "TypeScript",
+      "tags": [
+        "developer-tools",
+        "development",
+        "docker",
+        "mailcatcher",
+        "maildev",
+        "nodejs",
+        "nodemailer",
+        "smtp",
+        "smtp-server",
+        "testing"
+      ],
+      "metrics": {
+        "stars": 5991
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2013-03-31T19:37:09Z",
+      "updatedAt": "2026-08-17T14:32:00Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:goss-org/goss",
+      "type": "repo",
+      "title": "goss-org/goss",
+      "summaryOriginal": "Quick and Easy server testing/validation",
+      "url": "https://github.com/goss-org/goss",
+      "lang": "Go",
+      "tags": [
+        "devops",
+        "devops-tools",
+        "docker",
+        "go",
+        "golang",
+        "goss",
+        "health-check",
+        "health-endpoint",
+        "infrastructure-as-code",
+        "linux",
+        "nagios",
+        "sensu",
+        "tap",
+        "tdd",
+        "tdd-utilities",
+        "testing",
+        "testing-tools"
+      ],
+      "metrics": {
+        "stars": 5949
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2015-10-01T23:13:01Z",
+      "updatedAt": "2026-08-17T20:46:04Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:cypress-io/cypress-realworld-app",
+      "type": "repo",
+      "title": "cypress-io/cypress-realworld-app",
+      "summaryOriginal": "A payment application to demonstrate real-world usage of Cypress testing methods, patterns, and workflows.",
+      "url": "https://github.com/cypress-io/cypress-realworld-app",
+      "lang": "TypeScript",
+      "tags": [
+        "api-testing",
+        "code-coverage",
+        "component-testing",
+        "cypress",
+        "end-to-end-testing",
+        "testing",
+        "testing-practices"
+      ],
+      "metrics": {
+        "stars": 5909
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2020-01-06T18:39:43Z",
+      "updatedAt": "2026-08-17T07:00:18Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:dubzzz/fast-check",
+      "type": "repo",
+      "title": "dubzzz/fast-check",
+      "summaryOriginal": "Property based testing framework for JavaScript (like QuickCheck) written in TypeScript",
+      "url": "https://github.com/dubzzz/fast-check",
+      "lang": "TypeScript",
+      "tags": [
+        "faker",
+        "fuzzing",
+        "generative-testing",
+        "property-based-testing",
+        "quickcheck",
+        "tdd",
+        "testing",
+        "typescript",
+        "unit-testing"
+      ],
+      "metrics": {
+        "stars": 5103
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2017-10-30T23:41:11Z",
+      "updatedAt": "2026-08-18T04:27:10Z",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
     },
     {
       "id": "gh:zhaoxuya520/reverse-skill",
@@ -78,6 +1627,7 @@
         "totalScore": 212.9875
       },
       "source": "ossinsight",
+      "admitReason": "notable",
       "summaryEn": "AI-routed skill pack for reverse engineering and authorized pentesting, with on-demand tool bootstrapping for Claude Code, Cursor, and similar clients.",
       "summaryKo": "리버스 엔지니어링·인가된 침투테스트용 AI 라우팅 스킬팩, Claude Code·Cursor 등 지원.",
       "reasonEn": "New repo gaining early stars on GitHub",
@@ -85,27 +1635,9 @@
       "categories": [
         "backend",
         "engineering"
-      ]
-    },
-    {
-      "id": "gh:tt-a1i/archify",
-      "type": "repo",
-      "title": "tt-a1i/archify",
-      "summaryOriginal": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-      "url": "https://github.com/tt-a1i/archify",
-      "lang": "HTML",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 3,
-        "totalScore": 211.3061
-      },
-      "source": "ossinsight",
-      "summaryEn": "An agent skill that generates verifiable architecture and workflow diagrams as self-contained animated HTML.",
-      "summaryKo": "에이전트용 스킬. 아키텍처·워크플로우 다이어그램을 애니메이션 HTML로 생성.",
-      "categories": [
-        "ai-agents",
-        "engineering"
-      ]
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
     },
     {
       "id": "gh:JesseCHale/HaleHound-CYD",
@@ -119,15 +1651,70 @@
         "totalScore": 204.9745
       },
       "source": "ossinsight",
+      "admitReason": "notable",
       "categories": [
         "engineering"
-      ]
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:usestrix/strix",
+      "type": "repo",
+      "categories": [
+        "engineering"
+      ],
+      "title": "usestrix/strix",
+      "summaryOriginal": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "url": "https://github.com/usestrix/strix",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "stars": 54714,
+        "starsDelta": 598
+      },
+      "source": "github-trending",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
+    },
+    {
+      "id": "gh:nautechsystems/nautilus_trader",
+      "type": "repo",
+      "categories": [
+        "engineering"
+      ],
+      "title": "nautechsystems/nautilus_trader",
+      "summaryEn": "Rust-native algorithmic trading engine with deterministic, event-driven execution for production use.",
+      "summaryKo": "결정론적 이벤트 기반 실행을 지원하는 러스트 기반 프로덕션급 트레이딩 엔진.",
+      "summaryOriginal": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "reasonEn": "+120 stars today",
+      "reasonKo": "오늘 스타 120개 증가",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "lang": "Rust",
+      "tags": [],
+      "metrics": {
+        "stars": 26162,
+        "starsDelta": 120
+      },
+      "source": "github-trending",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
     },
     {
       "id": "gh:affaan-m/agentshield",
       "type": "repo",
+      "categories": [
+        "ai-agents",
+        "backend",
+        "engineering",
+        "devtools"
+      ],
       "title": "affaan-m/agentshield",
+      "summaryEn": "Security scanner for AI agents: detects vulnerabilities in agent configs, MCP servers, and tool permissions.",
+      "summaryKo": "AI 에이전트 보안 스캐너. 에이전트 설정·MCP 서버·툴 권한 취약점 탐지.",
       "summaryOriginal": "AI agent security scanner. Detect vulnerabilities in agent configurations, MCP servers, and tool permissions. Available as CLI, GitHub Action, ECC plugin, and GitHub App integration. 🛡️",
+      "reasonEn": "Slow, steady growth",
+      "reasonKo": "완만한 성장",
       "url": "https://github.com/affaan-m/agentshield",
       "lang": "TypeScript",
       "tags": [],
@@ -136,22 +1723,24 @@
         "totalScore": 204.8086
       },
       "source": "ossinsight",
-      "summaryEn": "Security scanner for AI agents: detects vulnerabilities in agent configs, MCP servers, and tool permissions.",
-      "summaryKo": "AI 에이전트 보안 스캐너. 에이전트 설정·MCP 서버·툴 권한 취약점 탐지.",
-      "reasonEn": "Slow, steady growth",
-      "reasonKo": "완만한 성장",
-      "categories": [
-        "ai-agents",
-        "backend",
-        "engineering",
-        "devtools"
-      ]
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
     },
     {
       "id": "gh:alibaba/open-code-review",
       "type": "repo",
+      "categories": [
+        "ai-models",
+        "ai-agents",
+        "data",
+        "engineering"
+      ],
       "title": "alibaba/open-code-review",
+      "summaryEn": "Alibaba's open-source code review tool combining deterministic pipelines with an LLM agent for line-level comments.",
+      "summaryKo": "알리바바 오픈소스 코드 리뷰 도구. 결정적 파이프라인 + LLM 에이전트로 라인 단위 코멘트.",
       "summaryOriginal": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "reasonEn": "Slow, steady growth",
+      "reasonKo": "완만한 성장",
       "url": "https://github.com/alibaba/open-code-review",
       "lang": "Go",
       "tags": [],
@@ -160,20 +1749,16 @@
         "totalScore": 204.7675
       },
       "source": "ossinsight",
-      "summaryEn": "Alibaba's open-source code review tool combining deterministic pipelines with an LLM agent for line-level comments.",
-      "summaryKo": "알리바바 오픈소스 코드 리뷰 도구. 결정적 파이프라인 + LLM 에이전트로 라인 단위 코멘트.",
-      "reasonEn": "Slow, steady growth",
-      "reasonKo": "완만한 성장",
-      "categories": [
-        "ai-models",
-        "ai-agents",
-        "data",
-        "engineering"
-      ]
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
     },
     {
       "id": "gh:OpenByteInc/QuantDinger",
       "type": "repo",
+      "categories": [
+        "ai-agents",
+        "engineering"
+      ],
       "title": "OpenByteInc/QuantDinger",
       "summaryOriginal": "AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading",
       "url": "https://github.com/OpenByteInc/QuantDinger",
@@ -184,14 +1769,16 @@
         "totalScore": 204.4063
       },
       "source": "ossinsight",
-      "categories": [
-        "ai-agents",
-        "engineering"
-      ]
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
     },
     {
       "id": "gh:CloakHQ/CloakBrowser",
       "type": "repo",
+      "categories": [
+        "web",
+        "engineering"
+      ],
       "title": "CloakHQ/CloakBrowser",
       "summaryOriginal": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
       "url": "https://github.com/CloakHQ/CloakBrowser",
@@ -202,16 +1789,23 @@
         "totalScore": 204.1993
       },
       "source": "ossinsight",
-      "categories": [
-        "web",
-        "engineering"
-      ]
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
     },
     {
       "id": "gh:citrolabs/ego-lite",
       "type": "repo",
+      "categories": [
+        "ai-agents",
+        "web",
+        "engineering"
+      ],
       "title": "citrolabs/ego-lite",
+      "summaryEn": "Browser built for AI agents to automate tasks, sharing your logged-in session with tools like Codex or Claude Code.",
+      "summaryKo": "Codex나 Claude Code 같은 AI 에이전트가 로그인된 브라우저 상태를 그대로 공유해 자동화하는 브라우저",
       "summaryOriginal": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "reasonEn": "Free, zero-config; steady growth from agent-browsing use cases.",
+      "reasonKo": "무료·제로설정, 에이전트 브라우징 수요로 꾸준한 스타 증가",
       "url": "https://github.com/citrolabs/ego-lite",
       "lang": "JavaScript",
       "tags": [],
@@ -220,15 +1814,8 @@
         "totalScore": 203.8426
       },
       "source": "ossinsight",
-      "summaryEn": "Browser built for AI agents to automate tasks, sharing your logged-in session with tools like Codex or Claude Code.",
-      "summaryKo": "Codex나 Claude Code 같은 AI 에이전트가 로그인된 브라우저 상태를 그대로 공유해 자동화하는 브라우저",
-      "reasonEn": "Free, zero-config; steady growth from agent-browsing use cases.",
-      "reasonKo": "무료·제로설정, 에이전트 브라우징 수요로 꾸준한 스타 증가",
-      "categories": [
-        "ai-agents",
-        "web",
-        "engineering"
-      ]
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-18T12:50:05.916Z"
     }
   ]
 }
