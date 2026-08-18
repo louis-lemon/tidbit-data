@@ -1,7 +1,7 @@
 {
   "_owner": "PC 요약 워커(services/summarizer)만 쓴다. 수집기·어드민은 읽기 전용. 상세는 README.md",
   "version": 1,
-  "updatedAt": "2026-08-15T00:55:10.458Z",
+  "updatedAt": "2026-08-18T08:57:57.404Z",
   "summaries": {
     "gh:macro-inc/macro": {
       "summaryEn": "Unified team workspace: email, chat, docs, tasks, agents, calls, and CRM linked together with shared AI memory.",
@@ -208,6 +208,206 @@
     "hf-paper:2608.09158": {
       "summaryEn": "Shows that low-frequency audio inaudible to humans can still influence and break audio-language models.",
       "summaryKo": "사람에게 들리지 않는 저주파 오디오 입력이 오디오-언어모델을 오작동시킬 수 있음을 보인 연구"
+    },
+    "gh:akitaonrails/ai-memory": {
+      "summaryEn": "Long-term memory layer for AI coding CLIs, letting you hand off context between different agent vendors.",
+      "summaryKo": "AI 코딩 CLI용 장기 기억 계층. 다른 에이전트 벤더 간 컨텍스트 인계 가능.",
+      "reasonEn": "Fast star growth (+207)",
+      "reasonKo": "스타 급증 (+207)"
+    },
+    "gh:mukul975/Anthropic-Cybersecurity-Skills": {
+      "summaryEn": "817 cybersecurity skills for AI agents, mapped to MITRE ATT&CK, NIST CSF, and other frameworks; works across 20+ agent platforms.",
+      "summaryKo": "AI 에이전트용 보안 스킬 817개, MITRE ATT&CK 등 6개 프레임워크 매핑, 20개+ 플랫폼 지원.",
+      "reasonEn": "28.6k stars, +198 this period",
+      "reasonKo": "스타 2.9만, 최근 +198"
+    },
+    "gh:stablyai/orca": {
+      "summaryEn": "An IDE for running many coding agents in parallel with your own subscriptions, on desktop, mobile, or VPS.",
+      "summaryKo": "여러 코딩 에이전트를 병렬 실행하는 IDE. 데스크톱·모바일·VPS 지원, 자기 구독 사용."
+    },
+    "gh:tt-a1i/archify": {
+      "summaryEn": "An agent skill that generates verifiable architecture and workflow diagrams as self-contained animated HTML.",
+      "summaryKo": "에이전트용 스킬. 아키텍처·워크플로우 다이어그램을 애니메이션 HTML로 생성."
+    },
+    "gh:bojieli/ai-agent-book": {
+      "summaryEn": "Open-source book (Chinese) on AI agent design principles and engineering practice, with PDF and per-chapter code.",
+      "summaryKo": "AI 에이전트 설계 원리와 실무를 다룬 중국어 오픈소스 책. PDF와 챕터별 코드 포함."
+    },
+    "gh:DeusData/codebase-memory-mcp": {
+      "summaryEn": "MCP server that indexes codebases into a knowledge graph for sub-millisecond code queries across 158 languages.",
+      "summaryKo": "코드베이스를 지식 그래프로 색인하는 MCP 서버. 158개 언어, 밀리초 이하 질의 지원."
+    },
+    "gh:Electricitysheep/dsh-handbook": {
+      "summaryEn": "In-depth handbook for DeepSeek Harness (dsh): install, plugin dev, performance tuning, and multi-agent benchmarks.",
+      "summaryKo": "DeepSeek Harness(dsh) 심화 핸드북. 설치·플러그인 개발·성능 튜닝·멀티 에이전트 비교."
+    },
+    "gh:seyedehsanhadi/sloptrim": {
+      "summaryEn": "Local tool that scores prose files your agent saves for AI-writing patterns, no network or model needed.",
+      "summaryKo": "에이전트가 저장한 글의 AI 작문 패턴을 로컬에서 점수화. 네트워크·모델 불필요."
+    },
+    "gh:Dominic789654/awesome-deepseek-harness": {
+      "summaryEn": "Curated list of plugins, skills, MCP servers, and orchestrators for DeepSeek Harness (DSH).",
+      "summaryKo": "DeepSeek Harness(DSH)용 플러그인·스킬·MCP 서버·오케스트레이터 큐레이션 목록."
+    },
+    "gh:bradeGithub/DSH-Plugins-Marketplace": {
+      "summaryEn": "Marketplace to browse, install, and update DeepSeek Harness plugins directly from its web GUI.",
+      "summaryKo": "DeepSeek Harness 웹 GUI에서 dsh 플러그인을 찾아 설치·업데이트하는 마켓플레이스."
+    },
+    "gh:thiientv/godmode": {
+      "summaryEn": "Production-grade agent skills covering planning, TDD, debugging, code review, releases, and incident response.",
+      "summaryKo": "계획·TDD·디버깅·리뷰·릴리스·인시던트 대응을 아우르는 프로덕션급 에이전트 스킬 모음."
+    },
+    "gh:memoket/memoket-kite": {
+      "summaryEn": "Vector-free long-term memory engine for AI agents, hitting SOTA on LoCoMo and LongMemEval with less context.",
+      "summaryKo": "벡터 없는 AI 에이전트 장기 기억 엔진. LoCoMo·LongMemEval에서 SOTA, 컨텍스트 사용량 적음."
+    },
+    "gh:diyanbogdanov/emend": {
+      "summaryEn": "AI tool that finds which lines a dependency version bump breaks, fixes them, and verifies tests still pass.",
+      "summaryKo": "의존성 버전 업그레이드로 깨지는 코드를 찾아 수정하고 테스트 통과까지 검증하는 AI 도구."
+    },
+    "gh:ifixai-ai/iFixAi": {
+      "summaryEn": "Audits whether an AI agent is actually doing what it's supposed to, run by a human or the agent itself, in under 2 minutes.",
+      "summaryKo": "AI 에이전트가 실제로 맡은 일을 하는지 사람 또는 에이전트 스스로 2분 내 감사.",
+      "reasonEn": "Active development, +6 stars",
+      "reasonKo": "활발한 개발, 스타 +6"
+    },
+    "gh:internet-court/internet-court-skill": {
+      "summaryEn": "Trust layer for agent-to-agent commerce: natural-language mandates, delegated permissions, payments, and dispute resolution.",
+      "summaryKo": "에이전트 간 상거래용 신뢰 계층. 자연어 위임, 결제, 에스크로, 분쟁 해결 지원.",
+      "reasonEn": "New, gaining early traction (+5)",
+      "reasonKo": "신규 공개, 초기 관심 (+5)"
+    },
+    "gh:blader/humanizer": {
+      "summaryEn": "Agent skill that strips telltale signs of AI-generated writing from text.",
+      "summaryKo": "텍스트에서 AI가 쓴 티를 지우는 에이전트 스킬.",
+      "reasonEn": "Small but steady star gains",
+      "reasonKo": "완만한 스타 증가"
+    },
+    "gh:didilili/ai-agents-from-zero": {
+      "summaryEn": "Chinese crash course on AI agents: LangChain, LangGraph, MCP, RAG, and interview prep, zero to production.",
+      "summaryKo": "AI 에이전트 중국어 속성 강의. LangChain·LangGraph·MCP·RAG·면접 대비, 실전 배포까지.",
+      "reasonEn": "Steady star gains",
+      "reasonKo": "꾸준한 스타 증가"
+    },
+    "gh:coreyhaines31/marketingskills": {
+      "summaryEn": "Marketing skills for Claude Code and AI agents: CRO, copywriting, SEO, analytics, and growth engineering.",
+      "summaryKo": "Claude Code·AI 에이전트용 마케팅 스킬. CRO·카피라이팅·SEO·분석·그로스 엔지니어링.",
+      "reasonEn": "Small but steady star gains",
+      "reasonKo": "완만한 스타 증가"
+    },
+    "gh:guocong-bincai/ai-interview-guide": {
+      "summaryEn": "Interview prep guide (Chinese) for AI application, agent, RAG, and FDE developer roles.",
+      "summaryKo": "AI 애플리케이션·에이전트·RAG·FDE 개발 직무 면접 대비 가이드(중국어).",
+      "reasonEn": "Slow, steady growth",
+      "reasonKo": "완만한 성장"
+    },
+    "gh:yynxxxxx/Codex-X": {
+      "summaryEn": "Cross-platform visual manager for OpenAI Codex desktop/CLI: provider switching, session sync, skills/MCP management.",
+      "summaryKo": "OpenAI Codex 데스크톱·CLI용 크로스플랫폼 관리 도구. 프로바이더 전환, 세션 동기화, 스킬/MCP 관리.",
+      "reasonEn": "Slow, steady growth",
+      "reasonKo": "완만한 성장"
+    },
+    "gh:affaan-m/agentshield": {
+      "summaryEn": "Security scanner for AI agents: detects vulnerabilities in agent configs, MCP servers, and tool permissions.",
+      "summaryKo": "AI 에이전트 보안 스캐너. 에이전트 설정·MCP 서버·툴 권한 취약점 탐지.",
+      "reasonEn": "Slow, steady growth",
+      "reasonKo": "완만한 성장"
+    },
+    "gh:letta-ai/letta-code": {
+      "summaryEn": "Stateful coding agents with persistent memory and identity that can learn and adapt over time.",
+      "summaryKo": "지속적인 기억과 정체성을 가진 상태 유지형 코딩 에이전트. 학습·적응 가능.",
+      "reasonEn": "Slow, steady growth",
+      "reasonKo": "완만한 성장"
+    },
+    "gh:alibaba/open-code-review": {
+      "summaryEn": "Alibaba's open-source code review tool combining deterministic pipelines with an LLM agent for line-level comments.",
+      "summaryKo": "알리바바 오픈소스 코드 리뷰 도구. 결정적 파이프라인 + LLM 에이전트로 라인 단위 코멘트.",
+      "reasonEn": "Slow, steady growth",
+      "reasonKo": "완만한 성장"
+    },
+    "hf-model:Qwen/Qwen3.8-27B-FP8": {
+      "summaryEn": "FP8-quantized Qwen3.8 27B vision-language model for image-text-to-text conversational tasks.",
+      "summaryKo": "Qwen3.8 27B의 FP8 양자화 버전. 이미지-텍스트 대화형 작업용 비전-언어 모델.",
+      "reasonEn": "High trending score, ~496k downloads",
+      "reasonKo": "트렌딩 점수 높음, 다운로드 약 49.6만"
+    },
+    "hf-model:orcarouter/Qwen3.8-27B-Uncensored-FP8": {
+      "summaryEn": "Uncensored, abliterated FP8 version of Qwen3.8 27B, aimed at red-teaming and unrestricted use cases.",
+      "summaryKo": "Qwen3.8 27B의 무검열(abliterated) FP8 버전. 레드팀·제약 없는 용도 대상.",
+      "reasonEn": "Strong trending score (412)",
+      "reasonKo": "트렌딩 점수 높음 (412)"
+    },
+    "hf-paper:2608.15669": {
+      "summaryEn": "Proposes model-based open-ended search for scientific discovery over spaces like molecules and programs.",
+      "summaryKo": "분자·프로그램 등 개방형 가설 공간에서 과학적 발견을 위한 모델 기반 탐색 기법 제안."
+    },
+    "hf-paper:2608.16765": {
+      "summaryEn": "A benchmark decomposing multi-reference image generation into atomic tasks for better diagnostic coverage.",
+      "summaryKo": "다중 참조 이미지 생성을 세부 태스크로 분해해 진단력을 높인 벤치마크."
+    },
+    "hf-paper:2608.15659": {
+      "summaryEn": "A synthetic video data engine for world exploration, generating rich geometry and correspondence annotations.",
+      "summaryKo": "세계 탐험용 합성 비디오 데이터 엔진. 지오메트리·대응 관계 주석을 풍부하게 생성."
+    },
+    "hf-paper:2608.15037": {
+      "summaryEn": "PRISM adapts audio-text models to severe acoustic noise via self-supervised manifold denoising, no noisy labels needed.",
+      "summaryKo": "PRISM은 자기지도 매니폴드 디노이징으로 심한 음향 노이즈에서 오디오-텍스트 모델을 적응시킴."
+    },
+    "hf-paper:2608.16072": {
+      "summaryEn": "Proposes saturation-aware advantage reweighting to fix reward scalarization issues in multi-reward RL training.",
+      "summaryKo": "다중 보상 RL 학습에서 보상 스칼라화 문제를 해결하는 saturation-aware 어드밴티지 재가중 기법.",
+      "reasonEn": "Highest upvotes among today's papers (10)",
+      "reasonKo": "오늘 논문 중 최다 추천 (10)"
+    },
+    "hf-paper:2608.14614": {
+      "summaryEn": "Built a 128-GPU cluster from retired datacenter GPUs to serve LLaMA-70B inference cheaply.",
+      "summaryKo": "폐기된 데이터센터 GPU 128개로 클러스터를 구축해 LLaMA-70B를 저비용 서빙."
+    },
+    "hf-paper:2608.16485": {
+      "summaryEn": "A high-fidelity latent representation for generating robust, structurally valid CAD boundary representations.",
+      "summaryKo": "구조적으로 타당한 CAD 경계 표현(B-Rep)을 생성하는 고정밀 잠재 표현 기법."
+    },
+    "hf-paper:2608.16435": {
+      "summaryEn": "Studies using a drone alongside a ground vehicle to offset payload-slowdown penalties in collection routing.",
+      "summaryKo": "지상 차량과 드론을 함께 써서 적재로 인한 속도 저하를 상쇄하는 수거 경로 문제 연구."
+    },
+    "hf-paper:2608.16143": {
+      "summaryEn": "Generates 3D speech animation for any character by leveraging video diffusion models, no rigging or training data needed.",
+      "summaryKo": "비디오 확산 모델을 활용해 리깅이나 학습 데이터 없이 임의 캐릭터의 3D 립싱크 애니메이션 생성."
+    },
+    "hf-paper:2608.16003": {
+      "summaryEn": "Finds that a prior audit-then-repair episode in an LLM verifier's context makes it more lenient on later checks.",
+      "summaryKo": "LLM 검증기가 이전에 감사-수정 과정을 거치면 이후 검사에서 더 관대해짐을 발견."
+    },
+    "hn:49316271": {
+      "summaryEn": "Survey of recurring design patterns and failure modes seen in real-world multi-agent AI systems.",
+      "summaryKo": "실제 멀티 에이전트 AI 시스템에서 반복되는 설계 패턴과 실패 유형 정리.",
+      "reasonEn": "Heavy discussion, 137 comments",
+      "reasonKo": "댓글 137개, 활발한 토론"
+    },
+    "hn:49285604": {
+      "summaryEn": "Reports that deceptive AI agent behavior is undermining user trust and adoption.",
+      "summaryKo": "AI 에이전트의 기만적 행동이 사용자 신뢰와 채택을 저해한다는 보고.",
+      "reasonEn": "212 comments, top HN discussion today",
+      "reasonKo": "댓글 212개, 오늘 최다 토론"
+    },
+    "hn:49269090": {
+      "summaryEn": "YC-backed startup launch: AI agents that search for and discover new materials.",
+      "summaryKo": "YC 지원 스타트업 런칭. AI 에이전트로 신소재를 탐색·발견.",
+      "reasonEn": "Strong launch-day upvotes (161)",
+      "reasonKo": "런칭 당일 추천 161, 반응 좋음"
+    },
+    "hn:49272484": {
+      "summaryEn": "A developer's personal write-up of their AI coding agent workflow and tool setup.",
+      "summaryKo": "한 개발자가 자신의 AI 코딩 에이전트 워크플로우와 도구 구성을 공유한 글.",
+      "reasonEn": "131 upvotes, resonating with devs",
+      "reasonKo": "추천 131, 개발자들 공감"
+    },
+    "hn:49283063": {
+      "summaryEn": "YC launch of Bullet, a coding agent positioned as faster than existing alternatives.",
+      "summaryKo": "YC 런칭. 기존 대비 더 빠른 코딩 에이전트 Bullet 소개.",
+      "reasonEn": "88 comments on launch day",
+      "reasonKo": "런칭 당일 댓글 88개"
     }
   }
 }
