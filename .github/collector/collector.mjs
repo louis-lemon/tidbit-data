@@ -45152,6 +45152,7 @@ var CARD_SOURCES = [
   "hn",
   "bundle"
 ];
+var ADMIT_REASONS = ["trending", "new", "notable"];
 var CATEGORY_SLUG_PATTERN = /^[a-z][a-z0-9-]*$/;
 var CARD_ID_PATTERN = new RegExp(`^(?:${CARD_ID_PREFIXES.join("|")}):.+$`);
 var bundleOnlyTypes = BUNDLE_ONLY_CARD_TYPES;
@@ -45193,7 +45194,20 @@ var CardObjectSchema = external_exports.object({
    * 마지막 활동 시각(repo의 push). `publishedAt`과 나뉘어야 8년 된 저장소가 이번 주에 다시
    * 움직였다는 것을 카드가 말할 수 있다 — 둘을 한 칸에 합치면 오래된 것이 새것으로 보인다.
    */
-  updatedAt: external_exports.iso.datetime({ offset: true }).optional()
+  updatedAt: external_exports.iso.datetime({ offset: true }).optional(),
+  /**
+   * **우리가 이 카드를 처음 본 시각.** 누적 풀(D20)의 나이 기준이고 재수집해도 변하지 않는다 —
+   * 갱신하면 매 run마다 모든 카드가 새것이 되어 보존 기간이 영영 만료되지 않는다.
+   *
+   * optional인 것은 **이행 때문이다.** 이 필드가 생기기 전에 발행된 카드가 이미 라이브에 있고,
+   * required로 만들면 수집기가 이전본을 파싱하지 못해 **누적 풀이 통째로 빈 채로 시작한다**
+   * (`빈 이전본으로 진행`이 설계된 경로라 조용히 일어난다). 전량 백필을 확인한 뒤 조인다.
+   */
+  firstSeenAt: external_exports.iso.datetime({ offset: true }).optional(),
+  /** 마지막으로 수집에 잡힌 시각. 보존 기간과 상한 정리(D20)의 기준이다. */
+  lastSeenAt: external_exports.iso.datetime({ offset: true }).optional(),
+  /** 편입 신호 (D21). optional인 이유는 `firstSeenAt`과 같다. */
+  admitReason: external_exports.enum(ADMIT_REASONS).optional()
 });
 var BUNDLE_SOURCE = "bundle";
 var BUNDLE_ID_PREFIX = "kb";
@@ -45361,6 +45375,42 @@ var appendMetrics = async (dataDir, line) => {
 `, "utf8");
 };
 
+// src/admit.ts
+var REPO_MIN_STARS = 100;
+var STARS_FLOOR_EXEMPT = ["github-trending"];
+var REASON_RANK = { trending: 0, new: 1, notable: 2 };
+var strongerReason = (a, b) => REASON_RANK[a] <= REASON_RANK[b] ? a : b;
+var DEFAULT_ADMIT_REASON = {
+  "github-trending": "trending",
+  "github-search": "notable",
+  ossinsight: "notable",
+  "hf-models": "notable",
+  "hf-papers": "notable",
+  hn: "notable",
+  bundle: "notable"
+};
+var starsOf = (card) => card.metrics?.stars;
+var passesGlobalFloor = (card) => {
+  if (card.type !== "repo") return true;
+  if (STARS_FLOOR_EXEMPT.includes(card.source)) return true;
+  const stars = starsOf(card);
+  return stars === void 0 || stars >= REPO_MIN_STARS;
+};
+var admit = (cards) => {
+  const admitted = [];
+  const rejectedBySource = {};
+  cards.forEach((card) => {
+    if (!passesGlobalFloor(card)) {
+      rejectedBySource[card.source] = (rejectedBySource[card.source] ?? 0) + 1;
+      return;
+    }
+    admitted.push(
+      card.admitReason === void 0 ? { ...card, admitReason: DEFAULT_ADMIT_REASON[card.source] } : card
+    );
+  });
+  return { admitted, rejectedBySource };
+};
+
 // src/classify.ts
 var R3_TRENDING_RANK_LIMIT = 10;
 var matchesTopics = (card, category) => {
@@ -45451,10 +45501,10 @@ var SEARCH_URL = "https://api.github.com/search/repositories";
 var PER_PAGE = 30;
 var TOPICS_PER_CATEGORY = 4;
 var MIN_REQUEST_INTERVAL_MS = 2200;
-var NEW_REPO_WINDOW_DAYS = 7;
+var NEW_REPO_WINDOW_DAYS = 14;
 var ACTIVE_REPO_WINDOW_DAYS = 3;
-var ACTIVE_REPO_MIN_STARS = 500;
-var NEW_REPO_MIN_STARS = 3;
+var ACTIVE_REPO_MIN_STARS = 1e3;
+var NEW_REPO_MIN_STARS = 100;
 var toDateFilter = (now, daysAgo) => {
   const at = new Date(now.getTime() - daysAgo * 24 * 60 * 60 * 1e3);
   return at.toISOString().slice(0, 10);
@@ -45463,7 +45513,7 @@ var buildQueries = (topics, now) => topics.slice(0, TOPICS_PER_CATEGORY).flatMap
   `created:>${toDateFilter(now, NEW_REPO_WINDOW_DAYS)} topic:${topic} stars:>=${NEW_REPO_MIN_STARS}`,
   `pushed:>${toDateFilter(now, ACTIVE_REPO_WINDOW_DAYS)} topic:${topic} stars:>${ACTIVE_REPO_MIN_STARS}`
 ]);
-var mapSearchItems = (items) => items.map((item) => {
+var mapSearchItems = (items, admitReason = "notable") => items.map((item) => {
   const description = collapseWhitespace(item.description ?? "");
   return {
     id: `gh:${item.full_name}`,
@@ -45475,6 +45525,7 @@ var mapSearchItems = (items) => items.map((item) => {
     tags: item.topics ?? [],
     metrics: compactMetrics({ stars: item.stargazers_count }),
     source: SOURCE,
+    admitReason,
     // 저장소의 나이와 마지막 활동. 둘 다 실어야 "오래됐지만 지금 움직인다"가 구분된다.
     ...item.created_at !== void 0 ? { publishedAt: item.created_at } : {},
     ...item.pushed_at !== void 0 ? { updatedAt: item.pushed_at } : {}
@@ -45490,19 +45541,22 @@ var waitForSlot = async () => {
     setTimeout(resolve, waitMs);
   });
 };
-var runQuery = async (query, token) => {
+var runQuery = async (query, token, admitReason) => {
   await waitForSlot();
   const url2 = `${SEARCH_URL}?q=${encodeURIComponent(query)}&sort=stars&order=desc&per_page=${PER_PAGE}`;
   const body = await httpGetJson(url2, {
     headers: { accept: "application/vnd.github+json", authorization: `Bearer ${token}` }
   });
-  return mapSearchItems(body.items ?? []);
+  return mapSearchItems(body.items ?? [], admitReason);
 };
+var reasonOf = (queryIndex) => queryIndex % 2 === 0 ? "new" : "notable";
 var fetchGithubSearch = async (ctx) => {
   if (ctx.githubToken === void 0) return [];
   const token = ctx.githubToken;
   const results = await Promise.all(
-    buildQueries(ctx.category.topics, ctx.now).map(async (query) => runQuery(query, token))
+    buildQueries(ctx.category.topics, ctx.now).map(
+      async (query, index2) => runQuery(query, token, reasonOf(index2))
+    )
   );
   return results.flat();
 };
@@ -60009,6 +60063,9 @@ var fetchGithubTrending = async (_ctx) => parseTrendingHtml(await httpGetText(TR
 var SOURCE3 = "hf-models";
 var HF_MODELS_URL = "https://huggingface.co/api/models?sort=trendingScore&limit=20";
 var SUMMARY_TAG_COUNT = 5;
+var MIN_LIKES = 50;
+var MIN_DOWNLOADS = 1e4;
+var isNotableModel = (model) => (model.likes ?? 0) >= MIN_LIKES || (model.downloads ?? 0) >= MIN_DOWNLOADS;
 var synthesizeSummary = (id, pipelineTag, tags) => {
   const parts = [
     pipelineTag !== void 0 && pipelineTag.length > 0 ? `${pipelineTag} model` : "model",
@@ -60032,15 +60089,19 @@ var mapModels = (models) => models.filter((model) => Boolean(model.id)).map((mod
       trendingScore: model.trendingScore
     }),
     source: SOURCE3,
+    // 엔드포인트가 `sort=trendingScore&limit=20`이라 여기 오는 것은 전부 상위권이다(D21).
+    admitReason: "trending",
     ...model.createdAt !== void 0 ? { publishedAt: model.createdAt } : {}
   };
 });
-var fetchHfModels = async (_ctx) => mapModels(await httpGetJson(HF_MODELS_URL));
+var fetchHfModels = async (_ctx) => mapModels((await httpGetJson(HF_MODELS_URL)).filter(isNotableModel));
 
 // src/sources/hf-papers.ts
 var SOURCE4 = "hf-papers";
 var HF_PAPERS_URL = "https://huggingface.co/api/daily_papers?limit=20";
 var MAX_ABSTRACT_CHARS = 400;
+var MIN_UPVOTES = 10;
+var isNotablePaper = (entry) => (entry.paper?.upvotes ?? 0) >= MIN_UPVOTES;
 var mapPapers = (entries) => entries.filter(
   (entry) => Boolean(entry.paper?.id)
 ).map((entry) => {
@@ -60063,13 +60124,13 @@ var mapPapers = (entries) => entries.filter(
     ...paper.publishedAt !== void 0 ? { publishedAt: paper.publishedAt } : {}
   };
 });
-var fetchHfPapers = async (_ctx) => mapPapers(await httpGetJson(HF_PAPERS_URL));
+var fetchHfPapers = async (_ctx) => mapPapers((await httpGetJson(HF_PAPERS_URL)).filter(isNotablePaper));
 
 // src/sources/hn.ts
 var SOURCE5 = "hn";
 var SEARCH_URL2 = "https://hn.algolia.com/api/v1/search";
-var MIN_POINTS = 20;
-var WINDOW_DAYS = 7;
+var MIN_POINTS = 150;
+var WINDOW_DAYS = 30;
 var CARDS_PER_CATEGORY = 5;
 var buildSearchUrl = (query, now) => {
   const since = Math.floor((now.getTime() - WINDOW_DAYS * 24 * 60 * 60 * 1e3) / 1e3);
@@ -60129,9 +60190,12 @@ var mapTrendRows = (rows) => rows.filter((row) => Boolean(row.repo_name)).map((r
     source: SOURCE6
   };
 });
+var TRENDS_TOP_N = 30;
+var byScoreDesc = (a, b) => Number(b.total_score ?? 0) - Number(a.total_score ?? 0);
 var fetchOssInsightTrends = async (_ctx) => {
   const body = await httpGetJson(OSSINSIGHT_TRENDS_URL);
-  return mapTrendRows(body.data?.rows ?? []);
+  const rows = [...body.data?.rows ?? []].sort(byScoreDesc).slice(0, TRENDS_TOP_N);
+  return mapTrendRows(rows);
 };
 
 // src/collect.ts
@@ -60158,7 +60222,7 @@ var categoryTasks = (ctx, categories) => categories.flatMap((category) => [
   },
   {
     source: "hn",
-    attribution: { kind: "category", slug: category.slug },
+    attribution: { kind: "verify", slug: category.slug },
     run: async () => fetchHackerNews({ ...ctx, category })
   }
 ]);
@@ -60197,10 +60261,18 @@ var priorityOf = (source) => {
   const index2 = SOURCE_PRIORITY.indexOf(source);
   return index2 === -1 ? SOURCE_PRIORITY.length : index2;
 };
+var mergeReason = (winner, loser) => {
+  const a = winner.card.admitReason;
+  const b = loser.card.admitReason;
+  if (a === void 0) return b;
+  if (b === void 0) return a;
+  return strongerReason(a, b);
+};
 var merge3 = (winner, loser) => {
   const categories = [.../* @__PURE__ */ new Set([...winner.categories, ...loser.categories])];
+  const admitReason = mergeReason(winner, loser);
   return {
-    card: winner.card,
+    card: admitReason === void 0 ? winner.card : { ...winner.card, admitReason },
     categories,
     deferToLlm: categories.length === 0 && (winner.deferToLlm || loser.deferToLlm)
   };
@@ -60241,6 +60313,74 @@ var composeCategoryCards = (cards) => {
   );
   const filler = ordered.filter(isUnquotaed);
   return [...reserved, ...filler].slice(0, MAX_CARDS_PER_CATEGORY).sort(bySourcePriority);
+};
+
+// src/pool.ts
+var RETENTION_DAYS = {
+  repo: 90,
+  model: 90,
+  paper: 30,
+  article: 14,
+  knowledge: 90,
+  snippet: 90
+};
+var MAX_CARDS_PER_CATEGORY2 = 300;
+var daysBetween = (later, earlier) => (later.getTime() - new Date(earlier).getTime()) / 864e5;
+var carryText = (fresh, previous, en, ko) => {
+  if (fresh[en] !== void 0 || previous[en] === void 0) return {};
+  return { [en]: previous[en], ...previous[ko] !== void 0 && { [ko]: previous[ko] } };
+};
+var carryForward = (fresh, previous, now) => {
+  if (previous === void 0) return { ...fresh, firstSeenAt: now, lastSeenAt: now };
+  return {
+    ...fresh,
+    firstSeenAt: previous.firstSeenAt ?? now,
+    lastSeenAt: now,
+    ...carryText(fresh, previous, "summaryEn", "summaryKo"),
+    ...carryText(fresh, previous, "reasonEn", "reasonKo")
+  };
+};
+var keepStale = (card, now) => {
+  if (card.lastSeenAt === void 0) {
+    const stamp = now.toISOString();
+    return { ...card, firstSeenAt: card.firstSeenAt ?? stamp, lastSeenAt: stamp };
+  }
+  const retention = RETENTION_DAYS[card.type];
+  return daysBetween(now, card.lastSeenAt) <= retention ? card : void 0;
+};
+var mergeIntoPool = (input) => {
+  const now = input.now.toISOString();
+  const previousById = new Map(input.previous.map((card) => [card.id, card]));
+  const freshIds = new Set(input.fresh.map((card) => card.id));
+  let newCards = 0;
+  const merged = input.fresh.map((card) => {
+    const previous = previousById.get(card.id);
+    if (previous === void 0) newCards += 1;
+    return carryForward(card, previous, now);
+  });
+  const staleKept = [];
+  let expired = 0;
+  input.previous.forEach((card) => {
+    if (freshIds.has(card.id)) return;
+    const kept = keepStale(card, input.now);
+    if (kept === void 0) {
+      expired += 1;
+      return;
+    }
+    staleKept.push(kept);
+  });
+  const all = [...merged, ...staleKept];
+  const max = input.maxCards ?? MAX_CARDS_PER_CATEGORY2;
+  if (all.length <= max) return { cards: all, newCards, expired, trimmed: 0 };
+  const survivors = new Set(
+    [...all].sort((a, b) => (b.lastSeenAt ?? "").localeCompare(a.lastSeenAt ?? "")).slice(0, max).map((card) => card.id)
+  );
+  return {
+    cards: all.filter((card) => survivors.has(card.id)),
+    newCards,
+    expired,
+    trimmed: all.length - max
+  };
 };
 
 // src/sidecar.ts
@@ -60321,6 +60461,9 @@ var hfSlugs = (categories) => categories.filter((category) => category.hfSources
 var attribute = (batch, categories) => batch.cards.map((card, index2) => {
   if (batch.attribution.kind === "category") {
     return { card, categories: [batch.attribution.slug], deferToLlm: false };
+  }
+  if (batch.attribution.kind === "verify") {
+    return { card, categories: [], deferToLlm: true };
   }
   if (batch.attribution.kind === "hf") {
     return { card, categories: hfSlugs(categories), deferToLlm: false };
@@ -60407,9 +60550,12 @@ var applySummaries = (cards, summarizedById) => cards.map((card) => {
 });
 var runPipeline = async (input) => {
   const { cards: gathered, rejected } = await gatherCards(input);
+  const { admitted, rejectedBySource } = admit(gathered.map((entry) => entry.card));
+  const admittedById = new Map(admitted.map((card) => [card.id, card]));
+  const passed = gathered.filter((entry) => admittedById.has(entry.card.id)).map((entry) => ({ ...entry, card: admittedById.get(entry.card.id) ?? entry.card }));
   const previousById = withSummaries(previousCardsById(input.previousFeeds), input.summaries);
   const classified = await classifyDeferred(
-    mergeDuplicates(gathered),
+    mergeDuplicates(passed),
     previousById,
     input.summarize
   );
@@ -60429,9 +60575,19 @@ var runPipeline = async (input) => {
   const feeds = {};
   const invalidCategories = [];
   const cardsPublished = {};
+  let newCardsThisRun = 0;
   input.categories.forEach(({ slug }) => {
+    const pool = mergeIntoPool({
+      now: input.now,
+      fresh: applySummaries(composed.get(slug) ?? [], summarizedById),
+      previous: input.previousFeeds[slug]?.cards ?? []
+    });
+    newCardsThisRun += pool.newCards;
+    if (pool.expired > 0 || pool.trimmed > 0) {
+      input.logger.info(`POOL ${slug}: \uB9CC\uB8CC ${pool.expired}\uC7A5 \xB7 \uC0C1\uD55C\uCD08\uACFC ${pool.trimmed}\uC7A5`);
+    }
     const { feed, valid } = publishOrKeepPrevious(
-      buildFeed(slug, applySummaries(composed.get(slug) ?? [], summarizedById), generatedAt),
+      buildFeed(slug, pool.cards, generatedAt),
       input.previousFeeds[slug],
       input.logger
     );
@@ -60447,7 +60603,9 @@ var runPipeline = async (input) => {
     invalidCategories,
     rejectedSources: [...rejected],
     cardsBySource: countBy(publishable, (entry) => entry.card.source),
-    cardsPublished
+    cardsPublished,
+    newCardsThisRun,
+    rejectedByAdmission: rejectedBySource
   };
 };
 var buildIndex = (categories, feeds, generatedAt) => {
@@ -60478,7 +60636,9 @@ var SummaryItemSchema = external_exports.object({
   summaryKo: external_exports.string().optional(),
   reasonEn: external_exports.string().optional(),
   reasonKo: external_exports.string().optional(),
-  categories: external_exports.array(external_exports.string()).optional()
+  categories: external_exports.array(external_exports.string()).optional(),
+  /** D22 — 개발자에게 직업적으로 유의미한 기술 콘텐츠인가. HN 카드에만 묻는다. */
+  isDevRelevant: external_exports.boolean().optional()
 });
 var SummaryResponseSchema = external_exports.object({ summaries: external_exports.array(SummaryItemSchema) });
 var pickSummaryFields = (source) => Object.fromEntries(
@@ -60490,6 +60650,7 @@ var pickSummaryFields = (source) => Object.fromEntries(
 var reusePrevious = (entry, previous) => {
   const fields = pickSummaryFields(previous);
   if (Object.keys(fields).length === 0) return void 0;
+  if (entry.card.source === "hn") return void 0;
   return {
     card: { ...entry.card, ...fields },
     categories: entry.categories.length > 0 ? entry.categories : previous.categories,
@@ -60506,7 +60667,9 @@ var describeCard = (entry) => {
     `  original: ${card.summaryOriginal}`,
     card.tags.length > 0 ? `  tags: ${card.tags.join(", ")}` : void 0,
     metrics.length > 0 ? `  metrics: ${metrics}` : void 0,
-    entry.deferToLlm ? "  needsCategories: true" : void 0
+    entry.deferToLlm ? "  needsCategories: true" : void 0,
+    // 출처를 알려 줘야 "이건 HN에서 온 링크"라는 맥락 위에서 판정한다.
+    entry.card.source === "hn" ? "  needsRelevanceCheck: true" : void 0
   ].filter((line) => line !== void 0).join("\n");
 };
 var buildPrompt = (batch, categories) => {
@@ -60519,6 +60682,11 @@ var buildPrompt = (batch, categories) => {
     "- reasonKo: the same in Korean, <=60 characters.",
     "- categories: ONLY for items marked `needsCategories: true`. Pick from the list below;",
     "  return an empty array if none fit. Never invent a slug. Omit the field for other items.",
+    "- isDevRelevant: ONLY for items marked `needsRelevanceCheck: true`. True if this is",
+    "  technical content professionally useful to a software developer. Politics, general",
+    "  news, business, and culture are false even when they mention a technical word.",
+    "  **When in doubt, answer false.** Missing a story costs nothing; a political article",
+    "  in a developer feed costs trust.",
     "",
     "Categories:",
     catalog,
@@ -60555,12 +60723,14 @@ var requestBatch = async (batch, config2) => {
     return [];
   }
 };
+var passesRelevance = (entry, item) => entry.card.source !== "hn" || item.isDevRelevant === true;
 var applySummary = (entry, item, knownSlugs) => {
   if (item === void 0) return entry;
   const assigned = (item.categories ?? []).filter((slug) => knownSlugs.has(slug));
+  const categories = passesRelevance(entry, item) ? entry.categories.length > 0 ? entry.categories : assigned : [];
   return {
     card: { ...entry.card, ...pickSummaryFields(item) },
-    categories: entry.categories.length > 0 ? entry.categories : assigned,
+    categories,
     deferToLlm: false
   };
 };
@@ -60647,16 +60817,25 @@ var publish = async (options) => {
     cardsBySource: result.cardsBySource,
     rejectedSources: result.rejectedSources,
     invalidCategories: result.invalidCategories,
+    // `carryOverRatio`를 대체한다(D20 4번). 누적이 기본이면 carry-over는 항상 높아 신호가
+    // 안 되지만, **이 값이 0이면 소스가 통째로 죽은 것**이다.
+    newCardsThisRun: result.newCardsThisRun,
+    rejectedByAdmission: result.rejectedByAdmission,
     summariesApplied: summaries === void 0 ? 0 : Object.keys(summaries.summaries).length,
     blocked: overrides === void 0 ? 0 : overrides.blocklist.length
   });
   logger2.info(`cardsPublished ${JSON.stringify(result.cardsPublished)}`);
   logger2.info(`cardsBySource ${JSON.stringify(result.cardsBySource)}`);
+  logger2.info(`newCardsThisRun ${result.newCardsThisRun}`);
+  if (Object.keys(result.rejectedByAdmission).length > 0) {
+    logger2.info(`rejectedByAdmission ${JSON.stringify(result.rejectedByAdmission)}`);
+  }
   return {
     cardsPublished: result.cardsPublished,
     cardsBySource: result.cardsBySource,
     invalidCategories: result.invalidCategories,
     rejectedSources: result.rejectedSources,
+    newCardsThisRun: result.newCardsThisRun,
     generatedAt
   };
 };
