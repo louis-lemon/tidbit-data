@@ -60341,6 +60341,7 @@ var carryForward = (fresh, previous, now) => {
   };
 };
 var keepStale = (card, now) => {
+  if (!passesGlobalFloor(card)) return void 0;
   if (card.lastSeenAt === void 0) {
     const stamp = now.toISOString();
     return { ...card, firstSeenAt: card.firstSeenAt ?? stamp, lastSeenAt: stamp };
