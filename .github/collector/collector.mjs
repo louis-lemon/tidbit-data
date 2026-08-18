@@ -45504,7 +45504,7 @@ var MIN_REQUEST_INTERVAL_MS = 2200;
 var NEW_REPO_WINDOW_DAYS = 14;
 var ACTIVE_REPO_WINDOW_DAYS = 3;
 var ACTIVE_REPO_MIN_STARS = 1e3;
-var NEW_REPO_MIN_STARS = 100;
+var NEW_REPO_MIN_STARS = REPO_MIN_STARS;
 var toDateFilter = (now, daysAgo) => {
   const at = new Date(now.getTime() - daysAgo * 24 * 60 * 60 * 1e3);
   return at.toISOString().slice(0, 10);
@@ -60274,7 +60274,9 @@ var merge3 = (winner, loser) => {
   return {
     card: admitReason === void 0 ? winner.card : { ...winner.card, admitReason },
     categories,
-    deferToLlm: categories.length === 0 && (winner.deferToLlm || loser.deferToLlm)
+    deferToLlm: categories.length === 0 && (winner.deferToLlm || loser.deferToLlm),
+    // 한쪽이라도 검증이 필요하면 필요하다 — 합칠 때 느슨한 쪽으로 기울면 게이트가 열린다.
+    ...winner.needsRelevanceCheck === true || loser.needsRelevanceCheck === true ? { needsRelevanceCheck: true } : {}
   };
 };
 var mergeDuplicates = (entries) => {
@@ -60464,7 +60466,7 @@ var attribute = (batch, categories) => batch.cards.map((card, index2) => {
     return { card, categories: [batch.attribution.slug], deferToLlm: false };
   }
   if (batch.attribution.kind === "verify") {
-    return { card, categories: [], deferToLlm: true };
+    return { card, categories: [], deferToLlm: true, needsRelevanceCheck: true };
   }
   if (batch.attribution.kind === "hf") {
     return { card, categories: hfSlugs(categories), deferToLlm: false };
@@ -60553,7 +60555,10 @@ var runPipeline = async (input) => {
   const { cards: gathered, rejected } = await gatherCards(input);
   const { admitted, rejectedBySource } = admit(gathered.map((entry) => entry.card));
   const admittedById = new Map(admitted.map((card) => [card.id, card]));
-  const passed = gathered.filter((entry) => admittedById.has(entry.card.id)).map((entry) => ({ ...entry, card: admittedById.get(entry.card.id) ?? entry.card }));
+  const passed = gathered.flatMap((entry) => {
+    const card = admittedById.get(entry.card.id);
+    return card === void 0 ? [] : [{ ...entry, card }];
+  });
   const previousById = withSummaries(previousCardsById(input.previousFeeds), input.summaries);
   const classified = await classifyDeferred(
     mergeDuplicates(passed),
@@ -60609,6 +60614,14 @@ var runPipeline = async (input) => {
     rejectedByAdmission: rejectedBySource
   };
 };
+var logRunSummary = (result, logger2) => {
+  logger2.info(`cardsPublished ${JSON.stringify(result.cardsPublished)}`);
+  logger2.info(`cardsBySource ${JSON.stringify(result.cardsBySource)}`);
+  logger2.info(`newCardsThisRun ${result.newCardsThisRun}`);
+  if (Object.keys(result.rejectedByAdmission).length > 0) {
+    logger2.info(`rejectedByAdmission ${JSON.stringify(result.rejectedByAdmission)}`);
+  }
+};
 var buildIndex = (categories, feeds, generatedAt) => {
   const index2 = {
     version: FEED_VERSION,
@@ -60651,7 +60664,7 @@ var pickSummaryFields = (source) => Object.fromEntries(
 var reusePrevious = (entry, previous) => {
   const fields = pickSummaryFields(previous);
   if (Object.keys(fields).length === 0) return void 0;
-  if (entry.card.source === "hn") return void 0;
+  if (entry.needsRelevanceCheck === true) return void 0;
   return {
     card: { ...entry.card, ...fields },
     categories: entry.categories.length > 0 ? entry.categories : previous.categories,
@@ -60669,8 +60682,7 @@ var describeCard = (entry) => {
     card.tags.length > 0 ? `  tags: ${card.tags.join(", ")}` : void 0,
     metrics.length > 0 ? `  metrics: ${metrics}` : void 0,
     entry.deferToLlm ? "  needsCategories: true" : void 0,
-    // 출처를 알려 줘야 "이건 HN에서 온 링크"라는 맥락 위에서 판정한다.
-    entry.card.source === "hn" ? "  needsRelevanceCheck: true" : void 0
+    entry.needsRelevanceCheck === true ? "  needsRelevanceCheck: true" : void 0
   ].filter((line) => line !== void 0).join("\n");
 };
 var buildPrompt = (batch, categories) => {
@@ -60724,11 +60736,12 @@ var requestBatch = async (batch, config2) => {
     return [];
   }
 };
-var passesRelevance = (entry, item) => entry.card.source !== "hn" || item.isDevRelevant === true;
+var passesRelevance = (entry, item) => entry.needsRelevanceCheck !== true || item.isDevRelevant === true;
 var applySummary = (entry, item, knownSlugs) => {
   if (item === void 0) return entry;
   const assigned = (item.categories ?? []).filter((slug) => knownSlugs.has(slug));
-  const categories = passesRelevance(entry, item) ? entry.categories.length > 0 ? entry.categories : assigned : [];
+  const preferred = entry.categories.length > 0 ? entry.categories : assigned;
+  const categories = passesRelevance(entry, item) ? preferred : [];
   return {
     card: { ...entry.card, ...pickSummaryFields(item) },
     categories,
@@ -60825,12 +60838,7 @@ var publish = async (options) => {
     summariesApplied: summaries === void 0 ? 0 : Object.keys(summaries.summaries).length,
     blocked: overrides === void 0 ? 0 : overrides.blocklist.length
   });
-  logger2.info(`cardsPublished ${JSON.stringify(result.cardsPublished)}`);
-  logger2.info(`cardsBySource ${JSON.stringify(result.cardsBySource)}`);
-  logger2.info(`newCardsThisRun ${result.newCardsThisRun}`);
-  if (Object.keys(result.rejectedByAdmission).length > 0) {
-    logger2.info(`rejectedByAdmission ${JSON.stringify(result.rejectedByAdmission)}`);
-  }
+  logRunSummary(result, logger2);
   return {
     cardsPublished: result.cardsPublished,
     cardsBySource: result.cardsBySource,
