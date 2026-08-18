@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "devtools",
-  "generatedAt": "2026-08-18T08:21:30.970Z",
+  "generatedAt": "2026-08-18T09:09:43.683Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,10 +13,14 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 28683,
+        "stars": 28710,
         "starsDelta": 198
       },
       "source": "github-trending",
+      "summaryEn": "817 cybersecurity skills for AI agents, mapped to MITRE ATT&CK, NIST CSF, and other frameworks; works across 20+ agent platforms.",
+      "summaryKo": "AI 에이전트용 보안 스킬 817개, MITRE ATT&CK 등 6개 프레임워크 매핑, 20개+ 플랫폼 지원.",
+      "reasonEn": "28.6k stars, +198 this period",
+      "reasonKo": "스타 2.9만, 최근 +198",
       "categories": [
         "ai-agents",
         "engineering",
@@ -32,7 +36,7 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 65115,
+        "stars": 65159,
         "starsDelta": 218
       },
       "source": "github-trending",
@@ -68,11 +72,13 @@
         "yc-backed"
       ],
       "metrics": {
-        "stars": 47712
+        "stars": 47752
       },
       "source": "github-search",
       "publishedAt": "2026-03-17T03:28:57Z",
-      "updatedAt": "2026-08-18T08:21:23Z",
+      "updatedAt": "2026-08-18T09:09:47Z",
+      "summaryEn": "An IDE for running many coding agents in parallel with your own subscriptions, on desktop, mobile, or VPS.",
+      "summaryKo": "여러 코딩 에이전트를 병렬 실행하는 IDE. 데스크톱·모바일·VPS 지원, 자기 구독 사용.",
       "categories": [
         "ai-agents",
         "devtools"
@@ -108,11 +114,13 @@
         "windsurf"
       ],
       "metrics": {
-        "stars": 39324
+        "stars": 39330
       },
       "source": "github-search",
       "publishedAt": "2026-02-24T22:01:00Z",
-      "updatedAt": "2026-08-18T07:32:00Z",
+      "updatedAt": "2026-08-18T09:00:03Z",
+      "summaryEn": "MCP server that indexes codebases into a knowledge graph for sub-millisecond code queries across 158 languages.",
+      "summaryKo": "코드베이스를 지식 그래프로 색인하는 MCP 서버. 158개 언어, 밀리초 이하 질의 지원.",
       "categories": [
         "ai-agents",
         "backend",
@@ -154,6 +162,8 @@
       "source": "github-search",
       "publishedAt": "2026-08-13T08:09:10Z",
       "updatedAt": "2026-08-17T00:34:40Z",
+      "summaryEn": "Local tool that scores prose files your agent saves for AI-writing patterns, no network or model needed.",
+      "summaryKo": "에이전트가 저장한 글의 AI 작문 패턴을 로컬에서 점수화. 네트워크·모델 불필요.",
       "categories": [
         "ai-models",
         "ai-agents",
@@ -185,6 +195,8 @@
       "source": "github-search",
       "publishedAt": "2026-08-13T01:59:03Z",
       "updatedAt": "2026-08-13T05:09:43Z",
+      "summaryEn": "AI CLI that reviews GitHub PRs for bugs, security risks, and missing tests with Markdown reports.",
+      "summaryKo": "AI가 GitHub PR의 버그·보안 위험·누락 테스트를 찾아 마크다운 리포트로 알려주는 CLI.",
       "categories": [
         "ai-models",
         "web",
@@ -221,6 +233,8 @@
       "source": "github-search",
       "publishedAt": "2026-08-13T04:06:22Z",
       "updatedAt": "2026-08-18T01:22:59Z",
+      "summaryEn": "Production-grade agent skills covering planning, TDD, debugging, code review, releases, and incident response.",
+      "summaryKo": "계획·TDD·디버깅·리뷰·릴리스·인시던트 대응을 아우르는 프로덕션급 에이전트 스킬 모음.",
       "categories": [
         "ai-models",
         "ai-agents",
@@ -245,7 +259,7 @@
         "readability"
       ],
       "metrics": {
-        "stars": 45
+        "stars": 46
       },
       "source": "github-search",
       "publishedAt": "2026-08-15T12:53:20Z",
@@ -285,11 +299,13 @@
         "upgrade"
       ],
       "metrics": {
-        "stars": 38
+        "stars": 39
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T12:41:58Z",
       "updatedAt": "2026-08-14T17:15:24Z",
+      "summaryEn": "AI tool that finds which lines a dependency version bump breaks, fixes them, and verifies tests still pass.",
+      "summaryKo": "의존성 버전 업그레이드로 깨지는 코드를 찾아 수정하고 테스트 통과까지 검증하는 AI 도구.",
       "categories": [
         "ai-models",
         "ai-agents",
@@ -373,10 +389,43 @@
       "source": "github-search",
       "publishedAt": "2026-08-15T05:19:33Z",
       "updatedAt": "2026-08-18T00:48:07Z",
+      "summaryEn": "Plugin for DeepSeek Harness that renders streaming LLM output smoothly without flicker, typewriter-style.",
+      "summaryKo": "디프시크 하니스(DeepSeek Harness)용 플러그인, 스트리밍 출력 깜빡임 없이 부드럽게 렌더링.",
       "categories": [
         "ai-models",
         "ai-agents",
         "web",
+        "devtools"
+      ]
+    },
+    {
+      "id": "gh:mmr710/nightmux",
+      "type": "repo",
+      "title": "mmr710/nightmux",
+      "summaryOriginal": "Your night crew, on Telegram. Run Claude Code, Codex or any terminal agent from a Telegram topic — one topic per tmux session. Watches the context window and the 5-hour limit, compacts before the wall, and holds prompts through a lockout instead of losing them. Python stdlib only, no relay server.",
+      "url": "https://github.com/mmr710/nightmux",
+      "lang": "Python",
+      "tags": [
+        "agentic-coding",
+        "ai-agents",
+        "aider",
+        "claude-code",
+        "codex",
+        "developer-tools",
+        "llm",
+        "python",
+        "self-hosted",
+        "telegram-bot",
+        "tmux"
+      ],
+      "metrics": {
+        "stars": 21
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-12T07:26:59Z",
+      "updatedAt": "2026-08-17T22:08:33Z",
+      "categories": [
+        "ai-models",
         "devtools"
       ]
     },
@@ -398,7 +447,7 @@
         "productivity"
       ],
       "metrics": {
-        "stars": 240803
+        "stars": 240808
       },
       "source": "github-search",
       "publishedAt": "2026-01-18T00:51:51Z",
@@ -438,7 +487,7 @@
         "tree-sitter"
       ],
       "metrics": {
-        "stars": 107642
+        "stars": 107657
       },
       "source": "github-search",
       "publishedAt": "2026-04-03T15:49:07Z",
@@ -468,11 +517,11 @@
         "openai"
       ],
       "metrics": {
-        "stars": 84373
+        "stars": 84375
       },
       "source": "github-search",
       "publishedAt": "2024-03-13T03:33:31Z",
-      "updatedAt": "2026-08-18T07:09:51Z",
+      "updatedAt": "2026-08-18T09:04:30Z",
       "categories": [
         "ai-models",
         "devtools"
@@ -501,7 +550,7 @@
         "token-optimization"
       ],
       "metrics": {
-        "stars": 76445
+        "stars": 76451
       },
       "source": "github-search",
       "publishedAt": "2026-01-22T16:54:16Z",
@@ -529,11 +578,11 @@
         "streamlit"
       ],
       "metrics": {
-        "stars": 45559
+        "stars": 45560
       },
       "source": "github-search",
       "publishedAt": "2019-08-24T00:14:52Z",
-      "updatedAt": "2026-08-18T08:18:35Z",
+      "updatedAt": "2026-08-18T09:07:11Z",
       "categories": [
         "ai-models",
         "devtools"
@@ -620,7 +669,7 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 140
+        "stars": 142
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T13:52:04Z",
@@ -688,11 +737,13 @@
         "transcript"
       ],
       "metrics": {
-        "stars": 60
+        "stars": 61
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T14:21:58Z",
-      "updatedAt": "2026-08-18T06:24:24Z",
+      "updatedAt": "2026-08-18T09:09:47Z",
+      "summaryEn": "Imports chat histories from 14+ AI coding tools (Claude Code, Codex, Cursor, Gemini, etc.) into DeepSeek Harness as resumable sessions.",
+      "summaryKo": "클로드 코드, 코덱스, 커서, 제미니 등 14개 이상 AI 도구의 대화 기록을 디프시크 하니스로 가져와 이어서 사용.",
       "categories": [
         "ai-agents",
         "devtools"
@@ -715,7 +766,7 @@
         "mcp-server"
       ],
       "metrics": {
-        "stars": 106549
+        "stars": 106548
       },
       "source": "github-search",
       "publishedAt": "2025-04-17T17:04:31Z",
@@ -755,7 +806,7 @@
         "skill-library"
       ],
       "metrics": {
-        "stars": 45083
+        "stars": 45081
       },
       "source": "github-search",
       "publishedAt": "2026-01-14T17:48:09Z",
@@ -780,11 +831,11 @@
         "python"
       ],
       "metrics": {
-        "stars": 41755
+        "stars": 41756
       },
       "source": "github-search",
       "publishedAt": "2022-05-04T15:23:02Z",
-      "updatedAt": "2026-08-18T08:08:24Z",
+      "updatedAt": "2026-08-18T09:06:42Z",
       "categories": [
         "ai-agents",
         "devtools"
@@ -904,7 +955,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T11:10:57Z",
-      "updatedAt": "2026-08-18T08:12:55Z",
+      "updatedAt": "2026-08-18T08:40:19Z",
       "categories": [
         "ai-agents",
         "devtools"
@@ -975,7 +1026,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 29746
+        "stars": 29748
       },
       "source": "github-search",
       "publishedAt": "2024-02-23T13:58:27Z",
@@ -1015,7 +1066,7 @@
         "prompt-engineering"
       ],
       "metrics": {
-        "stars": 24596
+        "stars": 24600
       },
       "source": "github-search",
       "publishedAt": "2025-10-19T04:04:05Z",
@@ -1042,7 +1093,7 @@
         "uv"
       ],
       "metrics": {
-        "stars": 157
+        "stars": 158
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T17:16:42Z",
@@ -1078,7 +1129,7 @@
         "terminal-mcp"
       ],
       "metrics": {
-        "stars": 19
+        "stars": 20
       },
       "source": "github-search",
       "publishedAt": "2026-08-15T15:49:17Z",
@@ -1118,11 +1169,11 @@
         "workflow-automation"
       ],
       "metrics": {
-        "stars": 201042
+        "stars": 201055
       },
       "source": "github-search",
       "publishedAt": "2019-06-22T09:24:21Z",
-      "updatedAt": "2026-08-18T08:15:08Z",
+      "updatedAt": "2026-08-18T09:08:59Z",
       "categories": [
         "ai-agents",
         "web",
@@ -1169,35 +1220,6 @@
       ]
     },
     {
-      "id": "gh:ccch1mneyyy/dsh-TUI",
-      "type": "repo",
-      "title": "ccch1mneyyy/dsh-TUI",
-      "summaryOriginal": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。 DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoughts, double-Esc rollback, context bar + TPS. npm one-click.",
-      "url": "https://github.com/ccch1mneyyy/dsh-TUI",
-      "lang": "TypeScript",
-      "tags": [
-        "claude-code",
-        "coding-agent",
-        "deepseek",
-        "deepseek-harness",
-        "dsh-plugin",
-        "ink",
-        "react",
-        "terminal",
-        "tui"
-      ],
-      "metrics": {
-        "stars": 1910
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T12:49:31Z",
-      "updatedAt": "2026-08-18T08:19:29Z",
-      "categories": [
-        "web",
-        "devtools"
-      ]
-    },
-    {
       "id": "gh:cathrynlavery/diagram-design",
       "type": "repo",
       "title": "cathrynlavery/diagram-design",
@@ -1228,6 +1250,10 @@
         "totalScore": 204.811
       },
       "source": "ossinsight",
+      "summaryEn": "Cross-platform visual manager for OpenAI Codex desktop/CLI: provider switching, session sync, skills/MCP management.",
+      "summaryKo": "OpenAI Codex 데스크톱·CLI용 크로스플랫폼 관리 도구. 프로바이더 전환, 세션 동기화, 스킬/MCP 관리.",
+      "reasonEn": "Slow, steady growth",
+      "reasonKo": "완만한 성장",
       "categories": [
         "ai-agents",
         "backend",
@@ -1247,6 +1273,10 @@
         "totalScore": 204.8086
       },
       "source": "ossinsight",
+      "summaryEn": "Security scanner for AI agents: detects vulnerabilities in agent configs, MCP servers, and tool permissions.",
+      "summaryKo": "AI 에이전트 보안 스캐너. 에이전트 설정·MCP 서버·툴 권한 취약점 탐지.",
+      "reasonEn": "Slow, steady growth",
+      "reasonKo": "완만한 성장",
       "categories": [
         "ai-agents",
         "backend",
@@ -1303,6 +1333,10 @@
         "totalScore": 204.6682
       },
       "source": "ossinsight",
+      "summaryEn": "A safe, private runtime environment for running autonomous AI agents.",
+      "summaryKo": "자율 AI 에이전트를 안전하고 사적으로 실행하는 런타임 환경.",
+      "reasonEn": "New repo with recent commits and early stars",
+      "reasonKo": "신규 저장소, 최근 커밋·초기 스타",
       "categories": [
         "ai-agents",
         "backend",
@@ -1338,6 +1372,10 @@
         "totalScore": 204.3031
       },
       "source": "ossinsight",
+      "summaryEn": "Command-line tool for automating Xianyu (Goofish), China's secondhand marketplace, with native MCP support for AI agents.",
+      "summaryKo": "중국 중고거래 플랫폼 셴위(闲鱼) 자동화 CLI, MCP 네이티브 지원으로 AI 에이전트 연동.",
+      "reasonEn": "New repo gaining early stars",
+      "reasonKo": "신규 저장소, 초기 스타 증가 중",
       "categories": [
         "ai-agents",
         "devtools"
@@ -1356,6 +1394,10 @@
         "totalScore": 204.2452
       },
       "source": "ossinsight",
+      "summaryEn": "Official Tonghuashun A-share market data service — real-time quotes, financials, indices — for AI agents and quant research, via API, MCP, CLI, Python.",
+      "summaryKo": "통화순(Tonghuashun) 공식 중국 A주 시세·재무 데이터, API/MCP/CLI/Python으로 AI·퀀트 연구에 제공.",
+      "reasonEn": "New repo gaining early stars",
+      "reasonKo": "신규 저장소, 초기 스타 증가 중",
       "categories": [
         "ai-agents",
         "backend",
@@ -1423,8 +1465,8 @@
       "url": "https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399",
       "tags": [],
       "metrics": {
-        "upvotes": 104,
-        "comments": 76
+        "upvotes": 105,
+        "comments": 77
       },
       "source": "hn",
       "publishedAt": "2026-08-17T17:52:37Z",
