@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "backend",
-  "generatedAt": "2026-08-18T06:46:00.164Z",
+  "generatedAt": "2026-08-18T08:21:30.970Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,7 +13,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 19102,
+        "stars": 19129,
         "starsDelta": 78
       },
       "source": "github-trending",
@@ -23,45 +23,35 @@
       ]
     },
     {
-      "id": "gh:t8y2/dbx",
+      "id": "gh:rmyndharis/OpenWA",
       "type": "repo",
-      "title": "t8y2/dbx",
-      "summaryOriginal": "20 MB lightweight cross-platform database client for 80+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 80+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
-      "url": "https://github.com/t8y2/dbx",
-      "lang": "Rust",
+      "title": "rmyndharis/OpenWA",
+      "summaryOriginal": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
+      "url": "https://github.com/rmyndharis/OpenWA",
+      "lang": "TypeScript",
       "tags": [
-        "ai",
-        "cli",
-        "clickhouse",
-        "database",
-        "database-client",
-        "database-management",
-        "docker",
-        "gui",
-        "mcp",
-        "mongodb",
-        "mysql",
-        "postgresql",
-        "redis",
-        "rust",
-        "sql-server",
-        "sqlite",
-        "tauri",
-        "vue"
+        "api",
+        "bot",
+        "gateway",
+        "self-hosted",
+        "whatsapp",
+        "whatsapp-api",
+        "whatsapp-automation",
+        "whatsapp-bot",
+        "whatsapp-gateway",
+        "whatsapp-gateway-api",
+        "whatsapp-web",
+        "whatsapp-web-api"
       ],
       "metrics": {
-        "stars": 15450
+        "stars": 12897
       },
       "source": "github-search",
-      "publishedAt": "2026-04-29T03:00:36Z",
-      "updatedAt": "2026-08-18T06:34:51Z",
+      "publishedAt": "2026-02-02T12:14:45Z",
+      "updatedAt": "2026-08-18T05:07:13Z",
       "categories": [
-        "web",
-        "ai-agents",
         "backend",
-        "infra",
-        "data",
-        "devtools"
+        "infra"
       ]
     },
     {
@@ -94,15 +84,15 @@
         "windsurf"
       ],
       "metrics": {
-        "stars": 39315
+        "stars": 39324
       },
       "source": "github-search",
       "publishedAt": "2026-02-24T22:01:00Z",
-      "updatedAt": "2026-08-18T05:15:10Z",
+      "updatedAt": "2026-08-18T07:32:00Z",
       "categories": [
-        "devtools",
         "ai-agents",
-        "backend"
+        "backend",
+        "devtools"
       ]
     },
     {
@@ -142,6 +132,111 @@
       ]
     },
     {
+      "id": "gh:dmlc/xgboost",
+      "type": "repo",
+      "title": "dmlc/xgboost",
+      "summaryOriginal": "Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library, for Python, R, Java, Scala, C and more. Runs on single machine, Hadoop, Spark, Dask, Flink and DataFlow",
+      "url": "https://github.com/dmlc/xgboost",
+      "lang": "C++",
+      "tags": [
+        "distributed-systems",
+        "gbdt",
+        "gbm",
+        "gbrt",
+        "machine-learning",
+        "xgboost"
+      ],
+      "metrics": {
+        "stars": 28663
+      },
+      "source": "github-search",
+      "publishedAt": "2014-02-06T17:28:03Z",
+      "updatedAt": "2026-08-18T03:25:57Z",
+      "categories": [
+        "ai-models",
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:mudler/LocalAI",
+      "type": "repo",
+      "title": "mudler/LocalAI",
+      "summaryOriginal": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+      "url": "https://github.com/mudler/LocalAI",
+      "lang": "Go",
+      "tags": [
+        "agents",
+        "ai",
+        "api",
+        "audio-generation",
+        "decentralized",
+        "distributed",
+        "image-generation",
+        "libp2p",
+        "llama",
+        "llm",
+        "mamba",
+        "mcp",
+        "musicgen",
+        "object-detection",
+        "rerank",
+        "stable-diffusion",
+        "text-generation",
+        "tts"
+      ],
+      "metrics": {
+        "stars": 48543
+      },
+      "source": "github-search",
+      "publishedAt": "2023-03-18T22:58:02Z",
+      "updatedAt": "2026-08-18T08:05:39Z",
+      "categories": [
+        "ai-agents",
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:Kong/kong",
+      "type": "repo",
+      "title": "Kong/kong",
+      "summaryOriginal": "🦍 The API and AI Gateway",
+      "url": "https://github.com/Kong/kong",
+      "lang": "Lua",
+      "tags": [
+        "ai",
+        "ai-gateway",
+        "api-gateway",
+        "api-management",
+        "apis",
+        "artificial-intelligence",
+        "cloud-native",
+        "devops",
+        "kubernetes",
+        "kubernetes-ingress",
+        "kubernetes-ingress-controller",
+        "llm-gateway",
+        "llm-ops",
+        "mcp",
+        "mcp-gateway",
+        "microservice",
+        "microservices",
+        "openai-proxy",
+        "reverse-proxy",
+        "serverless"
+      ],
+      "metrics": {
+        "stars": 43992
+      },
+      "source": "github-search",
+      "publishedAt": "2014-11-17T23:56:08Z",
+      "updatedAt": "2026-08-16T14:44:43Z",
+      "categories": [
+        "ai-agents",
+        "backend",
+        "infra"
+      ]
+    },
+    {
       "id": "gh:appwrite/appwrite",
       "type": "repo",
       "title": "appwrite/appwrite",
@@ -171,14 +266,15 @@
         "web"
       ],
       "metrics": {
-        "stars": 57040
+        "stars": 57041
       },
       "source": "github-search",
       "publishedAt": "2019-04-08T16:36:25Z",
-      "updatedAt": "2026-08-17T13:44:22Z",
+      "updatedAt": "2026-08-18T08:14:55Z",
       "categories": [
         "web",
-        "backend"
+        "backend",
+        "infra"
       ]
     },
     {
@@ -209,7 +305,7 @@
         "websocket"
       ],
       "metrics": {
-        "stars": 80052
+        "stars": 80051
       },
       "source": "github-search",
       "publishedAt": "2019-08-21T13:15:24Z",
@@ -217,6 +313,7 @@
       "categories": [
         "web",
         "backend",
+        "engineering",
         "devtools"
       ]
     },
@@ -250,11 +347,11 @@
         "vue"
       ],
       "metrics": {
-        "stars": 37447
+        "stars": 37450
       },
       "source": "github-search",
       "publishedAt": "2012-12-12T01:35:36Z",
-      "updatedAt": "2026-08-17T21:24:32Z",
+      "updatedAt": "2026-08-18T07:08:16Z",
       "categories": [
         "web",
         "backend",
@@ -281,11 +378,83 @@
         "vue"
       ],
       "metrics": {
-        "stars": 15930
+        "stars": 15933
       },
       "source": "github-search",
       "publishedAt": "2023-08-16T13:42:32Z",
       "updatedAt": "2026-08-18T06:24:57Z",
+      "categories": [
+        "web",
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:nestjs/nest",
+      "type": "repo",
+      "title": "nestjs/nest",
+      "summaryOriginal": "A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications with TypeScript/JavaScript 🚀",
+      "url": "https://github.com/nestjs/nest",
+      "lang": "TypeScript",
+      "tags": [
+        "framework",
+        "hacktoberfest",
+        "javascript",
+        "javascript-framework",
+        "microservices",
+        "nest",
+        "nestjs",
+        "node",
+        "nodejs",
+        "nodejs-framework",
+        "typescript",
+        "typescript-framework",
+        "websockets"
+      ],
+      "metrics": {
+        "stars": 76390
+      },
+      "source": "github-search",
+      "publishedAt": "2017-02-04T20:12:52Z",
+      "updatedAt": "2026-08-17T18:33:39Z",
+      "categories": [
+        "web",
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:strapi/strapi",
+      "type": "repo",
+      "title": "strapi/strapi",
+      "summaryOriginal": "🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.",
+      "url": "https://github.com/strapi/strapi",
+      "lang": "TypeScript",
+      "tags": [
+        "api",
+        "cms",
+        "cms-framework",
+        "content-management",
+        "content-management-system",
+        "customizable",
+        "dashboard",
+        "graphql",
+        "hacktoberfest",
+        "headless-cms",
+        "jamstack",
+        "javascript",
+        "mysql",
+        "no-code",
+        "nodejs",
+        "posgresql",
+        "rest",
+        "strapi",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 72955
+      },
+      "source": "github-search",
+      "publishedAt": "2015-09-30T15:34:48Z",
+      "updatedAt": "2026-08-18T07:56:39Z",
       "categories": [
         "web",
         "backend"
@@ -430,6 +599,30 @@
       ]
     },
     {
+      "id": "gh:Shurafan/worker-calendar",
+      "type": "repo",
+      "title": "Shurafan/worker-calendar",
+      "summaryOriginal": "HTTP API производственного календаря РФ — выходные, праздники, регионы (Studio West)",
+      "url": "https://github.com/Shurafan/worker-calendar",
+      "tags": [
+        "api",
+        "holidays",
+        "hr",
+        "json",
+        "production-calendar",
+        "russia"
+      ],
+      "metrics": {
+        "stars": 3
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-16T18:26:48Z",
+      "updatedAt": "2026-08-16T20:55:23Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
       "id": "gh:tejasmmali/RouterFlip",
       "type": "repo",
       "title": "tejasmmali/RouterFlip",
@@ -491,665 +684,6 @@
       ]
     },
     {
-      "id": "gh:oklabflensburg/open-city-planner",
-      "type": "repo",
-      "title": "oklabflensburg/open-city-planner",
-      "summaryOriginal": "Stadtplanner is an open-source civic-tech platform for interactive urban planning, mapping, and managing geospatial areas with Nuxt, FastAPI, PostgreSQL, and PostGIS.",
-      "url": "https://github.com/oklabflensburg/open-city-planner",
-      "lang": "Python",
-      "tags": [
-        "api",
-        "cityplanner",
-        "cityplanning",
-        "fastapi",
-        "nuxt",
-        "stadtplanung"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-12T14:07:13Z",
-      "updatedAt": "2026-08-17T20:02:29Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:0xgetz/inception-9router-setup",
-      "type": "repo",
-      "title": "0xgetz/inception-9router-setup",
-      "summaryOriginal": "Auto-setup Inception Labs Mercury-2 to 9router",
-      "url": "https://github.com/0xgetz/inception-9router-setup",
-      "lang": "Python",
-      "tags": [
-        "9router",
-        "ai-inference",
-        "api",
-        "auto-setup",
-        "diffusion-llm",
-        "dllm",
-        "inception-labs",
-        "llm-proxy",
-        "mercury-2",
-        "openai-compatible",
-        "python",
-        "sqlite"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T04:43:14Z",
-      "updatedAt": "2026-08-13T05:22:29Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:AfnanTawsif/ff-catalog",
-      "type": "repo",
-      "title": "AfnanTawsif/ff-catalog",
-      "summaryOriginal": "Open source Free Fire item catalog with 33K+ items, powerful search, filters, favorites, sharing, and a fast mobile-first Ul packed with features.",
-      "url": "https://github.com/AfnanTawsif/ff-catalog",
-      "lang": "HTML",
-      "tags": [
-        "api",
-        "catalog",
-        "database",
-        "freefire",
-        "freefire-battlegrounds",
-        "freefire-item",
-        "front-end",
-        "game-assets",
-        "gaming",
-        "garena",
-        "garena-freefire",
-        "indexeddb",
-        "inventory-management",
-        "javascript",
-        "messagepack",
-        "offline-first",
-        "open-source",
-        "spa",
-        "web-workers"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-12T19:47:34Z",
-      "updatedAt": "2026-08-17T12:32:58Z",
-      "categories": [
-        "backend",
-        "data"
-      ]
-    },
-    {
-      "id": "gh:CreaturePrawn/nexusggr-casino-api",
-      "type": "repo",
-      "title": "CreaturePrawn/nexusggr-casino-api",
-      "summaryOriginal": "NexusGGR Casino API is a unified iGaming aggregation engine designed to seamlessly connect online casino platforms with thousands of games, live dealer tables, and unified wallet services through a single integration endpoint.",
-      "url": "https://github.com/CreaturePrawn/nexusggr-casino-api",
-      "lang": "Go",
-      "tags": [
-        "api",
-        "bahis",
-        "betting",
-        "cheap",
-        "evolution",
-        "free",
-        "gambling-website",
-        "game-provider-api",
-        "igaming-software",
-        "pgsoft",
-        "pragmatic",
-        "roulette",
-        "script",
-        "slot",
-        "slot-game",
-        "solution",
-        "sportsbook",
-        "turnkey",
-        "whitelabel"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-15T11:47:16Z",
-      "updatedAt": "2026-08-15T11:54:05Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:kom50/express-zod-router",
-      "type": "repo",
-      "title": "kom50/express-zod-router",
-      "summaryOriginal": "FastAPI-style typed routing for Express with Zod validation, TypeScript inference, and automatic OpenAPI/Swagger docs.",
-      "url": "https://github.com/kom50/express-zod-router",
-      "lang": "TypeScript",
-      "tags": [
-        "api",
-        "api-client",
-        "api-rest",
-        "apis-json",
-        "backend",
-        "express",
-        "expressjs",
-        "fastapi",
-        "openapi",
-        "swagger",
-        "type-safe",
-        "typescript",
-        "typescript-library",
-        "validation",
-        "zod"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T09:53:08Z",
-      "updatedAt": "2026-08-17T03:52:12Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:SolveGate/cloudflare-turnstile-solver-api",
-      "type": "repo",
-      "title": "SolveGate/cloudflare-turnstile-solver-api",
-      "summaryOriginal": "Cloudflare Turnstile solver API for E2E tests, CI pipelines and synthetic monitoring — clears Turnstile (managed, non-interactive, invisible) and Turnstile WAF pages on sites you own or are authorised to test. Zero-dependency Node + Python SDKs. First 1,000 solves free.",
-      "url": "https://github.com/SolveGate/cloudflare-turnstile-solver-api",
-      "lang": "Python",
-      "tags": [
-        "api",
-        "ci",
-        "cloudflare-bypass",
-        "cloudflare-challenge",
-        "cloudflare-turnstile",
-        "cloudflare-turnstile-bypass",
-        "cloudflare-turnstile-solver",
-        "e2e-testing",
-        "nodejs",
-        "playwright",
-        "puppeteer",
-        "python",
-        "qa-automation",
-        "selenium",
-        "synthetic-monitoring",
-        "testing-tools",
-        "turnstile",
-        "turnstile-bypass",
-        "turnstile-solver",
-        "turnstile-waf"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T12:23:04Z",
-      "updatedAt": "2026-08-13T12:23:07Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:Webisso/minecraft-item-icons",
-      "type": "repo",
-      "title": "Webisso/minecraft-item-icons",
-      "summaryOriginal": "An open-source Minecraft icon library. Browse, search, and ship pixel-perfect item, block, mob, structure, UI, and particle icons from a clean local catalog.",
-      "url": "https://github.com/Webisso/minecraft-item-icons",
-      "lang": "JavaScript",
-      "tags": [
-        "api",
-        "cdn",
-        "icons",
-        "items",
-        "minecraft"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-12T09:37:54Z",
-      "updatedAt": "2026-08-12T10:35:26Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:asale-ai/llm-verify",
-      "type": "repo",
-      "title": "asale-ai/llm-verify",
-      "summaryOriginal": "Verify the LLM endpoint you're actually using: model authenticity, billing inflation, relay provenance, performance and silent downgrades. Single binary, no dependencies, HTML report with CI-friendly exit codes.",
-      "url": "https://github.com/asale-ai/llm-verify",
-      "lang": "Rust",
-      "tags": [
-        "anthropic",
-        "api",
-        "cli",
-        "devtools",
-        "llm",
-        "llm-security",
-        "llmops",
-        "monitoring",
-        "openai",
-        "rust"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T03:22:42Z",
-      "updatedAt": "2026-08-17T09:50:46Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:Shurafan/worker-calendar",
-      "type": "repo",
-      "title": "Shurafan/worker-calendar",
-      "summaryOriginal": "HTTP API производственного календаря РФ — выходные, праздники, регионы (Studio West)",
-      "url": "https://github.com/Shurafan/worker-calendar",
-      "tags": [
-        "api",
-        "holidays",
-        "hr",
-        "json",
-        "production-calendar",
-        "russia"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-16T18:26:48Z",
-      "updatedAt": "2026-08-16T20:55:23Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:SukhdevThukral/mockit",
-      "type": "repo",
-      "title": "SukhdevThukral/mockit",
-      "summaryOriginal": "Generate a realistic mock API straight from your TypeScript types - zero config, one command.",
-      "url": "https://github.com/SukhdevThukral/mockit",
-      "lang": "TypeScript",
-      "tags": [
-        "api",
-        "api-mocking",
-        "cli",
-        "developer-tools",
-        "faker",
-        "mock",
-        "types",
-        "typescript"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-12T17:47:40Z",
-      "updatedAt": "2026-08-13T17:29:08Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:RelayStack/smmscout-data",
-      "type": "repo",
-      "title": "RelayStack/smmscout-data",
-      "summaryOriginal": "Open SMM panel dataset: 106 panels, Scout Scores, measured latency, dated flags. Mirror of smmscout.com/api/panels.json",
-      "url": "https://github.com/RelayStack/smmscout-data",
-      "lang": "JavaScript",
-      "tags": [
-        "api",
-        "data",
-        "dataset",
-        "directory",
-        "open-data",
-        "panel",
-        "seo",
-        "seo-tools",
-        "smm",
-        "smm-panel",
-        "social-media-marketing"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-16T03:05:49Z",
-      "updatedAt": "2026-08-17T03:54:49Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:FixerSoup/Customer-Segmentation-Churn-Prediction-Retention-Recommendation-Analysis",
-      "type": "repo",
-      "title": "FixerSoup/Customer-Segmentation-Churn-Prediction-Retention-Recommendation-Analysis",
-      "summaryOriginal": "This repo contains a robust Customer segmentation with Churn prediction and recommendation retention analysis on churn dataset from hugging face dataset",
-      "url": "https://github.com/FixerSoup/Customer-Segmentation-Churn-Prediction-Retention-Recommendation-Analysis",
-      "lang": "Jupyter Notebook",
-      "tags": [
-        "api",
-        "claude-code",
-        "generative-ai",
-        "jupyter-notebook",
-        "kmeans-clustering",
-        "random-forest-classifier",
-        "tool-calling"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-15T05:20:29Z",
-      "updatedAt": "2026-08-16T04:30:32Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:tawsifar/EnderChest-Secure-Cross-Device-File-Vault-Text-Drop-off",
-      "type": "repo",
-      "title": "tawsifar/EnderChest-Secure-Cross-Device-File-Vault-Text-Drop-off",
-      "summaryOriginal": "A Minecraft-inspired, ephemeral web application for secure cross-device file sharing and text synchronization, featuring a custom Direct-to-Drive upload architecture to bypass server payload limits.",
-      "url": "https://github.com/tawsifar/EnderChest-Secure-Cross-Device-File-Vault-Text-Drop-off",
-      "lang": "TypeScript",
-      "tags": [
-        "api",
-        "data-management",
-        "data-transfer",
-        "docker",
-        "google-ai-studio",
-        "google-cloud",
-        "google-drive-api",
-        "supabase"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-15T05:47:16Z",
-      "updatedAt": "2026-08-16T04:46:23Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:Parithosh-Varma/zen-proxy",
-      "type": "repo",
-      "title": "Parithosh-Varma/zen-proxy",
-      "summaryOriginal": "zen-proxy is a local translation proxy that bridges Claude Code's Anthropic Messages API with OpenCode Zen's OpenAI‑compatible Chat Completions endpoint (https://opencode.ai/zen/v1). It forwards requests so you can use Zen's free model tier — hy3-free, deepseek-v4-flash-free, nemotron-3-ultra-free, and others — directly from Claude Code, with full",
-      "url": "https://github.com/Parithosh-Varma/zen-proxy",
-      "lang": "JavaScript",
-      "tags": [
-        "aiproxy",
-        "anthropic",
-        "api",
-        "claudecode",
-        "free",
-        "freellm",
-        "llm"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-16T08:09:11Z",
-      "updatedAt": "2026-08-16T08:38:19Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:virajsabhaya23/driftscope",
-      "type": "repo",
-      "title": "virajsabhaya23/driftscope",
-      "summaryOriginal": "Runtime API drift detection and source blast-radius analysis for CI",
-      "url": "https://github.com/virajsabhaya23/driftscope",
-      "lang": "Python",
-      "tags": [
-        "api",
-        "api-testing",
-        "ci",
-        "contract-testing",
-        "developer-tools",
-        "python"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-16T06:35:10Z",
-      "updatedAt": "2026-08-17T14:36:00Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:tracedown/tracedown-testbin",
-      "type": "repo",
-      "title": "tracedown/tracedown-testbin",
-      "summaryOriginal": "httpbin-inspired API suite tailored for testing lacelang / Tracedown capabilities",
-      "url": "https://github.com/tracedown/tracedown-testbin",
-      "lang": "Python",
-      "tags": [
-        "api",
-        "testbin",
-        "tracedown",
-        "tracedown-core"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-17T10:18:51Z",
-      "updatedAt": "2026-08-17T12:50:58Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:valorisa/Agent-API-Authorization-LAB",
-      "type": "repo",
-      "title": "valorisa/Agent-API-Authorization-LAB",
-      "summaryOriginal": "Local laboratory for experimentally studying API authorization, BOLA, and agentic workflows with vulnerable and fixed implementations.",
-      "url": "https://github.com/valorisa/Agent-API-Authorization-LAB",
-      "lang": "Python",
-      "tags": [
-        "access-control",
-        "agentic-ai",
-        "ai-agents",
-        "api",
-        "api-security",
-        "application-security",
-        "authorization",
-        "bola",
-        "broken-object-level-authorization",
-        "cybersecurity",
-        "experimental",
-        "github-actions",
-        "llm",
-        "owasp",
-        "pytest",
-        "python",
-        "ruff",
-        "security-lab",
-        "security-testing",
-        "software-security"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T18:52:38Z",
-      "updatedAt": "2026-08-16T18:44:49Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:hideshopkeeperbound/ebay-kleinanzeigen-api-interface",
-      "type": "repo",
-      "title": "hideshopkeeperbound/ebay-kleinanzeigen-api-interface",
-      "summaryOriginal": "Kleinanzeigen API Interface is a Python/Node.js integration library and scraper framework designed to automate listing management, search queries, and message handling on Germany's leading classifieds platform (kleinanzeigen.de).",
-      "url": "https://github.com/hideshopkeeperbound/ebay-kleinanzeigen-api-interface",
-      "lang": "Rust",
-      "tags": [
-        "api",
-        "docker",
-        "ebay-api",
-        "ebay-kleinanzeigen",
-        "nginx",
-        "python",
-        "scraper",
-        "scraper-api"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T11:31:01Z",
-      "updatedAt": "2026-08-14T11:36:04Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:giimendonca/vulnerabilidades_web",
-      "type": "repo",
-      "title": "giimendonca/vulnerabilidades_web",
-      "summaryOriginal": "Sistema de votação desenvolvido em PHP e MySQL para demonstrar vulnerabilidades web e suas correções. Possui versões vulnerável e segura, abordando SQL Injection, XSS, CSRF, autenticação, sessões, controle de acesso, uploads, APIs e outras práticas de segurança.",
-      "url": "https://github.com/giimendonca/vulnerabilidades_web",
-      "lang": "PHP",
-      "tags": [
-        "academic-project",
-        "api",
-        "authentication",
-        "csrf",
-        "css",
-        "cybersecurity",
-        "html",
-        "javascript",
-        "mysql",
-        "php",
-        "secure-coding",
-        "sql-injection",
-        "web-development",
-        "websecurity",
-        "xss"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-12T17:31:50Z",
-      "updatedAt": "2026-08-17T16:43:58Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:AlvaroMartinCrespo/iris",
-      "type": "repo",
-      "title": "AlvaroMartinCrespo/iris",
-      "summaryOriginal": "Buscador inverso de viajes que compara vuelos, alojamiento y transporte para descubrir las mejores escapadas según origen, fechas, presupuesto y viajeros.",
-      "url": "https://github.com/AlvaroMartinCrespo/iris",
-      "lang": "JavaScript",
-      "tags": [
-        "api",
-        "duffel",
-        "duffel-api",
-        "flight",
-        "reactjs",
-        "skyscanner",
-        "skyscanner-flight-search",
-        "skyscanner-scraper"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T14:16:28Z",
-      "updatedAt": "2026-08-13T16:59:45Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:Iankulani/awesome_okapi",
-      "type": "repo",
-      "title": "Iankulani/awesome_okapi",
-      "summaryOriginal": "Awesome Okapi",
-      "url": "https://github.com/Iankulani/awesome_okapi",
-      "lang": "Python",
-      "tags": [
-        "api",
-        "api-gateway",
-        "api-rest",
-        "cyber-security",
-        "cyber-threat-intelligence",
-        "cybersecurity",
-        "cybersecurity-education",
-        "cybersecurity-tools",
-        "docker",
-        "docker-compose",
-        "docker-container",
-        "docker-image",
-        "dockerfile",
-        "phishing",
-        "phishing-attacks",
-        "phishing-script",
-        "phishing-sites",
-        "phising",
-        "socialengineering"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T14:07:29Z",
-      "updatedAt": "2026-08-14T23:53:03Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:mr-tanzim-ahmed/CSE-AI-Chat-Mentor",
-      "type": "repo",
-      "title": "mr-tanzim-ahmed/CSE-AI-Chat-Mentor",
-      "summaryOriginal": "mr-tanzim-ahmed/CSE-AI-Chat-Mentor",
-      "url": "https://github.com/mr-tanzim-ahmed/CSE-AI-Chat-Mentor",
-      "lang": "JavaScript",
-      "tags": [
-        "api",
-        "css",
-        "html",
-        "javascript",
-        "json",
-        "react-hooks",
-        "reactjs",
-        "vite"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-15T17:14:28Z",
-      "updatedAt": "2026-08-16T00:53:15Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
       "id": "gh:public-apis/public-apis",
       "type": "repo",
       "title": "public-apis/public-apis",
@@ -1172,7 +706,7 @@
         "software"
       ],
       "metrics": {
-        "stars": 463431
+        "stars": 463498
       },
       "source": "github-search",
       "publishedAt": "2016-03-20T23:49:42Z",
@@ -1182,140 +716,576 @@
       ]
     },
     {
-      "id": "gh:opensandbox-group/OpenSandbox",
+      "id": "gh:neovim/neovim",
       "type": "repo",
-      "title": "opensandbox-group/OpenSandbox",
-      "summaryOriginal": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
-      "url": "https://github.com/opensandbox-group/OpenSandbox",
+      "title": "neovim/neovim",
+      "summaryOriginal": "Vim-fork focused on extensibility and usability",
+      "url": "https://github.com/neovim/neovim",
+      "lang": "Vim Script",
+      "tags": [
+        "api",
+        "c",
+        "lua",
+        "neovim",
+        "nvim",
+        "text-editor",
+        "vim"
+      ],
+      "metrics": {
+        "stars": 101825
+      },
+      "source": "github-search",
+      "publishedAt": "2014-01-31T13:39:22Z",
+      "updatedAt": "2026-08-18T08:16:35Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:fastapi/fastapi",
+      "type": "repo",
+      "title": "fastapi/fastapi",
+      "summaryOriginal": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+      "url": "https://github.com/fastapi/fastapi",
       "lang": "Python",
-      "tags": [],
+      "tags": [
+        "api",
+        "async",
+        "asyncio",
+        "fastapi",
+        "framework",
+        "json",
+        "json-schema",
+        "openapi",
+        "openapi3",
+        "pydantic",
+        "python",
+        "python-types",
+        "python3",
+        "redoc",
+        "rest",
+        "starlette",
+        "swagger",
+        "swagger-ui",
+        "uvicorn",
+        "web"
+      ],
       "metrics": {
-        "starsDelta": 1,
-        "pushes": 1,
-        "totalScore": 204.8983
+        "stars": 101665
       },
-      "source": "ossinsight",
-      "categories": [
-        "ai-agents",
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:jjang-ai/mlxstudio",
-      "type": "repo",
-      "title": "jjang-ai/mlxstudio",
-      "summaryOriginal": "MLX Studio - Home of JANG_Q - Image Gen/Edit + Chat/Code All in one - + OpenClaw (Anthropic API)",
-      "url": "https://github.com/jjang-ai/mlxstudio",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "totalScore": 204.7732
-      },
-      "source": "ossinsight",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:zhishile/codex-auth-helper",
-      "type": "repo",
-      "title": "zhishile/codex-auth-helper",
-      "summaryOriginal": "Codex登陆助手：安全地在本地导出您的已登录 ChatGPT 会话配置，生成符合 Codex 规范的 auth.json 本地备份文件。",
-      "url": "https://github.com/zhishile/codex-auth-helper",
-      "lang": "CSS",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "totalScore": 204.481
-      },
-      "source": "ossinsight",
+      "source": "github-search",
+      "publishedAt": "2018-12-08T08:21:47Z",
+      "updatedAt": "2026-08-17T20:15:06Z",
       "categories": [
         "backend"
       ]
     },
     {
-      "id": "gh:OpenLabs-so/openanalytics",
+      "id": "gh:ccxt/ccxt",
       "type": "repo",
-      "title": "OpenLabs-so/openanalytics",
-      "summaryOriginal": "Open-source, privacy-first and cookieless web analytics with revenue attribution and an MCP server.",
-      "url": "https://github.com/OpenLabs-so/openanalytics",
+      "title": "ccxt/ccxt",
+      "summaryOriginal": "A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript / Python / C# / PHP / Go / Java",
+      "url": "https://github.com/ccxt/ccxt",
+      "lang": "Python",
+      "tags": [
+        "altcoin",
+        "api",
+        "arbitrage",
+        "bitcoin",
+        "bot",
+        "btc",
+        "crypto",
+        "cryptocurrencies",
+        "cryptocurrency",
+        "eth",
+        "ethereum",
+        "exchange",
+        "invest",
+        "library",
+        "market-data",
+        "memecoin",
+        "strategy",
+        "trade",
+        "trading"
+      ],
+      "metrics": {
+        "stars": 43658
+      },
+      "source": "github-search",
+      "publishedAt": "2017-05-14T15:41:56Z",
+      "updatedAt": "2026-08-18T05:36:52Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:Kong/insomnia",
+      "type": "repo",
+      "title": "Kong/insomnia",
+      "summaryOriginal": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
+      "url": "https://github.com/Kong/insomnia",
       "lang": "TypeScript",
-      "tags": [],
+      "tags": [
+        "api",
+        "api-client",
+        "api-design",
+        "curl",
+        "electron-app",
+        "graphql",
+        "grpc",
+        "http-client",
+        "rest-api",
+        "websockets"
+      ],
       "metrics": {
-        "starsDelta": 1,
-        "totalScore": 204.1702
+        "stars": 39951
       },
-      "source": "ossinsight",
+      "source": "github-search",
+      "publishedAt": "2016-04-23T03:54:26Z",
+      "updatedAt": "2026-08-18T07:07:42Z",
       "categories": [
-        "ai-agents",
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:hasura/graphql-engine",
+      "type": "repo",
+      "title": "hasura/graphql-engine",
+      "summaryOriginal": "Blazing fast, instant realtime GraphQL APIs on all your data with fine grained access control, also trigger webhooks on database events.",
+      "url": "https://github.com/hasura/graphql-engine",
+      "lang": "TypeScript",
+      "tags": [
+        "access-control",
+        "api",
+        "automatic-api",
+        "bigquery",
+        "graphql",
+        "graphql-api",
+        "graphql-server",
+        "haskell",
+        "hasura",
+        "mongodb",
+        "postgres",
+        "rest-api",
+        "sql-server",
+        "subgraph",
+        "supergraph"
+      ],
+      "metrics": {
+        "stars": 32092
+      },
+      "source": "github-search",
+      "publishedAt": "2018-06-18T07:57:36Z",
+      "updatedAt": "2026-08-17T12:16:04Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:PostgREST/postgrest",
+      "type": "repo",
+      "title": "PostgREST/postgrest",
+      "summaryOriginal": "REST API for any Postgres database",
+      "url": "https://github.com/PostgREST/postgrest",
+      "lang": "Haskell",
+      "tags": [
+        "api",
+        "automatic-api",
+        "database",
+        "haskell",
+        "http",
+        "pg",
+        "pgsql",
+        "postgres",
+        "postgresql",
+        "postgrest",
+        "rest",
+        "server",
+        "sql"
+      ],
+      "metrics": {
+        "stars": 27604
+      },
+      "source": "github-search",
+      "publishedAt": "2014-06-13T00:23:00Z",
+      "updatedAt": "2026-08-18T07:44:23Z",
+      "categories": [
         "backend",
         "data"
       ]
     },
     {
-      "id": "gh:apple/coreai-models",
+      "id": "gh:pppscn/SmsForwarder",
       "type": "repo",
-      "title": "apple/coreai-models",
-      "summaryOriginal": "Model export recipes, Python primitives, and Swift runtime utilities for on-device AI",
-      "url": "https://github.com/apple/coreai-models",
-      "lang": "Swift",
-      "tags": [],
+      "title": "pppscn/SmsForwarder",
+      "summaryOriginal": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
+      "url": "https://github.com/pppscn/SmsForwarder",
+      "lang": "Kotlin",
+      "tags": [
+        "android",
+        "api",
+        "app",
+        "bark",
+        "call",
+        "chatgpt",
+        "dingding",
+        "forward",
+        "mqtt",
+        "pushdear",
+        "pushplus",
+        "serverchan",
+        "sms",
+        "smtp",
+        "telegram",
+        "webhook",
+        "wechatapp"
+      ],
       "metrics": {
-        "starsDelta": 1,
-        "totalScore": 203.5855
+        "stars": 27556
       },
-      "source": "ossinsight",
+      "source": "github-search",
+      "publishedAt": "2021-02-10T02:23:07Z",
+      "updatedAt": "2026-08-18T02:20:38Z",
       "categories": [
         "backend"
       ]
     },
     {
-      "id": "gh:anysearch-ai/anysearch-mcp-server",
+      "id": "gh:OpenAPITools/openapi-generator",
       "type": "repo",
-      "title": "anysearch-ai/anysearch-mcp-server",
-      "summaryOriginal": "Unified real-time search engine skill for AI agents.",
-      "url": "https://github.com/anysearch-ai/anysearch-mcp-server",
-      "tags": [],
+      "title": "OpenAPITools/openapi-generator",
+      "summaryOriginal": "OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)",
+      "url": "https://github.com/OpenAPITools/openapi-generator",
+      "lang": "Java",
+      "tags": [
+        "api",
+        "api-client",
+        "api-server",
+        "generator",
+        "hacktoberfest",
+        "openapi",
+        "openapi-generator",
+        "openapi3",
+        "rest",
+        "rest-api",
+        "rest-client",
+        "restful-api",
+        "sdk"
+      ],
       "metrics": {
-        "starsDelta": 1,
-        "totalScore": 203.5069
+        "stars": 26676
       },
-      "source": "ossinsight",
+      "source": "github-search",
+      "publishedAt": "2018-05-12T09:57:56Z",
+      "updatedAt": "2026-08-18T02:26:01Z",
       "categories": [
-        "ai-agents",
         "backend"
       ]
     },
     {
-      "id": "gh:Alignbase/sunpeak",
+      "id": "gh:Skyvern-AI/skyvern",
       "type": "repo",
-      "title": "Alignbase/sunpeak",
-      "summaryOriginal": "Server-agnostic MCP testing framework and full-stack MCP App framework for ChatGPT Apps, Claude Connectors, and more.",
-      "url": "https://github.com/Alignbase/sunpeak",
-      "lang": "TypeScript",
+      "title": "Skyvern-AI/skyvern",
+      "summaryOriginal": "Automate browser based workflows with AI",
+      "url": "https://github.com/Skyvern-AI/skyvern",
+      "lang": "Python",
+      "tags": [
+        "ai",
+        "api",
+        "automation",
+        "browser",
+        "browser-automation",
+        "computer",
+        "gpt",
+        "llm",
+        "playwright",
+        "powerautomate",
+        "puppeteer",
+        "python",
+        "rpa",
+        "selenium",
+        "vision",
+        "workflow"
+      ],
+      "metrics": {
+        "stars": 22776
+      },
+      "source": "github-search",
+      "publishedAt": "2024-02-28T15:45:19Z",
+      "updatedAt": "2026-08-18T07:37:50Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:wwebjs/whatsapp-web.js",
+      "type": "repo",
+      "title": "wwebjs/whatsapp-web.js",
+      "summaryOriginal": "A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app",
+      "url": "https://github.com/wwebjs/whatsapp-web.js",
+      "lang": "JavaScript",
+      "tags": [
+        "api",
+        "bot",
+        "bot-api",
+        "hacktoberfest",
+        "whatsapp",
+        "whatsapp-api",
+        "whatsapp-bot",
+        "whatsapp-web",
+        "whatsapp-web-api"
+      ],
+      "metrics": {
+        "stars": 22423
+      },
+      "source": "github-search",
+      "publishedAt": "2019-02-17T02:16:02Z",
+      "updatedAt": "2026-08-16T12:02:54Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:bitwarden/server",
+      "type": "repo",
+      "title": "bitwarden/server",
+      "summaryOriginal": "Bitwarden infrastructure/backend (API, database, Docker, etc).",
+      "url": "https://github.com/bitwarden/server",
+      "lang": "C#",
+      "tags": [
+        "api",
+        "aspnet",
+        "aspnetcore",
+        "bitwarden",
+        "csharp",
+        "docker",
+        "dotnet",
+        "dotnet-core",
+        "signalr",
+        "sql",
+        "sql-server"
+      ],
+      "metrics": {
+        "stars": 19887
+      },
+      "source": "github-search",
+      "publishedAt": "2015-11-23T23:45:33Z",
+      "updatedAt": "2026-08-18T07:14:47Z",
+      "categories": [
+        "backend",
+        "data"
+      ]
+    },
+    {
+      "id": "gh:iii-hq/iii",
+      "type": "repo",
+      "title": "iii-hq/iii",
+      "summaryOriginal": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.",
+      "url": "https://github.com/iii-hq/iii",
+      "lang": "Rust",
+      "tags": [
+        "agents",
+        "ai",
+        "api",
+        "backend",
+        "developer-tools",
+        "engine",
+        "genai",
+        "javascript",
+        "primitives",
+        "python",
+        "rust",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 18594
+      },
+      "source": "github-search",
+      "publishedAt": "2025-01-02T17:45:02Z",
+      "updatedAt": "2026-08-18T04:35:40Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:apache/apisix",
+      "type": "repo",
+      "title": "apache/apisix",
+      "summaryOriginal": "The Cloud-Native API Gateway and AI Gateway",
+      "url": "https://github.com/apache/apisix",
+      "lang": "Lua",
+      "tags": [
+        "ai-gateway",
+        "api",
+        "api-gateway",
+        "api-management",
+        "apisix",
+        "cloud-native",
+        "devops",
+        "iot",
+        "kubernetes",
+        "kubernetes-ingress",
+        "loadbalancing",
+        "luajit",
+        "microservices",
+        "nginx",
+        "openapi",
+        "openapi3",
+        "openapi31",
+        "reverse-proxy",
+        "serverless"
+      ],
+      "metrics": {
+        "stars": 17003
+      },
+      "source": "github-search",
+      "publishedAt": "2019-04-10T02:02:05Z",
+      "updatedAt": "2026-08-18T08:17:33Z",
+      "categories": [
+        "backend",
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:Jackett/Jackett",
+      "type": "repo",
+      "title": "Jackett/Jackett",
+      "summaryOriginal": "API Support for your favorite torrent trackers",
+      "url": "https://github.com/Jackett/Jackett",
+      "lang": "C#",
+      "tags": [
+        "api",
+        "couchpotato",
+        "duckietv",
+        "hacktoberfest",
+        "indexer",
+        "jackett",
+        "lidarr",
+        "medusa",
+        "mylar3",
+        "nefarious",
+        "newznab",
+        "proxy",
+        "radarr",
+        "rss",
+        "rss-proxy",
+        "sickrage",
+        "sonarr",
+        "torrent",
+        "torznab",
+        "trackers"
+      ],
+      "metrics": {
+        "stars": 15894
+      },
+      "source": "github-search",
+      "publishedAt": "2015-10-29T16:23:19Z",
+      "updatedAt": "2026-08-18T05:49:19Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:gotify/server",
+      "type": "repo",
+      "title": "gotify/server",
+      "summaryOriginal": "A simple server for sending and receiving messages in real-time per WebSocket. (Includes a sleek web-ui)",
+      "url": "https://github.com/gotify/server",
+      "lang": "Go",
+      "tags": [
+        "api",
+        "cloud",
+        "free-software",
+        "golang",
+        "gotify",
+        "hosting",
+        "javascript",
+        "notifications",
+        "privacy",
+        "react",
+        "self-hosted",
+        "self-hosting",
+        "selfhosted"
+      ],
+      "metrics": {
+        "stars": 15744
+      },
+      "source": "github-search",
+      "publishedAt": "2018-01-15T20:25:27Z",
+      "updatedAt": "2026-08-16T09:20:13Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:jsdoc/jsdoc",
+      "type": "repo",
+      "title": "jsdoc/jsdoc",
+      "summaryOriginal": "An API documentation generator for JavaScript.",
+      "url": "https://github.com/jsdoc/jsdoc",
+      "lang": "JavaScript",
+      "tags": [
+        "api",
+        "docs",
+        "documentation",
+        "javascript",
+        "jsdoc"
+      ],
+      "metrics": {
+        "stars": 15449
+      },
+      "source": "github-search",
+      "publishedAt": "2010-03-13T09:18:03Z",
+      "updatedAt": "2026-08-16T01:29:47Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:zhaoxuya520/reverse-skill",
+      "type": "repo",
+      "title": "zhaoxuya520/reverse-skill",
+      "summaryOriginal": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "lang": "PowerShell",
       "tags": [],
       "metrics": {
-        "starsDelta": 1,
-        "totalScore": 203.326
+        "starsDelta": 4,
+        "totalScore": 212.9875
       },
       "source": "ossinsight",
       "categories": [
-        "ai-agents",
         "backend",
         "engineering"
       ]
     },
     {
-      "id": "gh:kimimgo/awesome-ai-cae",
+      "id": "gh:dnshe/DNSHE-FreeDomains",
       "type": "repo",
-      "title": "kimimgo/awesome-ai-cae",
-      "summaryOriginal": "A curated list of 100+ AI-ready tools for Computer-Aided Engineering, ranked by an AI-Readiness Score (agent-callability: MCP, Python API, CLI, pip). CFD, FEA, SPH, DEM, differentiable simulation, neural operators, PINNs, MCP servers.",
-      "url": "https://github.com/kimimgo/awesome-ai-cae",
-      "lang": "Python",
+      "title": "dnshe/DNSHE-FreeDomains",
+      "summaryOriginal": "🌐 DNSHE Official - Stable & Free Subdomains for Developers. Support 180-day renewal window, Anycast DNS, and REST API. (us.ci, cc.cd, de5.net, ccwu.cc)",
+      "url": "https://github.com/dnshe/DNSHE-FreeDomains",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 2,
+        "totalScore": 207.5226
+      },
+      "source": "ossinsight",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:yynxxxxx/Codex-X",
+      "type": "repo",
+      "title": "yynxxxxx/Codex-X",
+      "summaryOriginal": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
+      "url": "https://github.com/yynxxxxx/Codex-X",
+      "lang": "Rust",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "totalScore": 203.3053
+        "totalScore": 204.811
       },
       "source": "ossinsight",
       "categories": [
@@ -1325,16 +1295,93 @@
       ]
     },
     {
-      "id": "gh:coder/ghostty-web",
+      "id": "gh:affaan-m/agentshield",
       "type": "repo",
-      "title": "coder/ghostty-web",
-      "summaryOriginal": "Ghostty for the web with xterm.js API compatibility",
-      "url": "https://github.com/coder/ghostty-web",
+      "title": "affaan-m/agentshield",
+      "summaryOriginal": "AI agent security scanner. Detect vulnerabilities in agent configurations, MCP servers, and tool permissions. Available as CLI, GitHub Action, ECC plugin, and GitHub App integration. 🛡️",
+      "url": "https://github.com/affaan-m/agentshield",
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "totalScore": 203.302
+        "totalScore": 204.8086
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-agents",
+        "backend",
+        "engineering",
+        "devtools"
+      ]
+    },
+    {
+      "id": "gh:NVIDIA/OpenShell",
+      "type": "repo",
+      "title": "NVIDIA/OpenShell",
+      "summaryOriginal": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "lang": "Rust",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "pushes": 4,
+        "totalScore": 204.6682
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-agents",
+        "backend",
+        "devtools"
+      ]
+    },
+    {
+      "id": "gh:MeroZemory/ida-multi-mcp",
+      "type": "repo",
+      "title": "MeroZemory/ida-multi-mcp",
+      "summaryOriginal": "Multi-instance IDA Pro MCP server — analyze multiple binaries simultaneously through a single MCP endpoint.",
+      "url": "https://github.com/MeroZemory/ida-multi-mcp",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 204.5434
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-agents",
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:KunAgent/Kun",
+      "type": "repo",
+      "title": "KunAgent/Kun",
+      "summaryOriginal": "Local-first AI agent workspace for coding, writing, design, research, and automation — one runtime for desktop GUI and TUI.",
+      "url": "https://github.com/KunAgent/Kun",
+      "lang": "TypeScript",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 204.3514
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-agents",
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:Hommy-master/capcut-mate",
+      "type": "repo",
+      "title": "Hommy-master/capcut-mate",
+      "summaryOriginal": "开源剪映小助手｜剪映API | 扣子插件 | Open-source CapCut automation toolkit to generate & download draft files. | skills",
+      "url": "https://github.com/Hommy-master/capcut-mate",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "pushes": 1,
+        "totalScore": 204.2641
       },
       "source": "ossinsight",
       "categories": [
@@ -1342,21 +1389,38 @@
       ]
     },
     {
-      "id": "gh:HaD0Yun/CozyClay",
+      "id": "gh:HiThink-Tech/Financial-API",
       "type": "repo",
-      "title": "HaD0Yun/CozyClay",
-      "summaryOriginal": "Open source previs software in the browser: block a scene, pose characters, author camera moves and cuts, then take the same shots to an AI video model.",
-      "url": "https://github.com/HaD0Yun/CozyClay",
-      "lang": "JavaScript",
+      "title": "HiThink-Tech/Financial-API",
+      "summaryOriginal": "同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun (HiThink) A-share financial data service providing real-time and historical stock market data, financial statements, indices, sectors and limit-up data for AI agents, quantitative research and application development.",
+      "url": "https://github.com/HiThink-Tech/Financial-API",
+      "lang": "TypeScript",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "pushes": 1,
-        "totalScore": 203.047
+        "totalScore": 204.2452
       },
       "source": "ossinsight",
       "categories": [
-        "web",
+        "ai-agents",
+        "backend",
+        "devtools"
+      ]
+    },
+    {
+      "id": "gh:pagecat/vowifi_gateway",
+      "type": "repo",
+      "title": "pagecat/vowifi_gateway",
+      "summaryOriginal": "VoWifi to SIP gateway with full SMS/Phone support, the only requirement is a linux server and a pcsc card reader.",
+      "url": "https://github.com/pagecat/vowifi_gateway",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 204.0577
+      },
+      "source": "ossinsight",
+      "categories": [
         "backend"
       ]
     },

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "ai-agents",
-  "generatedAt": "2026-08-18T06:46:00.164Z",
+  "generatedAt": "2026-08-18T08:21:30.970Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,7 +13,7 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 2297,
+        "stars": 2345,
         "starsDelta": 207
       },
       "source": "github-trending",
@@ -30,7 +30,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 28628,
+        "stars": 28683,
         "starsDelta": 198
       },
       "source": "github-trending",
@@ -41,114 +41,153 @@
       ]
     },
     {
-      "id": "gh:t8y2/dbx",
+      "id": "gh:stablyai/orca",
       "type": "repo",
-      "title": "t8y2/dbx",
-      "summaryOriginal": "20 MB lightweight cross-platform database client for 80+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 80+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
-      "url": "https://github.com/t8y2/dbx",
-      "lang": "Rust",
+      "title": "stablyai/orca",
+      "summaryOriginal": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+      "url": "https://github.com/stablyai/orca",
+      "lang": "TypeScript",
       "tags": [
-        "ai",
+        "ade",
+        "agent-ide",
+        "ai-agents",
+        "claude-code",
         "cli",
-        "clickhouse",
-        "database",
-        "database-client",
-        "database-management",
-        "docker",
-        "gui",
-        "mcp",
-        "mongodb",
-        "mysql",
-        "postgresql",
-        "redis",
-        "rust",
-        "sql-server",
-        "sqlite",
-        "tauri",
-        "vue"
+        "codex",
+        "cursor-agent",
+        "devtools",
+        "ghostty",
+        "ide",
+        "mobile-app",
+        "opencode",
+        "orchestration",
+        "parallel-agents",
+        "pi",
+        "terminal",
+        "worktrees",
+        "yc-backed"
       ],
       "metrics": {
-        "stars": 15450
+        "stars": 47712
       },
       "source": "github-search",
-      "publishedAt": "2026-04-29T03:00:36Z",
-      "updatedAt": "2026-08-18T06:34:51Z",
+      "publishedAt": "2026-03-17T03:28:57Z",
+      "updatedAt": "2026-08-18T08:21:23Z",
       "categories": [
-        "web",
         "ai-agents",
-        "backend",
-        "infra",
-        "data",
         "devtools"
       ]
     },
     {
-      "id": "gh:diegosouzapw/OmniRoute",
+      "id": "gh:tt-a1i/archify",
       "type": "repo",
-      "title": "diegosouzapw/OmniRoute",
-      "summaryOriginal": "Never stop coding. Free MIT AI gateway: one endpoint, 340 providers (90+ free), 1200+ models — Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 450+ contributors",
-      "url": "https://github.com/diegosouzapw/OmniRoute",
-      "lang": "TypeScript",
+      "title": "tt-a1i/archify",
+      "summaryOriginal": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "url": "https://github.com/tt-a1i/archify",
+      "lang": "HTML",
       "tags": [
-        "a2a",
-        "ai-agents",
-        "ai-gateway",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "cline",
+        "agent-skills",
+        "architecture-as-code",
+        "architecture-diagram",
+        "claude-skill",
+        "code-visualization",
         "codex",
-        "copilot",
-        "cursor",
-        "deepseek",
-        "free-ai",
-        "gemini",
-        "kimi",
-        "llm-gateway",
-        "mcp",
-        "openai",
-        "openai-proxy",
-        "qwen",
-        "token-saver"
+        "coding-agents",
+        "data-flow-diagram",
+        "deepseek-harness",
+        "developer-tools",
+        "diagram-as-code",
+        "diagrams",
+        "diagrams-as-code",
+        "dsh-plugin",
+        "mermaid-alternative",
+        "opencode",
+        "sequence-diagram",
+        "software-architecture",
+        "system-design",
+        "text-to-diagram"
       ],
       "metrics": {
-        "stars": 50009
+        "stars": 14045
       },
       "source": "github-search",
-      "publishedAt": "2026-02-13T12:38:31Z",
-      "updatedAt": "2026-08-18T04:19:06Z",
-      "summaryEn": "Free AI gateway: one endpoint for 330+ providers and 1200+ models with auto-fallback and token-saving compression.",
-      "summaryKo": "330개 이상 제공자·1200개 이상 모델을 하나의 엔드포인트로 묶은 무료 AI 게이트웨이",
+      "publishedAt": "2026-04-15T05:27:37Z",
+      "updatedAt": "2026-08-17T15:47:26Z",
       "categories": [
+        "engineering",
         "ai-agents"
       ]
     },
     {
-      "id": "gh:jackwener/OpenCLI",
+      "id": "gh:holaboss-ai/holaOS",
       "type": "repo",
-      "title": "jackwener/OpenCLI",
-      "summaryOriginal": "Make Any Website into CLI & Use your logged-in browser by AI agent.",
-      "url": "https://github.com/jackwener/OpenCLI",
-      "lang": "JavaScript",
+      "title": "holaboss-ai/holaOS",
+      "summaryOriginal": "Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.",
+      "url": "https://github.com/holaboss-ai/holaOS",
+      "lang": "TypeScript",
       "tags": [
+        "agent",
+        "agent-harness",
+        "agent-os",
+        "agentic",
+        "ai",
         "ai-agent",
         "ai-agents",
-        "ai-tools",
-        "browser-automation",
-        "browser-use",
-        "cli",
-        "playwright"
+        "artificial-intelligence",
+        "claude-code",
+        "codex",
+        "electron",
+        "holaboss",
+        "holaos",
+        "llm",
+        "mcp",
+        "memory",
+        "model-context-protocol",
+        "runtime",
+        "typescript",
+        "workspace"
       ],
       "metrics": {
-        "stars": 28290
+        "stars": 9575
       },
       "source": "github-search",
-      "publishedAt": "2026-03-14T22:10:23Z",
-      "updatedAt": "2026-08-17T11:49:02Z",
+      "publishedAt": "2026-03-22T07:36:16Z",
+      "updatedAt": "2026-08-18T07:47:23Z",
       "categories": [
-        "devtools",
         "ai-agents",
         "web"
+      ]
+    },
+    {
+      "id": "gh:bojieli/ai-agent-book",
+      "type": "repo",
+      "title": "bojieli/ai-agent-book",
+      "summaryOriginal": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "lang": "Python",
+      "tags": [
+        "agent",
+        "agent-memory",
+        "ai-agent",
+        "book",
+        "coding-agent",
+        "context-engineering",
+        "large-language-models",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "multimodal",
+        "rag",
+        "reinforcement-learning"
+      ],
+      "metrics": {
+        "stars": 38752
+      },
+      "source": "github-search",
+      "publishedAt": "2025-09-09T02:41:44Z",
+      "updatedAt": "2026-08-18T07:04:11Z",
+      "categories": [
+        "ai-agents"
       ]
     },
     {
@@ -181,55 +220,15 @@
         "windsurf"
       ],
       "metrics": {
-        "stars": 39315
+        "stars": 39324
       },
       "source": "github-search",
       "publishedAt": "2026-02-24T22:01:00Z",
-      "updatedAt": "2026-08-18T05:15:10Z",
-      "categories": [
-        "devtools",
-        "ai-agents",
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:HKUDS/nanobot",
-      "type": "repo",
-      "title": "HKUDS/nanobot",
-      "summaryOriginal": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps",
-      "url": "https://github.com/HKUDS/nanobot",
-      "lang": "Python",
-      "tags": [
-        "agent-framework",
-        "ai-agent",
-        "ai-agents",
-        "chatbot",
-        "chatops",
-        "discord-bot",
-        "llm-agents",
-        "llms",
-        "local-llm",
-        "mcp",
-        "model-context-protocol",
-        "multi-agent",
-        "openai-compatible",
-        "openclaw",
-        "personal-ai-assistant",
-        "python",
-        "self-hosted",
-        "telegram-bot-ai-assistant",
-        "webui",
-        "workflow-automation"
-      ],
-      "metrics": {
-        "stars": 47119
-      },
-      "source": "github-search",
-      "publishedAt": "2026-02-01T07:16:15Z",
-      "updatedAt": "2026-08-18T06:32:57Z",
+      "updatedAt": "2026-08-18T07:32:00Z",
       "categories": [
         "ai-agents",
-        "infra"
+        "backend",
+        "devtools"
       ]
     },
     {
@@ -251,16 +250,18 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 804
+        "stars": 808
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T06:28:56Z",
-      "updatedAt": "2026-08-18T06:45:40Z",
+      "updatedAt": "2026-08-18T07:42:11Z",
       "summaryEn": "Open-source alternative to Grok's coding bot — pick your own model and sandbox.",
       "summaryKo": "Grok 봇의 오픈소스 대안, 모델과 샌드박스를 직접 선택",
       "categories": [
         "ai-models",
-        "ai-agents"
+        "ai-agents",
+        "web",
+        "infra"
       ]
     },
     {
@@ -285,7 +286,7 @@
         "tutorial"
       ],
       "metrics": {
-        "stars": 467
+        "stars": 476
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T15:22:29Z",
@@ -325,7 +326,7 @@
         "zero-dependency"
       ],
       "metrics": {
-        "stars": 154
+        "stars": 155
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T08:09:10Z",
@@ -366,11 +367,11 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 136
+        "stars": 139
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T13:54:05Z",
-      "updatedAt": "2026-08-18T06:37:02Z",
+      "updatedAt": "2026-08-18T08:05:20Z",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -398,11 +399,11 @@
         "plugin-marketplace"
       ],
       "metrics": {
-        "stars": 119
+        "stars": 122
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T16:01:59Z",
-      "updatedAt": "2026-08-18T06:43:54Z",
+      "updatedAt": "2026-08-18T07:30:30Z",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -522,38 +523,23 @@
       "categories": [
         "ai-models",
         "ai-agents",
+        "web",
+        "engineering",
         "devtools"
       ]
     },
     {
-      "id": "gh:bojieli/ai-agent-book",
+      "id": "gh:ifixai-ai/iFixAi",
       "type": "repo",
-      "title": "bojieli/ai-agent-book",
-      "summaryOriginal": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
-      "url": "https://github.com/bojieli/ai-agent-book",
+      "title": "ifixai-ai/iFixAi",
+      "summaryOriginal": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
+      "url": "https://github.com/ifixai-ai/iFixAi",
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "starsDelta": 3,
-        "pushes": 2,
-        "totalScore": 210.7781
-      },
-      "source": "ossinsight",
-      "categories": [
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "gh:larashero3-dotcom/lieflat-charts",
-      "type": "repo",
-      "title": "larashero3-dotcom/lieflat-charts",
-      "summaryOriginal": "Data visualization Skill for AI Agents, turning data into polished, interactive HTML charts. 面向 AI Agents 的数据可视化 Skill，将数据快速生成精致、可交互的 HTML 图表。",
-      "url": "https://github.com/larashero3-dotcom/lieflat-charts",
-      "lang": "HTML",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "totalScore": 208.0676
+        "starsDelta": 6,
+        "pushes": 1,
+        "totalScore": 221.8224
       },
       "source": "ossinsight",
       "categories": [
@@ -569,8 +555,8 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "starsDelta": 2,
-        "totalScore": 207.0207
+        "starsDelta": 5,
+        "totalScore": 216.675
       },
       "source": "ossinsight",
       "categories": [
@@ -578,39 +564,56 @@
       ]
     },
     {
-      "id": "gh:freestylefly/awesome-gpt-image-2",
+      "id": "gh:blader/humanizer",
       "type": "repo",
-      "title": "freestylefly/awesome-gpt-image-2",
-      "summaryOriginal": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
-      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "title": "blader/humanizer",
+      "summaryOriginal": "Agent skill that removes signs of AI-generated writing from text",
+      "url": "https://github.com/blader/humanizer",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 2,
+        "totalScore": 207.9645
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "gh:didilili/ai-agents-from-zero",
+      "type": "repo",
+      "title": "didilili/ai-agents-from-zero",
+      "summaryOriginal": "🚀 2026 最系统的 AI Agent 速成指南｜智能体实战教程 · 完整学习路径 + 实战项目 + 面试题库 · 对标大模型应用开发工程师岗位 · 覆盖LangChain / LangGraph / Coze / Dify / MCP / skills / LLM / RAG / 提示词 · 企业级部署与微调 · 从0到企业级落地 + 从学习到上线项目 + 面试准备一体化",
+      "url": "https://github.com/didilili/ai-agents-from-zero",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 2,
+        "totalScore": 207.3834
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "gh:coreyhaines31/marketingskills",
+      "type": "repo",
+      "title": "coreyhaines31/marketingskills",
+      "summaryOriginal": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "url": "https://github.com/coreyhaines31/marketingskills",
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
         "starsDelta": 2,
-        "totalScore": 206.5443
+        "totalScore": 206.6964
       },
       "source": "ossinsight",
       "categories": [
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "gh:whiteguo233/OpenBiliClaw",
-      "type": "repo",
-      "title": "whiteguo233/OpenBiliClaw",
-      "summaryOriginal": "本地私有的跨平台 AI 内容发现 Agent——先深度理解你，再主动去 B站/小红书/抖音/YouTube/X/知乎/Reddit 找你会喜欢的内容。Local-first AI agent that learns who you are, then hunts content you'll love across platforms.",
-      "url": "https://github.com/whiteguo233/OpenBiliClaw",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "totalScore": 204.967
-      },
-      "source": "ossinsight",
-      "summaryEn": "Local-first AI agent that learns your taste, then finds content for you across Bilibili, YouTube, X, and Reddit.",
-      "summaryKo": "사용자 취향을 학습해 빌리빌리·유튜브·X·레딧 등에서 콘텐츠를 찾아주는 로컬 우선 AI 에이전트",
-      "categories": [
-        "ai-agents"
+        "ai-agents",
+        "data"
       ]
     },
     {
@@ -622,7 +625,7 @@
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "totalScore": 204.9421
+        "totalScore": 204.8719
       },
       "source": "ossinsight",
       "categories": [
@@ -630,73 +633,80 @@
       ]
     },
     {
-      "id": "gh:opensandbox-group/OpenSandbox",
+      "id": "gh:yynxxxxx/Codex-X",
       "type": "repo",
-      "title": "opensandbox-group/OpenSandbox",
-      "summaryOriginal": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
-      "url": "https://github.com/opensandbox-group/OpenSandbox",
-      "lang": "Python",
+      "title": "yynxxxxx/Codex-X",
+      "summaryOriginal": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
+      "url": "https://github.com/yynxxxxx/Codex-X",
+      "lang": "Rust",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "pushes": 1,
-        "totalScore": 204.8983
+        "totalScore": 204.811
       },
       "source": "ossinsight",
       "categories": [
         "ai-agents",
-        "backend"
+        "backend",
+        "devtools"
       ]
     },
     {
-      "id": "gh:Nagi-ovo/voyager",
+      "id": "gh:affaan-m/agentshield",
       "type": "repo",
-      "title": "Nagi-ovo/voyager",
-      "summaryOriginal": "Enhancement suite for Gemini, AI Studio, Claude & ChatGPT — plus a prompt manager for any web UI, DeepSeek Harness included. / 面向 Gemini、AI Studio、Claude 与 ChatGPT 的增强套件；提示词管理器可用于任意 Web UI，含 DeepSeek Harness。",
-      "url": "https://github.com/Nagi-ovo/voyager",
+      "title": "affaan-m/agentshield",
+      "summaryOriginal": "AI agent security scanner. Detect vulnerabilities in agent configurations, MCP servers, and tool permissions. Available as CLI, GitHub Action, ECC plugin, and GitHub App integration. 🛡️",
+      "url": "https://github.com/affaan-m/agentshield",
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "totalScore": 204.8953
+        "totalScore": 204.8086
       },
       "source": "ossinsight",
       "categories": [
-        "ai-agents"
+        "ai-agents",
+        "backend",
+        "engineering",
+        "devtools"
       ]
     },
     {
-      "id": "gh:Nasiko-Labs/nasiko",
+      "id": "gh:letta-ai/letta-code",
       "type": "repo",
-      "title": "Nasiko-Labs/nasiko",
-      "summaryOriginal": "Developer Control Plane for your AI Agents",
-      "url": "https://github.com/Nasiko-Labs/nasiko",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "totalScore": 204.8042
-      },
-      "source": "ossinsight",
-      "categories": [
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "gh:heygen-com/hyperframes",
-      "type": "repo",
-      "title": "heygen-com/hyperframes",
-      "summaryOriginal": "Write HTML. Render video. Built for agents.",
-      "url": "https://github.com/heygen-com/hyperframes",
+      "title": "letta-ai/letta-code",
+      "summaryOriginal": "Stateful agents that are like people, with memory, identity, and the ability to learn and adapt",
+      "url": "https://github.com/letta-ai/letta-code",
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "totalScore": 204.7771
+        "pushes": 1,
+        "totalScore": 204.7786
       },
       "source": "ossinsight",
       "categories": [
         "ai-agents"
+      ]
+    },
+    {
+      "id": "gh:alibaba/open-code-review",
+      "type": "repo",
+      "title": "alibaba/open-code-review",
+      "summaryOriginal": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "url": "https://github.com/alibaba/open-code-review",
+      "lang": "Go",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 204.7675
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-models",
+        "ai-agents",
+        "data",
+        "engineering"
       ]
     },
     {
@@ -719,9 +729,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 10832,
+        "likes": 10879,
         "downloads": 415039,
-        "trendingScore": 10305
+        "trendingScore": 10345
       },
       "source": "hf-models",
       "publishedAt": "2026-08-05T08:22:59.000Z",
@@ -753,9 +763,9 @@
         "conversational"
       ],
       "metrics": {
-        "likes": 1680,
+        "likes": 1699,
         "downloads": 2727609,
-        "trendingScore": 1594
+        "trendingScore": 1610
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T08:28:40.000Z",
@@ -787,9 +797,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1044,
+        "likes": 1045,
         "downloads": 9465,
-        "trendingScore": 1001
+        "trendingScore": 1002
       },
       "source": "hf-models",
       "publishedAt": "2026-08-08T01:50:52.000Z",
@@ -840,9 +850,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1141,
+        "likes": 1149,
         "downloads": 465529,
-        "trendingScore": 918
+        "trendingScore": 923
       },
       "source": "hf-models",
       "publishedAt": "2026-07-23T07:55:24.000Z",
@@ -874,9 +884,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 916,
+        "likes": 918,
         "downloads": 10375,
-        "trendingScore": 891
+        "trendingScore": 892
       },
       "source": "hf-models",
       "publishedAt": "2026-08-07T12:23:29.000Z",
@@ -910,9 +920,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1667,
+        "likes": 1669,
         "downloads": 334099,
-        "trendingScore": 738
+        "trendingScore": 706
       },
       "source": "hf-models",
       "publishedAt": "2026-08-09T17:51:35.000Z",
@@ -953,9 +963,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 4101,
+        "likes": 4103,
         "downloads": 2403238,
-        "trendingScore": 552
+        "trendingScore": 541
       },
       "source": "hf-models",
       "publishedAt": "2026-07-28T10:45:18.000Z",
@@ -1025,9 +1035,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 537,
+        "likes": 539,
         "downloads": 495646,
-        "trendingScore": 507
+        "trendingScore": 510
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T08:01:58.000Z",
@@ -1069,12 +1079,85 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 457,
+        "likes": 464,
         "downloads": 15812,
-        "trendingScore": 405
+        "trendingScore": 412
       },
       "source": "hf-models",
       "publishedAt": "2026-08-15T05:45:04.000Z",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "hf-paper:2608.15669",
+      "type": "paper",
+      "title": "Large Discovery Models: Empirically-grounded Model-Based Open-Ended Search",
+      "summaryOriginal": "Scientific discovery often involves optimising expensive-to-evaluate objectives over vast, structured, and open-ended hypothesis spaces, such as molecules, protein sequences, and computer programs. Generative models such as large language models (LLMs) provide expressive priors over such spaces, but their likelihoods and self-assessments are unreliable proxies for the objectives and calibrated ep…",
+      "url": "https://huggingface.co/papers/2608.15669",
+      "tags": [],
+      "metrics": {
+        "upvotes": 3,
+        "comments": 1
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-08-16T00:00:00.000Z",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "hf-paper:2608.16765",
+      "type": "paper",
+      "title": "TRACE-Bench: Decomposing and Diagnosing Multi-Reference Image Generation",
+      "summaryOriginal": "Despite recent advances in unified multimodal models for multi-reference image generation, existing benchmarks remain organized around predefined task types (e.g., \"subject composition\"), which are ill-suited to this combinatorial setting and lead to fragmented coverage, uncontrolled complexity, and little diagnostic value. Recognizing that diverse multi-reference tasks share a common set of atom…",
+      "url": "https://huggingface.co/papers/2608.16765",
+      "tags": [],
+      "metrics": {
+        "upvotes": 3,
+        "comments": 1
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "hf-paper:2608.15659",
+      "type": "paper",
+      "title": "WorldRover: A Scalable Synthetic Video Data Engine for World Exploration with Rich Annotations",
+      "summaryOriginal": "Learning to generate or reconstruct explorable worlds requires video paired with more than RGB: camera motion, scene geometry, temporal correspondence and, for interactive models, control signals. Real capture can provide some of these signals, but dense geometry and long-range correspondence usually rely on estimation or specialised instrumentation. Rendering provides these quantities directly,…",
+      "url": "https://huggingface.co/papers/2608.15659",
+      "tags": [],
+      "metrics": {
+        "upvotes": 1,
+        "comments": 1
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-08-16T00:00:00.000Z",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "hf-paper:2608.15037",
+      "type": "paper",
+      "title": "Prototype-Rectified Iterative Self-supervised Manifold Denoising under Severe Acoustic Shift",
+      "summaryOriginal": "Audio-Text Foundation Models (ATMs) fail catastrophically under severe acoustic noise, yet existing adaptation strategies either rely on gradient-based Test-Time Adaptation (TTA), which reinforces noise rather than signal, or on prompt tuning that requires privileged noise annotations unavailable at inference. We address these failures with PRISM (Prototype-Rectified Iterative Self-supervised Man…",
+      "url": "https://huggingface.co/papers/2608.15037",
+      "tags": [],
+      "metrics": {
+        "upvotes": 0,
+        "comments": 1,
+        "githubStars": 1
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-08-15T00:00:00.000Z",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -1088,7 +1171,7 @@
       "url": "https://huggingface.co/papers/2608.16072",
       "tags": [],
       "metrics": {
-        "upvotes": 4,
+        "upvotes": 10,
         "comments": 1
       },
       "source": "hf-papers",
@@ -1106,7 +1189,7 @@
       "url": "https://huggingface.co/papers/2608.14614",
       "tags": [],
       "metrics": {
-        "upvotes": 0,
+        "upvotes": 1,
         "comments": 1
       },
       "source": "hf-papers",
@@ -1182,80 +1265,6 @@
         "upvotes": 2,
         "comments": 1,
         "githubStars": 0
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "hf-paper:2608.15022",
-      "type": "paper",
-      "title": "Gathered, Not Admitted: How Attention Brings a Latent Variable into Verbalizable Form",
-      "summaryOriginal": "Language models hold latent quantities in a form they can report on, and more of a quantity is present in that form when the task requires reusing it flexibly. What causes a representation to enter that form is open, and the word workspace invites an admission story: a gate that decides what gets in. Testing it on open-weight models with Jacobian lenses, over a benchmark whose five arms share an…",
-      "url": "https://huggingface.co/papers/2608.15022",
-      "tags": [],
-      "metrics": {
-        "upvotes": 2,
-        "comments": 1,
-        "githubStars": 0
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-08-15T00:00:00.000Z",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "hf-paper:2608.16859",
-      "type": "paper",
-      "title": "HarnessEval-W: Agentifying the Evaluation of Visual Worlds",
-      "summaryOriginal": "A benchmark should deliver more than a scalar score: what makes an evaluation trustworthy is the reasoning that justifies the score. This is especially critical for world models, where judging a rollout requires understanding whether physics, causality, and world state evolve correctly. Humans spot such violations naturally, yet no existing benchmark automates this capability: metrics are compute…",
-      "url": "https://huggingface.co/papers/2608.16859",
-      "tags": [],
-      "metrics": {
-        "upvotes": 32,
-        "comments": 1,
-        "githubStars": 14
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "hf-paper:2608.16887",
-      "type": "paper",
-      "title": "An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models",
-      "summaryOriginal": "This paper investigates an increasingly important topic in generative modeling: pixel-space diffusion models. Although numerous studies have explored this topic, most focus on small-scale or class-conditional settings. Consequently, a practical recipe for training pixel-space models that rival or exceed well-established latent-space counterparts remains elusive. Through a comprehensive empirical…",
-      "url": "https://huggingface.co/papers/2608.16887",
-      "tags": [],
-      "metrics": {
-        "upvotes": 13,
-        "comments": 1
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "hf-paper:2608.16884",
-      "type": "paper",
-      "title": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve",
-      "summaryOriginal": "The current best bounds on the matrix multiplication exponent ω are obtained through a refinement of the laser method called combination loss analysis (Duan et al., 2022; Williams et al., 2024; Alman et al., 2025). In this note, we address the optimization problem at the core of this approach and propose several improvements. First, we reformulate the optimization problem allowing us to solve it…",
-      "url": "https://huggingface.co/papers/2608.16884",
-      "tags": [],
-      "metrics": {
-        "upvotes": 2,
-        "comments": 0
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-17T00:00:00.000Z",

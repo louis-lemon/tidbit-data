@@ -1,77 +1,231 @@
 {
   "version": 1,
   "category": "web",
-  "generatedAt": "2026-08-18T06:46:00.164Z",
+  "generatedAt": "2026-08-18T08:21:30.970Z",
   "ttlSeconds": 10800,
   "cards": [
     {
-      "id": "gh:t8y2/dbx",
+      "id": "gh:immich-app/immich",
       "type": "repo",
-      "title": "t8y2/dbx",
-      "summaryOriginal": "20 MB lightweight cross-platform database client for 80+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 80+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
-      "url": "https://github.com/t8y2/dbx",
-      "lang": "Rust",
+      "title": "immich-app/immich",
+      "summaryOriginal": "High performance self-hosted photo and video management solution.",
+      "url": "https://github.com/immich-app/immich",
+      "lang": "TypeScript",
+      "tags": [],
+      "metrics": {
+        "stars": 111397,
+        "starsDelta": 175
+      },
+      "source": "github-trending",
+      "categories": [
+        "infra",
+        "web"
+      ]
+    },
+    {
+      "id": "gh:holaboss-ai/holaOS",
+      "type": "repo",
+      "title": "holaboss-ai/holaOS",
+      "summaryOriginal": "Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.",
+      "url": "https://github.com/holaboss-ai/holaOS",
+      "lang": "TypeScript",
+      "tags": [
+        "agent",
+        "agent-harness",
+        "agent-os",
+        "agentic",
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "artificial-intelligence",
+        "claude-code",
+        "codex",
+        "electron",
+        "holaboss",
+        "holaos",
+        "llm",
+        "mcp",
+        "memory",
+        "model-context-protocol",
+        "runtime",
+        "typescript",
+        "workspace"
+      ],
+      "metrics": {
+        "stars": 9575
+      },
+      "source": "github-search",
+      "publishedAt": "2026-03-22T07:36:16Z",
+      "updatedAt": "2026-08-18T07:47:23Z",
+      "categories": [
+        "ai-agents",
+        "web"
+      ]
+    },
+    {
+      "id": "gh:elie222/rakazo",
+      "type": "repo",
+      "title": "elie222/rakazo",
+      "summaryOriginal": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+      "url": "https://github.com/elie222/rakazo",
+      "lang": "TypeScript",
+      "tags": [
+        "ai-agents",
+        "chatgpt",
+        "docker",
+        "electron",
+        "expo",
+        "grok",
+        "llm",
+        "self-hosted",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 808
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T06:28:56Z",
+      "updatedAt": "2026-08-18T07:42:11Z",
+      "summaryEn": "Open-source alternative to Grok's coding bot — pick your own model and sandbox.",
+      "summaryKo": "Grok 봇의 오픈소스 대안, 모델과 샌드박스를 직접 선택",
+      "categories": [
+        "ai-models",
+        "ai-agents",
+        "web",
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:vuphongle/oss-pr-reviewer",
+      "type": "repo",
+      "title": "vuphongle/oss-pr-reviewer",
+      "summaryOriginal": "AI-powered CLI for reviewing GitHub pull requests, detecting potential bugs, security risks, regressions, and missing tests, with structured Markdown reports for open-source maintainers.",
+      "url": "https://github.com/vuphongle/oss-pr-reviewer",
+      "lang": "TypeScript",
       "tags": [
         "ai",
         "cli",
-        "clickhouse",
-        "database",
-        "database-client",
-        "database-management",
-        "docker",
-        "gui",
-        "mcp",
-        "mongodb",
-        "mysql",
-        "postgresql",
-        "redis",
-        "rust",
-        "sql-server",
-        "sqlite",
-        "tauri",
-        "vue"
+        "code-review",
+        "developer-tools",
+        "github",
+        "llm",
+        "maintainer-tools",
+        "open-source",
+        "pull-request",
+        "typescript"
       ],
       "metrics": {
-        "stars": 15450
+        "stars": 111
       },
       "source": "github-search",
-      "publishedAt": "2026-04-29T03:00:36Z",
-      "updatedAt": "2026-08-18T06:34:51Z",
+      "publishedAt": "2026-08-13T01:59:03Z",
+      "updatedAt": "2026-08-13T05:09:43Z",
       "categories": [
+        "ai-models",
         "web",
-        "ai-agents",
-        "backend",
-        "infra",
-        "data",
         "devtools"
       ]
     },
     {
-      "id": "gh:jackwener/OpenCLI",
+      "id": "gh:Mars-Sea/dsh-commandcode-provider",
       "type": "repo",
-      "title": "jackwener/OpenCLI",
-      "summaryOriginal": "Make Any Website into CLI & Use your logged-in browser by AI agent.",
-      "url": "https://github.com/jackwener/OpenCLI",
-      "lang": "JavaScript",
+      "title": "Mars-Sea/dsh-commandcode-provider",
+      "summaryOriginal": "Unofficial DeepSeek Harness LLM provider plugin for Command Code: live model catalog, reasoning-effort support, Models-page card. Ported from pi-commandcode-provider (MIT).",
+      "url": "https://github.com/Mars-Sea/dsh-commandcode-provider",
+      "lang": "TypeScript",
       "tags": [
-        "ai-agent",
-        "ai-agents",
-        "ai-tools",
-        "browser-automation",
-        "browser-use",
-        "cli",
-        "playwright"
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "llm",
+        "llm-provider",
+        "npm",
+        "plugin",
+        "provider",
+        "typescript"
       ],
       "metrics": {
-        "stars": 28290
+        "stars": 58
       },
       "source": "github-search",
-      "publishedAt": "2026-03-14T22:10:23Z",
-      "updatedAt": "2026-08-17T11:49:02Z",
+      "publishedAt": "2026-08-14T11:38:54Z",
+      "updatedAt": "2026-08-18T02:00:40Z",
       "categories": [
-        "devtools",
-        "ai-agents",
+        "ai-models",
         "web"
+      ]
+    },
+    {
+      "id": "gh:V1ki/dsh-plugin-subscriptions",
+      "type": "repo",
+      "title": "V1ki/dsh-plugin-subscriptions",
+      "summaryOriginal": "Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as DeepSeek Harness LLM providers — OAuth login in the web UI, no API keys",
+      "url": "https://github.com/V1ki/dsh-plugin-subscriptions",
+      "lang": "TypeScript",
+      "tags": [
+        "ai-agent",
+        "chatgpt",
+        "claude",
+        "codex",
+        "deepseek-harness",
+        "dsh-plugin",
+        "grok",
+        "llm",
+        "oauth",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 54
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T08:27:11Z",
+      "updatedAt": "2026-08-18T07:07:40Z",
+      "categories": [
+        "ai-models",
+        "web"
+      ]
+    },
+    {
+      "id": "gh:diyanbogdanov/emend",
+      "type": "repo",
+      "title": "diyanbogdanov/emend",
+      "summaryOriginal": "Verified AI dependency migrations. Finds which of your lines a version bump actually breaks, fixes them, and proves the result still compiles and passes your tests.",
+      "url": "https://github.com/diyanbogdanov/emend",
+      "lang": "TypeScript",
+      "tags": [
+        "ai-agents",
+        "automation",
+        "breaking-changes",
+        "cli",
+        "code-migration",
+        "codemod",
+        "dependabot",
+        "dependency-management",
+        "developer-tools",
+        "devtools",
+        "llm",
+        "migration",
+        "npm",
+        "openapi",
+        "refactoring",
+        "static-analysis",
+        "supply-chain-security",
+        "technical-debt",
+        "typescript",
+        "upgrade"
+      ],
+      "metrics": {
+        "stars": 38
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T12:41:58Z",
+      "updatedAt": "2026-08-14T17:15:24Z",
+      "categories": [
+        "ai-models",
+        "ai-agents",
+        "web",
+        "engineering",
+        "devtools"
       ]
     },
     {
@@ -184,6 +338,262 @@
       ]
     },
     {
+      "id": "gh:f/prompts.chat",
+      "type": "repo",
+      "title": "f/prompts.chat",
+      "summaryOriginal": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "url": "https://github.com/f/prompts.chat",
+      "lang": "HTML",
+      "tags": [
+        "ai",
+        "artificial-intelligence",
+        "awesome-list",
+        "chatgpt",
+        "chatgpt-prompts",
+        "claude",
+        "gemini",
+        "gpt",
+        "gpt-4",
+        "llm",
+        "machine-learning",
+        "nextjs",
+        "open-source",
+        "openai",
+        "prompt-engineering",
+        "prompts",
+        "prompts-chat",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 167369
+      },
+      "source": "github-search",
+      "publishedAt": "2022-12-05T13:54:13Z",
+      "updatedAt": "2026-08-18T03:20:31Z",
+      "categories": [
+        "ai-models",
+        "web"
+      ]
+    },
+    {
+      "id": "gh:langchain-ai/langchain",
+      "type": "repo",
+      "title": "langchain-ai/langchain",
+      "summaryOriginal": "The agent engineering platform.",
+      "url": "https://github.com/langchain-ai/langchain",
+      "lang": "Python",
+      "tags": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "deepagents",
+        "enterprise",
+        "framework",
+        "gemini",
+        "generative-ai",
+        "langchain",
+        "langgraph",
+        "llm",
+        "multiagent",
+        "open-source",
+        "openai",
+        "pydantic",
+        "python",
+        "rag",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 144451
+      },
+      "source": "github-search",
+      "publishedAt": "2022-10-17T02:58:36Z",
+      "updatedAt": "2026-08-18T08:11:47Z",
+      "categories": [
+        "ai-models",
+        "ai-agents",
+        "web"
+      ]
+    },
+    {
+      "id": "gh:bytedance/deer-flow",
+      "type": "repo",
+      "title": "bytedance/deer-flow",
+      "summaryOriginal": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "url": "https://github.com/bytedance/deer-flow",
+      "lang": "Python",
+      "tags": [
+        "agent",
+        "agentic",
+        "agentic-framework",
+        "agentic-workflow",
+        "ai",
+        "ai-agents",
+        "deep-research",
+        "harness",
+        "langchain",
+        "langgraph",
+        "langmanus",
+        "llm",
+        "multi-agent",
+        "nodejs",
+        "podcast",
+        "python",
+        "superagent",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 80220
+      },
+      "source": "github-search",
+      "publishedAt": "2025-05-07T02:50:19Z",
+      "updatedAt": "2026-08-17T11:55:30Z",
+      "categories": [
+        "ai-models",
+        "ai-agents",
+        "web"
+      ]
+    },
+    {
+      "id": "gh:headroomlabs-ai/headroom",
+      "type": "repo",
+      "title": "headroomlabs-ai/headroom",
+      "summaryOriginal": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "lang": "Python",
+      "tags": [
+        "agent",
+        "ai",
+        "anthropic",
+        "claude-code",
+        "compression",
+        "context-engineering",
+        "context-window",
+        "cursor",
+        "fastapi",
+        "langchain",
+        "llm",
+        "mcp",
+        "openai",
+        "prompt-engineering",
+        "proxy",
+        "python",
+        "rag",
+        "token-optimization",
+        "tokens",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 66723
+      },
+      "source": "github-search",
+      "publishedAt": "2026-01-07T19:58:51Z",
+      "updatedAt": "2026-08-18T05:08:36Z",
+      "categories": [
+        "ai-models",
+        "ai-agents",
+        "web"
+      ]
+    },
+    {
+      "id": "gh:decionis/agent-safe-pipeline",
+      "type": "repo",
+      "title": "decionis/agent-safe-pipeline",
+      "summaryOriginal": "Reference architecture for AI agents that propose actions but cannot authorize them — immutable intent capture, an independent Decionis policy verdict (ALLOW/ESCALATE/BLOCK), verified human approval, and a SafeExecutor that consumes a single-use intent-bound grant.",
+      "url": "https://github.com/decionis/agent-safe-pipeline",
+      "lang": "TypeScript",
+      "tags": [
+        "agentic-ai",
+        "ai-agent-permissions",
+        "ai-agents",
+        "ai-governance",
+        "ai-safety",
+        "authorization",
+        "decionis",
+        "human-in-the-loop",
+        "mcp",
+        "policy-as-code",
+        "reference-architecture",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 531
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T21:36:19Z",
+      "updatedAt": "2026-08-17T21:37:07Z",
+      "categories": [
+        "ai-agents",
+        "web"
+      ]
+    },
+    {
+      "id": "gh:ZSeven-W/dsh-noema",
+      "type": "repo",
+      "title": "ZSeven-W/dsh-noema",
+      "summaryOriginal": "Noema long-term memory plugin for DSH: durable, inspectable agent memory with recall tools and a settings page.",
+      "url": "https://github.com/ZSeven-W/dsh-noema",
+      "lang": "TypeScript",
+      "tags": [
+        "agent-memory",
+        "ai-agents",
+        "coding-agent",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "long-term-memory",
+        "mcp",
+        "memory",
+        "noema",
+        "plugin",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 105
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T12:38:51Z",
+      "updatedAt": "2026-08-15T06:05:30Z",
+      "categories": [
+        "ai-agents",
+        "web"
+      ]
+    },
+    {
+      "id": "gh:ZSeven-W/dsh-crew",
+      "type": "repo",
+      "title": "ZSeven-W/dsh-crew",
+      "summaryOriginal": "DeepSeek Harness (DSH) plugin: dispatch work to DSH agents from Claude Code / Codex — native subagent progress, in-host worker sessions with per-tier presets, and a multimodal bridge that lends the text-only harness vision and image generation.",
+      "url": "https://github.com/ZSeven-W/dsh-crew",
+      "lang": "JavaScript",
+      "tags": [
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "coding-agent",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "mcp",
+        "multimodal",
+        "orchestration",
+        "plugin",
+        "subagent",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 56
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-16T15:19:41Z",
+      "updatedAt": "2026-08-17T10:01:28Z",
+      "categories": [
+        "ai-agents",
+        "web"
+      ]
+    },
+    {
       "id": "gh:toolclub/dsh-agent-team-gui",
       "type": "repo",
       "title": "toolclub/dsh-agent-team-gui",
@@ -213,37 +623,84 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-15T03:40:19Z",
-      "updatedAt": "2026-08-18T06:44:05Z",
+      "updatedAt": "2026-08-18T07:33:45Z",
       "categories": [
         "ai-agents",
         "web"
       ]
     },
     {
-      "id": "gh:ccch1mneyyy/dsh-TUI",
+      "id": "gh:ruvnet/ruflo",
       "type": "repo",
-      "title": "ccch1mneyyy/dsh-TUI",
-      "summaryOriginal": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。 DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoughts, double-Esc rollback, context bar + TPS. npm one-click.",
-      "url": "https://github.com/ccch1mneyyy/dsh-TUI",
+      "title": "ruvnet/ruflo",
+      "summaryOriginal": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "url": "https://github.com/ruvnet/ruflo",
       "lang": "TypeScript",
       "tags": [
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-workflow",
+        "agents",
+        "ai-agents",
+        "ai-assistant",
+        "ai-coding",
+        "ai-skills",
+        "autonomous-agents",
         "claude-code",
-        "coding-agent",
-        "deepseek",
-        "deepseek-harness",
-        "dsh-plugin",
-        "ink",
-        "react",
-        "terminal",
-        "tui"
+        "codex",
+        "harness",
+        "mcp-server",
+        "multi-agent",
+        "multi-agent-systems",
+        "npm",
+        "skills",
+        "swarm",
+        "swarm-intelligence",
+        "typescript"
       ],
       "metrics": {
-        "stars": 1887
+        "stars": 68135
       },
       "source": "github-search",
-      "publishedAt": "2026-08-13T12:49:31Z",
-      "updatedAt": "2026-08-18T06:45:19Z",
+      "publishedAt": "2025-06-02T21:24:20Z",
+      "updatedAt": "2026-08-18T06:29:03Z",
       "categories": [
+        "ai-agents",
+        "web"
+      ]
+    },
+    {
+      "id": "gh:code-yeongyu/oh-my-openagent",
+      "type": "repo",
+      "title": "code-yeongyu/oh-my-openagent",
+      "summaryOriginal": "omo/lazycodex: The coding agent for tokenmaxxers;the one and only agent harness for complex codebases. For your Codex, for your OpenCode",
+      "url": "https://github.com/code-yeongyu/oh-my-openagent",
+      "lang": "TypeScript",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-skills",
+        "codex",
+        "cursor",
+        "gemini",
+        "ide",
+        "openai",
+        "opencode",
+        "orchestration",
+        "tui",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 68020
+      },
+      "source": "github-search",
+      "publishedAt": "2025-12-03T01:40:05Z",
+      "updatedAt": "2026-08-18T08:17:22Z",
+      "categories": [
+        "ai-agents",
         "web"
       ]
     },
@@ -272,13 +729,217 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 392
+        "stars": 393
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T10:41:33Z",
       "updatedAt": "2026-08-15T08:56:28Z",
       "categories": [
+        "ai-agents",
         "web"
+      ]
+    },
+    {
+      "id": "gh:nduc99911/repo-context-mcp",
+      "type": "repo",
+      "title": "nduc99911/repo-context-mcp",
+      "summaryOriginal": "MCP server: repo map, code search, and token-aware context packs for AI coding agents",
+      "url": "https://github.com/nduc99911/repo-context-mcp",
+      "lang": "TypeScript",
+      "tags": [
+        "ai-agent",
+        "claude",
+        "codex",
+        "cursor",
+        "mcp",
+        "model-context-protocol",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 104
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-12T08:22:31Z",
+      "updatedAt": "2026-08-12T09:21:15Z",
+      "categories": [
+        "ai-agents",
+        "web"
+      ]
+    },
+    {
+      "id": "gh:pengyue-polaron/deepseek-harness-genui",
+      "type": "repo",
+      "title": "pengyue-polaron/deepseek-harness-genui",
+      "summaryOriginal": "Code-first generative UI for DeepSeek Harness",
+      "url": "https://github.com/pengyue-polaron/deepseek-harness-genui",
+      "lang": "TypeScript",
+      "tags": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "generative-ui",
+        "genui",
+        "mcp",
+        "react"
+      ],
+      "metrics": {
+        "stars": 35
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T20:28:02Z",
+      "updatedAt": "2026-08-16T19:11:59Z",
+      "categories": [
+        "ai-agents",
+        "web"
+      ]
+    },
+    {
+      "id": "gh:OpenEvident/vindicate",
+      "type": "repo",
+      "title": "OpenEvident/vindicate",
+      "summaryOriginal": "A local-first Playwright test automation toolkit for AI coding agents (Cursor, Claude Code, Copilot), with MCP tools for codegen, browser control, and recordings.",
+      "url": "https://github.com/OpenEvident/vindicate",
+      "lang": "TypeScript",
+      "tags": [
+        "agentic",
+        "antigravity",
+        "claude-code",
+        "codex",
+        "cursor",
+        "e2e",
+        "github-copilot",
+        "mcp",
+        "playwright",
+        "playwright-typescript",
+        "qa",
+        "quality-assurance",
+        "test-automation",
+        "testing",
+        "typescript",
+        "ui-automation",
+        "vscode",
+        "vscode-extension"
+      ],
+      "metrics": {
+        "stars": 27
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T19:33:42Z",
+      "updatedAt": "2026-08-17T16:41:24Z",
+      "categories": [
+        "ai-agents",
+        "web",
+        "engineering"
+      ]
+    },
+    {
+      "id": "gh:n8n-io/n8n",
+      "type": "repo",
+      "title": "n8n-io/n8n",
+      "summaryOriginal": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "url": "https://github.com/n8n-io/n8n",
+      "lang": "TypeScript",
+      "tags": [
+        "ai",
+        "apis",
+        "automation",
+        "cli",
+        "data-flow",
+        "development",
+        "integration-framework",
+        "integrations",
+        "ipaas",
+        "low-code",
+        "low-code-platform",
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "n8n",
+        "no-code",
+        "self-hosted",
+        "typescript",
+        "workflow",
+        "workflow-automation"
+      ],
+      "metrics": {
+        "stars": 201042
+      },
+      "source": "github-search",
+      "publishedAt": "2019-06-22T09:24:21Z",
+      "updatedAt": "2026-08-18T08:15:08Z",
+      "categories": [
+        "ai-agents",
+        "web",
+        "devtools"
+      ]
+    },
+    {
+      "id": "gh:farion1231/cc-switch",
+      "type": "repo",
+      "title": "farion1231/cc-switch",
+      "summaryOriginal": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+      "url": "https://github.com/farion1231/cc-switch",
+      "lang": "Rust",
+      "tags": [
+        "ai-tools",
+        "claude-code",
+        "codex",
+        "desktop-app",
+        "grok",
+        "grokbuild",
+        "hermes",
+        "hermes-agent",
+        "mcp",
+        "open-source",
+        "openclaw",
+        "openclaw-ui",
+        "opencode",
+        "provider-management",
+        "rust",
+        "skills",
+        "skills-management",
+        "tauri",
+        "typescript",
+        "wsl-support"
+      ],
+      "metrics": {
+        "stars": 127972
+      },
+      "source": "github-search",
+      "publishedAt": "2025-08-04T14:16:16Z",
+      "updatedAt": "2026-08-18T03:28:09Z",
+      "categories": [
+        "ai-agents",
+        "web"
+      ]
+    },
+    {
+      "id": "gh:ccch1mneyyy/dsh-TUI",
+      "type": "repo",
+      "title": "ccch1mneyyy/dsh-TUI",
+      "summaryOriginal": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。 DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoughts, double-Esc rollback, context bar + TPS. npm one-click.",
+      "url": "https://github.com/ccch1mneyyy/dsh-TUI",
+      "lang": "TypeScript",
+      "tags": [
+        "claude-code",
+        "coding-agent",
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugin",
+        "ink",
+        "react",
+        "terminal",
+        "tui"
+      ],
+      "metrics": {
+        "stars": 1910
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T12:49:31Z",
+      "updatedAt": "2026-08-18T08:19:29Z",
+      "categories": [
+        "web",
+        "devtools"
       ]
     },
     {
@@ -297,7 +958,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 136
+        "stars": 137
       },
       "source": "github-search",
       "publishedAt": "2026-08-15T19:21:18Z",
@@ -394,7 +1055,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-12T05:10:15Z",
-      "updatedAt": "2026-08-17T02:17:41Z",
+      "updatedAt": "2026-08-18T08:11:41Z",
       "categories": [
         "web"
       ]
@@ -421,32 +1082,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-14T18:36:13Z",
       "updatedAt": "2026-08-14T20:29:44Z",
-      "categories": [
-        "web"
-      ]
-    },
-    {
-      "id": "gh:pengyue-polaron/deepseek-harness-genui",
-      "type": "repo",
-      "title": "pengyue-polaron/deepseek-harness-genui",
-      "summaryOriginal": "Code-first generative UI for DeepSeek Harness",
-      "url": "https://github.com/pengyue-polaron/deepseek-harness-genui",
-      "lang": "TypeScript",
-      "tags": [
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "generative-ui",
-        "genui",
-        "mcp",
-        "react"
-      ],
-      "metrics": {
-        "stars": 34
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T20:28:02Z",
-      "updatedAt": "2026-08-16T19:11:59Z",
       "categories": [
         "web"
       ]
@@ -514,33 +1149,6 @@
       ]
     },
     {
-      "id": "gh:LYH105/iCloudEmail-Lite",
-      "type": "repo",
-      "title": "LYH105/iCloudEmail-Lite",
-      "summaryOriginal": "iCloud Hide My Email 多账户管理系统 · 跨平台桌面应用 (macOS/Windows)",
-      "url": "https://github.com/LYH105/iCloudEmail-Lite",
-      "lang": "TypeScript",
-      "tags": [
-        "electron",
-        "email-alias",
-        "email-privacy",
-        "fastify",
-        "hide-my-email",
-        "icloud",
-        "react",
-        "typescript"
-      ],
-      "metrics": {
-        "stars": 11
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T15:51:47Z",
-      "updatedAt": "2026-08-14T15:52:13Z",
-      "categories": [
-        "web"
-      ]
-    },
-    {
       "id": "gh:PINTO0309/soma",
       "type": "repo",
       "title": "PINTO0309/soma",
@@ -559,11 +1167,38 @@
         "tracking"
       ],
       "metrics": {
-        "stars": 11
+        "stars": 13
       },
       "source": "github-search",
       "publishedAt": "2026-08-17T12:31:44Z",
-      "updatedAt": "2026-08-18T01:59:54Z",
+      "updatedAt": "2026-08-18T08:20:09Z",
+      "categories": [
+        "web"
+      ]
+    },
+    {
+      "id": "gh:LYH105/iCloudEmail-Lite",
+      "type": "repo",
+      "title": "LYH105/iCloudEmail-Lite",
+      "summaryOriginal": "iCloud Hide My Email 多账户管理系统 · 跨平台桌面应用 (macOS/Windows)",
+      "url": "https://github.com/LYH105/iCloudEmail-Lite",
+      "lang": "TypeScript",
+      "tags": [
+        "electron",
+        "email-alias",
+        "email-privacy",
+        "fastify",
+        "hide-my-email",
+        "icloud",
+        "react",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 12
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T15:51:47Z",
+      "updatedAt": "2026-08-14T15:52:13Z",
       "categories": [
         "web"
       ]
@@ -859,563 +1494,16 @@
       ]
     },
     {
-      "id": "gh:soares-grs/encAIxa",
+      "id": "gh:KartikLabhshetwar/screenshot-studio",
       "type": "repo",
-      "title": "soares-grs/encAIxa",
-      "summaryOriginal": "Otimize seu currículo para cada vaga com IA, sugestões baseadas em evidências e geração de PDF. ATS — local, privado e multiplataforma",
-      "url": "https://github.com/soares-grs/encAIxa",
-      "lang": "TypeScript",
-      "tags": [
-        "artificial-intelligence",
-        "ats",
-        "career",
-        "claude-code",
-        "codex",
-        "cv",
-        "job-search",
-        "local-first",
-        "privacy",
-        "react",
-        "resume",
-        "typescript"
-      ],
-      "metrics": {
-        "stars": 8
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-15T01:21:18Z",
-      "updatedAt": "2026-08-15T20:43:14Z",
-      "categories": [
-        "web"
-      ]
-    },
-    {
-      "id": "gh:Quincunx33/solar-sclipse",
-      "type": "repo",
-      "title": "Quincunx33/solar-sclipse",
-      "summaryOriginal": "Interactive 3D total solar eclipse simulator with historical replay archive",
-      "url": "https://github.com/Quincunx33/solar-sclipse",
-      "lang": "TypeScript",
-      "tags": [
-        "astronomy",
-        "cloudflare-pages",
-        "eclipse-simulator",
-        "interactive-visualization",
-        "react",
-        "science-education",
-        "solar-eclipse",
-        "space",
-        "threejs",
-        "typescript",
-        "vite"
-      ],
-      "metrics": {
-        "stars": 7
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T16:07:21Z",
-      "updatedAt": "2026-08-14T16:33:21Z",
-      "categories": [
-        "web"
-      ]
-    },
-    {
-      "id": "gh:Quincunx33/phishGard",
-      "type": "repo",
-      "title": "Quincunx33/phishGard",
-      "summaryOriginal": "Defensive server-side phishing URL analysis with headless auditing and Gemini supplemental intelligence",
-      "url": "https://github.com/Quincunx33/phishGard",
-      "lang": "TypeScript",
-      "tags": [
-        "cybersecurity",
-        "gemini",
-        "headless-browser",
-        "phishing-detection",
-        "react",
-        "threat-detection",
-        "typescript",
-        "url-analysis"
-      ],
-      "metrics": {
-        "stars": 7
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T16:54:46Z",
-      "updatedAt": "2026-08-14T16:55:18Z",
-      "categories": [
-        "web"
-      ]
-    },
-    {
-      "id": "gh:lssyd20070106/dsh-ui-preset-enhance",
-      "type": "repo",
-      "title": "lssyd20070106/dsh-ui-preset-enhance",
-      "summaryOriginal": "Third-party DSH WebUI enhancement plugin: custom backgrounds, theme colors, prompt presets, token/context visibility, and manual compact.",
-      "url": "https://github.com/lssyd20070106/dsh-ui-preset-enhance",
-      "lang": "JavaScript",
-      "tags": [
-        "compaction",
-        "context",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "prompt-presets",
-        "react",
-        "theme",
-        "token-usage",
-        "typescript",
-        "wallpaper",
-        "webui"
-      ],
-      "metrics": {
-        "stars": 7
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T20:47:07Z",
-      "updatedAt": "2026-08-14T22:34:03Z",
-      "categories": [
-        "web"
-      ]
-    },
-    {
-      "id": "gh:GoblinThug/Custom-SSH",
-      "type": "repo",
-      "title": "GoblinThug/Custom-SSH",
-      "summaryOriginal": "Десктопный SSH-клиент для Windows, macOS и Linux — терминал, SFTP, редактор, сохранённые подключения",
-      "url": "https://github.com/GoblinThug/Custom-SSH",
-      "lang": "TypeScript",
-      "tags": [
-        "editor",
-        "electron",
-        "file-manager",
-        "linux",
-        "macos",
-        "open-source",
-        "react",
-        "remote-control",
-        "sftp",
-        "sftp-client",
-        "ssh-client",
-        "terminal",
-        "windows"
-      ],
-      "metrics": {
-        "stars": 7
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-15T11:50:45Z",
-      "updatedAt": "2026-08-16T07:34:29Z",
-      "categories": [
-        "web"
-      ]
-    },
-    {
-      "id": "gh:freeCodeCamp/freeCodeCamp",
-      "type": "repo",
-      "title": "freeCodeCamp/freeCodeCamp",
-      "summaryOriginal": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "lang": "TypeScript",
-      "tags": [
-        "careers",
-        "certification",
-        "community",
-        "curriculum",
-        "d3",
-        "education",
-        "freecodecamp",
-        "javascript",
-        "learn-to-code",
-        "math",
-        "nodejs",
-        "nonprofits",
-        "programming",
-        "react",
-        "teachers"
-      ],
-      "metrics": {
-        "stars": 454223
-      },
-      "source": "github-search",
-      "publishedAt": "2014-12-24T17:49:19Z",
-      "updatedAt": "2026-08-17T21:13:55Z",
-      "categories": [
-        "web"
-      ]
-    },
-    {
-      "id": "gh:react/react",
-      "type": "repo",
-      "title": "react/react",
-      "summaryOriginal": "The library for web and native user interfaces.",
-      "url": "https://github.com/react/react",
-      "lang": "JavaScript",
-      "tags": [
-        "declarative",
-        "frontend",
-        "javascript",
-        "library",
-        "react",
-        "ui"
-      ],
-      "metrics": {
-        "stars": 247387
-      },
-      "source": "github-search",
-      "publishedAt": "2013-05-24T16:15:54Z",
-      "updatedAt": "2026-08-17T11:16:23Z",
-      "categories": [
-        "web"
-      ]
-    },
-    {
-      "id": "gh:vercel/next.js",
-      "type": "repo",
-      "title": "vercel/next.js",
-      "summaryOriginal": "The React Framework",
-      "url": "https://github.com/vercel/next.js",
-      "lang": "JavaScript",
-      "tags": [
-        "blog",
-        "browser",
-        "compiler",
-        "components",
-        "hybrid",
-        "nextjs",
-        "node",
-        "react",
-        "server-rendering",
-        "ssg",
-        "static",
-        "static-site-generator",
-        "universal",
-        "vercel"
-      ],
-      "metrics": {
-        "stars": 141818
-      },
-      "source": "github-search",
-      "publishedAt": "2016-10-05T23:32:51Z",
-      "updatedAt": "2026-08-18T05:31:25Z",
-      "categories": [
-        "web"
-      ]
-    },
-    {
-      "id": "gh:react/react-native",
-      "type": "repo",
-      "title": "react/react-native",
-      "summaryOriginal": "A framework for building native applications using React",
-      "url": "https://github.com/react/react-native",
-      "lang": "C++",
-      "tags": [
-        "android",
-        "app-framework",
-        "cross-platform",
-        "ios",
-        "mobile",
-        "mobile-development",
-        "react",
-        "react-native"
-      ],
-      "metrics": {
-        "stars": 126353
-      },
-      "source": "github-search",
-      "publishedAt": "2015-01-09T18:10:16Z",
-      "updatedAt": "2026-08-18T01:01:02Z",
-      "categories": [
-        "web"
-      ]
-    },
-    {
-      "id": "gh:shadcn-ui/ui",
-      "type": "repo",
-      "title": "shadcn-ui/ui",
-      "summaryOriginal": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
-      "url": "https://github.com/shadcn-ui/ui",
-      "lang": "TypeScript",
-      "tags": [
-        "base-ui",
-        "components",
-        "laravel",
-        "nextjs",
-        "radix-ui",
-        "react",
-        "shadcn",
-        "tailwindcss",
-        "tanstack",
-        "ui",
-        "vite"
-      ],
-      "metrics": {
-        "stars": 121529
-      },
-      "source": "github-search",
-      "publishedAt": "2023-01-04T12:43:27Z",
-      "updatedAt": "2026-08-18T05:50:01Z",
-      "categories": [
-        "web"
-      ]
-    },
-    {
-      "id": "gh:ant-design/ant-design",
-      "type": "repo",
-      "title": "ant-design/ant-design",
-      "summaryOriginal": "An enterprise-class UI design language and React UI library",
-      "url": "https://github.com/ant-design/ant-design",
-      "lang": "TypeScript",
-      "tags": [
-        "ant-design",
-        "antd",
-        "design-systems",
-        "react",
-        "typescript",
-        "ui-kit",
-        "ui-library"
-      ],
-      "metrics": {
-        "stars": 99101
-      },
-      "source": "github-search",
-      "publishedAt": "2015-04-24T15:37:24Z",
-      "updatedAt": "2026-08-18T06:02:50Z",
-      "categories": [
-        "web"
-      ]
-    },
-    {
-      "id": "gh:mui/material-ui",
-      "type": "repo",
-      "title": "mui/material-ui",
-      "summaryOriginal": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
-      "url": "https://github.com/mui/material-ui",
-      "lang": "JavaScript",
-      "tags": [
-        "design-system",
-        "material-design",
-        "material-ui",
-        "react",
-        "react-components"
-      ],
-      "metrics": {
-        "stars": 98851
-      },
-      "source": "github-search",
-      "publishedAt": "2014-08-18T19:11:54Z",
-      "updatedAt": "2026-08-18T04:23:48Z",
-      "categories": [
-        "web"
-      ]
-    },
-    {
-      "id": "gh:oven-sh/bun",
-      "type": "repo",
-      "title": "oven-sh/bun",
-      "summaryOriginal": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
-      "url": "https://github.com/oven-sh/bun",
-      "lang": "Rust",
-      "tags": [
-        "bun",
-        "bundler",
-        "javascript",
-        "javascriptcore",
-        "jsx",
-        "nodejs",
-        "npm",
-        "react",
-        "rust",
-        "rust-lang",
-        "transpiler",
-        "typescript"
-      ],
-      "metrics": {
-        "stars": 95440
-      },
-      "source": "github-search",
-      "publishedAt": "2021-04-14T00:48:17Z",
-      "updatedAt": "2026-08-18T06:36:16Z",
-      "categories": [
-        "web"
-      ]
-    },
-    {
-      "id": "gh:storybookjs/storybook",
-      "type": "repo",
-      "title": "storybookjs/storybook",
-      "summaryOriginal": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation",
-      "url": "https://github.com/storybookjs/storybook",
-      "lang": "TypeScript",
-      "tags": [
-        "angular",
-        "components",
-        "design-systems",
-        "documentation",
-        "html",
-        "javascript",
-        "react",
-        "react-native",
-        "stories",
-        "storybook",
-        "styleguide",
-        "svelte",
-        "testing",
-        "typescript",
-        "ui",
-        "vite",
-        "vue",
-        "web-components",
-        "webpack",
-        "workshop"
-      ],
-      "metrics": {
-        "stars": 90861
-      },
-      "source": "github-search",
-      "publishedAt": "2016-03-18T04:23:44Z",
-      "updatedAt": "2026-08-18T06:41:46Z",
-      "categories": [
-        "web"
-      ]
-    },
-    {
-      "id": "gh:ruvnet/RuView",
-      "type": "repo",
-      "title": "ruvnet/RuView",
-      "summaryOriginal": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-      "url": "https://github.com/ruvnet/RuView",
-      "lang": "Rust",
-      "tags": [
-        "awesome",
-        "claude",
-        "densepose",
-        "esp32",
-        "firmware",
-        "home-assistant",
-        "home-automation",
-        "iot",
-        "monitoring",
-        "networking",
-        "npm",
-        "pose-estimation",
-        "react",
-        "rf",
-        "self-learning",
-        "skills",
-        "spatial-intelligence",
-        "typescript",
-        "wifi",
-        "wifi-security"
-      ],
-      "metrics": {
-        "stars": 90551
-      },
-      "source": "github-search",
-      "publishedAt": "2025-06-07T04:32:30Z",
-      "updatedAt": "2026-08-18T06:12:47Z",
-      "categories": [
-        "web"
-      ]
-    },
-    {
-      "id": "gh:apache/superset",
-      "type": "repo",
-      "title": "apache/superset",
-      "summaryOriginal": "Apache Superset is a Data Visualization and Data Exploration Platform",
-      "url": "https://github.com/apache/superset",
-      "lang": "Python",
-      "tags": [
-        "analytics",
-        "apache",
-        "apache-superset",
-        "asf",
-        "bi",
-        "business-analytics",
-        "business-intelligence",
-        "data-analysis",
-        "data-analytics",
-        "data-engineering",
-        "data-science",
-        "data-visualization",
-        "data-viz",
-        "flask",
-        "python",
-        "react",
-        "sql-editor",
-        "superset"
-      ],
-      "metrics": {
-        "stars": 74289
-      },
-      "source": "github-search",
-      "publishedAt": "2015-07-21T18:55:34Z",
-      "updatedAt": "2026-08-18T05:58:13Z",
-      "categories": [
-        "web",
-        "data"
-      ]
-    },
-    {
-      "id": "gh:usememos/memos",
-      "type": "repo",
-      "title": "usememos/memos",
-      "summaryOriginal": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
-      "url": "https://github.com/usememos/memos",
-      "lang": "Go",
-      "tags": [
-        "docker",
-        "foss",
-        "go",
-        "markdown",
-        "memo",
-        "microblog",
-        "note-taking",
-        "notecard",
-        "own-your-data",
-        "react",
-        "self-hosted",
-        "social-network",
-        "sqlite"
-      ],
-      "metrics": {
-        "stars": 62318
-      },
-      "source": "github-search",
-      "publishedAt": "2021-12-08T15:30:18Z",
-      "updatedAt": "2026-08-18T01:16:40Z",
-      "categories": [
-        "web"
-      ]
-    },
-    {
-      "id": "gh:xr843/insect-world",
-      "type": "repo",
-      "title": "xr843/insect-world",
-      "summaryOriginal": "Interactive 3D insect field guide: 60 species across 14 orders, every body procedurally generated in the browser with TypeScript + Three.js — no model or texture files in the repo.",
-      "url": "https://github.com/xr843/insect-world",
+      "title": "KartikLabhshetwar/screenshot-studio",
+      "summaryOriginal": "A free, browser-based editor for creating stunning screenshots and visuals. No signup, no watermarks.",
+      "url": "https://github.com/KartikLabhshetwar/screenshot-studio",
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "totalScore": 204.9703
-      },
-      "source": "ossinsight",
-      "categories": [
-        "web"
-      ]
-    },
-    {
-      "id": "gh:hanliang97/MatrixMedia",
-      "type": "repo",
-      "title": "hanliang97/MatrixMedia",
-      "summaryOriginal": "视频矩阵工具 vue electorn puppeteer 批量发布 视频到各个视频平台 自媒体 矩阵 抖音 小红书 头条 视频号 快手等 ai 自动化 cli",
-      "url": "https://github.com/hanliang97/MatrixMedia",
-      "lang": "JavaScript",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "pushes": 2,
-        "totalScore": 204.1024
+        "totalScore": 204.6859
       },
       "source": "ossinsight",
       "categories": [
@@ -1424,58 +1512,58 @@
       ]
     },
     {
-      "id": "gh:onoja123/Mobile-experiments",
+      "id": "gh:zhyese/grid-qa",
       "type": "repo",
-      "title": "onoja123/Mobile-experiments",
-      "summaryOriginal": "React Native / Expo experiments — animations, gestures, and UI ideas I build and share.",
-      "url": "https://github.com/onoja123/Mobile-experiments",
-      "lang": "TypeScript",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "pushes": 2,
-        "totalScore": 203.7112
-      },
-      "source": "ossinsight",
-      "categories": [
-        "web"
-      ]
-    },
-    {
-      "id": "gh:browser-use/browser-harness",
-      "type": "repo",
-      "title": "browser-use/browser-harness",
-      "summaryOriginal": "Browser Harness | Self-healing harness that enables LLMs to complete any task.",
-      "url": "https://github.com/browser-use/browser-harness",
+      "title": "zhyese/grid-qa",
+      "summaryOriginal": "基于大模型+RAG的电网自主运维智能问答系统(Vue3+FastAPI+Milvus+DeepSeek/百炼/火山云)",
+      "url": "https://github.com/zhyese/grid-qa",
       "lang": "Python",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "totalScore": 203.2402
+        "totalScore": 204.6499
       },
       "source": "ossinsight",
       "categories": [
-        "ai-models",
+        "ai-agents",
         "web"
       ]
     },
     {
-      "id": "gh:HaD0Yun/CozyClay",
+      "id": "gh:CloakHQ/CloakBrowser",
       "type": "repo",
-      "title": "HaD0Yun/CozyClay",
-      "summaryOriginal": "Open source previs software in the browser: block a scene, pose characters, author camera moves and cuts, then take the same shots to an AI video model.",
-      "url": "https://github.com/HaD0Yun/CozyClay",
-      "lang": "JavaScript",
+      "title": "CloakHQ/CloakBrowser",
+      "summaryOriginal": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "lang": "Python",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "pushes": 1,
-        "totalScore": 203.047
+        "totalScore": 204.1993
       },
       "source": "ossinsight",
       "categories": [
         "web",
-        "backend"
+        "engineering"
+      ]
+    },
+    {
+      "id": "gh:citrolabs/ego-lite",
+      "type": "repo",
+      "title": "citrolabs/ego-lite",
+      "summaryOriginal": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "lang": "JavaScript",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 203.8426
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-agents",
+        "web",
+        "engineering"
       ]
     }
   ]

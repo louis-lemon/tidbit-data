@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "infra",
-  "generatedAt": "2026-08-18T06:46:00.164Z",
+  "generatedAt": "2026-08-18T08:21:30.970Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,93 +13,107 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 111350,
+        "stars": 111397,
         "starsDelta": 175
       },
       "source": "github-trending",
       "categories": [
+        "infra",
+        "web"
+      ]
+    },
+    {
+      "id": "gh:rmyndharis/OpenWA",
+      "type": "repo",
+      "title": "rmyndharis/OpenWA",
+      "summaryOriginal": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
+      "url": "https://github.com/rmyndharis/OpenWA",
+      "lang": "TypeScript",
+      "tags": [
+        "api",
+        "bot",
+        "gateway",
+        "self-hosted",
+        "whatsapp",
+        "whatsapp-api",
+        "whatsapp-automation",
+        "whatsapp-bot",
+        "whatsapp-gateway",
+        "whatsapp-gateway-api",
+        "whatsapp-web",
+        "whatsapp-web-api"
+      ],
+      "metrics": {
+        "stars": 12897
+      },
+      "source": "github-search",
+      "publishedAt": "2026-02-02T12:14:45Z",
+      "updatedAt": "2026-08-18T05:07:13Z",
+      "categories": [
+        "backend",
         "infra"
       ]
     },
     {
-      "id": "gh:t8y2/dbx",
+      "id": "gh:elie222/rakazo",
       "type": "repo",
-      "title": "t8y2/dbx",
-      "summaryOriginal": "20 MB lightweight cross-platform database client for 80+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 80+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
-      "url": "https://github.com/t8y2/dbx",
-      "lang": "Rust",
+      "title": "elie222/rakazo",
+      "summaryOriginal": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+      "url": "https://github.com/elie222/rakazo",
+      "lang": "TypeScript",
       "tags": [
-        "ai",
-        "cli",
-        "clickhouse",
-        "database",
-        "database-client",
-        "database-management",
+        "ai-agents",
+        "chatgpt",
         "docker",
-        "gui",
-        "mcp",
-        "mongodb",
-        "mysql",
-        "postgresql",
-        "redis",
-        "rust",
-        "sql-server",
-        "sqlite",
-        "tauri",
-        "vue"
+        "electron",
+        "expo",
+        "grok",
+        "llm",
+        "self-hosted",
+        "typescript"
       ],
       "metrics": {
-        "stars": 15450
+        "stars": 808
       },
       "source": "github-search",
-      "publishedAt": "2026-04-29T03:00:36Z",
-      "updatedAt": "2026-08-18T06:34:51Z",
+      "publishedAt": "2026-08-13T06:28:56Z",
+      "updatedAt": "2026-08-18T07:42:11Z",
+      "summaryEn": "Open-source alternative to Grok's coding bot — pick your own model and sandbox.",
+      "summaryKo": "Grok 봇의 오픈소스 대안, 모델과 샌드박스를 직접 선택",
       "categories": [
-        "web",
+        "ai-models",
         "ai-agents",
-        "backend",
-        "infra",
-        "data",
-        "devtools"
+        "web",
+        "infra"
       ]
     },
     {
-      "id": "gh:HKUDS/nanobot",
+      "id": "gh:seif-a096/car-price-predictor",
       "type": "repo",
-      "title": "HKUDS/nanobot",
-      "summaryOriginal": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps",
-      "url": "https://github.com/HKUDS/nanobot",
+      "title": "seif-a096/car-price-predictor",
+      "summaryOriginal": "High-performance FastAPI regression inference microservice containerized with Docker and deployed on Railway. Features leakage-free Scikit-Learn pipelines, Pydantic v2 validation, and real-time car valuation predictions.",
+      "url": "https://github.com/seif-a096/car-price-predictor",
       "lang": "Python",
       "tags": [
-        "agent-framework",
-        "ai-agent",
-        "ai-agents",
-        "chatbot",
-        "chatops",
-        "discord-bot",
-        "llm-agents",
-        "llms",
-        "local-llm",
-        "mcp",
-        "model-context-protocol",
-        "multi-agent",
-        "openai-compatible",
-        "openclaw",
-        "personal-ai-assistant",
-        "python",
-        "self-hosted",
-        "telegram-bot-ai-assistant",
-        "webui",
-        "workflow-automation"
+        "docker",
+        "fastapi",
+        "machine-learning",
+        "mlops",
+        "pydantic",
+        "python3",
+        "railway",
+        "rest-api",
+        "scikit-learn",
+        "xgboost"
       ],
       "metrics": {
-        "stars": 47119
+        "stars": 5
       },
       "source": "github-search",
-      "publishedAt": "2026-02-01T07:16:15Z",
-      "updatedAt": "2026-08-18T06:32:57Z",
+      "publishedAt": "2026-08-14T13:38:27Z",
+      "updatedAt": "2026-08-15T12:16:00Z",
       "categories": [
-        "ai-agents",
+        "ai-models",
         "infra"
       ]
     },
@@ -140,8 +154,46 @@
       "updatedAt": "2026-08-18T05:28:47Z",
       "categories": [
         "ai-models",
+        "ai-agents",
         "infra",
         "data"
+      ]
+    },
+    {
+      "id": "gh:recommenders-team/recommenders",
+      "type": "repo",
+      "title": "recommenders-team/recommenders",
+      "summaryOriginal": "Best Practices on Recommendation Systems",
+      "url": "https://github.com/recommenders-team/recommenders",
+      "lang": "Python",
+      "tags": [
+        "ai",
+        "artificial-intelligence",
+        "data-science",
+        "deep-learning",
+        "jupyter-notebook",
+        "kubernetes",
+        "machine-learning",
+        "operationalization",
+        "python",
+        "ranking",
+        "rating",
+        "recommendation",
+        "recommendation-algorithm",
+        "recommendation-engine",
+        "recommendation-system",
+        "recommender",
+        "tutorial"
+      ],
+      "metrics": {
+        "stars": 21860
+      },
+      "source": "github-search",
+      "publishedAt": "2018-09-19T10:06:07Z",
+      "updatedAt": "2026-08-17T16:26:46Z",
+      "categories": [
+        "ai-models",
+        "infra"
       ]
     },
     {
@@ -181,6 +233,324 @@
       "updatedAt": "2026-08-15T17:45:02Z",
       "categories": [
         "ai-agents",
+        "infra",
+        "engineering"
+      ]
+    },
+    {
+      "id": "gh:vastxie/99AI-plugin-edition",
+      "type": "repo",
+      "title": "vastxie/99AI-plugin-edition",
+      "summaryOriginal": "完全开源的一站式 AI Web 平台（99AI 插件版）：多模型对话、Agent 工作流、MCP 工具、用户额度与支付运营。NestJS + Vue3 全栈完整源码，Apache-2.0，支持 Docker 私有化部署。",
+      "url": "https://github.com/vastxie/99AI-plugin-edition",
+      "lang": "TypeScript",
+      "tags": [
+        "agent",
+        "ai",
+        "chatgpt",
+        "docker",
+        "llm",
+        "mcp",
+        "nestjs",
+        "openai",
+        "self-hosted",
+        "vuejs"
+      ],
+      "metrics": {
+        "stars": 16
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T06:30:09Z",
+      "updatedAt": "2026-08-14T06:36:17Z",
+      "categories": [
+        "ai-agents",
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:SoulKyu/leandro",
+      "type": "repo",
+      "title": "SoulKyu/leandro",
+      "summaryOriginal": "AI SRE agent diagnosing Kubernetes incidents over Google Chat — security-first sandbox: NixOS VM, default-deny egress, hard tool denylist against prompt injection",
+      "url": "https://github.com/SoulKyu/leandro",
+      "lang": "Python",
+      "tags": [
+        "ai-agents",
+        "kubernetes",
+        "llm",
+        "mcp",
+        "nixos",
+        "prompt-injection",
+        "security",
+        "sre"
+      ],
+      "metrics": {
+        "stars": 11
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-12T07:17:09Z",
+      "updatedAt": "2026-08-14T09:14:45Z",
+      "categories": [
+        "ai-agents",
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:Kong/kong",
+      "type": "repo",
+      "title": "Kong/kong",
+      "summaryOriginal": "🦍 The API and AI Gateway",
+      "url": "https://github.com/Kong/kong",
+      "lang": "Lua",
+      "tags": [
+        "ai",
+        "ai-gateway",
+        "api-gateway",
+        "api-management",
+        "apis",
+        "artificial-intelligence",
+        "cloud-native",
+        "devops",
+        "kubernetes",
+        "kubernetes-ingress",
+        "kubernetes-ingress-controller",
+        "llm-gateway",
+        "llm-ops",
+        "mcp",
+        "mcp-gateway",
+        "microservice",
+        "microservices",
+        "openai-proxy",
+        "reverse-proxy",
+        "serverless"
+      ],
+      "metrics": {
+        "stars": 43992
+      },
+      "source": "github-search",
+      "publishedAt": "2014-11-17T23:56:08Z",
+      "updatedAt": "2026-08-16T14:44:43Z",
+      "categories": [
+        "ai-agents",
+        "backend",
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:AstrBotDevs/AstrBot",
+      "type": "repo",
+      "title": "AstrBotDevs/AstrBot",
+      "summaryOriginal": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "lang": "Python",
+      "tags": [
+        "agent",
+        "ai",
+        "astrbot",
+        "chatbot",
+        "chatgpt",
+        "discord",
+        "docker",
+        "gemini",
+        "gpt",
+        "llama",
+        "llm",
+        "mcp",
+        "openai",
+        "python",
+        "qq",
+        "qqbot",
+        "telegram"
+      ],
+      "metrics": {
+        "stars": 39319
+      },
+      "source": "github-search",
+      "publishedAt": "2022-12-08T13:27:46Z",
+      "updatedAt": "2026-08-17T18:32:10Z",
+      "categories": [
+        "ai-agents",
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:usememos/memos",
+      "type": "repo",
+      "title": "usememos/memos",
+      "summaryOriginal": "Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.",
+      "url": "https://github.com/usememos/memos",
+      "lang": "Go",
+      "tags": [
+        "docker",
+        "foss",
+        "go",
+        "markdown",
+        "memo",
+        "microblog",
+        "note-taking",
+        "notecard",
+        "own-your-data",
+        "react",
+        "self-hosted",
+        "social-network",
+        "sqlite"
+      ],
+      "metrics": {
+        "stars": 62319
+      },
+      "source": "github-search",
+      "publishedAt": "2021-12-08T15:30:18Z",
+      "updatedAt": "2026-08-18T01:16:40Z",
+      "categories": [
+        "web",
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:appwrite/appwrite",
+      "type": "repo",
+      "title": "appwrite/appwrite",
+      "summaryOriginal": "Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more",
+      "url": "https://github.com/appwrite/appwrite",
+      "lang": "TypeScript",
+      "tags": [
+        "android",
+        "appwrite",
+        "backend",
+        "backend-as-a-service",
+        "docker",
+        "firebase",
+        "flutter",
+        "hosting",
+        "ios",
+        "javascript",
+        "nextjs",
+        "react",
+        "react-native",
+        "reactnative",
+        "self-hosted",
+        "selfhosted",
+        "serverless",
+        "supabase",
+        "swift",
+        "web"
+      ],
+      "metrics": {
+        "stars": 57041
+      },
+      "source": "github-search",
+      "publishedAt": "2019-04-08T16:36:25Z",
+      "updatedAt": "2026-08-18T08:14:55Z",
+      "categories": [
+        "web",
+        "backend",
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:makeplane/plane",
+      "type": "repo",
+      "title": "makeplane/plane",
+      "summaryOriginal": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "url": "https://github.com/makeplane/plane",
+      "lang": "TypeScript",
+      "tags": [
+        "boards",
+        "bug-tracker",
+        "django",
+        "docker",
+        "gantt",
+        "issue-tracker",
+        "jira",
+        "jira-alternative",
+        "kanban",
+        "linear",
+        "postgresql",
+        "product-management",
+        "project-management",
+        "project-planning",
+        "python",
+        "react",
+        "redis",
+        "typescipt",
+        "vite",
+        "work-management"
+      ],
+      "metrics": {
+        "stars": 56078
+      },
+      "source": "github-search",
+      "publishedAt": "2022-11-19T12:55:01Z",
+      "updatedAt": "2026-08-17T20:47:23Z",
+      "categories": [
+        "web",
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:fastapi/full-stack-fastapi-template",
+      "type": "repo",
+      "title": "fastapi/full-stack-fastapi-template",
+      "summaryOriginal": "Full-stack web application template with FastAPI, React, SQLModel, PostgreSQL, Vite, Tailwind CSS, shadcn/ui, FastAPI Cloud, and Docker Compose.",
+      "url": "https://github.com/fastapi/full-stack-fastapi-template",
+      "lang": "TypeScript",
+      "tags": [
+        "docker",
+        "docker-compose",
+        "fastapi",
+        "fastapi-cloud",
+        "full-stack",
+        "github-actions",
+        "jwt",
+        "openapi",
+        "playwright",
+        "postgresql",
+        "pytest",
+        "python",
+        "react",
+        "shadcn-ui",
+        "sqlmodel",
+        "tailwindcss",
+        "tanstack-query",
+        "tanstack-router",
+        "typescript",
+        "vite"
+      ],
+      "metrics": {
+        "stars": 44919
+      },
+      "source": "github-search",
+      "publishedAt": "2019-02-23T15:08:34Z",
+      "updatedAt": "2026-08-17T08:38:42Z",
+      "categories": [
+        "web",
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:outline/outline",
+      "type": "repo",
+      "title": "outline/outline",
+      "summaryOriginal": "The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.",
+      "url": "https://github.com/outline/outline",
+      "lang": "TypeScript",
+      "tags": [
+        "docker",
+        "javascript",
+        "mobx",
+        "nodejs",
+        "react",
+        "slack",
+        "wiki"
+      ],
+      "metrics": {
+        "stars": 40224
+      },
+      "source": "github-search",
+      "publishedAt": "2016-05-22T21:31:47Z",
+      "updatedAt": "2026-08-18T03:19:44Z",
+      "categories": [
+        "web",
         "infra"
       ]
     },
@@ -214,11 +584,83 @@
         "vue"
       ],
       "metrics": {
-        "stars": 57461
+        "stars": 57467
       },
       "source": "github-search",
       "publishedAt": "2016-11-01T02:13:26Z",
-      "updatedAt": "2026-08-18T05:24:18Z",
+      "updatedAt": "2026-08-18T08:16:14Z",
+      "categories": [
+        "web",
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:coollabsio/coolify",
+      "type": "repo",
+      "title": "coollabsio/coolify",
+      "summaryOriginal": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers.",
+      "url": "https://github.com/coollabsio/coolify",
+      "lang": "PHP",
+      "tags": [
+        "coolify",
+        "databases",
+        "deployment",
+        "docker",
+        "docker-compose",
+        "inertiajs",
+        "laravel",
+        "mariadb",
+        "mysql",
+        "nextjs",
+        "nodejs",
+        "php",
+        "postgres",
+        "redis",
+        "self-hosted",
+        "self-hosting",
+        "server",
+        "static-site",
+        "svelte",
+        "svelte5"
+      ],
+      "metrics": {
+        "stars": 60705
+      },
+      "source": "github-search",
+      "publishedAt": "2021-01-25T20:54:01Z",
+      "updatedAt": "2026-08-18T08:18:53Z",
+      "categories": [
+        "web",
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:Stadicus/popcorn-vote",
+      "type": "repo",
+      "title": "Stadicus/popcorn-vote",
+      "summaryOriginal": "Plan and run family movie nights: pick films, coordinate votes, and keep everyone’s watchlist in one place.",
+      "url": "https://github.com/Stadicus/popcorn-vote",
+      "lang": "TypeScript",
+      "tags": [
+        "docker",
+        "family",
+        "movie-night",
+        "movie-picker",
+        "omdb",
+        "pwa",
+        "self-hosted",
+        "sqlite",
+        "sveltekit",
+        "tmdb",
+        "typescript",
+        "voting"
+      ],
+      "metrics": {
+        "stars": 26
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-12T14:46:33Z",
+      "updatedAt": "2026-08-17T13:05:22Z",
       "categories": [
         "web",
         "infra"
@@ -257,7 +699,7 @@
       },
       "source": "github-search",
       "publishedAt": "2019-04-10T02:02:05Z",
-      "updatedAt": "2026-08-18T06:35:11Z",
+      "updatedAt": "2026-08-18T08:17:33Z",
       "categories": [
         "backend",
         "infra"
@@ -290,11 +732,149 @@
         "vps"
       ],
       "metrics": {
-        "stars": 36674
+        "stars": 36676
       },
       "source": "github-search",
       "publishedAt": "2024-04-19T07:49:30Z",
-      "updatedAt": "2026-08-17T16:45:38Z",
+      "updatedAt": "2026-08-18T08:20:33Z",
+      "categories": [
+        "backend",
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:istio/istio",
+      "type": "repo",
+      "title": "istio/istio",
+      "summaryOriginal": "Connect, secure, control, and observe services.",
+      "url": "https://github.com/istio/istio",
+      "lang": "Go",
+      "tags": [
+        "api-management",
+        "circuit-breaker",
+        "consul",
+        "enforce-policies",
+        "envoy",
+        "fault-injection",
+        "kubernetes",
+        "lyft-envoy",
+        "microservice",
+        "microservices",
+        "nomad",
+        "polyglot-microservices",
+        "proxies",
+        "request-routing",
+        "resiliency",
+        "service-mesh"
+      ],
+      "metrics": {
+        "stars": 38353
+      },
+      "source": "github-search",
+      "publishedAt": "2016-11-18T23:57:21Z",
+      "updatedAt": "2026-08-18T04:24:30Z",
+      "categories": [
+        "backend",
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:alibaba/nacos",
+      "type": "repo",
+      "title": "alibaba/nacos",
+      "summaryOriginal": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.",
+      "url": "https://github.com/alibaba/nacos",
+      "lang": "Java",
+      "tags": [
+        "a2a-registry",
+        "agent",
+        "ai-registry",
+        "configuration-management",
+        "distributed-configuration",
+        "dubbo",
+        "istio",
+        "kubernetes",
+        "mcp",
+        "mcp-management",
+        "mcp-registry",
+        "microservices",
+        "nacos",
+        "prompt",
+        "skills",
+        "spring-cloud"
+      ],
+      "metrics": {
+        "stars": 33280
+      },
+      "source": "github-search",
+      "publishedAt": "2018-06-15T06:49:27Z",
+      "updatedAt": "2026-08-18T06:48:25Z",
+      "categories": [
+        "backend",
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:dapr/dapr",
+      "type": "repo",
+      "title": "dapr/dapr",
+      "summaryOriginal": "Dapr is a portable runtime for building distributed applications across cloud and edge, combining event-driven architecture with workflow orchestration.",
+      "url": "https://github.com/dapr/dapr",
+      "lang": "Go",
+      "tags": [
+        "containers",
+        "event-driven",
+        "kubernetes",
+        "microservice",
+        "microservices",
+        "pubsub",
+        "serverless",
+        "sidecar",
+        "state-management"
+      ],
+      "metrics": {
+        "stars": 26021
+      },
+      "source": "github-search",
+      "publishedAt": "2019-06-19T00:49:06Z",
+      "updatedAt": "2026-08-17T22:07:35Z",
+      "categories": [
+        "backend",
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:seaweedfs/seaweedfs",
+      "type": "repo",
+      "title": "seaweedfs/seaweedfs",
+      "summaryOriginal": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
+      "url": "https://github.com/seaweedfs/seaweedfs",
+      "lang": "Go",
+      "tags": [
+        "blob-storage",
+        "cloud-drive",
+        "distributed-file-system",
+        "distributed-storage",
+        "distributed-systems",
+        "erasure-coding",
+        "fuse",
+        "hadoop-hdfs",
+        "hdfs",
+        "kubernetes",
+        "object-storage",
+        "posix",
+        "replication",
+        "s3",
+        "s3-storage",
+        "seaweedfs",
+        "tiered-file-system"
+      ],
+      "metrics": {
+        "stars": 34111
+      },
+      "source": "github-search",
+      "publishedAt": "2014-07-14T16:41:37Z",
+      "updatedAt": "2026-08-18T04:22:06Z",
       "categories": [
         "backend",
         "infra"
@@ -392,34 +972,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-17T10:54:55Z",
-      "updatedAt": "2026-08-18T05:34:50Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:SoulKyu/leandro",
-      "type": "repo",
-      "title": "SoulKyu/leandro",
-      "summaryOriginal": "AI SRE agent diagnosing Kubernetes incidents over Google Chat — security-first sandbox: NixOS VM, default-deny egress, hard tool denylist against prompt injection",
-      "url": "https://github.com/SoulKyu/leandro",
-      "lang": "Python",
-      "tags": [
-        "ai-agents",
-        "kubernetes",
-        "llm",
-        "mcp",
-        "nixos",
-        "prompt-injection",
-        "security",
-        "sre"
-      ],
-      "metrics": {
-        "stars": 11
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-12T07:17:09Z",
-      "updatedAt": "2026-08-14T09:14:45Z",
+      "updatedAt": "2026-08-18T07:58:08Z",
       "categories": [
         "infra"
       ]
@@ -535,692 +1088,6 @@
       ]
     },
     {
-      "id": "gh:amdadulbari/ai-devops-roadmap",
-      "type": "repo",
-      "title": "amdadulbari/ai-devops-roadmap",
-      "summaryOriginal": "A practical, human-in-the-loop roadmap for using AI in DevOps and SRE: monitoring, incidents, CI/CD, and platform work, with prompts, runnable examples, and safety guardrails.",
-      "url": "https://github.com/amdadulbari/ai-devops-roadmap",
-      "tags": [
-        "ai",
-        "aiops",
-        "devops",
-        "gitops",
-        "human-in-the-loop",
-        "kubernetes",
-        "llm",
-        "observability",
-        "platform-engineering",
-        "sre"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T19:19:53Z",
-      "updatedAt": "2026-08-15T16:55:00Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:QSOLKCB/WHOAMI-18437",
-      "type": "repo",
-      "title": "QSOLKCB/WHOAMI-18437",
-      "summaryOriginal": "Executable software-art satire: a four-token “Who am I?” becomes 18,437 tokens of orchestration, escapes through COBOL, FORTRAN, 6502, TypeScript, React, Docker and Kubernetes, then deterministically returns TRENT. Trent = Trent := by rfl.",
-      "url": "https://github.com/QSOLKCB/WHOAMI-18437",
-      "lang": "JavaScript",
-      "tags": [
-        "6502",
-        "ai",
-        "assembly",
-        "cobol",
-        "determinism",
-        "docker",
-        "esoteric-programming",
-        "fortran",
-        "github-actions",
-        "graphql",
-        "javascript",
-        "kubernetes",
-        "llm",
-        "opentelemetry",
-        "react",
-        "software-art",
-        "software-satire",
-        "typescript",
-        "xml",
-        "yaml"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T06:11:43Z",
-      "updatedAt": "2026-08-15T12:46:02Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:aryanmehrotra/sbx",
-      "type": "repo",
-      "title": "aryanmehrotra/sbx",
-      "summaryOriginal": "Per-branch sandboxes that sleep when nobody is using them. Your own databases per branch, task or agent - 191ms wake, 0 B idle, one static binary, docker or kubernetes.",
-      "url": "https://github.com/aryanmehrotra/sbx",
-      "lang": "Go",
-      "tags": [
-        "ci",
-        "cli",
-        "developer-tools",
-        "devex",
-        "docker",
-        "golang",
-        "kubernetes",
-        "postgres",
-        "sandbox",
-        "scale-to-zero"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-16T09:58:01Z",
-      "updatedAt": "2026-08-18T06:43:56Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:sodiqscript111/Elv",
-      "type": "repo",
-      "title": "sodiqscript111/Elv",
-      "summaryOriginal": "A cloud-native Kubernetes Log Drain Operator powered by Vector. Dynamically route, filter, and stream application container logs to Cloudflare R2, AWS S3, and MinIO with zero code changes.",
-      "url": "https://github.com/sodiqscript111/Elv",
-      "lang": "Go",
-      "tags": [
-        "kubernetes",
-        "log-drains",
-        "logging"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T12:25:05Z",
-      "updatedAt": "2026-08-14T18:40:19Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:SamuelSupe/rustprofile",
-      "type": "repo",
-      "title": "SamuelSupe/rustprofile",
-      "summaryOriginal": "Linux continuous CPU and sampled-heap profiling for native processes, Docker containers, and Kubernetes application containers",
-      "url": "https://github.com/SamuelSupe/rustprofile",
-      "lang": "Rust",
-      "tags": [
-        "ebpf",
-        "kubernetes",
-        "linux",
-        "opentelemetry",
-        "performance",
-        "pprof",
-        "profiling",
-        "rust"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-16T01:19:03Z",
-      "updatedAt": "2026-08-17T04:48:30Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:mendescrafael/mendescrafael",
-      "type": "repo",
-      "title": "mendescrafael/mendescrafael",
-      "summaryOriginal": "Um DEScomplicador de software.",
-      "url": "https://github.com/mendescrafael/mendescrafael",
-      "tags": [
-        "development",
-        "devops",
-        "docker",
-        "flutter",
-        "glpi",
-        "kubernetes",
-        "laravel",
-        "linux",
-        "mobile-development",
-        "php",
-        "web-development"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-12T22:29:03Z",
-      "updatedAt": "2026-08-14T03:00:17Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:physx322/dockernes",
-      "type": "repo",
-      "title": "physx322/dockernes",
-      "summaryOriginal": "Docker container orchestrator",
-      "url": "https://github.com/physx322/dockernes",
-      "lang": "Rust",
-      "tags": [
-        "alternative",
-        "container",
-        "docker",
-        "docker-compose",
-        "docker-image",
-        "dockernes",
-        "kubernetes",
-        "learning",
-        "no-ai",
-        "no-vibecoding",
-        "orchestration",
-        "orchestration-systems",
-        "orchestrator",
-        "rust"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T22:41:36Z",
-      "updatedAt": "2026-08-16T14:36:32Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:BRYANN2K/skills",
-      "type": "repo",
-      "title": "BRYANN2K/skills",
-      "summaryOriginal": "Production-grade agent skills for infrastructure, DevOps, and developer documentation.",
-      "url": "https://github.com/BRYANN2K/skills",
-      "lang": "Python",
-      "tags": [
-        "agent-skills",
-        "devops",
-        "infrastructure-as-code",
-        "kubernetes",
-        "mermaid",
-        "sre",
-        "technical-writing",
-        "terraform"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-12T16:51:28Z",
-      "updatedAt": "2026-08-15T21:35:48Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:Vicky2-code/devops-platform",
-      "type": "repo",
-      "title": "Vicky2-code/devops-platform",
-      "summaryOriginal": "DevOps Automation Platform - CLI, FastAPI backend, React dashboard, Docker, CI/CD, Terraform/AWS, K8s, Prometheus/Grafana",
-      "url": "https://github.com/Vicky2-code/devops-platform",
-      "lang": "Python",
-      "tags": [
-        "automation",
-        "aws",
-        "ci-cd",
-        "devops",
-        "docker",
-        "fastapi",
-        "github-actions",
-        "grafana",
-        "infrastructure-as-code",
-        "kubernetes",
-        "prometheus",
-        "react",
-        "terraform"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-15T05:27:43Z",
-      "updatedAt": "2026-08-15T06:18:49Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:Ritesh-Prasad/end-to-end-devsecops-gitops-pipeline",
-      "type": "repo",
-      "title": "Ritesh-Prasad/end-to-end-devsecops-gitops-pipeline",
-      "summaryOriginal": "End-to-end DevSecOps and GitOps pipeline showcasing Jenkins CI/CD, Docker containerization, SonarQube code quality checks, Kubernetes deployment, and security-focused automation.",
-      "url": "https://github.com/Ritesh-Prasad/end-to-end-devsecops-gitops-pipeline",
-      "lang": "HTML",
-      "tags": [
-        "ci-cd",
-        "cloud",
-        "devops",
-        "devsecops",
-        "docker",
-        "gitops",
-        "jenkins",
-        "kubernetes",
-        "security",
-        "sonarqube"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T15:35:55Z",
-      "updatedAt": "2026-08-14T20:53:51Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:abhi1693/home-assistant",
-      "type": "repo",
-      "title": "abhi1693/home-assistant",
-      "summaryOriginal": "GitOps-managed Home Assistant configuration with responsive family dashboards, policy-aware access, custom integrations, and reproducible bootstrap tooling.",
-      "url": "https://github.com/abhi1693/home-assistant",
-      "lang": "Python",
-      "tags": [
-        "atomberg",
-        "family-dashboard",
-        "gitops",
-        "home-assistant",
-        "home-automation",
-        "jellyfin",
-        "kubernetes",
-        "lovelace",
-        "music-assistant",
-        "rancher-fleet",
-        "responsive-design",
-        "self-hosted",
-        "smart-home",
-        "sops",
-        "unifi-protect"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-12T20:22:19Z",
-      "updatedAt": "2026-08-15T21:36:42Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:Helpfulnessevasion410/Gatekeeper-FlipperZero",
-      "type": "repo",
-      "title": "Helpfulnessevasion410/Gatekeeper-FlipperZero",
-      "summaryOriginal": "Scan before you tap — Gatekeeper reveals phishing NFC tag redirects on your Flipper Zero before your phone loads the link.",
-      "url": "https://github.com/Helpfulnessevasion410/Gatekeeper-FlipperZero",
-      "lang": "C",
-      "tags": [
-        "admission",
-        "anti-ddos",
-        "cfw",
-        "cncf",
-        "custom",
-        "custom-firmware",
-        "firmware",
-        "flipperzero",
-        "jailbreak",
-        "kubernetes",
-        "ndef",
-        "phishing",
-        "security",
-        "subghz",
-        "unofficial",
-        "url-analysis"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T10:39:33Z",
-      "updatedAt": "2026-08-18T03:33:05Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:Ananyanagaraj11/enterprise-integration-hub",
-      "type": "repo",
-      "title": "Ananyanagaraj11/enterprise-integration-hub",
-      "summaryOriginal": "Interview-scale integration platform: API-led System/Process/Experience APIs, JWT gateway, sagas, event bus+DLQ, PySpark, ASP.NET, JS console, Docker/K8s/CI",
-      "url": "https://github.com/Ananyanagaraj11/enterprise-integration-hub",
-      "lang": "Python",
-      "tags": [
-        "csharp",
-        "docker",
-        "dotnet",
-        "fastapi",
-        "integration",
-        "javascript",
-        "jwt",
-        "kafka",
-        "kubernetes",
-        "microservices",
-        "pyspark",
-        "rest-api",
-        "spark"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T00:59:20Z",
-      "updatedAt": "2026-08-14T13:45:29Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:ciliverse/dawngrid",
-      "type": "repo",
-      "title": "ciliverse/dawngrid",
-      "summaryOriginal": "One login, one grid. Host shell for cluster, training, robots, and any console as plugins.",
-      "url": "https://github.com/ciliverse/dawngrid",
-      "lang": "TypeScript",
-      "tags": [
-        "admin-dashboard",
-        "hono",
-        "iframe",
-        "inference",
-        "kubernetes",
-        "llm",
-        "mlops",
-        "monorepo",
-        "plugin-system",
-        "react",
-        "robot",
-        "robotics",
-        "training",
-        "typescript",
-        "vite"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-16T10:44:22Z",
-      "updatedAt": "2026-08-16T11:22:55Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:mrueg/spillway",
-      "type": "repo",
-      "title": "mrueg/spillway",
-      "summaryOriginal": "Kubernetes aggregated API server that serves CRDs and their custom resources out of a kcp workspace — the objects live in kcp's etcd, not your cluster's.",
-      "url": "https://github.com/mrueg/spillway",
-      "lang": "Go",
-      "tags": [
-        "aggregated-apiserver",
-        "api-aggregation",
-        "apiserver",
-        "control-plane",
-        "crd",
-        "customresourcedefinition",
-        "etcd",
-        "extension-apiserver",
-        "go",
-        "golang",
-        "k8s",
-        "kcp",
-        "kubernetes",
-        "multi-tenancy"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T00:23:09Z",
-      "updatedAt": "2026-08-16T18:49:44Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:Ritesh-Prasad/Ritesh-Prasad",
-      "type": "repo",
-      "title": "Ritesh-Prasad/Ritesh-Prasad",
-      "summaryOriginal": "Cloud & DevOps Engineer portfolio featuring AWS, Terraform, Kubernetes, Jenkins, Docker, ArgoCD, CI/CD, and infrastructure automation projects.",
-      "url": "https://github.com/Ritesh-Prasad/Ritesh-Prasad",
-      "tags": [
-        "argocd",
-        "aws",
-        "ci-cd",
-        "cloud",
-        "devops",
-        "docker",
-        "infrastructure-as-code",
-        "jenkins",
-        "kubernetes",
-        "terraform"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-15T09:28:38Z",
-      "updatedAt": "2026-08-15T09:43:47Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:3900563672/hello-k8s-ai",
-      "type": "repo",
-      "title": "3900563672/hello-k8s-ai",
-      "summaryOriginal": "基于 Kubernetes 的 AI 推理调度与仿真平台：11 个 CRD、7 个 Controller、Simulator 与全链路可观测，Docker Desktop 一键部署。",
-      "url": "https://github.com/3900563672/hello-k8s-ai",
-      "lang": "Go",
-      "tags": [
-        "ai",
-        "controller",
-        "dashboard",
-        "docker",
-        "go",
-        "golang",
-        "grafana",
-        "jaeger",
-        "kubebuilder",
-        "kubernetes",
-        "observability",
-        "opentelemetry",
-        "postgresql",
-        "prometheus",
-        "react",
-        "scheduling",
-        "simulator",
-        "typescript"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T12:47:16Z",
-      "updatedAt": "2026-08-18T06:36:33Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:erishen/cicdkit",
-      "type": "repo",
-      "title": "erishen/cicdkit",
-      "summaryOriginal": "Local-first CI/CD platform — build Docker images and release to a k3s cluster from one web UI. Zero-dependency Go stdlib backend with an embedded React/Vite frontend.",
-      "url": "https://github.com/erishen/cicdkit",
-      "lang": "Go",
-      "tags": [
-        "automation",
-        "ci-cd",
-        "cicd",
-        "container",
-        "deployment",
-        "devops",
-        "docker",
-        "go",
-        "golang",
-        "k3s",
-        "kubernetes",
-        "pipeline",
-        "react",
-        "self-hosted",
-        "vite",
-        "webhooks"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-17T02:23:04Z",
-      "updatedAt": "2026-08-17T03:01:24Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:RONIN2938/kaoyan-study",
-      "type": "repo",
-      "title": "RONIN2938/kaoyan-study",
-      "summaryOriginal": "开源、本地优先、可跨云部署的考研刷题系统",
-      "url": "https://github.com/RONIN2938/kaoyan-study",
-      "lang": "TypeScript",
-      "tags": [
-        "docker",
-        "education",
-        "kaoyan",
-        "kubernetes",
-        "nextjs",
-        "self-hosted",
-        "study"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T10:47:51Z",
-      "updatedAt": "2026-08-13T11:45:09Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:somaz94/kube-ctx",
-      "type": "repo",
-      "title": "somaz94/kube-ctx",
-      "summaryOriginal": "Single-binary kubectx/kubens replacement with per-terminal context isolation, production guards, a built-in fuzzy picker (no fzf), and a cluster health check",
-      "url": "https://github.com/somaz94/kube-ctx",
-      "lang": "Go",
-      "tags": [
-        "cli",
-        "developer-tools",
-        "devops",
-        "golang",
-        "k8s",
-        "kubeconfig",
-        "kubectl",
-        "kubectx",
-        "kubens",
-        "kubernetes"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T08:41:12Z",
-      "updatedAt": "2026-08-18T05:23:16Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:augusttw/svcprobe",
-      "type": "repo",
-      "title": "augusttw/svcprobe",
-      "summaryOriginal": "High-performance network diagnostic & observability CLI for distributed systems (DNS, TCP, TLS, HTTP)",
-      "url": "https://github.com/augusttw/svcprobe",
-      "lang": "Go",
-      "tags": [
-        "cli",
-        "diagnostics",
-        "dns",
-        "go",
-        "http",
-        "kubernetes",
-        "microservices",
-        "networking",
-        "observability",
-        "tls"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T20:49:20Z",
-      "updatedAt": "2026-08-13T20:57:02Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:nubenetes/jenkins-argocd-openshift-2026",
-      "type": "repo",
-      "title": "nubenetes/jenkins-argocd-openshift-2026",
-      "summaryOriginal": "Enterprise Immutable CI/CD & Multi-Cluster GitOps on Red Hat OpenShift 4.20+ with Jenkins JCasC, Job DSL, Buildah, Skopeo, and ArgoCD",
-      "url": "https://github.com/nubenetes/jenkins-argocd-openshift-2026",
-      "lang": "Groovy",
-      "tags": [
-        "argocd",
-        "buildah",
-        "continuous-delivery",
-        "continuous-integration",
-        "devops",
-        "gitops",
-        "helm",
-        "immutable-infrastructure",
-        "jcasc",
-        "jenkins",
-        "jenkins-configuration-as-code",
-        "jenkins-pipeline",
-        "jenkins-shared-library",
-        "job-dsl",
-        "kubernetes",
-        "openshift",
-        "openshift4",
-        "platform-engineering",
-        "redhat-openshift",
-        "skopeo"
-      ],
-      "metrics": {
-        "stars": 0
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-16T16:25:14Z",
-      "updatedAt": "2026-08-16T21:27:37Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
       "id": "gh:kubernetes/kubernetes",
       "type": "repo",
       "title": "kubernetes/kubernetes",
@@ -1234,7 +1101,7 @@
         "kubernetes"
       ],
       "metrics": {
-        "stars": 124553
+        "stars": 124552
       },
       "source": "github-search",
       "publishedAt": "2014-06-06T22:56:04Z",
@@ -1271,46 +1138,7 @@
       },
       "source": "github-search",
       "publishedAt": "2015-09-13T19:04:02Z",
-      "updatedAt": "2026-08-17T13:08:06Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:Kong/kong",
-      "type": "repo",
-      "title": "Kong/kong",
-      "summaryOriginal": "🦍 The API and AI Gateway",
-      "url": "https://github.com/Kong/kong",
-      "lang": "Lua",
-      "tags": [
-        "ai",
-        "ai-gateway",
-        "api-gateway",
-        "api-management",
-        "apis",
-        "artificial-intelligence",
-        "cloud-native",
-        "devops",
-        "kubernetes",
-        "kubernetes-ingress",
-        "kubernetes-ingress-controller",
-        "llm-gateway",
-        "llm-ops",
-        "mcp",
-        "mcp-gateway",
-        "microservice",
-        "microservices",
-        "openai-proxy",
-        "reverse-proxy",
-        "serverless"
-      ],
-      "metrics": {
-        "stars": 43993
-      },
-      "source": "github-search",
-      "publishedAt": "2014-11-17T23:56:08Z",
-      "updatedAt": "2026-08-16T14:44:43Z",
+      "updatedAt": "2026-08-18T07:34:06Z",
       "categories": [
         "infra"
       ]
@@ -1344,11 +1172,11 @@
         "workflow-automation"
       ],
       "metrics": {
-        "stars": 40410
+        "stars": 40416
       },
       "source": "github-search",
       "publishedAt": "2021-03-30T08:51:34Z",
-      "updatedAt": "2026-08-18T06:42:09Z",
+      "updatedAt": "2026-08-18T08:19:19Z",
       "summaryEn": "Open-source low-code platform for building internal tools, dashboards, workflows, and AI agents.",
       "summaryKo": "내부 도구·대시보드·워크플로우·AI 에이전트를 만드는 오픈소스 로우코드 플랫폼",
       "reasonEn": "39k+ stars, adding 300+ more — steady low-code growth.",
@@ -1358,52 +1186,282 @@
       ]
     },
     {
-      "id": "gh:istio/istio",
+      "id": "gh:portainer/portainer",
       "type": "repo",
-      "title": "istio/istio",
-      "summaryOriginal": "Connect, secure, control, and observe services.",
-      "url": "https://github.com/istio/istio",
-      "lang": "Go",
+      "title": "portainer/portainer",
+      "summaryOriginal": "Making Docker and Kubernetes management easy.",
+      "url": "https://github.com/portainer/portainer",
+      "lang": "TypeScript",
       "tags": [
-        "api-management",
-        "circuit-breaker",
-        "consul",
-        "enforce-policies",
-        "envoy",
-        "fault-injection",
+        "docker",
+        "docker-compose",
+        "docker-container",
+        "docker-deployment",
+        "docker-image",
+        "docker-swarm",
+        "docker-ui",
+        "dockerfile",
+        "hacktoberfest",
         "kubernetes",
-        "lyft-envoy",
-        "microservice",
-        "microservices",
-        "nomad",
-        "polyglot-microservices",
-        "proxies",
-        "request-routing",
-        "resiliency",
-        "service-mesh"
+        "moby",
+        "portainer",
+        "ui"
       ],
       "metrics": {
-        "stars": 38354
+        "stars": 38263
       },
       "source": "github-search",
-      "publishedAt": "2016-11-18T23:57:21Z",
-      "updatedAt": "2026-08-18T04:24:30Z",
+      "publishedAt": "2016-05-19T20:15:28Z",
+      "updatedAt": "2026-08-17T13:14:49Z",
       "categories": [
         "infra"
       ]
     },
     {
-      "id": "gh:marvinvr/docktail",
+      "id": "gh:aquasecurity/trivy",
       "type": "repo",
-      "title": "marvinvr/docktail",
-      "summaryOriginal": "Expose Docker containers as Tailscale Services using label-based configuration.",
-      "url": "https://github.com/marvinvr/docktail",
+      "title": "aquasecurity/trivy",
+      "summaryOriginal": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "url": "https://github.com/aquasecurity/trivy",
       "lang": "Go",
+      "tags": [
+        "containers",
+        "devsecops",
+        "docker",
+        "go",
+        "golang",
+        "hacktoberfest",
+        "iac",
+        "infrastructure-as-code",
+        "kubernetes",
+        "misconfiguration",
+        "security",
+        "security-tools",
+        "vulnerability",
+        "vulnerability-detection",
+        "vulnerability-scanners"
+      ],
+      "metrics": {
+        "stars": 37467
+      },
+      "source": "github-search",
+      "publishedAt": "2019-04-11T01:01:07Z",
+      "updatedAt": "2026-08-17T12:43:05Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:derailed/k9s",
+      "type": "repo",
+      "title": "derailed/k9s",
+      "summaryOriginal": "🐶 Kubernetes CLI To Manage Your Clusters In Style!",
+      "url": "https://github.com/derailed/k9s",
+      "lang": "Go",
+      "tags": [
+        "go",
+        "golang",
+        "k8s",
+        "k8s-cluster",
+        "k9s",
+        "kubernetes",
+        "kubernetes-cli",
+        "kubernetes-clusters"
+      ],
+      "metrics": {
+        "stars": 34378
+      },
+      "source": "github-search",
+      "publishedAt": "2019-01-25T18:46:02Z",
+      "updatedAt": "2026-08-17T23:03:25Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:k3s-io/k3s",
+      "type": "repo",
+      "title": "k3s-io/k3s",
+      "summaryOriginal": "Lightweight Kubernetes",
+      "url": "https://github.com/k3s-io/k3s",
+      "lang": "Go",
+      "tags": [
+        "k8s",
+        "kubernetes"
+      ],
+      "metrics": {
+        "stars": 33754
+      },
+      "source": "github-search",
+      "publishedAt": "2018-05-31T01:37:46Z",
+      "updatedAt": "2026-08-17T23:08:42Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:podman-container-tools/podman",
+      "type": "repo",
+      "title": "podman-container-tools/podman",
+      "summaryOriginal": "Podman: A tool for managing OCI containers and pods.",
+      "url": "https://github.com/podman-container-tools/podman",
+      "lang": "Go",
+      "tags": [
+        "containers",
+        "docker",
+        "kubernetes",
+        "linux",
+        "oci"
+      ],
+      "metrics": {
+        "stars": 32610
+      },
+      "source": "github-search",
+      "publishedAt": "2017-11-01T15:01:27Z",
+      "updatedAt": "2026-08-18T04:38:40Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:dokku/dokku",
+      "type": "repo",
+      "title": "dokku/dokku",
+      "summaryOriginal": "A docker-powered PaaS that helps you build and manage the lifecycle of applications",
+      "url": "https://github.com/dokku/dokku",
+      "lang": "Shell",
+      "tags": [
+        "buildpack",
+        "containers",
+        "devops",
+        "docker",
+        "dokku",
+        "heroku",
+        "kubernetes",
+        "nomad",
+        "paas",
+        "self-hosted",
+        "selfhosted"
+      ],
+      "metrics": {
+        "stars": 32104
+      },
+      "source": "github-search",
+      "publishedAt": "2013-06-08T10:26:57Z",
+      "updatedAt": "2026-08-17T21:29:38Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:kubernetes/minikube",
+      "type": "repo",
+      "title": "kubernetes/minikube",
+      "summaryOriginal": "Run Kubernetes locally",
+      "url": "https://github.com/kubernetes/minikube",
+      "lang": "Go",
+      "tags": [
+        "cluster",
+        "cncf",
+        "containers",
+        "go",
+        "kubernetes",
+        "minikube"
+      ],
+      "metrics": {
+        "stars": 32040
+      },
+      "source": "github-search",
+      "publishedAt": "2016-04-15T22:38:35Z",
+      "updatedAt": "2026-08-17T20:18:02Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:abiosoft/colima",
+      "type": "repo",
+      "title": "abiosoft/colima",
+      "summaryOriginal": "Container runtimes on macOS (and Linux) with minimal setup",
+      "url": "https://github.com/abiosoft/colima",
+      "lang": "Go",
+      "tags": [
+        "containerd",
+        "containerd-compose",
+        "containers",
+        "docker",
+        "docker-compose",
+        "incus",
+        "k3s",
+        "k8s",
+        "kubernetes",
+        "lima",
+        "macos",
+        "nerdctl"
+      ],
+      "metrics": {
+        "stars": 30411
+      },
+      "source": "github-search",
+      "publishedAt": "2021-09-04T09:52:22Z",
+      "updatedAt": "2026-08-17T18:51:35Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:helm/helm",
+      "type": "repo",
+      "title": "helm/helm",
+      "summaryOriginal": "The Kubernetes Package Manager",
+      "url": "https://github.com/helm/helm",
+      "lang": "Go",
+      "tags": [
+        "chart",
+        "charts",
+        "cncf",
+        "helm",
+        "kubernetes"
+      ],
+      "metrics": {
+        "stars": 30151
+      },
+      "source": "github-search",
+      "publishedAt": "2015-10-06T01:07:32Z",
+      "updatedAt": "2026-08-17T21:58:14Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:aozorae/Edgechat",
+      "type": "repo",
+      "title": "aozorae/Edgechat",
+      "summaryOriginal": "A full-featured team chat system built on Cloudflare Workers, with public/private groups, DMs, realtime messaging, file uploads, and an admin dashboard.",
+      "url": "https://github.com/aozorae/Edgechat",
+      "lang": "JavaScript",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 205.268
+      },
+      "source": "ossinsight",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:mauriceboe/TREK",
+      "type": "repo",
+      "title": "mauriceboe/TREK",
+      "summaryOriginal": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
+      "url": "https://github.com/mauriceboe/TREK",
+      "lang": "TypeScript",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
         "pushes": 1,
-        "totalScore": 203.5618
+        "totalScore": 204.5848
       },
       "source": "ossinsight",
       "categories": [
@@ -1411,51 +1469,16 @@
       ]
     },
     {
-      "id": "gh:dev-Time81576318jagu/KMS-Pico-Download",
+      "id": "gh:iflytek/skillhub",
       "type": "repo",
-      "title": "dev-Time81576318jagu/KMS-Pico-Download",
-      "summaryOriginal": "Automated KMS activation research tool. Educational script repository for KMS Pico, KMS Auto, and Windows/Office volume licensing deployment simulation.",
-      "url": "https://github.com/dev-Time81576318jagu/KMS-Pico-Download",
+      "title": "iflytek/skillhub",
+      "summaryOriginal": "Self-hosted, open-source agent skill registry for enterprises. Publish & version skill packages, govern with RBAC and audit logs, deploy on-premise with Docker or Kubernetes.",
+      "url": "https://github.com/iflytek/skillhub",
+      "lang": "Java",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "totalScore": 203.5204
-      },
-      "source": "ossinsight",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:ministackorg/ministack",
-      "type": "repo",
-      "title": "ministackorg/ministack",
-      "summaryOriginal": "Ministack: Free, open-source local AWS emulator - 60+ services, Terraform compatible, real databases. Free forever. MIT licensed.",
-      "url": "https://github.com/ministackorg/ministack",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "pushes": 3,
-        "totalScore": 203.4724
-      },
-      "source": "ossinsight",
-      "categories": [
-        "infra",
-        "data"
-      ]
-    },
-    {
-      "id": "gh:Perseus-Computing-LLC/perseus-vault",
-      "type": "repo",
-      "title": "Perseus-Computing-LLC/perseus-vault",
-      "summaryOriginal": "Persistent, encrypted memory for AI agents: one Rust binary, one file, no cloud. 122 canonical MCP tools, hybrid recall, bi-temporal history, AES-256-GCM. Local-first, air-gap ready, MIT.",
-      "url": "https://github.com/Perseus-Computing-LLC/perseus-vault",
-      "lang": "Rust",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "totalScore": 203.0104
+        "totalScore": 204.0925
       },
       "source": "ossinsight",
       "categories": [

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "ai-models",
-  "generatedAt": "2026-08-18T06:46:00.164Z",
+  "generatedAt": "2026-08-18T08:21:30.970Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,7 +13,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 106801,
+        "stars": 107016,
         "starsDelta": 1189
       },
       "source": "github-trending",
@@ -30,7 +30,7 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 26088,
+        "stars": 26133,
         "starsDelta": 120
       },
       "source": "github-trending",
@@ -48,7 +48,7 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 32470,
+        "stars": 32521,
         "starsDelta": 198
       },
       "source": "github-trending",
@@ -65,13 +65,39 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 19102,
+        "stars": 19129,
         "starsDelta": 78
       },
       "source": "github-trending",
       "categories": [
         "ai-models",
         "backend"
+      ]
+    },
+    {
+      "id": "gh:ZhuLinsen/daily_stock_analysis",
+      "type": "repo",
+      "title": "ZhuLinsen/daily_stock_analysis",
+      "summaryOriginal": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "lang": "Python",
+      "tags": [
+        "a-stock",
+        "ai-agent",
+        "aigc",
+        "llm",
+        "quant",
+        "quantitative-finance",
+        "quantitative-trading"
+      ],
+      "metrics": {
+        "stars": 63230
+      },
+      "source": "github-search",
+      "publishedAt": "2026-01-10T06:43:20Z",
+      "updatedAt": "2026-08-17T13:41:19Z",
+      "categories": [
+        "ai-models"
       ]
     },
     {
@@ -93,16 +119,18 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 804
+        "stars": 808
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T06:28:56Z",
-      "updatedAt": "2026-08-18T06:45:40Z",
+      "updatedAt": "2026-08-18T07:42:11Z",
       "summaryEn": "Open-source alternative to Grok's coding bot — pick your own model and sandbox.",
       "summaryKo": "Grok 봇의 오픈소스 대안, 모델과 샌드박스를 직접 선택",
       "categories": [
         "ai-models",
-        "ai-agents"
+        "ai-agents",
+        "web",
+        "infra"
       ]
     },
     {
@@ -127,7 +155,7 @@
         "tutorial"
       ],
       "metrics": {
-        "stars": 467
+        "stars": 476
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T15:22:29Z",
@@ -167,7 +195,7 @@
         "zero-dependency"
       ],
       "metrics": {
-        "stars": 154
+        "stars": 155
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T08:09:10Z",
@@ -208,11 +236,11 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 136
+        "stars": 139
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T13:54:05Z",
-      "updatedAt": "2026-08-18T06:37:02Z",
+      "updatedAt": "2026-08-18T08:05:20Z",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -240,11 +268,11 @@
         "plugin-marketplace"
       ],
       "metrics": {
-        "stars": 119
+        "stars": 122
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T16:01:59Z",
-      "updatedAt": "2026-08-18T06:43:54Z",
+      "updatedAt": "2026-08-18T07:30:30Z",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -277,6 +305,7 @@
       "updatedAt": "2026-08-13T05:09:43Z",
       "categories": [
         "ai-models",
+        "web",
         "devtools"
       ]
     },
@@ -314,6 +343,36 @@
         "ai-models",
         "ai-agents",
         "devtools"
+      ]
+    },
+    {
+      "id": "gh:Han-1413141/dsh-cost-meter",
+      "type": "repo",
+      "title": "Han-1413141/dsh-cost-meter",
+      "summaryOriginal": "DeepSeek Harness Session Cost Statistics & OpenCode Go Quota Display, DS Official Balance & Custom Provider Balance Lookup, Codex-like Token Heatmap Plugin: Session/Daily Cost, Budget, History, Peak/off-peak pricing, Price Sync, Multi-vendor pricing (90+ catalog), Coding Plan quota queries (6 vendors), Balance progress bar",
+      "url": "https://github.com/Han-1413141/dsh-cost-meter",
+      "lang": "JavaScript",
+      "tags": [
+        "cost-tracking",
+        "deepseek",
+        "deepseek-api",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugins",
+        "harness",
+        "llm",
+        "plugins",
+        "token-usage"
+      ],
+      "metrics": {
+        "stars": 87
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T14:57:55Z",
+      "updatedAt": "2026-08-18T07:40:31Z",
+      "categories": [
+        "ai-models"
       ]
     },
     {
@@ -357,36 +416,6 @@
       ]
     },
     {
-      "id": "gh:Han-1413141/dsh-cost-meter",
-      "type": "repo",
-      "title": "Han-1413141/dsh-cost-meter",
-      "summaryOriginal": "DeepSeek Harness Session Cost Statistics & OpenCode Go Quota Display, DS Official Balance & Custom Provider Balance Lookup, Codex-like Token Heatmap Plugin: Session/Daily Cost, Budget, History, Peak/off-peak pricing, Price Sync, Multi-vendor pricing (90+ catalog), Coding Plan quota queries (6 vendors), Balance progress bar",
-      "url": "https://github.com/Han-1413141/dsh-cost-meter",
-      "lang": "JavaScript",
-      "tags": [
-        "cost-tracking",
-        "deepseek",
-        "deepseek-api",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "dsh-plugins",
-        "harness",
-        "llm",
-        "plugins",
-        "token-usage"
-      ],
-      "metrics": {
-        "stars": 85
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T14:57:55Z",
-      "updatedAt": "2026-08-18T06:22:14Z",
-      "categories": [
-        "ai-models"
-      ]
-    },
-    {
       "id": "gh:qiannianhuanxiang/DSHA",
       "type": "repo",
       "title": "qiannianhuanxiang/DSHA",
@@ -403,7 +432,7 @@
         "webui"
       ],
       "metrics": {
-        "stars": 80
+        "stars": 82
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T16:52:02Z",
@@ -460,139 +489,27 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 57
+        "stars": 58
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T11:38:54Z",
       "updatedAt": "2026-08-18T02:00:40Z",
       "categories": [
-        "ai-models"
-      ]
-    },
-    {
-      "id": "gh:PerryLink/dsh-memento",
-      "type": "repo",
-      "title": "PerryLink/dsh-memento",
-      "summaryOriginal": "Bounded, layered, approval-gated, auditable cross-session memory for DeepSeek Harness (capability seam: ctx.memory + SQLite provider + memory tool + frozen snapshot injection)",
-      "url": "https://github.com/PerryLink/dsh-memento",
-      "lang": "JavaScript",
-      "tags": [
-        "agent-memory",
-        "approval",
-        "audit",
-        "cordis",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "llm",
-        "memory",
-        "sqlite"
-      ],
-      "metrics": {
-        "stars": 57
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T19:29:14Z",
-      "updatedAt": "2026-08-18T00:17:37Z",
-      "categories": [
-        "ai-models"
-      ]
-    },
-    {
-      "id": "gh:Greninja9257/LabLLM",
-      "type": "repo",
-      "title": "Greninja9257/LabLLM",
-      "summaryOriginal": "A native macOS lab for teaching tiny language models to think — build the architecture, train the weights, and watch a small LLM emerge from scratch, locally on Apple Silicon with custom data, tokenizers, checkpoints, and MLX acceleration.",
-      "url": "https://github.com/Greninja9257/LabLLM",
-      "lang": "Swift",
-      "tags": [
-        "ai",
-        "apple-silicon",
-        "artificial-intelligence",
-        "deep-learning",
-        "fine-tuning",
-        "generative-ai",
-        "gpt",
-        "large-language-model",
-        "llm",
-        "local-ai",
-        "lora",
-        "machine-learning",
-        "macos",
-        "mlx",
-        "on-device-ai",
-        "open-source-llm",
-        "quantization",
-        "swift",
-        "swiftui",
-        "transformers"
-      ],
-      "metrics": {
-        "stars": 42
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-15T22:16:40Z",
-      "updatedAt": "2026-08-16T04:02:49Z",
-      "categories": [
-        "ai-models"
-      ]
-    },
-    {
-      "id": "gh:Vistyy/nopus",
-      "type": "repo",
-      "title": "Vistyy/nopus",
-      "summaryOriginal": "Deterministic prose checks for clearer coding-agent responses",
-      "url": "https://github.com/Vistyy/nopus",
-      "lang": "TypeScript",
-      "tags": [
-        "agent-skills",
-        "claude-code",
-        "coding-agents",
-        "developer-tools",
-        "llm",
-        "openai-codex",
-        "pi-coding-agent",
-        "readability"
-      ],
-      "metrics": {
-        "stars": 42
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-15T12:53:20Z",
-      "updatedAt": "2026-08-16T13:46:37Z",
-      "categories": [
         "ai-models",
-        "devtools"
+        "web"
       ]
     },
     {
-      "id": "gh:CalvinXKY/InfraTech",
+      "id": "gh:didilili/ai-agents-from-zero",
       "type": "repo",
-      "title": "CalvinXKY/InfraTech",
-      "summaryOriginal": "分享AI Infra知识&代码练习：PyTorch、vLLM/SGLang、slime/vime框架入门⚡️、性能加速🚀、大模型基础🧠、AI软硬件🔧等",
-      "url": "https://github.com/CalvinXKY/InfraTech",
-      "lang": "Jupyter Notebook",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "totalScore": 204.9757
-      },
-      "source": "ossinsight",
-      "categories": [
-        "ai-models"
-      ]
-    },
-    {
-      "id": "gh:Arcadia-1/virtuoso-bridge-lite",
-      "type": "repo",
-      "title": "Arcadia-1/virtuoso-bridge-lite",
-      "summaryOriginal": "Bridge between LLM-Agent and Cadence Virtuoso. A new infrastructure for Agentic Analog and Mixed-Signal Design.",
-      "url": "https://github.com/Arcadia-1/virtuoso-bridge-lite",
+      "title": "didilili/ai-agents-from-zero",
+      "summaryOriginal": "🚀 2026 最系统的 AI Agent 速成指南｜智能体实战教程 · 完整学习路径 + 实战项目 + 面试题库 · 对标大模型应用开发工程师岗位 · 覆盖LangChain / LangGraph / Coze / Dify / MCP / skills / LLM / RAG / 提示词 · 企业级部署与微调 · 从0到企业级落地 + 从学习到上线项目 + 面试准备一体化",
+      "url": "https://github.com/didilili/ai-agents-from-zero",
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "starsDelta": 1,
-        "totalScore": 204.6145
+        "starsDelta": 2,
+        "totalScore": 207.3834
       },
       "source": "ossinsight",
       "categories": [
@@ -601,16 +518,15 @@
       ]
     },
     {
-      "id": "gh:verl-project/verl-omni",
+      "id": "gh:ServiceNow/ServiceNowDocs",
       "type": "repo",
-      "title": "verl-project/verl-omni",
-      "summaryOriginal": "Multimodal RL training framework for diffusion & omni models",
-      "url": "https://github.com/verl-project/verl-omni",
-      "lang": "Python",
+      "title": "ServiceNow/ServiceNowDocs",
+      "summaryOriginal": "ServiceNow AI Platform documentation for LLM consumption.",
+      "url": "https://github.com/ServiceNow/ServiceNowDocs",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "totalScore": 204.4324
+        "totalScore": 204.8284
       },
       "source": "ossinsight",
       "categories": [
@@ -618,57 +534,110 @@
       ]
     },
     {
-      "id": "gh:jd-opensource/JoyAI-Video-Edit",
+      "id": "gh:alibaba/open-code-review",
       "type": "repo",
-      "title": "jd-opensource/JoyAI-Video-Edit",
-      "summaryOriginal": "[Official Repo] JoyAI-Video-Edit: Real-Time Open-Ended Video Editing with Autoregressive Diffusion",
-      "url": "https://github.com/jd-opensource/JoyAI-Video-Edit",
-      "lang": "Python",
+      "title": "alibaba/open-code-review",
+      "summaryOriginal": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "url": "https://github.com/alibaba/open-code-review",
+      "lang": "Go",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "totalScore": 203.5216
-      },
-      "source": "ossinsight",
-      "categories": [
-        "ai-models"
-      ]
-    },
-    {
-      "id": "gh:xenodium/agent-shell",
-      "type": "repo",
-      "title": "xenodium/agent-shell",
-      "summaryOriginal": "A native Emacs buffer to interact with LLM agents powered by ACP",
-      "url": "https://github.com/xenodium/agent-shell",
-      "lang": "Emacs Lisp",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "totalScore": 203.3065
+        "totalScore": 204.7675
       },
       "source": "ossinsight",
       "categories": [
         "ai-models",
         "ai-agents",
-        "devtools"
+        "data",
+        "engineering"
       ]
     },
     {
-      "id": "gh:browser-use/browser-harness",
+      "id": "gh:autogame-17/scribe-studio",
       "type": "repo",
-      "title": "browser-use/browser-harness",
-      "summaryOriginal": "Browser Harness | Self-healing harness that enables LLMs to complete any task.",
-      "url": "https://github.com/browser-use/browser-harness",
+      "title": "autogame-17/scribe-studio",
+      "summaryOriginal": "Scribe — multi-platform video → local Whisper transcription → LLM proofread with Typeless-style glossary learning. Wails v2 desktop app for macOS & Windows.",
+      "url": "https://github.com/autogame-17/scribe-studio",
+      "lang": "Go",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 204.4144
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-models"
+      ]
+    },
+    {
+      "id": "gh:shy3130/tickflow-stock-panel",
+      "type": "repo",
+      "title": "shy3130/tickflow-stock-panel",
+      "summaryOriginal": "TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 | 基于 TickFlow 数据源 | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源 ,非TickFlow官方项目",
+      "url": "https://github.com/shy3130/tickflow-stock-panel",
       "lang": "Python",
       "tags": [],
       "metrics": {
         "starsDelta": 1,
-        "totalScore": 203.2402
+        "totalScore": 204.3886
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-models"
+      ]
+    },
+    {
+      "id": "gh:inclusionAI/dFactory",
+      "type": "repo",
+      "title": "inclusionAI/dFactory",
+      "summaryOriginal": "Easy and Efficient dLLM Fine-Tuning",
+      "url": "https://github.com/inclusionAI/dFactory",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 204.2941
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-models"
+      ]
+    },
+    {
+      "id": "gh:jonexaiorg/jonex",
+      "type": "repo",
+      "title": "jonexaiorg/jonex",
+      "summaryOriginal": "All-in-One Multimodal Parsing Engine + Ontology-Powered, LLM Wiki-Driven AI-Ready Knowledge Engine",
+      "url": "https://github.com/jonexaiorg/jonex",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 204.1762
+      },
+      "source": "ossinsight",
+      "categories": [
+        "ai-models"
+      ]
+    },
+    {
+      "id": "gh:sandbaseai/managed-agents",
+      "type": "repo",
+      "title": "sandbaseai/managed-agents",
+      "summaryOriginal": "Open-source CMA-compatible agent runtime. Run multi-agent systems locally with any model (Ollama/vLLM/Claude/GPT), MCP tools, scenario templates, and a beautiful dashboard. One command start. Built for enterprise teams.",
+      "url": "https://github.com/sandbaseai/managed-agents",
+      "lang": "TypeScript",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "totalScore": 203.5039
       },
       "source": "ossinsight",
       "categories": [
         "ai-models",
-        "web"
+        "ai-agents",
+        "backend"
       ]
     },
     {
@@ -691,9 +660,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 10832,
+        "likes": 10879,
         "downloads": 415039,
-        "trendingScore": 10305
+        "trendingScore": 10345
       },
       "source": "hf-models",
       "publishedAt": "2026-08-05T08:22:59.000Z",
@@ -725,9 +694,9 @@
         "conversational"
       ],
       "metrics": {
-        "likes": 1680,
+        "likes": 1699,
         "downloads": 2727609,
-        "trendingScore": 1594
+        "trendingScore": 1610
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T08:28:40.000Z",
@@ -759,9 +728,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1044,
+        "likes": 1045,
         "downloads": 9465,
-        "trendingScore": 1001
+        "trendingScore": 1002
       },
       "source": "hf-models",
       "publishedAt": "2026-08-08T01:50:52.000Z",
@@ -812,9 +781,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1141,
+        "likes": 1149,
         "downloads": 465529,
-        "trendingScore": 918
+        "trendingScore": 923
       },
       "source": "hf-models",
       "publishedAt": "2026-07-23T07:55:24.000Z",
@@ -846,9 +815,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 916,
+        "likes": 918,
         "downloads": 10375,
-        "trendingScore": 891
+        "trendingScore": 892
       },
       "source": "hf-models",
       "publishedAt": "2026-08-07T12:23:29.000Z",
@@ -882,9 +851,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1667,
+        "likes": 1669,
         "downloads": 334099,
-        "trendingScore": 738
+        "trendingScore": 706
       },
       "source": "hf-models",
       "publishedAt": "2026-08-09T17:51:35.000Z",
@@ -925,9 +894,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 4101,
+        "likes": 4103,
         "downloads": 2403238,
-        "trendingScore": 552
+        "trendingScore": 541
       },
       "source": "hf-models",
       "publishedAt": "2026-07-28T10:45:18.000Z",
@@ -997,9 +966,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 537,
+        "likes": 539,
         "downloads": 495646,
-        "trendingScore": 507
+        "trendingScore": 510
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T08:01:58.000Z",
@@ -1041,12 +1010,85 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 457,
+        "likes": 464,
         "downloads": 15812,
-        "trendingScore": 405
+        "trendingScore": 412
       },
       "source": "hf-models",
       "publishedAt": "2026-08-15T05:45:04.000Z",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "hf-paper:2608.15669",
+      "type": "paper",
+      "title": "Large Discovery Models: Empirically-grounded Model-Based Open-Ended Search",
+      "summaryOriginal": "Scientific discovery often involves optimising expensive-to-evaluate objectives over vast, structured, and open-ended hypothesis spaces, such as molecules, protein sequences, and computer programs. Generative models such as large language models (LLMs) provide expressive priors over such spaces, but their likelihoods and self-assessments are unreliable proxies for the objectives and calibrated ep…",
+      "url": "https://huggingface.co/papers/2608.15669",
+      "tags": [],
+      "metrics": {
+        "upvotes": 3,
+        "comments": 1
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-08-16T00:00:00.000Z",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "hf-paper:2608.16765",
+      "type": "paper",
+      "title": "TRACE-Bench: Decomposing and Diagnosing Multi-Reference Image Generation",
+      "summaryOriginal": "Despite recent advances in unified multimodal models for multi-reference image generation, existing benchmarks remain organized around predefined task types (e.g., \"subject composition\"), which are ill-suited to this combinatorial setting and lead to fragmented coverage, uncontrolled complexity, and little diagnostic value. Recognizing that diverse multi-reference tasks share a common set of atom…",
+      "url": "https://huggingface.co/papers/2608.16765",
+      "tags": [],
+      "metrics": {
+        "upvotes": 3,
+        "comments": 1
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "hf-paper:2608.15659",
+      "type": "paper",
+      "title": "WorldRover: A Scalable Synthetic Video Data Engine for World Exploration with Rich Annotations",
+      "summaryOriginal": "Learning to generate or reconstruct explorable worlds requires video paired with more than RGB: camera motion, scene geometry, temporal correspondence and, for interactive models, control signals. Real capture can provide some of these signals, but dense geometry and long-range correspondence usually rely on estimation or specialised instrumentation. Rendering provides these quantities directly,…",
+      "url": "https://huggingface.co/papers/2608.15659",
+      "tags": [],
+      "metrics": {
+        "upvotes": 1,
+        "comments": 1
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-08-16T00:00:00.000Z",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ]
+    },
+    {
+      "id": "hf-paper:2608.15037",
+      "type": "paper",
+      "title": "Prototype-Rectified Iterative Self-supervised Manifold Denoising under Severe Acoustic Shift",
+      "summaryOriginal": "Audio-Text Foundation Models (ATMs) fail catastrophically under severe acoustic noise, yet existing adaptation strategies either rely on gradient-based Test-Time Adaptation (TTA), which reinforces noise rather than signal, or on prompt tuning that requires privileged noise annotations unavailable at inference. We address these failures with PRISM (Prototype-Rectified Iterative Self-supervised Man…",
+      "url": "https://huggingface.co/papers/2608.15037",
+      "tags": [],
+      "metrics": {
+        "upvotes": 0,
+        "comments": 1,
+        "githubStars": 1
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-08-15T00:00:00.000Z",
       "categories": [
         "ai-models",
         "ai-agents"
@@ -1060,7 +1102,7 @@
       "url": "https://huggingface.co/papers/2608.16072",
       "tags": [],
       "metrics": {
-        "upvotes": 4,
+        "upvotes": 10,
         "comments": 1
       },
       "source": "hf-papers",
@@ -1078,7 +1120,7 @@
       "url": "https://huggingface.co/papers/2608.14614",
       "tags": [],
       "metrics": {
-        "upvotes": 0,
+        "upvotes": 1,
         "comments": 1
       },
       "source": "hf-papers",
@@ -1163,80 +1205,6 @@
       ]
     },
     {
-      "id": "hf-paper:2608.15022",
-      "type": "paper",
-      "title": "Gathered, Not Admitted: How Attention Brings a Latent Variable into Verbalizable Form",
-      "summaryOriginal": "Language models hold latent quantities in a form they can report on, and more of a quantity is present in that form when the task requires reusing it flexibly. What causes a representation to enter that form is open, and the word workspace invites an admission story: a gate that decides what gets in. Testing it on open-weight models with Jacobian lenses, over a benchmark whose five arms share an…",
-      "url": "https://huggingface.co/papers/2608.15022",
-      "tags": [],
-      "metrics": {
-        "upvotes": 2,
-        "comments": 1,
-        "githubStars": 0
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-08-15T00:00:00.000Z",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "hf-paper:2608.16859",
-      "type": "paper",
-      "title": "HarnessEval-W: Agentifying the Evaluation of Visual Worlds",
-      "summaryOriginal": "A benchmark should deliver more than a scalar score: what makes an evaluation trustworthy is the reasoning that justifies the score. This is especially critical for world models, where judging a rollout requires understanding whether physics, causality, and world state evolve correctly. Humans spot such violations naturally, yet no existing benchmark automates this capability: metrics are compute…",
-      "url": "https://huggingface.co/papers/2608.16859",
-      "tags": [],
-      "metrics": {
-        "upvotes": 32,
-        "comments": 1,
-        "githubStars": 14
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "hf-paper:2608.16887",
-      "type": "paper",
-      "title": "An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models",
-      "summaryOriginal": "This paper investigates an increasingly important topic in generative modeling: pixel-space diffusion models. Although numerous studies have explored this topic, most focus on small-scale or class-conditional settings. Consequently, a practical recipe for training pixel-space models that rival or exceed well-established latent-space counterparts remains elusive. Through a comprehensive empirical…",
-      "url": "https://huggingface.co/papers/2608.16887",
-      "tags": [],
-      "metrics": {
-        "upvotes": 13,
-        "comments": 1
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ]
-    },
-    {
-      "id": "hf-paper:2608.16884",
-      "type": "paper",
-      "title": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve",
-      "summaryOriginal": "The current best bounds on the matrix multiplication exponent ω are obtained through a refinement of the laser method called combination loss analysis (Duan et al., 2022; Williams et al., 2024; Alman et al., 2025). In this note, we address the optimization problem at the core of this approach and propose several improvements. First, we reformulate the optimization problem allowing us to solve it…",
-      "url": "https://huggingface.co/papers/2608.16884",
-      "tags": [],
-      "metrics": {
-        "upvotes": 2,
-        "comments": 0
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ]
-    },
-    {
       "id": "hn:49257876",
       "type": "article",
       "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
@@ -1312,7 +1280,7 @@
       "url": "https://chenxiachan.github.io/thoughtdag/",
       "tags": [],
       "metrics": {
-        "upvotes": 134,
+        "upvotes": 135,
         "comments": 61
       },
       "source": "hn",
