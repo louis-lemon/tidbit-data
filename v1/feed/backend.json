@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "backend",
-  "generatedAt": "2026-08-17T21:27:36.872Z",
+  "generatedAt": "2026-08-18T01:19:01.783Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,13 +13,55 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 18948,
-        "starsDelta": 96
+        "stars": 18998,
+        "starsDelta": 78
       },
       "source": "github-trending",
       "categories": [
         "ai-models",
         "backend"
+      ]
+    },
+    {
+      "id": "gh:t8y2/dbx",
+      "type": "repo",
+      "title": "t8y2/dbx",
+      "summaryOriginal": "20 MB lightweight cross-platform database client for 80+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 80+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
+      "url": "https://github.com/t8y2/dbx",
+      "lang": "Rust",
+      "tags": [
+        "ai",
+        "cli",
+        "clickhouse",
+        "database",
+        "database-client",
+        "database-management",
+        "docker",
+        "gui",
+        "mcp",
+        "mongodb",
+        "mysql",
+        "postgresql",
+        "redis",
+        "rust",
+        "sql-server",
+        "sqlite",
+        "tauri",
+        "vue"
+      ],
+      "metrics": {
+        "stars": 15333
+      },
+      "source": "github-search",
+      "publishedAt": "2026-04-29T03:00:36Z",
+      "updatedAt": "2026-08-17T18:34:28Z",
+      "categories": [
+        "web",
+        "ai-agents",
+        "backend",
+        "infra",
+        "data",
+        "devtools"
       ]
     },
     {
@@ -52,52 +94,14 @@
         "windsurf"
       ],
       "metrics": {
-        "stars": 39263
+        "stars": 39276
       },
       "source": "github-search",
       "publishedAt": "2026-02-24T22:01:00Z",
-      "updatedAt": "2026-08-17T14:03:04Z",
+      "updatedAt": "2026-08-17T22:55:58Z",
       "categories": [
         "devtools",
         "ai-agents",
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:mudler/LocalAI",
-      "type": "repo",
-      "title": "mudler/LocalAI",
-      "summaryOriginal": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
-      "url": "https://github.com/mudler/LocalAI",
-      "lang": "Go",
-      "tags": [
-        "agents",
-        "ai",
-        "api",
-        "audio-generation",
-        "decentralized",
-        "distributed",
-        "image-generation",
-        "libp2p",
-        "llama",
-        "llm",
-        "mamba",
-        "mcp",
-        "musicgen",
-        "object-detection",
-        "rerank",
-        "stable-diffusion",
-        "text-generation",
-        "tts"
-      ],
-      "metrics": {
-        "stars": 48533
-      },
-      "source": "github-search",
-      "publishedAt": "2023-03-18T22:58:02Z",
-      "updatedAt": "2026-08-17T20:09:55Z",
-      "categories": [
-        "ai-models",
         "backend"
       ]
     },
@@ -167,7 +171,7 @@
         "web"
       ],
       "metrics": {
-        "stars": 57036
+        "stars": 57039
       },
       "source": "github-search",
       "publishedAt": "2019-04-08T16:36:25Z",
@@ -205,7 +209,7 @@
         "websocket"
       ],
       "metrics": {
-        "stars": 80051
+        "stars": 80052
       },
       "source": "github-search",
       "publishedAt": "2019-08-21T13:15:24Z",
@@ -255,6 +259,36 @@
         "web",
         "backend",
         "data"
+      ]
+    },
+    {
+      "id": "gh:scalar/scalar",
+      "type": "repo",
+      "title": "scalar/scalar",
+      "summaryOriginal": "Scalar is an open-source API platform: 🌐 Modern REST API Client 📖 Beautiful API References ✨ 1st-Class OpenAPI/Swagger Support",
+      "url": "https://github.com/scalar/scalar",
+      "lang": "TypeScript",
+      "tags": [
+        "api",
+        "api-client",
+        "docs",
+        "http-client",
+        "openapi",
+        "openapi3",
+        "reference",
+        "rest-api",
+        "swagger",
+        "vue"
+      ],
+      "metrics": {
+        "stars": 15929
+      },
+      "source": "github-search",
+      "publishedAt": "2023-08-16T13:42:32Z",
+      "updatedAt": "2026-08-18T00:42:14Z",
+      "categories": [
+        "web",
+        "backend"
       ]
     },
     {
@@ -309,83 +343,6 @@
       ]
     },
     {
-      "id": "gh:rubyroidlabs/rails_api_keys-ui",
-      "type": "repo",
-      "title": "rubyroidlabs/rails_api_keys-ui",
-      "summaryOriginal": "Mountable Rails UI for rails_api_keys — create, reveal once, list, and revoke API keys (HTML + JSON)",
-      "url": "https://github.com/rubyroidlabs/rails_api_keys-ui",
-      "lang": "HTML",
-      "tags": [
-        "api",
-        "api-key-management",
-        "api-key-manager",
-        "api-keys",
-        "devise",
-        "hotwire",
-        "html",
-        "pundit",
-        "rails",
-        "rails-api",
-        "rails-application",
-        "rails-engine",
-        "rails-gem",
-        "rails-ui",
-        "ruby",
-        "ruby-on-rails",
-        "rubygem",
-        "rubygems",
-        "rubyonrails"
-      ],
-      "metrics": {
-        "stars": 9
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T10:31:48Z",
-      "updatedAt": "2026-08-11T12:30:26Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:FANATFANATA/DanyAPI",
-      "type": "repo",
-      "title": "FANATFANATA/DanyAPI",
-      "summaryOriginal": "OpenAI compatible API on top of the free web clients",
-      "url": "https://github.com/FANATFANATA/DanyAPI",
-      "lang": "Python",
-      "tags": [
-        "ai",
-        "api",
-        "chat",
-        "danyapi",
-        "deepseek",
-        "fastapi",
-        "free",
-        "free-api",
-        "llm",
-        "openai",
-        "proxy",
-        "py",
-        "python",
-        "python3",
-        "qwen",
-        "reverse-engineering",
-        "sse",
-        "streaming",
-        "unofficial-api",
-        "web-scraping"
-      ],
-      "metrics": {
-        "stars": 5
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T21:48:54Z",
-      "updatedAt": "2026-08-17T21:16:57Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
       "id": "gh:Ntmib/razbor-servisa",
       "type": "repo",
       "title": "Ntmib/razbor-servisa",
@@ -409,41 +366,6 @@
       "updatedAt": "2026-08-14T14:26:33Z",
       "categories": [
         "backend"
-      ]
-    },
-    {
-      "id": "gh:coe-management-system/coe-management-system",
-      "type": "repo",
-      "title": "coe-management-system/coe-management-system",
-      "summaryOriginal": "College CoE Management System for centralized academic data, analytics, scheduling, workload optimization, and AI-assisted management.",
-      "url": "https://github.com/coe-management-system/coe-management-system",
-      "tags": [
-        "ai",
-        "ai-agents",
-        "algorithms",
-        "api",
-        "artificial-intelligence",
-        "attendance-management-system",
-        "automation",
-        "backend",
-        "coe-managed",
-        "dashboard",
-        "data-analysis",
-        "data-visualization",
-        "database",
-        "fastapi",
-        "frontend",
-        "nlp"
-      ],
-      "metrics": {
-        "stars": 4
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T15:26:15Z",
-      "updatedAt": "2026-08-17T10:48:13Z",
-      "categories": [
-        "backend",
-        "data"
       ]
     },
     {
@@ -736,33 +658,6 @@
       ]
     },
     {
-      "id": "gh:armin-panahi/Molecular-Planet",
-      "type": "repo",
-      "title": "armin-panahi/Molecular-Planet",
-      "summaryOriginal": "Explore a 3D molecular world through natural hand interaction.",
-      "url": "https://github.com/armin-panahi/Molecular-Planet",
-      "lang": "JavaScript",
-      "tags": [
-        "api",
-        "css3",
-        "hand-tracking",
-        "html5",
-        "javascript",
-        "mediapipe",
-        "npm",
-        "threejs"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T23:08:40Z",
-      "updatedAt": "2026-08-13T13:29:30Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
       "id": "gh:SolveGate/cloudflare-turnstile-solver-api",
       "type": "repo",
       "title": "SolveGate/cloudflare-turnstile-solver-api",
@@ -855,36 +750,6 @@
       ]
     },
     {
-      "id": "gh:caioagiani/gissonline-nfse",
-      "type": "repo",
-      "title": "caioagiani/gissonline-nfse",
-      "summaryOriginal": "Cliente Node/TypeScript para os Web Services do GissOnline (NFS-e ABRASF 2.04 + LC 214/2025): emissão, cancelamento, substituição, consultas e cadastro de participantes, com assinatura XMLDSig e certificado A1, WS/API",
-      "url": "https://github.com/caioagiani/gissonline-nfse",
-      "lang": "TypeScript",
-      "tags": [
-        "abrasf",
-        "api",
-        "giss",
-        "gissonline",
-        "nfse",
-        "node",
-        "nodejs",
-        "typescript",
-        "ws",
-        "xml",
-        "xmldsig"
-      ],
-      "metrics": {
-        "stars": 2
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T02:56:58Z",
-      "updatedAt": "2026-08-14T05:01:42Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
       "id": "gh:SukhdevThukral/mockit",
       "type": "repo",
       "title": "SukhdevThukral/mockit",
@@ -907,33 +772,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-12T17:47:40Z",
       "updatedAt": "2026-08-13T17:29:08Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:jdsmartcode/mythik",
-      "type": "repo",
-      "title": "jdsmartcode/mythik",
-      "summaryOriginal": "AI-first, JSON-native application framework for apps and APIs. AI agents compose validated JSON specs behind a single validation gate — no rebuild cycles. An open-source project by JD SmartCode.",
-      "url": "https://github.com/jdsmartcode/mythik",
-      "lang": "TypeScript",
-      "tags": [
-        "ai",
-        "api",
-        "framework",
-        "json",
-        "low-code",
-        "open-source",
-        "react",
-        "typescript"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T04:00:12Z",
-      "updatedAt": "2026-08-11T05:02:43Z",
       "categories": [
         "backend"
       ]
@@ -1022,39 +860,6 @@
       ]
     },
     {
-      "id": "gh:RulezZzOr/ordercore-examples",
-      "type": "repo",
-      "title": "RulezZzOr/ordercore-examples",
-      "summaryOriginal": "Give your AI agent a retry-safe checkout tool in 5 minutes. Runnable examples for OrderCore — the commerce API + MCP server for AI agents. Offline, no signup.",
-      "url": "https://github.com/RulezZzOr/ordercore-examples",
-      "lang": "JavaScript",
-      "tags": [
-        "agentic-commerce",
-        "ai",
-        "ai-agents",
-        "api",
-        "checkout",
-        "claude",
-        "commerce",
-        "ecommerce",
-        "idempotency",
-        "llm-tools",
-        "mcp",
-        "model-context-protocol",
-        "openai",
-        "ucp"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T21:56:21Z",
-      "updatedAt": "2026-08-12T14:13:08Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
       "id": "gh:valorisa/Agent-API-Authorization-LAB",
       "type": "repo",
       "title": "valorisa/Agent-API-Authorization-LAB",
@@ -1094,41 +899,6 @@
       ]
     },
     {
-      "id": "gh:PhotonJackdaw/autoseller-tg-bot-aiogram",
-      "type": "repo",
-      "title": "PhotonJackdaw/autoseller-tg-bot-aiogram",
-      "summaryOriginal": "AutoSeller TG Bot (aiogram) is an asynchronous Python-based Telegram bot template designed to automate digital product sales, manage inventory, process payments, and handle customer orders directly within Telegram.",
-      "url": "https://github.com/PhotonJackdaw/autoseller-tg-bot-aiogram",
-      "lang": "Rust",
-      "tags": [
-        "aiogram-bot",
-        "aiogram3",
-        "api",
-        "apscheduler",
-        "autosell",
-        "crypto",
-        "cryptocurrency",
-        "cryptoinvoicegenerator",
-        "cryptotelegrambot",
-        "mongodb",
-        "payment-bot-telegram",
-        "sellix",
-        "sellixapi",
-        "shop-bot",
-        "sqlite",
-        "yoomoney"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-11T18:09:14Z",
-      "updatedAt": "2026-08-11T18:15:53Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
       "id": "gh:Parithosh-Varma/zen-proxy",
       "type": "repo",
       "title": "Parithosh-Varma/zen-proxy",
@@ -1150,6 +920,237 @@
       "source": "github-search",
       "publishedAt": "2026-08-16T08:09:11Z",
       "updatedAt": "2026-08-16T08:38:19Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:virajsabhaya23/driftscope",
+      "type": "repo",
+      "title": "virajsabhaya23/driftscope",
+      "summaryOriginal": "Runtime API drift detection and source blast-radius analysis for CI",
+      "url": "https://github.com/virajsabhaya23/driftscope",
+      "lang": "Python",
+      "tags": [
+        "api",
+        "api-testing",
+        "ci",
+        "contract-testing",
+        "developer-tools",
+        "python"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-16T06:35:10Z",
+      "updatedAt": "2026-08-17T14:36:00Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:tracedown/tracedown-testbin",
+      "type": "repo",
+      "title": "tracedown/tracedown-testbin",
+      "summaryOriginal": "httpbin-inspired API suite tailored for testing lacelang / Tracedown capabilities",
+      "url": "https://github.com/tracedown/tracedown-testbin",
+      "lang": "Python",
+      "tags": [
+        "api",
+        "testbin",
+        "tracedown",
+        "tracedown-core"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-17T10:18:51Z",
+      "updatedAt": "2026-08-17T12:50:58Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:hideshopkeeperbound/ebay-kleinanzeigen-api-interface",
+      "type": "repo",
+      "title": "hideshopkeeperbound/ebay-kleinanzeigen-api-interface",
+      "summaryOriginal": "Kleinanzeigen API Interface is a Python/Node.js integration library and scraper framework designed to automate listing management, search queries, and message handling on Germany's leading classifieds platform (kleinanzeigen.de).",
+      "url": "https://github.com/hideshopkeeperbound/ebay-kleinanzeigen-api-interface",
+      "lang": "Rust",
+      "tags": [
+        "api",
+        "docker",
+        "ebay-api",
+        "ebay-kleinanzeigen",
+        "nginx",
+        "python",
+        "scraper",
+        "scraper-api"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T11:31:01Z",
+      "updatedAt": "2026-08-14T11:36:04Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:giimendonca/vulnerabilidades_web",
+      "type": "repo",
+      "title": "giimendonca/vulnerabilidades_web",
+      "summaryOriginal": "Sistema de votação desenvolvido em PHP e MySQL para demonstrar vulnerabilidades web e suas correções. Possui versões vulnerável e segura, abordando SQL Injection, XSS, CSRF, autenticação, sessões, controle de acesso, uploads, APIs e outras práticas de segurança.",
+      "url": "https://github.com/giimendonca/vulnerabilidades_web",
+      "lang": "PHP",
+      "tags": [
+        "academic-project",
+        "api",
+        "authentication",
+        "csrf",
+        "css",
+        "cybersecurity",
+        "html",
+        "javascript",
+        "mysql",
+        "php",
+        "secure-coding",
+        "sql-injection",
+        "web-development",
+        "websecurity",
+        "xss"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-12T17:31:50Z",
+      "updatedAt": "2026-08-17T16:43:58Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:AlvaroMartinCrespo/iris",
+      "type": "repo",
+      "title": "AlvaroMartinCrespo/iris",
+      "summaryOriginal": "Buscador inverso de viajes que compara vuelos, alojamiento y transporte para descubrir las mejores escapadas según origen, fechas, presupuesto y viajeros.",
+      "url": "https://github.com/AlvaroMartinCrespo/iris",
+      "lang": "JavaScript",
+      "tags": [
+        "api",
+        "duffel",
+        "duffel-api",
+        "flight",
+        "reactjs",
+        "skyscanner",
+        "skyscanner-flight-search",
+        "skyscanner-scraper"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T14:16:28Z",
+      "updatedAt": "2026-08-13T16:59:45Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:Iankulani/awesome_okapi",
+      "type": "repo",
+      "title": "Iankulani/awesome_okapi",
+      "summaryOriginal": "Awesome Okapi",
+      "url": "https://github.com/Iankulani/awesome_okapi",
+      "lang": "Python",
+      "tags": [
+        "api",
+        "api-gateway",
+        "api-rest",
+        "cyber-security",
+        "cyber-threat-intelligence",
+        "cybersecurity",
+        "cybersecurity-education",
+        "cybersecurity-tools",
+        "docker",
+        "docker-compose",
+        "docker-container",
+        "docker-image",
+        "dockerfile",
+        "phishing",
+        "phishing-attacks",
+        "phishing-script",
+        "phishing-sites",
+        "phising",
+        "socialengineering"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T14:07:29Z",
+      "updatedAt": "2026-08-14T23:53:03Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:mr-tanzim-ahmed/CSE-AI-Chat-Mentor",
+      "type": "repo",
+      "title": "mr-tanzim-ahmed/CSE-AI-Chat-Mentor",
+      "summaryOriginal": "mr-tanzim-ahmed/CSE-AI-Chat-Mentor",
+      "url": "https://github.com/mr-tanzim-ahmed/CSE-AI-Chat-Mentor",
+      "lang": "JavaScript",
+      "tags": [
+        "api",
+        "css",
+        "html",
+        "javascript",
+        "json",
+        "react-hooks",
+        "reactjs",
+        "vite"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-15T17:14:28Z",
+      "updatedAt": "2026-08-16T00:53:15Z",
+      "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:jeromns1-wq/crisispulse",
+      "type": "repo",
+      "title": "jeromns1-wq/crisispulse",
+      "summaryOriginal": "Dashboard de monitoreo global de crisis en tiempo real.",
+      "url": "https://github.com/jeromns1-wq/crisispulse",
+      "lang": "Python",
+      "tags": [
+        "api",
+        "dashboard",
+        "dashboards",
+        "data-visualization",
+        "emergency",
+        "emergency-response",
+        "python",
+        "python3",
+        "real-time",
+        "realtime",
+        "streamlit"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-15T22:44:41Z",
+      "updatedAt": "2026-08-15T23:29:31Z",
       "categories": [
         "backend"
       ]
@@ -1177,61 +1178,13 @@
         "software"
       ],
       "metrics": {
-        "stars": 463141
+        "stars": 463236
       },
       "source": "github-search",
       "publishedAt": "2016-03-20T23:49:42Z",
       "updatedAt": "2026-08-17T21:04:12Z",
       "categories": [
         "backend"
-      ]
-    },
-    {
-      "id": "gh:neovim/neovim",
-      "type": "repo",
-      "title": "neovim/neovim",
-      "summaryOriginal": "Vim-fork focused on extensibility and usability",
-      "url": "https://github.com/neovim/neovim",
-      "lang": "Vim Script",
-      "tags": [
-        "api",
-        "c",
-        "lua",
-        "neovim",
-        "nvim",
-        "text-editor",
-        "vim"
-      ],
-      "metrics": {
-        "stars": 101819
-      },
-      "source": "github-search",
-      "publishedAt": "2014-01-31T13:39:22Z",
-      "updatedAt": "2026-08-17T17:37:08Z",
-      "categories": [
-        "backend"
-      ]
-    },
-    {
-      "id": "gh:t8y2/dbx",
-      "type": "repo",
-      "title": "t8y2/dbx",
-      "summaryOriginal": "20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
-      "url": "https://github.com/t8y2/dbx",
-      "lang": "Rust",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "pushes": 5,
-        "totalScore": 204.9829
-      },
-      "source": "ossinsight",
-      "categories": [
-        "ai-agents",
-        "backend",
-        "infra",
-        "data",
-        "devtools"
       ]
     },
     {
@@ -1391,6 +1344,25 @@
       },
       "source": "ossinsight",
       "categories": [
+        "backend"
+      ]
+    },
+    {
+      "id": "gh:HaD0Yun/CozyClay",
+      "type": "repo",
+      "title": "HaD0Yun/CozyClay",
+      "summaryOriginal": "Open source previs software in the browser: block a scene, pose characters, author camera moves and cuts, then take the same shots to an AI video model.",
+      "url": "https://github.com/HaD0Yun/CozyClay",
+      "lang": "JavaScript",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 1,
+        "pushes": 1,
+        "totalScore": 203.047
+      },
+      "source": "ossinsight",
+      "categories": [
+        "web",
         "backend"
       ]
     },
