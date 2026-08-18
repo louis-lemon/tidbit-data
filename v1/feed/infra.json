@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "infra",
-  "generatedAt": "2026-08-18T03:45:40.346Z",
+  "generatedAt": "2026-08-18T06:46:00.164Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,7 +13,7 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 111261,
+        "stars": 111350,
         "starsDelta": 175
       },
       "source": "github-trending",
@@ -49,11 +49,11 @@
         "vue"
       ],
       "metrics": {
-        "stars": 15411
+        "stars": 15450
       },
       "source": "github-search",
       "publishedAt": "2026-04-29T03:00:36Z",
-      "updatedAt": "2026-08-18T03:39:55Z",
+      "updatedAt": "2026-08-18T06:34:51Z",
       "categories": [
         "web",
         "ai-agents",
@@ -93,51 +93,14 @@
         "workflow-automation"
       ],
       "metrics": {
-        "stars": 47113
+        "stars": 47119
       },
       "source": "github-search",
       "publishedAt": "2026-02-01T07:16:15Z",
-      "updatedAt": "2026-08-17T19:21:02Z",
+      "updatedAt": "2026-08-18T06:32:57Z",
       "categories": [
         "ai-agents",
         "infra"
-      ]
-    },
-    {
-      "id": "gh:runzhliu/deepseek-harness-docker",
-      "type": "repo",
-      "title": "runzhliu/deepseek-harness-docker",
-      "summaryOriginal": "Community Docker and Kubernetes packaging for DeepSeek Harness (@deepseek-ai/dsh), with a hardened image, Compose stack, Helm chart, Web UI, and headless CLI.",
-      "url": "https://github.com/runzhliu/deepseek-harness-docker",
-      "lang": "JavaScript",
-      "tags": [
-        "agent-runtime",
-        "ai-agents",
-        "cli",
-        "deepseek",
-        "deepseek-ai",
-        "deepseek-harness",
-        "docker",
-        "docker-compose",
-        "docker-image",
-        "dockerfile",
-        "dsh",
-        "dsh-plugin",
-        "helm",
-        "host-self",
-        "kubernetes",
-        "llm"
-      ],
-      "metrics": {
-        "stars": 19
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T15:41:41Z",
-      "updatedAt": "2026-08-14T09:40:29Z",
-      "categories": [
-        "ai-models",
-        "infra",
-        "devtools"
       ]
     },
     {
@@ -170,11 +133,11 @@
         "prometheus"
       ],
       "metrics": {
-        "stars": 80216
+        "stars": 80218
       },
       "source": "github-search",
       "publishedAt": "2013-06-17T18:39:10Z",
-      "updatedAt": "2026-08-18T00:10:50Z",
+      "updatedAt": "2026-08-18T05:28:47Z",
       "categories": [
         "ai-models",
         "infra",
@@ -251,11 +214,11 @@
         "vue"
       ],
       "metrics": {
-        "stars": 57458
+        "stars": 57461
       },
       "source": "github-search",
       "publishedAt": "2016-11-01T02:13:26Z",
-      "updatedAt": "2026-08-18T01:43:56Z",
+      "updatedAt": "2026-08-18T05:24:18Z",
       "categories": [
         "web",
         "infra"
@@ -290,11 +253,11 @@
         "serverless"
       ],
       "metrics": {
-        "stars": 17002
+        "stars": 17003
       },
       "source": "github-search",
       "publishedAt": "2019-04-10T02:02:05Z",
-      "updatedAt": "2026-08-18T03:44:55Z",
+      "updatedAt": "2026-08-18T06:35:11Z",
       "categories": [
         "backend",
         "infra"
@@ -327,7 +290,7 @@
         "vps"
       ],
       "metrics": {
-        "stars": 36668
+        "stars": 36674
       },
       "source": "github-search",
       "publishedAt": "2024-04-19T07:49:30Z",
@@ -366,6 +329,75 @@
       ]
     },
     {
+      "id": "gh:runzhliu/deepseek-harness-docker",
+      "type": "repo",
+      "title": "runzhliu/deepseek-harness-docker",
+      "summaryOriginal": "Community Docker and Kubernetes packaging for DeepSeek Harness (@deepseek-ai/dsh), with a hardened image, Compose stack, Helm chart, Web UI, and headless CLI.",
+      "url": "https://github.com/runzhliu/deepseek-harness-docker",
+      "lang": "JavaScript",
+      "tags": [
+        "agent-runtime",
+        "ai-agents",
+        "cli",
+        "deepseek",
+        "deepseek-ai",
+        "deepseek-harness",
+        "docker",
+        "docker-compose",
+        "docker-image",
+        "dockerfile",
+        "dsh",
+        "dsh-plugin",
+        "helm",
+        "host-self",
+        "kubernetes",
+        "llm"
+      ],
+      "metrics": {
+        "stars": 19
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T15:41:41Z",
+      "updatedAt": "2026-08-14T09:40:29Z",
+      "categories": [
+        "infra",
+        "devtools"
+      ]
+    },
+    {
+      "id": "gh:incontrolplus/openbalancer",
+      "type": "repo",
+      "title": "incontrolplus/openbalancer",
+      "summaryOriginal": "Lightweight asynchronous reverse proxy and load balancer with health checks, circuit breaker, and Prometheus metrics. MIT licensed.",
+      "url": "https://github.com/incontrolplus/openbalancer",
+      "lang": "HTML",
+      "tags": [
+        "async",
+        "circuit-breaker",
+        "docker",
+        "grafana",
+        "health-check",
+        "kubernetes",
+        "load-balancer",
+        "mit-license",
+        "open-source",
+        "prometheus",
+        "proxy",
+        "python",
+        "reverse-proxy",
+        "self-hosted"
+      ],
+      "metrics": {
+        "stars": 16
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-17T10:54:55Z",
+      "updatedAt": "2026-08-18T05:34:50Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
       "id": "gh:SoulKyu/leandro",
       "type": "repo",
       "title": "SoulKyu/leandro",
@@ -388,6 +420,31 @@
       "source": "github-search",
       "publishedAt": "2026-08-12T07:17:09Z",
       "updatedAt": "2026-08-14T09:14:45Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:mahdimomeni/telepresence-gui",
+      "type": "repo",
+      "title": "mahdimomeni/telepresence-gui",
+      "summaryOriginal": "Cross-platform desktop GUI for Kubernetes Telepresence built with Wails, Go, and React.",
+      "url": "https://github.com/mahdimomeni/telepresence-gui",
+      "lang": "TypeScript",
+      "tags": [
+        "developer-tools",
+        "golang",
+        "k8s-development",
+        "kubernetes",
+        "telepresence",
+        "wails"
+      ],
+      "metrics": {
+        "stars": 6
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T07:25:53Z",
+      "updatedAt": "2026-08-17T14:40:28Z",
       "categories": [
         "infra"
       ]
@@ -445,31 +502,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-12T13:22:11Z",
       "updatedAt": "2026-08-12T15:03:33Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:mahdimomeni/telepresence-gui",
-      "type": "repo",
-      "title": "mahdimomeni/telepresence-gui",
-      "summaryOriginal": "Cross-platform desktop GUI for Kubernetes Telepresence built with Wails, Go, and React.",
-      "url": "https://github.com/mahdimomeni/telepresence-gui",
-      "lang": "TypeScript",
-      "tags": [
-        "developer-tools",
-        "golang",
-        "k8s-development",
-        "kubernetes",
-        "telepresence",
-        "wails"
-      ],
-      "metrics": {
-        "stars": 5
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T07:25:53Z",
-      "updatedAt": "2026-08-17T14:40:28Z",
       "categories": [
         "infra"
       ]
@@ -593,7 +625,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-16T09:58:01Z",
-      "updatedAt": "2026-08-17T11:23:41Z",
+      "updatedAt": "2026-08-18T06:43:56Z",
       "categories": [
         "infra"
       ]
@@ -867,6 +899,38 @@
       ]
     },
     {
+      "id": "gh:Ananyanagaraj11/enterprise-integration-hub",
+      "type": "repo",
+      "title": "Ananyanagaraj11/enterprise-integration-hub",
+      "summaryOriginal": "Interview-scale integration platform: API-led System/Process/Experience APIs, JWT gateway, sagas, event bus+DLQ, PySpark, ASP.NET, JS console, Docker/K8s/CI",
+      "url": "https://github.com/Ananyanagaraj11/enterprise-integration-hub",
+      "lang": "Python",
+      "tags": [
+        "csharp",
+        "docker",
+        "dotnet",
+        "fastapi",
+        "integration",
+        "javascript",
+        "jwt",
+        "kafka",
+        "kubernetes",
+        "microservices",
+        "pyspark",
+        "rest-api",
+        "spark"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-14T00:59:20Z",
+      "updatedAt": "2026-08-14T13:45:29Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
       "id": "gh:ciliverse/dawngrid",
       "type": "repo",
       "title": "ciliverse/dawngrid",
@@ -901,38 +965,6 @@
       ]
     },
     {
-      "id": "gh:Ananyanagaraj11/enterprise-integration-hub",
-      "type": "repo",
-      "title": "Ananyanagaraj11/enterprise-integration-hub",
-      "summaryOriginal": "Interview-scale integration platform: API-led System/Process/Experience APIs, JWT gateway, sagas, event bus+DLQ, PySpark, ASP.NET, JS console, Docker/K8s/CI",
-      "url": "https://github.com/Ananyanagaraj11/enterprise-integration-hub",
-      "lang": "Python",
-      "tags": [
-        "csharp",
-        "docker",
-        "dotnet",
-        "fastapi",
-        "integration",
-        "javascript",
-        "jwt",
-        "kafka",
-        "kubernetes",
-        "microservices",
-        "pyspark",
-        "rest-api",
-        "spark"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T00:59:20Z",
-      "updatedAt": "2026-08-14T13:45:29Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
       "id": "gh:mrueg/spillway",
       "type": "repo",
       "title": "mrueg/spillway",
@@ -961,61 +993,6 @@
       "source": "github-search",
       "publishedAt": "2026-08-13T00:23:09Z",
       "updatedAt": "2026-08-16T18:49:44Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:RONIN2938/kaoyan-study",
-      "type": "repo",
-      "title": "RONIN2938/kaoyan-study",
-      "summaryOriginal": "开源、本地优先、可跨云部署的考研刷题系统",
-      "url": "https://github.com/RONIN2938/kaoyan-study",
-      "lang": "TypeScript",
-      "tags": [
-        "docker",
-        "education",
-        "kaoyan",
-        "kubernetes",
-        "nextjs",
-        "self-hosted",
-        "study"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T10:47:51Z",
-      "updatedAt": "2026-08-13T11:45:09Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:somaz94/kube-ctx",
-      "type": "repo",
-      "title": "somaz94/kube-ctx",
-      "summaryOriginal": "Single-binary kubectx/kubens replacement with per-terminal context isolation, production guards, a built-in fuzzy picker (no fzf), and a cluster health check",
-      "url": "https://github.com/somaz94/kube-ctx",
-      "lang": "Go",
-      "tags": [
-        "cli",
-        "developer-tools",
-        "devops",
-        "golang",
-        "k8s",
-        "kubeconfig",
-        "kubectl",
-        "kubectx",
-        "kubens",
-        "kubernetes"
-      ],
-      "metrics": {
-        "stars": 1
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T08:41:12Z",
-      "updatedAt": "2026-08-18T02:22:55Z",
       "categories": [
         "infra"
       ]
@@ -1080,7 +1057,97 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T12:47:16Z",
-      "updatedAt": "2026-08-18T03:16:14Z",
+      "updatedAt": "2026-08-18T06:36:33Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:erishen/cicdkit",
+      "type": "repo",
+      "title": "erishen/cicdkit",
+      "summaryOriginal": "Local-first CI/CD platform — build Docker images and release to a k3s cluster from one web UI. Zero-dependency Go stdlib backend with an embedded React/Vite frontend.",
+      "url": "https://github.com/erishen/cicdkit",
+      "lang": "Go",
+      "tags": [
+        "automation",
+        "ci-cd",
+        "cicd",
+        "container",
+        "deployment",
+        "devops",
+        "docker",
+        "go",
+        "golang",
+        "k3s",
+        "kubernetes",
+        "pipeline",
+        "react",
+        "self-hosted",
+        "vite",
+        "webhooks"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-17T02:23:04Z",
+      "updatedAt": "2026-08-17T03:01:24Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:RONIN2938/kaoyan-study",
+      "type": "repo",
+      "title": "RONIN2938/kaoyan-study",
+      "summaryOriginal": "开源、本地优先、可跨云部署的考研刷题系统",
+      "url": "https://github.com/RONIN2938/kaoyan-study",
+      "lang": "TypeScript",
+      "tags": [
+        "docker",
+        "education",
+        "kaoyan",
+        "kubernetes",
+        "nextjs",
+        "self-hosted",
+        "study"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T10:47:51Z",
+      "updatedAt": "2026-08-13T11:45:09Z",
+      "categories": [
+        "infra"
+      ]
+    },
+    {
+      "id": "gh:somaz94/kube-ctx",
+      "type": "repo",
+      "title": "somaz94/kube-ctx",
+      "summaryOriginal": "Single-binary kubectx/kubens replacement with per-terminal context isolation, production guards, a built-in fuzzy picker (no fzf), and a cluster health check",
+      "url": "https://github.com/somaz94/kube-ctx",
+      "lang": "Go",
+      "tags": [
+        "cli",
+        "developer-tools",
+        "devops",
+        "golang",
+        "k8s",
+        "kubeconfig",
+        "kubectl",
+        "kubectx",
+        "kubens",
+        "kubernetes"
+      ],
+      "metrics": {
+        "stars": 1
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T08:41:12Z",
+      "updatedAt": "2026-08-18T05:23:16Z",
       "categories": [
         "infra"
       ]
@@ -1154,65 +1221,6 @@
       ]
     },
     {
-      "id": "gh:tsilenzio/pokemon-team-builder",
-      "type": "repo",
-      "title": "tsilenzio/pokemon-team-builder",
-      "summaryOriginal": "Pokemon team builder: ordered six-slot teams on NestJS, MikroORM and Postgres with a React UI, built in an Nx monorepo and run on Tilt.",
-      "url": "https://github.com/tsilenzio/pokemon-team-builder",
-      "lang": "TypeScript",
-      "tags": [
-        "kubernetes",
-        "mikro-orm",
-        "monorepo",
-        "nestjs",
-        "nx-monorepo",
-        "pnpm",
-        "pokeapi",
-        "postgresql",
-        "react",
-        "rest-api",
-        "tilt",
-        "typescript",
-        "vite",
-        "vitest"
-      ],
-      "metrics": {
-        "stars": 0
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T13:15:22Z",
-      "updatedAt": "2026-08-15T02:19:50Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
-      "id": "gh:mcpg-dev/pulumi-mcpg",
-      "type": "repo",
-      "title": "mcpg-dev/pulumi-mcpg",
-      "summaryOriginal": "Opinionated Pulumi components for MCPG (operator, gateway, tenant, trust).",
-      "url": "https://github.com/mcpg-dev/pulumi-mcpg",
-      "lang": "TypeScript",
-      "tags": [
-        "infrastructure-as-code",
-        "kubernetes",
-        "mcp",
-        "mcpg",
-        "model-context-protocol",
-        "pulumi",
-        "typescript"
-      ],
-      "metrics": {
-        "stars": 0
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-12T05:06:54Z",
-      "updatedAt": "2026-08-15T10:18:48Z",
-      "categories": [
-        "infra"
-      ]
-    },
-    {
       "id": "gh:kubernetes/kubernetes",
       "type": "repo",
       "title": "kubernetes/kubernetes",
@@ -1226,7 +1234,7 @@
         "kubernetes"
       ],
       "metrics": {
-        "stars": 124536
+        "stars": 124553
       },
       "source": "github-search",
       "publishedAt": "2014-06-06T22:56:04Z",
@@ -1298,7 +1306,7 @@
         "serverless"
       ],
       "metrics": {
-        "stars": 43991
+        "stars": 43993
       },
       "source": "github-search",
       "publishedAt": "2014-11-17T23:56:08Z",
@@ -1336,11 +1344,11 @@
         "workflow-automation"
       ],
       "metrics": {
-        "stars": 40406
+        "stars": 40410
       },
       "source": "github-search",
       "publishedAt": "2021-03-30T08:51:34Z",
-      "updatedAt": "2026-08-18T00:44:43Z",
+      "updatedAt": "2026-08-18T06:42:09Z",
       "summaryEn": "Open-source low-code platform for building internal tools, dashboards, workflows, and AI agents.",
       "summaryKo": "내부 도구·대시보드·워크플로우·AI 에이전트를 만드는 오픈소스 로우코드 플랫폼",
       "reasonEn": "39k+ stars, adding 300+ more — steady low-code growth.",
@@ -1375,11 +1383,11 @@
         "service-mesh"
       ],
       "metrics": {
-        "stars": 38353
+        "stars": 38354
       },
       "source": "github-search",
       "publishedAt": "2016-11-18T23:57:21Z",
-      "updatedAt": "2026-08-17T20:40:32Z",
+      "updatedAt": "2026-08-18T04:24:30Z",
       "categories": [
         "infra"
       ]
