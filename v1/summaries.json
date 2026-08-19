@@ -1,7 +1,7 @@
 {
   "_owner": "PC 요약 워커(services/summarizer)만 쓴다. 수집기·어드민은 읽기 전용. 상세는 README.md",
   "version": 1,
-  "updatedAt": "2026-08-18T09:09:14.011Z",
+  "updatedAt": "2026-08-19T05:41:03.745Z",
   "summaries": {
     "gh:macro-inc/macro": {
       "summaryEn": "Unified team workspace: email, chat, docs, tasks, agents, calls, and CRM linked together with shared AI memory.",
@@ -770,6 +770,240 @@
     "gh:netdata/netdata": {
       "summaryEn": "Real-time full-stack observability and monitoring platform with AI-assisted alerting, covering infra, containers, and databases.",
       "summaryKo": "인프라·컨테이너·DB를 아우르는 실시간 풀스택 관측·모니터링 플랫폼, AI 기반 알림 지원."
+    },
+    "gh:langgenius/dify": {
+      "summaryEn": "Low-code platform for building agentic workflows and RAG pipelines with broad AI model and tool support.",
+      "summaryKo": "에이전트 워크플로우와 RAG 파이프라인을 만드는 로우코드 플랫폼, 다양한 AI 모델·툴 지원.",
+      "reasonEn": "Near 153k GitHub stars, high developer adoption",
+      "reasonKo": "스타 15만 개 돌파, 개발자 채택 급증"
+    },
+    "gh:open-webui/open-webui": {
+      "summaryEn": "Self-hosted web interface for local and API-based LLMs, supporting Ollama and OpenAI-compatible backends.",
+      "summaryKo": "로컬·API 기반 LLM용 셀프호스팅 웹 UI, Ollama·OpenAI 호환 백엔드 지원.",
+      "reasonEn": "149k+ stars, top choice for self-hosted AI chat UIs",
+      "reasonKo": "스타 14.9만, 셀프호스팅 AI 챗 UI 1위"
+    },
+    "gh:langchain-ai/langchain": {
+      "summaryEn": "Framework for building AI agents, from prototyping to production, with multi-model and RAG support.",
+      "summaryKo": "AI 에이전트를 프로토타입부터 프로덕션까지 만드는 프레임워크, 멀티모델·RAG 지원.",
+      "reasonEn": "144k+ stars, foundational agent engineering toolkit",
+      "reasonKo": "스타 14만 이상, 에이전트 엔지니어링 기반 툴킷"
+    },
+    "hf-paper:2608.16859": {
+      "summaryEn": "Benchmark that automates judging AI-generated world simulations for physics and causality errors, with reasoning, not just a score.",
+      "summaryKo": "AI 생성 영상·월드 시뮬레이션의 물리·인과 오류를 이유와 함께 자동 판정하는 벤치마크.",
+      "reasonEn": "105 upvotes, fills gap in world-model evaluation",
+      "reasonKo": "업보트 105, 월드모델 평가 공백 해결"
+    },
+    "hf-paper:2608.16887": {
+      "summaryEn": "Empirical study on training pixel-space text-to-image diffusion models to match or beat latent-space models at scale.",
+      "summaryKo": "픽셀 공간 텍스트→이미지 확산 모델을 대규모로 학습해 잠재공간 모델과 겨루는 실증 연구.",
+      "reasonEn": "Addresses gap in scaling pixel-space diffusion training",
+      "reasonKo": "픽셀 공간 확산 학습 스케일링 공백 다룸"
+    },
+    "gh:huggingface/transformers": {
+      "summaryEn": "Hugging Face's framework defining state-of-the-art models for text, vision, audio, and multimodal tasks.",
+      "summaryKo": "텍스트·비전·오디오·멀티모달 최신 모델을 정의하는 허깅페이스 프레임워크.",
+      "reasonEn": "164k+ stars, standard library for ML model inference/training",
+      "reasonKo": "스타 16.4만, ML 모델 추론·학습 표준 라이브러리"
+    },
+    "gh:UditAkhourii/neuroarxiv": {
+      "summaryEn": "Claude Code skill that checks arXiv for prior art before designing a new model architecture from scratch.",
+      "summaryKo": "새 모델 아키텍처를 처음부터 짜기 전 arXiv 선행 연구를 확인하는 Claude Code 스킬.",
+      "reasonEn": "New skill gaining traction for avoiding redundant research",
+      "reasonKo": "중복 연구 방지 신규 스킬로 주목받음"
+    },
+    "gh:graphile/crystal": {
+      "summaryEn": "Monorepo behind Grafast and PostGraphile, generating instant GraphQL APIs from a Postgres schema.",
+      "summaryKo": "Postgres 스키마로 GraphQL API를 즉시 만드는 Grafast·PostGraphile 모노레포.",
+      "reasonEn": "12.9k stars in the GraphQL/Postgres tooling niche",
+      "reasonKo": "GraphQL·Postgres 툴링에서 스타 1.3만"
+    },
+    "gh:valeriansaliou/sonic": {
+      "summaryEn": "Lightweight, schema-less search backend, an Elasticsearch alternative that runs on minimal RAM.",
+      "summaryKo": "가볍고 스키마 없는 검색 백엔드, 최소 메모리로 도는 Elasticsearch 대안.",
+      "reasonEn": "21k+ stars for a low-resource Elasticsearch alternative",
+      "reasonKo": "저사양 Elasticsearch 대안으로 스타 2.1만"
+    },
+    "gh:apioo/fusio": {
+      "summaryEn": "Self-hosted API management platform for building and gating REST/GraphQL APIs, with MCP server support.",
+      "summaryKo": "REST·GraphQL API를 만들고 관리하는 셀프호스팅 플랫폼, MCP 서버 지원.",
+      "reasonEn": "MCP-server support taps current agent-tooling interest",
+      "reasonKo": "MCP 서버 지원으로 에이전트 툴링 관심 반영"
+    },
+    "gh:dagster-io/dagster": {
+      "summaryEn": "Orchestration platform for building, running, and observing data pipelines and data assets.",
+      "summaryKo": "데이터 파이프라인·데이터 자산을 만들고 실행·관찰하는 오케스트레이션 플랫폼.",
+      "reasonEn": "16k+ stars, established data-engineering orchestrator",
+      "reasonKo": "스타 1.6만, 데이터 엔지니어링 오케스트레이터 자리매김"
+    },
+    "gh:fivetran/great_expectations": {
+      "summaryEn": "Data quality testing tool that validates datasets against expectations to catch bad data early.",
+      "summaryKo": "데이터셋을 기대값과 비교 검증해 이상 데이터를 조기에 잡는 데이터 품질 테스트 도구.",
+      "reasonEn": "11.7k stars, standard for data pipeline quality checks",
+      "reasonKo": "스타 1.2만, 데이터 파이프라인 품질 검사 표준"
+    },
+    "gh:cocoindex-io/cocoindex": {
+      "summaryEn": "Incremental data indexing engine built for long-running AI agents that need real-time context.",
+      "summaryKo": "실시간 컨텍스트가 필요한 장기 실행 AI 에이전트용 증분 데이터 인덱싱 엔진.",
+      "reasonEn": "11k+ stars, growing interest in agent context engineering",
+      "reasonKo": "스타 1.1만, 에이전트 컨텍스트 엔지니어링 관심 증가"
+    },
+    "gh:taosdata/TDengine": {
+      "summaryEn": "High-performance time-series database built for industrial IoT monitoring and analytics at scale.",
+      "summaryKo": "산업용 IoT 모니터링·분석을 위한 대규모 고성능 시계열 데이터베이스.",
+      "reasonEn": "25k+ stars, established IIoT time-series database",
+      "reasonKo": "스타 2.5만, IIoT 시계열 DB로 자리잡음"
+    },
+    "gh:risingwavelabs/risingwave": {
+      "summaryEn": "Streaming database for agentic AI that ingests, transforms, and serves event streams in real time.",
+      "summaryKo": "에이전트 AI용 스트리밍 DB, 이벤트 스트림을 실시간으로 수집·변환·제공.",
+      "reasonEn": "9k+ stars, positions streaming data for agentic AI use cases",
+      "reasonKo": "스타 9천, 에이전트 AI용 스트리밍 데이터 포지셔닝"
+    },
+    "gh:santifer/career-ops": {
+      "summaryEn": "Open-source AI job search tool that scores listings, tailors your CV, and tracks applications from a CLI.",
+      "summaryKo": "채용 공고를 채점하고 이력서를 맞추고 지원 현황을 추적하는 오픈소스 AI 구직 CLI 도구.",
+      "reasonEn": "65k+ stars, fast-growing AI job-search automation tool",
+      "reasonKo": "스타 6.5만, AI 구직 자동화 도구로 급성장"
+    },
+    "gh:tldr-pages/tldr": {
+      "summaryEn": "Collaborative, simplified cheatsheets for console commands, an alternative to dense man pages.",
+      "summaryKo": "복잡한 man 페이지 대신 간결한 커맨드라인 명령어 협업 치트시트.",
+      "reasonEn": "63k+ stars, long-running favorite CLI reference",
+      "reasonKo": "스타 6.3만, 꾸준히 사랑받는 CLI 참고서"
+    },
+    "gh:cli/cli": {
+      "summaryEn": "GitHub's official command line tool for managing repos, pull requests, and issues from the terminal.",
+      "summaryKo": "터미널에서 저장소·PR·이슈를 관리하는 GitHub 공식 CLI 도구.",
+      "reasonEn": "45k+ stars, standard tool for GitHub workflow automation",
+      "reasonKo": "스타 4.5만, GitHub 워크플로 자동화 표준 도구"
+    },
+    "gh:charmbracelet/bubbletea": {
+      "summaryEn": "Go framework for building terminal user interfaces, based on the Elm architecture.",
+      "summaryKo": "Elm 아키텍처 기반의 터미널 UI(TUI)를 만드는 Go 프레임워크.",
+      "reasonEn": "44k+ stars, popular pick for modern TUI apps",
+      "reasonKo": "스타 4.4만, 최신 TUI 앱 제작에 인기"
+    },
+    "gh:drawdb-io/drawdb": {
+      "summaryEn": "Free online database diagram editor that also generates SQL from your schema design.",
+      "summaryKo": "DB 다이어그램을 그리고 스키마에서 SQL을 생성하는 무료 온라인 에디터.",
+      "reasonEn": "39k+ stars, popular free alternative to paid ERD tools",
+      "reasonKo": "스타 3.9만, 유료 ERD 도구의 무료 대안으로 인기"
+    },
+    "gh:Raphire/Win11Debloat": {
+      "summaryEn": "PowerShell script that removes bloatware, disables telemetry, and customizes Windows 10/11.",
+      "summaryKo": "불필요한 앱 제거·텔레메트리 차단·설정 최적화하는 Windows 10/11 파워셸 스크립트.",
+      "reasonEn": "55k+ stars, widely used Windows debloat utility",
+      "reasonKo": "스타 5.5만, 널리 쓰이는 윈도우 디블로트 도구"
+    },
+    "gh:dubzzz/fast-check": {
+      "summaryEn": "Property-based testing framework for JavaScript/TypeScript, similar to QuickCheck.",
+      "summaryKo": "QuickCheck과 유사한 JavaScript/TypeScript용 속성 기반 테스트 프레임워크.",
+      "reasonEn": "5k+ stars, established property-based testing tool for JS",
+      "reasonKo": "스타 5천, JS 속성 기반 테스트 도구로 자리매김"
+    },
+    "gh:testcontainers/testcontainers-go": {
+      "summaryEn": "Go package for spinning up and tearing down real containers as test dependencies in integration tests.",
+      "summaryKo": "통합 테스트에서 실제 컨테이너를 띄우고 정리하는 Go용 Testcontainers 패키지.",
+      "reasonEn": "5k+ stars, standard for container-based Go testing",
+      "reasonKo": "스타 5천, 컨테이너 기반 Go 테스트 표준"
+    },
+    "gh:biomejs/gritql": {
+      "summaryEn": "Query language for searching, linting, and transforming code across multiple languages.",
+      "summaryKo": "여러 언어의 코드를 검색·린트·변환하는 쿼리 언어.",
+      "reasonEn": "4.5k+ stars, from the Biome toolchain team",
+      "reasonKo": "스타 4.5천, Biome 툴체인 팀이 개발"
+    },
+    "gh:python-rope/rope": {
+      "summaryEn": "Python library for automated code refactoring, such as renames and extractions.",
+      "summaryKo": "이름 변경·추출 등 자동 코드 리팩터링을 지원하는 파이썬 라이브러리.",
+      "reasonEn": "Long-standing Python refactoring tool, 2.2k+ stars",
+      "reasonKo": "오래된 파이썬 리팩터링 도구, 스타 2.2천"
+    },
+    "gh:HypothesisWorks/hypothesis": {
+      "summaryEn": "Property-based testing library for Python that generates edge-case inputs automatically.",
+      "summaryKo": "엣지 케이스 입력을 자동 생성하는 파이썬 속성 기반 테스트 라이브러리.",
+      "reasonEn": "8.9k+ stars, standard property-based testing for Python",
+      "reasonKo": "스타 8.9천, 파이썬 속성 기반 테스트 표준"
+    },
+    "gh:goss-org/goss": {
+      "summaryEn": "Lightweight tool for quick server validation and health checks, an alternative to Serverspec.",
+      "summaryKo": "서버를 빠르게 검증·헬스체크하는 경량 도구, Serverspec 대안.",
+      "reasonEn": "6k+ stars, simple infra validation tool",
+      "reasonKo": "스타 6천, 간단한 인프라 검증 도구"
+    },
+    "gh:jenkinsci/jenkins": {
+      "summaryEn": "Widely used automation server for building CI/CD pipelines, with extensive plugin support.",
+      "summaryKo": "CI/CD 파이프라인을 구축하는 널리 쓰이는 자동화 서버, 풍부한 플러그인 지원.",
+      "reasonEn": "26k+ stars, long-standing CI/CD standard",
+      "reasonKo": "스타 2.6만, 오래된 CI/CD 표준"
+    },
+    "gh:getsops/sops": {
+      "summaryEn": "Tool for encrypting and managing secrets in files, integrating with AWS, GCP, Azure, and PGP.",
+      "summaryKo": "파일 내 비밀정보를 암호화·관리하는 도구, AWS·GCP·Azure·PGP 연동.",
+      "reasonEn": "22k+ stars, standard for encrypted secrets management",
+      "reasonKo": "스타 2.2만, 암호화된 비밀정보 관리 표준"
+    },
+    "gh:floci-io/floci": {
+      "summaryEn": "Free, lightweight local emulator for AWS services, an alternative to LocalStack.",
+      "summaryKo": "AWS 서비스를 로컬에서 무료로 에뮬레이션하는 경량 도구, LocalStack 대안.",
+      "reasonEn": "20k+ stars, fast-growing free LocalStack alternative",
+      "reasonKo": "스타 2만, 무료 LocalStack 대안으로 급성장"
+    },
+    "gh:dagger/dagger": {
+      "summaryEn": "Automation engine for building, testing, and shipping code that runs the same locally, in CI, or in the cloud.",
+      "summaryKo": "로컬·CI·클라우드에서 동일하게 도는 빌드·테스트·배포 자동화 엔진.",
+      "reasonEn": "16k+ stars, CI/CD reproducibility across environments",
+      "reasonKo": "스타 1.6만, 환경 간 CI/CD 재현성 강조"
+    },
+    "gh:go-task/task": {
+      "summaryEn": "Cross-platform task runner and build tool, a modern alternative to Make.",
+      "summaryKo": "Make를 대체하는 현대적인 크로스플랫폼 태스크 러너·빌드 도구.",
+      "reasonEn": "16k+ stars, popular Make alternative",
+      "reasonKo": "스타 1.6만, Make 대안으로 인기"
+    },
+    "gh:theonedev/onedev": {
+      "summaryEn": "Self-hosted, unified DevOps platform combining Git, CI/CD, kanban boards, and packages.",
+      "summaryKo": "Git·CI/CD·칸반·패키지를 통합한 셀프호스팅 데브옵스 플랫폼.",
+      "reasonEn": "15k+ stars, all-in-one self-hosted Git platform",
+      "reasonKo": "스타 1.5만, 올인원 셀프호스팅 Git 플랫폼"
+    },
+    "gh:awesome-foss/awesome-sysadmin": {
+      "summaryEn": "Curated list of open-source sysadmin tools and resources across many categories.",
+      "summaryKo": "여러 분야를 아우르는 오픈소스 시스템 관리 도구·자료 큐레이션 리스트.",
+      "reasonEn": "35k+ stars, comprehensive sysadmin resource list",
+      "reasonKo": "스타 3.5만, 방대한 시스템 관리 자료 목록"
+    },
+    "gh:outline/outline": {
+      "summaryEn": "Fast, real-time collaborative knowledge base and wiki for teams, with markdown support.",
+      "summaryKo": "팀을 위한 빠른 실시간 협업 지식베이스·위키, 마크다운 지원.",
+      "reasonEn": "40k+ stars, popular self-hosted team wiki",
+      "reasonKo": "스타 4만, 인기 셀프호스팅 팀 위키"
+    },
+    "gh:expo/expo": {
+      "summaryEn": "Open-source framework for building universal native apps with React, running on iOS, Android, and web.",
+      "summaryKo": "React로 iOS·Android·웹용 유니버설 네이티브 앱을 만드는 오픈소스 프레임워크.",
+      "reasonEn": "51k+ stars, dominant React Native tooling framework",
+      "reasonKo": "스타 5.1만, React Native 툴링의 대세"
+    },
+    "gh:TanStack/query": {
+      "summaryEn": "Asynchronous state management and data-fetching library for React, Vue, Solid, and Svelte.",
+      "summaryKo": "React·Vue·Solid·Svelte용 비동기 상태 관리·데이터 페칭 라이브러리.",
+      "reasonEn": "50k+ stars, de facto standard for server-state in web apps",
+      "reasonKo": "스타 5만, 웹 앱 서버 상태 관리 사실상 표준"
+    },
+    "gh:tldraw/tldraw": {
+      "summaryEn": "SDK for building infinite-canvas, multiplayer drawing and diagramming apps in React.",
+      "summaryKo": "무한 캔버스·멀티플레이어 그림·다이어그램 앱을 만드는 React SDK.",
+      "reasonEn": "49k+ stars, widely used canvas/whiteboard SDK",
+      "reasonKo": "스타 4.9만, 널리 쓰이는 캔버스·화이트보드 SDK"
+    },
+    "gh:meteor/meteor": {
+      "summaryEn": "Full-stack JavaScript app platform with built-in reactivity, real-time sync, and MongoDB integration.",
+      "summaryKo": "실시간 동기화와 MongoDB 연동을 갖춘 풀스택 자바스크립트 앱 플랫폼.",
+      "reasonEn": "44k+ stars, long-standing full-stack JS platform",
+      "reasonKo": "스타 4.4만, 오래된 풀스택 JS 플랫폼"
     }
   }
 }
