@@ -44,6 +44,10 @@ jobs:
           # 없으면 HN 카드가 isDevRelevant 판정을 못 받아 전멸하고(D22, 판정 실패=탈락)
           # R3 분류도 죽어 트렌딩 카드 절반이 카테고리 없이 탈락한다.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # 모델 ID 는 시크릿이 아니라 설정이다. 코드에 하드코딩하지 않는다는 규칙(spec 7 장)의
+          # 취지가 여기 있다 — 수집기는 기본값을 갖지 않으므로 **이 줄이 없으면 요약·분류가
+          # 통째로 건너뛰어진다**(2026-08-19 실측: 키만 넣고 이 줄이 없어 HN 카드가 또 전멸했다).
+          SUMMARY_MODEL: claude-haiku-4-5
         run: node .github/collector/collector.mjs
 
       - name: Commit and push
