@@ -1,35 +1,9 @@
 {
   "version": 1,
   "category": "devtools",
-  "generatedAt": "2026-08-19T06:46:44.114Z",
+  "generatedAt": "2026-08-19T09:35:40.383Z",
   "ttlSeconds": 10800,
   "cards": [
-    {
-      "id": "gh:mukul975/Anthropic-Cybersecurity-Skills",
-      "type": "repo",
-      "title": "mukul975/Anthropic-Cybersecurity-Skills",
-      "summaryOriginal": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
-      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "stars": 29384,
-        "starsDelta": 730
-      },
-      "source": "github-trending",
-      "admitReason": "trending",
-      "summaryEn": "817 cybersecurity skills for AI agents, mapped to MITRE ATT&CK, NIST CSF, and other frameworks; works across 20+ agent platforms.",
-      "summaryKo": "AI 에이전트용 보안 스킬 817개, MITRE ATT&CK 등 6개 프레임워크 매핑, 20개+ 플랫폼 지원.",
-      "reasonEn": "28.6k stars, +198 this period",
-      "reasonKo": "스타 2.9만, 최근 +198",
-      "categories": [
-        "ai-agents",
-        "engineering",
-        "devtools"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
-    },
     {
       "id": "gh:agalwood/Motrix",
       "type": "repo",
@@ -39,7 +13,7 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 53850,
+        "stars": 53923,
         "starsDelta": 609
       },
       "source": "github-trending",
@@ -49,7 +23,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-19T01:42:27.269Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:stablyai/orca",
@@ -79,12 +53,12 @@
         "yc-backed"
       ],
       "metrics": {
-        "stars": 48545
+        "stars": 48673
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-03-17T03:28:57Z",
-      "updatedAt": "2026-08-19T06:37:58Z",
+      "updatedAt": "2026-08-19T09:30:27Z",
       "summaryEn": "An IDE for running many coding agents in parallel with your own subscriptions, on desktop, mobile, or VPS.",
       "summaryKo": "여러 코딩 에이전트를 병렬 실행하는 IDE. 데스크톱·모바일·VPS 지원, 자기 구독 사용.",
       "categories": [
@@ -92,7 +66,82 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
+    },
+    {
+      "id": "gh:herdrdev/herdr",
+      "type": "repo",
+      "title": "herdrdev/herdr",
+      "summaryOriginal": "the runtime your coding agents live on",
+      "url": "https://github.com/herdrdev/herdr",
+      "lang": "Rust",
+      "tags": [
+        "agent",
+        "agent-orchestration",
+        "ai",
+        "ai-agents",
+        "claude-code",
+        "cli",
+        "codex",
+        "coding-agents",
+        "developer-tools",
+        "devtools",
+        "multiplexer",
+        "rust",
+        "terminal",
+        "terminal-multiplexer",
+        "terminal-ui",
+        "tmux",
+        "tui",
+        "workspace-manager"
+      ],
+      "metrics": {
+        "stars": 30482
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2026-03-27T17:54:33Z",
+      "updatedAt": "2026-08-19T05:11:51Z",
+      "summaryEn": "Runtime environment designed for orchestrating and running AI coding agents, replacing terminal multiplexing for agent-centric workflows.",
+      "summaryKo": "AI 코딩 에이전트 실행 및 조율을 위한 런타임 환경.",
+      "categories": [
+        "ai-agents",
+        "backend",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-19T09:35:40.383Z",
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
+    },
+    {
+      "id": "gh:ayghri/i-have-adhd",
+      "type": "repo",
+      "title": "ayghri/i-have-adhd",
+      "summaryOriginal": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "lang": "Python",
+      "tags": [
+        "adhd",
+        "claude-",
+        "claude-code-plugin",
+        "claude-skills",
+        "developer-tools",
+        "productivity"
+      ],
+      "metrics": {
+        "stars": 22130
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2026-05-13T20:42:06Z",
+      "updatedAt": "2026-08-19T02:32:58Z",
+      "summaryEn": "Skill plugin for AI coding agents that improves output clarity and readability for better focus—ADHD-friendly formatting.",
+      "summaryKo": "AI 코딩 에이전트의 출력을 명확하고 읽기 쉽게 개선하는 스킬 플러그인.",
+      "categories": [
+        "ai-agents",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-19T09:35:40.383Z",
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:0xsline/awesome-deepseek-harness",
@@ -122,7 +171,7 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 739
+        "stars": 741
       },
       "source": "github-search",
       "admitReason": "new",
@@ -136,7 +185,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:Juror-AI/juror",
@@ -168,7 +217,7 @@
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-06T12:24:49Z",
-      "updatedAt": "2026-08-19T06:25:17Z",
+      "updatedAt": "2026-08-19T08:51:26Z",
       "summaryEn": "Self-hosted AI code review tool running on GitHub Actions as cheaper, self-owned Greptile alternative.",
       "summaryKo": "GitHub Actions 위에서 실행되는 자체 호스팅 AI 코드 리뷰 도구.",
       "categories": [
@@ -178,7 +227,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:seyedehsanhadi/sloptrim",
@@ -210,7 +259,7 @@
         "zero-dependency"
       ],
       "metrics": {
-        "stars": 161
+        "stars": 162
       },
       "source": "github-search",
       "admitReason": "new",
@@ -224,7 +273,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:vuphongle/oss-pr-reviewer",
@@ -260,7 +309,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:affaan-m/ECC",
@@ -280,7 +329,7 @@
         "productivity"
       ],
       "metrics": {
-        "stars": 241030
+        "stars": 241049
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -294,7 +343,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:Graphify-Labs/graphify",
@@ -325,7 +374,7 @@
         "tree-sitter"
       ],
       "metrics": {
-        "stars": 108028
+        "stars": 108095
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -339,7 +388,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:OpenHands/OpenHands",
@@ -360,12 +409,12 @@
         "openai"
       ],
       "metrics": {
-        "stars": 84446
+        "stars": 84457
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2024-03-13T03:33:31Z",
-      "updatedAt": "2026-08-19T05:39:38Z",
+      "updatedAt": "2026-08-19T09:22:08Z",
       "summaryEn": "AI-driven development platform using LLMs (Claude, GPT) to automate coding tasks and assist software engineers.",
       "summaryKo": "LLM 기반 AI 개발 플랫폼, 코딩 작업 자동화.",
       "categories": [
@@ -373,7 +422,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:rtk-ai/rtk",
@@ -398,12 +447,12 @@
         "token-optimization"
       ],
       "metrics": {
-        "stars": 76569
+        "stars": 76589
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-01-22T16:54:16Z",
-      "updatedAt": "2026-08-17T01:10:18Z",
+      "updatedAt": "2026-08-19T09:27:08Z",
       "summaryEn": "CLI proxy reducing LLM token consumption by 60-90% for dev commands; single Rust binary optimizing AI coding cost.",
       "summaryKo": "개발 명령어의 LLM 토큰 사용 60-90% 감소, Rust 기반 CLI.",
       "categories": [
@@ -411,7 +460,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:streamlit/streamlit",
@@ -431,12 +480,12 @@
         "streamlit"
       ],
       "metrics": {
-        "stars": 45568
+        "stars": 45571
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2019-08-24T00:14:52Z",
-      "updatedAt": "2026-08-19T04:44:13Z",
+      "updatedAt": "2026-08-19T09:26:52Z",
       "summaryEn": "Python framework for rapid data app development with visualization; simplifies building ML dashboards and analytics interfaces.",
       "summaryKo": "Python 데이터 앱 프레임워크, 머신러닝 대시보드 빠른 구축.",
       "categories": [
@@ -444,7 +493,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:soumatheusgomes/vibe-coding-toolkit",
@@ -474,7 +523,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins",
@@ -498,7 +547,7 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 174
+        "stars": 179
       },
       "source": "github-search",
       "admitReason": "new",
@@ -511,7 +560,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:lennney/stop-that-shit",
@@ -534,7 +583,7 @@
         "yagni"
       ],
       "metrics": {
-        "stars": 172
+        "stars": 174
       },
       "source": "github-search",
       "admitReason": "new",
@@ -547,43 +596,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
-    },
-    {
-      "id": "gh:liyuqin606-del/packrehearsal",
-      "type": "repo",
-      "title": "liyuqin606-del/packrehearsal",
-      "summaryOriginal": "Turn npm, Python, and Rust release evidence into bounded Codex maintenance tasks.",
-      "url": "https://github.com/liyuqin606-del/packrehearsal",
-      "lang": "Python",
-      "tags": [
-        "agentic-workflows",
-        "ai-agents",
-        "cli",
-        "codex",
-        "npm",
-        "openai-codex",
-        "packaging",
-        "python",
-        "release-engineering",
-        "rust",
-        "supply-chain"
-      ],
-      "metrics": {
-        "stars": 104
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-08-11T14:25:39Z",
-      "updatedAt": "2026-08-17T02:05:59Z",
-      "summaryEn": "Automate release management across npm, Python, and Rust packages using AI agents to create maintenance tasks.",
-      "summaryKo": "npm, Python, Rust 패키지 릴리스 관리 자동화, AI 에이전트 활용.",
-      "categories": [
-        "ai-agents",
-        "devtools"
-      ],
-      "firstSeenAt": "2026-08-19T03:48:08.240Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:Spielewoy/autoprompt-skill",
@@ -615,7 +628,7 @@
         "workflow-automation"
       ],
       "metrics": {
-        "stars": 104
+        "stars": 123
       },
       "source": "github-search",
       "admitReason": "new",
@@ -628,7 +641,43 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-19T06:46:44.114Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
+    },
+    {
+      "id": "gh:liyuqin606-del/packrehearsal",
+      "type": "repo",
+      "title": "liyuqin606-del/packrehearsal",
+      "summaryOriginal": "Turn npm, Python, and Rust release evidence into bounded Codex maintenance tasks.",
+      "url": "https://github.com/liyuqin606-del/packrehearsal",
+      "lang": "Python",
+      "tags": [
+        "agentic-workflows",
+        "ai-agents",
+        "cli",
+        "codex",
+        "npm",
+        "openai-codex",
+        "packaging",
+        "python",
+        "release-engineering",
+        "rust",
+        "supply-chain"
+      ],
+      "metrics": {
+        "stars": 107
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-08-11T14:25:39Z",
+      "updatedAt": "2026-08-17T02:05:59Z",
+      "summaryEn": "Automate release management across npm, Python, and Rust packages using AI agents to create maintenance tasks.",
+      "summaryKo": "npm, Python, Rust 패키지 릴리스 관리 자동화, AI 에이전트 활용.",
+      "categories": [
+        "ai-agents",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-19T03:48:08.240Z",
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:phungkaizen/maintainer-autopilot",
@@ -661,7 +710,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:google-gemini/gemini-cli",
@@ -680,7 +729,7 @@
         "mcp-server"
       ],
       "metrics": {
-        "stars": 106562
+        "stars": 106565
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -693,7 +742,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:sickn33/agentic-awesome-skills",
@@ -725,12 +774,12 @@
         "skill-library"
       ],
       "metrics": {
-        "stars": 45112
+        "stars": 45117
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-01-14T17:48:09Z",
-      "updatedAt": "2026-08-19T05:30:25Z",
+      "updatedAt": "2026-08-19T06:52:05Z",
       "summaryEn": "Central catalog and control plane for 2000+ agent skills; enables discovery, validation, and orchestration across AI platforms.",
       "summaryKo": "2000+ 에이전트 스킬 카탈로그 및 제어 플레인, 다중 AI 플랫폼 지원.",
       "categories": [
@@ -738,7 +787,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:agno-agi/agno",
@@ -755,12 +804,12 @@
         "python"
       ],
       "metrics": {
-        "stars": 41774
+        "stars": 41776
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2022-05-04T15:23:02Z",
-      "updatedAt": "2026-08-19T06:17:10Z",
+      "updatedAt": "2026-08-19T09:37:01Z",
       "summaryEn": "Python framework for building, running, and managing autonomous AI agent platforms at scale.",
       "summaryKo": "AI 에이전트 플랫폼 구축, 실행, 관리용 Python 프레임워크.",
       "categories": [
@@ -768,7 +817,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:wshobson/agents",
@@ -800,7 +849,7 @@
         "subagents"
       ],
       "metrics": {
-        "stars": 38913
+        "stars": 38915
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -815,7 +864,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:ComposioHQ/composio",
@@ -844,7 +893,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 29766
+        "stars": 29769
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -859,7 +908,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:alirezarezvani/claude-skills",
@@ -891,7 +940,7 @@
         "prompt-engineering"
       ],
       "metrics": {
-        "stars": 24637
+        "stars": 24640
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -906,7 +955,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:icesixgod/codex-trajectory",
@@ -925,7 +974,7 @@
         "uv"
       ],
       "metrics": {
-        "stars": 227
+        "stars": 230
       },
       "source": "github-search",
       "admitReason": "new",
@@ -938,7 +987,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:n8n-io/n8n",
@@ -970,12 +1019,12 @@
         "workflow-automation"
       ],
       "metrics": {
-        "stars": 201139
+        "stars": 201159
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2019-06-22T09:24:21Z",
-      "updatedAt": "2026-08-19T06:46:16Z",
+      "updatedAt": "2026-08-19T09:37:16Z",
       "summaryEn": "Workflow automation platform with visual UI and custom code support, 400+ integrations, native AI capabilities. Open-source, self-hostable.",
       "categories": [
         "ai-agents",
@@ -983,7 +1032,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:DeusData/codebase-memory-mcp",
@@ -1015,7 +1064,7 @@
         "windsurf"
       ],
       "metrics": {
-        "stars": 39462
+        "stars": 39480
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1028,7 +1077,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:ccch1mneyyy/dsh-TUI",
@@ -1049,12 +1098,12 @@
         "tui"
       ],
       "metrics": {
-        "stars": 2020
+        "stars": 2038
       },
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-13T12:49:31Z",
-      "updatedAt": "2026-08-19T06:39:09Z",
+      "updatedAt": "2026-08-19T09:34:04Z",
       "summaryEn": "Claude Code-style terminal UI plugin for DeepSeek Harness — status bar, streaming thoughts, double-Esc rollback, context/TPS tracking.",
       "summaryKo": "디프시크 하니스용 클로드 코드 스타일 터미널 UI, 상태바·스트리밍·더블Esc 되돌리기 지원.",
       "categories": [
@@ -1062,7 +1111,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:MkThingsHQ/mkagent",
@@ -1096,7 +1145,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:appsmithorg/appsmith",
@@ -1141,7 +1190,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:ueberdosis/tiptap",
@@ -1164,7 +1213,7 @@
         "wysiwyg-editor"
       ],
       "metrics": {
-        "stars": 38073
+        "stars": 38075
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1177,7 +1226,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:doocs/md",
@@ -1201,7 +1250,7 @@
         "weixin"
       ],
       "metrics": {
-        "stars": 13209
+        "stars": 13210
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1214,7 +1263,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-19T01:20:28.544Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:microsoft/vscode",
@@ -1231,12 +1280,12 @@
         "visual-studio-code"
       ],
       "metrics": {
-        "stars": 188921
+        "stars": 188920
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2015-09-03T20:23:38Z",
-      "updatedAt": "2026-08-19T06:37:05Z",
+      "updatedAt": "2026-08-19T09:11:38Z",
       "summaryEn": "Industry-standard code editor with language support, debugging, extensions, and integrated terminal for most development workflows.",
       "summaryKo": "대부분의 개발 워크플로우를 위한 언어 지원, 디버깅, 확장 기능을 갖춘 산업 표준 코드 에디터.",
       "categories": [
@@ -1244,7 +1293,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:microsoft/monaco-editor",
@@ -1261,7 +1310,7 @@
         "vscode"
       ],
       "metrics": {
-        "stars": 46553
+        "stars": 46554
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1274,7 +1323,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-19T01:20:28.544Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:iii-hq/iii",
@@ -1298,7 +1347,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 18603
+        "stars": 18604
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1311,7 +1360,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-19T01:20:28.544Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:surrealdb/surrealdb",
@@ -1354,7 +1403,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:marimo-team/marimo",
@@ -1379,12 +1428,12 @@
         "web-app"
       ],
       "metrics": {
-        "stars": 22393
+        "stars": 22395
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2023-08-14T18:56:20Z",
-      "updatedAt": "2026-08-19T06:27:43Z",
+      "updatedAt": "2026-08-19T08:54:18Z",
       "summaryEn": "Reactive Python notebook supporting reproducible science, SQL queries, git versioning, deployment, and AI-native editing.",
       "summaryKo": "재현 가능한 과학, SQL 쿼리, git 버전 관리, 배포, AI 네이티브 편집을 지원하는 Python 리액티브 노트북.",
       "categories": [
@@ -1392,7 +1441,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:puppeteer/puppeteer",
@@ -1413,7 +1462,7 @@
         "web"
       ],
       "metrics": {
-        "stars": 95463
+        "stars": 95465
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1426,7 +1475,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:usebruno/bruno",
@@ -1452,7 +1501,7 @@
         "testing-tools"
       ],
       "metrics": {
-        "stars": 46406
+        "stars": 46408
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1465,7 +1514,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:RopemakerEnd/ds4windows-lab-2026",
@@ -1494,14 +1543,14 @@
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-16T21:39:39Z",
-      "updatedAt": "2026-08-19T05:34:21Z",
+      "updatedAt": "2026-08-19T09:37:43Z",
       "summaryEn": "Portable companion toolkit with setup guides and profiles for DualShock 4/DualSense controller configuration on Windows.",
       "summaryKo": "Windows에서 DualShock 4/DualSense 컨트롤러 설정을 위한 휴대용 도구 모음 및 가이드.",
       "categories": [
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:omacom-io/ttfx",
@@ -1518,7 +1567,7 @@
         "terminal"
       ],
       "metrics": {
-        "stars": 153
+        "stars": 154
       },
       "source": "github-search",
       "admitReason": "new",
@@ -1530,40 +1579,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
-    },
-    {
-      "id": "gh:bamboostrip/Handwriting-simulator",
-      "type": "repo",
-      "title": "bamboostrip/Handwriting-simulator",
-      "summaryOriginal": "把普通文本变成以假乱真的手写体图片：手写字体 + 信纸背景 + 字距/行距/笔画随机扰动。GUI（PyQt6）与 CLI 双入口，numpy/scipy 高性能渲染引擎。",
-      "url": "https://github.com/bamboostrip/Handwriting-simulator",
-      "lang": "Python",
-      "tags": [
-        "cli",
-        "gui",
-        "handwriting",
-        "handwriting-simulation",
-        "image-generation",
-        "numpy",
-        "pyqt6",
-        "python",
-        "text-to-image"
-      ],
-      "metrics": {
-        "stars": 132
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-08-07T03:48:19Z",
-      "updatedAt": "2026-08-12T10:27:20Z",
-      "summaryEn": "Converts text to realistic handwriting images with customizable fonts, paper, and stroke variation using NumPy rendering engine.",
-      "summaryKo": "NumPy 렌더링 엔진으로 텍스트를 커스터마이즈 가능한 폰트, 종이, 필기체로 변환.",
-      "categories": [
-        "devtools"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
     },
     {
       "id": "gh:yutat23/lsoff",
@@ -1582,7 +1598,7 @@
         "windows"
       ],
       "metrics": {
-        "stars": 132
+        "stars": 138
       },
       "source": "github-search",
       "admitReason": "new",
@@ -1594,12 +1610,213 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
+    },
+    {
+      "id": "gh:mukul975/Anthropic-Cybersecurity-Skills",
+      "type": "repo",
+      "title": "mukul975/Anthropic-Cybersecurity-Skills",
+      "summaryOriginal": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 8,
+        "totalScore": 231.3391
+      },
+      "source": "ossinsight",
+      "admitReason": "notable",
+      "summaryEn": "817 cybersecurity skills for AI agents, mapped to MITRE ATT&CK, NIST CSF, and other frameworks; works across 20+ agent platforms.",
+      "summaryKo": "AI 에이전트용 보안 스킬 817개, MITRE ATT&CK 등 6개 프레임워크 매핑, 20개+ 플랫폼 지원.",
+      "reasonEn": "28.6k stars, +198 this period",
+      "reasonKo": "스타 2.9만, 최근 +198",
+      "categories": [
+        "ai-agents",
+        "engineering",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
+    },
+    {
+      "id": "gh:cathrynlavery/diagram-design",
+      "type": "repo",
+      "title": "cathrynlavery/diagram-design",
+      "summaryOriginal": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "lang": "HTML",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 10,
+        "totalScore": 234.4961
+      },
+      "source": "ossinsight",
+      "admitReason": "notable",
+      "summaryEn": "Collection of 29 editorial diagram types for Claude Code as self-contained HTML/SVG without bloated styling.",
+      "summaryKo": "Claude Code용 29개 에디토리얼 다이어그램 타입으로 자체 포함 HTML/SVG.",
+      "categories": [
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
+    },
+    {
+      "id": "hn:49213660",
+      "type": "article",
+      "title": "Ask HN: In your experience, what are sound conventions for e-ink UI development?",
+      "summaryOriginal": "Ask HN: In your experience, what are sound conventions for e-ink UI development?",
+      "url": "https://news.ycombinator.com/item?id=49213660",
+      "tags": [],
+      "metrics": {
+        "upvotes": 219,
+        "comments": 74
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-07T17:29:16Z",
+      "admitReason": "notable",
+      "summaryEn": "Community discussion on UX and development best practices for e-ink display interfaces and applications.",
+      "summaryKo": "e-ink 디스플레이 인터페이스 개발 시 UX 및 모범 관행에 관한 커뮤니티 토론.",
+      "categories": [
+        "web",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-19T01:50:17.529Z",
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
+    },
+    {
+      "id": "hn:49022911",
+      "type": "article",
+      "title": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
+      "summaryOriginal": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "tags": [],
+      "metrics": {
+        "upvotes": 191,
+        "comments": 40
+      },
+      "source": "hn",
+      "publishedAt": "2026-07-23T15:11:37Z",
+      "admitReason": "notable",
+      "summaryEn": "Palmier Pro is an open-source macOS video editor with built-in AI capabilities for editing and effects.",
+      "summaryKo": "Palmier Pro는 AI 기반 편집 및 효과 기능을 갖춘 오픈소스 macOS 비디오 편집기.",
+      "categories": [
+        "ai-models",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-19T01:42:27.269Z",
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
+    },
+    {
+      "id": "hn:49123208",
+      "type": "article",
+      "title": "Arch Linux disables AUR package adoption",
+      "summaryOriginal": "Arch Linux disables AUR package adoption",
+      "url": "https://lwn.net/Articles/1086489/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 164,
+        "comments": 128
+      },
+      "source": "hn",
+      "publishedAt": "2026-07-31T13:57:35Z",
+      "admitReason": "notable",
+      "summaryEn": "Arch Linux removed user package adoption feature in AUR, affecting community package maintenance workflows.",
+      "summaryKo": "Arch Linux가 AUR 사용자 패키지 채택 기능을 제거, 커뮤니티 패키지 관리 영향.",
+      "categories": [
+        "devtools",
+        "infra"
+      ],
+      "firstSeenAt": "2026-08-19T01:50:17.529Z",
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
+    },
+    {
+      "id": "hn:49142569",
+      "type": "article",
+      "title": "Show HN: Bor – Open-source policy management for Linux desktops",
+      "summaryOriginal": "Show HN: Bor – Open-source policy management for Linux desktops",
+      "url": "https://getbor.dev/blog/2026-08-02-bor-v080-release/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 197,
+        "comments": 30
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-02T09:06:33Z",
+      "admitReason": "notable",
+      "summaryEn": "Bor is an open-source policy management tool for Linux desktops. Useful for developers managing system configurations and permissions at scale.",
+      "summaryKo": "Bor는 Linux 데스크톱용 오픈소스 정책 관리 도구입니다. 시스템 설정 및 권한 관리에 유용합니다.",
+      "categories": [
+        "infra",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-19T09:35:40.383Z",
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
+    },
+    {
+      "id": "hn:49143479",
+      "type": "article",
+      "title": "Meshdiff – visually compare two STL versions in the browser, client-side",
+      "summaryOriginal": "Meshdiff – visually compare two STL versions in the browser, client-side",
+      "url": "https://meshdiff.com/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 204,
+        "comments": 25
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-02T11:34:41Z",
+      "admitReason": "notable",
+      "summaryEn": "Meshdiff is a browser-based tool for visually comparing 3D model versions (STL files) client-side. Useful for developers working with 3D design workflows.",
+      "summaryKo": "Meshdiff는 3D 모델 버전(STL 파일) 비교 도구입니다. 3D 설계 워크플로우 개발에 유용합니다.",
+      "categories": [
+        "devtools",
+        "web"
+      ],
+      "firstSeenAt": "2026-08-19T09:35:40.383Z",
+      "lastSeenAt": "2026-08-19T09:35:40.383Z"
+    },
+    {
+      "id": "gh:bamboostrip/Handwriting-simulator",
+      "type": "repo",
+      "categories": [
+        "devtools"
+      ],
+      "title": "bamboostrip/Handwriting-simulator",
+      "summaryEn": "Converts text to realistic handwriting images with customizable fonts, paper, and stroke variation using NumPy rendering engine.",
+      "summaryKo": "NumPy 렌더링 엔진으로 텍스트를 커스터마이즈 가능한 폰트, 종이, 필기체로 변환.",
+      "summaryOriginal": "把普通文本变成以假乱真的手写体图片：手写字体 + 信纸背景 + 字距/行距/笔画随机扰动。GUI（PyQt6）与 CLI 双入口，numpy/scipy 高性能渲染引擎。",
+      "url": "https://github.com/bamboostrip/Handwriting-simulator",
+      "lang": "Python",
+      "tags": [
+        "cli",
+        "gui",
+        "handwriting",
+        "handwriting-simulation",
+        "image-generation",
+        "numpy",
+        "pyqt6",
+        "python",
+        "text-to-image"
+      ],
+      "metrics": {
+        "stars": 132
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-07T03:48:19Z",
+      "updatedAt": "2026-08-12T10:27:20Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-19T06:46:44.114Z",
+      "admitReason": "new"
     },
     {
       "id": "gh:ohmyzsh/ohmyzsh",
       "type": "repo",
+      "categories": [
+        "devtools"
+      ],
       "title": "ohmyzsh/ohmyzsh",
+      "summaryEn": "Zsh configuration framework with 300+ plugins and 140+ themes, maintained by 2,500+ contributors for terminal productivity.",
+      "summaryKo": "2,500+ 기여자가 유지하는 300+ 플러그인, 140+ 테마의 zsh 설정 프레임워크.",
       "summaryOriginal": "🙃 A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
       "url": "https://github.com/ohmyzsh/ohmyzsh",
       "lang": "Shell",
@@ -1624,21 +1841,21 @@
         "stars": 189258
       },
       "source": "github-search",
-      "admitReason": "notable",
       "publishedAt": "2009-08-28T18:15:37Z",
       "updatedAt": "2026-08-17T21:45:08Z",
-      "summaryEn": "Zsh configuration framework with 300+ plugins and 140+ themes, maintained by 2,500+ contributors for terminal productivity.",
-      "summaryKo": "2,500+ 기여자가 유지하는 300+ 플러그인, 140+ 테마의 zsh 설정 프레임워크.",
-      "categories": [
-        "devtools"
-      ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T06:46:44.114Z",
+      "admitReason": "notable"
     },
     {
       "id": "gh:yt-dlp/yt-dlp",
       "type": "repo",
+      "categories": [
+        "devtools"
+      ],
       "title": "yt-dlp/yt-dlp",
+      "summaryEn": "Feature-rich command-line tool for downloading audio/video from YouTube and other platforms with sponsor skipping.",
+      "summaryKo": "YouTube 및 다른 플랫폼에서 오디오/비디오 다운로드하는 기능 풍부한 CLI 도구.",
       "summaryOriginal": "A feature-rich command-line audio/video downloader",
       "url": "https://github.com/yt-dlp/yt-dlp",
       "lang": "Python",
@@ -1655,21 +1872,21 @@
         "stars": 185484
       },
       "source": "github-search",
-      "admitReason": "notable",
       "publishedAt": "2020-10-26T04:22:55Z",
       "updatedAt": "2026-08-19T06:42:14Z",
-      "summaryEn": "Feature-rich command-line tool for downloading audio/video from YouTube and other platforms with sponsor skipping.",
-      "summaryKo": "YouTube 및 다른 플랫폼에서 오디오/비디오 다운로드하는 기능 풍부한 CLI 도구.",
-      "categories": [
-        "devtools"
-      ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T06:46:44.114Z",
+      "admitReason": "notable"
     },
     {
       "id": "gh:sherlock-project/sherlock",
       "type": "repo",
+      "categories": [
+        "devtools"
+      ],
       "title": "sherlock-project/sherlock",
+      "summaryEn": "OSINT CLI tool for hunting social media accounts by username across networks for reconnaissance and security research.",
+      "summaryKo": "사용자명으로 소셜 미디어 계정을 추적하는 OSINT CLI 도구.",
       "summaryOriginal": "Hunt down social media accounts by username across social networks",
       "url": "https://github.com/sherlock-project/sherlock",
       "lang": "Python",
@@ -1695,21 +1912,21 @@
         "stars": 89780
       },
       "source": "github-search",
-      "admitReason": "notable",
       "publishedAt": "2018-12-24T14:30:48Z",
       "updatedAt": "2026-08-19T05:34:57Z",
-      "summaryEn": "OSINT CLI tool for hunting social media accounts by username across networks for reconnaissance and security research.",
-      "summaryKo": "사용자명으로 소셜 미디어 계정을 추적하는 OSINT CLI 도구.",
-      "categories": [
-        "devtools"
-      ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T06:46:44.114Z",
+      "admitReason": "notable"
     },
     {
       "id": "gh:junegunn/fzf",
       "type": "repo",
+      "categories": [
+        "devtools"
+      ],
       "title": "junegunn/fzf",
+      "summaryEn": "Fast command-line fuzzy finder for filtering text, integrating with shell and editors for efficient file and history search.",
+      "summaryKo": "텍스트 필터링 및 파일/히스토리 검색을 위한 고속 커맨드라인 퍼지 파인더.",
       "summaryOriginal": ":cherry_blossom: A command-line fuzzy finder",
       "url": "https://github.com/junegunn/fzf",
       "lang": "Go",
@@ -1729,21 +1946,21 @@
         "stars": 82576
       },
       "source": "github-search",
-      "admitReason": "notable",
       "publishedAt": "2013-10-23T16:04:23Z",
       "updatedAt": "2026-08-17T03:11:26Z",
-      "summaryEn": "Fast command-line fuzzy finder for filtering text, integrating with shell and editors for efficient file and history search.",
-      "summaryKo": "텍스트 필터링 및 파일/히스토리 검색을 위한 고속 커맨드라인 퍼지 파인더.",
-      "categories": [
-        "devtools"
-      ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T06:46:44.114Z",
+      "admitReason": "notable"
     },
     {
       "id": "gh:jesseduffield/lazygit",
       "type": "repo",
+      "categories": [
+        "devtools"
+      ],
       "title": "jesseduffield/lazygit",
+      "summaryEn": "Lightweight terminal UI simplifying Git workflows with intuitive keybindings and visual staging for version control.",
+      "summaryKo": "직관적인 키바인딩과 비주얼 스테이징으로 Git 워크플로우를 단순화하는 경량 TUI.",
       "summaryOriginal": "simple terminal UI for git commands",
       "url": "https://github.com/jesseduffield/lazygit",
       "lang": "Go",
@@ -1756,45 +1973,25 @@
         "stars": 81448
       },
       "source": "github-search",
-      "admitReason": "notable",
       "publishedAt": "2018-05-19T00:53:06Z",
       "updatedAt": "2026-08-19T04:53:04Z",
-      "summaryEn": "Lightweight terminal UI simplifying Git workflows with intuitive keybindings and visual staging for version control.",
-      "summaryKo": "직관적인 키바인딩과 비주얼 스테이징으로 Git 워크플로우를 단순화하는 경량 TUI.",
-      "categories": [
-        "devtools"
-      ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
-    },
-    {
-      "id": "gh:cathrynlavery/diagram-design",
-      "type": "repo",
-      "title": "cathrynlavery/diagram-design",
-      "summaryOriginal": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "lang": "HTML",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 3,
-        "pushes": 1,
-        "totalScore": 207.7124
-      },
-      "source": "ossinsight",
-      "admitReason": "notable",
-      "summaryEn": "Collection of 29 editorial diagram types for Claude Code as self-contained HTML/SVG without bloated styling.",
-      "summaryKo": "Claude Code용 29개 에디토리얼 다이어그램 타입으로 자체 포함 HTML/SVG.",
-      "categories": [
-        "devtools"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T06:46:44.114Z",
+      "admitReason": "notable"
     },
     {
       "id": "hn:49257876",
       "type": "article",
+      "categories": [
+        "ai-models",
+        "devtools"
+      ],
       "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "summaryEn": "Security vulnerability where reasoning traces from paid LLM APIs can be extracted, exposing proprietary inference methods.",
+      "summaryKo": "유료 LLM API의 추론 과정 추출 가능성을 다루는 보안 취약점.",
       "summaryOriginal": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "reasonEn": "Emerging security concern for developers relying on proprietary LLM inference.",
+      "reasonKo": "LLM API 보안 취약점이 개발자들의 주요 관심사.",
       "url": "https://stolen-thoughts.com/",
       "tags": [],
       "metrics": {
@@ -1803,17 +2000,9 @@
       },
       "source": "hn",
       "publishedAt": "2026-08-11T13:22:00Z",
-      "admitReason": "notable",
-      "summaryEn": "Security vulnerability where reasoning traces from paid LLM APIs can be extracted, exposing proprietary inference methods.",
-      "summaryKo": "유료 LLM API의 추론 과정 추출 가능성을 다루는 보안 취약점.",
-      "reasonEn": "Emerging security concern for developers relying on proprietary LLM inference.",
-      "reasonKo": "LLM API 보안 취약점이 개발자들의 주요 관심사.",
-      "categories": [
-        "ai-models",
-        "devtools"
-      ],
       "firstSeenAt": "2026-08-19T01:50:17.529Z",
-      "lastSeenAt": "2026-08-19T06:46:44.114Z"
+      "lastSeenAt": "2026-08-19T06:46:44.114Z",
+      "admitReason": "notable"
     },
     {
       "id": "hn:49154332",
@@ -1839,28 +2028,6 @@
       "admitReason": "notable"
     },
     {
-      "id": "hn:49022911",
-      "type": "article",
-      "categories": [
-        "devtools"
-      ],
-      "title": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
-      "summaryEn": "Palmier Pro: Open-source macOS video editor with AI-powered features for automated video processing and editing.",
-      "summaryKo": "AI 기능이 통합된 macOS 오픈소스 비디오 에디터.",
-      "summaryOriginal": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
-      "url": "https://github.com/palmier-io/palmier-pro",
-      "tags": [],
-      "metrics": {
-        "upvotes": 191,
-        "comments": 40
-      },
-      "source": "hn",
-      "publishedAt": "2026-07-23T15:11:37Z",
-      "firstSeenAt": "2026-08-19T01:42:27.269Z",
-      "lastSeenAt": "2026-08-19T03:48:08.240Z",
-      "admitReason": "notable"
-    },
-    {
       "id": "hn:49126604",
       "type": "article",
       "categories": [
@@ -1879,52 +2046,6 @@
       },
       "source": "hn",
       "publishedAt": "2026-07-31T18:04:58Z",
-      "firstSeenAt": "2026-08-19T01:50:17.529Z",
-      "lastSeenAt": "2026-08-19T01:50:17.529Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "hn:49213660",
-      "type": "article",
-      "categories": [
-        "web",
-        "devtools"
-      ],
-      "title": "Ask HN: In your experience, what are sound conventions for e-ink UI development?",
-      "summaryEn": "Developer discussion gathering best practices and design conventions for building user interfaces on e-ink display hardware.",
-      "summaryKo": "E-ink 디스플레이 하드웨어용 사용자 인터페이스 구축을 위한 모범 사례와 설계 규칙을 모으는 개발자 논의입니다.",
-      "summaryOriginal": "Ask HN: In your experience, what are sound conventions for e-ink UI development?",
-      "url": "https://news.ycombinator.com/item?id=49213660",
-      "tags": [],
-      "metrics": {
-        "upvotes": 219,
-        "comments": 73
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-07T17:29:16Z",
-      "firstSeenAt": "2026-08-19T01:50:17.529Z",
-      "lastSeenAt": "2026-08-19T01:50:17.529Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "hn:49123208",
-      "type": "article",
-      "categories": [
-        "infra",
-        "devtools"
-      ],
-      "title": "Arch Linux disables AUR package adoption",
-      "summaryEn": "Arch Linux removed AUR package adoption feature, affecting how community members discover and install user-maintained packages.",
-      "summaryKo": "Arch Linux가 AUR 패키지 채택 기능을 제거하여 커뮤니티 사용자가 관리하는 패키지 발견 및 설치 방식에 영향을 미칩니다.",
-      "summaryOriginal": "Arch Linux disables AUR package adoption",
-      "url": "https://lwn.net/Articles/1086489/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 164,
-        "comments": 128
-      },
-      "source": "hn",
-      "publishedAt": "2026-07-31T13:57:35Z",
       "firstSeenAt": "2026-08-19T01:50:17.529Z",
       "lastSeenAt": "2026-08-19T01:50:17.529Z",
       "admitReason": "notable"
