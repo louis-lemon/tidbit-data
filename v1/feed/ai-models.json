@@ -1,33 +1,62 @@
 {
   "version": 1,
   "category": "ai-models",
-  "generatedAt": "2026-08-20T09:36:42.325Z",
+  "generatedAt": "2026-08-20T12:53:13.611Z",
   "ttlSeconds": 10800,
   "cards": [
     {
-      "id": "gh:jundot/omlx",
+      "id": "gh:Tencent/AI-Infra-Guard",
       "type": "repo",
-      "title": "jundot/omlx",
-      "summaryOriginal": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
-      "url": "https://github.com/jundot/omlx",
+      "title": "Tencent/AI-Infra-Guard",
+      "summaryOriginal": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
+      "url": "https://github.com/Tencent/AI-Infra-Guard",
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 19971,
-        "starsDelta": 472
+        "stars": 4769,
+        "starsDelta": 28
       },
       "source": "github-trending",
       "admitReason": "trending",
-      "summaryEn": "LLM inference server for Apple Silicon with continuous batching and SSD caching, run from the menu bar.",
-      "summaryKo": "연속 배칭·SSD 캐싱 지원하는 애플 실리콘용 LLM 추론 서버, 메뉴바에서 관리.",
-      "reasonEn": "+78 stars today",
-      "reasonKo": "오늘 스타 78개 증가",
+      "summaryEn": "Full-stack AI red teaming platform for securing AI ecosystems through agent scanning, skills evaluation, MCP scanning, and LLM jailbreak testing.",
+      "summaryKo": "에이전트 스캔, 스킬 평가, MCP 스캔, LLM 탈옥 테스트를 통해 AI 생태계를 보호하는 종합 AI 보안 테스팅 플랫폼입니다.",
       "categories": [
         "ai-models",
-        "backend"
+        "ai-agents"
       ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "firstSeenAt": "2026-08-20T12:53:13.611Z",
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
+    },
+    {
+      "id": "gh:modular/modular",
+      "type": "repo",
+      "title": "modular/modular",
+      "summaryOriginal": "The Modular Platform (includes MAX & Mojo)",
+      "url": "https://github.com/modular/modular",
+      "lang": "Mojo",
+      "tags": [
+        "ai",
+        "language",
+        "machine-learning",
+        "max",
+        "modular",
+        "mojo",
+        "programming-language"
+      ],
+      "metrics": {
+        "stars": 27532
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2023-04-28T22:17:24Z",
+      "updatedAt": "2026-08-20T06:29:09Z",
+      "summaryEn": "The Modular Platform with MAX and Mojo: a programming language and framework for building AI and machine learning applications efficiently.",
+      "summaryKo": "MAX와 Mojo를 포함한 Modular 플랫폼: AI와 머신러닝 애플리케이션을 효율적으로 구축하기 위한 프로그래밍 언어 및 프레임워크입니다.",
+      "categories": [
+        "ai-models"
+      ],
+      "firstSeenAt": "2026-08-20T12:53:13.611Z",
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:harry0703/MoneyPrinterTurbo",
@@ -53,7 +82,7 @@
         "youtube-shorts"
       ],
       "metrics": {
-        "stars": 112136
+        "stars": 112386
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -67,47 +96,41 @@
         "ai-models"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
-      "id": "gh:nautechsystems/nautilus_trader",
+      "id": "gh:JuliusBrussee/caveman",
       "type": "repo",
-      "title": "nautechsystems/nautilus_trader",
-      "summaryOriginal": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
-      "url": "https://github.com/nautechsystems/nautilus_trader",
-      "lang": "Rust",
+      "title": "JuliusBrussee/caveman",
+      "summaryOriginal": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "lang": "Go",
       "tags": [
-        "algorithmic-trading-engine",
-        "artificial-intelligence",
-        "crypto-trading",
-        "equity-trading",
-        "forex",
-        "futures-trading",
-        "machine-learning",
-        "options-trading",
-        "python",
-        "rust",
-        "sports-betting",
-        "trading",
-        "trading-platform"
+        "ai",
+        "anthropic",
+        "caveman",
+        "claude",
+        "claude-code",
+        "llm",
+        "meme",
+        "prompt-engineering",
+        "skill",
+        "tokens"
       ],
       "metrics": {
-        "stars": 26605
+        "stars": 99371
       },
       "source": "github-search",
       "admitReason": "notable",
-      "publishedAt": "2018-06-25T06:26:16Z",
-      "updatedAt": "2026-08-20T09:02:06Z",
-      "summaryEn": "Rust-native algorithmic trading engine with deterministic, event-driven execution for production use.",
-      "summaryKo": "결정론적 이벤트 기반 실행을 지원하는 러스트 기반 프로덕션급 트레이딩 엔진.",
-      "reasonEn": "+120 stars today",
-      "reasonKo": "오늘 스타 120개 증가",
+      "publishedAt": "2026-04-04T10:03:00Z",
+      "updatedAt": "2026-08-20T11:18:26Z",
+      "summaryEn": "Claude Code skill that reduces token usage by 65% using simplified prompt language, trading precision for efficiency in LLM interactions.",
+      "summaryKo": "단순화된 프롬프트 언어로 토큰 사용량을 65% 줄이는 Claude Code 스킬입니다.",
       "categories": [
-        "engineering",
         "ai-models"
       ],
-      "firstSeenAt": "2026-08-19T15:33:13.943Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "firstSeenAt": "2026-08-20T12:53:13.611Z",
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:WenyuChiou/awesome-agentic-ai-zh",
@@ -138,7 +161,7 @@
         "tutorial"
       ],
       "metrics": {
-        "stars": 6045
+        "stars": 6070
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -151,7 +174,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:SaladDay/pi-from-scratch",
@@ -173,7 +196,7 @@
         "typescript-tutorial"
       ],
       "metrics": {
-        "stars": 1085
+        "stars": 1089
       },
       "source": "github-search",
       "admitReason": "new",
@@ -186,7 +209,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:elie222/rakazo",
@@ -207,12 +230,12 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 913
+        "stars": 919
       },
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-13T06:28:56Z",
-      "updatedAt": "2026-08-20T09:12:52Z",
+      "updatedAt": "2026-08-20T10:41:03Z",
       "summaryEn": "Open-source alternative to Grok's coding bot — pick your own model and sandbox.",
       "summaryKo": "Grok 봇의 오픈소스 대안, 모델과 샌드박스를 직접 선택",
       "categories": [
@@ -222,7 +245,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:0xsline/awesome-deepseek-harness",
@@ -252,7 +275,7 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 759
+        "stars": 763
       },
       "source": "github-search",
       "admitReason": "new",
@@ -266,7 +289,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:Electricitysheep/dsh-handbook",
@@ -290,7 +313,7 @@
         "tutorial"
       ],
       "metrics": {
-        "stars": 562
+        "stars": 565
       },
       "source": "github-search",
       "admitReason": "new",
@@ -303,7 +326,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:antinomie-lab/pi-book",
@@ -339,7 +362,7 @@
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:i3T4AN/KADATH",
@@ -381,7 +404,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:OpenSparX/MasterAgent",
@@ -417,7 +440,7 @@
         "ai-models"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:jundizhou/easy-stock",
@@ -436,7 +459,7 @@
         "trade"
       ],
       "metrics": {
-        "stars": 337
+        "stars": 338
       },
       "source": "github-search",
       "admitReason": "new",
@@ -448,7 +471,7 @@
         "ai-models"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:Leonxlnx/unlazy",
@@ -467,7 +490,7 @@
         "skill"
       ],
       "metrics": {
-        "stars": 291
+        "stars": 295
       },
       "source": "github-search",
       "admitReason": "new",
@@ -482,7 +505,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:wanshuiyin/HERO-Anti-OverDefense",
@@ -507,7 +530,7 @@
         "windsurf"
       ],
       "metrics": {
-        "stars": 249
+        "stars": 255
       },
       "source": "github-search",
       "admitReason": "new",
@@ -520,7 +543,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:amitshekhariitbhu/llm-inference-engineering",
@@ -539,7 +562,7 @@
         "llms"
       ],
       "metrics": {
-        "stars": 198
+        "stars": 202
       },
       "source": "github-search",
       "admitReason": "new",
@@ -551,7 +574,7 @@
         "ai-models"
       ],
       "firstSeenAt": "2026-08-19T01:20:28.544Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:V1ki/dsh-plugin-subscriptions",
@@ -573,7 +596,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 190
+        "stars": 197
       },
       "source": "github-search",
       "admitReason": "new",
@@ -586,7 +609,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-18T18:40:19.317Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:seyedehsanhadi/sloptrim",
@@ -618,7 +641,7 @@
         "zero-dependency"
       ],
       "metrics": {
-        "stars": 176
+        "stars": 177
       },
       "source": "github-search",
       "admitReason": "new",
@@ -632,7 +655,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:Dominic789654/awesome-deepseek-harness",
@@ -664,12 +687,12 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 166
+        "stars": 167
       },
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-13T13:54:05Z",
-      "updatedAt": "2026-08-20T08:37:09Z",
+      "updatedAt": "2026-08-20T12:45:06Z",
       "summaryEn": "Curated list of plugins, skills, MCP servers, and orchestrators for DeepSeek Harness (DSH).",
       "summaryKo": "DeepSeek Harness(DSH)용 플러그인·스킬·MCP 서버·오케스트레이터 큐레이션 목록.",
       "categories": [
@@ -677,7 +700,44 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
+    },
+    {
+      "id": "gh:Han-1413141/dsh-cost-meter",
+      "type": "repo",
+      "title": "Han-1413141/dsh-cost-meter",
+      "summaryOriginal": "DeepSeek Harness session cost meter plugin: session/daily cost, budget, history, OpenCode Go quota, official & custom-provider balance, Codex-like token heatmap, peak/off-peak pricing with pre-switch popup & system-notification alerts, official price sync, 90+ model pricing catalog, Coding Plan quota queries (7 vendors), bilingual zh/en UI",
+      "url": "https://github.com/Han-1413141/dsh-cost-meter",
+      "lang": "JavaScript",
+      "tags": [
+        "cost-tracking",
+        "deepseek",
+        "deepseek-api",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugins",
+        "harness",
+        "llm",
+        "plugins",
+        "token-usage"
+      ],
+      "metrics": {
+        "stars": 129
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-08-13T14:57:55Z",
+      "updatedAt": "2026-08-20T10:17:04Z",
+      "summaryEn": "Tracks DeepSeek Harness session costs, token usage heatmaps, and multi-vendor pricing across 90+ providers.",
+      "summaryKo": "DeepSeek Harness 세션 비용·토큰 사용량·90여개 업체 가격을 추적하는 플러그인.",
+      "reasonEn": "DeepSeek API adoption growing; developers need cost visibility.",
+      "reasonKo": "DeepSeek API 채택 증가로 비용 관리 필요성 증대.",
+      "categories": [
+        "ai-models"
+      ],
+      "firstSeenAt": "2026-08-19T06:46:44.114Z",
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:bradeGithub/DSH-Plugins-Marketplace",
@@ -706,7 +766,7 @@
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-13T16:01:59Z",
-      "updatedAt": "2026-08-20T09:28:46Z",
+      "updatedAt": "2026-08-20T12:16:14Z",
       "summaryEn": "Marketplace to browse, install, and update DeepSeek Harness plugins directly from its web GUI.",
       "summaryKo": "DeepSeek Harness 웹 GUI에서 dsh 플러그인을 찾아 설치·업데이트하는 마켓플레이스.",
       "categories": [
@@ -714,44 +774,39 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
-      "id": "gh:Han-1413141/dsh-cost-meter",
+      "id": "gh:Vistyy/nopus",
       "type": "repo",
-      "title": "Han-1413141/dsh-cost-meter",
-      "summaryOriginal": "DeepSeek Harness session cost meter plugin: session/daily cost, budget, history, OpenCode Go quota, official & custom-provider balance, Codex-like token heatmap, peak/off-peak pricing with pre-switch popup & system-notification alerts, official price sync, 90+ model pricing catalog, Coding Plan quota queries (7 vendors), bilingual zh/en UI",
-      "url": "https://github.com/Han-1413141/dsh-cost-meter",
-      "lang": "JavaScript",
+      "title": "Vistyy/nopus",
+      "summaryOriginal": "Deterministic prose checks for clearer coding-agent responses",
+      "url": "https://github.com/Vistyy/nopus",
+      "lang": "TypeScript",
       "tags": [
-        "cost-tracking",
-        "deepseek",
-        "deepseek-api",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "dsh-plugins",
-        "harness",
+        "agent-skills",
+        "claude-code",
+        "coding-agents",
+        "developer-tools",
         "llm",
-        "plugins",
-        "token-usage"
+        "openai-codex",
+        "pi-coding-agent",
+        "readability"
       ],
       "metrics": {
         "stars": 126
       },
       "source": "github-search",
       "admitReason": "new",
-      "publishedAt": "2026-08-13T14:57:55Z",
-      "updatedAt": "2026-08-20T05:45:54Z",
-      "summaryEn": "Tracks DeepSeek Harness session costs, token usage heatmaps, and multi-vendor pricing across 90+ providers.",
-      "summaryKo": "DeepSeek Harness 세션 비용·토큰 사용량·90여개 업체 가격을 추적하는 플러그인.",
-      "reasonEn": "DeepSeek API adoption growing; developers need cost visibility.",
-      "reasonKo": "DeepSeek API 채택 증가로 비용 관리 필요성 증대.",
+      "publishedAt": "2026-08-15T12:53:20Z",
+      "updatedAt": "2026-08-19T16:26:34Z",
+      "summaryEn": "Tool for deterministic validation of LLM-generated code to improve coding agent response clarity and consistency.",
       "categories": [
-        "ai-models"
+        "ai-models",
+        "devtools"
       ],
-      "firstSeenAt": "2026-08-19T06:46:44.114Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "firstSeenAt": "2026-08-19T15:33:13.943Z",
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:trefeon/freebuff-proxy",
@@ -783,87 +838,19 @@
         "token-pool"
       ],
       "metrics": {
-        "stars": 123
+        "stars": 124
       },
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-11T07:06:43Z",
-      "updatedAt": "2026-08-20T06:57:56Z",
+      "updatedAt": "2026-08-20T12:53:06Z",
       "summaryEn": "OpenAI-compatible gateway for FreeBuff coding models with token pooling, session lifecycle, and embedded dashboard.",
       "summaryKo": "FreeBuff 코딩 모델용 OpenAI 호환 게이트웨이 with 토큰 풀링.",
       "categories": [
         "ai-models"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
-    },
-    {
-      "id": "gh:Vistyy/nopus",
-      "type": "repo",
-      "title": "Vistyy/nopus",
-      "summaryOriginal": "Deterministic prose checks for clearer coding-agent responses",
-      "url": "https://github.com/Vistyy/nopus",
-      "lang": "TypeScript",
-      "tags": [
-        "agent-skills",
-        "claude-code",
-        "coding-agents",
-        "developer-tools",
-        "llm",
-        "openai-codex",
-        "pi-coding-agent",
-        "readability"
-      ],
-      "metrics": {
-        "stars": 122
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-08-15T12:53:20Z",
-      "updatedAt": "2026-08-19T16:26:34Z",
-      "summaryEn": "Tool for deterministic validation of LLM-generated code to improve coding agent response clarity and consistency.",
-      "categories": [
-        "ai-models",
-        "devtools"
-      ],
-      "firstSeenAt": "2026-08-19T15:33:13.943Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
-    },
-    {
-      "id": "gh:vuphongle/oss-pr-reviewer",
-      "type": "repo",
-      "title": "vuphongle/oss-pr-reviewer",
-      "summaryOriginal": "AI-powered CLI for reviewing GitHub pull requests, detecting potential bugs, security risks, regressions, and missing tests, with structured Markdown reports for open-source maintainers.",
-      "url": "https://github.com/vuphongle/oss-pr-reviewer",
-      "lang": "TypeScript",
-      "tags": [
-        "ai",
-        "cli",
-        "code-review",
-        "developer-tools",
-        "github",
-        "llm",
-        "maintainer-tools",
-        "open-source",
-        "pull-request",
-        "typescript"
-      ],
-      "metrics": {
-        "stars": 110
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-08-13T01:59:03Z",
-      "updatedAt": "2026-08-13T05:09:43Z",
-      "summaryEn": "AI CLI that reviews GitHub PRs for bugs, security risks, and missing tests with Markdown reports.",
-      "summaryKo": "AI가 GitHub PR의 버그·보안 위험·누락 테스트를 찾아 마크다운 리포트로 알려주는 CLI.",
-      "categories": [
-        "ai-models",
-        "web",
-        "devtools"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:lidge-jun/opencodex",
@@ -887,7 +874,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:ARahim3/mlx-dspark",
@@ -910,7 +897,7 @@
         "ai-models"
       ],
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-model:Qwen/Qwen3.8-27B",
@@ -932,9 +919,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 11592,
+        "likes": 11631,
         "downloads": 1373584,
-        "trendingScore": 10699
+        "trendingScore": 9863
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -948,7 +935,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-model:unsloth/Qwen3.8-27B-GGUF",
@@ -969,9 +956,9 @@
         "conversational"
       ],
       "metrics": {
-        "likes": 2206,
+        "likes": 2257,
         "downloads": 5126652,
-        "trendingScore": 2072
+        "trendingScore": 2118
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -985,7 +972,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-model:MiniMaxAI/MiniMax-Music3",
@@ -1006,9 +993,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1067,
+        "likes": 1074,
         "downloads": 14471,
-        "trendingScore": 1032
+        "trendingScore": 1038
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1022,46 +1009,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
-    },
-    {
-      "id": "hf-model:deepseek-ai/DeepSeek-V4-Pro-0813",
-      "type": "model",
-      "title": "deepseek-ai/DeepSeek-V4-Pro-0813",
-      "summaryOriginal": "text-generation model · transformers, safetensors, deepseek_v4, text-generation, conversational",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
-      "lang": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "deepseek_v4",
-        "text-generation",
-        "conversational",
-        "arxiv:2606.19348",
-        "license:mit",
-        "endpoints_compatible",
-        "8-bit",
-        "fp8",
-        "region:us"
-      ],
-      "metrics": {
-        "likes": 660,
-        "downloads": 43287,
-        "trendingScore": 604
-      },
-      "source": "hf-models",
-      "admitReason": "trending",
-      "publishedAt": "2026-08-13T03:05:06.000Z",
-      "summaryEn": "Higher-capability Pro variant of DeepSeek's V4 text-generation model.",
-      "summaryKo": "DeepSeek V4의 상위 성능 Pro 텍스트 생성 모델",
-      "reasonEn": "Fresh Pro release of DeepSeek V4, early likes coming in.",
-      "reasonKo": "DeepSeek V4 신규 Pro 공개, 좋아요 초기 유입",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-model:Qwen/Qwen3.8-27B-FP8",
@@ -1084,9 +1032,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 615,
+        "likes": 618,
         "downloads": 1517643,
-        "trendingScore": 581
+        "trendingScore": 584
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1100,7 +1048,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-model:orcarouter/Qwen3.8-27B-Uncensored-FP8",
@@ -1135,9 +1083,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 641,
+        "likes": 647,
         "downloads": 76109,
-        "trendingScore": 559
+        "trendingScore": 564
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1151,7 +1099,46 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
+    },
+    {
+      "id": "hf-model:deepseek-ai/DeepSeek-V4-Pro-0813",
+      "type": "model",
+      "title": "deepseek-ai/DeepSeek-V4-Pro-0813",
+      "summaryOriginal": "text-generation model · transformers, safetensors, deepseek_v4, text-generation, conversational",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+      "lang": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v4",
+        "text-generation",
+        "conversational",
+        "arxiv:2606.19348",
+        "license:mit",
+        "endpoints_compatible",
+        "8-bit",
+        "fp8",
+        "region:us"
+      ],
+      "metrics": {
+        "likes": 665,
+        "downloads": 43287,
+        "trendingScore": 560
+      },
+      "source": "hf-models",
+      "admitReason": "trending",
+      "publishedAt": "2026-08-13T03:05:06.000Z",
+      "summaryEn": "Higher-capability Pro variant of DeepSeek's V4 text-generation model.",
+      "summaryKo": "DeepSeek V4의 상위 성능 Pro 텍스트 생성 모델",
+      "reasonEn": "Fresh Pro release of DeepSeek V4, early likes coming in.",
+      "reasonKo": "DeepSeek V4 신규 Pro 공개, 좋아요 초기 유입",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-model:orcarouter/Qwen3.8-27B-Uncensored-MLX",
@@ -1187,9 +1174,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 654,
+        "likes": 662,
         "downloads": 2628,
-        "trendingScore": 544
+        "trendingScore": 552
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1200,7 +1187,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-19T15:33:13.943Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-model:Lightricks/LTX-2.5",
@@ -1240,9 +1227,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1357,
+        "likes": 1366,
         "downloads": 611825,
-        "trendingScore": 513
+        "trendingScore": 504
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1256,7 +1243,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-model:JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
@@ -1285,9 +1272,9 @@
         "conversational"
       ],
       "metrics": {
-        "likes": 486,
+        "likes": 492,
         "downloads": 979768,
-        "trendingScore": 435
+        "trendingScore": 439
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1301,7 +1288,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-19T18:38:04.622Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-model:Qwen/Qwen3.8-2.4T-A95B",
@@ -1322,9 +1309,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1112,
+        "likes": 1114,
         "downloads": 14592,
-        "trendingScore": 425
+        "trendingScore": 387
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1338,7 +1325,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-paper:2608.17253",
@@ -1348,7 +1335,7 @@
       "url": "https://huggingface.co/papers/2608.17253",
       "tags": [],
       "metrics": {
-        "upvotes": 75,
+        "upvotes": 76,
         "comments": 1,
         "githubStars": 1
       },
@@ -1364,7 +1351,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-paper:2608.13947",
@@ -1387,7 +1374,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-paper:2608.13558",
@@ -1397,7 +1384,7 @@
       "url": "https://huggingface.co/papers/2608.13558",
       "tags": [],
       "metrics": {
-        "upvotes": 72,
+        "upvotes": 78,
         "comments": 2,
         "githubStars": 15
       },
@@ -1411,7 +1398,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-paper:2608.16590",
@@ -1421,7 +1408,7 @@
       "url": "https://huggingface.co/papers/2608.16590",
       "tags": [],
       "metrics": {
-        "upvotes": 107,
+        "upvotes": 124,
         "comments": 1,
         "githubStars": 152
       },
@@ -1435,7 +1422,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-paper:2608.18746",
@@ -1458,7 +1445,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-paper:2608.18701",
@@ -1481,7 +1468,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-paper:2608.17426",
@@ -1491,7 +1478,7 @@
       "url": "https://huggingface.co/papers/2608.17426",
       "tags": [],
       "metrics": {
-        "upvotes": 92,
+        "upvotes": 99,
         "comments": 1,
         "githubStars": 2
       },
@@ -1505,7 +1492,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T03:48:34.150Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-paper:2608.14929",
@@ -1528,7 +1515,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-paper:2608.18940",
@@ -1538,7 +1525,7 @@
       "url": "https://huggingface.co/papers/2608.18940",
       "tags": [],
       "metrics": {
-        "upvotes": 23,
+        "upvotes": 24,
         "comments": 1
       },
       "source": "hf-papers",
@@ -1551,7 +1538,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-paper:2608.18565",
@@ -1561,7 +1548,7 @@
       "url": "https://huggingface.co/papers/2608.18565",
       "tags": [],
       "metrics": {
-        "upvotes": 67,
+        "upvotes": 109,
         "comments": 1,
         "githubStars": 30
       },
@@ -1575,7 +1562,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hn:49161518",
@@ -1591,16 +1578,15 @@
       "source": "hn",
       "publishedAt": "2026-08-03T21:13:53Z",
       "admitReason": "notable",
-      "summaryEn": "LLMs produce better results for users with deeper domain knowledge; they amplify existing expertise rather than replace it.",
-      "summaryKo": "LLM은 깊은 도메인 지식이 있는 사용자에게 더 나은 결과를 제공하며, 전문 지식을 증폭시킵니다.",
-      "reasonEn": "High engagement debate on LLM effectiveness and skill requirements.",
-      "reasonKo": "LLM 효과성과 필요 기술에 대한 높은 관심.",
+      "summaryEn": "Study on how LLMs perform better when given domain expertise context and background knowledge.",
+      "summaryKo": "LLM이 전문 지식과 배경 정보가 주어질 때 더 잘 수행하는 방식.",
+      "reasonEn": "Growing interest in optimizing LLM prompting with structured expertise.",
+      "reasonKo": "LLM 프롬프팅 최적화에 대한 관심 증가.",
       "categories": [
-        "ai-models",
-        "engineering"
+        "ai-models"
       ],
       "firstSeenAt": "2026-08-19T01:42:27.269Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hn:49234675",
@@ -1616,42 +1602,15 @@
       "source": "hn",
       "publishedAt": "2026-08-09T19:16:49Z",
       "admitReason": "notable",
-      "summaryEn": "Use LLMs iteratively to learn complex technical subjects by asking progressively refined questions and exploring concepts deeply.",
-      "summaryKo": "복잡한 기술 주제를 배우기 위해 LLM과 반복적으로 상호작용하며 개념을 깊이 있게 탐색합니다.",
-      "reasonEn": "Growing interest in LLM-assisted learning workflows.",
-      "reasonKo": "LLM 학습 활용도 증가.",
+      "summaryEn": "Practical techniques for using LLMs as learning tools to understand and master difficult concepts.",
+      "summaryKo": "복잡한 개념을 이해하기 위해 LLM을 학습 도구로 활용하는 방법.",
       "categories": [
-        "ai-models",
-        "engineering"
-      ],
-      "firstSeenAt": "2026-08-19T01:42:27.269Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
-    },
-    {
-      "id": "hn:49154332",
-      "type": "article",
-      "title": "SQLite Critical CVEs or LLM Slop?",
-      "summaryOriginal": "SQLite Critical CVEs or LLM Slop?",
-      "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 727,
-        "comments": 373
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-03T11:28:54Z",
-      "admitReason": "notable",
-      "summaryEn": "Investigates whether reported SQLite security vulnerabilities are real critical bugs or AI-generated misinformation.",
-      "summaryKo": "보고된 SQLite 보안 취약점이 실제인지 AI 생성 허위 정보인지 검토합니다.",
-      "reasonEn": "Ongoing concern about LLM-generated false security claims.",
-      "reasonKo": "LLM 허위 보안 주장에 대한 우려.",
-      "categories": [
-        "data",
-        "infra",
         "ai-models"
       ],
-      "firstSeenAt": "2026-08-19T01:50:17.529Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "firstSeenAt": "2026-08-19T01:42:27.269Z",
+      "lastSeenAt": "2026-08-20T12:53:13.611Z",
+      "reasonEn": "Growing interest in LLM-assisted learning workflows.",
+      "reasonKo": "LLM 학습 활용도 증가."
     },
     {
       "id": "hn:49257876",
@@ -1667,16 +1626,15 @@
       "source": "hn",
       "publishedAt": "2026-08-11T13:22:00Z",
       "admitReason": "notable",
-      "summaryEn": "Security research on extracting hidden reasoning data from commercial LLM APIs, revealing model behavior beyond visible outputs.",
-      "summaryKo": "상용 LLM API에서 숨겨진 추론 데이터를 추출하는 보안 연구로 모델 동작 분석.",
+      "summaryEn": "Security research on extracting hidden reasoning traces from closed-source LLM API responses.",
+      "summaryKo": "폐쇄형 LLM API 응답에서 숨겨진 추론 흔적을 추출하는 보안 연구.",
+      "reasonEn": "New attack vector on LLM intellectual property and security.",
+      "reasonKo": "LLM 지적재산 보안에 대한 새로운 위협.",
       "categories": [
-        "ai-models",
-        "engineering"
+        "ai-models"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z",
-      "reasonEn": "Addresses emerging security vulnerabilities in commercial AI systems.",
-      "reasonKo": "상용 AI 시스템의 신흥 보안 취약점을 다룹니다."
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hn:49241679",
@@ -1692,16 +1650,168 @@
       "source": "hn",
       "publishedAt": "2026-08-10T10:10:02Z",
       "admitReason": "notable",
-      "summaryEn": "30-billion-parameter open-weight model designed for always-on local AI agents with optimized inference efficiency.",
-      "summaryKo": "지속 작동 로컬 AI 에이전트를 위해 최적화된 30억 파라미터 오픈 가중치 모델입니다.",
-      "reasonEn": "Growing shift toward local open-weight models for agent workloads.",
-      "reasonKo": "로컬 오픈 가중치 모델 확산.",
+      "summaryEn": "Muse Glimmer is a 30B open-weight model tuned for local continuous agent tasks without cloud calls.",
+      "summaryKo": "Muse Glimmer: 클라우드 없이 로컬 에이전트 작업용으로 최적화한 30B 모델.",
+      "reasonEn": "Trend toward efficient local models for autonomous agent deployment.",
+      "reasonKo": "자율 에이전트 배포용 효율적 로컬 모델 증가.",
       "categories": [
         "ai-models",
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-19T01:42:27.269Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
+    },
+    {
+      "id": "hn:49048034",
+      "type": "article",
+      "title": "Open-weight AI is having its Kubernetes moment",
+      "summaryOriginal": "Open-weight AI is having its Kubernetes moment",
+      "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 416,
+        "comments": 322
+      },
+      "source": "hn",
+      "publishedAt": "2026-07-25T14:49:49Z",
+      "admitReason": "notable",
+      "summaryEn": "Open-weight AI models are standardizing deployment patterns similar to Kubernetes' role in infrastructure.",
+      "summaryKo": "오픈웨이트 AI가 쿠버네티스처럼 인프라 배포 표준화 움직임을 보이고 있다.",
+      "reasonEn": "Trend toward open model ecosystem maturity and standardized tooling.",
+      "reasonKo": "오픈 모델 생태계 성숙 및 표준화 도구 증가 추세.",
+      "categories": [
+        "ai-models",
+        "infra"
+      ],
+      "firstSeenAt": "2026-08-19T01:42:27.269Z",
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
+    },
+    {
+      "id": "gh:jundot/omlx",
+      "type": "repo",
+      "categories": [
+        "ai-models",
+        "backend"
+      ],
+      "title": "jundot/omlx",
+      "summaryEn": "LLM inference server for Apple Silicon with continuous batching and SSD caching, run from the menu bar.",
+      "summaryKo": "연속 배칭·SSD 캐싱 지원하는 애플 실리콘용 LLM 추론 서버, 메뉴바에서 관리.",
+      "summaryOriginal": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "reasonEn": "+78 stars today",
+      "reasonKo": "오늘 스타 78개 증가",
+      "url": "https://github.com/jundot/omlx",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "stars": 19971,
+        "starsDelta": 472
+      },
+      "source": "github-trending",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-20T09:36:42.325Z",
+      "admitReason": "trending"
+    },
+    {
+      "id": "gh:nautechsystems/nautilus_trader",
+      "type": "repo",
+      "categories": [
+        "engineering",
+        "ai-models"
+      ],
+      "title": "nautechsystems/nautilus_trader",
+      "summaryEn": "Rust-native algorithmic trading engine with deterministic, event-driven execution for production use.",
+      "summaryKo": "결정론적 이벤트 기반 실행을 지원하는 러스트 기반 프로덕션급 트레이딩 엔진.",
+      "summaryOriginal": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "reasonEn": "+120 stars today",
+      "reasonKo": "오늘 스타 120개 증가",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "lang": "Rust",
+      "tags": [
+        "algorithmic-trading-engine",
+        "artificial-intelligence",
+        "crypto-trading",
+        "equity-trading",
+        "forex",
+        "futures-trading",
+        "machine-learning",
+        "options-trading",
+        "python",
+        "rust",
+        "sports-betting",
+        "trading",
+        "trading-platform"
+      ],
+      "metrics": {
+        "stars": 26605
+      },
+      "source": "github-search",
+      "publishedAt": "2018-06-25T06:26:16Z",
+      "updatedAt": "2026-08-20T09:02:06Z",
+      "firstSeenAt": "2026-08-19T15:33:13.943Z",
+      "lastSeenAt": "2026-08-20T09:36:42.325Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:vuphongle/oss-pr-reviewer",
+      "type": "repo",
+      "categories": [
+        "ai-models",
+        "web",
+        "devtools"
+      ],
+      "title": "vuphongle/oss-pr-reviewer",
+      "summaryEn": "AI CLI that reviews GitHub PRs for bugs, security risks, and missing tests with Markdown reports.",
+      "summaryKo": "AI가 GitHub PR의 버그·보안 위험·누락 테스트를 찾아 마크다운 리포트로 알려주는 CLI.",
+      "summaryOriginal": "AI-powered CLI for reviewing GitHub pull requests, detecting potential bugs, security risks, regressions, and missing tests, with structured Markdown reports for open-source maintainers.",
+      "url": "https://github.com/vuphongle/oss-pr-reviewer",
+      "lang": "TypeScript",
+      "tags": [
+        "ai",
+        "cli",
+        "code-review",
+        "developer-tools",
+        "github",
+        "llm",
+        "maintainer-tools",
+        "open-source",
+        "pull-request",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 110
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T01:59:03Z",
+      "updatedAt": "2026-08-13T05:09:43Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-20T09:36:42.325Z",
+      "admitReason": "new"
+    },
+    {
+      "id": "hn:49154332",
+      "type": "article",
+      "categories": [
+        "data",
+        "infra",
+        "ai-models"
+      ],
+      "title": "SQLite Critical CVEs or LLM Slop?",
+      "summaryEn": "Investigates whether reported SQLite security vulnerabilities are real critical bugs or AI-generated misinformation.",
+      "summaryKo": "보고된 SQLite 보안 취약점이 실제인지 AI 생성 허위 정보인지 검토합니다.",
+      "summaryOriginal": "SQLite Critical CVEs or LLM Slop?",
+      "reasonEn": "Ongoing concern about LLM-generated false security claims.",
+      "reasonKo": "LLM 허위 보안 주장에 대한 우려.",
+      "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 727,
+        "comments": 373
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-03T11:28:54Z",
+      "firstSeenAt": "2026-08-19T01:50:17.529Z",
+      "lastSeenAt": "2026-08-20T09:36:42.325Z",
+      "admitReason": "notable"
     },
     {
       "id": "gh:memoket/memoket-kite",
@@ -2712,30 +2822,6 @@
       "source": "hf-papers",
       "publishedAt": "2026-08-15T00:00:00.000Z",
       "firstSeenAt": "2026-08-18T18:40:19.317Z",
-      "lastSeenAt": "2026-08-19T03:48:08.240Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "hn:49048034",
-      "type": "article",
-      "categories": [
-        "ai-models",
-        "infra"
-      ],
-      "title": "Open-weight AI is having its Kubernetes moment",
-      "summaryEn": "Analysis comparing open-weight AI models' infrastructure adoption trajectory to Kubernetes' transformative platform moment.",
-      "summaryKo": "오픈 가중치 AI 모델의 인프라 채택이 Kubernetes 같은 변혁적 순간을 맞이 중.",
-      "summaryOriginal": "Open-weight AI is having its Kubernetes moment",
-      "reasonEn": "Open models approaching critical mass moment.",
-      "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 416,
-        "comments": 322
-      },
-      "source": "hn",
-      "publishedAt": "2026-07-25T14:49:49Z",
-      "firstSeenAt": "2026-08-19T01:42:27.269Z",
       "lastSeenAt": "2026-08-19T03:48:08.240Z",
       "admitReason": "notable"
     },

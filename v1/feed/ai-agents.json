@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "ai-agents",
-  "generatedAt": "2026-08-20T09:36:42.325Z",
+  "generatedAt": "2026-08-20T12:53:13.611Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,7 +13,7 @@
       "lang": "Shell",
       "tags": [],
       "metrics": {
-        "stars": 224553,
+        "stars": 224954,
         "starsDelta": 1894
       },
       "source": "github-trending",
@@ -24,7 +24,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-19T15:33:13.943Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:obra/superpowers",
@@ -35,7 +35,7 @@
       "lang": "Shell",
       "tags": [],
       "metrics": {
-        "stars": 274569,
+        "stars": 274662,
         "starsDelta": 557
       },
       "source": "github-trending",
@@ -46,7 +46,94 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-19T15:33:13.943Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
+    },
+    {
+      "id": "gh:agent-substrate/substrate",
+      "type": "repo",
+      "title": "agent-substrate/substrate",
+      "summaryOriginal": "Agent Substrate: the core system",
+      "url": "https://github.com/agent-substrate/substrate",
+      "lang": "Go",
+      "tags": [],
+      "metrics": {
+        "stars": 1288,
+        "starsDelta": 26
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "Agent Substrate: a core infrastructure system for building and orchestrating AI agents with standardized interfaces and composable components.",
+      "summaryKo": "AI 에이전트 구축 및 조율을 위한 표준화된 인터페이스와 조합 가능한 컴포넌트를 제공하는 핵심 인프라 시스템입니다.",
+      "categories": [
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-08-20T12:53:13.611Z",
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
+    },
+    {
+      "id": "gh:Tencent/AI-Infra-Guard",
+      "type": "repo",
+      "title": "Tencent/AI-Infra-Guard",
+      "summaryOriginal": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
+      "url": "https://github.com/Tencent/AI-Infra-Guard",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "stars": 4769,
+        "starsDelta": 28
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "Full-stack AI red teaming platform for securing AI ecosystems through agent scanning, skills evaluation, MCP scanning, and LLM jailbreak testing.",
+      "summaryKo": "에이전트 스캔, 스킬 평가, MCP 스캔, LLM 탈옥 테스트를 통해 AI 생태계를 보호하는 종합 AI 보안 테스팅 플랫폼입니다.",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-08-20T12:53:13.611Z",
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
+    },
+    {
+      "id": "gh:PostHog/posthog",
+      "type": "repo",
+      "title": "PostHog/posthog",
+      "summaryOriginal": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "url": "https://github.com/PostHog/posthog",
+      "lang": "Python",
+      "tags": [
+        "ab-testing",
+        "ai-analytics",
+        "analytics",
+        "cdp",
+        "data-warehouse",
+        "experiments",
+        "feature-flags",
+        "javascript",
+        "product-analytics",
+        "python",
+        "react",
+        "session-replay",
+        "surveys",
+        "typescript",
+        "web-analytics"
+      ],
+      "metrics": {
+        "stars": 37830
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2020-01-23T22:46:58Z",
+      "updatedAt": "2026-08-20T12:54:37Z",
+      "summaryEn": "All-in-one product analytics platform featuring AI observability, session replay, feature flags, experiments, and error tracking for developer tools.",
+      "summaryKo": "AI 옵저버빌리티, 세션 리플레이, 기능 플래그, A/B 테스트, 오류 추적 등을 포함한 통합 제품 분석 플랫폼입니다.",
+      "categories": [
+        "ai-agents",
+        "infra",
+        "data",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-20T12:53:13.611Z",
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:stablyai/orca",
@@ -76,12 +163,12 @@
         "yc-backed"
       ],
       "metrics": {
-        "stars": 49569
+        "stars": 49695
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-03-17T03:28:57Z",
-      "updatedAt": "2026-08-20T09:31:32Z",
+      "updatedAt": "2026-08-20T12:28:15Z",
       "summaryEn": "An IDE for running many coding agents in parallel with your own subscriptions, on desktop, mobile, or VPS.",
       "summaryKo": "여러 코딩 에이전트를 병렬 실행하는 IDE. 데스크톱·모바일·VPS 지원, 자기 구독 사용.",
       "categories": [
@@ -89,7 +176,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:walkinglabs/learn-harness-engineering",
@@ -113,7 +200,7 @@
         "llm"
       ],
       "metrics": {
-        "stars": 12921
+        "stars": 13015
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -125,7 +212,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:calesthio/OpenMontage",
@@ -156,19 +243,19 @@
         "video-production"
       ],
       "metrics": {
-        "stars": 49050
+        "stars": 49066
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-03-29T15:23:22Z",
       "updatedAt": "2026-08-18T15:50:54Z",
-      "summaryEn": "Open-source agentic video production system with 12 pipelines and 700+ agent skills—automate video creation at scale.",
-      "summaryKo": "700+ 에이전트 스킬과 12개 파이프라인으로 비디오 제작 자동화하는 오픈소스 시스템.",
+      "summaryEn": "Open-source agentic video production system turning AI coding assistants into a full video studio.",
+      "summaryKo": "AI 코딩 어시스턴트를 완전한 영상 제작 스튜디오로 바꾸는 오픈소스 에이전틱 영상 제작 시스템",
       "categories": [
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:WenyuChiou/awesome-agentic-ai-zh",
@@ -199,7 +286,7 @@
         "tutorial"
       ],
       "metrics": {
-        "stars": 6045
+        "stars": 6070
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -212,7 +299,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:wang2122/sprix-sage-router",
@@ -244,7 +331,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:can1357/oh-my-pi",
@@ -271,12 +358,12 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 25985
+        "stars": 26017
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2025-12-31T14:01:28Z",
-      "updatedAt": "2026-08-20T08:14:45Z",
+      "updatedAt": "2026-08-20T11:42:56Z",
       "summaryEn": "Terminal AI coding agent with hash-anchored edits, LSP support, and subagent capability—work without leaving CLI.",
       "summaryKo": "LSP 지원 및 서브에이전트 기능의 터미널 AI 코딩 에이전트.",
       "categories": [
@@ -285,7 +372,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:elie222/rakazo",
@@ -306,12 +393,12 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 913
+        "stars": 919
       },
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-13T06:28:56Z",
-      "updatedAt": "2026-08-20T09:12:52Z",
+      "updatedAt": "2026-08-20T10:41:03Z",
       "summaryEn": "Open-source alternative to Grok's coding bot — pick your own model and sandbox.",
       "summaryKo": "Grok 봇의 오픈소스 대안, 모델과 샌드박스를 직접 선택",
       "categories": [
@@ -321,7 +408,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:0xsline/awesome-deepseek-harness",
@@ -351,7 +438,7 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 759
+        "stars": 763
       },
       "source": "github-search",
       "admitReason": "new",
@@ -365,7 +452,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:Electricitysheep/dsh-handbook",
@@ -389,7 +476,7 @@
         "tutorial"
       ],
       "metrics": {
-        "stars": 562
+        "stars": 565
       },
       "source": "github-search",
       "admitReason": "new",
@@ -402,7 +489,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:i3T4AN/KADATH",
@@ -444,125 +531,54 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
-      "id": "gh:Leonxlnx/unlazy",
+      "id": "gh:akitaonrails/ai-memory",
       "type": "repo",
-      "title": "Leonxlnx/unlazy",
-      "summaryOriginal": "Anti-laziness skill for AI agents. Core: the Depth Tree method, which splits a task N layers deep and gives every leaf the full time budget of the whole task, so effort multiplies with depth. Grounded in 2025-2026 research on model laziness, underthinking and premature completion.",
-      "url": "https://github.com/Leonxlnx/unlazy",
-      "lang": "JavaScript",
-      "tags": [
-        "ai-agents",
-        "claude",
-        "claude-code",
-        "llm",
-        "productivity",
-        "prompt-engineering",
-        "skill"
-      ],
+      "title": "akitaonrails/ai-memory",
+      "summaryOriginal": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "lang": "Rust",
+      "tags": [],
       "metrics": {
-        "stars": 291
+        "starsDelta": 5,
+        "pushes": 4,
+        "totalScore": 217.1826
       },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-08-09T23:39:12Z",
-      "updatedAt": "2026-08-11T15:40:17Z",
-      "summaryEn": "Skill technique using Depth Tree method to prevent AI agent underthinking and premature task completion.",
-      "summaryKo": "AI 에이전트의 과도한 게으름을 방지하는 Depth Tree 방법 기술.",
-      "reasonEn": "Recent research on model laziness and underthinking in LLM agents.",
-      "reasonKo": "LLM 에이전트의 게으름과 미사고에 관한 최근 연구.",
+      "source": "ossinsight",
+      "admitReason": "notable",
+      "summaryEn": "Long-term memory layer for AI coding CLIs, letting you hand off context between different agent vendors.",
+      "summaryKo": "AI 코딩 CLI용 장기 기억 계층. 다른 에이전트 벤더 간 컨텍스트 인계 가능.",
+      "reasonEn": "Fast star growth (+207)",
+      "reasonKo": "스타 급증 (+207)",
       "categories": [
-        "ai-models",
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
-      "id": "gh:wanshuiyin/HERO-Anti-OverDefense",
+      "id": "gh:chaitanyagiri/munder-difflin",
       "type": "repo",
-      "title": "wanshuiyin/HERO-Anti-OverDefense",
-      "summaryOriginal": "HERO = Hashing · Edge cases · Rubrics · Overbuild — the four shapes coding agents over-defend in. A paste-in contract that stops them. Works with Claude Code, Codex, Antigravity, Cursor, Copilot, Windsurf, Gemini CLI.",
-      "url": "https://github.com/wanshuiyin/HERO-Anti-OverDefense",
-      "lang": "Markdown",
-      "tags": [
-        "agents-md",
-        "ai-agents",
-        "antigravity",
-        "claude-code",
-        "claude-md",
-        "codex",
-        "coding-agent",
-        "cursor",
-        "gemini-cli",
-        "github-copilot",
-        "llm",
-        "prompt-engineering",
-        "windsurf"
-      ],
+      "title": "chaitanyagiri/munder-difflin",
+      "summaryOriginal": "local multi-agent harness",
+      "url": "https://github.com/chaitanyagiri/munder-difflin",
+      "lang": "TypeScript",
+      "tags": [],
       "metrics": {
-        "stars": 249
+        "starsDelta": 3,
+        "pushes": 3,
+        "totalScore": 212.18
       },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-08-11T05:08:30Z",
-      "updatedAt": "2026-08-18T03:28:59Z",
-      "summaryEn": "Contract pattern to prevent AI coding agents from over-defensive coding (hashing, edge cases, overbuild).",
-      "summaryKo": "AI 코딩 에이전트의 과도한 방어 코딩을 방지하는 패턴.",
+      "source": "ossinsight",
+      "admitReason": "notable",
+      "summaryEn": "Local multi-agent harness for coordinating AI agents. Helps developers build and test agent workflows on their machine.",
       "categories": [
-        "ai-models",
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
-    },
-    {
-      "id": "gh:seyedehsanhadi/sloptrim",
-      "type": "repo",
-      "title": "seyedehsanhadi/sloptrim",
-      "summaryOriginal": "A local detector for AI-writing patterns. Scores every prose file your agent saves. Python standard library only, no network, no model.",
-      "url": "https://github.com/seyedehsanhadi/sloptrim",
-      "lang": "Python",
-      "tags": [
-        "ai-agents",
-        "ai-slop",
-        "claude-code",
-        "claude-code-plugin",
-        "claude-code-plugins-marketplace",
-        "claude-code-skills",
-        "de-slop",
-        "developer-tools",
-        "docx",
-        "humanizer",
-        "linter",
-        "llm",
-        "markdown",
-        "prose-linter",
-        "python",
-        "stylometry",
-        "text-analysis",
-        "writing-quality",
-        "writing-tools",
-        "zero-dependency"
-      ],
-      "metrics": {
-        "stars": 176
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-08-13T08:09:10Z",
-      "updatedAt": "2026-08-18T13:56:31Z",
-      "summaryEn": "Local tool that scores prose files your agent saves for AI-writing patterns, no network or model needed.",
-      "summaryKo": "에이전트가 저장한 글의 AI 작문 패턴을 로컬에서 점수화. 네트워크·모델 불필요.",
-      "categories": [
-        "ai-models",
-        "ai-agents",
-        "devtools"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:volcengine/OpenViking",
@@ -585,29 +601,54 @@
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
-      "id": "gh:chaitanyagiri/munder-difflin",
+      "id": "gh:maka-agent/maka-agent",
       "type": "repo",
-      "title": "chaitanyagiri/munder-difflin",
-      "summaryOriginal": "local multi-agent harness",
-      "url": "https://github.com/chaitanyagiri/munder-difflin",
+      "title": "maka-agent/maka-agent",
+      "summaryOriginal": "Maka — local-first AI desktop assistant",
+      "url": "https://github.com/maka-agent/maka-agent",
+      "lang": "TypeScript",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 4,
+        "pullRequests": 1,
+        "pushes": 9,
+        "totalScore": 217.1038
+      },
+      "source": "ossinsight",
+      "admitReason": "notable",
+      "summaryEn": "Local-first AI desktop assistant—run privately without cloud dependency.",
+      "summaryKo": "로컬 우선 AI 데스크톱 어시스턴트—클라우드 의존성 없음.",
+      "categories": [
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-08-20T09:36:42.325Z",
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
+    },
+    {
+      "id": "gh:getpaseo/paseo",
+      "type": "repo",
+      "title": "getpaseo/paseo",
+      "summaryOriginal": "Orchestrate multiple coding agents from desktop and mobile",
+      "url": "https://github.com/getpaseo/paseo",
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
         "starsDelta": 3,
-        "pushes": 3,
-        "totalScore": 212.18
+        "pushes": 1,
+        "totalScore": 211.5371
       },
       "source": "ossinsight",
       "admitReason": "notable",
-      "summaryEn": "Local multi-agent harness for coordinating AI agents. Helps developers build and test agent workflows on their machine.",
+      "summaryEn": "Orchestrate multiple coding agents across desktop and mobile—unified agent management interface.",
+      "summaryKo": "데스크톱과 모바일에서 여러 코딩 에이전트를 조율하는 플랫폼.",
       "categories": [
         "ai-agents"
       ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "firstSeenAt": "2026-08-20T09:36:42.325Z",
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:mukul975/Anthropic-Cybersecurity-Skills",
@@ -633,79 +674,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
-    },
-    {
-      "id": "gh:akitaonrails/ai-memory",
-      "type": "repo",
-      "title": "akitaonrails/ai-memory",
-      "summaryOriginal": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-      "url": "https://github.com/akitaonrails/ai-memory",
-      "lang": "Rust",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 5,
-        "pushes": 4,
-        "totalScore": 217.1826
-      },
-      "source": "ossinsight",
-      "admitReason": "notable",
-      "summaryEn": "Long-term memory layer for AI coding CLIs, letting you hand off context between different agent vendors.",
-      "summaryKo": "AI 코딩 CLI용 장기 기억 계층. 다른 에이전트 벤더 간 컨텍스트 인계 가능.",
-      "reasonEn": "Fast star growth (+207)",
-      "reasonKo": "스타 급증 (+207)",
-      "categories": [
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
-    },
-    {
-      "id": "gh:maka-agent/maka-agent",
-      "type": "repo",
-      "title": "maka-agent/maka-agent",
-      "summaryOriginal": "Maka — local-first AI desktop assistant",
-      "url": "https://github.com/maka-agent/maka-agent",
-      "lang": "TypeScript",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 4,
-        "pullRequests": 1,
-        "pushes": 9,
-        "totalScore": 217.1038
-      },
-      "source": "ossinsight",
-      "admitReason": "notable",
-      "summaryEn": "Local-first AI desktop assistant—run privately without cloud dependency.",
-      "summaryKo": "로컬 우선 AI 데스크톱 어시스턴트—클라우드 의존성 없음.",
-      "categories": [
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-20T09:36:42.325Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
-    },
-    {
-      "id": "gh:getpaseo/paseo",
-      "type": "repo",
-      "title": "getpaseo/paseo",
-      "summaryOriginal": "Orchestrate multiple coding agents from desktop and mobile",
-      "url": "https://github.com/getpaseo/paseo",
-      "lang": "TypeScript",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 3,
-        "pushes": 1,
-        "totalScore": 211.5371
-      },
-      "source": "ossinsight",
-      "admitReason": "notable",
-      "summaryEn": "Orchestrate multiple coding agents across desktop and mobile—unified agent management interface.",
-      "summaryKo": "데스크톱과 모바일에서 여러 코딩 에이전트를 조율하는 플랫폼.",
-      "categories": [
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-20T09:36:42.325Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:onecli/onecli",
@@ -727,7 +696,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:xuboyuebobb/investorskills",
@@ -749,7 +718,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:yizhiyanhua-ai/fireworks-tech-graph",
@@ -771,7 +740,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "gh:Orchestra-Research/AI-Research-SKILLs",
@@ -793,7 +762,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-model:Qwen/Qwen3.8-27B",
@@ -815,9 +784,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 11592,
+        "likes": 11631,
         "downloads": 1373584,
-        "trendingScore": 10699
+        "trendingScore": 9863
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -831,7 +800,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-model:unsloth/Qwen3.8-27B-GGUF",
@@ -852,9 +821,9 @@
         "conversational"
       ],
       "metrics": {
-        "likes": 2206,
+        "likes": 2257,
         "downloads": 5126652,
-        "trendingScore": 2072
+        "trendingScore": 2118
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -868,7 +837,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-model:MiniMaxAI/MiniMax-Music3",
@@ -889,9 +858,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1067,
+        "likes": 1074,
         "downloads": 14471,
-        "trendingScore": 1032
+        "trendingScore": 1038
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -905,46 +874,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
-    },
-    {
-      "id": "hf-model:deepseek-ai/DeepSeek-V4-Pro-0813",
-      "type": "model",
-      "title": "deepseek-ai/DeepSeek-V4-Pro-0813",
-      "summaryOriginal": "text-generation model · transformers, safetensors, deepseek_v4, text-generation, conversational",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
-      "lang": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "deepseek_v4",
-        "text-generation",
-        "conversational",
-        "arxiv:2606.19348",
-        "license:mit",
-        "endpoints_compatible",
-        "8-bit",
-        "fp8",
-        "region:us"
-      ],
-      "metrics": {
-        "likes": 660,
-        "downloads": 43287,
-        "trendingScore": 604
-      },
-      "source": "hf-models",
-      "admitReason": "trending",
-      "publishedAt": "2026-08-13T03:05:06.000Z",
-      "summaryEn": "Higher-capability Pro variant of DeepSeek's V4 text-generation model.",
-      "summaryKo": "DeepSeek V4의 상위 성능 Pro 텍스트 생성 모델",
-      "reasonEn": "Fresh Pro release of DeepSeek V4, early likes coming in.",
-      "reasonKo": "DeepSeek V4 신규 Pro 공개, 좋아요 초기 유입",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-model:Qwen/Qwen3.8-27B-FP8",
@@ -967,9 +897,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 615,
+        "likes": 618,
         "downloads": 1517643,
-        "trendingScore": 581
+        "trendingScore": 584
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -983,7 +913,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-model:orcarouter/Qwen3.8-27B-Uncensored-FP8",
@@ -1018,9 +948,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 641,
+        "likes": 647,
         "downloads": 76109,
-        "trendingScore": 559
+        "trendingScore": 564
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1034,7 +964,46 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
+    },
+    {
+      "id": "hf-model:deepseek-ai/DeepSeek-V4-Pro-0813",
+      "type": "model",
+      "title": "deepseek-ai/DeepSeek-V4-Pro-0813",
+      "summaryOriginal": "text-generation model · transformers, safetensors, deepseek_v4, text-generation, conversational",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+      "lang": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v4",
+        "text-generation",
+        "conversational",
+        "arxiv:2606.19348",
+        "license:mit",
+        "endpoints_compatible",
+        "8-bit",
+        "fp8",
+        "region:us"
+      ],
+      "metrics": {
+        "likes": 665,
+        "downloads": 43287,
+        "trendingScore": 560
+      },
+      "source": "hf-models",
+      "admitReason": "trending",
+      "publishedAt": "2026-08-13T03:05:06.000Z",
+      "summaryEn": "Higher-capability Pro variant of DeepSeek's V4 text-generation model.",
+      "summaryKo": "DeepSeek V4의 상위 성능 Pro 텍스트 생성 모델",
+      "reasonEn": "Fresh Pro release of DeepSeek V4, early likes coming in.",
+      "reasonKo": "DeepSeek V4 신규 Pro 공개, 좋아요 초기 유입",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-model:orcarouter/Qwen3.8-27B-Uncensored-MLX",
@@ -1070,9 +1039,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 654,
+        "likes": 662,
         "downloads": 2628,
-        "trendingScore": 544
+        "trendingScore": 552
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1083,7 +1052,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-19T15:33:13.943Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-model:Lightricks/LTX-2.5",
@@ -1123,9 +1092,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1357,
+        "likes": 1366,
         "downloads": 611825,
-        "trendingScore": 513
+        "trendingScore": 504
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1139,7 +1108,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-model:JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
@@ -1168,9 +1137,9 @@
         "conversational"
       ],
       "metrics": {
-        "likes": 486,
+        "likes": 492,
         "downloads": 979768,
-        "trendingScore": 435
+        "trendingScore": 439
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1184,7 +1153,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-19T18:38:04.622Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-model:Qwen/Qwen3.8-2.4T-A95B",
@@ -1205,9 +1174,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1112,
+        "likes": 1114,
         "downloads": 14592,
-        "trendingScore": 425
+        "trendingScore": 387
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1221,7 +1190,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-paper:2608.17253",
@@ -1231,7 +1200,7 @@
       "url": "https://huggingface.co/papers/2608.17253",
       "tags": [],
       "metrics": {
-        "upvotes": 75,
+        "upvotes": 76,
         "comments": 1,
         "githubStars": 1
       },
@@ -1247,7 +1216,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-paper:2608.13947",
@@ -1270,7 +1239,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-paper:2608.13558",
@@ -1280,7 +1249,7 @@
       "url": "https://huggingface.co/papers/2608.13558",
       "tags": [],
       "metrics": {
-        "upvotes": 72,
+        "upvotes": 78,
         "comments": 2,
         "githubStars": 15
       },
@@ -1294,7 +1263,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-paper:2608.16590",
@@ -1304,7 +1273,7 @@
       "url": "https://huggingface.co/papers/2608.16590",
       "tags": [],
       "metrics": {
-        "upvotes": 107,
+        "upvotes": 124,
         "comments": 1,
         "githubStars": 152
       },
@@ -1318,7 +1287,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-paper:2608.18746",
@@ -1341,7 +1310,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-paper:2608.18701",
@@ -1364,7 +1333,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-paper:2608.17426",
@@ -1374,7 +1343,7 @@
       "url": "https://huggingface.co/papers/2608.17426",
       "tags": [],
       "metrics": {
-        "upvotes": 92,
+        "upvotes": 99,
         "comments": 1,
         "githubStars": 2
       },
@@ -1388,7 +1357,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T03:48:34.150Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-paper:2608.14929",
@@ -1411,7 +1380,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-paper:2608.18940",
@@ -1421,7 +1390,7 @@
       "url": "https://huggingface.co/papers/2608.18940",
       "tags": [],
       "metrics": {
-        "upvotes": 23,
+        "upvotes": 24,
         "comments": 1
       },
       "source": "hf-papers",
@@ -1434,7 +1403,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hf-paper:2608.18565",
@@ -1444,7 +1413,7 @@
       "url": "https://huggingface.co/papers/2608.18565",
       "tags": [],
       "metrics": {
-        "upvotes": 67,
+        "upvotes": 109,
         "comments": 1,
         "githubStars": 30
       },
@@ -1458,7 +1427,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hn:49241679",
@@ -1474,16 +1443,16 @@
       "source": "hn",
       "publishedAt": "2026-08-10T10:10:02Z",
       "admitReason": "notable",
-      "summaryEn": "30-billion-parameter open-weight model designed for always-on local AI agents with optimized inference efficiency.",
-      "summaryKo": "지속 작동 로컬 AI 에이전트를 위해 최적화된 30억 파라미터 오픈 가중치 모델입니다.",
-      "reasonEn": "Growing shift toward local open-weight models for agent workloads.",
-      "reasonKo": "로컬 오픈 가중치 모델 확산.",
+      "summaryEn": "Muse Glimmer is a 30B open-weight model tuned for local continuous agent tasks without cloud calls.",
+      "summaryKo": "Muse Glimmer: 클라우드 없이 로컬 에이전트 작업용으로 최적화한 30B 모델.",
+      "reasonEn": "Trend toward efficient local models for autonomous agent deployment.",
+      "reasonKo": "자율 에이전트 배포용 효율적 로컬 모델 증가.",
       "categories": [
         "ai-models",
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-19T01:42:27.269Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hn:49239751",
@@ -1499,17 +1468,16 @@
       "source": "hn",
       "publishedAt": "2026-08-10T06:02:38Z",
       "admitReason": "notable",
-      "summaryEn": "Docker-based tool for creating temporary isolated environments where AI agents can safely execute code and filesystem operations.",
-      "summaryKo": "AI 에이전트가 안전하게 코드를 실행할 수 있는 임시 격리 환경을 제공합니다.",
-      "reasonEn": "Critical tooling for safe AI agent code execution.",
-      "reasonKo": "AI 에이전트 안전 실행 도구.",
+      "summaryEn": "Docker-based sandboxing infrastructure for safely executing arbitrary code from AI agents.",
+      "summaryKo": "AI 에이전트 코드를 안전하게 실행하기 위한 Docker 기반 격리 환경.",
+      "reasonEn": "Critical tooling for safe autonomous agent execution in production.",
+      "reasonKo": "프로덕션 에이전트 실행 시 안전성을 위한 필수 도구.",
       "categories": [
         "ai-agents",
-        "infra",
-        "devtools"
+        "infra"
       ],
       "firstSeenAt": "2026-08-19T01:42:27.269Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hn:49126604",
@@ -1525,14 +1493,14 @@
       "source": "hn",
       "publishedAt": "2026-07-31T18:04:58Z",
       "admitReason": "notable",
-      "summaryEn": "Framework for coordinating multiple AI agents working together on complex tasks with shared state and communication.",
-      "summaryKo": "여러 AI 에이전트가 함께 작업하도록 조율하는 프레임워크입니다.",
+      "summaryEn": "qm is a multiplayer agent coordination framework allowing teams to deploy and manage collaborative agents.",
+      "summaryKo": "여러 에이전트를 팀이 함께 조율하고 배포하는 협업 프레임워크.",
       "categories": [
         "ai-agents",
-        "engineering"
+        "backend"
       ],
       "firstSeenAt": "2026-08-19T01:42:27.269Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "lastSeenAt": "2026-08-20T12:53:13.611Z"
     },
     {
       "id": "hn:49182996",
@@ -1548,15 +1516,14 @@
       "source": "hn",
       "publishedAt": "2026-08-05T13:58:53Z",
       "admitReason": "notable",
-      "summaryEn": "Cloudflare's platform for deploying and orchestrating agents and applications with integrated compute and networking.",
-      "summaryKo": "에이전트와 애플리케이션 배포·운영을 위한 Cloudflare 플랫폼입니다.",
+      "summaryEn": "Cloudflare OS provides an open runtime for building agents and apps with built-in infrastructure.",
+      "summaryKo": "Cloudflare OS: 에이전트와 앱을 구축할 수 있는 개방형 런타임 및 인프라.",
       "categories": [
         "ai-agents",
-        "infra",
-        "backend"
+        "infra"
       ],
       "firstSeenAt": "2026-08-19T01:42:27.269Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z",
+      "lastSeenAt": "2026-08-20T12:53:13.611Z",
       "reasonEn": "Major infrastructure provider expanding into agent-native application platform.",
       "reasonKo": "주요 인프라 제공자의 에이전트 기반 애플리케이션 플랫폼 확장."
     },
@@ -1574,16 +1541,133 @@
       "source": "hn",
       "publishedAt": "2026-08-10T17:22:07Z",
       "admitReason": "notable",
-      "summaryEn": "Compact 14MB agentic language model designed to run on resource-constrained devices like phones and IoT; enables distributed AI without cloud dependency.",
-      "summaryKo": "휴대폰과 IoT 같은 제한된 리소스 기기에서 실행 가능한 14MB 경량 에이전트 LLM.",
+      "summaryEn": "Needle2: 14MB agentic LLM designed for edge devices like phones, wearables, and smart home systems with agent capabilities.",
+      "summaryKo": "Needle2: 스마트폰, 웨어러블, 스마트홈용 14MB 에이전트 LLM.",
+      "categories": [
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-08-19T01:42:27.269Z",
+      "lastSeenAt": "2026-08-20T12:53:13.611Z",
       "reasonEn": "Ultra-small LLM achieving practical on-device AI capability.",
-      "reasonKo": "실용적인 온디바이스 AI를 구현한 극소 LLM.",
+      "reasonKo": "실용적인 온디바이스 AI를 구현한 극소 LLM."
+    },
+    {
+      "id": "gh:Leonxlnx/unlazy",
+      "type": "repo",
       "categories": [
         "ai-models",
         "ai-agents"
       ],
-      "firstSeenAt": "2026-08-19T01:42:27.269Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z"
+      "title": "Leonxlnx/unlazy",
+      "summaryEn": "Skill technique using Depth Tree method to prevent AI agent underthinking and premature task completion.",
+      "summaryKo": "AI 에이전트의 과도한 게으름을 방지하는 Depth Tree 방법 기술.",
+      "summaryOriginal": "Anti-laziness skill for AI agents. Core: the Depth Tree method, which splits a task N layers deep and gives every leaf the full time budget of the whole task, so effort multiplies with depth. Grounded in 2025-2026 research on model laziness, underthinking and premature completion.",
+      "reasonEn": "Recent research on model laziness and underthinking in LLM agents.",
+      "reasonKo": "LLM 에이전트의 게으름과 미사고에 관한 최근 연구.",
+      "url": "https://github.com/Leonxlnx/unlazy",
+      "lang": "JavaScript",
+      "tags": [
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "llm",
+        "productivity",
+        "prompt-engineering",
+        "skill"
+      ],
+      "metrics": {
+        "stars": 291
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-09T23:39:12Z",
+      "updatedAt": "2026-08-11T15:40:17Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-20T09:36:42.325Z",
+      "admitReason": "new"
+    },
+    {
+      "id": "gh:wanshuiyin/HERO-Anti-OverDefense",
+      "type": "repo",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "title": "wanshuiyin/HERO-Anti-OverDefense",
+      "summaryEn": "Contract pattern to prevent AI coding agents from over-defensive coding (hashing, edge cases, overbuild).",
+      "summaryKo": "AI 코딩 에이전트의 과도한 방어 코딩을 방지하는 패턴.",
+      "summaryOriginal": "HERO = Hashing · Edge cases · Rubrics · Overbuild — the four shapes coding agents over-defend in. A paste-in contract that stops them. Works with Claude Code, Codex, Antigravity, Cursor, Copilot, Windsurf, Gemini CLI.",
+      "url": "https://github.com/wanshuiyin/HERO-Anti-OverDefense",
+      "lang": "Markdown",
+      "tags": [
+        "agents-md",
+        "ai-agents",
+        "antigravity",
+        "claude-code",
+        "claude-md",
+        "codex",
+        "coding-agent",
+        "cursor",
+        "gemini-cli",
+        "github-copilot",
+        "llm",
+        "prompt-engineering",
+        "windsurf"
+      ],
+      "metrics": {
+        "stars": 249
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-11T05:08:30Z",
+      "updatedAt": "2026-08-18T03:28:59Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-20T09:36:42.325Z",
+      "admitReason": "new"
+    },
+    {
+      "id": "gh:seyedehsanhadi/sloptrim",
+      "type": "repo",
+      "categories": [
+        "ai-models",
+        "ai-agents",
+        "devtools"
+      ],
+      "title": "seyedehsanhadi/sloptrim",
+      "summaryEn": "Local tool that scores prose files your agent saves for AI-writing patterns, no network or model needed.",
+      "summaryKo": "에이전트가 저장한 글의 AI 작문 패턴을 로컬에서 점수화. 네트워크·모델 불필요.",
+      "summaryOriginal": "A local detector for AI-writing patterns. Scores every prose file your agent saves. Python standard library only, no network, no model.",
+      "url": "https://github.com/seyedehsanhadi/sloptrim",
+      "lang": "Python",
+      "tags": [
+        "ai-agents",
+        "ai-slop",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-code-plugins-marketplace",
+        "claude-code-skills",
+        "de-slop",
+        "developer-tools",
+        "docx",
+        "humanizer",
+        "linter",
+        "llm",
+        "markdown",
+        "prose-linter",
+        "python",
+        "stylometry",
+        "text-analysis",
+        "writing-quality",
+        "writing-tools",
+        "zero-dependency"
+      ],
+      "metrics": {
+        "stars": 176
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T08:09:10Z",
+      "updatedAt": "2026-08-18T13:56:31Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-20T09:36:42.325Z",
+      "admitReason": "new"
     },
     {
       "id": "gh:bojieli/ai-agent-book",
