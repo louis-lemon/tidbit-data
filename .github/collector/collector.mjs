@@ -60264,6 +60264,8 @@ var fetchOssInsightTrends = async (_ctx) => {
 };
 
 // src/collect.ts
+var VERIFIED_SOURCE = "hn";
+var needsVerification = (source) => source === VERIFIED_SOURCE;
 var globalTasks = (ctx) => [
   {
     source: "github-trending",
@@ -60286,7 +60288,7 @@ var categoryTasks = (ctx, categories) => categories.flatMap((category) => [
     run: async () => fetchGithubSearch({ ...ctx, category })
   },
   {
-    source: "hn",
+    source: VERIFIED_SOURCE,
     attribution: { kind: "verify", slug: category.slug },
     run: async () => fetchHackerNews({ ...ctx, category })
   }
@@ -60409,6 +60411,7 @@ var carryForward = (fresh, previous, now) => {
 };
 var keepStale = (card, now) => {
   if (!passesGlobalFloor(card)) return void 0;
+  if (needsVerification(card.source)) return void 0;
   if (card.admitReason === void 0) return void 0;
   if (card.lastSeenAt === void 0) {
     const stamp = now.toISOString();
