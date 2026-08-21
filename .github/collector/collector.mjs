@@ -30522,32 +30522,8 @@ var RETRY_BACKOFF_MS = 2e3;
 var RETRY_JITTER_MS = 1e3;
 var API_BASE = "https://generativelanguage.googleapis.com/v1beta/models";
 var backoffFor = (attempt) => RETRY_BACKOFF_MS * (attempt - 1) + Math.random() * RETRY_JITTER_MS;
-var SUMMARY_JSON_SCHEMA = {
-  type: "object",
-  properties: {
-    summaries: {
-      type: "array",
-      items: {
-        type: "object",
-        properties: {
-          id: { type: "string" },
-          summaryEn: { type: "string" },
-          summaryKo: { type: "string" },
-          reasonEn: { type: "string" },
-          reasonKo: { type: "string" },
-          categories: { type: "array", items: { type: "string" } },
-          isDevRelevant: { type: "boolean" }
-        },
-        required: ["id", "summaryEn"],
-        additionalProperties: false
-      }
-    }
-  },
-  required: ["summaries"],
-  additionalProperties: false
-};
 var readText = (body) => (body.candidates?.[0]?.content?.parts ?? []).map((part) => part.text ?? "").join("");
-var createGeminiSummaryClient = (apiKey) => async ({ model, prompt }) => {
+var createGeminiSummaryClient = (apiKey) => async ({ model, prompt, responseSchema }) => {
   let failure = `Gemini \uC694\uCCAD\uC744 \uD55C \uBC88\uB3C4 \uBCF4\uB0B4\uC9C0 \uBABB\uD588\uB2E4: ${model}`;
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
     if (attempt > 1) await sleep(backoffFor(attempt));
@@ -30562,8 +30538,8 @@ var createGeminiSummaryClient = (apiKey) => async ({ model, prompt }) => {
             maxOutputTokens: SUMMARY_MAX_OUTPUT_TOKENS,
             // **`responseSchema`가 아니다.** 그쪽은 OpenAPI 서브셋이라 `additionalProperties`를
             // 모르고 400 `Unknown name "additionalProperties"`를 낸다(실측 2026-08-21).
-            // `responseJsonSchema`만 위 스키마를 그대로 받는다.
-            responseJsonSchema: SUMMARY_JSON_SCHEMA
+            // `responseJsonSchema`만 JSON Schema를 그대로 받는다.
+            responseJsonSchema: responseSchema
           }
         }),
         signal: AbortSignal.timeout(SUMMARY_TIMEOUT_MS)
@@ -42438,12 +42414,12 @@ function finalize(ctx, schema) {
     throw new Error("Error converting schema to JSON.");
   }
 }
-function isTransforming(_schema, _ctx) {
+function isTransforming(_schema2, _ctx) {
   const ctx = _ctx ?? { seen: /* @__PURE__ */ new Set() };
-  if (ctx.seen.has(_schema))
+  if (ctx.seen.has(_schema2))
     return false;
-  ctx.seen.add(_schema);
-  const def = _schema._zod.def;
+  ctx.seen.add(_schema2);
+  const def = _schema2._zod.def;
   if (def.type === "transform")
     return true;
   if (def.type === "array")
@@ -42462,7 +42438,7 @@ function isTransforming(_schema, _ctx) {
     return isTransforming(def.keyType, ctx) || isTransforming(def.valueType, ctx);
   }
   if (def.type === "pipe") {
-    if (_schema._zod.traits.has("$ZodCodec"))
+    if (_schema2._zod.traits.has("$ZodCodec"))
       return true;
     return isTransforming(def.in, ctx) || isTransforming(def.out, ctx);
   }
@@ -42579,20 +42555,20 @@ var numberProcessor = (schema, ctx, _json, _params) => {
   if (typeof multipleOf === "number")
     json2.multipleOf = multipleOf;
 };
-var booleanProcessor = (_schema, _ctx, json2, _params) => {
+var booleanProcessor = (_schema2, _ctx, json2, _params) => {
   json2.type = "boolean";
 };
-var bigintProcessor = (_schema, ctx, _json, _params) => {
+var bigintProcessor = (_schema2, ctx, _json, _params) => {
   if (ctx.unrepresentable === "throw") {
     throw new Error("BigInt cannot be represented in JSON Schema");
   }
 };
-var symbolProcessor = (_schema, ctx, _json, _params) => {
+var symbolProcessor = (_schema2, ctx, _json, _params) => {
   if (ctx.unrepresentable === "throw") {
     throw new Error("Symbols cannot be represented in JSON Schema");
   }
 };
-var nullProcessor = (_schema, ctx, json2, _params) => {
+var nullProcessor = (_schema2, ctx, json2, _params) => {
   if (ctx.target === "openapi-3.0") {
     json2.type = "string";
     json2.nullable = true;
@@ -42601,24 +42577,24 @@ var nullProcessor = (_schema, ctx, json2, _params) => {
     json2.type = "null";
   }
 };
-var undefinedProcessor = (_schema, ctx, _json, _params) => {
+var undefinedProcessor = (_schema2, ctx, _json, _params) => {
   if (ctx.unrepresentable === "throw") {
     throw new Error("Undefined cannot be represented in JSON Schema");
   }
 };
-var voidProcessor = (_schema, ctx, _json, _params) => {
+var voidProcessor = (_schema2, ctx, _json, _params) => {
   if (ctx.unrepresentable === "throw") {
     throw new Error("Void cannot be represented in JSON Schema");
   }
 };
-var neverProcessor = (_schema, _ctx, json2, _params) => {
+var neverProcessor = (_schema2, _ctx, json2, _params) => {
   json2.not = {};
 };
-var anyProcessor = (_schema, _ctx, _json, _params) => {
+var anyProcessor = (_schema2, _ctx, _json, _params) => {
 };
-var unknownProcessor = (_schema, _ctx, _json, _params) => {
+var unknownProcessor = (_schema2, _ctx, _json, _params) => {
 };
-var dateProcessor = (_schema, ctx, _json, _params) => {
+var dateProcessor = (_schema2, ctx, _json, _params) => {
   if (ctx.unrepresentable === "throw") {
     throw new Error("Date cannot be represented in JSON Schema");
   }
@@ -42672,7 +42648,7 @@ var literalProcessor = (schema, ctx, json2, _params) => {
     json2.enum = vals;
   }
 };
-var nanProcessor = (_schema, ctx, _json, _params) => {
+var nanProcessor = (_schema2, ctx, _json, _params) => {
   if (ctx.unrepresentable === "throw") {
     throw new Error("NaN cannot be represented in JSON Schema");
   }
@@ -42709,30 +42685,30 @@ var fileProcessor = (schema, _ctx, json2, _params) => {
     Object.assign(_json, file2);
   }
 };
-var successProcessor = (_schema, _ctx, json2, _params) => {
+var successProcessor = (_schema2, _ctx, json2, _params) => {
   json2.type = "boolean";
 };
-var customProcessor = (_schema, ctx, _json, _params) => {
+var customProcessor = (_schema2, ctx, _json, _params) => {
   if (ctx.unrepresentable === "throw") {
     throw new Error("Custom types cannot be represented in JSON Schema");
   }
 };
-var functionProcessor = (_schema, ctx, _json, _params) => {
+var functionProcessor = (_schema2, ctx, _json, _params) => {
   if (ctx.unrepresentable === "throw") {
     throw new Error("Function types cannot be represented in JSON Schema");
   }
 };
-var transformProcessor = (_schema, ctx, _json, _params) => {
+var transformProcessor = (_schema2, ctx, _json, _params) => {
   if (ctx.unrepresentable === "throw") {
     throw new Error("Transforms cannot be represented in JSON Schema");
   }
 };
-var mapProcessor = (_schema, ctx, _json, _params) => {
+var mapProcessor = (_schema2, ctx, _json, _params) => {
   if (ctx.unrepresentable === "throw") {
     throw new Error("Map cannot be represented in JSON Schema");
   }
 };
-var setProcessor = (_schema, ctx, _json, _params) => {
+var setProcessor = (_schema2, ctx, _json, _params) => {
   if (ctx.unrepresentable === "throw") {
     throw new Error("Set cannot be represented in JSON Schema");
   }
@@ -60724,6 +60700,10 @@ var SummaryItemSchema = external_exports.object({
   isDevRelevant: external_exports.boolean().optional()
 });
 var SummaryResponseSchema = external_exports.object({ summaries: external_exports.array(SummaryItemSchema) });
+var { $schema: _schema, ...derived } = external_exports.toJSONSchema(
+  external_exports.object({ summaries: external_exports.array(SummaryItemSchema.required({ summaryEn: true })) })
+);
+var SUMMARY_JSON_SCHEMA = derived;
 var pickSummaryFields = (source) => Object.fromEntries(
   SUMMARY_FIELDS2.filter((field) => (source[field] ?? "").length > 0).map((field) => [
     field,
@@ -60794,7 +60774,8 @@ var requestBatch = async (batch, config2) => {
   try {
     const raw = await config2.client({
       model: config2.model,
-      prompt: buildPrompt(batch, config2.categories)
+      prompt: buildPrompt(batch, config2.categories),
+      responseSchema: SUMMARY_JSON_SCHEMA
     });
     const parsed = SummaryResponseSchema.safeParse(JSON.parse(raw));
     if (parsed.success) return parsed.data.summaries;
