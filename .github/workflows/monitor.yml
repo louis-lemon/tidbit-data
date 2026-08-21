@@ -41,23 +41,10 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Read summaries.json commit age
-        id: summaries
-        run: |
-          set -euo pipefail
-          # 요약 워커(맥)가 죽거나 인증이 만료된 것을 GitHub 쪽에서 감지한다.
-          # 워커가 자기를 감시하면 워커가 죽을 때 감시도 같이 죽는다
-          # (docs/ops/summarizer-macos.md 5장).
-          echo "last=$(git log -1 --format=%cI -- v1/summaries.json)" >> "$GITHUB_OUTPUT"
-
       - name: Run synthetic monitor
         id: check
         env:
           FEED_BASE_URL: ${{ inputs.base_url || 'https://louis-lemon.github.io/tidbit-data' }}
-          SUMMARIES_LAST_COMMIT: ${{ steps.summaries.outputs.last }}
-          # R1-T5(요약 워커)가 배포되면 이 줄을 지운다. 그전까지 이 판정은 영구 실패라
-          # 30분마다 빨간 모니터가 사람을 실패에 둔감하게 만든다.
-          SUMMARIES_CHECK: 'off'
         run: |
           set -o pipefail
           node .github/monitor/monitor.mjs | tee report.md

@@ -14531,6 +14531,7 @@ var CARD_SOURCES = [
   "hn",
   "bundle"
 ];
+var ADMIT_REASONS = ["trending", "new", "notable"];
 var CATEGORY_SLUG_PATTERN = /^[a-z][a-z0-9-]*$/;
 var CARD_ID_PATTERN = new RegExp(`^(?:${CARD_ID_PREFIXES.join("|")}):.+$`);
 var bundleOnlyTypes = BUNDLE_ONLY_CARD_TYPES;
@@ -14572,7 +14573,20 @@ var CardObjectSchema = external_exports.object({
    * 마지막 활동 시각(repo의 push). `publishedAt`과 나뉘어야 8년 된 저장소가 이번 주에 다시
    * 움직였다는 것을 카드가 말할 수 있다 — 둘을 한 칸에 합치면 오래된 것이 새것으로 보인다.
    */
-  updatedAt: external_exports.iso.datetime({ offset: true }).optional()
+  updatedAt: external_exports.iso.datetime({ offset: true }).optional(),
+  /**
+   * **우리가 이 카드를 처음 본 시각.** 누적 풀(D20)의 나이 기준이고 재수집해도 변하지 않는다 —
+   * 갱신하면 매 run마다 모든 카드가 새것이 되어 보존 기간이 영영 만료되지 않는다.
+   *
+   * optional인 것은 **이행 때문이다.** 이 필드가 생기기 전에 발행된 카드가 이미 라이브에 있고,
+   * required로 만들면 수집기가 이전본을 파싱하지 못해 **누적 풀이 통째로 빈 채로 시작한다**
+   * (`빈 이전본으로 진행`이 설계된 경로라 조용히 일어난다). 전량 백필을 확인한 뒤 조인다.
+   */
+  firstSeenAt: external_exports.iso.datetime({ offset: true }).optional(),
+  /** 마지막으로 수집에 잡힌 시각. 보존 기간과 상한 정리(D20)의 기준이다. */
+  lastSeenAt: external_exports.iso.datetime({ offset: true }).optional(),
+  /** 편입 신호 (D21). optional인 이유는 `firstSeenAt`과 같다. */
+  admitReason: external_exports.enum(ADMIT_REASONS).optional()
 });
 var BUNDLE_SOURCE = "bundle";
 var BUNDLE_ID_PREFIX = "kb";
@@ -14659,7 +14673,6 @@ var OverridesFileSchema = external_exports.object({
 
 // src/check.ts
 var MAX_FEED_AGE_HOURS = 8;
-var MAX_SUMMARIES_AGE_HOURS = 6;
 var hoursSince = (iso, now) => (now.getTime() - new Date(iso).getTime()) / 36e5;
 var corsOf = (headers) => headers["access-control-allow-origin"] ?? headers["Access-Control-Allow-Origin"];
 var checkIndex = async (input) => {
@@ -14723,17 +14736,6 @@ var checkFeed = async (input, slug, feedPath, cardCount) => {
     detail: actual === cardCount ? `${actual}\uC7A5` : `\uCE74\uB4DC ${actual}\uC7A5\uC778\uB370 index\uB294 ${cardCount}\uC7A5\uC774\uB77C \uD55C\uB2E4`
   };
 };
-var checkSummariesFreshness = (lastCommit, now) => {
-  if (lastCommit === void 0 || lastCommit.length === 0) {
-    return { name: "\uC694\uC57D \uC6CC\uCEE4", ok: false, detail: "summaries.json\uC5D0 \uCEE4\uBC0B \uC774\uB825\uC774 \uC5C6\uB2E4" };
-  }
-  const age = hoursSince(lastCommit, now);
-  return {
-    name: "\uC694\uC57D \uC6CC\uCEE4",
-    ok: age < MAX_SUMMARIES_AGE_HOURS,
-    detail: age < MAX_SUMMARIES_AGE_HOURS ? `\uB9C8\uC9C0\uB9C9 \uCEE4\uBC0B ${age.toFixed(1)}h \uC804` : `\uB9C8\uC9C0\uB9C9 \uCEE4\uBC0B ${age.toFixed(1)}h \uC804 (\uC0C1\uD55C ${MAX_SUMMARIES_AGE_HOURS}h) \u2014 \uC6CC\uCEE4 \uC0AC\uB9DD\xB7\uC778\uC99D \uB9CC\uB8CC, \uB610\uB294 \uC694\uC57D\uD560 \uCE74\uB4DC\uAC00 \uC5C6\uC5B4 \uCEE4\uBC0B\uC774 \uC5C6\uC5C8\uC744 \uC218 \uC788\uB2E4`
-  };
-};
 var runMonitor = async (input) => {
   const { checks, index } = await checkIndex(input);
   const feedChecks = index === void 0 ? [] : await Promise.all(
@@ -14741,8 +14743,7 @@ var runMonitor = async (input) => {
       async (category) => checkFeed(input, category.slug, category.feedPath, category.cardCount)
     )
   );
-  const summariesChecks = input.skipSummaries === true ? [] : [checkSummariesFreshness(input.summariesLastCommit, input.now)];
-  return [...checks, ...feedChecks, ...summariesChecks];
+  return [...checks, ...feedChecks];
 };
 
 // src/monitor-cli.ts
@@ -14761,15 +14762,10 @@ var httpFetch = async (url2) => {
 };
 var main = async () => {
   const baseUrl = requireEnv("FEED_BASE_URL").replace(/\/$/, "");
-  const summariesLastCommit = process.env.SUMMARIES_LAST_COMMIT;
-  const skipSummaries = process.env.SUMMARIES_CHECK === "off";
-  if (skipSummaries) console.log("> \uC694\uC57D \uC6CC\uCEE4 \uD310\uC815\uC740 \uAEBC\uC838 \uC788\uB2E4 (`SUMMARIES_CHECK=off`, R1-T5 \uB300\uAE30)\n");
   const results = await runMonitor({
     baseUrl,
     now: /* @__PURE__ */ new Date(),
-    fetch: httpFetch,
-    skipSummaries,
-    ...summariesLastCommit !== void 0 && summariesLastCommit.length > 0 && { summariesLastCommit }
+    fetch: httpFetch
   });
   const failed = results.filter((result) => !result.ok);
   console.log(`### \uD569\uC131 \uBAA8\uB2C8\uD130 \u2014 ${baseUrl}
