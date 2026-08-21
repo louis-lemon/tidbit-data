@@ -54,6 +54,10 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          # **알림이 사람에게 닿게 하는 줄이다(G6).** github-actions[bot] 이 연 Issue 는 watch
+          # 설정에 따라 조용히 묻힌다 — 실측 2026-08-21 이전까지 Issue 는 열리는데 메일이 오지
+          # 않았다. assign 은 기본 알림 설정("participating")에 포함되므로 여기서 확실히 닿는다.
+          OWNER: ${{ github.repository_owner }}
         run: |
           set -euo pipefail
           TITLE='합성 모니터 실패'
@@ -68,7 +72,7 @@ jobs:
             gh issue comment "$EXISTING" --body "$BODY"
           else
             gh label create monitor --color B60205 --description '합성 모니터 알림' 2>/dev/null || true
-            gh issue create --title "$TITLE" --label monitor --body "$BODY"
+            gh issue create --title "$TITLE" --label monitor --assignee "$OWNER" --body "$BODY"
           fi
 
       - name: Notify webhook
