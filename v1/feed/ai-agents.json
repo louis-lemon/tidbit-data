@@ -1,9 +1,34 @@
 {
   "version": 1,
   "category": "ai-agents",
-  "generatedAt": "2026-08-22T12:41:49.365Z",
+  "generatedAt": "2026-08-22T15:22:55.161Z",
   "ttlSeconds": 10800,
   "cards": [
+    {
+      "id": "gh:openai/codex",
+      "type": "repo",
+      "title": "openai/codex",
+      "summaryOriginal": "Lightweight coding agent that runs in your terminal",
+      "url": "https://github.com/openai/codex",
+      "lang": "Rust",
+      "tags": [],
+      "metrics": {
+        "stars": 112464,
+        "starsDelta": 4159
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "Lightweight coding agent that runs directly in your terminal for development assistance.",
+      "summaryKo": "터미널에서 직접 실행되어 개발을 지원하는 경량 코딩 에이전트.",
+      "reasonEn": "High developer interest in terminal-based AI coding agents",
+      "reasonKo": "터미널 기반 AI 코딩 에이전트에 대한 높은 개발자 관심",
+      "categories": [
+        "ai-agents",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-22T15:22:55.161Z",
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
+    },
     {
       "id": "gh:mattpocock/skills",
       "type": "repo",
@@ -13,7 +38,7 @@
       "lang": "Shell",
       "tags": [],
       "metrics": {
-        "stars": 230813,
+        "stars": 231190,
         "starsDelta": 2684
       },
       "source": "github-trending",
@@ -24,7 +49,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-19T15:33:13.943Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "gh:obra/superpowers",
@@ -35,7 +60,7 @@
       "lang": "Shell",
       "tags": [],
       "metrics": {
-        "stars": 275902,
+        "stars": 275984,
         "starsDelta": 592
       },
       "source": "github-trending",
@@ -46,29 +71,136 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-19T15:33:13.943Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
-      "id": "gh:apache/maka",
+      "id": "gh:anthropics/claude-code",
       "type": "repo",
-      "title": "apache/maka",
-      "summaryOriginal": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
-      "url": "https://github.com/apache/maka",
-      "lang": "TypeScript",
+      "title": "anthropics/claude-code",
+      "summaryOriginal": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "url": "https://github.com/anthropics/claude-code",
+      "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 2146,
-        "starsDelta": 148
+        "stars": 142397,
+        "starsDelta": 141
       },
       "source": "github-trending",
       "admitReason": "trending",
-      "summaryEn": "Apache Maka is a local-first AI agent workspace with append-only logging for tool calls, permissions, and events.",
-      "summaryKo": "도구 호출과 권한, 이벤트를 로그로 기록하는 로컬 우선 AI 에이전트 워크스페이스입니다.",
+      "summaryEn": "Agentic coding tool in your terminal that understands codebases and handles routine tasks via natural language.",
+      "summaryKo": "코드베이스를 이해하고 터미널에서 자연어로 반복 작업을 처리하는 에이전틱 코딩 도구.",
+      "reasonEn": "Widely adopted terminal agent for automated development workflows",
+      "reasonKo": "자동화된 개발 워크플로우를 위한 널리 쓰이는 터미널 에이전트",
       "categories": [
+        "ai-agents",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-22T15:22:55.161Z",
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
+    },
+    {
+      "id": "gh:Tencent/AI-Infra-Guard",
+      "type": "repo",
+      "title": "Tencent/AI-Infra-Guard",
+      "summaryOriginal": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
+      "url": "https://github.com/Tencent/AI-Infra-Guard",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "stars": 5389,
+        "starsDelta": 161
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "Full-stack AI red teaming platform for securing AI ecosystems through agent scanning, skills evaluation, MCP scanning, and LLM jailbreak testing.",
+      "summaryKo": "에이전트 스캔, 스킬 평가, MCP 스캔, LLM 탈옥 테스트를 통해 AI 생태계를 보호하는 종합 AI 보안 테스팅 플랫폼입니다.",
+      "categories": [
+        "ai-models",
         "ai-agents"
       ],
-      "firstSeenAt": "2026-08-22T01:19:03.673Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "firstSeenAt": "2026-08-20T12:53:13.611Z",
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
+    },
+    {
+      "id": "gh:affaan-m/ECC",
+      "type": "repo",
+      "title": "affaan-m/ECC",
+      "summaryOriginal": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "url": "https://github.com/affaan-m/ECC",
+      "lang": "JavaScript",
+      "tags": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "metrics": {
+        "stars": 242033
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2026-01-18T00:51:51Z",
+      "updatedAt": "2026-08-21T03:02:03Z",
+      "summaryEn": "Agent harness optimization system for Claude Code and other coding agents covering skills, memory, and security.",
+      "summaryKo": "Claude Code 및 코딩 에이전트 최적화 시스템.",
+      "categories": [
+        "ai-agents",
+        "engineering",
+        "ai-models",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
+    },
+    {
+      "id": "gh:n8n-io/n8n",
+      "type": "repo",
+      "title": "n8n-io/n8n",
+      "summaryOriginal": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "url": "https://github.com/n8n-io/n8n",
+      "lang": "TypeScript",
+      "tags": [
+        "ai",
+        "apis",
+        "automation",
+        "cli",
+        "data-flow",
+        "development",
+        "integration-framework",
+        "integrations",
+        "ipaas",
+        "low-code",
+        "low-code-platform",
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "n8n",
+        "no-code",
+        "self-hosted",
+        "typescript",
+        "workflow",
+        "workflow-automation"
+      ],
+      "metrics": {
+        "stars": 201641
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2019-06-22T09:24:21Z",
+      "updatedAt": "2026-08-22T15:14:15Z",
+      "summaryEn": "Workflow automation platform with visual UI and custom code support, 400+ integrations, native AI capabilities. Open-source, self-hostable.",
+      "categories": [
+        "infra",
+        "ai-agents",
+        "web",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-22T15:22:55.161Z",
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "gh:PostHog/posthog",
@@ -95,12 +227,12 @@
         "web-analytics"
       ],
       "metrics": {
-        "stars": 38433
+        "stars": 38483
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2020-01-23T22:46:58Z",
-      "updatedAt": "2026-08-22T12:43:06Z",
+      "updatedAt": "2026-08-22T15:14:04Z",
       "summaryEn": "All-in-one product analytics platform featuring AI observability, session replay, feature flags, experiments, and error tracking for developer tools.",
       "summaryKo": "AI 옵저버빌리티, 세션 리플레이, 기능 플래그, A/B 테스트, 오류 추적 등을 포함한 통합 제품 분석 플랫폼입니다.",
       "categories": [
@@ -110,87 +242,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-20T12:53:13.611Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
-    },
-    {
-      "id": "gh:affaan-m/ECC",
-      "type": "repo",
-      "title": "affaan-m/ECC",
-      "summaryOriginal": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "url": "https://github.com/affaan-m/ECC",
-      "lang": "JavaScript",
-      "tags": [
-        "ai-agents",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "developer-tools",
-        "llm",
-        "mcp",
-        "productivity"
-      ],
-      "metrics": {
-        "stars": 241980
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2026-01-18T00:51:51Z",
-      "updatedAt": "2026-08-21T03:02:03Z",
-      "summaryEn": "Agent harness optimization system for Claude Code and other coding agents covering skills, memory, and security.",
-      "summaryKo": "Claude Code 및 코딩 에이전트 최적화 시스템.",
-      "categories": [
-        "ai-agents",
-        "engineering",
-        "ai-models",
-        "devtools"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
-    },
-    {
-      "id": "gh:ruvnet/ruflo",
-      "type": "repo",
-      "title": "ruvnet/ruflo",
-      "summaryOriginal": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-      "url": "https://github.com/ruvnet/ruflo",
-      "lang": "TypeScript",
-      "tags": [
-        "agentic-ai",
-        "agentic-framework",
-        "agentic-workflow",
-        "agents",
-        "ai-agents",
-        "ai-assistant",
-        "ai-skills",
-        "autonomous-agents",
-        "claude-code",
-        "codex",
-        "dsh-plugin",
-        "harness",
-        "mcp-server",
-        "multi-agent",
-        "multi-agent-systems",
-        "npm",
-        "skills",
-        "swarm",
-        "swarm-intelligence",
-        "typescript"
-      ],
-      "metrics": {
-        "stars": 68804
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2025-06-02T21:24:20Z",
-      "updatedAt": "2026-08-21T15:23:37Z",
-      "summaryEn": "Multi-agent swarm framework with adaptive memory, RAG integration, and support for Claude Code, Codex, and Hermes agents.",
-      "categories": [
-        "ai-agents",
-        "infra",
-        "web"
-      ],
-      "firstSeenAt": "2026-08-22T01:19:03.673Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "gh:stablyai/orca",
@@ -220,12 +272,12 @@
         "yc-backed"
       ],
       "metrics": {
-        "stars": 50983
+        "stars": 51066
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-03-17T03:28:57Z",
-      "updatedAt": "2026-08-22T12:37:58Z",
+      "updatedAt": "2026-08-22T14:35:18Z",
       "summaryEn": "An IDE for running many coding agents in parallel with your own subscriptions, on desktop, mobile, or VPS.",
       "summaryKo": "여러 코딩 에이전트를 병렬 실행하는 IDE. 데스크톱·모바일·VPS 지원, 자기 구독 사용.",
       "categories": [
@@ -233,7 +285,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "gh:ayghri/i-have-adhd",
@@ -251,7 +303,7 @@
         "productivity"
       ],
       "metrics": {
-        "stars": 23102
+        "stars": 23132
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -264,7 +316,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-19T09:35:40.383Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "gh:elie222/rakazo",
@@ -285,7 +337,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 1101
+        "stars": 1110
       },
       "source": "github-search",
       "admitReason": "new",
@@ -300,7 +352,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "gh:0xsline/awesome-deepseek-harness",
@@ -330,7 +382,7 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 813
+        "stars": 820
       },
       "source": "github-search",
       "admitReason": "new",
@@ -344,7 +396,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "gh:Leonxlnx/unlazy",
@@ -363,7 +415,7 @@
         "skill"
       ],
       "metrics": {
-        "stars": 776
+        "stars": 815
       },
       "source": "github-search",
       "admitReason": "new",
@@ -378,7 +430,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "gh:Electricitysheep/dsh-handbook",
@@ -402,7 +454,7 @@
         "tutorial"
       ],
       "metrics": {
-        "stars": 618
+        "stars": 622
       },
       "source": "github-search",
       "admitReason": "new",
@@ -415,7 +467,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "gh:wanshuiyin/HERO-Anti-OverDefense",
@@ -440,7 +492,7 @@
         "windsurf"
       ],
       "metrics": {
-        "stars": 292
+        "stars": 293
       },
       "source": "github-search",
       "admitReason": "new",
@@ -453,7 +505,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "gh:seyedehsanhadi/sloptrim",
@@ -499,7 +551,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "gh:Dominic789654/awesome-deepseek-harness",
@@ -536,7 +588,7 @@
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-13T13:54:05Z",
-      "updatedAt": "2026-08-22T12:38:16Z",
+      "updatedAt": "2026-08-22T14:41:45Z",
       "summaryEn": "Curated list of plugins, skills, MCP servers, and orchestrators for DeepSeek Harness (DSH).",
       "summaryKo": "DeepSeek Harness(DSH)용 플러그인·스킬·MCP 서버·오케스트레이터 큐레이션 목록.",
       "categories": [
@@ -544,89 +596,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
-    },
-    {
-      "id": "gh:bradeGithub/DSH-Plugins-Marketplace",
-      "type": "repo",
-      "title": "bradeGithub/DSH-Plugins-Marketplace",
-      "summaryOriginal": "DSH插件市场 / DSH Plugin Marketplace: 在 DeepSeek Harness Web GUI 中一键浏览、安装与更新 GitHub topic:dsh-plugin 的全部插件 | browse, install & update all GitHub dsh-plugin plugins in the DSH Web GUI",
-      "url": "https://github.com/bradeGithub/DSH-Plugins-Marketplace",
-      "lang": "JavaScript",
-      "tags": [
-        "agent",
-        "ai-agents",
-        "cordis",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "javascript",
-        "llm",
-        "marketplace",
-        "nodejs",
-        "plugin",
-        "plugin-marketplace"
-      ],
-      "metrics": {
-        "stars": 136
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-08-13T16:01:59Z",
-      "updatedAt": "2026-08-22T10:58:20Z",
-      "summaryEn": "Marketplace to browse, install, and update DeepSeek Harness plugins directly from its web GUI.",
-      "summaryKo": "DeepSeek Harness 웹 GUI에서 dsh 플러그인을 찾아 설치·업데이트하는 마켓플레이스.",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
-    },
-    {
-      "id": "gh:memoket/memoket-kite",
-      "type": "repo",
-      "title": "memoket/memoket-kite",
-      "summaryOriginal": "An open-source, vector-free long-term memory engine for AI agents, achieving SOTA on LoCoMo and LongMemEval with significantly less context.",
-      "url": "https://github.com/memoket/memoket-kite",
-      "lang": "Python",
-      "tags": [
-        "agent-memory",
-        "agents",
-        "ai",
-        "ai-agents",
-        "ai-memory",
-        "chatbot",
-        "genai",
-        "knowledge-management",
-        "llm",
-        "llm-memory",
-        "locomo",
-        "long-term-memory",
-        "longmemeval",
-        "memory",
-        "memory-engine",
-        "memory-layer",
-        "memory-management",
-        "python",
-        "rag",
-        "retrieval"
-      ],
-      "metrics": {
-        "stars": 129
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-08-12T03:19:07Z",
-      "updatedAt": "2026-08-21T02:10:16Z",
-      "summaryEn": "Vector-free long-term memory engine for AI agents, hitting SOTA on LoCoMo and LongMemEval with less context.",
-      "summaryKo": "벡터 없는 AI 에이전트 장기 기억 엔진. LoCoMo·LongMemEval에서 SOTA, 컨텍스트 사용량 적음.",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-22T09:28:16.052Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "gh:agentrhq/webcmd",
@@ -652,7 +622,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-22T09:28:16.052Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "gh:citrolabs/ego-lite",
@@ -679,7 +649,7 @@
         "engineering"
       ],
       "firstSeenAt": "2026-08-19T09:35:40.383Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "gh:HiThink-Tech/Financial-API",
@@ -705,7 +675,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-22T09:28:16.052Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "gh:volcengine/OpenViking",
@@ -727,7 +697,7 @@
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "gh:FailproofAI/failproofai",
@@ -752,7 +722,7 @@
         "backend"
       ],
       "firstSeenAt": "2026-08-22T09:28:16.052Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "gh:freestylefly/awesome-gpt-image-2",
@@ -776,7 +746,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-22T09:28:16.052Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "gh:ifixai-ai/iFixAi",
@@ -800,7 +770,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "gh:akitaonrails/ai-memory",
@@ -824,7 +794,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "gh:chaitanyagiri/munder-difflin",
@@ -846,7 +816,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "gh:blader/humanizer",
@@ -870,7 +840,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "hf-model:Qwen/Qwen3.8-27B",
@@ -892,9 +862,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 12054,
+        "likes": 12075,
         "downloads": 2090699,
-        "trendingScore": 2194
+        "trendingScore": 2114
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -908,7 +878,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "hf-model:unsloth/Qwen3.8-27B-GGUF",
@@ -929,9 +899,9 @@
         "conversational"
       ],
       "metrics": {
-        "likes": 2572,
+        "likes": 2583,
         "downloads": 6320542,
-        "trendingScore": 1414
+        "trendingScore": 1360
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -945,7 +915,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "hf-model:orcarouter/Qwen3.8-27B-Uncensored-FP8",
@@ -980,9 +950,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 926,
+        "likes": 944,
         "downloads": 142846,
-        "trendingScore": 761
+        "trendingScore": 736
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -996,7 +966,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "hf-model:orcarouter/Qwen3.8-27B-Uncensored-MLX",
@@ -1032,9 +1002,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 851,
+        "likes": 859,
         "downloads": 34909,
-        "trendingScore": 703
+        "trendingScore": 707
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1045,52 +1015,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-19T15:33:13.943Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
-    },
-    {
-      "id": "hf-model:JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-      "type": "model",
-      "title": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-      "summaryOriginal": "text-generation model · llama.cpp, gguf, uncensored, qwen3.8, mtp",
-      "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-      "lang": "text-generation",
-      "tags": [
-        "llama.cpp",
-        "gguf",
-        "uncensored",
-        "qwen3.8",
-        "mtp",
-        "speculative-decoding",
-        "imatrix",
-        "quantized",
-        "text-generation",
-        "en",
-        "zh",
-        "base_model:Qwen/Qwen3.8-27B",
-        "base_model:quantized:Qwen/Qwen3.8-27B",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "metrics": {
-        "likes": 596,
-        "downloads": 1223422,
-        "trendingScore": 463
-      },
-      "source": "hf-models",
-      "admitReason": "trending",
-      "publishedAt": "2026-08-14T03:43:36.000Z",
-      "summaryEn": "GGUF-quantized Qwen 3.8 27B text generation model optimized for llama.cpp inference with speculative decoding support.",
-      "summaryKo": "llama.cpp용으로 최적화된 GGUF 양자화 Qwen 3.8 27B 텍스트 생성 모델, 추론 추측 지원.",
-      "reasonEn": "766K+ downloads, trending with speculative decoding optimizations.",
-      "reasonKo": "76만+ 다운로드, 추론 최적화로 인기 중.",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-19T18:38:04.622Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "hf-model:OBLITERATUS/Qwen3.8-27B-OBLITERATED",
@@ -1120,9 +1045,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 487,
+        "likes": 499,
         "downloads": 164950,
-        "trendingScore": 448
+        "trendingScore": 457
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1136,7 +1061,96 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-21T12:51:22.781Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
+    },
+    {
+      "id": "hf-model:JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+      "type": "model",
+      "title": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+      "summaryOriginal": "text-generation model · llama.cpp, gguf, uncensored, qwen3.8, mtp",
+      "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+      "lang": "text-generation",
+      "tags": [
+        "llama.cpp",
+        "gguf",
+        "uncensored",
+        "qwen3.8",
+        "mtp",
+        "speculative-decoding",
+        "imatrix",
+        "quantized",
+        "text-generation",
+        "en",
+        "zh",
+        "base_model:Qwen/Qwen3.8-27B",
+        "base_model:quantized:Qwen/Qwen3.8-27B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "metrics": {
+        "likes": 603,
+        "downloads": 1223422,
+        "trendingScore": 450
+      },
+      "source": "hf-models",
+      "admitReason": "trending",
+      "publishedAt": "2026-08-14T03:43:36.000Z",
+      "summaryEn": "GGUF-quantized Qwen 3.8 27B text generation model optimized for llama.cpp inference with speculative decoding support.",
+      "summaryKo": "llama.cpp용으로 최적화된 GGUF 양자화 Qwen 3.8 27B 텍스트 생성 모델, 추론 추측 지원.",
+      "reasonEn": "766K+ downloads, trending with speculative decoding optimizations.",
+      "reasonKo": "76만+ 다운로드, 추론 최적화로 인기 중.",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-08-19T18:38:04.622Z",
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
+    },
+    {
+      "id": "hf-model:HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+      "type": "model",
+      "title": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+      "summaryOriginal": "image-text-to-text model · gguf, uncensored, qwen3.8, multimodal, vision",
+      "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+      "lang": "image-text-to-text",
+      "tags": [
+        "gguf",
+        "uncensored",
+        "qwen3.8",
+        "multimodal",
+        "vision",
+        "mtp",
+        "speculative-decoding",
+        "fastmtp",
+        "image-text-to-text",
+        "en",
+        "zh",
+        "multilingual",
+        "base_model:Qwen/Qwen3.8-27B",
+        "base_model:quantized:Qwen/Qwen3.8-27B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "metrics": {
+        "likes": 468,
+        "downloads": 486221,
+        "trendingScore": 430
+      },
+      "source": "hf-models",
+      "admitReason": "trending",
+      "publishedAt": "2026-08-17T15:15:19.000Z",
+      "summaryEn": "Quantized multimodal image-text model (27B) in GGUF format; uncensored variant optimized for vision+language tasks with speculative decoding.",
+      "summaryKo": "GGUF 형식의 양자화된 멀티모달 이미지-텍스트 모델(27B); 추측 디코딩으로 최적화된 검열 해제 변형.",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-08-21T01:23:34.400Z",
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "hf-model:Lightricks/LTX-2.5",
@@ -1176,9 +1190,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1530,
+        "likes": 1541,
         "downloads": 694670,
-        "trendingScore": 420
+        "trendingScore": 419
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1192,51 +1206,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
-    },
-    {
-      "id": "hf-model:HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
-      "type": "model",
-      "title": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
-      "summaryOriginal": "image-text-to-text model · gguf, uncensored, qwen3.8, multimodal, vision",
-      "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
-      "lang": "image-text-to-text",
-      "tags": [
-        "gguf",
-        "uncensored",
-        "qwen3.8",
-        "multimodal",
-        "vision",
-        "mtp",
-        "speculative-decoding",
-        "fastmtp",
-        "image-text-to-text",
-        "en",
-        "zh",
-        "multilingual",
-        "base_model:Qwen/Qwen3.8-27B",
-        "base_model:quantized:Qwen/Qwen3.8-27B",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "metrics": {
-        "likes": 455,
-        "downloads": 486221,
-        "trendingScore": 418
-      },
-      "source": "hf-models",
-      "admitReason": "trending",
-      "publishedAt": "2026-08-17T15:15:19.000Z",
-      "summaryEn": "Quantized multimodal image-text model (27B) in GGUF format; uncensored variant optimized for vision+language tasks with speculative decoding.",
-      "summaryKo": "GGUF 형식의 양자화된 멀티모달 이미지-텍스트 모델(27B); 추측 디코딩으로 최적화된 검열 해제 변형.",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-21T01:23:34.400Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "hf-model:MiniMaxAI/MiniMax-Music3",
@@ -1257,9 +1227,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1169,
+        "likes": 1174,
         "downloads": 16644,
-        "trendingScore": 403
+        "trendingScore": 393
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1273,7 +1243,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "hf-model:ornith-ai/Ornith-1.5-35B-A3B",
@@ -1295,9 +1265,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 306,
+        "likes": 310,
         "downloads": 12611,
-        "trendingScore": 300
+        "trendingScore": 304
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1309,7 +1279,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-22T12:41:49.365Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "hf-paper:2608.17744",
@@ -1332,7 +1302,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-22T01:19:03.673Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "hf-paper:2608.19799",
@@ -1356,7 +1326,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-21T09:38:23.718Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "hf-paper:2608.19758",
@@ -1368,7 +1338,7 @@
       "metrics": {
         "upvotes": 14,
         "comments": 2,
-        "githubStars": 2
+        "githubStars": 5
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-20T08:02:55.000Z",
@@ -1380,7 +1350,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-22T01:19:03.673Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "hf-paper:2608.13120",
@@ -1403,7 +1373,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-21T09:38:23.718Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "hf-paper:2608.19854",
@@ -1413,7 +1383,7 @@
       "url": "https://huggingface.co/papers/2608.19854",
       "tags": [],
       "metrics": {
-        "upvotes": 16,
+        "upvotes": 17,
         "comments": 2
       },
       "source": "hf-papers",
@@ -1426,7 +1396,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-21T15:35:08.741Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "hf-paper:2608.20281",
@@ -1449,7 +1419,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-22T03:43:28.978Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "hf-paper:2608.20335",
@@ -1459,9 +1429,9 @@
       "url": "https://huggingface.co/papers/2608.20335",
       "tags": [],
       "metrics": {
-        "upvotes": 62,
+        "upvotes": 63,
         "comments": 7,
-        "githubStars": 221
+        "githubStars": 280
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-20T00:00:00.000Z",
@@ -1473,7 +1443,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-21T03:40:04.140Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "hf-paper:2608.20202",
@@ -1497,7 +1467,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-21T03:40:04.140Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "hn:49241679",
@@ -1513,16 +1483,16 @@
       "source": "hn",
       "publishedAt": "2026-08-10T10:10:02Z",
       "admitReason": "notable",
-      "summaryEn": "Muse Glimmer is a 30B parameter model fine-tuned for running continuous, local AI agent workflows efficiently.",
-      "summaryKo": "Muse Glimmer는 상시 로컬 AI 에이전트 워크플로우에 최적화된 30B 파라미터 모델.",
-      "reasonEn": "Release of a new local agent-focused LLM",
-      "reasonKo": "로컬 에이전트 중심의 새 LLM 출시",
+      "summaryEn": "A 30-billion parameter model tuned specifically to power always-on local AI agent workflows efficiently.",
+      "summaryKo": "상시 작동하는 로컬 AI 에이전트 워크플로우에 최적화된 30B 파라미터 모델.",
+      "reasonEn": "High interest in local models built for agent automation.",
+      "reasonKo": "에이전트 자동화용 로컬 모델에 대한 높은 관심.",
       "categories": [
         "ai-models",
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-19T01:42:27.269Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "hn:49239751",
@@ -1538,16 +1508,16 @@
       "source": "hn",
       "publishedAt": "2026-08-10T06:02:38Z",
       "admitReason": "notable",
-      "summaryEn": "Docker Sandboxes provide lightweight, isolated execution environments specifically designed for safe AI agent operations.",
-      "summaryKo": "Docker 샌드박스는 AI 에이전트의 안전한 실행을 위해 격리된 경량 실행 환경을 제공.",
-      "reasonEn": "New tool for isolated agent execution",
-      "reasonKo": "격리된 에이전트 실행을 위한 새로운 도구",
+      "summaryEn": "Provides disposable, isolated container sandboxes designed specifically to safely execute code generated by AI agents.",
+      "summaryKo": "AI 에이전트가 생성한 코드를 안전하게 실행하기 위한 격리된 일회용 컨테이너 샌드박스.",
+      "reasonEn": "Addresses critical security needs for running autonomous AI agents.",
+      "reasonKo": "자율 AI 에이전트 실행을 위한 핵심 보안 요구 해결.",
       "categories": [
-        "ai-agents",
-        "infra"
+        "infra",
+        "ai-agents"
       ],
       "firstSeenAt": "2026-08-22T12:41:49.365Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "hn:49126604",
@@ -1563,15 +1533,41 @@
       "source": "hn",
       "publishedAt": "2026-07-31T18:04:58Z",
       "admitReason": "notable",
-      "summaryEn": "An overview of qm, a collaborative harness designed to coordinate multiple AI agents for complex engineering tasks.",
-      "summaryKo": "복잡한 엔지니어링 작업을 위해 여러 AI 에이전트를 조율하는 협업 하네스 qm 소개.",
-      "reasonEn": "Trending multi-agent harness project",
-      "reasonKo": "트렌딩 멀티 에이전트 하네스 프로젝트",
+      "summaryEn": "A collaborative harness designed to coordinate multiple autonomous AI agents on complex engineering tasks.",
+      "summaryKo": "복잡한 엔지니어링 작업을 위해 여러 자율 AI 에이전트를 조율하는 협업 프레임워크.",
+      "reasonEn": "Trending discussion on multi-agent collaboration tools.",
+      "reasonKo": "멀티 에이전트 협업 도구에 대한 활발한 논의.",
       "categories": [
-        "ai-agents"
+        "ai-agents",
+        "devtools"
       ],
       "firstSeenAt": "2026-08-19T01:42:27.269Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
+    },
+    {
+      "id": "hn:49182996",
+      "type": "article",
+      "title": "Cloudflare OS: an open platform for agents, apps, and work",
+      "summaryOriginal": "Cloudflare OS: an open platform for agents, apps, and work",
+      "url": "https://blog.cloudflare.com/cloudflare-os/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 668,
+        "comments": 330
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-05T13:58:53Z",
+      "admitReason": "notable",
+      "summaryEn": "Cloudflare's unified platform offering edge infrastructure for deploying agents, web applications, and background work.",
+      "summaryKo": "에이전트, 웹 애플리케이션, 백그라운드 작업을 배포하는 클라우드플레어의 에지 인프라 플랫폼.",
+      "reasonEn": "Major infrastructure announcement for serverless agent hosting.",
+      "reasonKo": "서버리스 에이전트 호스팅을 위한 주요 인프라 발표.",
+      "categories": [
+        "infra",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-08-22T15:22:55.161Z",
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
       "id": "hn:49038060",
@@ -1587,40 +1583,164 @@
       "source": "hn",
       "publishedAt": "2026-07-24T16:33:31Z",
       "admitReason": "notable",
-      "summaryEn": "A critical look at the narrative surrounding OpenAI's demonstration of autonomous rogue hacker AI agents.",
-      "summaryKo": "OpenAI의 자율 해커 AI 에이전트 시연 서사에 대한 비판적 분석.",
-      "reasonEn": "Debate over AI safety and marketing claims",
-      "reasonKo": "AI 안전성과 마케팅 주장에 대한 논쟁",
+      "summaryEn": "Critiques sensationalized narratives around OpenAI's autonomous hacker agent demonstrations and highlights limitations.",
+      "summaryKo": "OpenAI의 자율 해커 에이전트 시연에 대한 과장된 내러티브를 비판하고 한계를 지적합니다.",
+      "reasonEn": "S르케이스화된 AI 능력에 대한 건강한 회의론 제기.",
+      "reasonKo": "과장된 AI 능력에 대한 건강한 회의론 제기.",
       "categories": [
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-19T03:48:08.240Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T15:22:55.161Z"
     },
     {
-      "id": "hn:49246804",
-      "type": "article",
-      "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
-      "summaryOriginal": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
-      "url": "https://cactuscompute.com/needle",
+      "id": "gh:apache/maka",
+      "type": "repo",
+      "categories": [
+        "ai-agents"
+      ],
+      "title": "apache/maka",
+      "summaryEn": "Apache Maka is a local-first AI agent workspace with append-only logging for tool calls, permissions, and events.",
+      "summaryKo": "도구 호출과 권한, 이벤트를 로그로 기록하는 로컬 우선 AI 에이전트 워크스페이스입니다.",
+      "summaryOriginal": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "url": "https://github.com/apache/maka",
+      "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "upvotes": 536,
-        "comments": 185
+        "stars": 2146,
+        "starsDelta": 148
       },
-      "source": "hn",
-      "publishedAt": "2026-08-10T17:22:07Z",
-      "admitReason": "notable",
-      "summaryEn": "Needle2 is a 14MB agentic LLM designed to run locally on resource-constrained devices like phones, wearables, and IoT hardware.",
-      "summaryKo": "모바일 및 웨어러블 기기를 위한 14MB 초경량 에이전틱 LLM입니다.",
-      "reasonEn": "Lightweight on-device AI running on small hardware.",
-      "reasonKo": "소형 하드웨어에서 구동되는 온디바이스 AI",
+      "source": "github-trending",
+      "firstSeenAt": "2026-08-22T01:19:03.673Z",
+      "lastSeenAt": "2026-08-22T12:41:49.365Z",
+      "admitReason": "trending"
+    },
+    {
+      "id": "gh:ruvnet/ruflo",
+      "type": "repo",
+      "categories": [
+        "ai-agents",
+        "infra",
+        "web"
+      ],
+      "title": "ruvnet/ruflo",
+      "summaryEn": "Multi-agent swarm framework with adaptive memory, RAG integration, and support for Claude Code, Codex, and Hermes agents.",
+      "summaryOriginal": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "url": "https://github.com/ruvnet/ruflo",
+      "lang": "TypeScript",
+      "tags": [
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-workflow",
+        "agents",
+        "ai-agents",
+        "ai-assistant",
+        "ai-skills",
+        "autonomous-agents",
+        "claude-code",
+        "codex",
+        "dsh-plugin",
+        "harness",
+        "mcp-server",
+        "multi-agent",
+        "multi-agent-systems",
+        "npm",
+        "skills",
+        "swarm",
+        "swarm-intelligence",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 68804
+      },
+      "source": "github-search",
+      "publishedAt": "2025-06-02T21:24:20Z",
+      "updatedAt": "2026-08-21T15:23:37Z",
+      "firstSeenAt": "2026-08-22T01:19:03.673Z",
+      "lastSeenAt": "2026-08-22T12:41:49.365Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:bradeGithub/DSH-Plugins-Marketplace",
+      "type": "repo",
       "categories": [
         "ai-models",
         "ai-agents"
       ],
+      "title": "bradeGithub/DSH-Plugins-Marketplace",
+      "summaryEn": "Marketplace to browse, install, and update DeepSeek Harness plugins directly from its web GUI.",
+      "summaryKo": "DeepSeek Harness 웹 GUI에서 dsh 플러그인을 찾아 설치·업데이트하는 마켓플레이스.",
+      "summaryOriginal": "DSH插件市场 / DSH Plugin Marketplace: 在 DeepSeek Harness Web GUI 中一键浏览、安装与更新 GitHub topic:dsh-plugin 的全部插件 | browse, install & update all GitHub dsh-plugin plugins in the DSH Web GUI",
+      "url": "https://github.com/bradeGithub/DSH-Plugins-Marketplace",
+      "lang": "JavaScript",
+      "tags": [
+        "agent",
+        "ai-agents",
+        "cordis",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "javascript",
+        "llm",
+        "marketplace",
+        "nodejs",
+        "plugin",
+        "plugin-marketplace"
+      ],
+      "metrics": {
+        "stars": 136
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-13T16:01:59Z",
+      "updatedAt": "2026-08-22T10:58:20Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-22T12:41:49.365Z",
+      "admitReason": "new"
+    },
+    {
+      "id": "gh:memoket/memoket-kite",
+      "type": "repo",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "title": "memoket/memoket-kite",
+      "summaryEn": "Vector-free long-term memory engine for AI agents, hitting SOTA on LoCoMo and LongMemEval with less context.",
+      "summaryKo": "벡터 없는 AI 에이전트 장기 기억 엔진. LoCoMo·LongMemEval에서 SOTA, 컨텍스트 사용량 적음.",
+      "summaryOriginal": "An open-source, vector-free long-term memory engine for AI agents, achieving SOTA on LoCoMo and LongMemEval with significantly less context.",
+      "url": "https://github.com/memoket/memoket-kite",
+      "lang": "Python",
+      "tags": [
+        "agent-memory",
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "chatbot",
+        "genai",
+        "knowledge-management",
+        "llm",
+        "llm-memory",
+        "locomo",
+        "long-term-memory",
+        "longmemeval",
+        "memory",
+        "memory-engine",
+        "memory-layer",
+        "memory-management",
+        "python",
+        "rag",
+        "retrieval"
+      ],
+      "metrics": {
+        "stars": 129
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-12T03:19:07Z",
+      "updatedAt": "2026-08-21T02:10:16Z",
       "firstSeenAt": "2026-08-22T09:28:16.052Z",
-      "lastSeenAt": "2026-08-22T12:41:49.365Z"
+      "lastSeenAt": "2026-08-22T12:41:49.365Z",
+      "admitReason": "new"
     },
     {
       "id": "gh:NousResearch/hermes-agent",
@@ -2113,29 +2233,6 @@
       "metrics": {
         "stars": 1579,
         "starsDelta": 245
-      },
-      "source": "github-trending",
-      "firstSeenAt": "2026-08-20T12:53:13.611Z",
-      "lastSeenAt": "2026-08-21T21:26:14.378Z",
-      "admitReason": "trending"
-    },
-    {
-      "id": "gh:Tencent/AI-Infra-Guard",
-      "type": "repo",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "Tencent/AI-Infra-Guard",
-      "summaryEn": "Full-stack AI red teaming platform for securing AI ecosystems through agent scanning, skills evaluation, MCP scanning, and LLM jailbreak testing.",
-      "summaryKo": "에이전트 스캔, 스킬 평가, MCP 스캔, LLM 탈옥 테스트를 통해 AI 생태계를 보호하는 종합 AI 보안 테스팅 플랫폼입니다.",
-      "summaryOriginal": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
-      "url": "https://github.com/Tencent/AI-Infra-Guard",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "stars": 5329,
-        "starsDelta": 435
       },
       "source": "github-trending",
       "firstSeenAt": "2026-08-20T12:53:13.611Z",
