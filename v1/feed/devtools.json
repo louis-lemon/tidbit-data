@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "devtools",
-  "generatedAt": "2026-08-23T09:29:14.266Z",
+  "generatedAt": "2026-08-23T12:42:30.740Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,7 +13,7 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 114427,
+        "stars": 114723,
         "starsDelta": 1544
       },
       "source": "github-trending",
@@ -27,32 +27,53 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-22T15:22:55.161Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
-      "id": "gh:anthropics/claude-code",
+      "id": "gh:Alishahryar1/free-claude-code",
       "type": "repo",
-      "title": "anthropics/claude-code",
-      "summaryOriginal": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "url": "https://github.com/anthropics/claude-code",
+      "title": "Alishahryar1/free-claude-code",
+      "summaryOriginal": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 142683,
-        "starsDelta": 127
+        "stars": 47590,
+        "starsDelta": 1040
       },
       "source": "github-trending",
       "admitReason": "trending",
-      "summaryEn": "Agentic coding tool in your terminal that understands codebases and handles routine tasks via natural language.",
-      "summaryKo": "코드베이스를 이해하고 터미널에서 자연어로 반복 작업을 처리하는 에이전틱 코딩 도구.",
-      "reasonEn": "Widely adopted terminal agent for automated development workflows",
-      "reasonKo": "자동화된 개발 워크플로우를 위한 널리 쓰이는 터미널 에이전트",
+      "summaryEn": "Tool to use Claude Code, Codex, and other AI coding assistants with free tokens directly from your terminal, IDE, or phone.",
+      "summaryKo": "터미널, IDE, 스마트폰에서 무료 토큰으로 Claude Code 및 코딩 도우미를 사용할 수 있게 하는 도구입니다.",
+      "reasonEn": "Trending for offering free token access to AI coding tools.",
+      "reasonKo": "AI 코딩 도구의 무료 토큰 액세스를 제공하여 주목받고 있습니다.",
+      "categories": [
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-22T09:28:16.052Z",
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
+    },
+    {
+      "id": "gh:VoltAgent/awesome-agent-skills",
+      "type": "repo",
+      "title": "VoltAgent/awesome-agent-skills",
+      "summaryOriginal": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "tags": [],
+      "metrics": {
+        "stars": 31019,
+        "starsDelta": 237
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "Curated collection of 1000+ agent skills compatible with popular AI coding assistants like Claude Code, Cursor, and Gemini CLI.",
+      "summaryKo": "주요 AI 코딩 어시스턴트와 호환되는 1000개 이상의 에이전트 스킬 모음입니다.",
       "categories": [
         "ai-agents",
         "devtools"
       ],
-      "firstSeenAt": "2026-08-22T15:22:55.161Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "firstSeenAt": "2026-08-23T12:42:30.740Z",
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:affaan-m/ECC",
@@ -72,7 +93,7 @@
         "productivity"
       ],
       "metrics": {
-        "stars": 242313
+        "stars": 242370
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -87,95 +108,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
-    },
-    {
-      "id": "gh:n8n-io/n8n",
-      "type": "repo",
-      "title": "n8n-io/n8n",
-      "summaryOriginal": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "url": "https://github.com/n8n-io/n8n",
-      "lang": "TypeScript",
-      "tags": [
-        "ai",
-        "apis",
-        "automation",
-        "cli",
-        "data-flow",
-        "development",
-        "integration-framework",
-        "integrations",
-        "ipaas",
-        "low-code",
-        "low-code-platform",
-        "mcp",
-        "mcp-client",
-        "mcp-server",
-        "n8n",
-        "no-code",
-        "self-hosted",
-        "typescript",
-        "workflow",
-        "workflow-automation"
-      ],
-      "metrics": {
-        "stars": 201987
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2019-06-22T09:24:21Z",
-      "updatedAt": "2026-08-23T06:53:54Z",
-      "summaryEn": "Workflow automation platform with visual UI and custom code support, 400+ integrations, native AI capabilities. Open-source, self-hostable.",
-      "categories": [
-        "infra",
-        "ai-agents",
-        "web",
-        "devtools"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
-    },
-    {
-      "id": "gh:PostHog/posthog",
-      "type": "repo",
-      "title": "PostHog/posthog",
-      "summaryOriginal": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
-      "url": "https://github.com/PostHog/posthog",
-      "lang": "Python",
-      "tags": [
-        "ab-testing",
-        "ai-analytics",
-        "analytics",
-        "cdp",
-        "data-warehouse",
-        "experiments",
-        "feature-flags",
-        "javascript",
-        "product-analytics",
-        "python",
-        "react",
-        "session-replay",
-        "surveys",
-        "typescript",
-        "web-analytics"
-      ],
-      "metrics": {
-        "stars": 38728
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2020-01-23T22:46:58Z",
-      "updatedAt": "2026-08-23T08:49:21Z",
-      "summaryEn": "All-in-one product analytics platform featuring AI observability, session replay, feature flags, experiments, and error tracking for developer tools.",
-      "summaryKo": "AI 옵저버빌리티, 세션 리플레이, 기능 플래그, A/B 테스트, 오류 추적 등을 포함한 통합 제품 분석 플랫폼입니다.",
-      "categories": [
-        "ai-agents",
-        "infra",
-        "data",
-        "devtools"
-      ],
-      "firstSeenAt": "2026-08-20T12:53:13.611Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:0xsline/awesome-deepseek-harness",
@@ -205,7 +138,7 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 846
+        "stars": 849
       },
       "source": "github-search",
       "admitReason": "new",
@@ -219,7 +152,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:Vistyy/nopus",
@@ -239,7 +172,7 @@
         "readability"
       ],
       "metrics": {
-        "stars": 192
+        "stars": 195
       },
       "source": "github-search",
       "admitReason": "new",
@@ -251,7 +184,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-19T15:33:13.943Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:seyedehsanhadi/sloptrim",
@@ -297,7 +230,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:only-cli/oc",
@@ -318,12 +251,12 @@
         "web-scraping"
       ],
       "metrics": {
-        "stars": 130
+        "stars": 148
       },
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-18T13:00:30Z",
-      "updatedAt": "2026-08-22T19:32:01Z",
+      "updatedAt": "2026-08-23T12:24:41Z",
       "summaryEn": "Converts any website into a compact CLI tool for AI agents, reducing token usage significantly.",
       "summaryKo": "웹사이트를 AI 에이전트용 간결한 CLI로 변환해 토큰 사용량을 대폭 절감.",
       "reasonEn": "Growing interest in efficient web browsing for AI agents",
@@ -334,7 +267,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-22T15:22:55.161Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:vuphongle/oss-pr-reviewer",
@@ -370,7 +303,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:OpenHands/OpenHands",
@@ -391,12 +324,12 @@
         "openai"
       ],
       "metrics": {
-        "stars": 84829
+        "stars": 84837
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2024-03-13T03:33:31Z",
-      "updatedAt": "2026-08-23T08:25:06Z",
+      "updatedAt": "2026-08-23T12:19:57Z",
       "summaryEn": "AI-driven development platform using LLMs (Claude, GPT) to automate coding tasks and assist software engineers.",
       "summaryKo": "LLM 기반 AI 개발 플랫폼, 코딩 작업 자동화.",
       "categories": [
@@ -404,7 +337,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:rtk-ai/rtk",
@@ -429,7 +362,7 @@
         "token-optimization"
       ],
       "metrics": {
-        "stars": 77113
+        "stars": 77126
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -442,7 +375,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:streamlit/streamlit",
@@ -462,12 +395,12 @@
         "streamlit"
       ],
       "metrics": {
-        "stars": 45592
+        "stars": 45597
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2019-08-24T00:14:52Z",
-      "updatedAt": "2026-08-23T08:59:11Z",
+      "updatedAt": "2026-08-23T11:54:08Z",
       "summaryEn": "Python framework for rapid data app development with visualization; simplifies building ML dashboards and analytics interfaces.",
       "summaryKo": "Python 데이터 앱 프레임워크, 머신러닝 대시보드 빠른 구축.",
       "categories": [
@@ -475,7 +408,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:marimo-team/marimo",
@@ -500,7 +433,7 @@
         "web-app"
       ],
       "metrics": {
-        "stars": 22448
+        "stars": 22452
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -514,7 +447,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:Spielewoy/autoprompt-skill",
@@ -546,7 +479,7 @@
         "workflow-automation"
       ],
       "metrics": {
-        "stars": 726
+        "stars": 734
       },
       "source": "github-search",
       "admitReason": "new",
@@ -559,7 +492,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-19T06:46:44.114Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins",
@@ -583,7 +516,7 @@
         "plugins"
       ],
       "metrics": {
-        "stars": 263
+        "stars": 266
       },
       "source": "github-search",
       "admitReason": "new",
@@ -596,7 +529,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:lennney/stop-that-shit",
@@ -619,7 +552,7 @@
         "yagni"
       ],
       "metrics": {
-        "stars": 258
+        "stars": 263
       },
       "source": "github-search",
       "admitReason": "new",
@@ -632,7 +565,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:soumatheusgomes/vibe-coding-toolkit",
@@ -649,7 +582,7 @@
         "prompts"
       ],
       "metrics": {
-        "stars": 253
+        "stars": 256
       },
       "source": "github-search",
       "admitReason": "new",
@@ -662,7 +595,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:google-gemini/gemini-cli",
@@ -681,7 +614,7 @@
         "mcp-server"
       ],
       "metrics": {
-        "stars": 106621
+        "stars": 106624
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -694,7 +627,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:stablyai/orca",
@@ -724,12 +657,12 @@
         "yc-backed"
       ],
       "metrics": {
-        "stars": 51469
+        "stars": 51543
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-03-17T03:28:57Z",
-      "updatedAt": "2026-08-23T09:31:12Z",
+      "updatedAt": "2026-08-23T12:25:02Z",
       "summaryEn": "An IDE for running many coding agents in parallel with your own subscriptions, on desktop, mobile, or VPS.",
       "summaryKo": "여러 코딩 에이전트를 병렬 실행하는 IDE. 데스크톱·모바일·VPS 지원, 자기 구독 사용.",
       "categories": [
@@ -737,7 +670,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:sickn33/agentic-awesome-skills",
@@ -769,7 +702,7 @@
         "skill-library"
       ],
       "metrics": {
-        "stars": 45290
+        "stars": 45298
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -782,7 +715,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:agno-agi/agno",
@@ -799,12 +732,12 @@
         "python"
       ],
       "metrics": {
-        "stars": 41840
+        "stars": 41843
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2022-05-04T15:23:02Z",
-      "updatedAt": "2026-08-22T19:28:53Z",
+      "updatedAt": "2026-08-23T09:52:05Z",
       "summaryEn": "Python framework for building, running, and managing autonomous AI agent platforms at scale.",
       "summaryKo": "AI 에이전트 플랫폼 구축, 실행, 관리용 Python 프레임워크.",
       "categories": [
@@ -812,7 +745,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:wshobson/agents",
@@ -844,7 +777,7 @@
         "subagents"
       ],
       "metrics": {
-        "stars": 39035
+        "stars": 39039
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -859,7 +792,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:ComposioHQ/composio",
@@ -888,12 +821,12 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 29838
+        "stars": 29839
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2024-02-23T13:58:27Z",
-      "updatedAt": "2026-08-22T23:36:42Z",
+      "updatedAt": "2026-08-23T11:26:55Z",
       "summaryEn": "Framework for building AI agents with 1000+ tool integrations, authentication, and sandboxed execution to convert intent into actions.",
       "summaryKo": "1000+ 도구 통합, 인증, 샌드박스 실행을 지원하는 AI 에이전트 빌딩 프레임워크.",
       "reasonEn": "AI agent tooling becoming essential infrastructure for production deployments.",
@@ -903,7 +836,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:alirezarezvani/claude-skills",
@@ -935,7 +868,7 @@
         "prompt-engineering"
       ],
       "metrics": {
-        "stars": 24828
+        "stars": 24834
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -950,7 +883,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:icesixgod/codex-trajectory",
@@ -982,7 +915,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:azrtydxb/procoder",
@@ -1004,7 +937,7 @@
         "static-analysis"
       ],
       "metrics": {
-        "stars": 142
+        "stars": 143
       },
       "source": "github-search",
       "admitReason": "new",
@@ -1019,7 +952,52 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-21T12:51:22.781Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
+    },
+    {
+      "id": "gh:n8n-io/n8n",
+      "type": "repo",
+      "title": "n8n-io/n8n",
+      "summaryOriginal": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "url": "https://github.com/n8n-io/n8n",
+      "lang": "TypeScript",
+      "tags": [
+        "ai",
+        "apis",
+        "automation",
+        "cli",
+        "data-flow",
+        "development",
+        "integration-framework",
+        "integrations",
+        "ipaas",
+        "low-code",
+        "low-code-platform",
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "n8n",
+        "no-code",
+        "self-hosted",
+        "typescript",
+        "workflow",
+        "workflow-automation"
+      ],
+      "metrics": {
+        "stars": 202054
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2019-06-22T09:24:21Z",
+      "updatedAt": "2026-08-23T12:23:31Z",
+      "summaryEn": "Workflow automation platform with visual UI and custom code support, 400+ integrations, native AI capabilities. Open-source, self-hostable.",
+      "categories": [
+        "ai-agents",
+        "web",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:Hmbown/CodeWhale",
@@ -1042,7 +1020,7 @@
         "tui"
       ],
       "metrics": {
-        "stars": 40840
+        "stars": 40838
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1055,7 +1033,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-20T03:48:34.150Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:DeusData/codebase-memory-mcp",
@@ -1087,7 +1065,7 @@
         "windsurf"
       ],
       "metrics": {
-        "stars": 40002
+        "stars": 40051
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1100,7 +1078,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:ccch1mneyyy/dsh-TUI",
@@ -1121,12 +1099,12 @@
         "tui"
       ],
       "metrics": {
-        "stars": 2341
+        "stars": 2353
       },
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-13T12:49:31Z",
-      "updatedAt": "2026-08-23T08:59:01Z",
+      "updatedAt": "2026-08-23T12:38:42Z",
       "summaryEn": "Claude Code-style terminal UI plugin for DeepSeek Harness — status bar, streaming thoughts, double-Esc rollback, context/TPS tracking.",
       "summaryKo": "디프시크 하니스용 클로드 코드 스타일 터미널 UI, 상태바·스트리밍·더블Esc 되돌리기 지원.",
       "categories": [
@@ -1134,7 +1112,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:vercel/hyper",
@@ -1168,7 +1146,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-21T21:26:14.378Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:appsmithorg/appsmith",
@@ -1213,7 +1191,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:hoppscotch/hoppscotch",
@@ -1258,7 +1236,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:microsoft/vscode",
@@ -1275,12 +1253,12 @@
         "visual-studio-code"
       ],
       "metrics": {
-        "stars": 189324
+        "stars": 189330
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2015-09-03T20:23:38Z",
-      "updatedAt": "2026-08-23T06:45:05Z",
+      "updatedAt": "2026-08-23T11:19:30Z",
       "summaryEn": "Industry-standard code editor with language support, debugging, extensions, and integrated terminal for most development workflows.",
       "summaryKo": "대부분의 개발 워크플로우를 위한 언어 지원, 디버깅, 확장 기능을 갖춘 산업 표준 코드 에디터.",
       "categories": [
@@ -1288,7 +1266,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:iii-hq/iii",
@@ -1325,7 +1303,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-19T01:20:28.544Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:surrealdb/surrealdb",
@@ -1355,7 +1333,7 @@
         "web"
       ],
       "metrics": {
-        "stars": 32919
+        "stars": 32920
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1368,7 +1346,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:drawdb-io/drawdb",
@@ -1397,7 +1375,7 @@
         "tailwindcss"
       ],
       "metrics": {
-        "stars": 39206
+        "stars": 39208
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1412,7 +1390,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:tt-a1i/archify",
@@ -1444,7 +1422,7 @@
         "text-to-diagram"
       ],
       "metrics": {
-        "stars": 15099
+        "stars": 15113
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1457,7 +1435,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-21T03:51:31.943Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:puppeteer/puppeteer",
@@ -1478,12 +1456,12 @@
         "web"
       ],
       "metrics": {
-        "stars": 95488
+        "stars": 95489
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2017-05-09T22:16:13Z",
-      "updatedAt": "2026-08-23T09:05:39Z",
+      "updatedAt": "2026-08-23T09:56:58Z",
       "summaryEn": "Node.js library for headless browser automation of Chrome/Firefox. Industry standard for E2E testing, scraping, and performance measurement.",
       "summaryKo": "크롬/파이어폭스 헤드리스 브라우저 자동화 Node.js 라이브러리. E2E 테스트 표준.",
       "categories": [
@@ -1491,7 +1469,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:usebruno/bruno",
@@ -1517,7 +1495,7 @@
         "testing-tools"
       ],
       "metrics": {
-        "stars": 46487
+        "stars": 46492
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1530,7 +1508,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:yutat23/lsoff",
@@ -1561,7 +1539,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:brijr/iris",
@@ -1590,7 +1568,43 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-20T18:41:26.574Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
+    },
+    {
+      "id": "gh:RopemakerEnd/ds4windows-lab-2026",
+      "type": "repo",
+      "title": "RopemakerEnd/ds4windows-lab-2026",
+      "summaryOriginal": "Portable DS4Windows companion toolkit with setup guides, profile notes, and Windows build helpers for DualShock 4 and DualSense.",
+      "url": "https://github.com/RopemakerEnd/ds4windows-lab-2026",
+      "lang": "HTML",
+      "tags": [
+        "automation",
+        "cli",
+        "desktop",
+        "diagnostics",
+        "ds4windows",
+        "maintenance",
+        "performance",
+        "portable",
+        "productivity",
+        "utility",
+        "windows",
+        "workflow"
+      ],
+      "metrics": {
+        "stars": 151
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-08-16T21:39:39Z",
+      "updatedAt": "2026-08-23T11:24:07Z",
+      "summaryEn": "Portable companion toolkit with setup guides and profiles for DualShock 4/DualSense controller configuration on Windows.",
+      "summaryKo": "Windows에서 DualShock 4/DualSense 컨트롤러 설정을 위한 휴대용 도구 모음 및 가이드.",
+      "categories": [
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:AprilNEA/OpenLogi",
@@ -1613,7 +1627,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-20T12:53:13.611Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:Untrivial-ai/agent-orchestrator",
@@ -1638,7 +1652,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-23T09:29:14.266Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:HiThink-Tech/Financial-API",
@@ -1664,7 +1678,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-22T09:28:16.052Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:jlcodes99/cockpit-tools",
@@ -1687,7 +1701,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-23T09:29:14.266Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "gh:chirpz-ai/pandaprobe",
@@ -1710,7 +1724,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-23T09:29:14.266Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "hn:49126604",
@@ -1726,41 +1740,16 @@
       "source": "hn",
       "publishedAt": "2026-07-31T18:04:58Z",
       "admitReason": "notable",
-      "summaryEn": "qm is a collaborative framework designed to coordinate multiple software agents for complex engineering tasks.",
-      "summaryKo": "복잡한 엔지니어링 작업을 위해 여러 에이전트를 조율하는 멀티플레이어 에이전트 하네스입니다.",
-      "reasonEn": "Emergence of multi-agent orchestration tools.",
-      "reasonKo": "멀티 에이전트 조율 도구의 등장",
+      "summaryEn": "A collaborative harness designed to coordinate multiple AI agents for complex engineering workflows.",
+      "summaryKo": "복잡한 엔지니어링 워크플로우를 위해 여러 AI 에이전트를 조율하는 협업 도구입니다.",
+      "reasonEn": "Growing interest in multi-agent orchestration tools",
+      "reasonKo": "다중 에이전트 오케스트레이션 도구에 대한 관심 증가",
       "categories": [
         "ai-agents",
         "devtools"
       ],
       "firstSeenAt": "2026-08-22T21:23:23.291Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
-    },
-    {
-      "id": "hn:49142569",
-      "type": "article",
-      "title": "Show HN: Bor – Open-source policy management for Linux desktops",
-      "summaryOriginal": "Show HN: Bor – Open-source policy management for Linux desktops",
-      "url": "https://getbor.dev/blog/2026-08-02-bor-v080-release/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 197,
-        "comments": 30
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-02T09:06:33Z",
-      "admitReason": "notable",
-      "summaryEn": "Bor is an open-source policy management tool for Linux desktops that helps administrators control system configurations and security compliance.",
-      "summaryKo": "리눅스 데스크톱을 위한 오픈소스 정책 관리 도구로, 시스템 설정 및 보안 규정 준수를 돕습니다.",
-      "reasonEn": "Recently shared on Hacker News as a new open-source tool release.",
-      "reasonKo": "최근 해커뉴스에 새로운 오픈소스 도구로 공유되었습니다.",
-      "categories": [
-        "infra",
-        "devtools"
-      ],
-      "firstSeenAt": "2026-08-23T09:29:14.266Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
     },
     {
       "id": "hn:49143479",
@@ -1776,16 +1765,83 @@
       "source": "hn",
       "publishedAt": "2026-08-02T11:34:41Z",
       "admitReason": "notable",
-      "summaryEn": "Meshdiff is a client-side browser tool that lets you visually compare two versions of STL 3D model files directly in the browser.",
-      "summaryKo": "브라우저에서 클라이언트 사이드로 두 개의 STL 3D 모델 파일 버전을 시각적으로 비교할 수 있는 도구입니다.",
-      "reasonEn": "Trending as a handy client-side web utility for 3D developers.",
-      "reasonKo": "3D 개발자를 위한 유용한 클라이언트 웹 유틸리티로 인기를 얻었습니다.",
+      "summaryEn": "Meshdiff is a client-side browser utility that lets developers visually compare two different versions of an STL 3D model file.",
+      "summaryKo": "브라우저에서 두 개의 STL 3D 모델 파일 버전을 시각적으로 비교할 수 있는 클라이언트 도구입니다.",
+      "reasonEn": "Useful client-side developer tool for 3D file comparison.",
+      "reasonKo": "3D 파일 비교를 위한 유용한 클라이언트 도구.",
       "categories": [
         "web",
         "devtools"
       ],
       "firstSeenAt": "2026-08-23T09:29:14.266Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z"
+      "lastSeenAt": "2026-08-23T12:42:30.740Z"
+    },
+    {
+      "id": "gh:anthropics/claude-code",
+      "type": "repo",
+      "categories": [
+        "ai-agents",
+        "devtools"
+      ],
+      "title": "anthropics/claude-code",
+      "summaryEn": "Agentic coding tool in your terminal that understands codebases and handles routine tasks via natural language.",
+      "summaryKo": "코드베이스를 이해하고 터미널에서 자연어로 반복 작업을 처리하는 에이전틱 코딩 도구.",
+      "summaryOriginal": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "reasonEn": "Widely adopted terminal agent for automated development workflows",
+      "reasonKo": "자동화된 개발 워크플로우를 위한 널리 쓰이는 터미널 에이전트",
+      "url": "https://github.com/anthropics/claude-code",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "stars": 142683,
+        "starsDelta": 127
+      },
+      "source": "github-trending",
+      "firstSeenAt": "2026-08-22T15:22:55.161Z",
+      "lastSeenAt": "2026-08-23T09:29:14.266Z",
+      "admitReason": "trending"
+    },
+    {
+      "id": "gh:PostHog/posthog",
+      "type": "repo",
+      "categories": [
+        "ai-agents",
+        "infra",
+        "data",
+        "devtools"
+      ],
+      "title": "PostHog/posthog",
+      "summaryEn": "All-in-one product analytics platform featuring AI observability, session replay, feature flags, experiments, and error tracking for developer tools.",
+      "summaryKo": "AI 옵저버빌리티, 세션 리플레이, 기능 플래그, A/B 테스트, 오류 추적 등을 포함한 통합 제품 분석 플랫폼입니다.",
+      "summaryOriginal": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "url": "https://github.com/PostHog/posthog",
+      "lang": "Python",
+      "tags": [
+        "ab-testing",
+        "ai-analytics",
+        "analytics",
+        "cdp",
+        "data-warehouse",
+        "experiments",
+        "feature-flags",
+        "javascript",
+        "product-analytics",
+        "python",
+        "react",
+        "session-replay",
+        "surveys",
+        "typescript",
+        "web-analytics"
+      ],
+      "metrics": {
+        "stars": 38728
+      },
+      "source": "github-search",
+      "publishedAt": "2020-01-23T22:46:58Z",
+      "updatedAt": "2026-08-23T08:49:21Z",
+      "firstSeenAt": "2026-08-20T12:53:13.611Z",
+      "lastSeenAt": "2026-08-23T09:29:14.266Z",
+      "admitReason": "notable"
     },
     {
       "id": "gh:ayghri/i-have-adhd",
@@ -1817,42 +1873,6 @@
       "firstSeenAt": "2026-08-19T09:35:40.383Z",
       "lastSeenAt": "2026-08-23T06:43:06.551Z",
       "admitReason": "notable"
-    },
-    {
-      "id": "gh:RopemakerEnd/ds4windows-lab-2026",
-      "type": "repo",
-      "categories": [
-        "devtools"
-      ],
-      "title": "RopemakerEnd/ds4windows-lab-2026",
-      "summaryEn": "Portable companion toolkit with setup guides and profiles for DualShock 4/DualSense controller configuration on Windows.",
-      "summaryKo": "Windows에서 DualShock 4/DualSense 컨트롤러 설정을 위한 휴대용 도구 모음 및 가이드.",
-      "summaryOriginal": "Portable DS4Windows companion toolkit with setup guides, profile notes, and Windows build helpers for DualShock 4 and DualSense.",
-      "url": "https://github.com/RopemakerEnd/ds4windows-lab-2026",
-      "lang": "HTML",
-      "tags": [
-        "automation",
-        "cli",
-        "desktop",
-        "diagnostics",
-        "ds4windows",
-        "maintenance",
-        "performance",
-        "portable",
-        "productivity",
-        "utility",
-        "windows",
-        "workflow"
-      ],
-      "metrics": {
-        "stars": 151
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-16T21:39:39Z",
-      "updatedAt": "2026-08-23T05:32:49Z",
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T06:43:06.551Z",
-      "admitReason": "new"
     },
     {
       "id": "gh:swadhinbiswas/veet",
@@ -1918,30 +1938,6 @@
       },
       "source": "ossinsight",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-23T06:43:06.551Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "gh:Alishahryar1/free-claude-code",
-      "type": "repo",
-      "categories": [
-        "devtools"
-      ],
-      "title": "Alishahryar1/free-claude-code",
-      "summaryEn": "Tool to use Claude Code, Codex, and other AI coding assistants with free tokens directly from your terminal, IDE, or phone.",
-      "summaryKo": "터미널, IDE, 스마트폰에서 무료 토큰으로 Claude Code 및 코딩 도우미를 사용할 수 있게 하는 도구입니다.",
-      "summaryOriginal": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
-      "reasonEn": "Trending for offering free token access to AI coding tools.",
-      "reasonKo": "AI 코딩 도구의 무료 토큰 액세스를 제공하여 주목받고 있습니다.",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 6,
-        "totalScore": 219.0035
-      },
-      "source": "ossinsight",
-      "firstSeenAt": "2026-08-22T09:28:16.052Z",
       "lastSeenAt": "2026-08-23T06:43:06.551Z",
       "admitReason": "notable"
     },
