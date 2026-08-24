@@ -60547,10 +60547,14 @@ var hostBlocked = (url2, domains) => {
     return host === domain2 || host.endsWith(`.${domain2}`);
   });
 };
+var survivesBlocklist = (overrides) => {
+  const blocked = new Set(overrides.blocklist);
+  return (card) => !blocked.has(card.id) && !hostBlocked(card.url, overrides.domainBlocklist);
+};
 var applyOverrides = (entries, overrides) => {
   if (overrides === void 0) return [...entries];
-  const blocked = new Set(overrides.blocklist);
-  return entries.filter((entry) => !blocked.has(entry.card.id)).filter((entry) => !hostBlocked(entry.card.url, overrides.domainBlocklist)).map((entry) => {
+  const survives = survivesBlocklist(overrides);
+  return entries.filter((entry) => survives(entry.card)).map((entry) => {
     const override = overrides.overrides[entry.card.id];
     if (override === void 0) return entry;
     return {
@@ -60560,15 +60564,37 @@ var applyOverrides = (entries, overrides) => {
     };
   });
 };
+var applyOverridesToFeeds = (feeds, overrides) => {
+  if (overrides === void 0) return feeds;
+  const survives = survivesBlocklist(overrides);
+  return Object.fromEntries(
+    Object.entries(feeds).map(([slug, feed]) => [
+      slug,
+      {
+        ...feed,
+        cards: feed.cards.filter(survives).flatMap((card) => {
+          const override = overrides.overrides[card.id];
+          if (override === void 0) return [card];
+          if (override.categories !== void 0 && !override.categories.includes(slug)) return [];
+          return [{ ...card, ...pickFields(override) }];
+        })
+      }
+    ])
+  );
+};
+var countBlocked = (cards, overrides) => {
+  if (overrides === void 0) return 0;
+  const survives = survivesBlocklist(overrides);
+  return new Set(cards.filter((card) => !survives(card)).map((card) => card.id)).size;
+};
 
 // src/pipeline.ts
 var FEED_VERSION = 1;
 var FEED_TTL_SECONDS = 10800;
 var FEED_PATH_PREFIX = "/v1/feed";
 var DEGRADED_NO_TOKEN = "DEGRADED: no GITHUB_TOKEN, SRC2 skipped";
-var previousCardsById = (feeds) => new Map(
-  Object.values(feeds).flatMap((feed) => feed.cards.map((card) => [card.id, card]))
-);
+var allCards = (feeds) => Object.values(feeds).flatMap((feed) => feed.cards);
+var previousCardsById = (feeds) => new Map(allCards(feeds).map((card) => [card.id, card]));
 var carryOver = (feeds, source) => {
   const byId = /* @__PURE__ */ new Map();
   Object.values(feeds).forEach((feed) => {
@@ -60707,7 +60733,11 @@ var withRefreshedMetrics = (cards, refreshed) => cards.map((card) => {
     ...patch.updatedAt === void 0 ? {} : { updatedAt: patch.updatedAt }
   };
 });
-var runPipeline = async (input) => {
+var runPipeline = async (raw) => {
+  const input = {
+    ...raw,
+    previousFeeds: applyOverridesToFeeds(raw.previousFeeds, raw.overrides)
+  };
   const { cards: gathered, rejected } = await gatherCards(input);
   const { admitted, rejectedBySource } = admit(gathered.map((entry) => entry.card));
   const admittedById = new Map(admitted.map((card) => [card.id, card]));
@@ -60771,13 +60801,19 @@ var runPipeline = async (input) => {
     cardsBySource: countBy(publishable, (entry) => entry.card.source),
     cardsPublished,
     newCardsThisRun,
-    rejectedByAdmission: rejectedBySource
+    rejectedByAdmission: rejectedBySource,
+    // 유입과 직전 발행본을 합쳐 센다 — 어느 쪽에서 걷혔든 검수자에게는 "막혔다" 한 가지다.
+    blocked: countBlocked(
+      [...classified.map((entry) => entry.card), ...allCards(raw.previousFeeds)],
+      input.overrides
+    )
   };
 };
 var logRunSummary = (result, logger2) => {
   logger2.info(`cardsPublished ${JSON.stringify(result.cardsPublished)}`);
   logger2.info(`cardsBySource ${JSON.stringify(result.cardsBySource)}`);
   logger2.info(`newCardsThisRun ${result.newCardsThisRun}`);
+  if (result.blocked > 0) logger2.info(`blocked ${result.blocked}`);
   if (Object.keys(result.rejectedByAdmission).length > 0) {
     logger2.info(`rejectedByAdmission ${JSON.stringify(result.rejectedByAdmission)}`);
   }
@@ -61010,7 +61046,9 @@ var publish = async (options) => {
     newCardsThisRun: result.newCardsThisRun,
     rejectedByAdmission: result.rejectedByAdmission,
     summariesApplied: summaries === void 0 ? 0 : Object.keys(summaries.summaries).length,
-    blocked: overrides === void 0 ? 0 : overrides.blocklist.length
+    // 파이프라인이 센 **실제로 걷어낸 카드 수**다. `blocklist.length`로 재던 시절에는 한 장도
+    // 못 막은 run이 차단 1건으로 보고돼 G7이 실패를 통과로 읽었다(2026-08-25).
+    blocked: result.blocked
   });
   logRunSummary(result, logger2);
   return {
