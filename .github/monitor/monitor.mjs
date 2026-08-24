@@ -14544,6 +14544,16 @@ var CardMetricsSchema = external_exports.object({
   downloads: external_exports.number().optional(),
   upvotes: external_exports.number().optional()
 }).catchall(external_exports.number());
+var HttpUrlSchema = external_exports.url().refine(
+  (raw) => {
+    try {
+      return ["http:", "https:"].includes(new URL(raw).protocol);
+    } catch {
+      return false;
+    }
+  },
+  { message: "http(s) URL\uC774\uC5B4\uC57C \uD55C\uB2E4" }
+);
 var CardObjectSchema = external_exports.object({
   id: CardIdSchema,
   type: external_exports.enum(CARD_TYPES),
@@ -14556,7 +14566,7 @@ var CardObjectSchema = external_exports.object({
   summaryOriginal: external_exports.string().min(1),
   reasonEn: external_exports.string().optional(),
   reasonKo: external_exports.string().optional(),
-  url: external_exports.url(),
+  url: HttpUrlSchema,
   /** repo면 언어, model이면 pipeline_tag. article·paper에는 없다. */
   lang: external_exports.string().optional(),
   /** repo면 GitHub topics, model이면 HF tags, 그 외는 빈 배열. */
