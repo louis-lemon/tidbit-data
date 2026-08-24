@@ -45562,6 +45562,58 @@ var normalizeTags = (raw) => {
   return [...seen];
 };
 
+// src/sources/github-repo.ts
+var REPO_URL = "https://api.github.com/repos";
+var ID_PREFIX = "gh:";
+var githubCardId = (fullName) => `${ID_PREFIX}${fullName}`;
+var FULL_NAME = /^[A-Za-z0-9][A-Za-z0-9._-]*\/[A-Za-z0-9][A-Za-z0-9._-]*$/;
+var fullNameOf = (cardId) => {
+  if (!cardId.startsWith(ID_PREFIX)) return void 0;
+  const fullName = cardId.slice(ID_PREFIX.length);
+  return FULL_NAME.test(fullName) ? fullName : void 0;
+};
+var MAX_REFRESHED_PER_RUN = 300;
+var SUPERSEDED_METRICS = ["starsDelta"];
+var CONCURRENCY = 6;
+var readOne = async (fullName, token) => {
+  const url2 = `${REPO_URL}/${fullName.split("/").map(encodeURIComponent).join("/")}`;
+  const body = await httpGetJson(url2, {
+    headers: { accept: "application/vnd.github+json", authorization: `Bearer ${token}` }
+  });
+  return {
+    metrics: compactMetrics({ stars: body.stargazers_count }),
+    ...typeof body.pushed_at === "string" ? { updatedAt: body.pushed_at } : {}
+  };
+};
+var forEachConcurrently = async (items, limit, run) => {
+  let cursor = 0;
+  const worker = async () => {
+    while (cursor < items.length) {
+      const item = items[cursor];
+      cursor += 1;
+      if (item !== void 0) await run(item);
+    }
+  };
+  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, worker));
+};
+var refreshRepoMetrics = async (input) => {
+  const outcome = { refreshed: /* @__PURE__ */ new Map(), failed: 0 };
+  if (input.githubToken === void 0) return outcome;
+  const token = input.githubToken;
+  const targets = input.cardIds.flatMap((cardId) => {
+    const fullName = fullNameOf(cardId);
+    return fullName === void 0 ? [] : [{ cardId, fullName }];
+  }).slice(0, MAX_REFRESHED_PER_RUN);
+  await forEachConcurrently(targets, CONCURRENCY, async ({ cardId, fullName }) => {
+    try {
+      outcome.refreshed.set(cardId, await readOne(fullName, token));
+    } catch {
+      outcome.failed += 1;
+    }
+  });
+  return outcome;
+};
+
 // src/sources/github-search.ts
 var SOURCE = "github-search";
 var SEARCH_URL = "https://api.github.com/search/repositories";
@@ -45583,7 +45635,7 @@ var buildQueries = (topics, now) => topics.slice(0, TOPICS_PER_CATEGORY).flatMap
 var mapSearchItems = (items, admitReason = "notable") => items.map((item) => {
   const description = collapseWhitespace(item.description ?? "");
   return {
-    id: `gh:${item.full_name}`,
+    id: githubCardId(item.full_name),
     type: "repo",
     title: item.full_name,
     summaryOriginal: description.length > 0 ? description : item.full_name,
@@ -60093,7 +60145,7 @@ var parseRow = (row) => {
   const description = collapseWhitespace(row.find(SELECTOR.description).first().text());
   const language = collapseWhitespace(row.find(SELECTOR.language).first().text());
   return {
-    id: `gh:${fullName}`,
+    id: githubCardId(fullName),
     type: "repo",
     title: fullName,
     // 설명이 없는 행이 실제로 나온다(실측 16행 중 2행). required라 title로 메운다(spec 8장).
@@ -60236,7 +60288,7 @@ var mapTrendRows = (rows) => rows.filter((row) => Boolean(row.repo_name)).map((r
   const description = collapseWhitespace(row.description ?? "");
   const language = collapseWhitespace(row.primary_language ?? "");
   return {
-    id: `gh:${row.repo_name}`,
+    id: githubCardId(row.repo_name),
     type: "repo",
     title: row.repo_name,
     summaryOriginal: description.length > 0 ? description : row.repo_name,
@@ -60622,6 +60674,39 @@ var applySummaries = (cards, summarizedById) => cards.map((card) => {
   const summarized = summarizedById.get(card.id);
   return summarized === void 0 ? card : { ...summarized, categories: card.categories };
 });
+var refreshStaleMetrics = async (input, freshIds) => {
+  const stale = /* @__PURE__ */ new Map();
+  Object.values(input.previousFeeds).forEach(
+    (feed) => feed.cards.forEach((card) => {
+      if (!freshIds.has(card.id)) stale.set(card.id, card);
+    })
+  );
+  if (stale.size === 0) return /* @__PURE__ */ new Map();
+  const cardIds = [...stale.values()].sort((a, b) => (a.lastSeenAt ?? "").localeCompare(b.lastSeenAt ?? "")).map((card) => card.id);
+  const { refreshed, failed } = await refreshRepoMetrics({
+    cardIds,
+    ...input.githubToken !== void 0 && { githubToken: input.githubToken }
+  });
+  if (refreshed.size > 0 || failed > 0) {
+    input.logger.info(`METRICS_REFRESH \uAC31\uC2E0 ${refreshed.size}\uC7A5 \xB7 \uC2E4\uD328 ${failed}\uC7A5 (\uBB35\uC740 \uCE74\uB4DC ${stale.size}\uC7A5)`);
+  }
+  return refreshed;
+};
+var mergedMetrics = (previous, patch) => ({
+  ...Object.fromEntries(
+    Object.entries(previous ?? {}).filter(([name]) => !SUPERSEDED_METRICS.includes(name))
+  ),
+  ...patch
+});
+var withRefreshedMetrics = (cards, refreshed) => cards.map((card) => {
+  const patch = refreshed.get(card.id);
+  if (patch === void 0) return card;
+  return {
+    ...card,
+    ...patch.metrics === void 0 ? {} : { metrics: mergedMetrics(card.metrics, patch.metrics) },
+    ...patch.updatedAt === void 0 ? {} : { updatedAt: patch.updatedAt }
+  };
+});
 var runPipeline = async (input) => {
   const { cards: gathered, rejected } = await gatherCards(input);
   const { admitted, rejectedBySource } = admit(gathered.map((entry) => entry.card));
@@ -60640,6 +60725,10 @@ var runPipeline = async (input) => {
   const publishable = overridden.filter((entry) => entry.categories.length > 0);
   const generatedAt = input.now.toISOString();
   const composed = composeAll(input.categories, publishable);
+  const refreshed = await refreshStaleMetrics(
+    input,
+    new Set([...composed.values()].flatMap((cards) => cards.map((card) => card.id)))
+  );
   const summarizedById = await summarizeComposed(
     composed,
     // 오버라이드 적용본을 넘긴다 — `classified`를 넘기면 사람이 고친 요약이 요약 패스에서
@@ -60657,7 +60746,7 @@ var runPipeline = async (input) => {
     const pool = mergeIntoPool({
       now: input.now,
       fresh: applySummaries(composed.get(slug) ?? [], summarizedById),
-      previous: input.previousFeeds[slug]?.cards ?? []
+      previous: withRefreshedMetrics(input.previousFeeds[slug]?.cards ?? [], refreshed)
     });
     newCardsThisRun += pool.newCards;
     if (pool.expired > 0 || pool.trimmed > 0) {
