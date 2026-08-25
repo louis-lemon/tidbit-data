@@ -1,34 +1,9 @@
 {
   "version": 1,
   "category": "ai-agents",
-  "generatedAt": "2026-08-25T09:36:47.621Z",
+  "generatedAt": "2026-08-25T12:50:44.870Z",
   "ttlSeconds": 10800,
   "cards": [
-    {
-      "id": "gh:openai/codex",
-      "type": "repo",
-      "title": "openai/codex",
-      "summaryOriginal": "Lightweight coding agent that runs in your terminal",
-      "url": "https://github.com/openai/codex",
-      "lang": "Rust",
-      "tags": [],
-      "metrics": {
-        "stars": 117690,
-        "starsDelta": 1994
-      },
-      "source": "github-trending",
-      "admitReason": "trending",
-      "summaryEn": "Lightweight coding agent that runs directly in your terminal for development assistance.",
-      "summaryKo": "터미널에서 직접 실행되어 개발을 지원하는 경량 코딩 에이전트.",
-      "reasonEn": "High developer interest in terminal-based AI coding agents",
-      "reasonKo": "터미널 기반 AI 코딩 에이전트에 대한 높은 개발자 관심",
-      "categories": [
-        "ai-agents",
-        "devtools"
-      ],
-      "firstSeenAt": "2026-08-22T15:22:55.161Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
-    },
     {
       "id": "gh:anthropics/claude-plugins-community",
       "type": "repo",
@@ -38,8 +13,8 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 1505,
-        "starsDelta": 489
+        "stars": 1543,
+        "starsDelta": 350
       },
       "source": "github-trending",
       "admitReason": "trending",
@@ -52,7 +27,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-24T12:53:33.595Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "gh:apache/maka",
@@ -63,8 +38,8 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 3083,
-        "starsDelta": 411
+        "stars": 3134,
+        "starsDelta": 538
       },
       "source": "github-trending",
       "admitReason": "trending",
@@ -74,29 +49,28 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-22T01:19:03.673Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
-      "id": "gh:VoltAgent/awesome-agent-skills",
+      "id": "gh:TauricResearch/TradingAgents",
       "type": "repo",
-      "title": "VoltAgent/awesome-agent-skills",
-      "summaryOriginal": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
-      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "title": "TauricResearch/TradingAgents",
+      "summaryOriginal": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 32112,
-        "starsDelta": 602
+        "stars": 99876,
+        "starsDelta": 191
       },
       "source": "github-trending",
       "admitReason": "trending",
-      "summaryEn": "Curated collection of 1000+ agent skills compatible with popular AI coding assistants like Claude Code, Cursor, and Gemini CLI.",
-      "summaryKo": "주요 AI 코딩 어시스턴트와 호환되는 1000개 이상의 에이전트 스킬 모음입니다.",
       "categories": [
-        "ai-agents",
-        "devtools"
+        "ai-models",
+        "ai-agents"
       ],
-      "firstSeenAt": "2026-08-23T12:42:30.740Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "firstSeenAt": "2026-08-25T12:50:44.870Z",
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "gh:tinyhumansai/openhuman",
@@ -107,8 +81,8 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 37483,
-        "starsDelta": 515
+        "stars": 37547,
+        "starsDelta": 541
       },
       "source": "github-trending",
       "admitReason": "trending",
@@ -118,83 +92,73 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-23T12:42:30.740Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
-      "id": "gh:NousResearch/hermes-agent",
+      "id": "gh:Shubhamsaboo/awesome-llm-apps",
       "type": "repo",
-      "title": "NousResearch/hermes-agent",
-      "summaryOriginal": "The agent that grows with you",
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "title": "Shubhamsaboo/awesome-llm-apps",
+      "summaryOriginal": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "lang": "Python",
-      "tags": [
-        "ai",
-        "ai-agent",
-        "ai-agents",
-        "anthropic",
-        "chatgpt",
-        "claude",
-        "claude-code",
-        "codex",
-        "hermes",
-        "hermes-agent",
-        "llm",
-        "nous-research"
-      ],
+      "tags": [],
       "metrics": {
-        "stars": 236113
+        "stars": 134018,
+        "starsDelta": 161
       },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-08-25T09:31:37Z",
-      "summaryEn": "Scalable AI agent framework adaptable to various LLMs including Claude and OpenAI models.",
-      "summaryKo": "Claude와 OpenAI 모델에 적응하는 확장 가능한 AI 에이전트 프레임워크.",
+      "source": "github-trending",
+      "admitReason": "trending",
       "categories": [
-        "ai-agents",
-        "ai-models"
+        "ai-models",
+        "ai-agents"
       ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "firstSeenAt": "2026-08-25T12:50:44.870Z",
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
-      "id": "gh:PostHog/posthog",
+      "id": "gh:openai/codex",
       "type": "repo",
-      "title": "PostHog/posthog",
-      "summaryOriginal": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
-      "url": "https://github.com/PostHog/posthog",
-      "lang": "Python",
-      "tags": [
-        "ab-testing",
-        "ai-analytics",
-        "analytics",
-        "cdp",
-        "data-warehouse",
-        "experiments",
-        "feature-flags",
-        "javascript",
-        "product-analytics",
-        "python",
-        "react",
-        "session-replay"
-      ],
+      "title": "openai/codex",
+      "summaryOriginal": "Lightweight coding agent that runs in your terminal",
+      "url": "https://github.com/openai/codex",
+      "lang": "Rust",
+      "tags": [],
       "metrics": {
-        "stars": 39106
+        "stars": 117824,
+        "starsDelta": 1183
       },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2020-01-23T22:46:58Z",
-      "updatedAt": "2026-08-25T09:38:10Z",
-      "summaryEn": "All-in-one product analytics platform featuring AI observability, session replay, feature flags, experiments, and error tracking for developer tools.",
-      "summaryKo": "AI 옵저버빌리티, 세션 리플레이, 기능 플래그, A/B 테스트, 오류 추적 등을 포함한 통합 제품 분석 플랫폼입니다.",
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "Lightweight coding agent that runs directly in your terminal for development assistance.",
+      "summaryKo": "터미널에서 직접 실행되어 개발을 지원하는 경량 코딩 에이전트.",
+      "reasonEn": "High developer interest in terminal-based AI coding agents",
+      "reasonKo": "터미널 기반 AI 코딩 에이전트에 대한 높은 개발자 관심",
       "categories": [
         "ai-agents",
-        "infra",
-        "data",
         "devtools"
       ],
-      "firstSeenAt": "2026-08-20T12:53:13.611Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "firstSeenAt": "2026-08-22T15:22:55.161Z",
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
+    },
+    {
+      "id": "gh:DietrichGebert/ponytail",
+      "type": "repo",
+      "title": "DietrichGebert/ponytail",
+      "summaryOriginal": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "lang": "JavaScript",
+      "tags": [],
+      "metrics": {
+        "stars": 110336,
+        "starsDelta": 944
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "categories": [
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-08-25T12:50:44.870Z",
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "gh:rohitg00/ai-engineering-from-scratch",
@@ -218,7 +182,7 @@
         "mcp"
       ],
       "metrics": {
-        "stars": 48535
+        "stars": 48613
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -234,7 +198,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-24T12:53:33.595Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "gh:stablyai/orca",
@@ -258,12 +222,12 @@
         "opencode"
       ],
       "metrics": {
-        "stars": 53164
+        "stars": 53280
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-03-17T03:28:57Z",
-      "updatedAt": "2026-08-25T09:38:34Z",
+      "updatedAt": "2026-08-25T12:00:52Z",
       "summaryEn": "An IDE for running many coding agents in parallel with your own subscriptions, on desktop, mobile, or VPS.",
       "summaryKo": "여러 코딩 에이전트를 병렬 실행하는 IDE. 데스크톱·모바일·VPS 지원, 자기 구독 사용.",
       "categories": [
@@ -271,7 +235,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "gh:CopilotKit/OpenBot",
@@ -290,7 +254,7 @@
         "mcp"
       ],
       "metrics": {
-        "stars": 2739
+        "stars": 2771
       },
       "source": "github-search",
       "admitReason": "new",
@@ -303,7 +267,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-25T09:36:47.621Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "gh:t8y2/dbx",
@@ -327,12 +291,12 @@
         "postgresql"
       ],
       "metrics": {
-        "stars": 16540
+        "stars": 16560
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-04-29T03:00:36Z",
-      "updatedAt": "2026-08-25T09:35:33Z",
+      "updatedAt": "2026-08-25T12:35:08Z",
       "summaryEn": "Dbx is a lightweight cross-platform database client supporting 70+ databases with built-in AI, MCP server, CLI, and Docker capabilities.",
       "summaryKo": "70개 이상의 데이터베이스를 지원하는 가벼운 크로스플랫폼 클라이언트로 AI와 MCP를 내장했습니다.",
       "categories": [
@@ -344,7 +308,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-21T09:38:23.718Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "gh:bojieli/ai-agent-book",
@@ -368,19 +332,19 @@
         "rag"
       ],
       "metrics": {
-        "stars": 42046
+        "stars": 42097
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2025-09-09T02:41:44Z",
-      "updatedAt": "2026-08-25T08:30:40Z",
+      "updatedAt": "2026-08-25T12:49:15Z",
       "summaryEn": "Open-source book (Chinese) on AI agent design principles and engineering practice, with PDF and per-chapter code.",
       "summaryKo": "AI 에이전트 설계 원리와 실무를 다룬 중국어 오픈소스 책. PDF와 챕터별 코드 포함.",
       "categories": [
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "gh:elie222/rakazo",
@@ -401,12 +365,12 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 1250
+        "stars": 1262
       },
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-13T06:28:56Z",
-      "updatedAt": "2026-08-25T08:53:02Z",
+      "updatedAt": "2026-08-25T12:25:39Z",
       "summaryEn": "Open-source alternative to Grok's coding bot — pick your own model and sandbox.",
       "summaryKo": "Grok 봇의 오픈소스 대안, 모델과 샌드박스를 직접 선택",
       "categories": [
@@ -416,7 +380,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "gh:Electricitysheep/dsh-handbook",
@@ -440,7 +404,7 @@
         "tutorial"
       ],
       "metrics": {
-        "stars": 678
+        "stars": 679
       },
       "source": "github-search",
       "admitReason": "new",
@@ -453,7 +417,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "gh:only-cli/oc",
@@ -474,12 +438,12 @@
         "web-scraping"
       ],
       "metrics": {
-        "stars": 290
+        "stars": 293
       },
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-18T13:00:30Z",
-      "updatedAt": "2026-08-25T04:45:56Z",
+      "updatedAt": "2026-08-25T11:55:30Z",
       "summaryEn": "Converts any website into a compact CLI tool for AI agents, reducing token usage significantly.",
       "summaryKo": "웹사이트를 AI 에이전트용 간결한 CLI로 변환해 토큰 사용량을 대폭 절감.",
       "reasonEn": "Growing interest in efficient web browsing for AI agents",
@@ -490,7 +454,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-23T12:42:30.740Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "gh:Dominic789654/awesome-deepseek-harness",
@@ -519,7 +483,7 @@
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-13T13:54:05Z",
-      "updatedAt": "2026-08-25T08:34:44Z",
+      "updatedAt": "2026-08-25T12:34:09Z",
       "summaryEn": "Curated list of plugins, skills, MCP servers, and orchestrators for DeepSeek Harness (DSH).",
       "summaryKo": "DeepSeek Harness(DSH)용 플러그인·스킬·MCP 서버·오케스트레이터 큐레이션 목록.",
       "categories": [
@@ -527,7 +491,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "gh:seyedehsanhadi/sloptrim",
@@ -565,7 +529,39 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
+    },
+    {
+      "id": "gh:Vendredi218/awesome-ai-harness",
+      "type": "repo",
+      "title": "Vendredi218/awesome-ai-harness",
+      "summaryOriginal": "The model is the engine; the harness is the car. Curated knowledge on harness engineering — context management, tool design, agent loops, memory, sandboxing, evals. EN/中文",
+      "url": "https://github.com/Vendredi218/awesome-ai-harness",
+      "tags": [
+        "agent-harness",
+        "agentic-ai",
+        "ai-agents",
+        "awesome-list",
+        "context-engineering",
+        "llm",
+        "mcp",
+        "prompt-engineering"
+      ],
+      "metrics": {
+        "stars": 142
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-08-16T04:57:52Z",
+      "updatedAt": "2026-08-19T03:04:50Z",
+      "summaryEn": "A curated list of resources on AI harness engineering, covering context management, agent loops, memory, and tool design.",
+      "summaryKo": "컨텍스트 관리, 에이전트 루프, 메모리를 다루는 AI 하니스 엔지니어링 리소스 모음입니다.",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-08-24T03:55:51.382Z",
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "gh:bradeGithub/DSH-Plugins-Marketplace",
@@ -594,7 +590,7 @@
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-13T16:01:59Z",
-      "updatedAt": "2026-08-25T09:10:46Z",
+      "updatedAt": "2026-08-25T11:00:08Z",
       "summaryEn": "Marketplace to browse, install, and update DeepSeek Harness plugins directly from its web GUI.",
       "summaryKo": "DeepSeek Harness 웹 GUI에서 dsh 플러그인을 찾아 설치·업데이트하는 마켓플레이스.",
       "categories": [
@@ -602,39 +598,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
-    },
-    {
-      "id": "gh:Vendredi218/awesome-ai-harness",
-      "type": "repo",
-      "title": "Vendredi218/awesome-ai-harness",
-      "summaryOriginal": "The model is the engine; the harness is the car. Curated knowledge on harness engineering — context management, tool design, agent loops, memory, sandboxing, evals. EN/中文",
-      "url": "https://github.com/Vendredi218/awesome-ai-harness",
-      "tags": [
-        "agent-harness",
-        "agentic-ai",
-        "ai-agents",
-        "awesome-list",
-        "context-engineering",
-        "llm",
-        "mcp",
-        "prompt-engineering"
-      ],
-      "metrics": {
-        "stars": 140
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-08-16T04:57:52Z",
-      "updatedAt": "2026-08-19T03:04:50Z",
-      "summaryEn": "A curated list of resources on AI harness engineering, covering context management, agent loops, memory, and tool design.",
-      "summaryKo": "컨텍스트 관리, 에이전트 루프, 메모리를 다루는 AI 하니스 엔지니어링 리소스 모음입니다.",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-24T03:55:51.382Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "gh:memoket/memoket-kite",
@@ -671,31 +635,115 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-22T09:28:16.052Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
-      "id": "gh:MadsLorentzen/ai-job-search",
+      "id": "gh:zorost/AI-Engineering-Lab",
       "type": "repo",
-      "title": "MadsLorentzen/ai-job-search",
-      "summaryOriginal": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-      "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "lang": "Python",
-      "tags": [],
+      "title": "zorost/AI-Engineering-Lab",
+      "summaryOriginal": "A free, self-paced 24-week AI engineering course: Python, machine learning, LLMs, RAG, fine-tuning, agents and MCP, Azure and Vertex and Bedrock, and Databricks. 43 runnable notebooks, one continuous case study. MIT licensed, no signup. By Zorost Intelligence AI Lab.",
+      "url": "https://github.com/zorost/AI-Engineering-Lab",
+      "lang": "Jupyter Notebook",
+      "tags": [
+        "ai-agents",
+        "ai-engineering",
+        "course",
+        "curriculum",
+        "databricks",
+        "deep-learning",
+        "fine-tuning",
+        "generative-ai",
+        "learning-resources",
+        "llm",
+        "machine-learning",
+        "mcp"
+      ],
       "metrics": {
-        "starsDelta": 6,
-        "totalScore": 221.4995
+        "stars": 120
       },
-      "source": "ossinsight",
-      "admitReason": "notable",
-      "summaryEn": "An AI job application framework built on Claude Code to evaluate postings, tailor CVs, and write cover letters locally.",
-      "summaryKo": "Claude Code 기반의 로컬 AI 구직 지원 프레임워크로 이력서와 자소서 작성 자동화.",
-      "reasonEn": "Rapid adoption of Claude Code for local automation workflows",
-      "reasonKo": "로컬 자동화를 위한 Claude Code의 빠른 도입",
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-08-17T16:34:05Z",
+      "updatedAt": "2026-08-17T19:36:07Z",
+      "summaryEn": "A free 24-week curriculum covering Python, machine learning, LLMs, RAG, and fine-tuning with 43 runnable notebooks.",
+      "summaryKo": "Python, LLM, RAG, 미세조정 등을 다루는 24주 무료 AI 엔지니어링 커리큘럼입니다.",
+      "reasonEn": "Gaining traction for its comprehensive practical labs.",
+      "reasonKo": "실용적인 실습 자료로 주목받고 있습니다.",
       "categories": [
+        "ai-models",
         "ai-agents"
       ],
-      "firstSeenAt": "2026-08-24T01:23:41.283Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "firstSeenAt": "2026-08-24T08:55:53.167Z",
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
+    },
+    {
+      "id": "gh:agents-universe/agents-universe",
+      "type": "repo",
+      "title": "agents-universe/agents-universe",
+      "summaryOriginal": "让智能体像人一样学习和工作，共享智能体和项目记忆",
+      "url": "https://github.com/agents-universe/agents-universe",
+      "lang": "Python",
+      "tags": [
+        "agent",
+        "agent-framework",
+        "agent-orchestration",
+        "agentic",
+        "agentic-workflow",
+        "ai-agents",
+        "ai-governance",
+        "ai-tools",
+        "context-engineering",
+        "llm",
+        "model-context-protocol",
+        "python"
+      ],
+      "metrics": {
+        "stars": 102
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-08-18T12:49:42Z",
+      "updatedAt": "2026-08-24T14:09:48Z",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-08-25T12:50:44.870Z",
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
+    },
+    {
+      "id": "gh:affaan-m/ECC",
+      "type": "repo",
+      "title": "affaan-m/ECC",
+      "summaryOriginal": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "url": "https://github.com/affaan-m/ECC",
+      "lang": "JavaScript",
+      "tags": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "metrics": {
+        "stars": 243048
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2026-01-18T00:51:51Z",
+      "updatedAt": "2026-08-25T02:12:59Z",
+      "summaryEn": "Agent harness optimization system for Claude Code and other coding agents covering skills, memory, and security.",
+      "summaryKo": "Claude Code 및 코딩 에이전트 최적화 시스템.",
+      "categories": [
+        "ai-models",
+        "ai-agents",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "gh:freestylefly/awesome-gpt-image-2",
@@ -719,7 +767,31 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-22T09:28:16.052Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
+    },
+    {
+      "id": "gh:MadsLorentzen/ai-job-search",
+      "type": "repo",
+      "title": "MadsLorentzen/ai-job-search",
+      "summaryOriginal": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 6,
+        "totalScore": 221.4995
+      },
+      "source": "ossinsight",
+      "admitReason": "notable",
+      "summaryEn": "An AI job application framework built on Claude Code to evaluate postings, tailor CVs, and write cover letters locally.",
+      "summaryKo": "Claude Code 기반의 로컬 AI 구직 지원 프레임워크로 이력서와 자소서 작성 자동화.",
+      "reasonEn": "Rapid adoption of Claude Code for local automation workflows",
+      "reasonKo": "로컬 자동화를 위한 Claude Code의 빠른 도입",
+      "categories": [
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-08-24T01:23:41.283Z",
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "gh:blader/humanizer",
@@ -743,7 +815,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "gh:akitaonrails/ai-memory",
@@ -768,7 +840,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "gh:plannotator/effective-html",
@@ -789,7 +861,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-25T09:36:47.621Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "gh:HKUDS/CLI-Anything",
@@ -805,14 +877,14 @@
       },
       "source": "ossinsight",
       "admitReason": "notable",
-      "summaryEn": "Project aiming to make traditional software applications agent-native by exposing them through standardized command-line interfaces.",
-      "summaryKo": "소프트웨어를 에이전트 친화적으로 만들기 위해 CLI 인터페이스를 제공하는 프로젝트입니다.",
+      "summaryEn": "Toolkit aiming to make any software agent-native via a CLI-first hub.",
+      "summaryKo": "모든 소프트웨어를 에이전트 친화적으로 만드는 CLI 허브",
       "categories": [
         "ai-agents",
         "devtools"
       ],
       "firstSeenAt": "2026-08-25T09:36:47.621Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "gh:mukul975/Anthropic-Cybersecurity-Skills",
@@ -838,7 +910,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "hf-model:Qwen/Qwen3.8-27B",
@@ -861,9 +933,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 12582,
+        "likes": 12615,
         "downloads": 2945415,
-        "trendingScore": 1322
+        "trendingScore": 1301
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -877,7 +949,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "hf-model:unsloth/Qwen3.8-27B-GGUF",
@@ -898,9 +970,9 @@
         "conversational"
       ],
       "metrics": {
-        "likes": 2867,
+        "likes": 2879,
         "downloads": 7334695,
-        "trendingScore": 1019
+        "trendingScore": 1002
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -914,7 +986,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "hf-model:orcarouter/Qwen3.8-27B-Uncensored-MLX",
@@ -938,9 +1010,9 @@
         "8-bit"
       ],
       "metrics": {
-        "likes": 1055,
+        "likes": 1065,
         "downloads": 68855,
-        "trendingScore": 756
+        "trendingScore": 744
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -951,7 +1023,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-19T15:33:13.943Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "hf-model:OBLITERATUS/Qwen3.8-27B-OBLITERATED",
@@ -975,9 +1047,9 @@
         "text-generation"
       ],
       "metrics": {
-        "likes": 711,
+        "likes": 722,
         "downloads": 389747,
-        "trendingScore": 630
+        "trendingScore": 638
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -991,7 +1063,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-21T12:51:22.781Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "hf-model:orcarouter/Qwen3.8-27B-Uncensored-FP8",
@@ -1015,9 +1087,9 @@
         "vllm"
       ],
       "metrics": {
-        "likes": 1112,
+        "likes": 1123,
         "downloads": 249744,
-        "trendingScore": 483
+        "trendingScore": 481
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1031,7 +1103,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "hf-model:HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
@@ -1055,9 +1127,9 @@
         "multilingual"
       ],
       "metrics": {
-        "likes": 600,
+        "likes": 604,
         "downloads": 832185,
-        "trendingScore": 421
+        "trendingScore": 408
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1069,7 +1141,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-21T01:23:34.400Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "hf-model:ornith-ai/Ornith-1.5-35B-A3B",
@@ -1091,9 +1163,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 407,
+        "likes": 409,
         "downloads": 70158,
-        "trendingScore": 396
+        "trendingScore": 398
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1105,7 +1177,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-22T12:41:49.365Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "hf-model:Lightricks/LTX-2.5",
@@ -1129,9 +1201,9 @@
         "image-text-to-audio-video"
       ],
       "metrics": {
-        "likes": 1746,
+        "likes": 1754,
         "downloads": 833845,
-        "trendingScore": 383
+        "trendingScore": 373
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1145,7 +1217,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "hf-model:MiniMaxAI/MiniMax-Music3",
@@ -1166,9 +1238,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1235,
+        "likes": 1236,
         "downloads": 18705,
-        "trendingScore": 290
+        "trendingScore": 286
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1182,7 +1254,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "hf-model:JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
@@ -1206,9 +1278,9 @@
         "base_model:Qwen/Qwen3.8-27B"
       ],
       "metrics": {
-        "likes": 703,
+        "likes": 708,
         "downloads": 1525645,
-        "trendingScore": 290
+        "trendingScore": 282
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1222,7 +1294,29 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-19T18:38:04.622Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
+    },
+    {
+      "id": "hf-paper:2608.23392",
+      "type": "paper",
+      "title": "Towards a Densing Law for User Representation Learning at Billion-Scale Capacity",
+      "summaryOriginal": "User representation learning in real-world industrial scenarios is commonly scaled by increasing user amount, behavioral sequence length and model size. However, existing methods face two challenges: (i) Bottleneck for raw data scaling at billion-scale capacity, as performance exhibit diminishing performance gains with larger-scale raw text user behavioral input, which can be mitigated by tokeniz…",
+      "url": "https://huggingface.co/papers/2608.23392",
+      "tags": [],
+      "metrics": {
+        "upvotes": 13,
+        "comments": 2,
+        "githubStars": 0
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "admitReason": "notable",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-08-25T12:50:44.870Z",
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "hf-paper:2608.23311",
@@ -1232,8 +1326,9 @@
       "url": "https://huggingface.co/papers/2608.23311",
       "tags": [],
       "metrics": {
-        "upvotes": 10,
-        "comments": 1
+        "upvotes": 12,
+        "comments": 1,
+        "githubStars": 0
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-24T00:00:00.000Z",
@@ -1245,7 +1340,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-25T09:36:47.621Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "hf-paper:2608.23189",
@@ -1255,8 +1350,8 @@
       "url": "https://huggingface.co/papers/2608.23189",
       "tags": [],
       "metrics": {
-        "upvotes": 48,
-        "comments": 1,
+        "upvotes": 58,
+        "comments": 2,
         "githubStars": 1882
       },
       "source": "hf-papers",
@@ -1269,7 +1364,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-25T09:36:47.621Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "hf-paper:2608.19567",
@@ -1279,7 +1374,7 @@
       "url": "https://huggingface.co/papers/2608.19567",
       "tags": [],
       "metrics": {
-        "upvotes": 20,
+        "upvotes": 24,
         "comments": 1,
         "githubStars": 3
       },
@@ -1293,7 +1388,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-25T06:51:09.551Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "hf-paper:2608.23035",
@@ -1303,7 +1398,7 @@
       "url": "https://huggingface.co/papers/2608.23035",
       "tags": [],
       "metrics": {
-        "upvotes": 31,
+        "upvotes": 33,
         "comments": 1
       },
       "source": "hf-papers",
@@ -1316,7 +1411,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-25T06:51:09.551Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "hf-paper:2608.13622",
@@ -1339,79 +1434,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-25T06:51:09.551Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
-    },
-    {
-      "id": "hf-paper:2608.16812",
-      "type": "paper",
-      "title": "Unlocking the Potential of Image Editing via Concept Scaling and Dense Supervision",
-      "summaryOriginal": "Existing image editing frameworks predominantly follow the training paradigm of text-to-image diffusion models. However, extending this paradigm to image editing highlights two inherent discrepancies, specifically, the insufficient attention to edit concept granularity and the training inefficiency caused by sparse supervision signals. To address these issues, we establish a comprehensive hierarc…",
-      "url": "https://huggingface.co/papers/2608.16812",
-      "tags": [],
-      "metrics": {
-        "upvotes": 42,
-        "comments": 1,
-        "githubStars": 5
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "admitReason": "notable",
-      "summaryEn": "This paper improves image editing frameworks by addressing concept granularity and sparse supervision through dense supervision.",
-      "summaryKo": "개념 세분화와 조밀한 감독을 통해 기존 이미지 편집 프레임워크의 효율성과 정확도를 개선한 연구입니다.",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-25T06:51:09.551Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
-    },
-    {
-      "id": "hf-paper:2608.23565",
-      "type": "paper",
-      "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
-      "summaryOriginal": "An interactive world model must follow the user's actions, remember the places it has shown, and stream in real time. The tension is structural: control wants a short horizon, memory wants an unbounded one. ReWorld separates the two during training and bounds them at inference. Mixed per-head attention windows confine most heads to the recent past while a small set of global heads attends over th…",
-      "url": "https://huggingface.co/papers/2608.23565",
-      "tags": [],
-      "metrics": {
-        "upvotes": 11,
-        "comments": 1,
-        "githubStars": 3
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-08-24T00:00:00.000Z",
-      "admitReason": "notable",
-      "summaryEn": "ReWorld is an interactive world model with long-horizon memory, using mixed per-head attention windows to separate short-term control from unbounded memory.",
-      "summaryKo": "단기 제어와 장기 기억을 분리하여 실시간 스트리밍을 지원하는 인터랙티브 월드 모델입니다.",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-25T06:51:09.551Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
-    },
-    {
-      "id": "hf-paper:2608.23552",
-      "type": "paper",
-      "title": "Prime Agent: A Self-Improving RLM Harness",
-      "summaryOriginal": "Language models are sequential processors, but long-horizon agency requires external information and computation beyond model weights and active context. Prime Agent is an open-source harness for long-horizon evaluation and coding-agent workflows. A persistent IPython REPL follows the Recursive Language Model abstraction for programmatic context processing and test-time compute, while Continual H…",
-      "url": "https://huggingface.co/papers/2608.23552",
-      "tags": [],
-      "metrics": {
-        "upvotes": 19,
-        "comments": 1,
-        "githubStars": 18181
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-08-24T00:00:00.000Z",
-      "admitReason": "notable",
-      "summaryEn": "Prime Agent is an open-source harness for long-horizon agent workflows, utilizing a persistent IPython REPL for programmatic context.",
-      "summaryKo": "IPython REPL을 활용해 장기적인 에이전트 워크플로우와 코딩 작업을 지원하는 오픈소스 하네스입니다.",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-25T06:51:09.551Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "hn:49241679",
@@ -1427,16 +1450,16 @@
       "source": "hn",
       "publishedAt": "2026-08-10T10:10:02Z",
       "admitReason": "notable",
-      "summaryEn": "Muse Glimmer is a 30B-parameter open model designed specifically for always-on local agent workflows.",
-      "summaryKo": "상시 가동되는 로컬 에이전트 워크플로우에 최적화된 30B 파라미터 오픈 모델 Muse Glimmer.",
-      "reasonEn": "New powerful model release for local agents",
-      "reasonKo": "로컬 에이전트를 위한 강력한 새 모델 출시",
+      "summaryEn": "Muse Glimmer is a 30B parameter model optimized specifically for running continuous local agent workflows.",
+      "summaryKo": "Muse Glimmer는 지속적인 로컬 에이전트 작업에 최적화된 30B 파라미터 모델입니다.",
+      "reasonEn": "New open model release for local agents.",
+      "reasonKo": "로컬 에이전트를 위한 새로운 오픈 모델 출시",
       "categories": [
         "ai-models",
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-19T01:42:27.269Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "hn:49239751",
@@ -1452,16 +1475,16 @@
       "source": "hn",
       "publishedAt": "2026-08-10T06:02:38Z",
       "admitReason": "notable",
-      "summaryEn": "Docker Sandboxes provide disposable and isolated container environments specifically tailored for running AI agents safely.",
-      "summaryKo": "AI 에이전트를 안전하게 실행하기 위해 맞춤 제작된 일회성 격리 컨테이너 환경 Docker Sandboxes.",
-      "reasonEn": "New container tooling for AI safety",
-      "reasonKo": "AI 안전성을 위한 새로운 컨테이너 도구",
+      "summaryEn": "Docker Sandboxes provides disposable, isolated execution environments designed specifically for running AI agents safely.",
+      "summaryKo": "Docker Sandboxes는 AI 에이전트를 안전하게 실행하기 위한 일회용 격리 환경을 제공합니다.",
+      "reasonEn": "New tooling for secure AI agent execution.",
+      "reasonKo": "안전한 AI 에이전트 실행을 위한 새로운 도구",
       "categories": [
-        "infra",
-        "ai-agents"
+        "ai-agents",
+        "infra"
       ],
       "firstSeenAt": "2026-08-22T12:41:49.365Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "hn:49126604",
@@ -1477,40 +1500,15 @@
       "source": "hn",
       "publishedAt": "2026-07-31T18:04:58Z",
       "admitReason": "notable",
-      "summaryEn": "qm is a multiplayer agent harness designed to coordinate multiple AI agents for collaborative work.",
-      "summaryKo": "협업 작업을 위해 여러 AI 에이전트를 조율하는 멀티플레이어 에이전트 하니스 qm.",
-      "reasonEn": "Novel multi-agent coordination tool",
-      "reasonKo": "새로운 멀티 에이전트 조율 도구",
+      "summaryEn": "qm is a multiplayer agent harness designed to coordinate multiple AI agents for collaborative professional work.",
+      "summaryKo": "qm은 협업 작업을 위해 여러 AI 에이전트를 조율하도록 설계된 멀티플레이어 에이전트 하네스입니다.",
+      "reasonEn": "Novel multi-agent orchestration framework.",
+      "reasonKo": "새로운 멀티에이전트 오케스트레이션 프레임워크",
       "categories": [
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-19T01:42:27.269Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
-    },
-    {
-      "id": "hn:49182996",
-      "type": "article",
-      "title": "Cloudflare OS: an open platform for agents, apps, and work",
-      "summaryOriginal": "Cloudflare OS: an open platform for agents, apps, and work",
-      "url": "https://blog.cloudflare.com/cloudflare-os/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 668,
-        "comments": 330
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-05T13:58:53Z",
-      "admitReason": "notable",
-      "summaryEn": "Cloudflare OS introduces an open platform designed for running distributed agents, applications, and workloads.",
-      "summaryKo": "분산 에이전트, 애플리케이션, 워크로드를 실행하기 위한 오픈 플랫폼 Cloudflare OS.",
-      "reasonEn": "Cloudflare announces new agent platform",
-      "reasonKo": "클라우드프레어의 새로운 에이전트 플랫폼 발표",
-      "categories": [
-        "infra",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-25T01:21:01.540Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
     },
     {
       "id": "hn:49246804",
@@ -1526,16 +1524,186 @@
       "source": "hn",
       "publishedAt": "2026-08-10T17:22:07Z",
       "admitReason": "notable",
-      "summaryEn": "Needle2 is a tiny 14MB agentic LLM built to run on phones, wearables, smart home devices, and robotics hardware.",
-      "summaryKo": "휴대폰, 웨어러블, 스마트 홈, 로봇에서 실행되도록 제작된 14MB 크기의 초소형 에이전틱 LLM Needle2.",
-      "reasonEn": "Extremely small agent model for edge devices",
-      "reasonKo": "엣지 기기를 위한 초소형 에이전트 모델",
+      "summaryEn": "Needle2 is a compact 14MB agentic LLM built to run locally on edge devices like phones, wearables, and robots.",
+      "summaryKo": "Needle2는 스마트폰, 웨어러블, 로봇 등 엣지 기기에서 로컬로 실행되도록 제작된 소형 14MB 에이전트 LLM입니다.",
+      "reasonEn": "Show HN release of an ultra-lightweight local LLM.",
+      "reasonKo": "초경량 로컬 LLM의 Show HN 공개",
       "categories": [
         "ai-models",
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-25T06:51:09.551Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+      "lastSeenAt": "2026-08-25T12:50:44.870Z"
+    },
+    {
+      "id": "gh:VoltAgent/awesome-agent-skills",
+      "type": "repo",
+      "categories": [
+        "ai-agents",
+        "devtools"
+      ],
+      "title": "VoltAgent/awesome-agent-skills",
+      "summaryEn": "Curated collection of 1000+ agent skills compatible with popular AI coding assistants like Claude Code, Cursor, and Gemini CLI.",
+      "summaryKo": "주요 AI 코딩 어시스턴트와 호환되는 1000개 이상의 에이전트 스킬 모음입니다.",
+      "summaryOriginal": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "tags": [],
+      "metrics": {
+        "stars": 32167
+      },
+      "source": "github-trending",
+      "firstSeenAt": "2026-08-23T12:42:30.740Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z",
+      "admitReason": "trending",
+      "updatedAt": "2026-08-25T08:04:16Z"
+    },
+    {
+      "id": "gh:NousResearch/hermes-agent",
+      "type": "repo",
+      "categories": [
+        "ai-agents",
+        "ai-models"
+      ],
+      "title": "NousResearch/hermes-agent",
+      "summaryEn": "Scalable AI agent framework adaptable to various LLMs including Claude and OpenAI models.",
+      "summaryKo": "Claude와 OpenAI 모델에 적응하는 확장 가능한 AI 에이전트 프레임워크.",
+      "summaryOriginal": "The agent that grows with you",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "lang": "Python",
+      "tags": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "codex",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "nous-research"
+      ],
+      "metrics": {
+        "stars": 236210
+      },
+      "source": "github-search",
+      "publishedAt": "2025-07-22T22:22:28Z",
+      "updatedAt": "2026-08-25T12:00:34Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:PostHog/posthog",
+      "type": "repo",
+      "categories": [
+        "ai-agents",
+        "infra",
+        "data",
+        "devtools"
+      ],
+      "title": "PostHog/posthog",
+      "summaryEn": "All-in-one product analytics platform featuring AI observability, session replay, feature flags, experiments, and error tracking for developer tools.",
+      "summaryKo": "AI 옵저버빌리티, 세션 리플레이, 기능 플래그, A/B 테스트, 오류 추적 등을 포함한 통합 제품 분석 플랫폼입니다.",
+      "summaryOriginal": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "url": "https://github.com/PostHog/posthog",
+      "lang": "Python",
+      "tags": [
+        "ab-testing",
+        "ai-analytics",
+        "analytics",
+        "cdp",
+        "data-warehouse",
+        "experiments",
+        "feature-flags",
+        "javascript",
+        "product-analytics",
+        "python",
+        "react",
+        "session-replay"
+      ],
+      "metrics": {
+        "stars": 39122
+      },
+      "source": "github-search",
+      "publishedAt": "2020-01-23T22:46:58Z",
+      "updatedAt": "2026-08-25T12:52:12Z",
+      "firstSeenAt": "2026-08-20T12:53:13.611Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "hf-paper:2608.16812",
+      "type": "paper",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "title": "Unlocking the Potential of Image Editing via Concept Scaling and Dense Supervision",
+      "summaryEn": "This paper improves image editing frameworks by addressing concept granularity and sparse supervision through dense supervision.",
+      "summaryKo": "개념 세분화와 조밀한 감독을 통해 기존 이미지 편집 프레임워크의 효율성과 정확도를 개선한 연구입니다.",
+      "summaryOriginal": "Existing image editing frameworks predominantly follow the training paradigm of text-to-image diffusion models. However, extending this paradigm to image editing highlights two inherent discrepancies, specifically, the insufficient attention to edit concept granularity and the training inefficiency caused by sparse supervision signals. To address these issues, we establish a comprehensive hierarc…",
+      "url": "https://huggingface.co/papers/2608.16812",
+      "tags": [],
+      "metrics": {
+        "upvotes": 42,
+        "comments": 1,
+        "githubStars": 5
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-08-17T00:00:00.000Z",
+      "firstSeenAt": "2026-08-25T06:51:09.551Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "hf-paper:2608.23565",
+      "type": "paper",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
+      "summaryEn": "ReWorld is an interactive world model with long-horizon memory, using mixed per-head attention windows to separate short-term control from unbounded memory.",
+      "summaryKo": "단기 제어와 장기 기억을 분리하여 실시간 스트리밍을 지원하는 인터랙티브 월드 모델입니다.",
+      "summaryOriginal": "An interactive world model must follow the user's actions, remember the places it has shown, and stream in real time. The tension is structural: control wants a short horizon, memory wants an unbounded one. ReWorld separates the two during training and bounds them at inference. Mixed per-head attention windows confine most heads to the recent past while a small set of global heads attends over th…",
+      "url": "https://huggingface.co/papers/2608.23565",
+      "tags": [],
+      "metrics": {
+        "upvotes": 11,
+        "comments": 1,
+        "githubStars": 3
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "firstSeenAt": "2026-08-25T06:51:09.551Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "hf-paper:2608.23552",
+      "type": "paper",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "title": "Prime Agent: A Self-Improving RLM Harness",
+      "summaryEn": "Prime Agent is an open-source harness for long-horizon agent workflows, utilizing a persistent IPython REPL for programmatic context.",
+      "summaryKo": "IPython REPL을 활용해 장기적인 에이전트 워크플로우와 코딩 작업을 지원하는 오픈소스 하네스입니다.",
+      "summaryOriginal": "Language models are sequential processors, but long-horizon agency requires external information and computation beyond model weights and active context. Prime Agent is an open-source harness for long-horizon evaluation and coding-agent workflows. A persistent IPython REPL follows the Recursive Language Model abstraction for programmatic context processing and test-time compute, while Continual H…",
+      "url": "https://huggingface.co/papers/2608.23552",
+      "tags": [],
+      "metrics": {
+        "upvotes": 19,
+        "comments": 1,
+        "githubStars": 18181
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "firstSeenAt": "2026-08-25T06:51:09.551Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z",
+      "admitReason": "notable"
     },
     {
       "id": "gh:Leonxlnx/unlazy",
@@ -1553,14 +1721,14 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "totalScore": 209.798,
-        "stars": 2300
+        "stars": 2339,
+        "totalScore": 209.798
       },
       "source": "ossinsight",
+      "updatedAt": "2026-08-24T16:46:40Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-25T06:51:09.551Z",
-      "admitReason": "notable",
-      "updatedAt": "2026-08-24T16:46:40Z"
+      "admitReason": "notable"
     },
     {
       "id": "gh:tjboudreaux/cc-thinking-skills",
@@ -1576,14 +1744,14 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "totalScore": 206.3094,
-        "stars": 1236
+        "stars": 1244,
+        "totalScore": 206.3094
       },
       "source": "ossinsight",
+      "updatedAt": "2026-08-07T18:53:22Z",
       "firstSeenAt": "2026-08-24T08:55:53.167Z",
       "lastSeenAt": "2026-08-25T06:51:09.551Z",
-      "admitReason": "notable",
-      "updatedAt": "2026-08-07T18:53:22Z"
+      "admitReason": "notable"
     },
     {
       "id": "gh:ArcReel/ArcReel",
@@ -1600,15 +1768,15 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
+        "stars": 4166,
         "pushes": 3,
-        "totalScore": 204.9706,
-        "stars": 4164
+        "totalScore": 204.9706
       },
       "source": "ossinsight",
+      "updatedAt": "2026-08-25T12:35:17Z",
       "firstSeenAt": "2026-08-24T08:55:53.167Z",
       "lastSeenAt": "2026-08-25T06:51:09.551Z",
-      "admitReason": "notable",
-      "updatedAt": "2026-08-25T08:54:51Z"
+      "admitReason": "notable"
     },
     {
       "id": "gh:citrolabs/ego-lite",
@@ -1628,14 +1796,14 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "totalScore": 204.9391,
-        "stars": 13358
+        "stars": 13399,
+        "totalScore": 204.9391
       },
       "source": "ossinsight",
+      "updatedAt": "2026-08-25T12:42:12Z",
       "firstSeenAt": "2026-08-19T09:35:40.383Z",
       "lastSeenAt": "2026-08-25T06:51:09.551Z",
-      "admitReason": "notable",
-      "updatedAt": "2026-08-25T06:48:42Z"
+      "admitReason": "notable"
     },
     {
       "id": "gh:shawnla90/gtm-coding-agent",
@@ -1651,14 +1819,14 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "totalScore": 204.9298,
-        "stars": 135
+        "stars": 135,
+        "totalScore": 204.9298
       },
       "source": "ossinsight",
+      "updatedAt": "2026-08-20T04:30:34Z",
       "firstSeenAt": "2026-08-24T08:55:53.167Z",
       "lastSeenAt": "2026-08-25T06:51:09.551Z",
-      "admitReason": "notable",
-      "updatedAt": "2026-08-20T04:30:34Z"
+      "admitReason": "notable"
     },
     {
       "id": "gh:ayghri/i-have-adhd",
@@ -1674,14 +1842,14 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "totalScore": 204.9223,
-        "stars": 24040
+        "stars": 24099,
+        "totalScore": 204.9223
       },
       "source": "ossinsight",
+      "updatedAt": "2026-08-21T15:25:27Z",
       "firstSeenAt": "2026-08-19T09:35:40.383Z",
       "lastSeenAt": "2026-08-25T06:51:09.551Z",
-      "admitReason": "notable",
-      "updatedAt": "2026-08-21T15:25:27Z"
+      "admitReason": "notable"
     },
     {
       "id": "hf-paper:2608.23283",
@@ -1780,79 +1948,6 @@
       "admitReason": "notable"
     },
     {
-      "id": "gh:zorost/AI-Engineering-Lab",
-      "type": "repo",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "zorost/AI-Engineering-Lab",
-      "summaryEn": "A free 24-week curriculum covering Python, machine learning, LLMs, RAG, and fine-tuning with 43 runnable notebooks.",
-      "summaryKo": "Python, LLM, RAG, 미세조정 등을 다루는 24주 무료 AI 엔지니어링 커리큘럼입니다.",
-      "summaryOriginal": "A free, self-paced 24-week AI engineering course: Python, machine learning, LLMs, RAG, fine-tuning, agents and MCP, Azure and Vertex and Bedrock, and Databricks. 43 runnable notebooks, one continuous case study. MIT licensed, no signup. By Zorost Intelligence AI Lab.",
-      "reasonEn": "Gaining traction for its comprehensive practical labs.",
-      "reasonKo": "실용적인 실습 자료로 주목받고 있습니다.",
-      "url": "https://github.com/zorost/AI-Engineering-Lab",
-      "lang": "Jupyter Notebook",
-      "tags": [
-        "ai-agents",
-        "ai-engineering",
-        "course",
-        "curriculum",
-        "databricks",
-        "deep-learning",
-        "fine-tuning",
-        "generative-ai",
-        "learning-resources",
-        "llm",
-        "machine-learning",
-        "mcp"
-      ],
-      "metrics": {
-        "stars": 110
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-17T16:34:05Z",
-      "updatedAt": "2026-08-17T19:36:07Z",
-      "firstSeenAt": "2026-08-24T08:55:53.167Z",
-      "lastSeenAt": "2026-08-25T03:50:28.986Z",
-      "admitReason": "new"
-    },
-    {
-      "id": "gh:affaan-m/ECC",
-      "type": "repo",
-      "categories": [
-        "ai-models",
-        "ai-agents",
-        "devtools"
-      ],
-      "title": "affaan-m/ECC",
-      "summaryEn": "Agent harness optimization system for Claude Code and other coding agents covering skills, memory, and security.",
-      "summaryKo": "Claude Code 및 코딩 에이전트 최적화 시스템.",
-      "summaryOriginal": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "url": "https://github.com/affaan-m/ECC",
-      "lang": "JavaScript",
-      "tags": [
-        "ai-agents",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "developer-tools",
-        "llm",
-        "mcp",
-        "productivity"
-      ],
-      "metrics": {
-        "stars": 242960
-      },
-      "source": "github-search",
-      "publishedAt": "2026-01-18T00:51:51Z",
-      "updatedAt": "2026-08-25T02:12:59Z",
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T03:50:28.986Z",
-      "admitReason": "notable"
-    },
-    {
       "id": "gh:Significant-Gravitas/AutoGPT",
       "type": "repo",
       "categories": [
@@ -1879,11 +1974,11 @@
         "python"
       ],
       "metrics": {
-        "stars": 186853
+        "stars": 186856
       },
       "source": "github-search",
       "publishedAt": "2023-03-16T09:21:07Z",
-      "updatedAt": "2026-08-25T08:43:35Z",
+      "updatedAt": "2026-08-25T12:51:16Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-25T03:50:28.986Z",
       "admitReason": "notable"
@@ -2120,11 +2215,11 @@
         "dsh"
       ],
       "metrics": {
-        "stars": 892
+        "stars": 895
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T13:14:49Z",
-      "updatedAt": "2026-08-25T09:26:12Z",
+      "updatedAt": "2026-08-25T11:25:48Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-24T23:36:24.421Z",
       "admitReason": "new"
@@ -2157,7 +2252,7 @@
         "prompt-engineering"
       ],
       "metrics": {
-        "stars": 316
+        "stars": 318
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T05:08:30Z",
@@ -2228,7 +2323,7 @@
       "lang": "Shell",
       "tags": [],
       "metrics": {
-        "stars": 235990
+        "stars": 236180
       },
       "source": "github-trending",
       "updatedAt": "2026-08-24T14:20:17Z",
@@ -2339,12 +2434,12 @@
       "lang": "Go",
       "tags": [],
       "metrics": {
-        "stars": 9939,
+        "stars": 9940,
         "pushes": 5,
         "totalScore": 207.3225
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-25T08:57:22Z",
+      "updatedAt": "2026-08-25T12:40:01Z",
       "firstSeenAt": "2026-08-23T09:29:14.266Z",
       "lastSeenAt": "2026-08-24T07:01:43.353Z",
       "admitReason": "notable"
@@ -2363,7 +2458,7 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 455,
+        "stars": 457,
         "totalScore": 204.9859
       },
       "source": "ossinsight",
@@ -2414,7 +2509,7 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 1715,
+        "stars": 1752,
         "totalScore": 204.8707
       },
       "source": "ossinsight",
@@ -2464,7 +2559,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 588,
+        "stars": 591,
         "totalScore": 204.6229
       },
       "source": "ossinsight",
@@ -2488,11 +2583,11 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 16467,
+        "stars": 16487,
         "totalScore": 204.607
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-24T17:14:58Z",
+      "updatedAt": "2026-08-25T10:12:07Z",
       "firstSeenAt": "2026-08-23T09:29:14.266Z",
       "lastSeenAt": "2026-08-24T07:01:43.353Z",
       "admitReason": "notable"
@@ -2511,7 +2606,7 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 7998,
+        "stars": 8007,
         "totalScore": 204.5953
       },
       "source": "ossinsight",
@@ -2535,12 +2630,12 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 318,
+        "stars": 323,
         "pushes": 2,
         "totalScore": 204.4507
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-25T00:32:32Z",
+      "updatedAt": "2026-08-25T12:21:49Z",
       "firstSeenAt": "2026-08-23T09:29:14.266Z",
       "lastSeenAt": "2026-08-24T07:01:43.353Z",
       "admitReason": "notable"
@@ -2747,7 +2842,7 @@
       "lang": "Shell",
       "tags": [],
       "metrics": {
-        "stars": 277292
+        "stars": 277366
       },
       "source": "github-trending",
       "updatedAt": "2026-08-19T17:33:23Z",
@@ -2772,7 +2867,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 142929
+        "stars": 142947
       },
       "source": "github-trending",
       "updatedAt": "2026-08-25T05:13:24Z",
@@ -2795,7 +2890,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 5820
+        "stars": 5830
       },
       "source": "github-trending",
       "updatedAt": "2026-08-25T04:16:15Z",
@@ -2866,12 +2961,12 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 1543,
+        "stars": 1545,
         "pushes": 2,
         "totalScore": 243.2202
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-25T09:24:31Z",
+      "updatedAt": "2026-08-25T12:16:19Z",
       "firstSeenAt": "2026-08-22T09:28:16.052Z",
       "lastSeenAt": "2026-08-23T06:43:06.551Z",
       "admitReason": "notable"
@@ -2890,11 +2985,11 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 33129,
+        "stars": 33172,
         "totalScore": 223.7478
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-25T08:15:39Z",
+      "updatedAt": "2026-08-25T12:05:54Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-23T06:43:06.551Z",
       "admitReason": "notable"
@@ -2920,7 +3015,7 @@
         "totalScore": 221.2283
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-25T09:30:10Z",
+      "updatedAt": "2026-08-25T12:15:56Z",
       "firstSeenAt": "2026-08-22T09:28:16.052Z",
       "lastSeenAt": "2026-08-23T06:43:06.551Z",
       "admitReason": "notable"
@@ -2963,12 +3058,12 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 4200,
+        "stars": 4265,
         "pullRequests": 1,
         "totalScore": 214.7229
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-25T09:20:58Z",
+      "updatedAt": "2026-08-25T12:17:35Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-23T06:43:06.551Z",
       "admitReason": "notable"
@@ -2990,7 +3085,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 2831,
+        "stars": 2837,
         "totalScore": 214.6587
       },
       "source": "ossinsight",
@@ -3088,11 +3183,11 @@
         "memory"
       ],
       "metrics": {
-        "stars": 21067
+        "stars": 21082
       },
       "source": "github-search",
       "publishedAt": "2025-10-30T11:49:48Z",
-      "updatedAt": "2026-08-25T09:34:32Z",
+      "updatedAt": "2026-08-25T12:51:14Z",
       "firstSeenAt": "2026-08-21T09:38:23.718Z",
       "lastSeenAt": "2026-08-22T06:42:25.995Z",
       "admitReason": "notable"
@@ -3180,7 +3275,7 @@
         "workspace"
       ],
       "metrics": {
-        "stars": 10810
+        "stars": 10825
       },
       "source": "github-search",
       "publishedAt": "2026-03-22T07:36:16Z",
@@ -3211,7 +3306,7 @@
         "postgresql-database"
       ],
       "metrics": {
-        "stars": 621
+        "stars": 628
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T23:41:52Z",
@@ -3234,7 +3329,7 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 26024,
+        "stars": 26039,
         "totalScore": 210.1814
       },
       "source": "ossinsight",
@@ -3281,7 +3376,7 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 9894,
+        "stars": 9896,
         "totalScore": 208.7091
       },
       "source": "ossinsight",
@@ -3305,7 +3400,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 468,
+        "stars": 477,
         "totalScore": 208.5732
       },
       "source": "ossinsight",
@@ -3329,7 +3424,7 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 6224,
+        "stars": 6259,
         "totalScore": 208.4296
       },
       "source": "ossinsight",
@@ -3354,7 +3449,7 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 915,
+        "stars": 917,
         "totalScore": 207.9588
       },
       "source": "ossinsight",
@@ -3416,10 +3511,10 @@
       "lang": "Go",
       "tags": [],
       "metrics": {
-        "stars": 1620
+        "stars": 1621
       },
       "source": "github-trending",
-      "updatedAt": "2026-08-25T05:00:05Z",
+      "updatedAt": "2026-08-25T11:23:41Z",
       "firstSeenAt": "2026-08-20T12:53:13.611Z",
       "lastSeenAt": "2026-08-21T21:26:14.378Z",
       "admitReason": "trending"
@@ -3591,7 +3686,7 @@
         "llm"
       ],
       "metrics": {
-        "stars": 14100
+        "stars": 14110
       },
       "source": "github-search",
       "publishedAt": "2026-03-29T12:28:19Z",
@@ -3635,7 +3730,7 @@
         "tutorial"
       ],
       "metrics": {
-        "stars": 6375
+        "stars": 6385
       },
       "source": "github-search",
       "publishedAt": "2026-05-04T22:18:51Z",
@@ -3667,7 +3762,7 @@
         "task-scheduling"
       ],
       "metrics": {
-        "stars": 1960
+        "stars": 2044
       },
       "source": "github-search",
       "publishedAt": "2026-08-18T04:08:11Z",
@@ -3708,11 +3803,11 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 27300
+        "stars": 27344
       },
       "source": "github-search",
       "publishedAt": "2025-12-31T14:01:28Z",
-      "updatedAt": "2026-08-25T05:07:55Z",
+      "updatedAt": "2026-08-25T12:09:42Z",
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
       "lastSeenAt": "2026-08-21T06:50:49.363Z",
       "admitReason": "notable"
@@ -3731,7 +3826,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 50182,
+        "stars": 50207,
         "totalScore": 219.2154
       },
       "source": "ossinsight",
@@ -3754,13 +3849,13 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 3085,
+        "stars": 3137,
         "pullRequests": 1,
         "pushes": 9,
         "totalScore": 217.1038
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-25T09:36:51Z",
+      "updatedAt": "2026-08-25T12:48:28Z",
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
       "lastSeenAt": "2026-08-21T06:50:49.363Z",
       "admitReason": "notable"
@@ -3779,12 +3874,12 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 14969,
+        "stars": 14985,
         "pushes": 1,
         "totalScore": 211.5371
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-25T09:15:38Z",
+      "updatedAt": "2026-08-25T11:51:13Z",
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
       "lastSeenAt": "2026-08-21T06:50:49.363Z",
       "admitReason": "notable"
@@ -3803,7 +3898,7 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 3398,
+        "stars": 3400,
         "totalScore": 209.4747
       },
       "source": "ossinsight",
@@ -3826,7 +3921,7 @@
       "lang": "Swift",
       "tags": [],
       "metrics": {
-        "stars": 1459,
+        "stars": 1461,
         "totalScore": 209.4267
       },
       "source": "ossinsight",
@@ -3849,7 +3944,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 10866,
+        "stars": 10874,
         "totalScore": 209.3594
       },
       "source": "ossinsight",
@@ -3872,7 +3967,7 @@
       "lang": "TeX",
       "tags": [],
       "metrics": {
-        "stars": 12025,
+        "stars": 12030,
         "totalScore": 209.0739
       },
       "source": "ossinsight",
@@ -4254,11 +4349,11 @@
         "token-saver"
       ],
       "metrics": {
-        "stars": 54697
+        "stars": 54802
       },
       "source": "github-search",
       "publishedAt": "2026-02-13T12:38:31Z",
-      "updatedAt": "2026-08-25T08:51:17Z",
+      "updatedAt": "2026-08-25T12:48:38Z",
       "firstSeenAt": "2026-08-19T09:35:40.383Z",
       "lastSeenAt": "2026-08-20T06:49:10.510Z",
       "admitReason": "notable"
@@ -4298,7 +4393,7 @@
         "workspace-manager"
       ],
       "metrics": {
-        "stars": 32189
+        "stars": 32218
       },
       "source": "github-search",
       "publishedAt": "2026-03-27T17:54:33Z",
@@ -4337,11 +4432,11 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 631
+        "stars": 632
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T10:41:33Z",
-      "updatedAt": "2026-08-25T03:36:50Z",
+      "updatedAt": "2026-08-25T10:45:23Z",
       "firstSeenAt": "2026-08-19T09:35:40.383Z",
       "lastSeenAt": "2026-08-20T06:49:10.510Z",
       "admitReason": "new"
@@ -4361,7 +4456,7 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 219,
+        "stars": 220,
         "pushes": 1,
         "totalScore": 210.8921
       },
@@ -4387,12 +4482,12 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 18262,
+        "stars": 18293,
         "pushes": 11,
         "totalScore": 209.645
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-25T09:21:04Z",
+      "updatedAt": "2026-08-25T12:52:41Z",
       "firstSeenAt": "2026-08-19T09:35:40.383Z",
       "lastSeenAt": "2026-08-20T06:49:10.510Z",
       "admitReason": "notable"
@@ -4414,7 +4509,7 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 45546,
+        "stars": 45568,
         "totalScore": 208.7912
       },
       "source": "ossinsight",
@@ -4829,7 +4924,7 @@
         "skill-generator"
       ],
       "metrics": {
-        "stars": 23949
+        "stars": 23956
       },
       "source": "github-search",
       "publishedAt": "2026-03-30T05:22:23Z",
@@ -4898,7 +4993,7 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 4838,
+        "stars": 4851,
         "totalScore": 216.675
       },
       "source": "ossinsight",
@@ -4924,7 +5019,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 4050,
+        "stars": 4058,
         "totalScore": 207.3834
       },
       "source": "ossinsight",
@@ -5040,7 +5135,7 @@
         "webscraping"
       ],
       "metrics": {
-        "stars": 172057
+        "stars": 172123
       },
       "source": "github-search",
       "publishedAt": "2024-04-15T21:02:29Z",
@@ -5279,11 +5374,11 @@
         "workflow"
       ],
       "metrics": {
-        "stars": 153448
+        "stars": 153467
       },
       "source": "github-search",
       "publishedAt": "2023-04-12T07:40:24Z",
-      "updatedAt": "2026-08-25T09:38:40Z",
+      "updatedAt": "2026-08-25T12:52:35Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-19T01:38:48.167Z",
       "admitReason": "notable"
@@ -5317,7 +5412,7 @@
         "webui"
       ],
       "metrics": {
-        "stars": 149838
+        "stars": 149855
       },
       "source": "github-search",
       "publishedAt": "2023-10-06T22:08:27Z",
