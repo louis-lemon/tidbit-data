@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "data",
-  "generatedAt": "2026-08-25T06:51:09.551Z",
+  "generatedAt": "2026-08-25T09:36:47.621Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -26,12 +26,12 @@
         "session-replay"
       ],
       "metrics": {
-        "stars": 39067
+        "stars": 39106
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2020-01-23T22:46:58Z",
-      "updatedAt": "2026-08-25T06:50:45Z",
+      "updatedAt": "2026-08-25T09:38:10Z",
       "summaryEn": "All-in-one product analytics platform featuring AI observability, session replay, feature flags, experiments, and error tracking for developer tools.",
       "summaryKo": "AI 옵저버빌리티, 세션 리플레이, 기능 플래그, A/B 테스트, 오류 추적 등을 포함한 통합 제품 분석 플랫폼입니다.",
       "categories": [
@@ -41,7 +41,83 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-20T12:53:13.611Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+    },
+    {
+      "id": "gh:t8y2/dbx",
+      "type": "repo",
+      "title": "t8y2/dbx",
+      "summaryOriginal": "20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 90+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
+      "url": "https://github.com/t8y2/dbx",
+      "lang": "Rust",
+      "tags": [
+        "ai",
+        "cli",
+        "clickhouse",
+        "database",
+        "database-client",
+        "database-management",
+        "docker",
+        "gui",
+        "mcp",
+        "mongodb",
+        "mysql",
+        "postgresql"
+      ],
+      "metrics": {
+        "stars": 16540
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2026-04-29T03:00:36Z",
+      "updatedAt": "2026-08-25T09:35:33Z",
+      "summaryEn": "Dbx is a lightweight cross-platform database client supporting 70+ databases with built-in AI, MCP server, CLI, and Docker capabilities.",
+      "summaryKo": "70개 이상의 데이터베이스를 지원하는 가벼운 크로스플랫폼 클라이언트로 AI와 MCP를 내장했습니다.",
+      "categories": [
+        "ai-agents",
+        "backend",
+        "infra",
+        "data",
+        "devtools",
+        "web"
+      ],
+      "firstSeenAt": "2026-08-21T09:38:23.718Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+    },
+    {
+      "id": "gh:ccch1mneyyy/dsh-TUI",
+      "type": "repo",
+      "title": "ccch1mneyyy/dsh-TUI",
+      "summaryOriginal": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。 DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoughts, double-Esc rollback, context bar + TPS. npm one-click.",
+      "url": "https://github.com/ccch1mneyyy/dsh-TUI",
+      "lang": "TypeScript",
+      "tags": [
+        "claude-code",
+        "coding-agent",
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugin",
+        "ink",
+        "react",
+        "terminal",
+        "tui"
+      ],
+      "metrics": {
+        "stars": 2512
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-08-13T12:49:31Z",
+      "updatedAt": "2026-08-25T09:04:02Z",
+      "summaryEn": "Claude Code-style terminal UI plugin for DeepSeek Harness — status bar, streaming thoughts, double-Esc rollback, context/TPS tracking.",
+      "summaryKo": "디프시크 하니스용 클로드 코드 스타일 터미널 UI, 상태바·스트리밍·더블Esc 되돌리기 지원.",
+      "categories": [
+        "data",
+        "web",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-25T09:36:47.621Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:netdata/netdata",
@@ -65,12 +141,12 @@
         "machine-learning"
       ],
       "metrics": {
-        "stars": 80285
+        "stars": 80286
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2013-06-17T18:39:10Z",
-      "updatedAt": "2026-08-25T06:23:52Z",
+      "updatedAt": "2026-08-25T08:50:50Z",
       "summaryEn": "Real-time full-stack observability and monitoring platform with AI-assisted alerting, covering infra, containers, and databases.",
       "summaryKo": "인프라·컨테이너·DB를 아우르는 실시간 풀스택 관측·모니터링 플랫폼, AI 기반 알림 지원.",
       "categories": [
@@ -80,7 +156,7 @@
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:apache/airflow",
@@ -104,12 +180,12 @@
         "etl"
       ],
       "metrics": {
-        "stars": 46597
+        "stars": 46598
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2015-04-13T18:04:58Z",
-      "updatedAt": "2026-08-25T03:01:51Z",
+      "updatedAt": "2026-08-25T09:22:06Z",
       "summaryEn": "Workflow orchestration platform for authoring, scheduling, and monitoring data pipelines, ETL jobs, and complex DAGs programmatically.",
       "summaryKo": "데이터 파이프라인, ETL, DAG를 프로그래밍으로 작성, 스케줄링, 모니터링하는 오케스트레이션 플랫폼.",
       "categories": [
@@ -117,7 +193,7 @@
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:OpenLabs-so/oa-design",
@@ -151,7 +227,7 @@
         "data"
       ],
       "firstSeenAt": "2026-08-21T18:38:31.239Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:apache/superset",
@@ -175,19 +251,19 @@
         "data-visualization"
       ],
       "metrics": {
-        "stars": 74453
+        "stars": 74455
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2015-07-21T18:55:34Z",
-      "updatedAt": "2026-08-25T06:32:00Z",
+      "updatedAt": "2026-08-25T08:50:20Z",
       "summaryEn": "Open-source data visualization and exploration platform for analytics and business intelligence",
       "categories": [
         "web",
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:directus/directus",
@@ -211,7 +287,7 @@
         "mssql"
       ],
       "metrics": {
-        "stars": 37503
+        "stars": 37446
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -221,11 +297,10 @@
       "summaryKo": "DB를 헤드리스 CMS·관리자 패널·즉시 API로 바꿔주는 유연한 백엔드.",
       "categories": [
         "web",
-        "backend",
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:openreplay/openreplay",
@@ -262,7 +337,7 @@
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:evidence-dev/evidence",
@@ -299,7 +374,7 @@
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:prisma/prisma",
@@ -323,12 +398,12 @@
         "postgres"
       ],
       "metrics": {
-        "stars": 47570
+        "stars": 47571
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2019-06-20T13:33:47Z",
-      "updatedAt": "2026-08-25T06:43:51Z",
+      "updatedAt": "2026-08-25T08:41:10Z",
       "summaryEn": "Modern ORM for Node.js and TypeScript supporting PostgreSQL, MySQL, MongoDB, SQLite, and other databases with type-safe queries.",
       "summaryKo": "PostgreSQL, MySQL, MongoDB, SQLite를 지원하는 Node.js/TypeScript ORM으로 타입 안전성 제공.",
       "categories": [
@@ -336,117 +411,184 @@
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
-      "id": "gh:PostgREST/postgrest",
+      "id": "gh:etcd-io/etcd",
       "type": "repo",
-      "title": "PostgREST/postgrest",
-      "summaryOriginal": "REST API for any Postgres database",
-      "url": "https://github.com/PostgREST/postgrest",
-      "lang": "Haskell",
+      "title": "etcd-io/etcd",
+      "summaryOriginal": "Distributed reliable key-value store for the most critical data of a distributed system",
+      "url": "https://github.com/etcd-io/etcd",
+      "lang": "Go",
       "tags": [
-        "api",
-        "automatic-api",
+        "cncf",
+        "consensus",
         "database",
-        "haskell",
-        "http",
-        "pg",
-        "pgsql",
-        "postgres",
-        "postgresql",
-        "postgrest",
-        "rest",
-        "server"
+        "distributed-database",
+        "distributed-systems",
+        "etcd",
+        "go",
+        "key-value",
+        "kubernetes",
+        "raft"
       ],
       "metrics": {
-        "stars": 27624
+        "stars": 52167
       },
       "source": "github-search",
       "admitReason": "notable",
-      "publishedAt": "2014-06-13T00:23:00Z",
-      "updatedAt": "2026-08-24T16:48:09Z",
-      "summaryEn": "Turns any Postgres database directly into a REST API, written in Haskell.",
-      "summaryKo": "포스트그레스 DB를 바로 REST API로 만들어주는 하스켈 기반 서버.",
+      "publishedAt": "2013-07-06T21:57:21Z",
+      "updatedAt": "2026-08-24T13:59:48Z",
+      "summaryEn": "Distributed key-value store for critical data in distributed systems; powers Kubernetes consensus.",
+      "summaryKo": "분산 시스템의 핵심 데이터를 저장하는 분산 키-값 저장소.",
       "categories": [
-        "backend",
+        "infra",
+        "data"
+      ],
+      "firstSeenAt": "2026-08-18T21:26:34.657Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+    },
+    {
+      "id": "gh:kestra-io/kestra",
+      "type": "repo",
+      "title": "kestra-io/kestra",
+      "summaryOriginal": "Event Driven Orchestration & Scheduling Platform for Mission Critical Applications",
+      "url": "https://github.com/kestra-io/kestra",
+      "lang": "Java",
+      "tags": [
+        "ai-agents",
+        "automation",
+        "control-plane",
+        "data-engineering",
+        "data-orchestration",
+        "data-orchestrator",
+        "devops",
+        "etl",
+        "hacktoberfest",
+        "high-availability",
+        "infra-automation",
+        "infra-ops"
+      ],
+      "metrics": {
+        "stars": 27919
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2019-08-24T13:56:15Z",
+      "updatedAt": "2026-08-25T09:26:56Z",
+      "summaryEn": "Event-driven workflow orchestration platform for data pipelines, ETL, and mission-critical automation with infrastructure-as-code support.",
+      "categories": [
+        "infra",
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
-      "id": "gh:bitwarden/server",
+      "id": "gh:xonsh/xonsh",
       "type": "repo",
-      "title": "bitwarden/server",
-      "summaryOriginal": "Bitwarden infrastructure/backend (API, database, Docker, etc).",
-      "url": "https://github.com/bitwarden/server",
-      "lang": "C#",
+      "title": "xonsh/xonsh",
+      "summaryOriginal": "🐚 Python-powered shell. Full-featured, cross-platform and AI-friendly.",
+      "url": "https://github.com/xonsh/xonsh",
+      "lang": "Python",
       "tags": [
-        "api",
-        "aspnet",
-        "aspnetcore",
-        "bitwarden",
-        "csharp",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "cmux",
+        "data-engineering",
+        "data-scientists",
+        "devops",
+        "devsecops",
+        "hyper",
+        "iterm2",
+        "kitty",
+        "nix"
+      ],
+      "metrics": {
+        "stars": 9619
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2015-01-21T22:05:27Z",
+      "updatedAt": "2026-08-25T08:24:46Z",
+      "summaryEn": "Python-powered shell combining shell scripting and Python with cross-platform support, useful for DevOps automation and data engineering tasks.",
+      "summaryKo": "셸 스크립팅과 파이썬을 결합한 크로스플랫폼 파이썬 기반 셸로 DevOps 자동화에 유용합니다.",
+      "categories": [
+        "infra",
+        "data"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+    },
+    {
+      "id": "gh:DataTalksClub/data-engineering-zoomcamp",
+      "type": "repo",
+      "title": "DataTalksClub/data-engineering-zoomcamp",
+      "summaryOriginal": "Data Engineering Zoomcamp is a free 9-week course on building production-ready data pipelines. Join the course here 👇🏼",
+      "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+      "lang": "Jupyter Notebook",
+      "tags": [
+        "course",
+        "data-engineering",
+        "dbt",
         "docker",
-        "dotnet",
-        "dotnet-core",
-        "signalr",
-        "sql",
-        "sql-server"
+        "free",
+        "kafka",
+        "kestra",
+        "spark"
       ],
       "metrics": {
-        "stars": 19928
+        "stars": 44911
       },
       "source": "github-search",
       "admitReason": "notable",
-      "publishedAt": "2015-11-23T23:45:33Z",
-      "updatedAt": "2026-08-25T06:51:53Z",
-      "summaryEn": "Backend infrastructure for the Bitwarden password manager — API, database, and Docker deployment, in C#/.NET.",
-      "summaryKo": "비트워든 비밀번호 관리자의 백엔드 인프라(API·DB·도커), C#/.NET 기반.",
+      "publishedAt": "2021-10-21T09:32:50Z",
+      "updatedAt": "2026-08-25T08:24:12Z",
+      "summaryEn": "Free 9-week online course covering production-ready data pipelines, teaching Spark, Kafka, dbt, Docker, and modern data engineering practices.",
+      "summaryKo": "Spark, Kafka, dbt, Docker 등을 다루는 프로덕션급 데이터 파이프라인 구축을 위한 무료 9주 온라인 과정입니다.",
       "categories": [
-        "backend",
+        "infra",
         "data"
       ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "firstSeenAt": "2026-08-20T12:53:13.611Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
-      "id": "gh:valeriansaliou/sonic",
+      "id": "gh:supabase/supabase",
       "type": "repo",
-      "title": "valeriansaliou/sonic",
-      "summaryOriginal": "🦔 Fast, lightweight & schema-less search backend. An alternative to Elasticsearch that runs on a few MBs of RAM.",
-      "url": "https://github.com/valeriansaliou/sonic",
-      "lang": "Rust",
+      "title": "supabase/supabase",
+      "summaryOriginal": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "url": "https://github.com/supabase/supabase",
+      "lang": "TypeScript",
       "tags": [
-        "backend",
+        "ai",
+        "alternative",
+        "auth",
         "database",
-        "graph",
-        "index",
-        "infrastructure",
-        "rust",
-        "search",
-        "search-engine",
-        "search-server",
-        "server"
+        "deno",
+        "embeddings",
+        "example",
+        "firebase",
+        "nextjs",
+        "oauth2",
+        "pgvector",
+        "postgis"
       ],
       "metrics": {
-        "stars": 21319
+        "stars": 108376
       },
       "source": "github-search",
       "admitReason": "notable",
-      "publishedAt": "2019-02-26T13:16:58Z",
-      "updatedAt": "2026-08-24T14:38:08Z",
-      "summaryEn": "Lightweight, schema-less search backend, an Elasticsearch alternative that runs on minimal RAM.",
-      "summaryKo": "가볍고 스키마 없는 검색 백엔드, 최소 메모리로 도는 Elasticsearch 대안.",
-      "reasonEn": "21k+ stars for a low-resource Elasticsearch alternative",
-      "reasonKo": "저사양 Elasticsearch 대안으로 스타 2.1만",
+      "publishedAt": "2019-10-12T05:56:49Z",
+      "updatedAt": "2026-08-25T09:36:44Z",
+      "summaryEn": "Open-source Firebase alternative providing Postgres database, authentication, real-time APIs, and vector search for web and AI applications.",
+      "summaryKo": "PostgreSQL 데이터베이스, 인증, 실시간 API, 벡터 검색을 제공하는 오픈소스 Firebase 대안입니다.",
       "categories": [
-        "backend",
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:redis/redis",
@@ -479,193 +621,46 @@
       "summaryEn": "In-memory data structure server and cache supporting real-time applications, message queues, vector search, and time-series data.",
       "summaryKo": "실시간 애플리케이션, 메시지 큐, 벡터 검색, 시계열 데이터를 지원하는 메모리 데이터 서버.",
       "categories": [
-        "backend",
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
-      "id": "gh:etcd-io/etcd",
+      "id": "gh:meilisearch/meilisearch",
       "type": "repo",
-      "title": "etcd-io/etcd",
-      "summaryOriginal": "Distributed reliable key-value store for the most critical data of a distributed system",
-      "url": "https://github.com/etcd-io/etcd",
-      "lang": "Go",
-      "tags": [
-        "cncf",
-        "consensus",
-        "database",
-        "distributed-database",
-        "distributed-systems",
-        "etcd",
-        "go",
-        "key-value",
-        "kubernetes",
-        "raft"
-      ],
-      "metrics": {
-        "stars": 52167
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2013-07-06T21:57:21Z",
-      "updatedAt": "2026-08-24T13:59:48Z",
-      "summaryEn": "Distributed key-value store for critical data in distributed systems; powers Kubernetes consensus.",
-      "summaryKo": "분산 시스템의 핵심 데이터를 저장하는 분산 키-값 저장소.",
-      "categories": [
-        "backend",
-        "infra",
-        "data"
-      ],
-      "firstSeenAt": "2026-08-18T21:26:34.657Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
-    },
-    {
-      "id": "gh:trinodb/trino",
-      "type": "repo",
-      "title": "trinodb/trino",
-      "summaryOriginal": "Official repository of Trino, the distributed SQL query engine for big data, formerly known as PrestoSQL (https://trino.io)",
-      "url": "https://github.com/trinodb/trino",
-      "lang": "Java",
-      "tags": [
-        "analytics",
-        "big-data",
-        "data-science",
-        "database",
-        "databases",
-        "datalake",
-        "delta-lake",
-        "distributed-database",
-        "distributed-systems",
-        "hadoop",
-        "hive",
-        "iceberg"
-      ],
-      "metrics": {
-        "stars": 13180
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2019-01-19T06:38:14Z",
-      "updatedAt": "2026-08-25T06:12:35Z",
-      "summaryEn": "Distributed SQL query engine for querying data across multiple sources including Hadoop, data lakes, and various databases at scale.",
-      "summaryKo": "Hadoop, 데이터 레이크, 여러 데이터베이스를 쿼리하는 분산 SQL 엔진.",
-      "categories": [
-        "backend",
-        "data"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
-    },
-    {
-      "id": "gh:kestra-io/kestra",
-      "type": "repo",
-      "title": "kestra-io/kestra",
-      "summaryOriginal": "Event Driven Orchestration & Scheduling Platform for Mission Critical Applications",
-      "url": "https://github.com/kestra-io/kestra",
-      "lang": "Java",
-      "tags": [
-        "ai-agents",
-        "automation",
-        "control-plane",
-        "data-engineering",
-        "data-orchestration",
-        "data-orchestrator",
-        "devops",
-        "etl",
-        "hacktoberfest",
-        "high-availability",
-        "infra-automation",
-        "infra-ops"
-      ],
-      "metrics": {
-        "stars": 27915
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2019-08-24T13:56:15Z",
-      "updatedAt": "2026-08-25T06:49:27Z",
-      "summaryEn": "Event-driven workflow orchestration platform for data pipelines, ETL, and mission-critical automation with infrastructure-as-code support.",
-      "categories": [
-        "infra",
-        "data"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
-    },
-    {
-      "id": "gh:xonsh/xonsh",
-      "type": "repo",
-      "title": "xonsh/xonsh",
-      "summaryOriginal": "🐚 Python-powered shell. Full-featured, cross-platform and AI-friendly.",
-      "url": "https://github.com/xonsh/xonsh",
-      "lang": "Python",
-      "tags": [
-        "anthropic",
-        "claude",
-        "claude-code",
-        "cmux",
-        "data-engineering",
-        "data-scientists",
-        "devops",
-        "devsecops",
-        "hyper",
-        "iterm2",
-        "kitty",
-        "nix"
-      ],
-      "metrics": {
-        "stars": 9619
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2015-01-21T22:05:27Z",
-      "updatedAt": "2026-08-24T17:53:02Z",
-      "summaryEn": "Python-powered shell combining shell scripting and Python with cross-platform support, useful for DevOps automation and data engineering tasks.",
-      "summaryKo": "셸 스크립팅과 파이썬을 결합한 크로스플랫폼 파이썬 기반 셸로 DevOps 자동화에 유용합니다.",
-      "categories": [
-        "infra",
-        "data"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
-    },
-    {
-      "id": "gh:supabase/supabase",
-      "type": "repo",
-      "title": "supabase/supabase",
-      "summaryOriginal": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
-      "url": "https://github.com/supabase/supabase",
-      "lang": "TypeScript",
+      "title": "meilisearch/meilisearch",
+      "summaryOriginal": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
+      "url": "https://github.com/meilisearch/meilisearch",
+      "lang": "Rust",
       "tags": [
         "ai",
-        "alternative",
-        "auth",
+        "api",
+        "app-search",
         "database",
-        "deno",
-        "embeddings",
-        "example",
-        "firebase",
-        "nextjs",
-        "oauth2",
-        "pgvector",
-        "postgis"
+        "enterprise-search",
+        "faceting",
+        "full-text-search",
+        "fuzzy-search",
+        "geosearch",
+        "hybrid-search",
+        "instantsearch",
+        "search"
       ],
       "metrics": {
-        "stars": 108369
+        "stars": 59082
       },
       "source": "github-search",
       "admitReason": "notable",
-      "publishedAt": "2019-10-12T05:56:49Z",
-      "updatedAt": "2026-08-25T06:51:38Z",
-      "summaryEn": "Open-source Firebase alternative providing Postgres database, authentication, real-time APIs, and vector search for web and AI applications.",
-      "summaryKo": "PostgreSQL 데이터베이스, 인증, 실시간 API, 벡터 검색을 제공하는 오픈소스 Firebase 대안입니다.",
+      "publishedAt": "2018-04-23T11:45:28Z",
+      "updatedAt": "2026-08-25T09:01:45Z",
+      "summaryEn": "Fast, open-source search engine API that integrates AI-powered hybrid search capabilities into web applications and sites.",
+      "summaryKo": "웹 애플리케이션에 AI 기반 하이브리드 검색을 제공하는 고성능 검색 엔진 API입니다.",
       "categories": [
         "data"
       ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "firstSeenAt": "2026-08-25T09:36:47.621Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:dbeaver/dbeaver",
@@ -689,19 +684,19 @@
         "oracle"
       ],
       "metrics": {
-        "stars": 51533
+        "stars": 51532
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2015-10-21T08:26:28Z",
-      "updatedAt": "2026-08-25T06:47:17Z",
+      "updatedAt": "2026-08-25T09:22:33Z",
       "summaryEn": "Free universal database client and SQL IDE supporting 50+ databases with GUI tools for query execution, schema design, and database management.",
       "summaryKo": "50개 이상의 데이터베이스를 지원하는 무료 범용 데이터베이스 클라이언트 및 SQL IDE입니다.",
       "categories": [
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:ClickHouse/ClickHouse",
@@ -725,19 +720,19 @@
         "lakehouse"
       ],
       "metrics": {
-        "stars": 49434
+        "stars": 49437
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2016-06-02T08:28:18Z",
-      "updatedAt": "2026-08-25T06:44:10Z",
+      "updatedAt": "2026-08-25T09:28:07Z",
       "summaryEn": "High-performance column-oriented OLAP database for real-time analytics at scale, optimized for fast data ingestion and complex queries.",
       "summaryKo": "실시간 고속 분석을 위한 고성능 컬럼 기반 OLAP 데이터베이스로, 빅데이터 쿼리에 최적화되었습니다.",
       "categories": [
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:metabase/metabase",
@@ -761,19 +756,19 @@
         "mysql"
       ],
       "metrics": {
-        "stars": 48911
+        "stars": 48915
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2015-02-02T19:25:47Z",
-      "updatedAt": "2026-08-25T06:40:25Z",
+      "updatedAt": "2026-08-25T09:36:32Z",
       "summaryEn": "Open-source business intelligence and analytics platform with dashboards, SQL editor, and visualization tools for data exploration and reporting.",
       "summaryKo": "대시보드, SQL 에디터, 시각화 도구를 포함한 오픈소스 비즈니스 인텔리전스 및 분석 플랫폼입니다.",
       "categories": [
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:duckdb/duckdb",
@@ -790,19 +785,19 @@
         "sql"
       ],
       "metrics": {
-        "stars": 40594
+        "stars": 40599
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2018-06-26T15:04:45Z",
-      "updatedAt": "2026-08-25T06:44:47Z",
+      "updatedAt": "2026-08-25T09:32:39Z",
       "summaryEn": "In-process SQL database optimized for analytical queries, embedded analytics, and data processing with minimal setup and zero dependencies.",
       "summaryKo": "분석 쿼리, 임베디드 분석, 데이터 처리에 최적화된 인 프로세스 SQL 데이터베이스입니다.",
       "categories": [
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:pingcap/tidb",
@@ -826,19 +821,19 @@
         "htap"
       ],
       "metrics": {
-        "stars": 40465
+        "stars": 40466
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2015-09-06T04:01:52Z",
-      "updatedAt": "2026-08-25T06:19:36Z",
+      "updatedAt": "2026-08-25T08:37:20Z",
       "summaryEn": "Distributed SQL database with ACID transactions, vector search, and built for agentic workloads requiring horizontal scaling without data silos.",
       "summaryKo": "ACID 트랜잭션, 벡터 검색, 수평 확장을 지원하는 분산 SQL 데이터베이스입니다.",
       "categories": [
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:sqlmapproject/sqlmap",
@@ -862,7 +857,7 @@
         "sql-injection"
       ],
       "metrics": {
-        "stars": 38258
+        "stars": 38259
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -874,7 +869,7 @@
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:dragonflydb/dragonfly",
@@ -903,14 +898,14 @@
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2021-12-11T10:00:42Z",
-      "updatedAt": "2026-08-25T06:29:21Z",
+      "updatedAt": "2026-08-25T09:36:23Z",
       "summaryEn": "Modern in-memory data store replacing Redis with multi-threading, vector search, and improved throughput for caching and real-time workloads.",
       "summaryKo": "Redis를 대체하는 현대적 인 메모리 데이터 저장소로, 멀티스레딩과 벡터 검색을 지원합니다.",
       "categories": [
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:chroma-core/chroma",
@@ -928,7 +923,7 @@
         "rust-lang"
       ],
       "metrics": {
-        "stars": 29138
+        "stars": 29140
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -940,7 +935,7 @@
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:mongodb/mongo",
@@ -961,14 +956,14 @@
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2009-01-15T16:15:18Z",
-      "updatedAt": "2026-08-25T05:47:25Z",
+      "updatedAt": "2026-08-25T09:28:33Z",
       "summaryEn": "NoSQL document database providing flexible schema, horizontal scaling, and transactions for building modern applications with unstructured data.",
       "summaryKo": "유연한 스키마, 수평 확장, 트랜잭션을 제공하는 NoSQL 문서 데이터베이스입니다.",
       "categories": [
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:OtterMind/Chat2DB",
@@ -992,19 +987,55 @@
         "oracle"
       ],
       "metrics": {
-        "stars": 28030
+        "stars": 28034
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2023-06-20T14:05:26Z",
-      "updatedAt": "2026-08-25T06:52:32Z",
+      "updatedAt": "2026-08-25T09:14:29Z",
       "summaryEn": "AI-powered database client supporting 40+ databases with natural language SQL generation, query optimization, and MCP integration for developers.",
       "summaryKo": "40개 이상의 데이터베이스를 지원하며 자연어로 SQL을 생성하는 AI 기반 데이터베이스 클라이언트입니다.",
       "categories": [
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+    },
+    {
+      "id": "gh:PostgREST/postgrest",
+      "type": "repo",
+      "title": "PostgREST/postgrest",
+      "summaryOriginal": "REST API for any Postgres database",
+      "url": "https://github.com/PostgREST/postgrest",
+      "lang": "Haskell",
+      "tags": [
+        "api",
+        "automatic-api",
+        "database",
+        "haskell",
+        "http",
+        "pg",
+        "pgsql",
+        "postgres",
+        "postgresql",
+        "postgrest",
+        "rest",
+        "server"
+      ],
+      "metrics": {
+        "stars": 27624
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2014-06-13T00:23:00Z",
+      "updatedAt": "2026-08-24T16:48:09Z",
+      "summaryEn": "Turns any Postgres database directly into a REST API, written in Haskell.",
+      "summaryKo": "포스트그레스 DB를 바로 REST API로 만들어주는 하스켈 기반 서버.",
+      "categories": [
+        "data"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:valkey-io/valkey",
@@ -1024,19 +1055,19 @@
         "valkey-client"
       ],
       "metrics": {
-        "stars": 26974
+        "stars": 26975
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2024-03-22T00:42:17Z",
-      "updatedAt": "2026-08-25T03:18:12Z",
+      "updatedAt": "2026-08-25T09:14:24Z",
       "summaryEn": "Redis-compatible distributed key-value store optimized for caching and real-time workloads with improved open-source governance and performance.",
       "summaryKo": "Redis 호환 분산 키-값 저장소로, 캐싱 및 실시간 작업에 최적화되었습니다.",
       "categories": [
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:taosdata/TDengine",
@@ -1060,7 +1091,7 @@
         "scalability"
       ],
       "metrics": {
-        "stars": 25084
+        "stars": 25086
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1074,7 +1105,7 @@
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:clockworklabs/SpacetimeDB",
@@ -1106,7 +1137,7 @@
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:dolthub/dolt",
@@ -1142,7 +1173,7 @@
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:tursodatabase/turso",
@@ -1159,7 +1190,7 @@
         "webassembly"
       ],
       "metrics": {
-        "stars": 23996
+        "stars": 23999
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1171,7 +1202,7 @@
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:beekeeper-studio/beekeeper-studio",
@@ -1207,7 +1238,7 @@
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:timescale/timescaledb",
@@ -1231,19 +1262,19 @@
         "timescaledb"
       ],
       "metrics": {
-        "stars": 23406
+        "stars": 23408
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2017-03-07T20:03:41Z",
-      "updatedAt": "2026-08-24T17:01:24Z",
+      "updatedAt": "2026-08-25T09:01:30Z",
       "summaryEn": "High-performance time-series database built as Postgres extension; optimized for real-time analytics and IoT workloads.",
       "summaryKo": "Postgres 확장으로 구축된 고성능 시계열 데이터베이스; 실시간 분석 및 IoT 워크로드 최적화.",
       "categories": [
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:pubkey/rxdb",
@@ -1279,7 +1310,7 @@
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:dgraph-io/dgraph",
@@ -1307,7 +1338,7 @@
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:teableio/teable",
@@ -1331,19 +1362,55 @@
         "spreadsheet"
       ],
       "metrics": {
-        "stars": 21710
+        "stars": 21711
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2022-11-01T07:02:49Z",
-      "updatedAt": "2026-08-25T06:39:05Z",
+      "updatedAt": "2026-08-25T09:26:41Z",
       "summaryEn": "AI-powered spreadsheet platform with Postgres backend; Airtable alternative for building data apps with low-code interface.",
       "summaryKo": "Postgres 백엔드를 갖춘 AI 기반 스프레드시트 플랫폼; 로우코드 인터페이스로 데이터 앱 구축 가능.",
       "categories": [
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+    },
+    {
+      "id": "gh:valeriansaliou/sonic",
+      "type": "repo",
+      "title": "valeriansaliou/sonic",
+      "summaryOriginal": "🦔 Fast, lightweight & schema-less search backend. An alternative to Elasticsearch that runs on a few MBs of RAM.",
+      "url": "https://github.com/valeriansaliou/sonic",
+      "lang": "Rust",
+      "tags": [
+        "backend",
+        "database",
+        "graph",
+        "index",
+        "infrastructure",
+        "rust",
+        "search",
+        "search-engine",
+        "search-server",
+        "server"
+      ],
+      "metrics": {
+        "stars": 21319
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2019-02-26T13:16:58Z",
+      "updatedAt": "2026-08-24T14:38:08Z",
+      "summaryEn": "Lightweight, schema-less search backend, an Elasticsearch alternative that runs on minimal RAM.",
+      "summaryKo": "가볍고 스키마 없는 검색 백엔드, 최소 메모리로 도는 Elasticsearch 대안.",
+      "reasonEn": "21k+ stars for a low-resource Elasticsearch alternative",
+      "reasonKo": "저사양 Elasticsearch 대안으로 스타 2.1만",
+      "categories": [
+        "data"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:apache/shardingsphere",
@@ -1379,43 +1446,7 @@
         "data"
       ],
       "firstSeenAt": "2026-08-19T01:20:28.544Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
-    },
-    {
-      "id": "gh:VictoriaMetrics/VictoriaMetrics",
-      "type": "repo",
-      "title": "VictoriaMetrics/VictoriaMetrics",
-      "summaryOriginal": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-      "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
-      "lang": "Go",
-      "tags": [
-        "database",
-        "grafana",
-        "graphite",
-        "influxdb",
-        "kubernetes",
-        "monitoring",
-        "observability",
-        "opentelemetry",
-        "opentsdb",
-        "prometheus",
-        "promql",
-        "thanos"
-      ],
-      "metrics": {
-        "stars": 17591
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2018-09-30T09:58:01Z",
-      "updatedAt": "2026-08-25T00:53:18Z",
-      "summaryEn": "Fast, cost-effective monitoring solution and time series database designed for high-load metrics collection.",
-      "summaryKo": "고성능 시계열 데이터베이스이자 모니터링 솔루션입니다.",
-      "categories": [
-        "data"
-      ],
-      "firstSeenAt": "2026-08-23T01:26:23.378Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:Hebbian-Robotics/hflow",
@@ -1444,7 +1475,7 @@
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-18T17:41:42Z",
-      "updatedAt": "2026-08-25T06:47:32Z",
+      "updatedAt": "2026-08-25T07:52:22Z",
       "summaryEn": "An open-source SDK for building data-quality, processing, and curation pipelines for robotics and Physical AI.",
       "summaryKo": "로보틱스 및 피지컬 AI를 위한 데이터 품질, 처리 및 큐레이션 파이프라인 오픈소스 SDK입니다.",
       "reasonEn": "Emerging tooling for Physical AI",
@@ -1453,7 +1484,7 @@
         "data"
       ],
       "firstSeenAt": "2026-08-21T21:26:14.378Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:PrefectHQ/prefect",
@@ -1477,19 +1508,19 @@
         "python"
       ],
       "metrics": {
-        "stars": 23672
+        "stars": 23676
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2018-06-29T21:59:26Z",
-      "updatedAt": "2026-08-25T00:45:36Z",
+      "updatedAt": "2026-08-25T08:17:07Z",
       "summaryEn": "Python workflow orchestration framework for building resilient, maintainable data pipelines with built-in observability.",
       "summaryKo": "복원력 있는 데이터 파이프라인 구축을 위한 Python 워크플로 오케스트레이션 프레임워크; 내장 가시성.",
       "categories": [
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:airbytehq/airbyte",
@@ -1513,19 +1544,19 @@
         "mssql"
       ],
       "metrics": {
-        "stars": 21950
+        "stars": 21951
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2020-07-27T23:55:54Z",
-      "updatedAt": "2026-08-25T06:45:44Z",
+      "updatedAt": "2026-08-25T08:40:43Z",
       "summaryEn": "Open-source ELT/ETL platform for moving data from APIs, databases, files to warehouses and AI applications.",
       "summaryKo": "API, 데이터베이스, 파일에서 웨어하우스 및 AI 애플리케이션으로 데이터 이동하기 위한 오픈소스 ELT/ETL 플랫폼.",
       "categories": [
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:argoproj/argo-workflows",
@@ -1549,19 +1580,19 @@
         "knative"
       ],
       "metrics": {
-        "stars": 16935
+        "stars": 16936
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2017-08-21T18:50:44Z",
-      "updatedAt": "2026-08-24T14:53:01Z",
+      "updatedAt": "2026-08-25T09:06:55Z",
       "summaryEn": "Kubernetes-native workflow engine for orchestrating data pipelines, ML jobs, and batch processing at scale.",
       "summaryKo": "데이터 파이프라인, ML 작업, 배치 처리를 대규모로 오케스트레이션하는 Kubernetes 네이티브 워크플로 엔진.",
       "categories": [
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:dagster-io/dagster",
@@ -1599,13 +1630,241 @@
         "data"
       ],
       "firstSeenAt": "2026-08-19T01:20:28.544Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+    },
+    {
+      "id": "gh:fivetran/great_expectations",
+      "type": "repo",
+      "title": "fivetran/great_expectations",
+      "summaryOriginal": "Always know what to expect from your data.",
+      "url": "https://github.com/fivetran/great_expectations",
+      "lang": "Python",
+      "tags": [
+        "cleandata",
+        "data-engineering",
+        "data-profilers",
+        "data-profiling",
+        "data-quality",
+        "data-science",
+        "data-unit-tests",
+        "datacleaner",
+        "datacleaning",
+        "dataquality",
+        "dataunittest",
+        "eda"
+      ],
+      "metrics": {
+        "stars": 11733
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2017-09-11T00:18:46Z",
+      "updatedAt": "2026-08-24T21:11:15Z",
+      "summaryEn": "Data quality testing tool that validates datasets against expectations to catch bad data early.",
+      "summaryKo": "데이터셋을 기대값과 비교 검증해 이상 데이터를 조기에 잡는 데이터 품질 테스트 도구.",
+      "reasonEn": "11.7k stars, standard for data pipeline quality checks",
+      "reasonKo": "스타 1.2만, 데이터 파이프라인 품질 검사 표준",
+      "categories": [
+        "data"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+    },
+    {
+      "id": "hn:49154332",
+      "type": "article",
+      "title": "SQLite Critical CVEs or LLM Slop?",
+      "summaryOriginal": "SQLite Critical CVEs or LLM Slop?",
+      "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 727,
+        "comments": 373
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-03T11:28:54Z",
+      "admitReason": "notable",
+      "summaryEn": "Investigating whether recent vulnerability reports regarding SQLite are actual critical CVEs or low-quality AI-generated noise.",
+      "summaryKo": "SQLite 관련 최근 취약점 보고서가 실제 중요 CVE인지 아니면 저품질 AI 생성 노이즈인지 조사.",
+      "reasonEn": "Debate on AI-generated security reports",
+      "reasonKo": "AI 생성 보안 보고서에 대한 논쟁",
+      "categories": [
+        "data"
+      ],
+      "firstSeenAt": "2026-08-24T23:36:24.421Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+    },
+    {
+      "id": "hn:49415271",
+      "type": "article",
+      "title": "Executable Is a SQLite Database",
+      "summaryOriginal": "Executable Is a SQLite Database",
+      "url": "https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database",
+      "tags": [],
+      "metrics": {
+        "upvotes": 521,
+        "comments": 99
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-24T04:48:20Z",
+      "admitReason": "notable",
+      "summaryEn": "An exploration of self-contained binary executables that double as valid SQLite databases.",
+      "summaryKo": "유효한 SQLite 데이터베이스 역할도 수행하는 자급자족형 바이너리 실행파일 탐구.",
+      "reasonEn": "Clever binary file format hack",
+      "reasonKo": "기발한 바이너리 파일 형식 해킹",
+      "categories": [
+        "data",
+        "backend"
+      ],
+      "firstSeenAt": "2026-08-24T21:31:02.700Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+    },
+    {
+      "id": "hn:49342530",
+      "type": "article",
+      "title": "Rethinking Database Programming",
+      "summaryOriginal": "Rethinking Database Programming",
+      "url": "https://acadia.engineering/blog/rethinking-database-programming",
+      "tags": [],
+      "metrics": {
+        "upvotes": 259,
+        "comments": 160
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-18T07:28:27Z",
+      "admitReason": "notable",
+      "summaryEn": "An essay discussing alternative paradigms and approaches for querying and structuring database programming.",
+      "summaryKo": "데이터베이스 프로그래밍의 쿼리 및 구조화를 위한 대안적 패러다임을 논하는 에세이.",
+      "reasonEn": "Rethinking traditional database interfaces",
+      "reasonKo": "전통적인 데이터베이스 인터페이스 재고",
+      "categories": [
+        "data",
+        "backend"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+    },
+    {
+      "id": "gh:bitwarden/server",
+      "type": "repo",
+      "categories": [
+        "backend",
+        "data"
+      ],
+      "title": "bitwarden/server",
+      "summaryEn": "Backend infrastructure for the Bitwarden password manager — API, database, and Docker deployment, in C#/.NET.",
+      "summaryKo": "비트워든 비밀번호 관리자의 백엔드 인프라(API·DB·도커), C#/.NET 기반.",
+      "summaryOriginal": "Bitwarden infrastructure/backend (API, database, Docker, etc).",
+      "url": "https://github.com/bitwarden/server",
+      "lang": "C#",
+      "tags": [
+        "api",
+        "aspnet",
+        "aspnetcore",
+        "bitwarden",
+        "csharp",
+        "docker",
+        "dotnet",
+        "dotnet-core",
+        "signalr",
+        "sql",
+        "sql-server"
+      ],
+      "metrics": {
+        "stars": 19929
+      },
+      "source": "github-search",
+      "publishedAt": "2015-11-23T23:45:33Z",
+      "updatedAt": "2026-08-25T09:14:34Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-25T06:51:09.551Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:trinodb/trino",
+      "type": "repo",
+      "categories": [
+        "backend",
+        "data"
+      ],
+      "title": "trinodb/trino",
+      "summaryEn": "Distributed SQL query engine for querying data across multiple sources including Hadoop, data lakes, and various databases at scale.",
+      "summaryKo": "Hadoop, 데이터 레이크, 여러 데이터베이스를 쿼리하는 분산 SQL 엔진.",
+      "summaryOriginal": "Official repository of Trino, the distributed SQL query engine for big data, formerly known as PrestoSQL (https://trino.io)",
+      "url": "https://github.com/trinodb/trino",
+      "lang": "Java",
+      "tags": [
+        "analytics",
+        "big-data",
+        "data-science",
+        "database",
+        "databases",
+        "datalake",
+        "delta-lake",
+        "distributed-database",
+        "distributed-systems",
+        "hadoop",
+        "hive",
+        "iceberg"
+      ],
+      "metrics": {
+        "stars": 13180
+      },
+      "source": "github-search",
+      "publishedAt": "2019-01-19T06:38:14Z",
+      "updatedAt": "2026-08-25T08:51:20Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-25T06:51:09.551Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:VictoriaMetrics/VictoriaMetrics",
+      "type": "repo",
+      "categories": [
+        "data"
+      ],
+      "title": "VictoriaMetrics/VictoriaMetrics",
+      "summaryEn": "Fast, cost-effective monitoring solution and time series database designed for high-load metrics collection.",
+      "summaryKo": "고성능 시계열 데이터베이스이자 모니터링 솔루션입니다.",
+      "summaryOriginal": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
+      "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
+      "lang": "Go",
+      "tags": [
+        "database",
+        "grafana",
+        "graphite",
+        "influxdb",
+        "kubernetes",
+        "monitoring",
+        "observability",
+        "opentelemetry",
+        "opentsdb",
+        "prometheus",
+        "promql",
+        "thanos"
+      ],
+      "metrics": {
+        "stars": 17592
+      },
+      "source": "github-search",
+      "publishedAt": "2018-09-30T09:58:01Z",
+      "updatedAt": "2026-08-25T08:59:35Z",
+      "firstSeenAt": "2026-08-23T01:26:23.378Z",
+      "lastSeenAt": "2026-08-25T06:51:09.551Z",
+      "admitReason": "notable"
     },
     {
       "id": "gh:cocoindex-io/cocoindex",
       "type": "repo",
+      "categories": [
+        "data"
+      ],
       "title": "cocoindex-io/cocoindex",
+      "summaryEn": "Incremental data indexing engine built for long-running AI agents that need real-time context.",
+      "summaryKo": "실시간 컨텍스트가 필요한 장기 실행 AI 에이전트용 증분 데이터 인덱싱 엔진.",
       "summaryOriginal": "Incremental engine for long horizon agents 🌟 Star if you like it!",
+      "reasonEn": "11k+ stars, growing interest in agent context engineering",
+      "reasonKo": "스타 1.1만, 에이전트 컨텍스트 엔지니어링 관심 증가",
       "url": "https://github.com/cocoindex-io/cocoindex",
       "lang": "Rust",
       "tags": [
@@ -1623,27 +1882,27 @@
         "indexing"
       ],
       "metrics": {
-        "stars": 11401
+        "stars": 11400
       },
       "source": "github-search",
-      "admitReason": "notable",
       "publishedAt": "2025-03-03T23:03:09Z",
       "updatedAt": "2026-08-24T22:35:07Z",
-      "summaryEn": "Incremental data indexing engine built for long-running AI agents that need real-time context.",
-      "summaryKo": "실시간 컨텍스트가 필요한 장기 실행 AI 에이전트용 증분 데이터 인덱싱 엔진.",
-      "reasonEn": "11k+ stars, growing interest in agent context engineering",
-      "reasonKo": "스타 1.1만, 에이전트 컨텍스트 엔지니어링 관심 증가",
-      "categories": [
-        "data"
-      ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T06:51:09.551Z",
+      "admitReason": "notable"
     },
     {
       "id": "gh:semantica-agi/semantica",
       "type": "repo",
+      "categories": [
+        "data"
+      ],
       "title": "semantica-agi/semantica",
+      "summaryEn": "Graph-native infrastructure designed for context management, reasoning, and accountable AI agent systems.",
+      "summaryKo": "컨텍스트 관리, 추론 및 설명 가능한 AI 에이전트 시스템을 위한 그래프 기반 인프라.",
       "summaryOriginal": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "reasonEn": "Rise of graph-based retrieval and context engineering",
+      "reasonKo": "그래프 기반 검색 및 컨텍스트 엔지니어링의 부상",
       "url": "https://github.com/semantica-agi/semantica",
       "lang": "Python",
       "tags": [
@@ -1661,96 +1920,14 @@
         "generative-ai"
       ],
       "metrics": {
-        "stars": 10716
+        "stars": 10741
       },
       "source": "github-search",
-      "admitReason": "notable",
       "publishedAt": "2025-06-25T10:41:00Z",
-      "updatedAt": "2026-08-24T17:49:45Z",
-      "summaryEn": "Graph-native infrastructure designed for context management, reasoning, and accountable AI agent systems.",
-      "summaryKo": "컨텍스트 관리, 추론 및 설명 가능한 AI 에이전트 시스템을 위한 그래프 기반 인프라.",
-      "reasonEn": "Rise of graph-based retrieval and context engineering",
-      "reasonKo": "그래프 기반 검색 및 컨텍스트 엔지니어링의 부상",
-      "categories": [
-        "data"
-      ],
+      "updatedAt": "2026-08-25T07:16:43Z",
       "firstSeenAt": "2026-08-25T03:50:28.986Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
-    },
-    {
-      "id": "hn:49154332",
-      "type": "article",
-      "title": "SQLite Critical CVEs or LLM Slop?",
-      "summaryOriginal": "SQLite Critical CVEs or LLM Slop?",
-      "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 727,
-        "comments": 373
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-03T11:28:54Z",
-      "admitReason": "notable",
-      "summaryEn": "An investigation into whether recent critical CVE reports for SQLite are genuine security issues or generated AI hallucinations.",
-      "summaryKo": "SQLite의 최근 심각한 CVE 보고서가 실제 보안 문제인지 AI가 생성한 환각인지 조사합니다.",
-      "reasonEn": "Brings up security concerns over AI-generated vulnerability reports.",
-      "reasonKo": "AI가 생성한 취약점 보고서에 대한 보안 우려를 제기합니다.",
-      "categories": [
-        "data",
-        "ai-models"
-      ],
-      "firstSeenAt": "2026-08-24T23:36:24.421Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
-    },
-    {
-      "id": "hn:49415271",
-      "type": "article",
-      "title": "Executable Is a SQLite Database",
-      "summaryOriginal": "Executable Is a SQLite Database",
-      "url": "https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database",
-      "tags": [],
-      "metrics": {
-        "upvotes": 515,
-        "comments": 98
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-24T04:48:20Z",
-      "admitReason": "notable",
-      "summaryEn": "An exploration of binary executables that can simultaneously be parsed and run as valid SQLite databases.",
-      "summaryKo": "동시에 유효한 SQLite 데이터베이스로 파싱되고 실행될 수 있는 바이너리 실행 파일 탐구.",
-      "reasonEn": "Clever systems programming and data format trick.",
-      "reasonKo": "기발한 시스템 프로그래밍 및 데이터 포맷 트릭.",
-      "categories": [
-        "data",
-        "backend"
-      ],
-      "firstSeenAt": "2026-08-24T21:31:02.700Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
-    },
-    {
-      "id": "hn:49342530",
-      "type": "article",
-      "title": "Rethinking Database Programming",
-      "summaryOriginal": "Rethinking Database Programming",
-      "url": "https://acadia.engineering/blog/rethinking-database-programming",
-      "tags": [],
-      "metrics": {
-        "upvotes": 259,
-        "comments": 160
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-18T07:28:27Z",
-      "admitReason": "notable",
-      "summaryEn": "A conceptual critique and proposal for modernizing how developers write and interact with database programming languages.",
-      "summaryKo": "개발자가 데이터베이스 프로그래밍 언어를 작성하고 상호작용하는 방식을 현대화하기 위한 개념적 비판과 제안.",
-      "reasonEn": "Rethinking traditional database paradigms.",
-      "reasonKo": "전통적인 데이터베이스 패러다임 재고.",
-      "categories": [
-        "data",
-        "backend"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T06:51:09.551Z",
+      "admitReason": "notable"
     },
     {
       "id": "gh:academic/awesome-datascience",
@@ -1777,7 +1954,7 @@
         "science"
       ],
       "metrics": {
-        "stars": 29859
+        "stars": 29860
       },
       "source": "github-search",
       "publishedAt": "2014-07-05T07:07:43Z",
@@ -1844,7 +2021,7 @@
         "postgresql-database"
       ],
       "metrics": {
-        "stars": 614
+        "stars": 621
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T23:41:52Z",
@@ -1870,7 +2047,7 @@
         "storage-engine"
       ],
       "metrics": {
-        "stars": 32009
+        "stars": 32010
       },
       "source": "github-search",
       "publishedAt": "2012-11-30T06:16:18Z",
@@ -1901,7 +2078,7 @@
         "sqlitebrowser"
       ],
       "metrics": {
-        "stars": 24515
+        "stars": 24517
       },
       "source": "github-search",
       "publishedAt": "2014-05-04T01:54:44Z",
@@ -1942,7 +2119,7 @@
       },
       "source": "github-search",
       "publishedAt": "2017-06-28T01:15:30Z",
-      "updatedAt": "2026-08-24T10:52:49Z",
+      "updatedAt": "2026-08-25T08:00:08Z",
       "firstSeenAt": "2026-08-24T01:23:41.283Z",
       "lastSeenAt": "2026-08-24T18:42:24.176Z",
       "admitReason": "notable"
@@ -2052,11 +2229,11 @@
         "postgresql"
       ],
       "metrics": {
-        "stars": 17277
+        "stars": 17278
       },
       "source": "github-search",
       "publishedAt": "2014-04-28T23:29:15Z",
-      "updatedAt": "2026-08-25T06:12:17Z",
+      "updatedAt": "2026-08-25T09:12:05Z",
       "firstSeenAt": "2026-08-23T01:26:23.378Z",
       "lastSeenAt": "2026-08-24T09:50:01.036Z",
       "admitReason": "notable"
@@ -2075,7 +2252,7 @@
       "lang": "C",
       "tags": [],
       "metrics": {
-        "stars": 26107,
+        "stars": 26118,
         "totalScore": 207.9429
       },
       "source": "ossinsight",
@@ -2101,7 +2278,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 583,
+        "stars": 588,
         "totalScore": 204.6229
       },
       "source": "ossinsight",
@@ -2139,49 +2316,6 @@
       "updatedAt": "2026-08-23T06:50:08Z",
       "firstSeenAt": "2026-08-24T01:23:41.283Z",
       "lastSeenAt": "2026-08-24T03:55:51.382Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "gh:t8y2/dbx",
-      "type": "repo",
-      "categories": [
-        "web",
-        "data"
-      ],
-      "title": "t8y2/dbx",
-      "summaryEn": "Dbx is a lightweight cross-platform database client supporting 70+ databases with built-in AI, MCP server, CLI, and Docker capabilities.",
-      "summaryKo": "70개 이상의 데이터베이스를 지원하는 가벼운 크로스플랫폼 클라이언트로 AI와 MCP를 내장했습니다.",
-      "summaryOriginal": "20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 90+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
-      "url": "https://github.com/t8y2/dbx",
-      "lang": "Rust",
-      "tags": [
-        "ai",
-        "cli",
-        "clickhouse",
-        "database",
-        "database-client",
-        "database-management",
-        "docker",
-        "gui",
-        "mcp",
-        "mongodb",
-        "mysql",
-        "postgresql",
-        "redis",
-        "rust",
-        "sql-server",
-        "sqlite",
-        "tauri",
-        "vue"
-      ],
-      "metrics": {
-        "stars": 16492
-      },
-      "source": "github-search",
-      "publishedAt": "2026-04-29T03:00:36Z",
-      "updatedAt": "2026-08-25T06:50:29Z",
-      "firstSeenAt": "2026-08-21T09:38:23.718Z",
-      "lastSeenAt": "2026-08-24T01:23:41.283Z",
       "admitReason": "notable"
     },
     {
@@ -2262,7 +2396,7 @@
         "web"
       ],
       "metrics": {
-        "stars": 32926
+        "stars": 32927
       },
       "source": "github-search",
       "publishedAt": "2021-12-09T15:03:29Z",
@@ -2298,7 +2432,7 @@
         "vicuna"
       ],
       "metrics": {
-        "stars": 19792
+        "stars": 19793
       },
       "source": "github-search",
       "publishedAt": "2023-04-13T14:52:43Z",
@@ -2321,11 +2455,11 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 33078,
+        "stars": 33129,
         "totalScore": 223.7478
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-25T06:24:13Z",
+      "updatedAt": "2026-08-25T08:15:39Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-23T06:43:06.551Z",
       "admitReason": "notable"
@@ -2350,7 +2484,7 @@
         "distributed-systems"
       ],
       "metrics": {
-        "stars": 23378
+        "stars": 23381
       },
       "source": "github-search",
       "publishedAt": "2018-02-08T04:26:52Z",
@@ -2385,44 +2519,11 @@
         "sqlite"
       ],
       "metrics": {
-        "stars": 17696
+        "stars": 17697
       },
       "source": "github-search",
       "publishedAt": "2014-08-23T04:31:18Z",
       "updatedAt": "2026-08-20T12:30:23Z",
-      "firstSeenAt": "2026-08-20T12:53:13.611Z",
-      "lastSeenAt": "2026-08-22T21:23:23.291Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "gh:DataTalksClub/data-engineering-zoomcamp",
-      "type": "repo",
-      "categories": [
-        "infra",
-        "data"
-      ],
-      "title": "DataTalksClub/data-engineering-zoomcamp",
-      "summaryEn": "Free 9-week online course covering production-ready data pipelines, teaching Spark, Kafka, dbt, Docker, and modern data engineering practices.",
-      "summaryKo": "Spark, Kafka, dbt, Docker 등을 다루는 프로덕션급 데이터 파이프라인 구축을 위한 무료 9주 온라인 과정입니다.",
-      "summaryOriginal": "Data Engineering Zoomcamp is a free 9-week course on building production-ready data pipelines. The next cohort starts in January 2026. Join the course here 👇🏼",
-      "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
-      "lang": "Jupyter Notebook",
-      "tags": [
-        "course",
-        "data-engineering",
-        "dbt",
-        "docker",
-        "free",
-        "kafka",
-        "kestra",
-        "spark"
-      ],
-      "metrics": {
-        "stars": 44906
-      },
-      "source": "github-search",
-      "publishedAt": "2021-10-21T09:32:50Z",
-      "updatedAt": "2026-08-20T12:07:40Z",
       "firstSeenAt": "2026-08-20T12:53:13.611Z",
       "lastSeenAt": "2026-08-22T21:23:23.291Z",
       "admitReason": "notable"
@@ -2457,7 +2558,7 @@
         "python3"
       ],
       "metrics": {
-        "stars": 71837
+        "stars": 71845
       },
       "source": "github-search",
       "publishedAt": "2019-11-19T17:24:16Z",
@@ -2531,7 +2632,7 @@
         "xyflow"
       ],
       "metrics": {
-        "stars": 22768
+        "stars": 22775
       },
       "source": "github-search",
       "publishedAt": "2024-08-05T07:19:19Z",
@@ -2557,55 +2658,13 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 45524,
+        "stars": 45546,
         "totalScore": 208.7912
       },
       "source": "ossinsight",
       "updatedAt": "2026-08-24T19:30:37Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-20T06:49:10.510Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "gh:fivetran/great_expectations",
-      "type": "repo",
-      "categories": [
-        "data"
-      ],
-      "title": "fivetran/great_expectations",
-      "summaryOriginal": "Always know what to expect from your data.",
-      "url": "https://github.com/fivetran/great_expectations",
-      "lang": "Python",
-      "tags": [
-        "cleandata",
-        "data-engineering",
-        "data-profilers",
-        "data-profiling",
-        "data-quality",
-        "data-science",
-        "data-unit-tests",
-        "datacleaner",
-        "datacleaning",
-        "dataquality",
-        "dataunittest",
-        "eda",
-        "exploratory-analysis",
-        "exploratory-data-analysis",
-        "exploratorydataanalysis",
-        "mlops",
-        "pipeline",
-        "pipeline-debt",
-        "pipeline-testing",
-        "pipeline-tests"
-      ],
-      "metrics": {
-        "stars": 11732
-      },
-      "source": "github-search",
-      "publishedAt": "2017-09-11T00:18:46Z",
-      "updatedAt": "2026-08-24T21:11:15Z",
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-19T01:38:48.167Z",
       "admitReason": "notable"
     },
     {
@@ -2636,7 +2695,7 @@
       },
       "source": "github-search",
       "publishedAt": "2022-01-28T12:58:03Z",
-      "updatedAt": "2026-08-25T06:38:14Z",
+      "updatedAt": "2026-08-25T09:24:56Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-18T21:26:34.657Z",
       "admitReason": "notable"

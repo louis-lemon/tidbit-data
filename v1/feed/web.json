@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "web",
-  "generatedAt": "2026-08-25T06:51:09.551Z",
+  "generatedAt": "2026-08-25T09:36:47.621Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -26,7 +26,7 @@
         "product-management"
       ],
       "metrics": {
-        "stars": 58094
+        "stars": 58163
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -38,7 +38,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:rohitg00/ai-engineering-from-scratch",
@@ -62,7 +62,7 @@
         "mcp"
       ],
       "metrics": {
-        "stars": 48444
+        "stars": 48535
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -78,7 +78,115 @@
         "web"
       ],
       "firstSeenAt": "2026-08-21T12:51:22.781Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+    },
+    {
+      "id": "gh:CopilotKit/OpenBot",
+      "type": "repo",
+      "title": "CopilotKit/OpenBot",
+      "summaryOriginal": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "lang": "TypeScript",
+      "tags": [
+        "ag-ui",
+        "agent-governance",
+        "ai-agents",
+        "browser-automation",
+        "copilotkit",
+        "generative-ui",
+        "mcp"
+      ],
+      "metrics": {
+        "stars": 2739
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-08-17T00:44:59Z",
+      "updatedAt": "2026-08-25T04:34:54Z",
+      "summaryEn": "Open-source platform for AI coworkers equipped with isolated browser, file, and tool environments to automate multi-step agent workflows.",
+      "summaryKo": "격리된 환경에서 브라우저와 도구를 사용해 작업을 수행하는 오픈소스 AI 코어커 플랫폼입니다.",
+      "categories": [
+        "ai-agents",
+        "web"
+      ],
+      "firstSeenAt": "2026-08-25T09:36:47.621Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+    },
+    {
+      "id": "gh:t8y2/dbx",
+      "type": "repo",
+      "title": "t8y2/dbx",
+      "summaryOriginal": "20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 90+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
+      "url": "https://github.com/t8y2/dbx",
+      "lang": "Rust",
+      "tags": [
+        "ai",
+        "cli",
+        "clickhouse",
+        "database",
+        "database-client",
+        "database-management",
+        "docker",
+        "gui",
+        "mcp",
+        "mongodb",
+        "mysql",
+        "postgresql"
+      ],
+      "metrics": {
+        "stars": 16540
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2026-04-29T03:00:36Z",
+      "updatedAt": "2026-08-25T09:35:33Z",
+      "summaryEn": "Dbx is a lightweight cross-platform database client supporting 70+ databases with built-in AI, MCP server, CLI, and Docker capabilities.",
+      "summaryKo": "70개 이상의 데이터베이스를 지원하는 가벼운 크로스플랫폼 클라이언트로 AI와 MCP를 내장했습니다.",
+      "categories": [
+        "ai-agents",
+        "backend",
+        "infra",
+        "data",
+        "devtools",
+        "web"
+      ],
+      "firstSeenAt": "2026-08-25T09:36:47.621Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+    },
+    {
+      "id": "gh:ccch1mneyyy/dsh-TUI",
+      "type": "repo",
+      "title": "ccch1mneyyy/dsh-TUI",
+      "summaryOriginal": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。 DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoughts, double-Esc rollback, context bar + TPS. npm one-click.",
+      "url": "https://github.com/ccch1mneyyy/dsh-TUI",
+      "lang": "TypeScript",
+      "tags": [
+        "claude-code",
+        "coding-agent",
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugin",
+        "ink",
+        "react",
+        "terminal",
+        "tui"
+      ],
+      "metrics": {
+        "stars": 2512
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-08-13T12:49:31Z",
+      "updatedAt": "2026-08-25T09:04:02Z",
+      "summaryEn": "Claude Code-style terminal UI plugin for DeepSeek Harness — status bar, streaming thoughts, double-Esc rollback, context/TPS tracking.",
+      "summaryKo": "디프시크 하니스용 클로드 코드 스타일 터미널 UI, 상태바·스트리밍·더블Esc 되돌리기 지원.",
+      "categories": [
+        "data",
+        "web",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:elie222/rakazo",
@@ -99,12 +207,12 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 1243
+        "stars": 1250
       },
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-13T06:28:56Z",
-      "updatedAt": "2026-08-25T02:11:51Z",
+      "updatedAt": "2026-08-25T08:53:02Z",
       "summaryEn": "Open-source alternative to Grok's coding bot — pick your own model and sandbox.",
       "summaryKo": "Grok 봇의 오픈소스 대안, 모델과 샌드박스를 직접 선택",
       "categories": [
@@ -114,7 +222,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:V1ki/dsh-plugin-subscriptions",
@@ -136,7 +244,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 266
+        "stars": 269
       },
       "source": "github-search",
       "admitReason": "new",
@@ -149,7 +257,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-18T18:40:19.317Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:vuphongle/oss-pr-reviewer",
@@ -185,7 +293,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:f/prompts.chat",
@@ -209,7 +317,7 @@
         "nextjs"
       ],
       "metrics": {
-        "stars": 167870
+        "stars": 167880
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -221,7 +329,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:langchain-ai/langchain",
@@ -245,12 +353,12 @@
         "langgraph"
       ],
       "metrics": {
-        "stars": 144934
+        "stars": 144950
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2022-10-17T02:58:36Z",
-      "updatedAt": "2026-08-25T03:51:56Z",
+      "updatedAt": "2026-08-25T08:16:58Z",
       "summaryEn": "Framework for building AI agents, from prototyping to production, with multi-model and RAG support.",
       "summaryKo": "AI 에이전트를 프로토타입부터 프로덕션까지 만드는 프레임워크, 멀티모델·RAG 지원.",
       "reasonEn": "144k+ stars, foundational agent engineering toolkit",
@@ -261,7 +369,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:bytedance/deer-flow",
@@ -285,12 +393,12 @@
         "llm"
       ],
       "metrics": {
-        "stars": 80821
+        "stars": 80829
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2025-05-07T02:50:19Z",
-      "updatedAt": "2026-08-25T02:00:32Z",
+      "updatedAt": "2026-08-25T08:57:55Z",
       "summaryEn": "Long-horizon agent framework with research, coding, and creation capabilities. Handles complex tasks via sandboxes, memory, and multi-agent coordination.",
       "categories": [
         "ai-models",
@@ -298,7 +406,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:headroomlabs-ai/headroom",
@@ -322,7 +430,7 @@
         "mcp"
       ],
       "metrics": {
-        "stars": 67474
+        "stars": 67495
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -335,7 +443,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:decionis/agent-safe-pipeline",
@@ -359,7 +467,7 @@
         "reference-architecture"
       ],
       "metrics": {
-        "stars": 534
+        "stars": 535
       },
       "source": "github-search",
       "admitReason": "new",
@@ -371,7 +479,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:ZSeven-W/dsh-ios",
@@ -395,7 +503,7 @@
         "plugin"
       ],
       "metrics": {
-        "stars": 247
+        "stars": 251
       },
       "source": "github-search",
       "admitReason": "new",
@@ -410,7 +518,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-21T05:32:06.059Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:toolclub/dsh-agent-team-gui",
@@ -447,7 +555,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-19T12:50:55.884Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:ZSeven-W/dsh-noema",
@@ -483,7 +591,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:ruvnet/ruflo",
@@ -507,7 +615,7 @@
         "harness"
       ],
       "metrics": {
-        "stars": 69321
+        "stars": 69338
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -519,7 +627,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:code-yeongyu/oh-my-openagent",
@@ -543,19 +651,19 @@
         "opencode"
       ],
       "metrics": {
-        "stars": 68334
+        "stars": 68338
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2025-12-03T01:40:05Z",
-      "updatedAt": "2026-08-25T06:48:13Z",
+      "updatedAt": "2026-08-25T09:36:15Z",
       "summaryEn": "Coding agent harness designed for complex codebases. Integrates with Claude, Codex, and IDE tooling for code generation and navigation.",
       "categories": [
         "ai-agents",
         "web"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:cinderline/northcinder",
@@ -590,7 +698,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-19T06:46:44.114Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:vibeinging/dsh-desktop",
@@ -627,7 +735,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-23T01:26:23.378Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:joe960913/Jixu",
@@ -661,7 +769,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-22T01:19:03.673Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:ZSeven-W/dsh-crew",
@@ -698,7 +806,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-22T21:23:23.291Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:pengyue-polaron/deepseek-harness-genui",
@@ -730,7 +838,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-24T18:42:24.176Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:nduc99911/repo-context-mcp",
@@ -761,7 +869,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:n8n-io/n8n",
@@ -785,12 +893,12 @@
         "mcp"
       ],
       "metrics": {
-        "stars": 202333
+        "stars": 202359
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2019-06-22T09:24:21Z",
-      "updatedAt": "2026-08-25T06:50:18Z",
+      "updatedAt": "2026-08-25T09:38:52Z",
       "summaryEn": "Workflow automation platform with visual UI and custom code support, 400+ integrations, native AI capabilities. Open-source, self-hostable.",
       "categories": [
         "ai-agents",
@@ -798,7 +906,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:MengTo/threeui",
@@ -815,53 +923,19 @@
         "webgl"
       ],
       "metrics": {
-        "stars": 3665
+        "stars": 3725
       },
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-21T11:56:39Z",
-      "updatedAt": "2026-08-25T06:34:25Z",
+      "updatedAt": "2026-08-25T09:32:10Z",
       "summaryEn": "Open-source ThreeJS and React UI component catalog with live interactive previews.",
       "summaryKo": "실시간 인터랙티브 미리보기를 제공하는 오픈소스 ThreeJS 및 React UI 컴포넌트 카탈로그입니다.",
       "categories": [
         "web"
       ],
       "firstSeenAt": "2026-08-21T18:38:31.239Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
-    },
-    {
-      "id": "gh:ccch1mneyyy/dsh-TUI",
-      "type": "repo",
-      "title": "ccch1mneyyy/dsh-TUI",
-      "summaryOriginal": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。 DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoughts, double-Esc rollback, context bar + TPS. npm one-click.",
-      "url": "https://github.com/ccch1mneyyy/dsh-TUI",
-      "lang": "TypeScript",
-      "tags": [
-        "claude-code",
-        "coding-agent",
-        "deepseek",
-        "deepseek-harness",
-        "dsh-plugin",
-        "ink",
-        "react",
-        "terminal",
-        "tui"
-      ],
-      "metrics": {
-        "stars": 2509
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-08-13T12:49:31Z",
-      "updatedAt": "2026-08-25T06:33:51Z",
-      "summaryEn": "Claude Code-style terminal UI plugin for DeepSeek Harness — status bar, streaming thoughts, double-Esc rollback, context/TPS tracking.",
-      "summaryKo": "디프시크 하니스용 클로드 코드 스타일 터미널 UI, 상태바·스트리밍·더블Esc 되돌리기 지원.",
-      "categories": [
-        "web",
-        "devtools"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:LerSent001/orb",
@@ -880,7 +954,7 @@
         "wgsl"
       ],
       "metrics": {
-        "stars": 461
+        "stars": 467
       },
       "source": "github-search",
       "admitReason": "new",
@@ -892,7 +966,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-23T12:42:30.740Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:ChenShuo2004/cs-board",
@@ -911,7 +985,7 @@
         "whiteboard-animation"
       ],
       "metrics": {
-        "stars": 253
+        "stars": 260
       },
       "source": "github-search",
       "admitReason": "new",
@@ -925,7 +999,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-22T18:33:05.265Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:m1ckc3s/procedural-sounds",
@@ -960,7 +1034,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:anonrig/router",
@@ -989,7 +1063,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:OpenLabs-so/oa-design",
@@ -1023,7 +1097,7 @@
         "data"
       ],
       "firstSeenAt": "2026-08-21T18:38:31.239Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:khanhcamap2020-sudo/formkind",
@@ -1046,7 +1120,7 @@
         "vue"
       ],
       "metrics": {
-        "stars": 105
+        "stars": 106
       },
       "source": "github-search",
       "admitReason": "new",
@@ -1058,7 +1132,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-21T03:40:04.140Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:freeCodeCamp/freeCodeCamp",
@@ -1082,18 +1156,18 @@
         "nonprofits"
       ],
       "metrics": {
-        "stars": 454560
+        "stars": 454563
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2014-12-24T17:49:19Z",
-      "updatedAt": "2026-08-25T05:52:19Z",
+      "updatedAt": "2026-08-25T09:37:00Z",
       "summaryEn": "Free open-source curriculum covering math, programming, and computer science with certification",
       "categories": [
         "web"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:react/react",
@@ -1111,18 +1185,18 @@
         "ui"
       ],
       "metrics": {
-        "stars": 247882
+        "stars": 247887
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2013-05-24T16:15:54Z",
-      "updatedAt": "2026-08-24T22:52:04Z",
+      "updatedAt": "2026-08-25T07:43:36Z",
       "summaryEn": "Core React library for building declarative web and native user interfaces",
       "categories": [
         "web"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:vercel/next.js",
@@ -1146,18 +1220,18 @@
         "static-site-generator"
       ],
       "metrics": {
-        "stars": 141924
+        "stars": 141922
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2016-10-05T23:32:51Z",
-      "updatedAt": "2026-08-25T03:27:15Z",
+      "updatedAt": "2026-08-25T09:31:58Z",
       "summaryEn": "React framework with server rendering, static generation, and built-in compiler for full-stack apps",
       "categories": [
         "web"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:react/react-native",
@@ -1177,18 +1251,18 @@
         "react-native"
       ],
       "metrics": {
-        "stars": 126408
+        "stars": 126407
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2015-01-09T18:10:16Z",
-      "updatedAt": "2026-08-24T23:45:22Z",
+      "updatedAt": "2026-08-25T07:35:59Z",
       "summaryEn": "React framework for building native iOS and Android apps with cross-platform code",
       "categories": [
         "web"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:shadcn-ui/ui",
@@ -1212,7 +1286,7 @@
         "ui"
       ],
       "metrics": {
-        "stars": 122039
+        "stars": 122052
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1223,7 +1297,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:nextlevelbuilder/ui-ux-pro-max-skill",
@@ -1247,7 +1321,7 @@
         "mobile-ui"
       ],
       "metrics": {
-        "stars": 120661
+        "stars": 120720
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1258,7 +1332,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-18T18:40:19.317Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:ant-design/ant-design",
@@ -1277,18 +1351,18 @@
         "ui-library"
       ],
       "metrics": {
-        "stars": 99179
+        "stars": 99180
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2015-04-24T15:37:24Z",
-      "updatedAt": "2026-08-25T05:56:38Z",
+      "updatedAt": "2026-08-25T08:33:41Z",
       "summaryEn": "Enterprise-class React UI library implementing comprehensive design system with TypeScript",
       "categories": [
         "web"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:mui/material-ui",
@@ -1305,18 +1379,18 @@
         "react-components"
       ],
       "metrics": {
-        "stars": 98922
+        "stars": 98919
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2014-08-18T19:11:54Z",
-      "updatedAt": "2026-08-25T06:19:10Z",
+      "updatedAt": "2026-08-25T09:26:51Z",
       "summaryEn": "Comprehensive React component library implementing Google's Material Design standard",
       "categories": [
         "web"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:oven-sh/bun",
@@ -1340,18 +1414,18 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 95667
+        "stars": 95670
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2021-04-14T00:48:17Z",
-      "updatedAt": "2026-08-25T06:49:42Z",
+      "updatedAt": "2026-08-25T09:36:26Z",
       "summaryEn": "Fast all-in-one JavaScript runtime, bundler, test runner, and package manager written in Rust",
       "categories": [
         "web"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:ruvnet/RuView",
@@ -1375,7 +1449,7 @@
         "pose-estimation"
       ],
       "metrics": {
-        "stars": 91537
+        "stars": 91555
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1386,7 +1460,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:storybookjs/storybook",
@@ -1410,19 +1484,19 @@
         "svelte"
       ],
       "metrics": {
-        "stars": 90928
+        "stars": 90929
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2016-03-18T04:23:44Z",
-      "updatedAt": "2026-08-25T06:47:16Z",
+      "updatedAt": "2026-08-25T09:34:11Z",
       "summaryEn": "Industry-standard workshop for building, documenting, and testing UI components in isolation",
       "categories": [
         "web",
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:apache/superset",
@@ -1446,19 +1520,19 @@
         "data-visualization"
       ],
       "metrics": {
-        "stars": 74453
+        "stars": 74455
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2015-07-21T18:55:34Z",
-      "updatedAt": "2026-08-25T06:32:00Z",
+      "updatedAt": "2026-08-25T08:50:20Z",
       "summaryEn": "Open-source data visualization and exploration platform for analytics and business intelligence",
       "categories": [
         "web",
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:facebook/docusaurus",
@@ -1476,7 +1550,7 @@
         "website"
       ],
       "metrics": {
-        "stars": 66071
+        "stars": 66073
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1488,7 +1562,7 @@
         "web"
       ],
       "firstSeenAt": "2026-08-20T18:41:26.574Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:usememos/memos",
@@ -1524,12 +1598,109 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+    },
+    {
+      "id": "gh:bilawalsidhu/gods-eye-view",
+      "type": "repo",
+      "title": "bilawalsidhu/gods-eye-view",
+      "summaryOriginal": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 5,
+        "totalScore": 228.4616
+      },
+      "source": "ossinsight",
+      "admitReason": "notable",
+      "summaryEn": "Open-source spatial intelligence tool that visualizes real-time satellite data on a photorealistic 3D globe within the browser.",
+      "summaryKo": "브라우저에서 실시간 위성 데이터를 3D 지구본으로 시각화하는 공간 지능 도구입니다.",
+      "categories": [
+        "web"
+      ],
+      "firstSeenAt": "2026-08-25T09:36:47.621Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+    },
+    {
+      "id": "gh:browser-use/browser-harness",
+      "type": "repo",
+      "title": "browser-use/browser-harness",
+      "summaryOriginal": "Browser Harness | Self-healing harness that enables LLMs to complete any task.",
+      "url": "https://github.com/browser-use/browser-harness",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 2,
+        "pushes": 1,
+        "totalScore": 207.6597
+      },
+      "source": "ossinsight",
+      "admitReason": "notable",
+      "summaryEn": "Self-healing browser automation harness that enables LLMs to reliably execute and complete complex end-to-end web tasks.",
+      "summaryKo": "LLM이 웹 작업을 안정적으로 수행하도록 돕는 자가 치유형 브라우저 자동화 도구입니다.",
+      "categories": [
+        "ai-models",
+        "web"
+      ],
+      "firstSeenAt": "2026-08-25T09:36:47.621Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+    },
+    {
+      "id": "hn:49213660",
+      "type": "article",
+      "title": "Ask HN: In your experience, what are sound conventions for e-ink UI development?",
+      "summaryOriginal": "Ask HN: In your experience, what are sound conventions for e-ink UI development?",
+      "url": "https://news.ycombinator.com/item?id=49213660",
+      "tags": [],
+      "metrics": {
+        "upvotes": 219,
+        "comments": 74
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-07T17:29:16Z",
+      "admitReason": "notable",
+      "summaryEn": "A developer discussion asking for best practices and conventions when designing user interfaces for e-ink displays.",
+      "summaryKo": "전자잉크 디스플레이용 사용자 인터페이스 설계 시 모범 사례와 규칙을 묻는 개발자 토론.",
+      "reasonEn": "Niche hardware UI design discussion",
+      "reasonKo": "틈새 하드웨어 UI 디자인 토론",
+      "categories": [
+        "web"
+      ],
+      "firstSeenAt": "2026-08-19T01:42:27.269Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
+    },
+    {
+      "id": "hn:49143479",
+      "type": "article",
+      "title": "Meshdiff – visually compare two STL versions in the browser, client-side",
+      "summaryOriginal": "Meshdiff – visually compare two STL versions in the browser, client-side",
+      "url": "https://meshdiff.com/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 204,
+        "comments": 25
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-02T11:34:41Z",
+      "admitReason": "notable",
+      "summaryEn": "Meshdiff is a client-side web tool that lets users visually compare two versions of an STL 3D model directly in the browser.",
+      "summaryKo": "브라우저에서 두 가지 버전의 STL 3D 모델을 클라이언트 사이드에서 시각적으로 비교할 수 있는 웹 도구입니다.",
+      "reasonEn": "Gaining attention as a useful browser-based 3D utility.",
+      "reasonKo": "유용한 브라우저 기반 3D 유틸리티로 주목받고 있습니다.",
+      "categories": [
+        "web"
+      ],
+      "firstSeenAt": "2026-08-23T09:29:14.266Z",
+      "lastSeenAt": "2026-08-25T09:36:47.621Z"
     },
     {
       "id": "gh:pmndrs/zustand",
       "type": "repo",
+      "categories": [
+        "web"
+      ],
       "title": "pmndrs/zustand",
+      "summaryEn": "Lightweight React state management library with hooks for managing application state",
       "summaryOriginal": "🐻 Bear necessities for state management in React",
       "url": "https://github.com/pmndrs/zustand",
       "lang": "TypeScript",
@@ -1543,23 +1714,23 @@
         "state-management"
       ],
       "metrics": {
-        "stars": 58605
+        "stars": 58608
       },
       "source": "github-search",
-      "admitReason": "notable",
       "publishedAt": "2019-04-09T09:10:06Z",
       "updatedAt": "2026-08-24T23:48:49Z",
-      "summaryEn": "Lightweight React state management library with hooks for managing application state",
-      "categories": [
-        "web"
-      ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T06:51:09.551Z",
+      "admitReason": "notable"
     },
     {
       "id": "gh:remotion-dev/remotion",
       "type": "repo",
+      "categories": [
+        "web"
+      ],
       "title": "remotion-dev/remotion",
+      "summaryEn": "Programmatic video creation library using React components and JavaScript animation",
       "summaryOriginal": "🎥 Make videos programmatically with React",
       "url": "https://github.com/remotion-dev/remotion",
       "lang": "TypeScript",
@@ -1572,20 +1743,23 @@
         "stars": 57279
       },
       "source": "github-search",
-      "admitReason": "notable",
       "publishedAt": "2020-06-23T19:49:10Z",
       "updatedAt": "2026-08-24T20:08:37Z",
-      "summaryEn": "Programmatic video creation library using React components and JavaScript animation",
-      "categories": [
-        "web"
-      ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T06:51:09.551Z",
+      "admitReason": "notable"
     },
     {
       "id": "gh:appwrite/appwrite",
       "type": "repo",
+      "categories": [
+        "web",
+        "backend",
+        "infra"
+      ],
       "title": "appwrite/appwrite",
+      "summaryEn": "Complete backend-as-a-service platform: auth, databases, storage, functions, and messaging for web, mobile, and AI apps.",
+      "summaryKo": "인증·DB·스토리지·함수·메시징을 아우르는 웹·모바일·AI용 완전한 백엔드 플랫폼.",
       "summaryOriginal": "Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more",
       "url": "https://github.com/appwrite/appwrite",
       "lang": "TypeScript",
@@ -1607,93 +1781,38 @@
         "stars": 57114
       },
       "source": "github-search",
-      "admitReason": "notable",
       "publishedAt": "2019-04-08T16:36:25Z",
       "updatedAt": "2026-08-25T06:50:48Z",
-      "summaryEn": "Complete backend-as-a-service platform: auth, databases, storage, functions, and messaging for web, mobile, and AI apps.",
-      "summaryKo": "인증·DB·스토리지·함수·메시징을 아우르는 웹·모바일·AI용 완전한 백엔드 플랫폼.",
-      "categories": [
-        "web",
-        "backend",
-        "infra"
-      ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
+      "lastSeenAt": "2026-08-25T06:51:09.551Z",
+      "admitReason": "notable"
     },
     {
       "id": "gh:citrolabs/ego-lite",
       "type": "repo",
-      "title": "citrolabs/ego-lite",
-      "summaryOriginal": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
-      "url": "https://github.com/citrolabs/ego-lite",
-      "lang": "JavaScript",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 1,
-        "totalScore": 204.9391
-      },
-      "source": "ossinsight",
-      "admitReason": "notable",
-      "summaryEn": "Browser built for AI agents to automate tasks, sharing your logged-in session with tools like Codex or Claude Code.",
-      "summaryKo": "Codex나 Claude Code 같은 AI 에이전트가 로그인된 브라우저 상태를 그대로 공유해 자동화하는 브라우저",
-      "reasonEn": "Free, zero-config; steady growth from agent-browsing use cases.",
-      "reasonKo": "무료·제로설정, 에이전트 브라우징 수요로 꾸준한 스타 증가",
       "categories": [
         "ai-agents",
         "web",
         "engineering"
       ],
+      "title": "citrolabs/ego-lite",
+      "summaryEn": "Browser built for AI agents to automate tasks, sharing your logged-in session with tools like Codex or Claude Code.",
+      "summaryKo": "Codex나 Claude Code 같은 AI 에이전트가 로그인된 브라우저 상태를 그대로 공유해 자동화하는 브라우저",
+      "summaryOriginal": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "reasonEn": "Free, zero-config; steady growth from agent-browsing use cases.",
+      "reasonKo": "무료·제로설정, 에이전트 브라우징 수요로 꾸준한 스타 증가",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "lang": "JavaScript",
+      "tags": [],
+      "metrics": {
+        "totalScore": 204.9391,
+        "stars": 13358
+      },
+      "source": "ossinsight",
       "firstSeenAt": "2026-08-19T09:35:40.383Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
-    },
-    {
-      "id": "hn:49213660",
-      "type": "article",
-      "title": "Ask HN: In your experience, what are sound conventions for e-ink UI development?",
-      "summaryOriginal": "Ask HN: In your experience, what are sound conventions for e-ink UI development?",
-      "url": "https://news.ycombinator.com/item?id=49213660",
-      "tags": [],
-      "metrics": {
-        "upvotes": 219,
-        "comments": 74
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-07T17:29:16Z",
-      "admitReason": "notable",
-      "summaryEn": "A discussion asking developers for best practices and conventions when developing user interfaces for e-ink displays.",
-      "summaryKo": "전자잉크 디스플레이용 사용자 인터페이스를 개발할 때 모범 사례와 관례에 대해 개발자에게 묻는 토론.",
-      "reasonEn": "Niche hardware UI development discussion.",
-      "reasonKo": "틈새 하드웨어 UI 개발 토론.",
-      "categories": [
-        "web"
-      ],
-      "firstSeenAt": "2026-08-19T01:42:27.269Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z"
-    },
-    {
-      "id": "hn:49143479",
-      "type": "article",
-      "title": "Meshdiff – visually compare two STL versions in the browser, client-side",
-      "summaryOriginal": "Meshdiff – visually compare two STL versions in the browser, client-side",
-      "url": "https://meshdiff.com/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 204,
-        "comments": 25
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-02T11:34:41Z",
-      "admitReason": "notable",
-      "summaryEn": "Meshdiff is a client-side browser tool that lets developers visually compare two different versions of STL 3D models.",
-      "summaryKo": "Meshdiff는 개발자가 브라우저에서 클라이언트 사이드로 두 가지 STL 3D 모델 버전을 시각적으로 비교할 수 있는 도구입니다.",
-      "categories": [
-        "web",
-        "devtools"
-      ],
-      "firstSeenAt": "2026-08-23T09:29:14.266Z",
       "lastSeenAt": "2026-08-25T06:51:09.551Z",
-      "reasonEn": "Useful client-side browser tool for 3D developers",
-      "reasonKo": "3D 개발자를 위한 유용한 클라이언트 도구"
+      "admitReason": "notable",
+      "updatedAt": "2026-08-25T06:48:42Z"
     },
     {
       "id": "gh:shadcn-labs/pdfcn",
@@ -1721,7 +1840,7 @@
         "wasm"
       ],
       "metrics": {
-        "stars": 854
+        "stars": 856
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T11:55:41Z",
@@ -1796,11 +1915,11 @@
         "postgresql"
       ],
       "metrics": {
-        "stars": 55490
+        "stars": 55498
       },
       "source": "github-search",
       "publishedAt": "2022-12-01T13:04:40Z",
-      "updatedAt": "2026-08-25T06:52:26Z",
+      "updatedAt": "2026-08-25T09:38:44Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-24T09:50:01.036Z",
       "admitReason": "notable"
@@ -1834,11 +1953,11 @@
         "video"
       ],
       "metrics": {
-        "stars": 42518
+        "stars": 42541
       },
       "source": "github-search",
       "publishedAt": "2026-03-10T01:51:06Z",
-      "updatedAt": "2026-08-25T06:05:18Z",
+      "updatedAt": "2026-08-25T09:14:36Z",
       "firstSeenAt": "2026-08-24T01:23:41.283Z",
       "lastSeenAt": "2026-08-24T07:01:43.353Z",
       "admitReason": "notable"
@@ -1881,11 +2000,11 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 37022
+        "stars": 37028
       },
       "source": "github-search",
       "publishedAt": "2023-06-19T04:08:31Z",
-      "updatedAt": "2026-08-25T05:57:20Z",
+      "updatedAt": "2026-08-25T09:36:22Z",
       "firstSeenAt": "2026-08-24T01:23:41.283Z",
       "lastSeenAt": "2026-08-24T01:23:41.283Z",
       "admitReason": "notable"
@@ -1926,7 +2045,7 @@
         "vuepress"
       ],
       "metrics": {
-        "stars": 19127
+        "stars": 19140
       },
       "source": "github-search",
       "publishedAt": "2025-02-13T05:47:46Z",
@@ -1954,7 +2073,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 110668
+        "stars": 110672
       },
       "source": "github-search",
       "publishedAt": "2014-06-17T15:28:39Z",
@@ -1998,7 +2117,7 @@
         "wsl-support"
       ],
       "metrics": {
-        "stars": 129252
+        "stars": 129288
       },
       "source": "github-search",
       "publishedAt": "2025-08-04T14:16:16Z",
@@ -2024,12 +2143,12 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 1536,
+        "stars": 1543,
         "pushes": 2,
         "totalScore": 243.2202
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-24T18:30:24Z",
+      "updatedAt": "2026-08-25T09:24:31Z",
       "firstSeenAt": "2026-08-22T09:28:16.052Z",
       "lastSeenAt": "2026-08-23T06:43:06.551Z",
       "admitReason": "notable"
@@ -2050,11 +2169,11 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 683,
+        "stars": 606,
         "totalScore": 217.4894
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-24T14:57:47Z",
+      "updatedAt": "2026-08-25T07:40:17Z",
       "firstSeenAt": "2026-08-22T09:28:16.052Z",
       "lastSeenAt": "2026-08-23T06:43:06.551Z",
       "admitReason": "notable"
@@ -2085,7 +2204,7 @@
         "typescript-tutorial"
       ],
       "metrics": {
-        "stars": 1120
+        "stars": 1121
       },
       "source": "github-search",
       "publishedAt": "2026-08-09T12:15:30Z",
@@ -2244,7 +2363,7 @@
         "workspace"
       ],
       "metrics": {
-        "stars": 10803
+        "stars": 10810
       },
       "source": "github-search",
       "publishedAt": "2026-03-22T07:36:16Z",
@@ -2268,7 +2387,7 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 2170,
+        "stars": 2188,
         "pushes": 1,
         "totalScore": 218.2227
       },
@@ -2318,7 +2437,7 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 6191,
+        "stars": 6224,
         "totalScore": 208.4296
       },
       "source": "ossinsight",
@@ -2456,7 +2575,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 27248
+        "stars": 27300
       },
       "source": "github-search",
       "publishedAt": "2025-12-31T14:01:28Z",
@@ -2531,7 +2650,7 @@
         "windsurf"
       ],
       "metrics": {
-        "stars": 560
+        "stars": 558
       },
       "source": "github-search",
       "publishedAt": "2026-08-07T11:13:26Z",
@@ -2571,11 +2690,11 @@
         "videos"
       ],
       "metrics": {
-        "stars": 112591
+        "stars": 112612
       },
       "source": "github-search",
       "publishedAt": "2022-02-03T15:56:27Z",
-      "updatedAt": "2026-08-25T06:51:36Z",
+      "updatedAt": "2026-08-25T09:18:24Z",
       "firstSeenAt": "2026-08-19T15:33:13.943Z",
       "lastSeenAt": "2026-08-20T09:36:42.325Z",
       "admitReason": "notable"
@@ -2638,11 +2757,11 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 177
+        "stars": 146
       },
       "source": "github-search",
       "publishedAt": "2026-08-06T12:24:49Z",
-      "updatedAt": "2026-08-24T16:12:44Z",
+      "updatedAt": "2026-08-25T09:16:07Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-19T21:26:49.454Z",
       "admitReason": "new"
@@ -2682,7 +2801,7 @@
         "webassembly"
       ],
       "metrics": {
-        "stars": 641
+        "stars": 567
       },
       "source": "github-search",
       "publishedAt": "2026-08-06T04:51:12Z",
@@ -2759,7 +2878,7 @@
         "webcomponents"
       ],
       "metrics": {
-        "stars": 52632
+        "stars": 52633
       },
       "source": "github-search",
       "publishedAt": "2013-08-20T23:06:02Z",
@@ -2797,11 +2916,11 @@
         "web-framework"
       ],
       "metrics": {
-        "stars": 51810
+        "stars": 51811
       },
       "source": "github-search",
       "publishedAt": "2016-08-15T17:14:25Z",
-      "updatedAt": "2026-08-25T03:59:34Z",
+      "updatedAt": "2026-08-25T09:38:09Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-19T01:38:48.167Z",
       "admitReason": "notable"
@@ -2839,7 +2958,7 @@
       },
       "source": "github-search",
       "publishedAt": "2019-09-10T19:23:58Z",
-      "updatedAt": "2026-08-25T06:08:08Z",
+      "updatedAt": "2026-08-25T08:06:28Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-19T01:38:48.167Z",
       "admitReason": "notable"
@@ -2869,11 +2988,11 @@
         "whiteboard"
       ],
       "metrics": {
-        "stars": 49947
+        "stars": 49946
       },
       "source": "github-search",
       "publishedAt": "2021-05-09T11:48:37Z",
-      "updatedAt": "2026-08-24T16:41:21Z",
+      "updatedAt": "2026-08-25T09:31:46Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-19T01:38:48.167Z",
       "admitReason": "notable"
@@ -2912,7 +3031,7 @@
         "vite"
       ],
       "metrics": {
-        "stars": 45127
+        "stars": 45137
       },
       "source": "github-search",
       "publishedAt": "2019-02-23T15:08:34Z",
