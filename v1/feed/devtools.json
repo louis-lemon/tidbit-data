@@ -1,34 +1,9 @@
 {
   "version": 1,
   "category": "devtools",
-  "generatedAt": "2026-08-26T06:52:39.327Z",
+  "generatedAt": "2026-08-26T09:43:03.049Z",
   "ttlSeconds": 10800,
   "cards": [
-    {
-      "id": "gh:anthropics/claude-plugins-community",
-      "type": "repo",
-      "title": "anthropics/claude-plugins-community",
-      "summaryOriginal": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
-      "url": "https://github.com/anthropics/claude-plugins-community",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "stars": 1905,
-        "starsDelta": 351
-      },
-      "source": "github-trending",
-      "admitReason": "trending",
-      "summaryEn": "Community plugin marketplace for Claude Cowork and Claude Code, enabling users to discover and submit custom integrations.",
-      "summaryKo": "Claude Cowork 및 Claude Code를 위한 커뮤니티 플러그인 마켓플레이스입니다.",
-      "reasonEn": "Surging interest in Claude extensions and ecosystem tools.",
-      "reasonKo": "Claude 확장 및 생태계 도구에 대한 관심 급증.",
-      "categories": [
-        "devtools",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-24T12:53:33.595Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
-    },
     {
       "id": "gh:openai/codex",
       "type": "repo",
@@ -38,7 +13,7 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 118405,
+        "stars": 118550,
         "starsDelta": 1181
       },
       "source": "github-trending",
@@ -52,120 +27,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-22T15:22:55.161Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
-    },
-    {
-      "id": "gh:stablyai/orca",
-      "type": "repo",
-      "title": "stablyai/orca",
-      "summaryOriginal": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
-      "url": "https://github.com/stablyai/orca",
-      "lang": "TypeScript",
-      "tags": [
-        "ade",
-        "agent-ide",
-        "ai-agents",
-        "claude-code",
-        "cli",
-        "codex",
-        "cursor-agent",
-        "devtools",
-        "ghostty",
-        "ide",
-        "mobile-app",
-        "opencode"
-      ],
-      "metrics": {
-        "stars": 53796
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2026-03-17T03:28:57Z",
-      "updatedAt": "2026-08-26T06:51:48Z",
-      "summaryEn": "An IDE for running many coding agents in parallel with your own subscriptions, on desktop, mobile, or VPS.",
-      "summaryKo": "여러 코딩 에이전트를 병렬 실행하는 IDE. 데스크톱·모바일·VPS 지원, 자기 구독 사용.",
-      "categories": [
-        "ai-agents",
-        "devtools"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
-    },
-    {
-      "id": "gh:t8y2/dbx",
-      "type": "repo",
-      "title": "t8y2/dbx",
-      "summaryOriginal": "20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 90+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
-      "url": "https://github.com/t8y2/dbx",
-      "lang": "Rust",
-      "tags": [
-        "ai",
-        "cli",
-        "clickhouse",
-        "database",
-        "database-client",
-        "database-management",
-        "docker",
-        "gui",
-        "mcp",
-        "mongodb",
-        "mysql",
-        "postgresql"
-      ],
-      "metrics": {
-        "stars": 16630
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2026-04-29T03:00:36Z",
-      "updatedAt": "2026-08-26T06:44:19Z",
-      "summaryEn": "Dbx is a lightweight cross-platform database client supporting 70+ databases with built-in AI, MCP server, CLI, and Docker capabilities.",
-      "summaryKo": "70개 이상의 데이터베이스를 지원하는 가벼운 크로스플랫폼 클라이언트로 AI와 MCP를 내장했습니다.",
-      "categories": [
-        "ai-agents",
-        "backend",
-        "infra",
-        "data",
-        "devtools",
-        "web"
-      ],
-      "firstSeenAt": "2026-08-21T09:38:23.718Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
-    },
-    {
-      "id": "gh:ccch1mneyyy/dsh-TUI",
-      "type": "repo",
-      "title": "ccch1mneyyy/dsh-TUI",
-      "summaryOriginal": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。 DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoughts, double-Esc rollback, context bar + TPS. npm one-click.",
-      "url": "https://github.com/ccch1mneyyy/dsh-TUI",
-      "lang": "TypeScript",
-      "tags": [
-        "claude-code",
-        "coding-agent",
-        "deepseek",
-        "deepseek-harness",
-        "dsh-plugin",
-        "ink",
-        "react",
-        "terminal",
-        "tui"
-      ],
-      "metrics": {
-        "stars": 2563
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-08-13T12:49:31Z",
-      "updatedAt": "2026-08-26T06:44:44Z",
-      "summaryEn": "Claude Code-style terminal UI plugin for DeepSeek Harness — status bar, streaming thoughts, double-Esc rollback, context/TPS tracking.",
-      "summaryKo": "디프시크 하니스용 클로드 코드 스타일 터미널 UI, 상태바·스트리밍·더블Esc 되돌리기 지원.",
-      "categories": [
-        "data",
-        "web",
-        "devtools"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:only-cli/oc",
@@ -186,7 +48,7 @@
         "web-scraping"
       ],
       "metrics": {
-        "stars": 309
+        "stars": 311
       },
       "source": "github-search",
       "admitReason": "new",
@@ -202,7 +64,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-22T15:22:55.161Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:Vistyy/nopus",
@@ -222,7 +84,7 @@
         "readability"
       ],
       "metrics": {
-        "stars": 234
+        "stars": 235
       },
       "source": "github-search",
       "admitReason": "new",
@@ -234,7 +96,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-19T15:33:13.943Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:seyedehsanhadi/sloptrim",
@@ -258,7 +120,7 @@
         "llm"
       ],
       "metrics": {
-        "stars": 195
+        "stars": 196
       },
       "source": "github-search",
       "admitReason": "new",
@@ -272,7 +134,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:vuphongle/oss-pr-reviewer",
@@ -308,7 +170,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:affaan-m/ECC",
@@ -328,7 +190,7 @@
         "productivity"
       ],
       "metrics": {
-        "stars": 243275
+        "stars": 243302
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -342,7 +204,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:Graphify-Labs/graphify",
@@ -366,7 +228,7 @@
         "knowledge-graph"
       ],
       "metrics": {
-        "stars": 110618
+        "stars": 110756
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -380,7 +242,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:OpenHands/OpenHands",
@@ -401,7 +263,7 @@
         "openai"
       ],
       "metrics": {
-        "stars": 85123
+        "stars": 85134
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -414,7 +276,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:rtk-ai/rtk",
@@ -438,12 +300,12 @@
         "rust"
       ],
       "metrics": {
-        "stars": 77449
+        "stars": 77465
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-01-22T16:54:16Z",
-      "updatedAt": "2026-08-25T19:03:47Z",
+      "updatedAt": "2026-08-26T08:11:32Z",
       "summaryEn": "CLI proxy reducing LLM token consumption by 60-90% for dev commands; single Rust binary optimizing AI coding cost.",
       "summaryKo": "개발 명령어의 LLM 토큰 사용 60-90% 감소, Rust 기반 CLI.",
       "categories": [
@@ -451,7 +313,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:streamlit/streamlit",
@@ -471,12 +333,12 @@
         "streamlit"
       ],
       "metrics": {
-        "stars": 45616
+        "stars": 45615
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2019-08-24T00:14:52Z",
-      "updatedAt": "2026-08-26T04:50:56Z",
+      "updatedAt": "2026-08-26T09:11:25Z",
       "summaryEn": "Python framework for rapid data app development with visualization; simplifies building ML dashboards and analytics interfaces.",
       "summaryKo": "Python 데이터 앱 프레임워크, 머신러닝 대시보드 빠른 구축.",
       "categories": [
@@ -484,7 +346,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:Spielewoy/autoprompt-skill",
@@ -508,7 +370,7 @@
         "coding-agent"
       ],
       "metrics": {
-        "stars": 878
+        "stars": 879
       },
       "source": "github-search",
       "admitReason": "new",
@@ -521,7 +383,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-19T06:46:44.114Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins",
@@ -544,7 +406,7 @@
         "llm-tools"
       ],
       "metrics": {
-        "stars": 320
+        "stars": 325
       },
       "source": "github-search",
       "admitReason": "new",
@@ -557,7 +419,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:soumatheusgomes/vibe-coding-toolkit",
@@ -574,7 +436,7 @@
         "prompts"
       ],
       "metrics": {
-        "stars": 275
+        "stars": 276
       },
       "source": "github-search",
       "admitReason": "new",
@@ -587,7 +449,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:sodiumsun/agenttrail",
@@ -611,7 +473,7 @@
         "monitoring"
       ],
       "metrics": {
-        "stars": 247
+        "stars": 248
       },
       "source": "github-search",
       "admitReason": "new",
@@ -624,7 +486,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-24T18:42:24.176Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:Hoylon/peerbridge-mcp",
@@ -657,7 +519,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-25T09:36:47.621Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:google-gemini/gemini-cli",
@@ -676,7 +538,7 @@
         "mcp-server"
       ],
       "metrics": {
-        "stars": 106690
+        "stars": 106688
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -689,7 +551,44 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
+    },
+    {
+      "id": "gh:stablyai/orca",
+      "type": "repo",
+      "title": "stablyai/orca",
+      "summaryOriginal": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+      "url": "https://github.com/stablyai/orca",
+      "lang": "TypeScript",
+      "tags": [
+        "ade",
+        "agent-ide",
+        "ai-agents",
+        "claude-code",
+        "cli",
+        "codex",
+        "cursor-agent",
+        "devtools",
+        "ghostty",
+        "ide",
+        "mobile-app",
+        "opencode"
+      ],
+      "metrics": {
+        "stars": 53899
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2026-03-17T03:28:57Z",
+      "updatedAt": "2026-08-26T09:40:31Z",
+      "summaryEn": "An IDE for running many coding agents in parallel with your own subscriptions, on desktop, mobile, or VPS.",
+      "summaryKo": "여러 코딩 에이전트를 병렬 실행하는 IDE. 데스크톱·모바일·VPS 지원, 자기 구독 사용.",
+      "categories": [
+        "ai-agents",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:sickn33/agentic-awesome-skills",
@@ -713,7 +612,7 @@
         "codex-skills"
       ],
       "metrics": {
-        "stars": 45398
+        "stars": 45407
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -726,7 +625,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:agno-agi/agno",
@@ -743,12 +642,12 @@
         "python"
       ],
       "metrics": {
-        "stars": 41928
+        "stars": 41930
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2022-05-04T15:23:02Z",
-      "updatedAt": "2026-08-26T06:39:19Z",
+      "updatedAt": "2026-08-26T09:38:10Z",
       "summaryEn": "Python framework for building, running, and managing autonomous AI agent platforms at scale.",
       "summaryKo": "AI 에이전트 플랫폼 구축, 실행, 관리용 Python 프레임워크.",
       "categories": [
@@ -756,7 +655,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:wshobson/agents",
@@ -780,7 +679,7 @@
         "copilot"
       ],
       "metrics": {
-        "stars": 39133
+        "stars": 39141
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -795,7 +694,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:ComposioHQ/composio",
@@ -819,7 +718,7 @@
         "llmops"
       ],
       "metrics": {
-        "stars": 29880
+        "stars": 29883
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -834,7 +733,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:alirezarezvani/claude-skills",
@@ -858,7 +757,7 @@
         "coding-agent-plugins"
       ],
       "metrics": {
-        "stars": 24979
+        "stars": 24995
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -873,7 +772,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:icesixgod/codex-trajectory",
@@ -892,7 +791,7 @@
         "uv"
       ],
       "metrics": {
-        "stars": 241
+        "stars": 240
       },
       "source": "github-search",
       "admitReason": "new",
@@ -905,7 +804,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:azrtydxb/procoder",
@@ -927,12 +826,12 @@
         "static-analysis"
       ],
       "metrics": {
-        "stars": 184
+        "stars": 185
       },
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-16T07:47:17Z",
-      "updatedAt": "2026-08-26T06:30:34Z",
+      "updatedAt": "2026-08-26T09:29:13Z",
       "summaryEn": "A Go binary that enforces code quality, commit gates, and review loops for AI coding agents to prevent incomplete code and catch bugs early.",
       "summaryKo": "불완전한 코드를 방지하고 버그를 조기에 잡기 위해 AI 코딩 에이전트에 코드 품질 검사와 커밋 게이트를 적용하는 Go 바이너리.",
       "reasonEn": "Growing need for strict quality control mechanisms in AI-assisted coding.",
@@ -942,7 +841,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-21T12:51:22.781Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:lianghsun/open-sheet",
@@ -971,7 +870,7 @@
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-18T07:15:17Z",
-      "updatedAt": "2026-08-26T06:12:50Z",
+      "updatedAt": "2026-08-26T09:12:08Z",
       "summaryEn": "Spreadsheet framework built for AI agents, allowing models to write code like React and export live .xlsx files.",
       "summaryKo": "AI 에이전트를 위해 제작된 스프레드시트 프레임워크로, 엑셀 파일 내보내기를 지원합니다.",
       "reasonEn": "Innovative spreadsheet tooling for LLM workflows",
@@ -982,7 +881,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-25T15:43:44.793Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:n8n-io/n8n",
@@ -1006,12 +905,12 @@
         "mcp"
       ],
       "metrics": {
-        "stars": 202446
+        "stars": 202462
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2019-06-22T09:24:21Z",
-      "updatedAt": "2026-08-26T06:44:52Z",
+      "updatedAt": "2026-08-26T09:44:48Z",
       "summaryEn": "Workflow automation platform with visual UI and custom code support, 400+ integrations, native AI capabilities. Open-source, self-hostable.",
       "categories": [
         "ai-agents",
@@ -1019,7 +918,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:Panniantong/Agent-Reach",
@@ -1043,7 +942,7 @@
         "python"
       ],
       "metrics": {
-        "stars": 75370
+        "stars": 75427
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1056,7 +955,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-25T06:51:09.551Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:jeecgboot/JeecgBoot",
@@ -1080,7 +979,7 @@
         "low-code"
       ],
       "metrics": {
-        "stars": 47481
+        "stars": 47484
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1093,7 +992,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-20T12:53:13.611Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:Hmbown/CodeWhale",
@@ -1116,7 +1015,7 @@
         "tui"
       ],
       "metrics": {
-        "stars": 40861
+        "stars": 40860
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1129,7 +1028,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-20T03:48:34.150Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:DeusData/codebase-memory-mcp",
@@ -1153,7 +1052,7 @@
         "kilocode"
       ],
       "metrics": {
-        "stars": 40671
+        "stars": 40699
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1166,7 +1065,41 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
+    },
+    {
+      "id": "gh:ccch1mneyyy/dsh-TUI",
+      "type": "repo",
+      "title": "ccch1mneyyy/dsh-TUI",
+      "summaryOriginal": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。 DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoughts, double-Esc rollback, context bar + TPS. npm one-click.",
+      "url": "https://github.com/ccch1mneyyy/dsh-TUI",
+      "lang": "TypeScript",
+      "tags": [
+        "claude-code",
+        "coding-agent",
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugin",
+        "ink",
+        "react",
+        "terminal",
+        "tui"
+      ],
+      "metrics": {
+        "stars": 2575
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-08-13T12:49:31Z",
+      "updatedAt": "2026-08-26T08:45:16Z",
+      "summaryEn": "Claude Code-style terminal UI plugin for DeepSeek Harness — status bar, streaming thoughts, double-Esc rollback, context/TPS tracking.",
+      "summaryKo": "디프시크 하니스용 클로드 코드 스타일 터미널 UI, 상태바·스트리밍·더블Esc 되돌리기 지원.",
+      "categories": [
+        "web",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:appsmithorg/appsmith",
@@ -1190,7 +1123,7 @@
         "java"
       ],
       "metrics": {
-        "stars": 40748
+        "stars": 40749
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1203,7 +1136,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:hoppscotch/hoppscotch",
@@ -1232,7 +1165,7 @@
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2019-08-21T13:15:24Z",
-      "updatedAt": "2026-08-26T06:47:37Z",
+      "updatedAt": "2026-08-26T07:37:39Z",
       "summaryEn": "Open-source API development ecosystem — an alternative to Postman/Insomnia for web, desktop, and CLI.",
       "summaryKo": "Postman·Insomnia 대체할 오픈소스 API 개발 도구, 웹·데스크톱·CLI 지원.",
       "categories": [
@@ -1242,7 +1175,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:ueberdosis/tiptap",
@@ -1265,12 +1198,12 @@
         "wysiwyg-editor"
       ],
       "metrics": {
-        "stars": 38167
+        "stars": 38170
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2018-08-20T19:58:58Z",
-      "updatedAt": "2026-08-26T04:00:21Z",
+      "updatedAt": "2026-08-26T09:39:52Z",
       "summaryEn": "Headless rich text editor framework for React and Vue with flexible rendering and extensive formatting capabilities.",
       "summaryKo": "React, Vue 용 헤드리스 리치 텍스트 에디터 프레임워크로 유연한 렌더링 지원.",
       "categories": [
@@ -1278,7 +1211,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:NxcoreAI/EverRoom",
@@ -1303,7 +1236,7 @@
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-14T13:13:51Z",
-      "updatedAt": "2026-08-26T03:25:26Z",
+      "updatedAt": "2026-08-26T08:43:07Z",
       "summaryEn": "An Electron-based workspace that remembers your projects, decisions, and knowledge sources using TypeScript.",
       "summaryKo": "TypeScript로 개발된 프로젝트 및 지식 기억 워륵스페이스입니다.",
       "categories": [
@@ -1311,7 +1244,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-23T15:24:03.896Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:microsoft/vscode",
@@ -1328,12 +1261,12 @@
         "visual-studio-code"
       ],
       "metrics": {
-        "stars": 189619
+        "stars": 189615
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2015-09-03T20:23:38Z",
-      "updatedAt": "2026-08-26T06:54:42Z",
+      "updatedAt": "2026-08-26T09:42:08Z",
       "summaryEn": "Industry-standard code editor with language support, debugging, extensions, and integrated terminal for most development workflows.",
       "summaryKo": "대부분의 개발 워크플로우를 위한 언어 지원, 디버깅, 확장 기능을 갖춘 산업 표준 코드 에디터.",
       "categories": [
@@ -1341,7 +1274,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:microsoft/monaco-editor",
@@ -1371,7 +1304,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-19T01:20:28.544Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:drawdb-io/drawdb",
@@ -1395,7 +1328,7 @@
         "react"
       ],
       "metrics": {
-        "stars": 39261
+        "stars": 39265
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1410,7 +1343,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:marimo-team/marimo",
@@ -1434,12 +1367,12 @@
         "sql"
       ],
       "metrics": {
-        "stars": 22495
+        "stars": 22496
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2023-08-14T18:56:20Z",
-      "updatedAt": "2026-08-26T06:32:35Z",
+      "updatedAt": "2026-08-26T08:43:05Z",
       "summaryEn": "Reactive Python notebook supporting reproducible science, SQL queries, git versioning, deployment, and AI-native editing.",
       "summaryKo": "재현 가능한 과학, SQL 쿼리, git 버전 관리, 배포, AI 네이티브 편집을 지원하는 Python 리액티브 노트북.",
       "categories": [
@@ -1447,7 +1380,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:d2lang/d2",
@@ -1466,7 +1399,7 @@
         "text-to-diagram"
       ],
       "metrics": {
-        "stars": 25071
+        "stars": 25073
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1481,7 +1414,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-23T21:22:43.210Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:puppeteer/puppeteer",
@@ -1507,7 +1440,7 @@
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2017-05-09T22:16:13Z",
-      "updatedAt": "2026-08-26T06:10:56Z",
+      "updatedAt": "2026-08-26T09:03:59Z",
       "summaryEn": "Node.js library for headless browser automation of Chrome/Firefox. Industry standard for E2E testing, scraping, and performance measurement.",
       "summaryKo": "크롬/파이어폭스 헤드리스 브라우저 자동화 Node.js 라이브러리. E2E 테스트 표준.",
       "categories": [
@@ -1515,7 +1448,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:usebruno/bruno",
@@ -1539,12 +1472,12 @@
         "rest-api"
       ],
       "metrics": {
-        "stars": 46548
+        "stars": 46553
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2022-09-27T20:51:45Z",
-      "updatedAt": "2026-08-26T06:49:53Z",
+      "updatedAt": "2026-08-26T09:19:22Z",
       "summaryEn": "Lightweight open-source API client IDE for REST, GraphQL, and OpenAPI. Git-friendly alternative to Postman/Insomnia for API testing.",
       "summaryKo": "REST, GraphQL, OpenAPI용 경량 오픈소스 API 클라이언트 IDE. 포스트맨 대체 도구.",
       "categories": [
@@ -1552,7 +1485,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "gh:brijr/iris",
@@ -1581,103 +1514,144 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-20T18:41:26.574Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
-      "id": "gh:HKUDS/CLI-Anything",
+      "id": "gh:yutat23/lsoff",
       "type": "repo",
-      "title": "HKUDS/CLI-Anything",
-      "summaryOriginal": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 2,
-        "totalScore": 209.1579
-      },
-      "source": "ossinsight",
-      "admitReason": "notable",
-      "summaryEn": "Toolkit aiming to make any software agent-native via a CLI-first hub.",
-      "summaryKo": "모든 소프트웨어를 에이전트 친화적으로 만드는 CLI 허브",
-      "categories": [
-        "ai-agents",
-        "devtools"
+      "title": "yutat23/lsoff",
+      "summaryOriginal": "CLI / TUI that lists listening TCP/UDP ports",
+      "url": "https://github.com/yutat23/lsoff",
+      "lang": "Go",
+      "tags": [
+        "cli",
+        "golang",
+        "linux",
+        "lsof",
+        "macos",
+        "tui",
+        "windows"
       ],
-      "firstSeenAt": "2026-08-25T09:36:47.621Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
-    },
-    {
-      "id": "gh:mukul975/Anthropic-Cybersecurity-Skills",
-      "type": "repo",
-      "title": "mukul975/Anthropic-Cybersecurity-Skills",
-      "summaryOriginal": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
-      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "lang": "Python",
-      "tags": [],
       "metrics": {
-        "starsDelta": 2,
-        "totalScore": 208.0725
+        "stars": 228
       },
-      "source": "ossinsight",
-      "admitReason": "notable",
-      "summaryEn": "817 cybersecurity skills for AI agents, mapped to MITRE ATT&CK, NIST CSF, and other frameworks; works across 20+ agent platforms.",
-      "summaryKo": "AI 에이전트용 보안 스킬 817개, MITRE ATT&CK 등 6개 프레임워크 매핑, 20개+ 플랫폼 지원.",
-      "reasonEn": "28.6k stars, +198 this period",
-      "reasonKo": "스타 2.9만, 최근 +198",
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-08-14T14:27:33Z",
+      "updatedAt": "2026-08-25T01:29:12Z",
+      "summaryEn": "Cross-platform CLI/TUI utility listing active TCP/UDP ports with minimal dependencies for network diagnostics.",
+      "summaryKo": "활성 TCP/UDP 포트를 나열하는 크로스 플랫폼 CLI/TUI 유틸리티.",
       "categories": [
-        "ai-agents",
-        "engineering",
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
-      "id": "gh:nfzerox/VirtualMacOniPad",
+      "id": "gh:RopemakerEnd/ds4windows-lab-2026",
       "type": "repo",
-      "title": "nfzerox/VirtualMacOniPad",
-      "summaryOriginal": "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. With Virtual Mac, iPad finally breaks free from iPadOS, enabling pro apps like Xcode, Terminal, Final Cut Pro, Logic Pro, and Pixelmator Pro to run directly on device. Requires iPad Pro (M1, M2) or iPad Air (M1) running iPadOS 14 up to 16.3.1.",
-      "url": "https://github.com/nfzerox/VirtualMacOniPad",
-      "lang": "Objective-C",
-      "tags": [],
+      "title": "RopemakerEnd/ds4windows-lab-2026",
+      "summaryOriginal": "Portable DS4Windows companion toolkit with setup guides, profile notes, and Windows build helpers for DualShock 4 and DualSense.",
+      "url": "https://github.com/RopemakerEnd/ds4windows-lab-2026",
+      "lang": "HTML",
+      "tags": [
+        "automation",
+        "cli",
+        "desktop",
+        "diagnostics",
+        "ds4windows",
+        "maintenance",
+        "performance",
+        "portable",
+        "productivity",
+        "utility",
+        "windows",
+        "workflow"
+      ],
       "metrics": {
-        "starsDelta": 2,
-        "totalScore": 207.2166
+        "stars": 150
       },
-      "source": "ossinsight",
-      "admitReason": "notable",
-      "summaryEn": "Tool enabling macOS environments on iPad Pro and iPad Air devices, allowing native execution of desktop development applications like Xcode.",
-      "summaryKo": "아이패드에서 macOS 환경을 구동하여 Xcode 같은 데스크톱 앱을 실행할 수 있게 하는 도구입니다.",
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-08-16T21:39:39Z",
+      "updatedAt": "2026-08-26T08:49:32Z",
+      "summaryEn": "Portable companion toolkit with setup guides and profiles for DualShock 4/DualSense controller configuration on Windows.",
+      "summaryKo": "Windows에서 DualShock 4/DualSense 컨트롤러 설정을 위한 휴대용 도구 모음 및 가이드.",
       "categories": [
         "devtools"
       ],
-      "firstSeenAt": "2026-08-25T09:36:47.621Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
-      "id": "gh:Alishahryar1/free-claude-code",
+      "id": "gh:anthropics/claude-plugins-community",
       "type": "repo",
-      "title": "Alishahryar1/free-claude-code",
-      "summaryOriginal": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "title": "anthropics/claude-plugins-community",
+      "summaryOriginal": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+      "url": "https://github.com/anthropics/claude-plugins-community",
       "lang": "Python",
       "tags": [],
       "metrics": {
         "starsDelta": 2,
-        "pushes": 1,
-        "totalScore": 207.0741
+        "totalScore": 208.7937
       },
       "source": "ossinsight",
       "admitReason": "notable",
-      "summaryEn": "Tool to use Claude Code, Codex, and other AI coding assistants with free tokens directly from your terminal, IDE, or phone.",
-      "summaryKo": "터미널, IDE, 스마트폰에서 무료 토큰으로 Claude Code 및 코딩 도우미를 사용할 수 있게 하는 도구입니다.",
-      "reasonEn": "Trending for offering free token access to AI coding tools.",
-      "reasonKo": "AI 코딩 도구의 무료 토큰 액세스를 제공하여 주목받고 있습니다.",
+      "summaryEn": "Community plugin marketplace for Claude Cowork and Claude Code, enabling users to discover and submit custom integrations.",
+      "summaryKo": "Claude Cowork 및 Claude Code를 위한 커뮤니티 플러그인 마켓플레이스입니다.",
+      "reasonEn": "Surging interest in Claude extensions and ecosystem tools.",
+      "reasonKo": "Claude 확장 및 생태계 도구에 대한 관심 급증.",
+      "categories": [
+        "devtools",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-08-24T12:53:33.595Z",
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
+    },
+    {
+      "id": "gh:cathrynlavery/diagram-design",
+      "type": "repo",
+      "title": "cathrynlavery/diagram-design",
+      "summaryOriginal": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "lang": "HTML",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 3,
+        "totalScore": 213.0764
+      },
+      "source": "ossinsight",
+      "admitReason": "notable",
+      "summaryEn": "Collection of 29 editorial diagram types for Claude Code as self-contained HTML/SVG without bloated styling.",
+      "summaryKo": "Claude Code용 29개 에디토리얼 다이어그램 타입으로 자체 포함 HTML/SVG.",
       "categories": [
         "devtools"
       ],
-      "firstSeenAt": "2026-08-22T09:28:16.052Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
+    },
+    {
+      "id": "gh:max-sixty/worktrunk",
+      "type": "repo",
+      "title": "max-sixty/worktrunk",
+      "summaryOriginal": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "lang": "Rust",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 2,
+        "totalScore": 208.8279
+      },
+      "source": "ossinsight",
+      "admitReason": "notable",
+      "summaryEn": "Worktrunk is a CLI tool for managing Git worktrees, built specifically to support parallel AI agent workflows.",
+      "summaryKo": "병렬 AI 에이전트 워크플로우를 지원하기 위해 Git 워크트리를 관리하는 CLI 도구입니다.",
+      "categories": [
+        "ai-agents",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-26T09:43:03.049Z",
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
     },
     {
       "id": "hn:49126604",
@@ -1693,16 +1667,182 @@
       "source": "hn",
       "publishedAt": "2026-07-31T18:04:58Z",
       "admitReason": "notable",
-      "summaryEn": "qm is a collaborative harness designed to coordinate multiple AI agents for complex engineering tasks.",
-      "summaryKo": "qm은 복잡한 엔지니어링 작업을 위해 여러 AI 에이전트를 조율하는 협업 도구입니다.",
-      "reasonEn": "New multi-agent framework.",
-      "reasonKo": "신규 멀티 에이전트 프레임워크.",
+      "summaryEn": "qm is a multiplayer agent harness designed to coordinate multiple AI agents for collaborative software tasks.",
+      "summaryKo": "qm은 협업 소프트웨어 작업을 위해 여러 AI 에이전트를 조율하는 멀티플레이어 에이전트 하네스입니다.",
+      "reasonEn": "New tooling for multi-agent collaboration.",
+      "reasonKo": "멀티 에이전트 협업을 위한 새로운 도구.",
       "categories": [
         "ai-agents",
         "devtools"
       ],
       "firstSeenAt": "2026-08-26T01:24:24.696Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z"
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
+    },
+    {
+      "id": "hn:49143479",
+      "type": "article",
+      "title": "Meshdiff – visually compare two STL versions in the browser, client-side",
+      "summaryOriginal": "Meshdiff – visually compare two STL versions in the browser, client-side",
+      "url": "https://meshdiff.com/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 204,
+        "comments": 25
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-02T11:34:41Z",
+      "admitReason": "notable",
+      "summaryEn": "Meshdiff is a client-side browser tool that lets developers visually compare two versions of STL 3D models directly.",
+      "summaryKo": "개발자가 브라우저에서 클라이언트 사이드로 두 가지 STL 3D 모델 버전을 시각적으로 비교할 수 있는 도구입니다.",
+      "reasonEn": "Handy browser-based utility for 3D file diffing.",
+      "reasonKo": "3D 파일 비교를 위한 유용한 브라우저 유틸리티",
+      "categories": [
+        "web",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-26T09:43:03.049Z",
+      "lastSeenAt": "2026-08-26T09:43:03.049Z"
+    },
+    {
+      "id": "gh:t8y2/dbx",
+      "type": "repo",
+      "categories": [
+        "ai-agents",
+        "backend",
+        "infra",
+        "data",
+        "devtools",
+        "web"
+      ],
+      "title": "t8y2/dbx",
+      "summaryEn": "Dbx is a lightweight cross-platform database client supporting 70+ databases with built-in AI, MCP server, CLI, and Docker capabilities.",
+      "summaryKo": "70개 이상의 데이터베이스를 지원하는 가벼운 크로스플랫폼 클라이언트로 AI와 MCP를 내장했습니다.",
+      "summaryOriginal": "20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 90+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
+      "url": "https://github.com/t8y2/dbx",
+      "lang": "Rust",
+      "tags": [
+        "ai",
+        "cli",
+        "clickhouse",
+        "database",
+        "database-client",
+        "database-management",
+        "docker",
+        "gui",
+        "mcp",
+        "mongodb",
+        "mysql",
+        "postgresql"
+      ],
+      "metrics": {
+        "stars": 16656
+      },
+      "source": "github-search",
+      "publishedAt": "2026-04-29T03:00:36Z",
+      "updatedAt": "2026-08-26T09:28:45Z",
+      "firstSeenAt": "2026-08-21T09:38:23.718Z",
+      "lastSeenAt": "2026-08-26T06:52:39.327Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:HKUDS/CLI-Anything",
+      "type": "repo",
+      "categories": [
+        "ai-agents",
+        "devtools"
+      ],
+      "title": "HKUDS/CLI-Anything",
+      "summaryEn": "Toolkit aiming to make any software agent-native via a CLI-first hub.",
+      "summaryKo": "모든 소프트웨어를 에이전트 친화적으로 만드는 CLI 허브",
+      "summaryOriginal": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "totalScore": 209.1579,
+        "stars": 48251
+      },
+      "source": "ossinsight",
+      "firstSeenAt": "2026-08-25T09:36:47.621Z",
+      "lastSeenAt": "2026-08-26T06:52:39.327Z",
+      "admitReason": "notable",
+      "updatedAt": "2026-08-21T07:26:58Z"
+    },
+    {
+      "id": "gh:mukul975/Anthropic-Cybersecurity-Skills",
+      "type": "repo",
+      "categories": [
+        "ai-agents",
+        "engineering",
+        "devtools"
+      ],
+      "title": "mukul975/Anthropic-Cybersecurity-Skills",
+      "summaryEn": "817 cybersecurity skills for AI agents, mapped to MITRE ATT&CK, NIST CSF, and other frameworks; works across 20+ agent platforms.",
+      "summaryKo": "AI 에이전트용 보안 스킬 817개, MITRE ATT&CK 등 6개 프레임워크 매핑, 20개+ 플랫폼 지원.",
+      "summaryOriginal": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+      "reasonEn": "28.6k stars, +198 this period",
+      "reasonKo": "스타 2.9만, 최근 +198",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "totalScore": 208.0725,
+        "stars": 31167
+      },
+      "source": "ossinsight",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-26T06:52:39.327Z",
+      "admitReason": "notable",
+      "updatedAt": "2026-08-24T11:12:27Z"
+    },
+    {
+      "id": "gh:nfzerox/VirtualMacOniPad",
+      "type": "repo",
+      "categories": [
+        "devtools"
+      ],
+      "title": "nfzerox/VirtualMacOniPad",
+      "summaryEn": "Tool enabling macOS environments on iPad Pro and iPad Air devices, allowing native execution of desktop development applications like Xcode.",
+      "summaryKo": "아이패드에서 macOS 환경을 구동하여 Xcode 같은 데스크톱 앱을 실행할 수 있게 하는 도구입니다.",
+      "summaryOriginal": "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. With Virtual Mac, iPad finally breaks free from iPadOS, enabling pro apps like Xcode, Terminal, Final Cut Pro, Logic Pro, and Pixelmator Pro to run directly on device. Requires iPad Pro (M1, M2) or iPad Air (M1) running iPadOS 14 up to 16.3.1.",
+      "url": "https://github.com/nfzerox/VirtualMacOniPad",
+      "lang": "Objective-C",
+      "tags": [],
+      "metrics": {
+        "totalScore": 207.2166,
+        "stars": 1273
+      },
+      "source": "ossinsight",
+      "firstSeenAt": "2026-08-25T09:36:47.621Z",
+      "lastSeenAt": "2026-08-26T06:52:39.327Z",
+      "admitReason": "notable",
+      "updatedAt": "2026-08-26T05:09:40Z"
+    },
+    {
+      "id": "gh:Alishahryar1/free-claude-code",
+      "type": "repo",
+      "categories": [
+        "devtools"
+      ],
+      "title": "Alishahryar1/free-claude-code",
+      "summaryEn": "Tool to use Claude Code, Codex, and other AI coding assistants with free tokens directly from your terminal, IDE, or phone.",
+      "summaryKo": "터미널, IDE, 스마트폰에서 무료 토큰으로 Claude Code 및 코딩 도우미를 사용할 수 있게 하는 도구입니다.",
+      "summaryOriginal": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
+      "reasonEn": "Trending for offering free token access to AI coding tools.",
+      "reasonKo": "AI 코딩 도구의 무료 토큰 액세스를 제공하여 주목받고 있습니다.",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "pushes": 1,
+        "totalScore": 207.0741,
+        "stars": 50029
+      },
+      "source": "ossinsight",
+      "firstSeenAt": "2026-08-22T09:28:16.052Z",
+      "lastSeenAt": "2026-08-26T06:52:39.327Z",
+      "admitReason": "notable",
+      "updatedAt": "2026-08-26T09:23:05Z"
     },
     {
       "id": "gh:iii-hq/iii",
@@ -1755,7 +1895,7 @@
       "url": "https://github.com/VoltAgent/awesome-agent-skills",
       "tags": [],
       "metrics": {
-        "stars": 32331
+        "stars": 32364
       },
       "source": "github-trending",
       "updatedAt": "2026-08-25T08:04:16Z",
@@ -1793,11 +1933,11 @@
         "session-replay"
       ],
       "metrics": {
-        "stars": 39191
+        "stars": 39197
       },
       "source": "github-search",
       "publishedAt": "2020-01-23T22:46:58Z",
-      "updatedAt": "2026-08-26T06:53:44Z",
+      "updatedAt": "2026-08-26T09:45:39Z",
       "firstSeenAt": "2026-08-20T12:53:13.611Z",
       "lastSeenAt": "2026-08-25T09:36:47.621Z",
       "admitReason": "notable"
@@ -1816,36 +1956,13 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 16584,
+        "stars": 16649,
         "totalScore": 224.1709
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-25T16:55:16Z",
+      "updatedAt": "2026-08-26T09:39:13Z",
       "firstSeenAt": "2026-08-20T12:53:13.611Z",
       "lastSeenAt": "2026-08-25T09:36:47.621Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "gh:cathrynlavery/diagram-design",
-      "type": "repo",
-      "categories": [
-        "devtools"
-      ],
-      "title": "cathrynlavery/diagram-design",
-      "summaryEn": "Collection of 29 editorial diagram types for Claude Code as self-contained HTML/SVG without bloated styling.",
-      "summaryKo": "Claude Code용 29개 에디토리얼 다이어그램 타입으로 자체 포함 HTML/SVG.",
-      "summaryOriginal": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "lang": "HTML",
-      "tags": [],
-      "metrics": {
-        "stars": 26964,
-        "totalScore": 207.4914
-      },
-      "source": "ossinsight",
-      "updatedAt": "2026-08-25T06:58:00Z",
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-25T06:51:09.551Z",
       "admitReason": "notable"
     },
     {
@@ -1876,7 +1993,7 @@
         "weixin"
       ],
       "metrics": {
-        "stars": 13241
+        "stars": 13242
       },
       "source": "github-search",
       "publishedAt": "2019-11-01T09:14:36Z",
@@ -1914,11 +2031,11 @@
         "dsh"
       ],
       "metrics": {
-        "stars": 906
+        "stars": 907
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T13:14:49Z",
-      "updatedAt": "2026-08-26T05:26:22Z",
+      "updatedAt": "2026-08-26T09:26:38Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-24T23:36:24.421Z",
       "admitReason": "new"
@@ -1950,7 +2067,7 @@
         "yagni"
       ],
       "metrics": {
-        "stars": 410
+        "stars": 416
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T15:31:45Z",
@@ -1997,37 +2114,6 @@
       "admitReason": "notable"
     },
     {
-      "id": "gh:yutat23/lsoff",
-      "type": "repo",
-      "categories": [
-        "devtools"
-      ],
-      "title": "yutat23/lsoff",
-      "summaryEn": "Cross-platform CLI/TUI utility listing active TCP/UDP ports with minimal dependencies for network diagnostics.",
-      "summaryKo": "활성 TCP/UDP 포트를 나열하는 크로스 플랫폼 CLI/TUI 유틸리티.",
-      "summaryOriginal": "CLI / TUI that lists listening TCP/UDP ports",
-      "url": "https://github.com/yutat23/lsoff",
-      "lang": "Go",
-      "tags": [
-        "cli",
-        "golang",
-        "linux",
-        "lsof",
-        "macos",
-        "tui",
-        "windows"
-      ],
-      "metrics": {
-        "stars": 228
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-14T14:27:33Z",
-      "updatedAt": "2026-08-25T01:29:12Z",
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-24T15:40:18.500Z",
-      "admitReason": "new"
-    },
-    {
       "id": "gh:Automattic/harper",
       "type": "repo",
       "categories": [
@@ -2052,7 +2138,7 @@
         "webassembly"
       ],
       "metrics": {
-        "stars": 14735
+        "stars": 14736
       },
       "source": "github-search",
       "publishedAt": "2023-10-22T02:58:35Z",
@@ -2060,42 +2146,6 @@
       "firstSeenAt": "2026-08-20T01:19:40.108Z",
       "lastSeenAt": "2026-08-24T12:53:33.595Z",
       "admitReason": "notable"
-    },
-    {
-      "id": "gh:RopemakerEnd/ds4windows-lab-2026",
-      "type": "repo",
-      "categories": [
-        "devtools"
-      ],
-      "title": "RopemakerEnd/ds4windows-lab-2026",
-      "summaryEn": "Portable companion toolkit with setup guides and profiles for DualShock 4/DualSense controller configuration on Windows.",
-      "summaryKo": "Windows에서 DualShock 4/DualSense 컨트롤러 설정을 위한 휴대용 도구 모음 및 가이드.",
-      "summaryOriginal": "Portable DS4Windows companion toolkit with setup guides, profile notes, and Windows build helpers for DualShock 4 and DualSense.",
-      "url": "https://github.com/RopemakerEnd/ds4windows-lab-2026",
-      "lang": "HTML",
-      "tags": [
-        "automation",
-        "cli",
-        "desktop",
-        "diagnostics",
-        "ds4windows",
-        "maintenance",
-        "performance",
-        "portable",
-        "productivity",
-        "utility",
-        "windows",
-        "workflow"
-      ],
-      "metrics": {
-        "stars": 150
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-16T21:39:39Z",
-      "updatedAt": "2026-08-26T06:55:18Z",
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-24T09:50:01.036Z",
-      "admitReason": "new"
     },
     {
       "id": "gh:swadhinbiswas/veet",
@@ -2149,12 +2199,12 @@
       "lang": "Go",
       "tags": [],
       "metrics": {
-        "stars": 9956,
+        "stars": 9957,
         "pushes": 5,
         "totalScore": 207.3225
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-26T06:40:02Z",
+      "updatedAt": "2026-08-26T08:45:20Z",
       "firstSeenAt": "2026-08-23T09:29:14.266Z",
       "lastSeenAt": "2026-08-24T07:01:43.353Z",
       "admitReason": "notable"
@@ -2177,7 +2227,7 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 1823,
+        "stars": 1844,
         "totalScore": 204.8707
       },
       "source": "ossinsight",
@@ -2201,7 +2251,7 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 16532,
+        "stars": 16546,
         "totalScore": 204.607
       },
       "source": "ossinsight",
@@ -2269,7 +2319,7 @@
         "visualization"
       ],
       "metrics": {
-        "stars": 11036
+        "stars": 11037
       },
       "source": "github-search",
       "publishedAt": "2020-04-22T13:43:28Z",
@@ -2312,7 +2362,7 @@
         "workspace-manager"
       ],
       "metrics": {
-        "stars": 32412
+        "stars": 32454
       },
       "source": "github-search",
       "publishedAt": "2026-03-27T17:54:33Z",
@@ -2359,11 +2409,11 @@
         "semantic-search"
       ],
       "metrics": {
-        "stars": 10852
+        "stars": 10874
       },
       "source": "github-search",
       "publishedAt": "2025-06-25T10:41:00Z",
-      "updatedAt": "2026-08-25T16:17:08Z",
+      "updatedAt": "2026-08-26T09:20:50Z",
       "firstSeenAt": "2026-08-24T01:23:41.283Z",
       "lastSeenAt": "2026-08-24T01:23:41.283Z",
       "admitReason": "notable"
@@ -2462,7 +2512,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 143033
+        "stars": 143047
       },
       "source": "github-trending",
       "updatedAt": "2026-08-25T22:31:52Z",
@@ -2607,7 +2657,7 @@
         "xyflow"
       ],
       "metrics": {
-        "stars": 22799
+        "stars": 22802
       },
       "source": "github-search",
       "publishedAt": "2024-08-05T07:19:19Z",
@@ -2652,7 +2702,7 @@
         "webserver"
       ],
       "metrics": {
-        "stars": 20856
+        "stars": 20861
       },
       "source": "github-search",
       "publishedAt": "2013-07-14T03:42:08Z",
@@ -2677,7 +2727,7 @@
       "lang": "Kotlin",
       "tags": [],
       "metrics": {
-        "stars": 2844
+        "stars": 2845
       },
       "source": "github-trending",
       "updatedAt": "2026-08-24T07:19:12Z",
@@ -2722,11 +2772,11 @@
         "resume"
       ],
       "metrics": {
-        "stars": 68490
+        "stars": 68536
       },
       "source": "github-search",
       "publishedAt": "2026-04-04T18:21:18Z",
-      "updatedAt": "2026-08-25T20:58:30Z",
+      "updatedAt": "2026-08-26T09:45:33Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-22T12:41:49.365Z",
       "admitReason": "notable"
@@ -2745,7 +2795,7 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 5240,
+        "stars": 5269,
         "totalScore": 225.6396
       },
       "source": "ossinsight",
@@ -2769,7 +2819,7 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 2257,
+        "stars": 2263,
         "pushes": 1,
         "totalScore": 218.2227
       },
@@ -2818,7 +2868,7 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 1637,
+        "stars": 1645,
         "totalScore": 209.2004
       },
       "source": "ossinsight",
@@ -2842,7 +2892,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 522,
+        "stars": 528,
         "totalScore": 208.5732
       },
       "source": "ossinsight",
@@ -2919,11 +2969,11 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 27513
+        "stars": 27550
       },
       "source": "github-search",
       "publishedAt": "2025-12-31T14:01:28Z",
-      "updatedAt": "2026-08-26T04:44:40Z",
+      "updatedAt": "2026-08-26T09:40:58Z",
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
       "lastSeenAt": "2026-08-21T06:50:49.363Z",
       "admitReason": "notable"
@@ -2943,12 +2993,12 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 12138,
+        "stars": 12154,
         "pushes": 18,
         "totalScore": 215.5132
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-26T06:52:41Z",
+      "updatedAt": "2026-08-26T09:22:11Z",
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
       "lastSeenAt": "2026-08-21T06:50:49.363Z",
       "admitReason": "notable"
@@ -3046,7 +3096,7 @@
         "terminal"
       ],
       "metrics": {
-        "stars": 177
+        "stars": 178
       },
       "source": "github-search",
       "publishedAt": "2026-08-09T23:01:29Z",
@@ -3079,7 +3129,7 @@
         "text-to-image"
       ],
       "metrics": {
-        "stars": 137
+        "stars": 138
       },
       "source": "github-search",
       "publishedAt": "2026-08-07T03:48:19Z",
@@ -3125,7 +3175,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-06T12:24:49Z",
-      "updatedAt": "2026-08-25T09:16:07Z",
+      "updatedAt": "2026-08-26T09:33:43Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-19T21:26:49.454Z",
       "admitReason": "new"
@@ -3160,7 +3210,7 @@
         "zsh-configuration"
       ],
       "metrics": {
-        "stars": 189377
+        "stars": 189381
       },
       "source": "github-search",
       "publishedAt": "2009-08-28T18:15:37Z",
@@ -3191,7 +3241,7 @@
         "yt-dlp"
       ],
       "metrics": {
-        "stars": 186985
+        "stars": 186999
       },
       "source": "github-search",
       "publishedAt": "2020-10-26T04:22:55Z",
@@ -3231,7 +3281,7 @@
         "tools"
       ],
       "metrics": {
-        "stars": 90329
+        "stars": 90337
       },
       "source": "github-search",
       "publishedAt": "2018-12-24T14:30:48Z",
@@ -3287,10 +3337,10 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 54572
+        "stars": 54582
       },
       "source": "github-trending",
-      "updatedAt": "2026-08-26T03:40:36Z",
+      "updatedAt": "2026-08-26T07:19:28Z",
       "firstSeenAt": "2026-08-19T01:42:27.269Z",
       "lastSeenAt": "2026-08-19T12:50:55.884Z",
       "admitReason": "trending"
@@ -3313,7 +3363,7 @@
         "terminal"
       ],
       "metrics": {
-        "stars": 81640
+        "stars": 81647
       },
       "source": "github-search",
       "publishedAt": "2018-05-19T00:53:06Z",
@@ -3355,11 +3405,11 @@
         "windows"
       ],
       "metrics": {
-        "stars": 63483
+        "stars": 63482
       },
       "source": "github-search",
       "publishedAt": "2013-12-08T07:34:43Z",
-      "updatedAt": "2026-08-26T02:27:06Z",
+      "updatedAt": "2026-08-26T07:10:53Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-19T01:42:27.269Z",
       "admitReason": "notable"
@@ -3381,7 +3431,7 @@
         "golang"
       ],
       "metrics": {
-        "stars": 45997
+        "stars": 45998
       },
       "source": "github-search",
       "publishedAt": "2019-10-03T15:24:53Z",
@@ -3411,7 +3461,7 @@
         "tui"
       ],
       "metrics": {
-        "stars": 44556
+        "stars": 44558
       },
       "source": "github-search",
       "publishedAt": "2020-01-10T21:04:03Z",
@@ -3453,7 +3503,7 @@
         "windows11"
       ],
       "metrics": {
-        "stars": 56260
+        "stars": 56269
       },
       "source": "github-search",
       "publishedAt": "2020-10-27T22:26:59Z",
