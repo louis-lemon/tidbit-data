@@ -1,29 +1,44 @@
 {
   "version": 1,
   "category": "infra",
-  "generatedAt": "2026-08-27T00:31:31.641Z",
+  "generatedAt": "2026-08-27T13:54:10.701Z",
   "ttlSeconds": 10800,
   "cards": [
     {
-      "id": "gh:basecamp/omarchy",
+      "id": "gh:floci-io/floci",
       "type": "repo",
-      "title": "basecamp/omarchy",
-      "summaryOriginal": "Beautiful, Modern & Opinionated Linux",
-      "url": "https://github.com/basecamp/omarchy",
-      "lang": "Shell",
-      "tags": [],
+      "title": "floci-io/floci",
+      "summaryOriginal": "Light, fluffy, and always free - The AWS Local Emulator alternative",
+      "url": "https://github.com/floci-io/floci",
+      "lang": "Java",
+      "tags": [
+        "aws",
+        "aws-emulation",
+        "devops",
+        "docker",
+        "ec2",
+        "ecs",
+        "localstack",
+        "s3",
+        "sqs",
+        "testcontainers"
+      ],
       "metrics": {
-        "stars": 32001,
-        "starsDelta": 1024
+        "stars": 22459
       },
-      "source": "github-trending",
-      "admitReason": "trending",
-      "summaryEn": "Opinionated Linux distribution from Basecamp with modern design philosophy; 26K+ stars shows growing interest in alternative OS approaches.",
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2026-02-18T02:28:29Z",
+      "updatedAt": "2026-08-27T13:50:19Z",
+      "summaryEn": "Free, lightweight local emulator for AWS services, an alternative to LocalStack.",
+      "summaryKo": "AWS 서비스를 로컬에서 무료로 에뮬레이션하는 경량 도구, LocalStack 대안.",
+      "reasonEn": "20k+ stars, fast-growing free LocalStack alternative",
+      "reasonKo": "스타 2만, 무료 LocalStack 대안으로 급성장",
       "categories": [
         "infra"
       ],
-      "firstSeenAt": "2026-08-19T01:42:27.269Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:netdata/netdata",
@@ -47,12 +62,12 @@
         "machine-learning"
       ],
       "metrics": {
-        "stars": 80307
+        "stars": 80319
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2013-06-17T18:39:10Z",
-      "updatedAt": "2026-08-26T22:49:54Z",
+      "updatedAt": "2026-08-27T12:42:27Z",
       "summaryEn": "Real-time full-stack observability and monitoring platform with AI-assisted alerting, covering infra, containers, and databases.",
       "summaryKo": "인프라·컨테이너·DB를 아우르는 실시간 풀스택 관측·모니터링 플랫폼, AI 기반 알림 지원.",
       "categories": [
@@ -62,7 +77,7 @@
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:recommenders-team/recommenders",
@@ -86,7 +101,7 @@
         "recommendation"
       ],
       "metrics": {
-        "stars": 21864
+        "stars": 21865
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -98,7 +113,44 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
+    },
+    {
+      "id": "gh:decionis/docker",
+      "type": "repo",
+      "title": "decionis/docker",
+      "summaryOriginal": "Govern consequential AI agent actions in Docker with deterministic policy, human approval, and signed Decision Dossiers.",
+      "url": "https://github.com/decionis/docker",
+      "lang": "Go",
+      "tags": [
+        "agentic-ai",
+        "ai-agent",
+        "ai-agents",
+        "ai-governance",
+        "ai-security",
+        "ai-tools",
+        "decionis",
+        "devcontainer",
+        "devcontainers",
+        "docker",
+        "human-in-the-loop",
+        "mcp"
+      ],
+      "metrics": {
+        "stars": 154
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-08-18T12:33:42Z",
+      "updatedAt": "2026-08-25T00:08:11Z",
+      "summaryEn": "Govern AI agent actions in Docker with deterministic policies and human approval. Useful for securing agentic workflows.",
+      "summaryKo": "도커에서 결정론적 정책과 사람의 승인으로 AI 에이전트 작업을 제어합니다.",
+      "categories": [
+        "ai-agents",
+        "infra"
+      ],
+      "firstSeenAt": "2026-08-27T13:54:10.701Z",
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:usememos/memos",
@@ -122,7 +174,7 @@
         "social-network"
       ],
       "metrics": {
-        "stars": 62560
+        "stars": 62584
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -134,7 +186,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:makeplane/plane",
@@ -158,19 +210,19 @@
         "product-management"
       ],
       "metrics": {
-        "stars": 58356
+        "stars": 58387
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2022-11-19T12:55:01Z",
-      "updatedAt": "2026-08-26T12:11:59Z",
+      "updatedAt": "2026-08-27T13:25:02Z",
       "summaryEn": "Open-source project management platform and Jira alternative with boards, sprints, and docs",
       "categories": [
         "web",
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:appwrite/appwrite",
@@ -194,12 +246,12 @@
         "react"
       ],
       "metrics": {
-        "stars": 57130
+        "stars": 57138
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2019-04-08T16:36:25Z",
-      "updatedAt": "2026-08-27T00:13:52Z",
+      "updatedAt": "2026-08-27T13:36:54Z",
       "summaryEn": "Complete backend-as-a-service platform: auth, databases, storage, functions, and messaging for web, mobile, and AI apps.",
       "summaryKo": "인증·DB·스토리지·함수·메시징을 아우르는 웹·모바일·AI용 완전한 백엔드 플랫폼.",
       "categories": [
@@ -208,7 +260,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:fastapi/full-stack-fastapi-template",
@@ -232,56 +284,22 @@
         "python"
       ],
       "metrics": {
-        "stars": 45181
+        "stars": 45191
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2019-02-23T15:08:34Z",
       "updatedAt": "2026-08-25T17:07:34Z",
-      "summaryEn": "Full-stack web app template featuring FastAPI, React, SQLModel, PostgreSQL, Docker, and Tailwind. Speeds up project initialization.",
-      "summaryKo": "FastAPI, React, SQLModel, PostgreSQL, Docker 등을 포함한 풀스택 웹 앱 템플릿.",
+      "summaryEn": "Full-stack template featuring FastAPI, React, SQLModel, PostgreSQL, and Docker Compose for rapid web app bootstrapping.",
+      "summaryKo": "FastAPI, React, PostgreSQL 등을 결합한 풀스택 웹 애플리케이션 템플릿입니다.",
+      "categories": [
+        "web",
+        "infra"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-27T13:54:10.701Z",
       "reasonEn": "Popular modern template for fast full-stack setup",
-      "reasonKo": "빠른 풀스택 구성을 위한 인기 템플릿",
-      "categories": [
-        "web",
-        "infra"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
-    },
-    {
-      "id": "gh:outline/outline",
-      "type": "repo",
-      "title": "outline/outline",
-      "summaryOriginal": "The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.",
-      "url": "https://github.com/outline/outline",
-      "lang": "TypeScript",
-      "tags": [
-        "docker",
-        "javascript",
-        "mobx",
-        "nodejs",
-        "react",
-        "slack",
-        "wiki"
-      ],
-      "metrics": {
-        "stars": 40342
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2016-05-22T21:31:47Z",
-      "updatedAt": "2026-08-26T02:16:44Z",
-      "summaryEn": "Fast, real-time collaborative knowledge base and wiki for teams, with markdown support.",
-      "summaryKo": "팀을 위한 빠른 실시간 협업 지식베이스·위키, 마크다운 지원.",
-      "reasonEn": "40k+ stars, popular self-hosted team wiki",
-      "reasonKo": "스타 4만, 인기 셀프호스팅 팀 위키",
-      "categories": [
-        "web",
-        "infra"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "reasonKo": "빠른 풀스택 구성을 위한 인기 템플릿"
     },
     {
       "id": "gh:go-gitea/gitea",
@@ -305,12 +323,12 @@
         "gitlab"
       ],
       "metrics": {
-        "stars": 57625
+        "stars": 57631
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2016-11-01T02:13:26Z",
-      "updatedAt": "2026-08-26T22:00:44Z",
+      "updatedAt": "2026-08-27T05:46:47Z",
       "summaryEn": "Self-hosted Git service with code review, CI/CD, package registry, and team collaboration—a lightweight alternative to GitHub/GitLab.",
       "reasonEn": "Self-hosted DevOps solution avoiding external dependencies and vendor lock-in",
       "categories": [
@@ -318,7 +336,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:coollabsio/coolify",
@@ -342,12 +360,12 @@
         "php"
       ],
       "metrics": {
-        "stars": 61085
+        "stars": 61103
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2021-01-25T20:54:01Z",
-      "updatedAt": "2026-08-26T20:07:39Z",
+      "updatedAt": "2026-08-27T11:45:58Z",
       "summaryEn": "Self-hosted alternative to Vercel/Heroku that deploys apps, databases, and services on your own infrastructure.",
       "summaryKo": "자신의 서버에 앱과 데이터베이스를 배포할 수 있는 Vercel/Heroku 대체 플랫폼.",
       "categories": [
@@ -355,7 +373,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:apache/apisix",
@@ -379,12 +397,12 @@
         "luajit"
       ],
       "metrics": {
-        "stars": 17038
+        "stars": 17041
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2019-04-10T02:02:05Z",
-      "updatedAt": "2026-08-26T09:38:39Z",
+      "updatedAt": "2026-08-27T10:26:55Z",
       "summaryEn": "A cloud-native API gateway with built-in AI gateway features, load balancing, and Kubernetes ingress support.",
       "summaryKo": "AI 게이트웨이 기능을 내장한 클라우드 네이티브 API 게이트웨이, 로드밸런싱·쿠버네티스 인그레스 지원.",
       "categories": [
@@ -392,7 +410,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:Dokploy/dokploy",
@@ -416,12 +434,12 @@
         "mongodb"
       ],
       "metrics": {
-        "stars": 36890
+        "stars": 36901
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2024-04-19T07:49:30Z",
-      "updatedAt": "2026-08-26T16:07:30Z",
+      "updatedAt": "2026-08-27T07:47:19Z",
       "summaryEn": "Self-hosted deployment platform alternative to Vercel and Heroku; supports Docker, databases, and multiple frameworks.",
       "summaryKo": "Vercel, Heroku 대체 자체 호스팅 배포 플랫폼; Docker, 데이터베이스, 다양한 프레임워크 지원.",
       "categories": [
@@ -429,7 +447,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:encoredev/encore",
@@ -453,12 +471,12 @@
         "golang"
       ],
       "metrics": {
-        "stars": 12307
+        "stars": 12309
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2021-02-17T16:33:24Z",
-      "updatedAt": "2026-08-26T14:35:18Z",
+      "updatedAt": "2026-08-27T13:06:50Z",
       "summaryEn": "Infrastructure platform for backend development; automates cloud deployment, microservices, and DevOps workflows.",
       "summaryKo": "백엔드 개발용 인프라 플랫폼; 클라우드 배포, 마이크로서비스, DevOps 자동화.",
       "categories": [
@@ -466,7 +484,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:istio/istio",
@@ -490,12 +508,12 @@
         "polyglot-microservices"
       ],
       "metrics": {
-        "stars": 38356
+        "stars": 38362
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2016-11-18T23:57:21Z",
-      "updatedAt": "2026-08-26T22:10:10Z",
+      "updatedAt": "2026-08-27T12:48:39Z",
       "summaryEn": "Service mesh that connects, secures, and observes microservices in distributed systems and Kubernetes.",
       "summaryKo": "마이크로서비스 간 통신, 보안, 모니터링을 제공하는 서비스 메시.",
       "categories": [
@@ -503,7 +521,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:alibaba/nacos",
@@ -527,12 +545,12 @@
         "microservices"
       ],
       "metrics": {
-        "stars": 33307
+        "stars": 33315
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2018-06-15T06:49:27Z",
-      "updatedAt": "2026-08-26T10:47:31Z",
+      "updatedAt": "2026-08-27T11:21:50Z",
       "summaryEn": "Service discovery and configuration management platform for cloud-native and microservice architectures.",
       "summaryKo": "클라우드 네이티브 애플리케이션의 서비스 디스커버리와 설정 관리 플랫폼.",
       "categories": [
@@ -540,7 +558,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:dapr/dapr",
@@ -561,12 +579,12 @@
         "state-management"
       ],
       "metrics": {
-        "stars": 26037
+        "stars": 26038
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2019-06-19T00:49:06Z",
-      "updatedAt": "2026-08-26T21:45:51Z",
+      "updatedAt": "2026-08-27T00:46:15Z",
       "summaryEn": "Runtime for building distributed applications with event-driven architecture and workflow orchestration across cloud and edge.",
       "summaryKo": "클라우드와 엣지에서 분산 애플리케이션을 만드는 이벤트 기반 런타임.",
       "categories": [
@@ -574,7 +592,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:etcd-io/etcd",
@@ -596,12 +614,12 @@
         "raft"
       ],
       "metrics": {
-        "stars": 52180
+        "stars": 52182
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2013-07-06T21:57:21Z",
-      "updatedAt": "2026-08-26T15:33:59Z",
+      "updatedAt": "2026-08-27T13:27:42Z",
       "summaryEn": "Distributed key-value store for critical data in distributed systems; powers Kubernetes consensus.",
       "summaryKo": "분산 시스템의 핵심 데이터를 저장하는 분산 키-값 저장소.",
       "categories": [
@@ -610,7 +628,7 @@
         "data"
       ],
       "firstSeenAt": "2026-08-18T21:26:34.657Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:seaweedfs/seaweedfs",
@@ -634,12 +652,12 @@
         "posix"
       ],
       "metrics": {
-        "stars": 34299
+        "stars": 34310
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2014-07-14T16:41:37Z",
-      "updatedAt": "2026-08-27T00:16:16Z",
+      "updatedAt": "2026-08-27T08:29:05Z",
       "summaryEn": "Distributed file system for massive-scale object storage, supporting S3 API and petabyte-level data.",
       "summaryKo": "S3 호환 분산 스토리지로 수십억 개의 파일을 효율적으로 관리.",
       "categories": [
@@ -647,7 +665,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:inevolin/k8s-cpu-limits-analyzed",
@@ -671,7 +689,7 @@
         "oomkilled"
       ],
       "metrics": {
-        "stars": 101
+        "stars": 102
       },
       "source": "github-search",
       "admitReason": "new",
@@ -685,7 +703,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-23T21:22:43.210Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:kubernetes/kubernetes",
@@ -701,19 +719,19 @@
         "kubernetes"
       ],
       "metrics": {
-        "stars": 125208
+        "stars": 125292
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2014-06-06T22:56:04Z",
-      "updatedAt": "2026-08-26T23:21:45Z",
+      "updatedAt": "2026-08-27T11:44:49Z",
       "summaryEn": "Open-source container orchestration platform that automates deployment, scaling, and management of containerized workloads.",
       "summaryKo": "컨테이너 배포, 스케일링, 관리를 자동화하는 오픈소스 오케스트레이션 플랫폼.",
       "categories": [
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:traefik/traefik",
@@ -737,19 +755,19 @@
         "reverse-proxy"
       ],
       "metrics": {
-        "stars": 64607
+        "stars": 64615
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2015-09-13T19:04:02Z",
-      "updatedAt": "2026-08-26T13:29:23Z",
+      "updatedAt": "2026-08-27T13:26:06Z",
       "summaryEn": "Cloud-native reverse proxy and load balancer designed for containerized and microservice environments.",
       "summaryKo": "컨테이너와 마이크로서비스용 클라우드 네이티브 리버스 프록시 및 로드밸런서.",
       "categories": [
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:ToolJet/ToolJet",
@@ -773,12 +791,12 @@
         "low-code-framework"
       ],
       "metrics": {
-        "stars": 40772
+        "stars": 40779
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2021-03-30T08:51:34Z",
-      "updatedAt": "2026-08-26T18:41:00Z",
+      "updatedAt": "2026-08-27T12:40:26Z",
       "summaryEn": "Open-source low-code platform for building internal tools, dashboards, workflows, and AI agents.",
       "summaryKo": "내부 도구·대시보드·워크플로우·AI 에이전트를 만드는 오픈소스 로우코드 플랫폼",
       "reasonEn": "39k+ stars, adding 300+ more — steady low-code growth.",
@@ -787,7 +805,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:portainer/portainer",
@@ -811,19 +829,19 @@
         "portainer"
       ],
       "metrics": {
-        "stars": 38350
+        "stars": 38356
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2016-05-19T20:15:28Z",
-      "updatedAt": "2026-08-26T23:12:43Z",
+      "updatedAt": "2026-08-27T06:44:08Z",
       "summaryEn": "Web UI for managing Docker containers and Kubernetes clusters with simplified deployment and orchestration.",
       "summaryKo": "Docker와 Kubernetes를 웹 인터페이스로 간단하게 관리하는 도구.",
       "categories": [
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:derailed/k9s",
@@ -843,7 +861,7 @@
         "kubernetes-clusters"
       ],
       "metrics": {
-        "stars": 34445
+        "stars": 34449
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -855,7 +873,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:k3s-io/k3s",
@@ -869,7 +887,7 @@
         "kubernetes"
       ],
       "metrics": {
-        "stars": 33828
+        "stars": 33832
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -881,7 +899,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:podman-container-tools/podman",
@@ -903,14 +921,14 @@
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2017-11-01T15:01:27Z",
-      "updatedAt": "2026-08-26T23:47:31Z",
+      "updatedAt": "2026-08-27T10:54:29Z",
       "summaryEn": "Container management tool compatible with Docker that runs OCI containers without requiring a daemon.",
       "summaryKo": "Docker 호환 컨테이너 관리 도구로 데몬 없이 OCI 컨테이너 실행.",
       "categories": [
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:dokku/dokku",
@@ -933,7 +951,7 @@
         "selfhosted"
       ],
       "metrics": {
-        "stars": 32111
+        "stars": 32112
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -945,7 +963,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:kubernetes/minikube",
@@ -963,7 +981,7 @@
         "minikube"
       ],
       "metrics": {
-        "stars": 32069
+        "stars": 32070
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -975,7 +993,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:helm/helm",
@@ -992,7 +1010,7 @@
         "kubernetes"
       ],
       "metrics": {
-        "stars": 30178
+        "stars": 30177
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1004,7 +1022,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:hashicorp/consul",
@@ -1023,19 +1041,19 @@
         "vault"
       ],
       "metrics": {
-        "stars": 30043
+        "stars": 30045
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2013-11-04T22:15:27Z",
-      "updatedAt": "2026-08-26T20:14:41Z",
+      "updatedAt": "2026-08-27T12:03:39Z",
       "summaryEn": "Service discovery and configuration platform that enables dynamic service-to-service networking and mesh.",
       "summaryKo": "마이크로서비스 간 동적 네트워킹과 설정을 관리하는 플랫폼.",
       "categories": [
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:goharbor/harbor",
@@ -1059,19 +1077,19 @@
         "registry"
       ],
       "metrics": {
-        "stars": 29236
+        "stars": 29241
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2016-01-28T21:10:28Z",
-      "updatedAt": "2026-08-25T08:42:14Z",
+      "updatedAt": "2026-08-27T07:31:52Z",
       "summaryEn": "Cloud-native container registry that stores, scans, and signs container images with security features.",
       "summaryKo": "컨테이너 이미지를 저장하고 보안 스캔하는 클라우드 네이티브 레지스트리.",
       "categories": [
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:authelia/authelia",
@@ -1095,19 +1113,19 @@
         "push-notifications"
       ],
       "metrics": {
-        "stars": 28712
+        "stars": 28717
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2016-12-07T00:56:57Z",
-      "updatedAt": "2026-08-26T23:18:24Z",
+      "updatedAt": "2026-08-27T13:37:45Z",
       "summaryEn": "Open-source single sign-on and multi-factor authentication portal supporting OAuth2, OpenID Connect, SAML, passkeys, and TOTP for web applications.",
       "summaryKo": "OAuth2, OpenID Connect, SAML, 패스키, TOTP를 지원하는 오픈소스 SSO 및 다중 인증 포털.",
       "categories": [
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:yeasy/docker_practice",
@@ -1130,7 +1148,7 @@
         "virtualization"
       ],
       "metrics": {
-        "stars": 26220
+        "stars": 26222
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1142,7 +1160,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-20T03:48:34.150Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:rancher/rancher",
@@ -1160,19 +1178,19 @@
         "rancher"
       ],
       "metrics": {
-        "stars": 25873
+        "stars": 25874
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2014-11-07T20:49:31Z",
-      "updatedAt": "2026-08-26T23:27:06Z",
+      "updatedAt": "2026-08-27T08:40:36Z",
       "summaryEn": "Kubernetes and container management platform providing orchestration, monitoring, and lifecycle management across multiple clusters.",
       "summaryKo": "쿠버네티스와 컨테이너 오케스트레이션, 모니터링, 라이프사이클 관리 플랫폼.",
       "categories": [
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:pulumi/pulumi",
@@ -1196,19 +1214,19 @@
         "iac"
       ],
       "metrics": {
-        "stars": 25612
+        "stars": 25615
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2016-10-31T21:02:47Z",
-      "updatedAt": "2026-08-26T22:40:49Z",
+      "updatedAt": "2026-08-27T13:38:19Z",
       "summaryEn": "Infrastructure as code framework supporting Python, Go, TypeScript, C# to define cloud resources on AWS, Azure, GCP, and Kubernetes programmatically.",
       "summaryKo": "Python, Go, TypeScript, C#로 AWS, Azure, GCP, 쿠버네티스 리소스를 정의하는 IaC 프레임워크.",
       "categories": [
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:eip-work/kuboard-press",
@@ -1224,7 +1242,7 @@
         "kubernetes-kuboard"
       ],
       "metrics": {
-        "stars": 25187
+        "stars": 25188
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1236,7 +1254,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:goauthentik/authentik",
@@ -1260,19 +1278,19 @@
         "reverse-proxy"
       ],
       "metrics": {
-        "stars": 25178
+        "stars": 25186
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2019-12-30T09:19:48Z",
-      "updatedAt": "2026-08-27T00:14:44Z",
+      "updatedAt": "2026-08-27T13:35:10Z",
       "summaryEn": "Authentication and authorization platform supporting OAuth2, OIDC, SAML, reverse proxy, and SSO for Kubernetes-native deployments.",
       "summaryKo": "OAuth2, OIDC, SAML, 리버스 프록시, SSO를 지원하는 인증 및 권한 부여 플랫폼.",
       "categories": [
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:cilium/cilium",
@@ -1296,19 +1314,19 @@
         "networking"
       ],
       "metrics": {
-        "stars": 25014
+        "stars": 25017
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2015-12-16T12:33:31Z",
-      "updatedAt": "2026-08-26T22:59:45Z",
+      "updatedAt": "2026-08-27T13:34:39Z",
       "summaryEn": "eBPF-based networking, security, and observability layer for Kubernetes providing CNI, load balancing, and network policy enforcement.",
       "summaryKo": "쿠버네티스용 eBPF 기반 네트워킹, 보안, 관찰성 레이어로 CNI, 로드밸런싱 제공.",
       "categories": [
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:argoproj/argo-cd",
@@ -1332,19 +1350,19 @@
         "helm"
       ],
       "metrics": {
-        "stars": 24005
+        "stars": 24006
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2018-02-09T11:12:01Z",
-      "updatedAt": "2026-08-26T15:48:59Z",
+      "updatedAt": "2026-08-27T13:20:11Z",
       "summaryEn": "GitOps-based continuous deployment tool for Kubernetes using declarative configuration, Helm, Kustomize, and automated sync.",
       "summaryKo": "Helm, Kustomize를 사용하는 쿠버네티스 GitOps 기반 배포 자동화 도구.",
       "categories": [
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:jhipster/generator-jhipster",
@@ -1368,19 +1386,19 @@
         "yeoman-generator"
       ],
       "metrics": {
-        "stars": 22446
+        "stars": 22448
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2013-10-21T20:07:22Z",
-      "updatedAt": "2026-08-26T21:13:01Z",
+      "updatedAt": "2026-08-27T12:29:06Z",
       "summaryEn": "Code generator for rapid development of modern web applications and microservices using Spring Boot, React/Angular, Docker, and Kubernetes.",
       "summaryKo": "Spring Boot, React/Angular로 웹 애플리케이션과 마이크로서비스를 빠르게 생성하는 제너레이터.",
       "categories": [
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:vitessio/vitess",
@@ -1398,19 +1416,19 @@
         "vitess"
       ],
       "metrics": {
-        "stars": 21259
+        "stars": 21263
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2013-06-27T21:20:28Z",
-      "updatedAt": "2026-08-27T00:14:44Z",
+      "updatedAt": "2026-08-27T13:38:19Z",
       "summaryEn": "MySQL clustering and horizontal sharding system enabling transparent database scaling for large applications.",
       "summaryKo": "MySQL 클러스터링 및 수평 샤딩 시스템으로 데이터베이스 확장성 제공.",
       "categories": [
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:containerd/containerd",
@@ -1430,19 +1448,19 @@
         "oci"
       ],
       "metrics": {
-        "stars": 21187
+        "stars": 21199
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2015-11-13T00:27:43Z",
-      "updatedAt": "2026-08-26T23:24:59Z",
+      "updatedAt": "2026-08-27T01:11:41Z",
       "summaryEn": "Open container runtime implementing the OCI specification; core dependency for Kubernetes and container orchestration platforms.",
       "summaryKo": "OCI 스펙을 구현한 오픈소스 컨테이너 런타임. Kubernetes와 컨테이너 오케스트레이션의 핵심 기반.",
       "categories": [
         "infra"
       ],
       "firstSeenAt": "2026-08-20T01:19:40.108Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
     },
     {
       "id": "gh:getsentry/sentry",
@@ -1466,12 +1484,12 @@
         "monitoring"
       ],
       "metrics": {
-        "stars": 44624
+        "stars": 44628
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2010-08-30T22:06:41Z",
-      "updatedAt": "2026-08-27T00:24:22Z",
+      "updatedAt": "2026-08-27T13:51:00Z",
       "summaryEn": "Error tracking and performance monitoring platform helping developers catch, track, and debug production issues in real-time.",
       "summaryKo": "개발자가 프로덕션 오류를 추적하고 디버깅하는 에러 모니터링 및 성능 분석 플랫폼.",
       "reasonEn": "Production reliability critical for modern applications; real-time observability increasingly expected.",
@@ -1480,12 +1498,248 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
+    },
+    {
+      "id": "gh:rocketride-org/rocketride-server",
+      "type": "repo",
+      "title": "rocketride-org/rocketride-server",
+      "summaryOriginal": "High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Build, debug, and scale LLM workflows with 13+ model providers, 8+ vector databases, and agent orchestration, all from your IDE. Includes VS Code extension, TypeScript/Python SDKs, and Docker deployment.",
+      "url": "https://github.com/rocketride-org/rocketride-server",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 4,
+        "totalScore": 218.3866
+      },
+      "source": "ossinsight",
+      "admitReason": "notable",
+      "summaryEn": "High-performance AI pipeline engine with a C++ core and Python nodes for building and scaling LLM workflows.",
+      "summaryKo": "LLM 워크플로우를 구축하고 확장하기 위한 C++ 코어와 파이썬 노드 기반 고성능 AI 파이프라인 엔진입니다.",
+      "categories": [
+        "ai-models",
+        "ai-agents",
+        "web",
+        "backend",
+        "infra",
+        "data",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-27T13:54:10.701Z",
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
+    },
+    {
+      "id": "gh:yetone/cumora",
+      "type": "repo",
+      "title": "yetone/cumora",
+      "summaryOriginal": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
+      "url": "https://github.com/yetone/cumora",
+      "lang": "TypeScript",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 2,
+        "pushes": 1,
+        "totalScore": 210.736
+      },
+      "source": "ossinsight",
+      "admitReason": "notable",
+      "summaryEn": "Cross-platform team chat where AI agents act as first-class teammates with customizable cloud or local AI brains.",
+      "summaryKo": "AI 에이전트가 팀원으로 참여하는 크로스플랫폼 팀 채팅 플랫폼입니다.",
+      "categories": [
+        "ai-agents",
+        "infra"
+      ],
+      "firstSeenAt": "2026-08-27T13:54:10.701Z",
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
+    },
+    {
+      "id": "hn:49239751",
+      "type": "article",
+      "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
+      "summaryOriginal": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
+      "url": "https://www.docker.com/products/docker-sandboxes/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 694,
+        "comments": 396
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-10T06:02:38Z",
+      "admitReason": "notable",
+      "summaryEn": "Docker Sandboxes provide disposable and isolated environments designed specifically for AI agents.",
+      "summaryKo": "Docker Sandbox는 AI 에이전트를 위해 특별히 설계된 일회용 격리 환경을 제공합니다.",
+      "reasonEn": "Crucial infrastructure for safe agent execution.",
+      "reasonKo": "안전한 에이전트 실행을 위한 핵심 인프라.",
+      "categories": [
+        "infra",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-08-19T01:42:27.269Z",
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
+    },
+    {
+      "id": "hn:49182996",
+      "type": "article",
+      "title": "Cloudflare OS: an open platform for agents, apps, and work",
+      "summaryOriginal": "Cloudflare OS: an open platform for agents, apps, and work",
+      "url": "https://blog.cloudflare.com/cloudflare-os/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 668,
+        "comments": 330
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-05T13:58:53Z",
+      "admitReason": "notable",
+      "summaryEn": "Cloudflare OS is an open platform built to host and run agents, applications, and general workloads.",
+      "summaryKo": "Cloudflare OS는 에이전트, 애플리케이션 및 일반 워크로드를 호스팅하고 실행하기 위해 구축된 개방형 플랫폼입니다.",
+      "reasonEn": "Major platform expansion announcement from Cloudflare.",
+      "reasonKo": "Cloudflare의 주요 플랫폼 확장 발표.",
+      "categories": [
+        "infra",
+        "backend"
+      ],
+      "firstSeenAt": "2026-08-19T01:42:27.269Z",
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
+    },
+    {
+      "id": "hn:49089500",
+      "type": "article",
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Timeline of the July 2026 Incident",
+      "summaryOriginal": "Anatomy of a Frontier Lab Agent Intrusion: A Timeline of the July 2026 Incident",
+      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "tags": [],
+      "metrics": {
+        "upvotes": 469,
+        "comments": 259
+      },
+      "source": "hn",
+      "publishedAt": "2026-07-28T20:28:33Z",
+      "admitReason": "notable",
+      "summaryEn": "Timeline analysis of a security breach and intrusion incident at an AI frontier lab in July 2026.",
+      "summaryKo": "2026년 7월 AI 프론티어 랩에서 발생한 보안 침해 및 침입 사건의 타임라인 분석.",
+      "reasonEn": "High concern regarding AI lab security and threat vectors.",
+      "reasonKo": "AI 랩 보안 및 위협 벡터에 대한 높은 우려.",
+      "categories": [
+        "infra",
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-25T12:50:44.870Z",
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
+    },
+    {
+      "id": "hn:49286485",
+      "type": "article",
+      "title": "Kubernetes on Oxide: How customer needs shaped our integrations",
+      "summaryOriginal": "Kubernetes on Oxide: How customer needs shaped our integrations",
+      "url": "https://oxide.computer/blog/kubernetes-on-oxide",
+      "tags": [],
+      "metrics": {
+        "upvotes": 199,
+        "comments": 100
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-13T14:26:41Z",
+      "admitReason": "notable",
+      "summaryEn": "Case study on how Oxide integrated Kubernetes based closely on real customer requirements.",
+      "summaryKo": "Oxide가 실제 고객 요구사항에 기반하여 쿠버네티스를 통합한 방식에 대한 사례 연구.",
+      "reasonEn": "Insight into hardware and cloud infrastructure architecture.",
+      "reasonKo": "하드웨어 및 클라우드 인프라 아키텍처에 대한 통찰.",
+      "categories": [
+        "infra"
+      ],
+      "firstSeenAt": "2026-08-24T01:23:41.283Z",
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
+    },
+    {
+      "id": "hn:49123208",
+      "type": "article",
+      "title": "Arch Linux disables AUR package adoption",
+      "summaryOriginal": "Arch Linux disables AUR package adoption",
+      "url": "https://lwn.net/Articles/1086489/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 164,
+        "comments": 128
+      },
+      "source": "hn",
+      "publishedAt": "2026-07-31T13:57:35Z",
+      "admitReason": "notable",
+      "summaryEn": "Arch Linux officially disables package adoption for the Arch User Repository due to security concerns.",
+      "summaryKo": "아치 리눅스가 보안상의 이유로 AUR 패키지 채택 기능을 공식적으로 비활성화함.",
+      "reasonEn": "Impacts the Arch Linux package ecosystem workflow.",
+      "reasonKo": "아치 리눅스 패키지 생태계 워크플로우에 영향.",
+      "categories": [
+        "infra",
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-25T18:41:21.378Z",
+      "lastSeenAt": "2026-08-27T13:54:10.701Z"
+    },
+    {
+      "id": "gh:basecamp/omarchy",
+      "type": "repo",
+      "categories": [
+        "infra"
+      ],
+      "title": "basecamp/omarchy",
+      "summaryEn": "Opinionated Linux distribution from Basecamp with modern design philosophy; 26K+ stars shows growing interest in alternative OS approaches.",
+      "summaryOriginal": "Beautiful, Modern & Opinionated Linux",
+      "url": "https://github.com/basecamp/omarchy",
+      "lang": "Shell",
+      "tags": [],
+      "metrics": {
+        "stars": 32001,
+        "starsDelta": 1024
+      },
+      "source": "github-trending",
+      "firstSeenAt": "2026-08-19T01:42:27.269Z",
+      "lastSeenAt": "2026-08-27T00:31:31.641Z",
+      "admitReason": "trending"
+    },
+    {
+      "id": "gh:outline/outline",
+      "type": "repo",
+      "categories": [
+        "web",
+        "infra"
+      ],
+      "title": "outline/outline",
+      "summaryEn": "Fast, real-time collaborative knowledge base and wiki for teams, with markdown support.",
+      "summaryKo": "팀을 위한 빠른 실시간 협업 지식베이스·위키, 마크다운 지원.",
+      "summaryOriginal": "The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.",
+      "reasonEn": "40k+ stars, popular self-hosted team wiki",
+      "reasonKo": "스타 4만, 인기 셀프호스팅 팀 위키",
+      "url": "https://github.com/outline/outline",
+      "lang": "TypeScript",
+      "tags": [
+        "docker",
+        "javascript",
+        "mobx",
+        "nodejs",
+        "react",
+        "slack",
+        "wiki"
+      ],
+      "metrics": {
+        "stars": 40342
+      },
+      "source": "github-search",
+      "publishedAt": "2016-05-22T21:31:47Z",
+      "updatedAt": "2026-08-26T02:16:44Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-27T00:31:31.641Z",
+      "admitReason": "notable"
     },
     {
       "id": "gh:kestra-io/kestra",
       "type": "repo",
+      "categories": [
+        "infra",
+        "data"
+      ],
       "title": "kestra-io/kestra",
+      "summaryEn": "Event-driven workflow orchestration platform for data pipelines, ETL, and mission-critical automation with infrastructure-as-code support.",
       "summaryOriginal": "Event Driven Orchestration & Scheduling Platform for Mission Critical Applications",
       "url": "https://github.com/kestra-io/kestra",
       "lang": "Java",
@@ -1507,21 +1761,22 @@
         "stars": 27932
       },
       "source": "github-search",
-      "admitReason": "notable",
       "publishedAt": "2019-08-24T13:56:15Z",
       "updatedAt": "2026-08-26T21:41:49Z",
-      "summaryEn": "Event-driven workflow orchestration platform for data pipelines, ETL, and mission-critical automation with infrastructure-as-code support.",
-      "categories": [
-        "infra",
-        "data"
-      ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T00:31:31.641Z",
+      "admitReason": "notable"
     },
     {
       "id": "gh:opengeos/GeoLibre",
       "type": "repo",
+      "categories": [
+        "web",
+        "infra"
+      ],
       "title": "opengeos/GeoLibre",
+      "summaryEn": "GeoLibre is a lightweight, cloud-native GIS platform for visualizing and analyzing geospatial data across web, desktop, and Jupyter.",
+      "summaryKo": "웹, 데스크톱, Jupyter 등에서 공간 데이터를 시각화하고 분석하는 클라우드 네이티브 GIS 플랫폼입니다.",
       "summaryOriginal": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
       "url": "https://github.com/opengeos/GeoLibre",
       "lang": "TypeScript",
@@ -1532,139 +1787,9 @@
         "totalScore": 208.482
       },
       "source": "ossinsight",
-      "admitReason": "notable",
-      "summaryEn": "GeoLibre is a lightweight, cloud-native GIS platform for visualizing and analyzing geospatial data across web, desktop, and Jupyter.",
-      "summaryKo": "웹, 데스크톱, Jupyter 등에서 공간 데이터를 시각화하고 분석하는 클라우드 네이티브 GIS 플랫폼입니다.",
-      "categories": [
-        "web",
-        "infra"
-      ],
       "firstSeenAt": "2026-08-26T09:43:03.049Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
-    },
-    {
-      "id": "hn:49239751",
-      "type": "article",
-      "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
-      "summaryOriginal": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
-      "url": "https://www.docker.com/products/docker-sandboxes/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 694,
-        "comments": 396
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-10T06:02:38Z",
-      "admitReason": "notable",
-      "summaryEn": "Docker Sandboxes provide isolated and disposable execution environments specifically tailored for AI agents.",
-      "summaryKo": "Docker 샌드박스는 AI 에이전트를 위해 특별히 맞춤화된 격리된 일회성 실행 환경을 제공합니다.",
-      "reasonEn": "New container tooling designed for safe AI execution.",
-      "reasonKo": "안전한 AI 실행을 위해 설계된 새로운 컨테이너 도구",
-      "categories": [
-        "infra",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-19T01:42:27.269Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
-    },
-    {
-      "id": "hn:49182996",
-      "type": "article",
-      "title": "Cloudflare OS: an open platform for agents, apps, and work",
-      "summaryOriginal": "Cloudflare OS: an open platform for agents, apps, and work",
-      "url": "https://blog.cloudflare.com/cloudflare-os/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 668,
-        "comments": 330
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-05T13:58:53Z",
-      "admitReason": "notable",
-      "summaryEn": "Cloudflare OS introduces an open development platform geared toward hosting AI agents and distributed apps.",
-      "summaryKo": "Cloudflare OS는 AI 에이전트와 분산 앱 호스팅에 초점을 맞춘 오픈 개발 플랫폼을 소개합니다.",
-      "reasonEn": "Cloudflare expanding its platform for agent workloads.",
-      "reasonKo": "에이전트 워크로드를 위해 플랫폼을 확장하는 Cloudflare",
-      "categories": [
-        "infra",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-19T01:42:27.269Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
-    },
-    {
-      "id": "hn:49089500",
-      "type": "article",
-      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Timeline of the July 2026 Incident",
-      "summaryOriginal": "Anatomy of a Frontier Lab Agent Intrusion: A Timeline of the July 2026 Incident",
-      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
-      "tags": [],
-      "metrics": {
-        "upvotes": 469,
-        "comments": 259
-      },
-      "source": "hn",
-      "publishedAt": "2026-07-28T20:28:33Z",
-      "admitReason": "notable",
-      "summaryEn": "A detailed security timeline analyzing a real-world agent intrusion incident at a frontier AI lab.",
-      "summaryKo": "최첨단 AI 연구소에서 발생한 실제 에이전트 침해 사고를 분석한 상세한 보안 타임라인입니다.",
-      "reasonEn": "Critical security incident report involving AI infrastructure.",
-      "reasonKo": "AI 인프라와 관련된 심각한 보안 사고 보고서",
-      "categories": [
-        "infra"
-      ],
-      "firstSeenAt": "2026-08-25T12:50:44.870Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
-    },
-    {
-      "id": "hn:49286485",
-      "type": "article",
-      "title": "Kubernetes on Oxide: How customer needs shaped our integrations",
-      "summaryOriginal": "Kubernetes on Oxide: How customer needs shaped our integrations",
-      "url": "https://oxide.computer/blog/kubernetes-on-oxide",
-      "tags": [],
-      "metrics": {
-        "upvotes": 199,
-        "comments": 100
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-13T14:26:41Z",
-      "admitReason": "notable",
-      "summaryEn": "An engineering deep-dive on how Oxide integrated Kubernetes based on direct feedback from enterprise customers.",
-      "summaryKo": "기업 고객의 직접적인 피드백을 바탕으로 Oxide가 Kubernetes를 통합한 과정에 대한 엔지니어링 분석입니다.",
-      "reasonEn": "Infrastructure architecture and customer-driven design.",
-      "reasonKo": "인프라 아키텍처 및 고객 중심 설계",
-      "categories": [
-        "infra",
-        "backend"
-      ],
-      "firstSeenAt": "2026-08-24T01:23:41.283Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
-    },
-    {
-      "id": "hn:49123208",
-      "type": "article",
-      "title": "Arch Linux disables AUR package adoption",
-      "summaryOriginal": "Arch Linux disables AUR package adoption",
-      "url": "https://lwn.net/Articles/1086489/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 164,
-        "comments": 128
-      },
-      "source": "hn",
-      "publishedAt": "2026-07-31T13:57:35Z",
-      "admitReason": "notable",
-      "summaryEn": "Arch Linux implements policy changes to disable direct package adoption within the Arch User Repository.",
-      "summaryKo": "Arch Linux가 아치 사용자 저장소(AUR) 내 직접 패키지 채택을 비활성화하는 정책 변경을 시행합니다.",
-      "reasonEn": "Changes in distro package management policies.",
-      "reasonKo": "배포판 패키지 관리 정책 변경",
-      "categories": [
-        "infra",
-        "engineering"
-      ],
-      "firstSeenAt": "2026-08-25T18:41:21.378Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z"
+      "lastSeenAt": "2026-08-27T00:31:31.641Z",
+      "admitReason": "notable"
     },
     {
       "id": "gh:elie222/rakazo",
@@ -1693,11 +1818,11 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 1355
+        "stars": 1388
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T06:28:56Z",
-      "updatedAt": "2026-08-26T21:09:18Z",
+      "updatedAt": "2026-08-27T13:55:56Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-26T19:50:13.055Z",
       "admitReason": "new"
@@ -1730,11 +1855,11 @@
         "mcp"
       ],
       "metrics": {
-        "stars": 39649
+        "stars": 39686
       },
       "source": "github-search",
       "publishedAt": "2022-12-08T13:27:46Z",
-      "updatedAt": "2026-08-26T16:57:35Z",
+      "updatedAt": "2026-08-27T11:04:57Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-26T19:50:13.055Z",
       "admitReason": "notable"
@@ -1766,7 +1891,7 @@
         "nerdctl"
       ],
       "metrics": {
-        "stars": 30526
+        "stars": 30530
       },
       "source": "github-search",
       "publishedAt": "2021-09-04T09:52:22Z",
@@ -1807,48 +1932,12 @@
         "postgresql"
       ],
       "metrics": {
-        "stars": 16706
+        "stars": 16818
       },
       "source": "github-search",
       "publishedAt": "2026-04-29T03:00:36Z",
-      "updatedAt": "2026-08-26T17:18:57Z",
+      "updatedAt": "2026-08-27T11:08:16Z",
       "firstSeenAt": "2026-08-21T09:38:23.718Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "gh:floci-io/floci",
-      "type": "repo",
-      "categories": [
-        "infra"
-      ],
-      "title": "floci-io/floci",
-      "summaryEn": "Free, lightweight local emulator for AWS services, an alternative to LocalStack.",
-      "summaryKo": "AWS 서비스를 로컬에서 무료로 에뮬레이션하는 경량 도구, LocalStack 대안.",
-      "summaryOriginal": "Light, fluffy, and always free - The AWS Local Emulator alternative",
-      "reasonEn": "20k+ stars, fast-growing free LocalStack alternative",
-      "reasonKo": "스타 2만, 무료 LocalStack 대안으로 급성장",
-      "url": "https://github.com/floci-io/floci",
-      "lang": "Java",
-      "tags": [
-        "aws",
-        "aws-emulation",
-        "devops",
-        "docker",
-        "ec2",
-        "ecs",
-        "localstack",
-        "s3",
-        "sqs",
-        "testcontainers"
-      ],
-      "metrics": {
-        "stars": 22391
-      },
-      "source": "github-search",
-      "publishedAt": "2026-02-18T02:28:29Z",
-      "updatedAt": "2026-08-27T00:17:37Z",
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-26T06:52:39.327Z",
       "admitReason": "notable"
     },
@@ -1878,7 +1967,7 @@
         "terraform"
       ],
       "metrics": {
-        "stars": 20869
+        "stars": 20871
       },
       "source": "github-search",
       "publishedAt": "2018-08-03T18:32:18Z",
@@ -1917,11 +2006,11 @@
         "session-replay"
       ],
       "metrics": {
-        "stars": 39256
+        "stars": 39303
       },
       "source": "github-search",
       "publishedAt": "2020-01-23T22:46:58Z",
-      "updatedAt": "2026-08-27T00:33:52Z",
+      "updatedAt": "2026-08-27T13:56:48Z",
       "firstSeenAt": "2026-08-20T12:53:13.611Z",
       "lastSeenAt": "2026-08-25T09:36:47.621Z",
       "admitReason": "notable"
@@ -1948,7 +2037,7 @@
         "vaultwarden"
       ],
       "metrics": {
-        "stars": 66314
+        "stars": 66353
       },
       "source": "github-search",
       "publishedAt": "2018-02-17T22:40:20Z",
@@ -1984,7 +2073,7 @@
         "kubernetes-access"
       ],
       "metrics": {
-        "stars": 20852
+        "stars": 20855
       },
       "source": "github-search",
       "publishedAt": "2015-03-02T19:36:00Z",
@@ -2008,12 +2097,12 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 4211,
+        "stars": 4225,
         "pushes": 3,
         "totalScore": 204.9706
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-26T14:33:17Z",
+      "updatedAt": "2026-08-27T13:55:09Z",
       "firstSeenAt": "2026-08-25T03:50:28.986Z",
       "lastSeenAt": "2026-08-25T06:51:09.551Z",
       "admitReason": "notable"
@@ -2040,11 +2129,11 @@
         "sandbox"
       ],
       "metrics": {
-        "stars": 19163
+        "stars": 19168
       },
       "source": "github-search",
       "publishedAt": "2018-04-26T21:28:49Z",
-      "updatedAt": "2026-08-27T00:16:35Z",
+      "updatedAt": "2026-08-27T12:24:48Z",
       "firstSeenAt": "2026-08-23T01:26:23.378Z",
       "lastSeenAt": "2026-08-25T03:50:28.986Z",
       "admitReason": "notable"
@@ -2076,7 +2165,7 @@
         "postfix"
       ],
       "metrics": {
-        "stars": 18803
+        "stars": 18806
       },
       "source": "github-search",
       "publishedAt": "2015-03-28T14:56:28Z",
@@ -2109,11 +2198,11 @@
         "kubernetes-ha"
       ],
       "metrics": {
-        "stars": 18325
+        "stars": 18326
       },
       "source": "github-search",
       "publishedAt": "2018-08-15T12:22:50Z",
-      "updatedAt": "2026-08-26T14:29:45Z",
+      "updatedAt": "2026-08-27T12:06:00Z",
       "firstSeenAt": "2026-08-23T01:26:23.378Z",
       "lastSeenAt": "2026-08-24T18:42:24.176Z",
       "admitReason": "notable"
@@ -2147,11 +2236,11 @@
         "sponsor"
       ],
       "metrics": {
-        "stars": 17843
+        "stars": 17845
       },
       "source": "github-search",
       "publishedAt": "2016-04-15T16:21:12Z",
-      "updatedAt": "2026-08-26T20:51:58Z",
+      "updatedAt": "2026-08-27T11:52:32Z",
       "firstSeenAt": "2026-08-24T01:23:41.283Z",
       "lastSeenAt": "2026-08-24T18:42:24.176Z",
       "admitReason": "notable"
@@ -2183,11 +2272,11 @@
         "thanos"
       ],
       "metrics": {
-        "stars": 17597
+        "stars": 17599
       },
       "source": "github-search",
       "publishedAt": "2018-09-30T09:58:01Z",
-      "updatedAt": "2026-08-26T22:26:24Z",
+      "updatedAt": "2026-08-27T13:54:10Z",
       "firstSeenAt": "2026-08-24T01:23:41.283Z",
       "lastSeenAt": "2026-08-24T15:40:18.500Z",
       "admitReason": "notable"
@@ -2219,11 +2308,11 @@
         "pipelines-as-code"
       ],
       "metrics": {
-        "stars": 26500
+        "stars": 26505
       },
       "source": "github-search",
       "publishedAt": "2010-11-22T21:21:23Z",
-      "updatedAt": "2026-08-26T11:07:10Z",
+      "updatedAt": "2026-08-27T01:53:12Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-24T15:40:18.500Z",
       "admitReason": "notable"
@@ -2254,7 +2343,7 @@
         "sops"
       ],
       "metrics": {
-        "stars": 22932
+        "stars": 22937
       },
       "source": "github-search",
       "publishedAt": "2015-08-13T22:11:00Z",
@@ -2292,11 +2381,11 @@
         "nfs"
       ],
       "metrics": {
-        "stars": 16970
+        "stars": 16969
       },
       "source": "github-search",
       "publishedAt": "2011-09-01T21:41:26Z",
-      "updatedAt": "2026-08-26T20:09:17Z",
+      "updatedAt": "2026-08-27T13:41:26Z",
       "firstSeenAt": "2026-08-24T01:23:41.283Z",
       "lastSeenAt": "2026-08-24T12:53:33.595Z",
       "admitReason": "notable"
@@ -2323,11 +2412,11 @@
         "kubernetes"
       ],
       "metrics": {
-        "stars": 16669
+        "stars": 16670
       },
       "source": "github-search",
       "publishedAt": "2016-06-27T22:01:15Z",
-      "updatedAt": "2026-08-26T20:17:48Z",
+      "updatedAt": "2026-08-27T10:33:48Z",
       "firstSeenAt": "2026-08-24T01:23:41.283Z",
       "lastSeenAt": "2026-08-24T12:53:33.595Z",
       "admitReason": "notable"
@@ -2348,7 +2437,7 @@
       "lang": "HTML",
       "tags": [],
       "metrics": {
-        "stars": 135413
+        "stars": 135479
       },
       "source": "github-trending",
       "updatedAt": "2026-08-26T11:15:36Z",
@@ -2415,11 +2504,11 @@
         "reactive"
       ],
       "metrics": {
-        "stars": 15848
+        "stars": 15850
       },
       "source": "github-search",
       "publishedAt": "2018-07-06T00:44:20Z",
-      "updatedAt": "2026-08-26T19:49:48Z",
+      "updatedAt": "2026-08-27T13:32:00Z",
       "firstSeenAt": "2026-08-24T01:23:41.283Z",
       "lastSeenAt": "2026-08-24T07:01:43.353Z",
       "admitReason": "notable"
@@ -2441,11 +2530,11 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 615,
+        "stars": 618,
         "totalScore": 204.6229
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-26T22:58:26Z",
+      "updatedAt": "2026-08-27T08:15:22Z",
       "firstSeenAt": "2026-08-23T09:29:14.266Z",
       "lastSeenAt": "2026-08-24T07:01:43.353Z",
       "admitReason": "notable"
@@ -2465,12 +2554,12 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 347,
+        "stars": 354,
         "pushes": 2,
         "totalScore": 204.4507
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-27T00:10:18Z",
+      "updatedAt": "2026-08-27T12:17:04Z",
       "firstSeenAt": "2026-08-23T09:29:14.266Z",
       "lastSeenAt": "2026-08-24T07:01:43.353Z",
       "admitReason": "notable"
@@ -2497,11 +2586,11 @@
         "sandbox"
       ],
       "metrics": {
-        "stars": 14737
+        "stars": 14760
       },
       "source": "github-search",
       "publishedAt": "2025-12-17T08:41:09Z",
-      "updatedAt": "2026-08-26T13:56:41Z",
+      "updatedAt": "2026-08-27T11:14:39Z",
       "firstSeenAt": "2026-08-24T01:23:41.283Z",
       "lastSeenAt": "2026-08-24T01:23:41.283Z",
       "admitReason": "notable"
@@ -2543,7 +2632,7 @@
       },
       "source": "github-search",
       "publishedAt": "2023-01-27T02:25:38Z",
-      "updatedAt": "2026-08-26T22:39:37Z",
+      "updatedAt": "2026-08-27T02:27:55Z",
       "firstSeenAt": "2026-08-24T01:23:41.283Z",
       "lastSeenAt": "2026-08-24T01:23:41.283Z",
       "admitReason": "notable"
@@ -2578,7 +2667,7 @@
         "vulnerability-scanners"
       ],
       "metrics": {
-        "stars": 37634
+        "stars": 37652
       },
       "source": "github-search",
       "publishedAt": "2019-04-11T01:01:07Z",
@@ -2683,7 +2772,7 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 926,
+        "stars": 928,
         "totalScore": 207.9588
       },
       "source": "ossinsight",
@@ -2740,12 +2829,12 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 2305,
+        "stars": 2335,
         "pushes": 3,
         "totalScore": 209.1977
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-26T15:13:49Z",
+      "updatedAt": "2026-08-27T12:12:30Z",
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
       "lastSeenAt": "2026-08-21T06:50:49.363Z",
       "admitReason": "notable"
@@ -2781,11 +2870,11 @@
         "videos"
       ],
       "metrics": {
-        "stars": 112735
+        "stars": 112781
       },
       "source": "github-search",
       "publishedAt": "2022-02-03T15:56:27Z",
-      "updatedAt": "2026-08-26T21:52:42Z",
+      "updatedAt": "2026-08-27T13:27:51Z",
       "firstSeenAt": "2026-08-19T15:33:13.943Z",
       "lastSeenAt": "2026-08-20T09:36:42.325Z",
       "admitReason": "notable"
@@ -2803,7 +2892,7 @@
       "lang": "PLSQL",
       "tags": [],
       "metrics": {
-        "stars": 24860,
+        "stars": 24879,
         "totalScore": 213.0454
       },
       "source": "ossinsight",
@@ -2858,11 +2947,11 @@
         "workflows"
       ],
       "metrics": {
-        "stars": 16203
+        "stars": 16204
       },
       "source": "github-search",
       "publishedAt": "2019-11-20T01:31:51Z",
-      "updatedAt": "2026-08-26T23:54:00Z",
+      "updatedAt": "2026-08-27T13:54:43Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-19T01:38:48.167Z",
       "admitReason": "notable"
@@ -2888,11 +2977,11 @@
         "taskfile"
       ],
       "metrics": {
-        "stars": 16056
+        "stars": 16059
       },
       "source": "github-search",
       "publishedAt": "2017-02-27T00:46:04Z",
-      "updatedAt": "2026-08-26T20:16:25Z",
+      "updatedAt": "2026-08-27T06:56:02Z",
       "firstSeenAt": "2026-08-18T18:40:19.317Z",
       "lastSeenAt": "2026-08-19T01:38:48.167Z",
       "admitReason": "notable"
@@ -2918,7 +3007,7 @@
         "workspaces"
       ],
       "metrics": {
-        "stars": 15183
+        "stars": 15188
       },
       "source": "github-search",
       "publishedAt": "2018-11-06T02:57:01Z",
@@ -2964,7 +3053,7 @@
         "serverless"
       ],
       "metrics": {
-        "stars": 44045
+        "stars": 44048
       },
       "source": "github-search",
       "publishedAt": "2014-11-17T23:56:08Z",
