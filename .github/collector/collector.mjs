@@ -30713,6 +30713,9 @@ import { existsSync } from "node:fs";
 import { appendFile, mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
+// ../../packages/feed-schema/src/fields.ts
+var SUMMARY_FIELDS = ["summaryEn", "summaryKo", "reasonEn", "reasonKo"];
+
 // ../../node_modules/zod/v4/classic/external.js
 var external_exports = {};
 __export(external_exports, {
@@ -45389,6 +45392,11 @@ var OverridesFileSchema = external_exports.object({
   /** 사람이 고친 요약·카테고리. */
   overrides: external_exports.record(CardIdSchema, SummaryEntrySchema)
 });
+var OverridesDraftSchema = OverridesFileSchema.omit({
+  _owner: true,
+  version: true,
+  updatedAt: true
+});
 
 // src/datastore.ts
 var FEED_DIR = "v1/feed";
@@ -45516,15 +45524,20 @@ var matchesTopics = (card, category) => {
   return card.tags.some((tag) => topics.has(tag.toLowerCase()));
 };
 var matchesKeywords = (card, category) => category.keywords.test(`${card.title} ${card.summaryOriginal}`.toLowerCase());
-var classify = ({ card, categories, trendingRank }) => {
+var classify = ({
+  card,
+  categories,
+  trendingRank,
+  r3RankLimit = R3_TRENDING_RANK_LIMIT
+}) => {
   const byTopic = card.type === "repo" ? categories.filter((category) => matchesTopics(card, category)).map(({ slug }) => slug) : [];
   if (byTopic.length > 0) return { categories: byTopic, deferToLlm: false };
   if (card.tags.length === 0) {
     const byKeyword = categories.filter((category) => matchesKeywords(card, category)).map(({ slug }) => slug);
     if (byKeyword.length > 0) return { categories: byKeyword, deferToLlm: false };
   }
-  const isTopTrending = trendingRank !== void 0 && trendingRank < R3_TRENDING_RANK_LIMIT;
-  return { categories: [], deferToLlm: isTopTrending };
+  const withinR3Rank = trendingRank !== void 0 && trendingRank < r3RankLimit;
+  return { categories: [], deferToLlm: withinR3Rank };
 };
 
 // src/text.ts
@@ -45672,12 +45685,25 @@ var reasonOf = (queryIndex) => queryIndex % 2 === 0 ? "new" : "notable";
 var fetchGithubSearch = async (ctx) => {
   if (ctx.githubToken === void 0) return [];
   const token = ctx.githubToken;
-  const results = await Promise.all(
+  const results = await Promise.allSettled(
     buildQueries(ctx.category.topics, ctx.now).map(
       async (query, index2) => runQuery(query, token, reasonOf(index2))
     )
   );
-  return results.flat();
+  for (const result of results) {
+    if (result.status === "rejected") {
+      ctx.logger?.warn(
+        `SOURCE_QUERY_FAILED github-search ${ctx.category.slug}: ${String(result.reason)}`
+      );
+    }
+  }
+  const fulfilled = results.filter(
+    (result) => result.status === "fulfilled"
+  );
+  if (fulfilled.length === 0 && results.length > 0) {
+    throw results[0].reason;
+  }
+  return fulfilled.flatMap((result) => result.value);
 };
 
 // ../../node_modules/cheerio/dist/esm/options.js
@@ -60245,6 +60271,60 @@ var mapPapers = (entries) => entries.filter(
 });
 var fetchHfPapers = async (_ctx) => mapPapers((await httpGetJson(HF_PAPERS_URL)).filter(isNotablePaper));
 
+// src/sources/hf-repo.ts
+var MODEL_ID_PREFIX = "hf-model:";
+var PAPER_ID_PREFIX = "hf-paper:";
+var HF_MODEL_DETAIL_URL = "https://huggingface.co/api/models";
+var HF_PAPER_DETAIL_URL = "https://huggingface.co/api/papers";
+var MAX_HF_REFRESHED_PER_RUN = 300;
+var CONCURRENCY2 = 6;
+var MODEL_ID = /^[A-Za-z0-9][A-Za-z0-9._-]*(\/[A-Za-z0-9][A-Za-z0-9._-]*)?$/;
+var PAPER_ID = /^[A-Za-z0-9][A-Za-z0-9.-]*$/;
+var encodePath = (id) => id.split("/").map(encodeURIComponent).join("/");
+var targetOf = (cardId) => {
+  if (cardId.startsWith(MODEL_ID_PREFIX)) {
+    const id = cardId.slice(MODEL_ID_PREFIX.length);
+    if (!MODEL_ID.test(id)) return void 0;
+    return { cardId, kind: "model", url: `${HF_MODEL_DETAIL_URL}/${encodePath(id)}` };
+  }
+  if (cardId.startsWith(PAPER_ID_PREFIX)) {
+    const id = cardId.slice(PAPER_ID_PREFIX.length);
+    if (!PAPER_ID.test(id)) return void 0;
+    return { cardId, kind: "paper", url: `${HF_PAPER_DETAIL_URL}/${encodeURIComponent(id)}` };
+  }
+  return void 0;
+};
+var readOne2 = async (target) => {
+  if (target.kind === "model") {
+    const body2 = await httpGetJson(target.url);
+    return {
+      metrics: compactMetrics({
+        likes: body2.likes,
+        downloads: body2.downloads,
+        trendingScore: body2.trendingScore
+      }),
+      ...typeof body2.lastModified === "string" ? { updatedAt: body2.lastModified } : {}
+    };
+  }
+  const body = await httpGetJson(target.url);
+  return { metrics: compactMetrics({ upvotes: body.upvotes, githubStars: body.githubStars }) };
+};
+var refreshHfMetrics = async (input) => {
+  const outcome = { refreshed: /* @__PURE__ */ new Map(), failed: 0 };
+  const targets = input.cardIds.flatMap((cardId) => {
+    const target = targetOf(cardId);
+    return target === void 0 ? [] : [target];
+  }).slice(0, MAX_HF_REFRESHED_PER_RUN);
+  await forEachConcurrently(targets, CONCURRENCY2, async (target) => {
+    try {
+      outcome.refreshed.set(target.cardId, await readOne2(target));
+    } catch {
+      outcome.failed += 1;
+    }
+  });
+  return outcome;
+};
+
 // src/sources/hn.ts
 var SOURCE5 = "hn";
 var SEARCH_URL2 = "https://hn.algolia.com/api/v1/search";
@@ -60323,13 +60403,15 @@ var needsVerification = (source) => source === VERIFIED_SOURCE;
 var globalTasks = (ctx) => [
   {
     source: "github-trending",
-    // 트렌딩만 순위를 갖는다 — R3가 "10위 이내"를 본다.
-    attribution: { kind: "classify", ranked: true },
+    // 트렌딩 페이지 순서가 곧 화제성 순위다 — 상위 10만 R3 후보.
+    attribution: { kind: "classify", r3RankLimit: R3_TRENDING_RANK_LIMIT },
     run: async () => fetchGithubTrending(ctx)
   },
   {
     source: "ossinsight",
-    attribution: { kind: "classify", ranked: false },
+    // total_score 내림차순 top-30 전부가 R3 후보다 (2026-08-28 결정). 이 소스는 신흥
+    // 저장소가 많아 topic·keywords에 잘 안 걸린다 — 상한을 좁히면 배지 달고 온 카드를 버린다.
+    attribution: { kind: "classify", r3RankLimit: TRENDS_TOP_N },
     run: async () => fetchOssInsightTrends(ctx)
   },
   { source: "hf-models", attribution: { kind: "hf" }, run: async () => fetchHfModels(ctx) },
@@ -60510,7 +60592,6 @@ var mergeIntoPool = (input) => {
 };
 
 // src/sidecar.ts
-var SUMMARY_FIELDS = ["summaryEn", "summaryKo", "reasonEn", "reasonKo"];
 var pickFields = (entry) => Object.fromEntries(
   SUMMARY_FIELDS.filter((field) => (entry[field] ?? "").length > 0).map((field) => [
     field,
@@ -60620,8 +60701,8 @@ var attribute = (batch, categories) => batch.cards.map((card, index2) => {
   if (batch.attribution.kind === "hf") {
     return { card, categories: hfSlugs(categories), deferToLlm: false };
   }
-  const ranked = batch.attribution.ranked;
-  return { card, ...classify({ card, categories, ...ranked ? { trendingRank: index2 } : {} }) };
+  const { r3RankLimit } = batch.attribution;
+  return { card, ...classify({ card, categories, trendingRank: index2, r3RankLimit }) };
 });
 var countBy = (items, key) => items.reduce((acc, item) => {
   const bucket = key(item);
@@ -60652,7 +60733,11 @@ var logCollectionIssues = (input, rejected, errors2) => {
   }
 };
 var gatherCards = async (input) => {
-  const ctx = { now: input.now, ...input.githubToken !== void 0 && { githubToken: input.githubToken } };
+  const ctx = {
+    now: input.now,
+    logger: input.logger,
+    ...input.githubToken !== void 0 && { githubToken: input.githubToken }
+  };
   const { batches, rejectedSources, errors: errors2 } = await collect(ctx, input.categories);
   logCollectionIssues(input, rejectedSources, errors2);
   const collected = batches.flatMap((batch) => attribute(batch, input.categories));
@@ -60700,36 +60785,60 @@ var applySummaries = (cards, summarizedById) => cards.map((card) => {
   const summarized = summarizedById.get(card.id);
   return summarized === void 0 ? card : { ...summarized, categories: card.categories };
 });
-var refreshStaleMetrics = async (input, freshIds) => {
+var collectStaleCards = (input, freshIds) => {
+  const latestPublish = Object.values(input.previousFeeds).map((feed) => feed.generatedAt).sort().at(-1);
+  if (latestPublish !== void 0 && latestPublish.slice(0, 10) === input.now.toISOString().slice(0, 10)) {
+    input.logger.info(
+      `METRICS_REFRESH_SKIPPED \uC774\uC804 \uBC1C\uD589 ${latestPublish} \u2014 \uBB35\uC740 \uCE74\uB4DC \uAC31\uC2E0\uC740 UTC \uD558\uB8E8 1\uD68C`
+    );
+    return [];
+  }
   const stale = /* @__PURE__ */ new Map();
   Object.values(input.previousFeeds).forEach(
     (feed) => feed.cards.forEach((card) => {
       if (!freshIds.has(card.id)) stale.set(card.id, card);
     })
   );
-  if (stale.size === 0) return /* @__PURE__ */ new Map();
-  const cardIds = [...stale.values()].sort((a, b) => (a.lastSeenAt ?? "").localeCompare(b.lastSeenAt ?? "")).map((card) => card.id);
-  const { refreshed, failed } = await refreshRepoMetrics({
-    cardIds,
-    ...input.githubToken !== void 0 && { githubToken: input.githubToken }
+  return [...stale.values()];
+};
+var refreshStaleMetrics = async (input, fresh) => {
+  const freshIds = new Set(fresh.map((card) => card.id));
+  const stale = collectStaleCards(input, freshIds);
+  const unknown2 = /* @__PURE__ */ new Map();
+  fresh.forEach((card) => {
+    if (card.type === "repo" && card.metrics?.stars === void 0) unknown2.set(card.id, card);
   });
+  if (stale.length === 0 && unknown2.size === 0) return /* @__PURE__ */ new Map();
+  const cardIds = [
+    ...unknown2.keys(),
+    ...[...stale].sort((a, b) => (a.lastSeenAt ?? "").localeCompare(b.lastSeenAt ?? "")).map((card) => card.id)
+  ];
+  const [repoOutcome, hfOutcome] = await Promise.all([
+    refreshRepoMetrics({
+      cardIds,
+      ...input.githubToken !== void 0 && { githubToken: input.githubToken }
+    }),
+    refreshHfMetrics({ cardIds })
+  ]);
+  const refreshed = new Map([...repoOutcome.refreshed, ...hfOutcome.refreshed]);
+  const failed = repoOutcome.failed + hfOutcome.failed;
   if (refreshed.size > 0 || failed > 0) {
-    input.logger.info(`METRICS_REFRESH \uAC31\uC2E0 ${refreshed.size}\uC7A5 \xB7 \uC2E4\uD328 ${failed}\uC7A5 (\uBB35\uC740 \uCE74\uB4DC ${stale.size}\uC7A5)`);
+    input.logger.info(
+      `METRICS_REFRESH \uAC31\uC2E0 ${refreshed.size}\uC7A5 \xB7 \uC2E4\uD328 ${failed}\uC7A5 (\uBB35\uC740 ${stale.length}\uC7A5 \xB7 \uBBF8\uC0C1 ${unknown2.size}\uC7A5)`
+    );
   }
   return refreshed;
 };
-var mergedMetrics = (previous, patch) => ({
-  ...Object.fromEntries(
-    Object.entries(previous ?? {}).filter(([name]) => !SUPERSEDED_METRICS.includes(name))
-  ),
+var mergedMetrics = (previous, patch, drop) => ({
+  ...Object.fromEntries(Object.entries(previous ?? {}).filter(([name]) => !drop.includes(name))),
   ...patch
 });
-var withRefreshedMetrics = (cards, refreshed) => cards.map((card) => {
+var withRefreshedMetrics = (cards, refreshed, drop = SUPERSEDED_METRICS) => cards.map((card) => {
   const patch = refreshed.get(card.id);
   if (patch === void 0) return card;
   return {
     ...card,
-    ...patch.metrics === void 0 ? {} : { metrics: mergedMetrics(card.metrics, patch.metrics) },
+    ...patch.metrics === void 0 ? {} : { metrics: mergedMetrics(card.metrics, patch.metrics, drop) },
     ...patch.updatedAt === void 0 ? {} : { updatedAt: patch.updatedAt }
   };
 });
@@ -60755,10 +60864,7 @@ var runPipeline = async (raw) => {
   const publishable = overridden.filter((entry) => entry.categories.length > 0);
   const generatedAt = input.now.toISOString();
   const composed = composeAll(input.categories, publishable);
-  const refreshed = await refreshStaleMetrics(
-    input,
-    new Set([...composed.values()].flatMap((cards) => cards.map((card) => card.id)))
-  );
+  const refreshed = await refreshStaleMetrics(input, [...composed.values()].flat());
   const summarizedById = await summarizeComposed(
     composed,
     // 오버라이드 적용본을 넘긴다 — `classified`를 넘기면 사람이 고친 요약이 요약 패스에서
@@ -60775,7 +60881,7 @@ var runPipeline = async (raw) => {
   input.categories.forEach(({ slug }) => {
     const pool = mergeIntoPool({
       now: input.now,
-      fresh: applySummaries(composed.get(slug) ?? [], summarizedById),
+      fresh: withRefreshedMetrics(applySummaries(composed.get(slug) ?? [], summarizedById), refreshed, []),
       previous: withRefreshedMetrics(input.previousFeeds[slug]?.cards ?? [], refreshed)
     });
     newCardsThisRun += pool.newCards;
@@ -60839,7 +60945,6 @@ var buildIndex = (categories, feeds, generatedAt) => {
 var CARDS_PER_REQUEST = 20;
 var MAX_CONCURRENT_REQUESTS = 3;
 var DEFAULT_MAX_CARDS_PER_RUN = 120;
-var SUMMARY_FIELDS2 = ["summaryEn", "summaryKo", "reasonEn", "reasonKo"];
 var SummaryItemSchema = external_exports.object({
   id: external_exports.string(),
   summaryEn: external_exports.string().optional(),
@@ -60856,7 +60961,7 @@ var { $schema: _schema, ...derived } = external_exports.toJSONSchema(
 );
 var SUMMARY_JSON_SCHEMA = derived;
 var pickSummaryFields = (source) => Object.fromEntries(
-  SUMMARY_FIELDS2.filter((field) => (source[field] ?? "").length > 0).map((field) => [
+  SUMMARY_FIELDS.filter((field) => (source[field] ?? "").length > 0).map((field) => [
     field,
     source[field]
   ])

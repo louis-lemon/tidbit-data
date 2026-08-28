@@ -14680,9 +14680,14 @@ var OverridesFileSchema = external_exports.object({
   /** 사람이 고친 요약·카테고리. */
   overrides: external_exports.record(CardIdSchema, SummaryEntrySchema)
 });
+var OverridesDraftSchema = OverridesFileSchema.omit({
+  _owner: true,
+  version: true,
+  updatedAt: true
+});
 
 // src/check.ts
-var MAX_FEED_AGE_HOURS = 8;
+var MAX_FEED_AGE_HOURS = 26;
 var hoursSince = (iso, now) => (now.getTime() - new Date(iso).getTime()) / 36e5;
 var corsOf = (headers) => headers["access-control-allow-origin"] ?? headers["Access-Control-Allow-Origin"];
 var checkIndex = async (input) => {
