@@ -1,6 +1,6 @@
 name: collect
 
-# 3시간마다 수집해 v1/ 을 갱신한다 (PLAN-R1 R1-T3).
+# 매일 한 번 수집해 v1/ 을 갱신한다 (PLAN-R1 R1-T3 · 2026-08-28 하루 1회 전환).
 #
 # 실행하는 것은 코드 저장소에서 말아 커밋한 번들 하나뿐이다(.github/collector/collector.mjs).
 # 수집기 소스를 여기 두지 않는 이유는 D7이다 — 소스를 옮기면 @tidbit/feed-schema 가 따라와
@@ -8,8 +8,9 @@ name: collect
 
 on:
   schedule:
-    # UTC 기준 3시간 간격. Actions cron 은 수 분~수십 분 늦을 수 있고, 3시간 주기엔 무해하다.
-    - cron: '0 */3 * * *'
+    # 매일 21:00 UTC = 06:00 KST — 한국 아침에 피드가 갓 구워져 있다. Actions cron 은
+    # 수 분~수십 분 늦을 수 있고, 모니터 신선도 상한(26h)이 그 지연을 흡수한다.
+    - cron: '0 21 * * *'
   workflow_dispatch:
 
 # 앞 run 이 아직 커밋 중인데 다음 run 이 겹치면 push 가 서로를 밀어낸다.
