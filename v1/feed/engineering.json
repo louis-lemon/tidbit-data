@@ -1,79 +1,53 @@
 {
   "version": 1,
   "category": "engineering",
-  "generatedAt": "2026-08-29T22:55:06.972Z",
+  "generatedAt": "2026-08-30T23:00:09.024Z",
   "ttlSeconds": 10800,
   "cards": [
     {
-      "id": "gh:abi/screenshot-to-code",
+      "id": "gh:checkstyle/checkstyle",
       "type": "repo",
-      "title": "abi/screenshot-to-code",
-      "summaryOriginal": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
-      "url": "https://github.com/abi/screenshot-to-code",
-      "lang": "Python",
+      "title": "checkstyle/checkstyle",
+      "summaryOriginal": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.",
+      "url": "https://github.com/checkstyle/checkstyle",
+      "lang": "Java",
       "tags": [],
       "metrics": {
-        "stars": 76018,
-        "starsDelta": 558
+        "stars": 9185,
+        "starsDelta": 124
       },
       "source": "github-trending",
       "admitReason": "trending",
-      "summaryEn": "Tool that converts UI screenshots into clean frontend code using HTML, Tailwind, React, or Vue.",
-      "summaryKo": "UI 스크린샷을 HTML, Tailwind, React, Vue 등의 프론트엔드 코드로 변환해줍니다.",
-      "reasonEn": "Popular open-source tool for rapid UI prototyping",
-      "reasonKo": "빠른 UI 프로토타이핑을 위한 인기 오픈소스 도구",
+      "summaryEn": "Development tool that helps programmers write Java code adhering to coding standards like Google and Sun.",
+      "summaryKo": "개발자가 코딩 표준에 맞는 Java 코드를 작성하도록 돕는 도구입니다.",
       "categories": [
-        "web",
+        "engineering",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-08-30T23:00:09.024Z",
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
+    },
+    {
+      "id": "gh:NationalSecurityAgency/ghidra",
+      "type": "repo",
+      "title": "NationalSecurityAgency/ghidra",
+      "summaryOriginal": "Ghidra is a software reverse engineering (SRE) framework",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "lang": "Java",
+      "tags": [],
+      "metrics": {
+        "stars": 73875,
+        "starsDelta": 196
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "Ghidra is an open-source software reverse engineering framework developed by the NSA.",
+      "summaryKo": "NSA에서 개발한 오픈소스 소프트웨어 리버스 엔지니어링 프레임워크입니다.",
+      "categories": [
         "engineering"
       ],
       "firstSeenAt": "2026-08-29T02:56:27.939Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
-    },
-    {
-      "id": "gh:google/googletest",
-      "type": "repo",
-      "title": "google/googletest",
-      "summaryOriginal": "GoogleTest - Google Testing and Mocking Framework",
-      "url": "https://github.com/google/googletest",
-      "lang": "C++",
-      "tags": [],
-      "metrics": {
-        "stars": 39312,
-        "starsDelta": 125
-      },
-      "source": "github-trending",
-      "admitReason": "trending",
-      "summaryEn": "Google's testing and mocking framework for C++, widely used for unit testing and test-driven development.",
-      "summaryKo": "C++ 애플리케이션을 위한 구글의 공식 테스팅 및 모킹 프레임워크입니다.",
-      "categories": [
-        "engineering"
-      ],
-      "firstSeenAt": "2026-08-27T13:54:10.701Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
-    },
-    {
-      "id": "gh:kaifcodec/user-scanner",
-      "type": "repo",
-      "title": "kaifcodec/user-scanner",
-      "summaryOriginal": "🕵️‍♂️ (2-in-1) Email & Username OSINT suite for deep data extraction just from a single Email/Username. Analyzes 455+ actively maintained scan vectors (175+ email / 280+ username) for security research, investigations, and digital footprinting.",
-      "url": "https://github.com/kaifcodec/user-scanner",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "stars": 3507,
-        "starsDelta": 39
-      },
-      "source": "github-trending",
-      "admitReason": "trending",
-      "summaryEn": "An OSINT suite that extracts digital footprints from a single email or username across 455+ vectors.",
-      "summaryKo": "455개 이상의 벡터를 활용해 단일 이메일이나 사용자 이름에서 디지털 발자국을 추출하는 OSINT 도구입니다.",
-      "reasonEn": "Active security research utility",
-      "reasonKo": "활성 보안 연구 유틸리티",
-      "categories": [
-        "engineering"
-      ],
-      "firstSeenAt": "2026-08-29T22:55:06.972Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:tt-a1i/archify",
@@ -97,12 +71,12 @@
         "diagrams"
       ],
       "metrics": {
-        "stars": 30910
+        "stars": 34366
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-04-15T05:27:37Z",
-      "updatedAt": "2026-08-29T17:13:30Z",
+      "updatedAt": "2026-08-30T15:05:12Z",
       "summaryEn": "An agent skill that generates verifiable architecture and workflow diagrams as self-contained animated HTML.",
       "summaryKo": "에이전트용 스킬. 아키텍처·워크플로우 다이어그램을 애니메이션 HTML로 생성.",
       "categories": [
@@ -111,7 +85,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:tt-a1i/simplify-codebase",
@@ -129,7 +103,7 @@
         "refactoring"
       ],
       "metrics": {
-        "stars": 345
+        "stars": 359
       },
       "source": "github-search",
       "admitReason": "new",
@@ -143,7 +117,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-28T00:16:59.828Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:keploy/keploy",
@@ -180,7 +154,7 @@
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:storybookjs/storybook",
@@ -204,7 +178,7 @@
         "svelte"
       ],
       "metrics": {
-        "stars": 90962
+        "stars": 90967
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -216,7 +190,7 @@
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:hoppscotch/hoppscotch",
@@ -240,7 +214,7 @@
         "spa"
       ],
       "metrics": {
-        "stars": 80116
+        "stars": 80121
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -255,7 +229,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:karatelabs/karate",
@@ -279,12 +253,12 @@
         "test-automation"
       ],
       "metrics": {
-        "stars": 8931
+        "stars": 8933
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2017-02-07T15:59:17Z",
-      "updatedAt": "2026-08-29T06:55:26Z",
+      "updatedAt": "2026-08-30T19:58:57Z",
       "summaryEn": "Lightweight testing framework for API and E2E tests using BDD syntax; no build step required, runs on JVM.",
       "summaryKo": "BDD 문법을 사용한 API 및 E2E 테스팅 프레임워크; 빌드 스텝 불필요, JVM에서 실행.",
       "categories": [
@@ -292,46 +266,7 @@
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
-    },
-    {
-      "id": "gh:ThreeDotsLabs/wild-workouts-go-ddd-example",
-      "type": "repo",
-      "title": "ThreeDotsLabs/wild-workouts-go-ddd-example",
-      "summaryOriginal": "Go DDD example application. Complete project to show how to apply DDD, Clean Architecture, and CQRS by practical refactoring.",
-      "url": "https://github.com/ThreeDotsLabs/wild-workouts-go-ddd-example",
-      "lang": "Go",
-      "tags": [
-        "clean-architecture",
-        "cqrs",
-        "ddd",
-        "firebase",
-        "firestore",
-        "gcp",
-        "go",
-        "golang",
-        "google-cloud",
-        "hexagonal-architecture",
-        "refactoring",
-        "serverless"
-      ],
-      "metrics": {
-        "stars": 6433
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2020-05-06T20:30:16Z",
-      "updatedAt": "2026-08-27T08:28:31Z",
-      "summaryEn": "Practical Go example application demonstrating Domain-Driven Design, Clean Architecture, and CQRS patterns.",
-      "summaryKo": "도메인 주도 설계와 클린 아키텍처를 적용한 실용적인 Go 예제 애플리케이션.",
-      "reasonEn": "Classic reference repo for software architecture",
-      "reasonKo": "소프트웨어 아키텍처 레퍼런스로 꾸준히 인기",
-      "categories": [
-        "infra",
-        "engineering"
-      ],
-      "firstSeenAt": "2026-08-25T15:43:44.793Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:d2lang/d2",
@@ -350,12 +285,12 @@
         "text-to-diagram"
       ],
       "metrics": {
-        "stars": 25102
+        "stars": 25105
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2022-09-05T23:12:27Z",
-      "updatedAt": "2026-08-29T22:44:46Z",
+      "updatedAt": "2026-08-30T22:31:24Z",
       "summaryEn": "A modern text-to-diagram scripting language designed to generate clean software architecture diagrams.",
       "summaryKo": "텍스트로 소프트웨어 아키텍처 다이어그램을 생성하는 최신 스크립트 언어입니다.",
       "reasonEn": "Widely used for declarative architecture diagramming.",
@@ -365,7 +300,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-23T21:22:43.210Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:GanyuanRan/Aegis",
@@ -389,7 +324,7 @@
         "evidence-driven"
       ],
       "metrics": {
-        "stars": 1151
+        "stars": 1155
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -401,7 +336,39 @@
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
+    },
+    {
+      "id": "gh:iluwatar/java-design-patterns",
+      "type": "repo",
+      "title": "iluwatar/java-design-patterns",
+      "summaryOriginal": "Design patterns implemented in Java",
+      "url": "https://github.com/iluwatar/java-design-patterns",
+      "lang": "Java",
+      "tags": [
+        "awesome-list",
+        "design-patterns",
+        "hacktoberfest",
+        "java",
+        "principles",
+        "snippets",
+        "snippets-collection",
+        "snippets-library"
+      ],
+      "metrics": {
+        "stars": 94636
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2014-08-09T16:45:18Z",
+      "updatedAt": "2026-08-30T11:53:09Z",
+      "summaryEn": "Comprehensive collection of Gang of Four design patterns with Java implementations; reference for common architectural solutions.",
+      "summaryKo": "Java 구현을 포함한 Gang of Four 디자인 패턴 전집; 공통 아키텍처 솔루션 참고 자료.",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:taiga-family/taiga-ui",
@@ -430,14 +397,14 @@
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2020-09-25T16:09:18Z",
-      "updatedAt": "2026-08-29T21:19:34Z",
+      "updatedAt": "2026-08-30T15:59:32Z",
       "summaryEn": "Angular component library with TypeScript and responsive design; production-ready UI kit for enterprise applications.",
       "summaryKo": "TypeScript 및 반응형 디자인을 갖춘 Angular 컴포넌트 라이브러리; 엔터프라이즈 앱용 프로덕션 레디 UI 킷.",
       "categories": [
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:layer5io/layer5",
@@ -473,7 +440,7 @@
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:saurabhkumar8112/cyclomatic-complexity-skill",
@@ -488,7 +455,7 @@
         "refactoring"
       ],
       "metrics": {
-        "stars": 166
+        "stars": 262
       },
       "source": "github-search",
       "admitReason": "new",
@@ -500,7 +467,7 @@
         "engineering"
       ],
       "firstSeenAt": "2026-08-27T13:54:10.701Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:ast-grep/ast-grep",
@@ -524,12 +491,12 @@
         "static-analysis"
       ],
       "metrics": {
-        "stars": 15689
+        "stars": 15700
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2022-07-01T19:21:00Z",
-      "updatedAt": "2026-08-29T18:56:28Z",
+      "updatedAt": "2026-08-30T21:42:00Z",
       "summaryEn": "CLI tool for code structural search, linting, and rewriting using tree-sitter. Fast AST-based alternative to regex grep for codebases.",
       "summaryKo": "트리-시터 기반 구조적 코드 검색, 린팅, 리라이팅 CLI 도구. 정규식보다 강력한 코드 변환.",
       "reasonEn": "15k+ stars shows strong adoption for codemod and refactoring workflows.",
@@ -538,7 +505,7 @@
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:repowise-dev/repowise",
@@ -562,12 +529,12 @@
         "python"
       ],
       "metrics": {
-        "stars": 6273
+        "stars": 6270
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-03-23T09:12:28Z",
-      "updatedAt": "2026-08-29T19:41:00Z",
+      "updatedAt": "2026-08-30T17:56:14Z",
       "summaryEn": "AI-powered codebase analysis: code health scores, auto-docs, git analytics, dead code detection. Integrates via MCP protocol.",
       "summaryKo": "AI 기반 코드베이스 분석: 건강도 점수, 자동 문서화, 깃 분석, 데드코드 탐지.",
       "reasonEn": "MCP support and multi-faceted code intelligence appeal to modern dev workflows.",
@@ -576,7 +543,41 @@
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
+    },
+    {
+      "id": "gh:biomejs/gritql",
+      "type": "repo",
+      "title": "biomejs/gritql",
+      "summaryOriginal": "GritQL is a query language for searching, linting, and modifying code.",
+      "url": "https://github.com/biomejs/gritql",
+      "lang": "Rust",
+      "tags": [
+        "ast",
+        "codemod",
+        "javascript",
+        "linter",
+        "refactoring",
+        "rust",
+        "search",
+        "tree-sitter"
+      ],
+      "metrics": {
+        "stars": 4583
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2024-03-08T23:18:51Z",
+      "updatedAt": "2026-08-30T08:27:39Z",
+      "summaryEn": "Query language for searching, linting, and transforming code across multiple languages.",
+      "summaryKo": "여러 언어의 코드를 검색·린트·변환하는 쿼리 언어.",
+      "reasonEn": "4.5k+ stars, from the Biome toolchain team",
+      "reasonKo": "스타 4.5천, Biome 툴체인 팀이 개발",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:openrewrite/rewrite",
@@ -594,19 +595,19 @@
         "refactoring-tools"
       ],
       "metrics": {
-        "stars": 3682
+        "stars": 3683
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2020-05-12T20:16:14Z",
-      "updatedAt": "2026-08-29T19:22:35Z",
+      "updatedAt": "2026-08-30T12:03:23Z",
       "summaryEn": "Automated mass refactoring engine using AST analysis. Handles large-scale code transformations across Java and polyglot codebases.",
       "summaryKo": "AST 기반 자동화된 대규모 리팩토링 엔진. 자바 코드 변환에 특화.",
       "categories": [
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:sourcery-ai/sourcery",
@@ -624,7 +625,7 @@
         "software-development"
       ],
       "metrics": {
-        "stars": 1859
+        "stars": 1857
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -636,7 +637,43 @@
         "engineering"
       ],
       "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
+    },
+    {
+      "id": "gh:hyhmrright/brooks-lint",
+      "type": "repo",
+      "title": "hyhmrright/brooks-lint",
+      "summaryOriginal": "AI code reviews grounded in 12 classic engineering books — decay risk diagnostics with book citations, severity labels, and 6 analysis modes including full-sweep auto-fix",
+      "url": "https://github.com/hyhmrright/brooks-lint",
+      "lang": "JavaScript",
+      "tags": [
+        "agent-skills",
+        "ai-code-review",
+        "architecture-review",
+        "auto-fix",
+        "claude-code",
+        "claude-code-plugin",
+        "clean-architecture",
+        "code-health",
+        "code-quality",
+        "code-review",
+        "code-smells",
+        "codex-cli-plugin"
+      ],
+      "metrics": {
+        "stars": 1433
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2026-03-26T11:40:33Z",
+      "updatedAt": "2026-08-30T00:57:59Z",
+      "summaryEn": "AI code review tool grounded in software engineering classics, offering severity labels, decay-risk diagnostics, and automated refactoring across multiple LLM backends.",
+      "summaryKo": "소프트웨어 공학 고전에 기반한 AI 코드 리뷰 도구, 심각도 레이블과 자동 수정 기능 포함.",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-20T15:35:22.477Z",
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:ml-tooling/best-of-python-dev",
@@ -660,7 +697,7 @@
         "mkdocs"
       ],
       "metrics": {
-        "stars": 1299
+        "stars": 1298
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -672,7 +709,7 @@
         "engineering"
       ],
       "firstSeenAt": "2026-08-21T01:23:34.400Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:codemod/codemod",
@@ -704,7 +741,7 @@
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T21:26:34.657Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:puppeteer/puppeteer",
@@ -725,12 +762,12 @@
         "web"
       ],
       "metrics": {
-        "stars": 95521
+        "stars": 95527
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2017-05-09T22:16:13Z",
-      "updatedAt": "2026-08-28T05:38:40Z",
+      "updatedAt": "2026-08-30T03:03:07Z",
       "summaryEn": "Node.js library for headless browser automation of Chrome/Firefox. Industry standard for E2E testing, scraping, and performance measurement.",
       "summaryKo": "크롬/파이어폭스 헤드리스 브라우저 자동화 Node.js 라이브러리. E2E 테스트 표준.",
       "categories": [
@@ -738,7 +775,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:microsoft/playwright",
@@ -762,19 +799,19 @@
         "testing"
       ],
       "metrics": {
-        "stars": 95347
+        "stars": 95392
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2019-11-15T18:32:42Z",
-      "updatedAt": "2026-08-29T01:43:34Z",
+      "updatedAt": "2026-08-30T22:43:40Z",
       "summaryEn": "Cross-browser testing and automation framework (Chromium, Firefox, WebKit). Single API for end-to-end testing across modern browser engines.",
       "summaryKo": "크로스 브라우저 테스트 및 자동화 프레임워크. 하나의 API로 여러 브라우저 엔진 지원.",
       "categories": [
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:usebruno/bruno",
@@ -798,7 +835,7 @@
         "rest-api"
       ],
       "metrics": {
-        "stars": 46637
+        "stars": 46650
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -811,7 +848,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:jestjs/jest",
@@ -832,7 +869,7 @@
         "testing"
       ],
       "metrics": {
-        "stars": 45476
+        "stars": 45472
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -844,7 +881,7 @@
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:promptfoo/promptfoo",
@@ -868,19 +905,19 @@
         "prompt-engineering"
       ],
       "metrics": {
-        "stars": 24664
+        "stars": 24678
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2023-04-28T15:48:49Z",
-      "updatedAt": "2026-08-29T21:51:06Z",
+      "updatedAt": "2026-08-30T18:07:04Z",
       "summaryEn": "Testing and evaluation framework for LLM prompts, agents, and RAGs with red teaming, benchmarking, and CI/CD integration across multiple models.",
       "summaryKo": "LLM 프롬프트 및 에이전트 테스트, 평가, 레드팀 기능과 CI/CD 통합.",
       "categories": [
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:mochajs/mocha",
@@ -916,34 +953,7 @@
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
-    },
-    {
-      "id": "gh:testing-library/react-testing-library",
-      "type": "repo",
-      "title": "testing-library/react-testing-library",
-      "summaryOriginal": "🐐 Simple and complete React DOM testing utilities that encourage good testing practices.",
-      "url": "https://github.com/testing-library/react-testing-library",
-      "lang": "JavaScript",
-      "tags": [
-        "javascript",
-        "reactjs",
-        "testing"
-      ],
-      "metrics": {
-        "stars": 19646
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2018-03-19T13:39:49Z",
-      "updatedAt": "2026-08-27T17:40:18Z",
-      "summaryEn": "Simple and complete React DOM testing utilities that encourage robust testing practices.",
-      "summaryKo": "견고한 테스트 관행을 장려하는 간단하고 완전한 React DOM 테스트 유틸리티",
-      "categories": [
-        "engineering"
-      ],
-      "firstSeenAt": "2026-08-28T00:16:59.828Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:Orange-OpenSource/hurl",
@@ -963,55 +973,19 @@
         "testing-tools"
       ],
       "metrics": {
-        "stars": 19163
+        "stars": 19166
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2020-08-25T14:50:56Z",
-      "updatedAt": "2026-08-29T09:17:21Z",
+      "updatedAt": "2026-08-30T12:35:03Z",
       "summaryEn": "CLI tool for testing and running HTTP requests using plain text format, useful for API testing and integration testing without coding.",
       "summaryKo": "평문 형식으로 HTTP 요청을 테스트하는 CLI 도구로 API 통합 테스트에 유용.",
       "categories": [
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
-    },
-    {
-      "id": "gh:mockito/mockito",
-      "type": "repo",
-      "title": "mockito/mockito",
-      "summaryOriginal": "Most popular Mocking framework for unit tests written in Java",
-      "url": "https://github.com/mockito/mockito",
-      "lang": "Java",
-      "tags": [
-        "java",
-        "java-library",
-        "mock",
-        "mock-library",
-        "mocking",
-        "mocking-framework",
-        "mockito",
-        "mocks",
-        "test-automation",
-        "test-driven-development",
-        "testing",
-        "testing-tools"
-      ],
-      "metrics": {
-        "stars": 15447
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2012-10-13T20:27:12Z",
-      "updatedAt": "2026-08-27T18:02:55Z",
-      "summaryEn": "Mockito is a popular mocking framework used for writing unit tests in Java applications.",
-      "summaryKo": "자바 애플리케이션의 단위 테스트 작성을 위한 인기 모킹 프레임워크입니다.",
-      "categories": [
-        "engineering"
-      ],
-      "firstSeenAt": "2026-08-29T02:56:27.939Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:web-infra-dev/midscene",
@@ -1031,7 +1005,7 @@
         "testing"
       ],
       "metrics": {
-        "stars": 14737
+        "stars": 14738
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1043,7 +1017,7 @@
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:pytest-dev/pytest",
@@ -1065,14 +1039,14 @@
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2015-06-15T20:28:27Z",
-      "updatedAt": "2026-08-27T19:55:51Z",
+      "updatedAt": "2026-08-30T20:29:53Z",
       "summaryEn": "Popular Python testing framework enabling simple unit tests to complex functional tests with fixtures, plugins, and powerful assertion introspection.",
       "summaryKo": "간단한 단위 테스트부터 복잡한 기능 테스트까지 지원하는 Python 테스트 프레임워크.",
       "categories": [
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:phpstan/phpstan",
@@ -1091,19 +1065,19 @@
         "testing"
       ],
       "metrics": {
-        "stars": 14088
+        "stars": 14089
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2016-01-04T18:22:16Z",
-      "updatedAt": "2026-08-27T23:47:51Z",
+      "updatedAt": "2026-08-30T21:46:18Z",
       "summaryEn": "Static analysis tool for PHP that detects bugs and type errors without executing code, improving code quality and type safety.",
       "summaryKo": "PHP 코드의 버그와 타입 오류를 실행 없이 감지하는 정적 분석 도구.",
       "categories": [
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:robotframework/robotframework",
@@ -1128,14 +1102,14 @@
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2014-06-27T11:10:38Z",
-      "updatedAt": "2026-08-28T18:09:16Z",
+      "updatedAt": "2026-08-30T20:10:37Z",
       "summaryEn": "Automation framework for acceptance testing and RPA using keyword-driven approach, supporting multiple libraries and data-driven testing.",
       "summaryKo": "키워드 기반 자동화 프레임워크로 수용 테스트 및 RPA 작업 지원.",
       "categories": [
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:foundry-rs/foundry",
@@ -1159,19 +1133,19 @@
         "ir"
       ],
       "metrics": {
-        "stars": 10573
+        "stars": 10575
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2021-09-08T11:23:11Z",
-      "updatedAt": "2026-08-29T19:37:01Z",
+      "updatedAt": "2026-08-30T22:22:55Z",
       "summaryEn": "Rust toolkit for Ethereum smart contract development including compiler, fuzzing, and testing tools for fast and portable dApp development.",
       "summaryKo": "Rust 기반 Ethereum 스마트 계약 개발 도구로 컴파일, 퍼징, 테스트 지원.",
       "categories": [
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:HypothesisWorks/hypothesis",
@@ -1187,12 +1161,12 @@
         "testing"
       ],
       "metrics": {
-        "stars": 8919
+        "stars": 8921
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2013-03-10T13:51:19Z",
-      "updatedAt": "2026-08-29T22:49:04Z",
+      "updatedAt": "2026-08-30T20:37:57Z",
       "summaryEn": "Property-based testing library for Python that generates edge-case inputs automatically.",
       "summaryKo": "엣지 케이스 입력을 자동 생성하는 파이썬 속성 기반 테스트 라이브러리.",
       "reasonEn": "8.9k+ stars, standard property-based testing for Python",
@@ -1201,40 +1175,7 @@
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
-    },
-    {
-      "id": "gh:testcontainers/testcontainers-java",
-      "type": "repo",
-      "title": "testcontainers/testcontainers-java",
-      "summaryOriginal": "Testcontainers is a Java library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.",
-      "url": "https://github.com/testcontainers/testcontainers-java",
-      "lang": "Java",
-      "tags": [
-        "docker",
-        "docker-compose",
-        "hacktoberfest",
-        "integration-testing",
-        "java",
-        "junit",
-        "jvm",
-        "test-automation",
-        "testing"
-      ],
-      "metrics": {
-        "stars": 8724
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2015-04-12T12:44:59Z",
-      "updatedAt": "2026-08-27T22:26:01Z",
-      "summaryEn": "Java library that provides lightweight, throwaway instances of databases and Docker containers for integration testing.",
-      "summaryKo": "통합 테스트를 위해 Docker 컨테이너를 가볍게 띄워주는 자바 라이브러리입니다.",
-      "categories": [
-        "engineering"
-      ],
-      "firstSeenAt": "2026-08-23T12:42:30.740Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:react-cosmos/react-cosmos",
@@ -1264,42 +1205,7 @@
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
-    },
-    {
-      "id": "gh:vektra/mockery",
-      "type": "repo",
-      "title": "vektra/mockery",
-      "summaryOriginal": "A mock code autogenerator for Go",
-      "url": "https://github.com/vektra/mockery",
-      "lang": "Go",
-      "tags": [
-        "generation",
-        "generator",
-        "go",
-        "golang",
-        "mock",
-        "mockgen",
-        "mocking",
-        "mocks",
-        "stretchr",
-        "testify",
-        "testing"
-      ],
-      "metrics": {
-        "stars": 7154
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2014-09-02T16:49:01Z",
-      "updatedAt": "2026-08-27T16:55:26Z",
-      "summaryEn": "Mockery is a CLI tool that automatically generates mock code for Go interfaces using testify.",
-      "summaryKo": "Go 인터페이스를 위한 모의(mock) 코드를 자동으로 생성해 주는 도구입니다.",
-      "categories": [
-        "engineering"
-      ],
-      "firstSeenAt": "2026-08-23T06:43:06.551Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:kulshekhar/ts-jest",
@@ -1319,14 +1225,14 @@
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2016-08-30T13:47:17Z",
-      "updatedAt": "2026-08-29T22:09:15Z",
+      "updatedAt": "2026-08-30T02:06:20Z",
       "summaryEn": "Jest transformer with source map support for testing TypeScript projects natively.",
       "summaryKo": "TypeScript 프로젝트를 네이티브로 테스트할 수 있는 소스 맵 지원 Jest 트랜스포머입니다.",
       "categories": [
         "engineering"
       ],
       "firstSeenAt": "2026-08-21T18:38:31.239Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:doctest/doctest",
@@ -1362,7 +1268,7 @@
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T21:26:34.657Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:grpc-ecosystem/go-grpc-middleware",
@@ -1396,7 +1302,7 @@
         "engineering"
       ],
       "firstSeenAt": "2026-08-21T15:35:08.741Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:AFLplusplus/AFLplusplus",
@@ -1420,7 +1326,7 @@
         "security"
       ],
       "metrics": {
-        "stars": 6739
+        "stars": 6741
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1432,7 +1338,7 @@
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:google/syzkaller",
@@ -1453,7 +1359,7 @@
         "testing"
       ],
       "metrics": {
-        "stars": 6310
+        "stars": 6311
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1465,7 +1371,7 @@
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:web-platform-tests/wpt",
@@ -1489,179 +1395,24 @@
         "test-automation"
       ],
       "metrics": {
-        "stars": 6125
+        "stars": 6126
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2012-03-04T12:58:11Z",
-      "updatedAt": "2026-08-29T20:54:18Z",
+      "updatedAt": "2026-08-30T22:23:07Z",
       "summaryEn": "Comprehensive test suite for web standards (WHATWG, W3C) across all major browsers; ensures cross-platform compatibility.",
       "summaryKo": "WHATWG, W3C 웹 표준 테스트 스위트, 모든 브라우저 호환성 검증.",
       "categories": [
         "engineering"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
-    },
-    {
-      "id": "gh:openTrinity/mycontext",
-      "type": "repo",
-      "title": "openTrinity/mycontext",
-      "summaryOriginal": "MyContext is a local-first desktop app for everyday communication and knowledge work",
-      "url": "https://github.com/openTrinity/mycontext",
-      "lang": "TypeScript",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 6,
-        "totalScore": 220.985,
-        "stars": 2875
-      },
-      "source": "ossinsight",
-      "admitReason": "notable",
-      "summaryEn": "Local-first desktop application for everyday communication and knowledge work.",
-      "summaryKo": "일상 커뮤니케이션과 지식 작업을 위한 로컬 우선 데스크톱 앱입니다.",
-      "reasonEn": "Gaining attention for privacy-focused knowledge tools.",
-      "reasonKo": "프라이버시 중심 지식 도구로 주목받는 중",
-      "categories": [
-        "engineering"
-      ],
-      "updatedAt": "2026-08-29T15:16:22Z",
-      "firstSeenAt": "2026-08-29T22:55:06.972Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
-    },
-    {
-      "id": "gh:daimon3332/address",
-      "type": "repo",
-      "title": "daimon3332/address",
-      "summaryOriginal": "A self-hosted address and synthetic test-profile generator for 27 countries and regions, built from real open-data streets, administrative areas, coordinates, and postcodes. Supports multilingual output, IP-nearby generation, map previews, and API access. 基于真实开放数据的自托管地址与合成测试资料生成器，覆盖 27 个国家和地区，支持多语言地址、IP 附近生成、地图预览与 API 调用",
-      "url": "https://github.com/daimon3332/address",
-      "lang": "TypeScript",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 4,
-        "totalScore": 212.9443,
-        "stars": 1545
-      },
-      "source": "ossinsight",
-      "admitReason": "notable",
-      "summaryEn": "A self-hosted synthetic test profile and address generator covering 27 countries using open data.",
-      "summaryKo": "공개 데이터를 기반으로 27개국의 가상 테스트 프로필 및 주소를 생성하는 자체 호스팅 도구입니다.",
-      "reasonEn": "Handy developer testing utility",
-      "reasonKo": "유용한 개발자 테스트 유틸리티",
-      "categories": [
-        "backend",
-        "infra",
-        "engineering"
-      ],
-      "updatedAt": "2026-08-27T14:21:31Z",
-      "firstSeenAt": "2026-08-29T22:55:06.972Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
-    },
-    {
-      "id": "gh:pathwaycom/arc-task-gen",
-      "type": "repo",
-      "title": "pathwaycom/arc-task-gen",
-      "summaryOriginal": "Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set.",
-      "url": "https://github.com/pathwaycom/arc-task-gen",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 4,
-        "totalScore": 211.7323,
-        "stars": 8818
-      },
-      "source": "ossinsight",
-      "admitReason": "notable",
-      "summaryEn": "Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set to help evaluate reasoning models.",
-      "summaryKo": "공개 평가셋과 분포가 일치하는 원본 ARC-AGI-1 스타일 작업을 생성합니다.",
-      "categories": [
-        "ai-models",
-        "engineering"
-      ],
-      "updatedAt": "2026-08-11T09:52:10Z",
-      "firstSeenAt": "2026-08-29T02:56:27.939Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
-    },
-    {
-      "id": "hn:49234675",
-      "type": "article",
-      "title": "How I use LLMs to learn complex topics",
-      "summaryOriginal": "How I use LLMs to learn complex topics",
-      "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 835,
-        "comments": 548
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-09T19:16:49Z",
-      "admitReason": "notable",
-      "summaryEn": "Personal workflows and strategies for using LLMs to study complex technical domains.",
-      "summaryKo": "복잡한 기술 분야를 학습할 때 LLM을 활용하는 개인적 방법론입니다.",
-      "reasonEn": "Popular practical guide for developer learning.",
-      "reasonKo": "개발자 학습을 위한 실용적인 가이드로 인기",
-      "categories": [
-        "engineering"
-      ],
-      "firstSeenAt": "2026-08-29T02:56:27.939Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
-    },
-    {
-      "id": "hn:49365405",
-      "type": "article",
-      "title": "Go 1.27",
-      "summaryOriginal": "Go 1.27",
-      "url": "https://go.dev/blog/go1.27",
-      "tags": [],
-      "metrics": {
-        "upvotes": 758,
-        "comments": 265
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-19T18:33:49Z",
-      "admitReason": "notable",
-      "summaryEn": "Updates and feature announcements for Go 1.27, the popular statically typed programming language.",
-      "summaryKo": "인기 있는 정적 타이핑 프로그래밍 언어인 Go 1.27의 업데이트 및 기능 발표입니다.",
-      "reasonEn": "Major new release of the popular Go language.",
-      "reasonKo": "인기 있는 Go 언어의 주요 새 릴리스.",
-      "categories": [
-        "backend",
-        "engineering"
-      ],
-      "firstSeenAt": "2026-08-29T22:55:06.972Z",
-      "lastSeenAt": "2026-08-29T22:55:06.972Z"
-    },
-    {
-      "id": "gh:NationalSecurityAgency/ghidra",
-      "type": "repo",
-      "categories": [
-        "engineering"
-      ],
-      "title": "NationalSecurityAgency/ghidra",
-      "summaryEn": "Ghidra is an open-source software reverse engineering framework developed by the NSA.",
-      "summaryKo": "NSA에서 개발한 오픈소스 소프트웨어 리버스 엔지니어링 프레임워크입니다.",
-      "summaryOriginal": "Ghidra is a software reverse engineering (SRE) framework",
-      "url": "https://github.com/NationalSecurityAgency/ghidra",
-      "lang": "Java",
-      "tags": [],
-      "metrics": {
-        "stars": 73360,
-        "starsDelta": 191
-      },
-      "source": "github-trending",
-      "firstSeenAt": "2026-08-29T02:56:27.939Z",
-      "lastSeenAt": "2026-08-29T02:56:27.939Z",
-      "admitReason": "trending"
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
     },
     {
       "id": "gh:maildev/maildev",
       "type": "repo",
-      "categories": [
-        "engineering"
-      ],
       "title": "maildev/maildev",
-      "summaryEn": "Local SMTP server with web UI for intercepting and inspecting emails during development without external dependencies.",
-      "summaryKo": "개발 중 이메일 확인용 로컬 SMTP 서버, 웹 UI 제공.",
       "summaryOriginal": ":mailbox: SMTP Server + Web Interface for viewing and testing emails during development.",
       "url": "https://github.com/maildev/maildev",
       "lang": "TypeScript",
@@ -1678,13 +1429,476 @@
         "testing"
       ],
       "metrics": {
-        "stars": 6036
+        "stars": 6038
       },
       "source": "github-search",
+      "admitReason": "notable",
       "publishedAt": "2013-03-31T19:37:09Z",
       "updatedAt": "2026-08-28T17:28:58Z",
+      "summaryEn": "Local SMTP server with web UI for intercepting and inspecting emails during development without external dependencies.",
+      "summaryKo": "개발 중 이메일 확인용 로컬 SMTP 서버, 웹 UI 제공.",
+      "categories": [
+        "engineering"
+      ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T02:56:27.939Z",
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
+    },
+    {
+      "id": "gh:goss-org/goss",
+      "type": "repo",
+      "title": "goss-org/goss",
+      "summaryOriginal": "Quick and Easy server testing/validation",
+      "url": "https://github.com/goss-org/goss",
+      "lang": "Go",
+      "tags": [
+        "devops",
+        "devops-tools",
+        "docker",
+        "go",
+        "golang",
+        "goss",
+        "health-check",
+        "health-endpoint",
+        "infrastructure-as-code",
+        "linux",
+        "nagios",
+        "sensu"
+      ],
+      "metrics": {
+        "stars": 5957
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2015-10-01T23:13:01Z",
+      "updatedAt": "2026-08-29T23:16:45Z",
+      "summaryEn": "Lightweight tool for quick server validation and health checks, an alternative to Serverspec.",
+      "summaryKo": "서버를 빠르게 검증·헬스체크하는 경량 도구, Serverspec 대안.",
+      "reasonEn": "6k+ stars, simple infra validation tool",
+      "reasonKo": "스타 6천, 간단한 인프라 검증 도구",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
+    },
+    {
+      "id": "gh:dubzzz/fast-check",
+      "type": "repo",
+      "title": "dubzzz/fast-check",
+      "summaryOriginal": "Property based testing framework for JavaScript (like QuickCheck) written in TypeScript",
+      "url": "https://github.com/dubzzz/fast-check",
+      "lang": "TypeScript",
+      "tags": [
+        "faker",
+        "fuzzing",
+        "generative-testing",
+        "property-based-testing",
+        "quickcheck",
+        "tdd",
+        "testing",
+        "typescript",
+        "unit-testing"
+      ],
+      "metrics": {
+        "stars": 5125
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2017-10-30T23:41:11Z",
+      "updatedAt": "2026-08-30T04:25:31Z",
+      "summaryEn": "Property-based testing framework for JavaScript/TypeScript, similar to QuickCheck.",
+      "summaryKo": "QuickCheck과 유사한 JavaScript/TypeScript용 속성 기반 테스트 프레임워크.",
+      "reasonEn": "5k+ stars, established property-based testing tool for JS",
+      "reasonKo": "스타 5천, JS 속성 기반 테스트 도구로 자리매김",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
+    },
+    {
+      "id": "gh:mock-server/mockserver-monorepo",
+      "type": "repo",
+      "title": "mock-server/mockserver-monorepo",
+      "summaryOriginal": "MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify live traffic, and inject failures. It supports HTTP/1.1, HTTP/2, gRPC, WebSockets, TCP and more on a single port, with additional support for HTTP/3, message brokers, and AI/LLM APIs.",
+      "url": "https://github.com/mock-server/mockserver-monorepo",
+      "lang": "Java",
+      "tags": [
+        "ai",
+        "chaos-engineering",
+        "grunt-plugin",
+        "homebrew",
+        "java-client",
+        "javascript-client",
+        "llm",
+        "mcp",
+        "mock-server",
+        "node-client",
+        "node-module",
+        "proxy"
+      ],
+      "metrics": {
+        "stars": 4958
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2013-02-26T06:09:52Z",
+      "updatedAt": "2026-08-29T09:05:32Z",
+      "summaryEn": "HTTP mock server and proxy for testing APIs across multiple protocols (HTTP/1.1, HTTP/2, gRPC, WebSockets, TCP).",
+      "summaryKo": "HTTP/1.1, HTTP/2, gRPC, WebSocket, TCP를 지원하는 API 모의 서버 및 프록시.",
+      "categories": [
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-20T01:19:40.108Z",
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
+    },
+    {
+      "id": "gh:zhaoxuya520/reverse-skill",
+      "type": "repo",
+      "title": "zhaoxuya520/reverse-skill",
+      "summaryOriginal": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "lang": "PowerShell",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 8,
+        "totalScore": 237.6788,
+        "stars": 31965
+      },
+      "source": "ossinsight",
+      "admitReason": "notable",
+      "summaryEn": "AI-routed skill pack for reverse engineering and authorized pentesting, with on-demand tool bootstrapping for Claude Code, Cursor, and similar clients.",
+      "summaryKo": "리버스 엔지니어링·인가된 침투테스트용 AI 라우팅 스킬팩, Claude Code·Cursor 등 지원.",
+      "reasonEn": "New repo gaining early stars on GitHub",
+      "reasonKo": "신규 저장소, 초기 스타 증가 중",
+      "categories": [
+        "backend",
+        "engineering"
+      ],
+      "updatedAt": "2026-08-30T21:05:35Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
+    },
+    {
+      "id": "gh:daimon3332/address",
+      "type": "repo",
+      "title": "daimon3332/address",
+      "summaryOriginal": "A self-hosted address and synthetic test-profile generator for 27 countries and regions, built from real open-data streets, administrative areas, coordinates, and postcodes. Supports multilingual output, IP-nearby generation, map previews, and API access. 基于真实开放数据的自托管地址与合成测试资料生成器，覆盖 27 个国家和地区，支持多语言地址、IP 附近生成、地图预览与 API 调用",
+      "url": "https://github.com/daimon3332/address",
+      "lang": "TypeScript",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 4,
+        "totalScore": 221.5116,
+        "stars": 1892
+      },
+      "source": "ossinsight",
+      "admitReason": "notable",
+      "summaryEn": "A self-hosted synthetic test profile and address generator covering 27 countries using open data.",
+      "summaryKo": "공개 데이터를 기반으로 27개국의 가상 테스트 프로필 및 주소를 생성하는 자체 호스팅 도구입니다.",
+      "reasonEn": "Handy developer testing utility",
+      "reasonKo": "유용한 개발자 테스트 유틸리티",
+      "categories": [
+        "backend",
+        "infra",
+        "engineering"
+      ],
+      "updatedAt": "2026-08-27T14:21:31Z",
+      "firstSeenAt": "2026-08-29T22:55:06.972Z",
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
+    },
+    {
+      "id": "gh:kaifcodec/user-scanner",
+      "type": "repo",
+      "title": "kaifcodec/user-scanner",
+      "summaryOriginal": "🕵️‍♂️ (2-in-1) Email & Username OSINT suite for deep data extraction just from a single Email/Username. Analyzes 455+ actively maintained scan vectors (175+ email / 280+ username) for security research, investigations, and digital footprinting.",
+      "url": "https://github.com/kaifcodec/user-scanner",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 5,
+        "totalScore": 220.0572,
+        "stars": 3887
+      },
+      "source": "ossinsight",
+      "admitReason": "notable",
+      "summaryEn": "An OSINT suite that extracts digital footprints from a single email or username across 455+ vectors.",
+      "summaryKo": "455개 이상의 벡터를 활용해 단일 이메일이나 사용자 이름에서 디지털 발자국을 추출하는 OSINT 도구입니다.",
+      "reasonEn": "Active security research utility",
+      "reasonKo": "활성 보안 연구 유틸리티",
+      "categories": [
+        "engineering"
+      ],
+      "updatedAt": "2026-08-30T06:06:34Z",
+      "firstSeenAt": "2026-08-29T22:55:06.972Z",
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
+    },
+    {
+      "id": "gh:pathwaycom/arc-task-gen",
+      "type": "repo",
+      "title": "pathwaycom/arc-task-gen",
+      "summaryOriginal": "Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set.",
+      "url": "https://github.com/pathwaycom/arc-task-gen",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "starsDelta": 6,
+        "totalScore": 218.8805,
+        "stars": 9055
+      },
+      "source": "ossinsight",
+      "admitReason": "notable",
+      "summaryEn": "Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set to help evaluate reasoning models.",
+      "summaryKo": "공개 평가셋과 분포가 일치하는 원본 ARC-AGI-1 스타일 작업을 생성합니다.",
+      "categories": [
+        "ai-models",
+        "engineering"
+      ],
+      "updatedAt": "2026-08-11T09:52:10Z",
+      "firstSeenAt": "2026-08-29T02:56:27.939Z",
+      "lastSeenAt": "2026-08-30T23:00:09.024Z"
+    },
+    {
+      "id": "gh:abi/screenshot-to-code",
+      "type": "repo",
+      "categories": [
+        "web",
+        "engineering"
+      ],
+      "title": "abi/screenshot-to-code",
+      "summaryEn": "Tool that converts UI screenshots into clean frontend code using HTML, Tailwind, React, or Vue.",
+      "summaryKo": "UI 스크린샷을 HTML, Tailwind, React, Vue 등의 프론트엔드 코드로 변환해줍니다.",
+      "summaryOriginal": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+      "reasonEn": "Popular open-source tool for rapid UI prototyping",
+      "reasonKo": "빠른 UI 프로토타이핑을 위한 인기 오픈소스 도구",
+      "url": "https://github.com/abi/screenshot-to-code",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "stars": 76018,
+        "starsDelta": 558
+      },
+      "source": "github-trending",
+      "firstSeenAt": "2026-08-29T02:56:27.939Z",
+      "lastSeenAt": "2026-08-29T22:55:06.972Z",
+      "admitReason": "trending"
+    },
+    {
+      "id": "gh:google/googletest",
+      "type": "repo",
+      "categories": [
+        "engineering"
+      ],
+      "title": "google/googletest",
+      "summaryEn": "Google's testing and mocking framework for C++, widely used for unit testing and test-driven development.",
+      "summaryKo": "C++ 애플리케이션을 위한 구글의 공식 테스팅 및 모킹 프레임워크입니다.",
+      "summaryOriginal": "GoogleTest - Google Testing and Mocking Framework",
+      "url": "https://github.com/google/googletest",
+      "lang": "C++",
+      "tags": [],
+      "metrics": {
+        "stars": 39312,
+        "starsDelta": 125
+      },
+      "source": "github-trending",
+      "firstSeenAt": "2026-08-27T13:54:10.701Z",
+      "lastSeenAt": "2026-08-29T22:55:06.972Z",
+      "admitReason": "trending"
+    },
+    {
+      "id": "gh:ThreeDotsLabs/wild-workouts-go-ddd-example",
+      "type": "repo",
+      "categories": [
+        "infra",
+        "engineering"
+      ],
+      "title": "ThreeDotsLabs/wild-workouts-go-ddd-example",
+      "summaryEn": "Practical Go example application demonstrating Domain-Driven Design, Clean Architecture, and CQRS patterns.",
+      "summaryKo": "도메인 주도 설계와 클린 아키텍처를 적용한 실용적인 Go 예제 애플리케이션.",
+      "summaryOriginal": "Go DDD example application. Complete project to show how to apply DDD, Clean Architecture, and CQRS by practical refactoring.",
+      "reasonEn": "Classic reference repo for software architecture",
+      "reasonKo": "소프트웨어 아키텍처 레퍼런스로 꾸준히 인기",
+      "url": "https://github.com/ThreeDotsLabs/wild-workouts-go-ddd-example",
+      "lang": "Go",
+      "tags": [
+        "clean-architecture",
+        "cqrs",
+        "ddd",
+        "firebase",
+        "firestore",
+        "gcp",
+        "go",
+        "golang",
+        "google-cloud",
+        "hexagonal-architecture",
+        "refactoring",
+        "serverless"
+      ],
+      "metrics": {
+        "stars": 6433
+      },
+      "source": "github-search",
+      "publishedAt": "2020-05-06T20:30:16Z",
+      "updatedAt": "2026-08-27T08:28:31Z",
+      "firstSeenAt": "2026-08-25T15:43:44.793Z",
+      "lastSeenAt": "2026-08-29T22:55:06.972Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:testing-library/react-testing-library",
+      "type": "repo",
+      "categories": [
+        "engineering"
+      ],
+      "title": "testing-library/react-testing-library",
+      "summaryEn": "Simple and complete React DOM testing utilities that encourage robust testing practices.",
+      "summaryKo": "견고한 테스트 관행을 장려하는 간단하고 완전한 React DOM 테스트 유틸리티",
+      "summaryOriginal": "🐐 Simple and complete React DOM testing utilities that encourage good testing practices.",
+      "url": "https://github.com/testing-library/react-testing-library",
+      "lang": "JavaScript",
+      "tags": [
+        "javascript",
+        "reactjs",
+        "testing"
+      ],
+      "metrics": {
+        "stars": 19646
+      },
+      "source": "github-search",
+      "publishedAt": "2018-03-19T13:39:49Z",
+      "updatedAt": "2026-08-27T17:40:18Z",
+      "firstSeenAt": "2026-08-28T00:16:59.828Z",
+      "lastSeenAt": "2026-08-29T22:55:06.972Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:mockito/mockito",
+      "type": "repo",
+      "categories": [
+        "engineering"
+      ],
+      "title": "mockito/mockito",
+      "summaryEn": "Mockito is a popular mocking framework used for writing unit tests in Java applications.",
+      "summaryKo": "자바 애플리케이션의 단위 테스트 작성을 위한 인기 모킹 프레임워크입니다.",
+      "summaryOriginal": "Most popular Mocking framework for unit tests written in Java",
+      "url": "https://github.com/mockito/mockito",
+      "lang": "Java",
+      "tags": [
+        "java",
+        "java-library",
+        "mock",
+        "mock-library",
+        "mocking",
+        "mocking-framework",
+        "mockito",
+        "mocks",
+        "test-automation",
+        "test-driven-development",
+        "testing",
+        "testing-tools"
+      ],
+      "metrics": {
+        "stars": 15447
+      },
+      "source": "github-search",
+      "publishedAt": "2012-10-13T20:27:12Z",
+      "updatedAt": "2026-08-27T18:02:55Z",
+      "firstSeenAt": "2026-08-29T02:56:27.939Z",
+      "lastSeenAt": "2026-08-29T22:55:06.972Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:testcontainers/testcontainers-java",
+      "type": "repo",
+      "categories": [
+        "engineering"
+      ],
+      "title": "testcontainers/testcontainers-java",
+      "summaryEn": "Java library that provides lightweight, throwaway instances of databases and Docker containers for integration testing.",
+      "summaryKo": "통합 테스트를 위해 Docker 컨테이너를 가볍게 띄워주는 자바 라이브러리입니다.",
+      "summaryOriginal": "Testcontainers is a Java library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.",
+      "url": "https://github.com/testcontainers/testcontainers-java",
+      "lang": "Java",
+      "tags": [
+        "docker",
+        "docker-compose",
+        "hacktoberfest",
+        "integration-testing",
+        "java",
+        "junit",
+        "jvm",
+        "test-automation",
+        "testing"
+      ],
+      "metrics": {
+        "stars": 8724
+      },
+      "source": "github-search",
+      "publishedAt": "2015-04-12T12:44:59Z",
+      "updatedAt": "2026-08-27T22:26:01Z",
+      "firstSeenAt": "2026-08-23T12:42:30.740Z",
+      "lastSeenAt": "2026-08-29T22:55:06.972Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:vektra/mockery",
+      "type": "repo",
+      "categories": [
+        "engineering"
+      ],
+      "title": "vektra/mockery",
+      "summaryEn": "Mockery is a CLI tool that automatically generates mock code for Go interfaces using testify.",
+      "summaryKo": "Go 인터페이스를 위한 모의(mock) 코드를 자동으로 생성해 주는 도구입니다.",
+      "summaryOriginal": "A mock code autogenerator for Go",
+      "url": "https://github.com/vektra/mockery",
+      "lang": "Go",
+      "tags": [
+        "generation",
+        "generator",
+        "go",
+        "golang",
+        "mock",
+        "mockgen",
+        "mocking",
+        "mocks",
+        "stretchr",
+        "testify",
+        "testing"
+      ],
+      "metrics": {
+        "stars": 7154
+      },
+      "source": "github-search",
+      "publishedAt": "2014-09-02T16:49:01Z",
+      "updatedAt": "2026-08-27T16:55:26Z",
+      "firstSeenAt": "2026-08-23T06:43:06.551Z",
+      "lastSeenAt": "2026-08-29T22:55:06.972Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:openTrinity/mycontext",
+      "type": "repo",
+      "categories": [
+        "engineering"
+      ],
+      "title": "openTrinity/mycontext",
+      "summaryEn": "Local-first desktop application for everyday communication and knowledge work.",
+      "summaryKo": "일상 커뮤니케이션과 지식 작업을 위한 로컬 우선 데스크톱 앱입니다.",
+      "summaryOriginal": "MyContext is a local-first desktop app for everyday communication and knowledge work",
+      "reasonEn": "Gaining attention for privacy-focused knowledge tools.",
+      "reasonKo": "프라이버시 중심 지식 도구로 주목받는 중",
+      "url": "https://github.com/openTrinity/mycontext",
+      "lang": "TypeScript",
+      "tags": [],
+      "metrics": {
+        "stars": 2875,
+        "starsDelta": 6,
+        "totalScore": 220.985
+      },
+      "source": "ossinsight",
+      "updatedAt": "2026-08-29T15:16:22Z",
+      "firstSeenAt": "2026-08-29T22:55:06.972Z",
+      "lastSeenAt": "2026-08-29T22:55:06.972Z",
       "admitReason": "notable"
     },
     {
@@ -1714,41 +1928,6 @@
       "source": "github-search",
       "publishedAt": "2020-01-06T18:39:43Z",
       "updatedAt": "2026-08-27T18:39:56Z",
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-29T02:56:27.939Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "gh:dubzzz/fast-check",
-      "type": "repo",
-      "categories": [
-        "engineering"
-      ],
-      "title": "dubzzz/fast-check",
-      "summaryEn": "Property-based testing framework for JavaScript/TypeScript, similar to QuickCheck.",
-      "summaryKo": "QuickCheck과 유사한 JavaScript/TypeScript용 속성 기반 테스트 프레임워크.",
-      "summaryOriginal": "Property based testing framework for JavaScript (like QuickCheck) written in TypeScript",
-      "reasonEn": "5k+ stars, established property-based testing tool for JS",
-      "reasonKo": "스타 5천, JS 속성 기반 테스트 도구로 자리매김",
-      "url": "https://github.com/dubzzz/fast-check",
-      "lang": "TypeScript",
-      "tags": [
-        "faker",
-        "fuzzing",
-        "generative-testing",
-        "property-based-testing",
-        "quickcheck",
-        "tdd",
-        "testing",
-        "typescript",
-        "unit-testing"
-      ],
-      "metrics": {
-        "stars": 5121
-      },
-      "source": "github-search",
-      "publishedAt": "2017-10-30T23:41:11Z",
-      "updatedAt": "2026-08-29T00:26:18Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-29T02:56:27.939Z",
       "admitReason": "notable"
@@ -2038,42 +2217,6 @@
       "admitReason": "notable"
     },
     {
-      "id": "gh:mock-server/mockserver-monorepo",
-      "type": "repo",
-      "categories": [
-        "engineering"
-      ],
-      "title": "mock-server/mockserver-monorepo",
-      "summaryEn": "HTTP mock server and proxy for testing APIs across multiple protocols (HTTP/1.1, HTTP/2, gRPC, WebSockets, TCP).",
-      "summaryKo": "HTTP/1.1, HTTP/2, gRPC, WebSocket, TCP를 지원하는 API 모의 서버 및 프록시.",
-      "summaryOriginal": "MockServer is an HTTP(S) mock server and proxy for testing that lets you mock APIs, inspect and modify live traffic, and inject failures. It supports HTTP/1.1, HTTP/2, gRPC, WebSockets, TCP and more on a single port, with additional support for HTTP/3, message brokers, and AI/LLM APIs.",
-      "url": "https://github.com/mock-server/mockserver-monorepo",
-      "lang": "Java",
-      "tags": [
-        "ai",
-        "chaos-engineering",
-        "grunt-plugin",
-        "homebrew",
-        "java-client",
-        "javascript-client",
-        "llm",
-        "mcp",
-        "mock-server",
-        "node-client",
-        "node-module",
-        "proxy"
-      ],
-      "metrics": {
-        "stars": 4953
-      },
-      "source": "github-search",
-      "publishedAt": "2013-02-26T06:09:52Z",
-      "updatedAt": "2026-08-27T23:07:32Z",
-      "firstSeenAt": "2026-08-20T01:19:40.108Z",
-      "lastSeenAt": "2026-08-28T00:16:59.828Z",
-      "admitReason": "notable"
-    },
-    {
       "id": "gh:gruntwork-io/terratest",
       "type": "repo",
       "categories": [
@@ -2097,44 +2240,12 @@
         "testing-library"
       ],
       "metrics": {
-        "stars": 7943
+        "stars": 7944
       },
       "source": "github-search",
       "publishedAt": "2016-03-05T00:26:17Z",
       "updatedAt": "2026-08-25T03:18:57Z",
       "firstSeenAt": "2026-08-25T03:50:28.986Z",
-      "lastSeenAt": "2026-08-27T13:54:10.701Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "gh:iluwatar/java-design-patterns",
-      "type": "repo",
-      "categories": [
-        "engineering"
-      ],
-      "title": "iluwatar/java-design-patterns",
-      "summaryEn": "Comprehensive collection of Gang of Four design patterns with Java implementations; reference for common architectural solutions.",
-      "summaryKo": "Java 구현을 포함한 Gang of Four 디자인 패턴 전집; 공통 아키텍처 솔루션 참고 자료.",
-      "summaryOriginal": "Design patterns implemented in Java",
-      "url": "https://github.com/iluwatar/java-design-patterns",
-      "lang": "Java",
-      "tags": [
-        "awesome-list",
-        "design-patterns",
-        "hacktoberfest",
-        "java",
-        "principles",
-        "snippets",
-        "snippets-collection",
-        "snippets-library"
-      ],
-      "metrics": {
-        "stars": 94628
-      },
-      "source": "github-search",
-      "publishedAt": "2014-08-09T16:45:18Z",
-      "updatedAt": "2026-08-25T04:52:07Z",
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-27T13:54:10.701Z",
       "admitReason": "notable"
     },
@@ -2191,7 +2302,7 @@
         "testing"
       ],
       "metrics": {
-        "stars": 21443
+        "stars": 21452
       },
       "source": "github-search",
       "publishedAt": "2010-11-08T18:22:56Z",
@@ -2226,51 +2337,13 @@
         "testing"
       ],
       "metrics": {
-        "stars": 12286
+        "stars": 12289
       },
       "source": "github-search",
       "publishedAt": "2014-09-04T13:56:38Z",
       "updatedAt": "2026-08-25T19:40:05Z",
       "firstSeenAt": "2026-08-25T18:41:21.378Z",
       "lastSeenAt": "2026-08-27T13:54:10.701Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "gh:goss-org/goss",
-      "type": "repo",
-      "categories": [
-        "engineering"
-      ],
-      "title": "goss-org/goss",
-      "summaryEn": "Lightweight tool for quick server validation and health checks, an alternative to Serverspec.",
-      "summaryKo": "서버를 빠르게 검증·헬스체크하는 경량 도구, Serverspec 대안.",
-      "summaryOriginal": "Quick and Easy server testing/validation",
-      "reasonEn": "6k+ stars, simple infra validation tool",
-      "reasonKo": "스타 6천, 간단한 인프라 검증 도구",
-      "url": "https://github.com/goss-org/goss",
-      "lang": "Go",
-      "tags": [
-        "devops",
-        "devops-tools",
-        "docker",
-        "go",
-        "golang",
-        "goss",
-        "health-check",
-        "health-endpoint",
-        "infrastructure-as-code",
-        "linux",
-        "nagios",
-        "sensu"
-      ],
-      "metrics": {
-        "stars": 5955
-      },
-      "source": "github-search",
-      "publishedAt": "2015-10-01T23:13:01Z",
-      "updatedAt": "2026-08-25T19:31:43Z",
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-27T00:31:31.641Z",
       "admitReason": "notable"
     },
     {
@@ -2288,7 +2361,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 6724,
+        "stars": 6824,
         "totalScore": 207.8169
       },
       "source": "ossinsight",
@@ -2324,7 +2397,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 132
+        "stars": 134
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T08:12:20Z",
@@ -2369,42 +2442,6 @@
       "admitReason": "notable"
     },
     {
-      "id": "gh:hyhmrright/brooks-lint",
-      "type": "repo",
-      "categories": [
-        "engineering"
-      ],
-      "title": "hyhmrright/brooks-lint",
-      "summaryEn": "AI code review tool grounded in software engineering classics, offering severity labels, decay-risk diagnostics, and automated refactoring across multiple LLM backends.",
-      "summaryKo": "소프트웨어 공학 고전에 기반한 AI 코드 리뷰 도구, 심각도 레이블과 자동 수정 기능 포함.",
-      "summaryOriginal": "AI code reviews grounded in 12 classic engineering books — decay risk diagnostics with book citations, severity labels, and 6 analysis modes including full-sweep auto-fix",
-      "url": "https://github.com/hyhmrright/brooks-lint",
-      "lang": "JavaScript",
-      "tags": [
-        "agent-skills",
-        "ai-code-review",
-        "architecture-review",
-        "auto-fix",
-        "claude-code",
-        "claude-code-plugin",
-        "clean-architecture",
-        "code-health",
-        "code-quality",
-        "code-review",
-        "code-smells",
-        "codex-cli-plugin"
-      ],
-      "metrics": {
-        "stars": 1427
-      },
-      "source": "github-search",
-      "publishedAt": "2026-03-26T11:40:33Z",
-      "updatedAt": "2026-08-24T04:07:06Z",
-      "firstSeenAt": "2026-08-20T15:35:22.477Z",
-      "lastSeenAt": "2026-08-26T19:50:13.055Z",
-      "admitReason": "notable"
-    },
-    {
       "id": "gh:stretchr/testify",
       "type": "repo",
       "categories": [
@@ -2426,7 +2463,7 @@
         "toolkit"
       ],
       "metrics": {
-        "stars": 26185
+        "stars": 26191
       },
       "source": "github-search",
       "publishedAt": "2012-10-16T16:43:17Z",
@@ -2471,32 +2508,6 @@
       "admitReason": "notable"
     },
     {
-      "id": "gh:zhaoxuya520/reverse-skill",
-      "type": "repo",
-      "categories": [
-        "backend",
-        "engineering"
-      ],
-      "title": "zhaoxuya520/reverse-skill",
-      "summaryEn": "AI-routed skill pack for reverse engineering and authorized pentesting, with on-demand tool bootstrapping for Claude Code, Cursor, and similar clients.",
-      "summaryKo": "리버스 엔지니어링·인가된 침투테스트용 AI 라우팅 스킬팩, Claude Code·Cursor 등 지원.",
-      "summaryOriginal": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-      "reasonEn": "New repo gaining early stars on GitHub",
-      "reasonKo": "신규 저장소, 초기 스타 증가 중",
-      "url": "https://github.com/zhaoxuya520/reverse-skill",
-      "lang": "PowerShell",
-      "tags": [],
-      "metrics": {
-        "stars": 30146,
-        "totalScore": 213.4067
-      },
-      "source": "ossinsight",
-      "updatedAt": "2026-08-26T16:10:43Z",
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T06:52:39.327Z",
-      "admitReason": "notable"
-    },
-    {
       "id": "gh:mukul975/Anthropic-Cybersecurity-Skills",
       "type": "repo",
       "categories": [
@@ -2514,7 +2525,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 31522,
+        "stars": 31709,
         "totalScore": 208.0725
       },
       "source": "ossinsight",
@@ -2548,7 +2559,7 @@
         "testing"
       ],
       "metrics": {
-        "stars": 4961
+        "stars": 4965
       },
       "source": "github-search",
       "publishedAt": "2018-07-18T15:04:31Z",
@@ -2575,11 +2586,11 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 14195,
+        "stars": 14388,
         "totalScore": 204.9391
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-28T08:07:54Z",
+      "updatedAt": "2026-08-30T04:29:38Z",
       "firstSeenAt": "2026-08-19T09:35:40.383Z",
       "lastSeenAt": "2026-08-25T06:51:09.551Z",
       "admitReason": "notable"
@@ -2649,7 +2660,7 @@
         "microservices"
       ],
       "metrics": {
-        "stars": 3505
+        "stars": 3514
       },
       "source": "github-search",
       "publishedAt": "2023-08-30T14:18:59Z",
@@ -2712,10 +2723,10 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 31315
+        "stars": 31543
       },
       "source": "github-trending",
-      "updatedAt": "2026-08-29T02:20:29Z",
+      "updatedAt": "2026-08-30T17:26:31Z",
       "firstSeenAt": "2026-08-23T12:42:30.740Z",
       "lastSeenAt": "2026-08-24T09:50:01.036Z",
       "admitReason": "trending"
@@ -2782,11 +2793,11 @@
         "pandas-dataframe"
       ],
       "metrics": {
-        "stars": 4444
+        "stars": 4443
       },
       "source": "github-search",
       "publishedAt": "2018-11-01T02:18:34Z",
-      "updatedAt": "2026-08-27T00:55:33Z",
+      "updatedAt": "2026-08-30T05:02:01Z",
       "firstSeenAt": "2026-08-20T01:19:40.108Z",
       "lastSeenAt": "2026-08-24T08:55:53.167Z",
       "admitReason": "notable"
@@ -2818,11 +2829,11 @@
         "mobile"
       ],
       "metrics": {
-        "stars": 4265
+        "stars": 4290
       },
       "source": "github-search",
       "publishedAt": "2026-01-30T18:41:54Z",
-      "updatedAt": "2026-08-28T21:30:30Z",
+      "updatedAt": "2026-08-29T12:47:02Z",
       "firstSeenAt": "2026-08-20T01:19:40.108Z",
       "lastSeenAt": "2026-08-24T08:55:53.167Z",
       "admitReason": "notable"
@@ -2856,11 +2867,11 @@
         "testing-framework"
       ],
       "metrics": {
-        "stars": 4134
+        "stars": 4135
       },
       "source": "github-search",
       "publishedAt": "2015-11-18T00:13:28Z",
-      "updatedAt": "2026-08-28T17:07:36Z",
+      "updatedAt": "2026-08-30T22:29:13Z",
       "firstSeenAt": "2026-08-24T01:23:41.283Z",
       "lastSeenAt": "2026-08-24T08:55:53.167Z",
       "admitReason": "notable"
@@ -2884,11 +2895,11 @@
         "testing"
       ],
       "metrics": {
-        "stars": 3929
+        "stars": 3928
       },
       "source": "github-search",
       "publishedAt": "2024-01-24T13:00:36Z",
-      "updatedAt": "2026-08-28T05:05:00Z",
+      "updatedAt": "2026-08-30T14:58:32Z",
       "firstSeenAt": "2026-08-20T01:19:40.108Z",
       "lastSeenAt": "2026-08-24T07:01:43.353Z",
       "admitReason": "notable"
@@ -2908,7 +2919,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 441,
+        "stars": 445,
         "totalScore": 204.8965
       },
       "source": "ossinsight",
@@ -2933,7 +2944,7 @@
       "lang": "PHP",
       "tags": [],
       "metrics": {
-        "stars": 367,
+        "stars": 369,
         "totalScore": 204.31
       },
       "source": "ossinsight",
@@ -2978,7 +2989,7 @@
         "traceability"
       ],
       "metrics": {
-        "stars": 2205
+        "stars": 2208
       },
       "source": "github-search",
       "publishedAt": "2025-10-14T10:25:11Z",
@@ -3025,7 +3036,7 @@
         "system-design-interview"
       ],
       "metrics": {
-        "stars": 2219
+        "stars": 2234
       },
       "source": "github-search",
       "publishedAt": "2026-05-23T02:44:43Z",
@@ -3058,7 +3069,7 @@
         "testing"
       ],
       "metrics": {
-        "stars": 19382
+        "stars": 19383
       },
       "source": "github-search",
       "publishedAt": "2012-11-12T23:00:09Z",
@@ -3146,7 +3157,7 @@
         "testing"
       ],
       "metrics": {
-        "stars": 15822
+        "stars": 15823
       },
       "source": "github-search",
       "publishedAt": "2008-12-02T23:46:37Z",
@@ -3169,11 +3180,11 @@
       "lang": "Kotlin",
       "tags": [],
       "metrics": {
-        "stars": 5351,
+        "stars": 5474,
         "totalScore": 208.9212
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-28T15:06:55Z",
+      "updatedAt": "2026-08-30T19:28:24Z",
       "firstSeenAt": "2026-08-21T09:38:23.718Z",
       "lastSeenAt": "2026-08-22T06:42:25.995Z",
       "admitReason": "notable"
@@ -3202,7 +3213,7 @@
         "uiux-design"
       ],
       "metrics": {
-        "stars": 567
+        "stars": 571
       },
       "source": "github-search",
       "publishedAt": "2026-08-08T12:44:52Z",
@@ -3238,7 +3249,7 @@
         "uml"
       ],
       "metrics": {
-        "stars": 26451
+        "stars": 26492
       },
       "source": "github-search",
       "publishedAt": "2023-11-17T10:15:12Z",
@@ -3297,11 +3308,11 @@
         "testing"
       ],
       "metrics": {
-        "stars": 4356
+        "stars": 4351
       },
       "source": "github-search",
       "publishedAt": "2019-02-16T10:03:36Z",
-      "updatedAt": "2026-08-28T15:52:41Z",
+      "updatedAt": "2026-08-30T18:13:33Z",
       "firstSeenAt": "2026-08-21T01:23:34.400Z",
       "lastSeenAt": "2026-08-21T06:50:49.363Z",
       "admitReason": "notable"
@@ -3329,11 +3340,11 @@
         "virtualenv"
       ],
       "metrics": {
-        "stars": 3925
+        "stars": 3927
       },
       "source": "github-search",
       "publishedAt": "2016-09-17T16:54:22Z",
-      "updatedAt": "2026-08-28T22:59:41Z",
+      "updatedAt": "2026-08-30T15:25:00Z",
       "firstSeenAt": "2026-08-20T01:19:40.108Z",
       "lastSeenAt": "2026-08-21T01:23:34.400Z",
       "admitReason": "notable"
@@ -3365,7 +3376,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 380
+        "stars": 383
       },
       "source": "github-search",
       "publishedAt": "2026-08-07T17:14:43Z",
@@ -3449,11 +3460,11 @@
         "trading-platform"
       ],
       "metrics": {
-        "stars": 28034
+        "stars": 28153
       },
       "source": "github-search",
       "publishedAt": "2018-06-25T06:26:16Z",
-      "updatedAt": "2026-08-29T02:37:59Z",
+      "updatedAt": "2026-08-30T14:15:52Z",
       "firstSeenAt": "2026-08-19T15:33:13.943Z",
       "lastSeenAt": "2026-08-20T09:36:42.325Z",
       "admitReason": "notable"
@@ -3530,43 +3541,13 @@
       "url": "https://github.com/JesseCHale/HaleHound-CYD",
       "tags": [],
       "metrics": {
-        "stars": 1637,
+        "stars": 1642,
         "totalScore": 204.9745
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-13T16:30:29Z",
+      "updatedAt": "2026-08-30T01:47:21Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-19T06:46:44.114Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "gh:biomejs/gritql",
-      "type": "repo",
-      "categories": [
-        "engineering"
-      ],
-      "title": "biomejs/gritql",
-      "summaryOriginal": "GritQL is a query language for searching, linting, and modifying code.",
-      "url": "https://github.com/biomejs/gritql",
-      "lang": "Rust",
-      "tags": [
-        "ast",
-        "codemod",
-        "javascript",
-        "linter",
-        "refactoring",
-        "rust",
-        "search",
-        "tree-sitter"
-      ],
-      "metrics": {
-        "stars": 4583
-      },
-      "source": "github-search",
-      "publishedAt": "2024-03-08T23:18:51Z",
-      "updatedAt": "2026-08-16T03:41:31Z",
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-18T21:26:34.657Z",
       "admitReason": "notable"
     }
   ]
