@@ -1,72 +1,32 @@
 {
   "version": 1,
   "category": "backend",
-  "generatedAt": "2026-09-01T00:11:05.708Z",
+  "generatedAt": "2026-09-01T22:53:39.547Z",
   "ttlSeconds": 10800,
   "cards": [
     {
-      "id": "gh:Osmantic/ODS",
+      "id": "gh:firecrawl/pdf-inspector",
       "type": "repo",
-      "title": "Osmantic/ODS",
-      "summaryOriginal": "Turn your PC, Mac, or Linux box into an AI server. LLM inference, chat UI, voice, agents, workflows, RAG, and image generation.",
-      "url": "https://github.com/Osmantic/ODS",
-      "lang": "Python",
+      "title": "firecrawl/pdf-inspector",
+      "summaryOriginal": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 5476,
-        "starsDelta": 77
+        "stars": 17890,
+        "starsDelta": 545
       },
       "source": "github-trending",
       "admitReason": "trending",
-      "summaryEn": "Turn your local computer into an AI server for LLM inference, chat UIs, voice, and RAG.",
-      "summaryKo": "로컬 컴퓨터를 LLM 추론, 챗 UI, RAG 등을 지원하는 AI 서버로 변환합니다.",
-      "reasonEn": "Gaining 35 stars today",
-      "reasonKo": "오늘 35개 스타 획득",
+      "summaryEn": "Fast Rust library for inspecting and extracting text from PDFs, intelligently detecting scanned files for smart routing.",
+      "summaryKo": "PDF 검사 및 텍스트 추출을 위한 빠른 Rust 라이브러리로 스캔 문서를 감지합니다.",
+      "reasonEn": "Trending systems utility written in Rust",
+      "reasonKo": "Rust로 작성된 고성능 PDF 처리 도구로 인기",
       "categories": [
-        "ai-models",
-        "ai-agents",
         "backend"
       ],
-      "firstSeenAt": "2026-08-29T22:55:06.972Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
-    },
-    {
-      "id": "gh:DeusData/codebase-memory-mcp",
-      "type": "repo",
-      "title": "DeusData/codebase-memory-mcp",
-      "summaryOriginal": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "url": "https://github.com/DeusData/codebase-memory-mcp",
-      "lang": "C",
-      "tags": [
-        "aider",
-        "ast",
-        "claude-code",
-        "code-analysis",
-        "code-intelligence",
-        "codex",
-        "cursor",
-        "cypher",
-        "developer-tools",
-        "gemini-cli",
-        "graph-visualization",
-        "kilocode"
-      ],
-      "metrics": {
-        "stars": 41521
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2026-02-24T22:01:00Z",
-      "updatedAt": "2026-08-31T12:56:11Z",
-      "summaryEn": "MCP server that indexes codebases into a knowledge graph for sub-millisecond code queries across 158 languages.",
-      "summaryKo": "코드베이스를 지식 그래프로 색인하는 MCP 서버. 158개 언어, 밀리초 이하 질의 지원.",
-      "categories": [
-        "ai-agents",
-        "backend",
-        "devtools"
-      ],
-      "firstSeenAt": "2026-08-29T22:55:06.972Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "firstSeenAt": "2026-09-01T22:53:39.547Z",
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:dmlc/xgboost",
@@ -84,12 +44,12 @@
         "xgboost"
       ],
       "metrics": {
-        "stars": 28718
+        "stars": 28721
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2014-02-06T17:28:03Z",
-      "updatedAt": "2026-08-31T14:02:09Z",
+      "updatedAt": "2026-09-01T09:04:17Z",
       "summaryEn": "Widely used scalable gradient boosting library (GBDT/GBRT/GBM) for Python, R, Java, Scala, C, and more.",
       "summaryKo": "파이썬·R·자바 등에서 쓰이는 대표적인 확장형 그래디언트 부스팅 라이브러리.",
       "categories": [
@@ -97,7 +57,7 @@
         "backend"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:mudler/LocalAI",
@@ -121,12 +81,12 @@
         "mcp"
       ],
       "metrics": {
-        "stars": 48799
+        "stars": 48808
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2023-03-18T22:58:02Z",
-      "updatedAt": "2026-08-31T22:06:49Z",
+      "updatedAt": "2026-09-01T21:13:48Z",
       "summaryEn": "Open-source AI engine that runs LLMs, vision, voice, and image/video models locally on any hardware, no GPU needed.",
       "summaryKo": "GPU 없이도 어떤 하드웨어에서든 LLM·비전·음성·이미지 모델을 돌리는 오픈소스 AI 엔진.",
       "categories": [
@@ -134,7 +94,7 @@
         "backend"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:xevrion/breakscale",
@@ -156,7 +116,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 747
+        "stars": 894
       },
       "source": "github-search",
       "admitReason": "new",
@@ -171,7 +131,7 @@
         "backend"
       ],
       "firstSeenAt": "2026-08-29T22:55:06.972Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:appwrite/appwrite",
@@ -195,12 +155,12 @@
         "react"
       ],
       "metrics": {
-        "stars": 57199
+        "stars": 57214
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2019-04-08T16:36:25Z",
-      "updatedAt": "2026-08-31T23:56:22Z",
+      "updatedAt": "2026-09-01T21:57:53Z",
       "summaryEn": "Complete backend-as-a-service platform: auth, databases, storage, functions, and messaging for web, mobile, and AI apps.",
       "summaryKo": "인증·DB·스토리지·함수·메시징을 아우르는 웹·모바일·AI용 완전한 백엔드 플랫폼.",
       "categories": [
@@ -209,7 +169,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:hoppscotch/hoppscotch",
@@ -233,7 +193,7 @@
         "spa"
       ],
       "metrics": {
-        "stars": 80128
+        "stars": 80142
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -248,7 +208,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:directus/directus",
@@ -272,12 +232,12 @@
         "mssql"
       ],
       "metrics": {
-        "stars": 37664
+        "stars": 37665
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2012-12-12T01:35:36Z",
-      "updatedAt": "2026-08-31T19:28:27Z",
+      "updatedAt": "2026-09-01T21:07:14Z",
       "summaryEn": "Flexible headless CMS that turns any database into an admin panel, custom UI, and instant API.",
       "summaryKo": "DB를 헤드리스 CMS·관리자 패널·즉시 API로 바꿔주는 유연한 백엔드.",
       "categories": [
@@ -286,42 +246,7 @@
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
-    },
-    {
-      "id": "gh:scalar/scalar",
-      "type": "repo",
-      "title": "scalar/scalar",
-      "summaryOriginal": "Scalar is an open-source API platform: 🌐 Modern REST API Client 📖 Beautiful API References ✨ 1st-Class OpenAPI/Swagger Support",
-      "url": "https://github.com/scalar/scalar",
-      "lang": "TypeScript",
-      "tags": [
-        "api",
-        "api-client",
-        "docs",
-        "http-client",
-        "openapi",
-        "openapi3",
-        "reference",
-        "rest-api",
-        "swagger",
-        "vue"
-      ],
-      "metrics": {
-        "stars": 16023
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2023-08-16T13:42:32Z",
-      "updatedAt": "2026-08-31T23:55:29Z",
-      "summaryEn": "Open-source API platform combining a modern REST client with polished OpenAPI/Swagger documentation.",
-      "summaryKo": "모던 REST 클라이언트와 세련된 OpenAPI 문서화를 결합한 오픈소스 API 플랫폼.",
-      "categories": [
-        "web",
-        "backend"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:nestjs/nest",
@@ -345,12 +270,12 @@
         "typescript-framework"
       ],
       "metrics": {
-        "stars": 76540
+        "stars": 76553
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2017-02-04T20:12:52Z",
-      "updatedAt": "2026-08-31T06:00:22Z",
+      "updatedAt": "2026-09-01T03:44:07Z",
       "summaryEn": "Progressive Node.js framework for building scalable, enterprise-grade server apps in TypeScript.",
       "summaryKo": "타입스크립트 기반 확장 가능한 엔터프라이즈급 서버 앱을 만드는 Node.js 프레임워크.",
       "categories": [
@@ -358,7 +283,7 @@
         "backend"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:strapi/strapi",
@@ -382,12 +307,12 @@
         "javascript"
       ],
       "metrics": {
-        "stars": 73049
+        "stars": 73059
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2015-09-30T15:34:48Z",
-      "updatedAt": "2026-08-31T21:17:06Z",
+      "updatedAt": "2026-09-01T22:23:02Z",
       "summaryEn": "Leading open-source headless CMS, fully customizable and built with JavaScript/TypeScript.",
       "summaryKo": "완전히 커스터마이징 가능한 대표적인 오픈소스 헤드리스 CMS, JS/TS 기반.",
       "categories": [
@@ -395,7 +320,7 @@
         "backend"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:public-apis/public-apis",
@@ -419,19 +344,19 @@
         "resources"
       ],
       "metrics": {
-        "stars": 473784
+        "stars": 474238
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2016-03-20T23:49:42Z",
-      "updatedAt": "2026-08-31T20:26:11Z",
+      "updatedAt": "2026-09-01T21:13:02Z",
       "summaryEn": "A massive community-maintained list of free public APIs across every category.",
       "summaryKo": "모든 분야 무료 공개 API를 모아놓은 대규모 커뮤니티 목록.",
       "categories": [
         "backend"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:neovim/neovim",
@@ -450,19 +375,55 @@
         "vim"
       ],
       "metrics": {
-        "stars": 102044
+        "stars": 102067
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2014-01-31T13:39:22Z",
-      "updatedAt": "2026-08-31T18:21:04Z",
+      "updatedAt": "2026-09-01T17:05:07Z",
       "summaryEn": "A Vim fork focused on extensibility and usability, with a Lua-based plugin ecosystem and rich API.",
       "summaryKo": "확장성과 사용성에 집중한 Vim 포크, Lua 기반 플러그인 생태계와 풍부한 API 제공.",
       "categories": [
         "backend"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+    },
+    {
+      "id": "gh:fastapi/fastapi",
+      "type": "repo",
+      "title": "fastapi/fastapi",
+      "summaryOriginal": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+      "url": "https://github.com/fastapi/fastapi",
+      "lang": "Python",
+      "tags": [
+        "api",
+        "async",
+        "asyncio",
+        "fastapi",
+        "framework",
+        "json",
+        "json-schema",
+        "openapi",
+        "openapi3",
+        "pydantic",
+        "python",
+        "python-types"
+      ],
+      "metrics": {
+        "stars": 102005
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2018-12-08T08:21:47Z",
+      "updatedAt": "2026-09-01T20:59:55Z",
+      "summaryEn": "High-performance Python web framework for building APIs, with automatic docs and type-based validation via Pydantic.",
+      "summaryKo": "파이썬 고성능 웹 API 프레임워크, 자동 문서화와 Pydantic 기반 타입 검증 지원.",
+      "categories": [
+        "backend"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:ocornut/imgui",
@@ -486,19 +447,19 @@
         "native"
       ],
       "metrics": {
-        "stars": 75980
+        "stars": 76006
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2014-07-21T14:29:47Z",
-      "updatedAt": "2026-08-31T16:42:46Z",
+      "updatedAt": "2026-09-01T18:06:52Z",
       "summaryEn": "Immediate-mode C++ GUI library with minimal dependencies; widely used for game engines and tools.",
       "summaryKo": "최소 의존성을 가진 즉시 모드 C++ GUI 라이브러리; 게임 엔진과 도구에 광범위하게 사용됨.",
       "categories": [
         "backend"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:meilisearch/meilisearch",
@@ -522,12 +483,12 @@
         "search"
       ],
       "metrics": {
-        "stars": 59152
+        "stars": 59167
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2018-04-23T11:45:28Z",
-      "updatedAt": "2026-08-31T09:04:58Z",
+      "updatedAt": "2026-09-01T17:33:24Z",
       "summaryEn": "Fast, open-source search engine API that integrates AI-powered hybrid search capabilities into web applications and sites.",
       "summaryKo": "웹 애플리케이션에 AI 기반 하이브리드 검색을 제공하는 고성능 검색 엔진 API입니다.",
       "categories": [
@@ -535,7 +496,7 @@
         "data"
       ],
       "firstSeenAt": "2026-08-25T12:50:44.870Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:ccxt/ccxt",
@@ -559,19 +520,19 @@
         "exchange"
       ],
       "metrics": {
-        "stars": 43824
+        "stars": 43833
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2017-05-14T15:41:56Z",
-      "updatedAt": "2026-08-31T21:57:34Z",
+      "updatedAt": "2026-09-01T16:09:36Z",
       "summaryEn": "A unified trading API library covering 100+ crypto exchanges and prediction markets, in JS, Python, PHP, and more.",
       "summaryKo": "100개 이상 암호화폐 거래소·예측시장을 통합한 트레이딩 API 라이브러리(JS/파이썬/PHP 등).",
       "categories": [
         "backend"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:trpc/trpc",
@@ -589,7 +550,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 40564
+        "stars": 40567
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -601,7 +562,7 @@
         "backend"
       ],
       "firstSeenAt": "2026-09-01T00:11:05.708Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:Kong/insomnia",
@@ -623,26 +584,26 @@
         "websockets"
       ],
       "metrics": {
-        "stars": 39964
+        "stars": 39970
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2016-04-23T03:54:26Z",
-      "updatedAt": "2026-08-31T13:29:23Z",
+      "updatedAt": "2026-09-01T17:46:32Z",
       "summaryEn": "Open-source, cross-platform API client for REST, GraphQL, gRPC, WebSockets, and SSE, with cloud or local/Git storage.",
       "summaryKo": "REST·그래프QL·gRPC·웹소켓 지원 오픈소스 API 클라이언트, 클라우드/로컬/깃 저장 가능.",
       "categories": [
         "backend"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
-      "id": "gh:The-Vibe-Company/Quivr",
+      "id": "gh:The-Vibe-Company/quivr",
       "type": "repo",
-      "title": "The-Vibe-Company/Quivr",
+      "title": "The-Vibe-Company/quivr",
       "summaryOriginal": "Opiniated RAG for integrating GenAI in your apps 🧠 Focus on your product rather than the RAG. Easy integration in existing products with customisation! Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want.",
-      "url": "https://github.com/The-Vibe-Company/Quivr",
+      "url": "https://github.com/The-Vibe-Company/quivr",
       "lang": "Python",
       "tags": [
         "ai",
@@ -659,21 +620,51 @@
         "llm"
       ],
       "metrics": {
-        "stars": 39437
+        "stars": 39445
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2023-05-12T23:53:30Z",
       "updatedAt": "2026-08-31T18:02:45Z",
-      "summaryEn": "Quivr is an opinionated RAG framework for integrating generative AI and LLMs into applications with various vector stores.",
-      "summaryKo": "다양한 LLM과 벡터 저장소를 연동하는 RAG 프레임워크입니다.",
+      "summaryEn": "Quivr is an opinionated RAG framework designed for easily integrating generative AI capabilities and custom vector stores into existing applications.",
+      "summaryKo": "생성형 AI 기능과 사용자 지정 벡터 저장소를 기존 앱에 쉽게 통합하도록 설계된 RAG 프레임워크.",
+      "reasonEn": "Flexible open-source boilerplate for RAG implementation.",
+      "reasonKo": "RAG 구현을 위한 유연한 오픈소스 보일러플레이트.",
       "categories": [
         "backend",
         "infra",
         "data"
       ],
-      "firstSeenAt": "2026-09-01T00:11:05.708Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "firstSeenAt": "2026-09-01T22:53:39.547Z",
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+    },
+    {
+      "id": "gh:encode/django-rest-framework",
+      "type": "repo",
+      "title": "encode/django-rest-framework",
+      "summaryOriginal": "Web APIs for Django. 🎸",
+      "url": "https://github.com/encode/django-rest-framework",
+      "lang": "Python",
+      "tags": [
+        "api",
+        "django",
+        "python",
+        "rest"
+      ],
+      "metrics": {
+        "stars": 30153
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2011-03-02T17:13:56Z",
+      "updatedAt": "2026-09-01T19:20:21Z",
+      "summaryEn": "Django REST framework for building web APIs in Python; simplifies API development with serialization and permissions.",
+      "summaryKo": "Python 웹 API 구축용 Django REST 프레임워크; 직렬화 및 권한 관리를 단순화함.",
+      "categories": [
+        "backend"
+      ],
+      "firstSeenAt": "2026-08-18T15:33:48.196Z",
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:pppscn/SmsForwarder",
@@ -697,19 +688,19 @@
         "serverchan"
       ],
       "metrics": {
-        "stars": 27785
+        "stars": 27799
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2021-02-10T02:23:07Z",
-      "updatedAt": "2026-08-31T01:38:53Z",
+      "updatedAt": "2026-09-01T01:41:38Z",
       "summaryEn": "Android app that forwards SMS, calls, and app notifications to Telegram, WeChat, DingTalk, email, webhooks, and more via custom rules.",
       "summaryKo": "안드로이드 문자·전화·알림을 텔레그램, 위챗, 딩톡, 이메일, 웹훅 등으로 규칙 기반 전달하는 앱.",
       "categories": [
         "backend"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:PostgREST/postgrest",
@@ -738,7 +729,7 @@
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2014-06-13T00:23:00Z",
-      "updatedAt": "2026-08-30T13:02:10Z",
+      "updatedAt": "2026-09-01T07:28:43Z",
       "summaryEn": "Turns any Postgres database directly into a REST API, written in Haskell.",
       "summaryKo": "포스트그레스 DB를 바로 REST API로 만들어주는 하스켈 기반 서버.",
       "categories": [
@@ -746,7 +737,7 @@
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:OpenAPITools/openapi-generator",
@@ -770,19 +761,19 @@
         "restful-api"
       ],
       "metrics": {
-        "stars": 26709
+        "stars": 26713
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2018-05-12T09:57:56Z",
-      "updatedAt": "2026-08-31T23:13:20Z",
+      "updatedAt": "2026-09-01T19:35:24Z",
       "summaryEn": "Generates client SDKs, server stubs, and docs automatically from an OpenAPI spec (v2/v3), across many languages.",
       "summaryKo": "OpenAPI 명세(v2/v3)로부터 클라이언트 SDK·서버 스텁·문서를 다국어로 자동 생성.",
       "categories": [
         "backend"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:Skyvern-AI/skyvern",
@@ -806,19 +797,19 @@
         "python"
       ],
       "metrics": {
-        "stars": 22891
+        "stars": 22904
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2024-02-28T15:45:19Z",
-      "updatedAt": "2026-09-01T00:05:22Z",
+      "updatedAt": "2026-09-01T22:44:50Z",
       "summaryEn": "Automates browser-based workflows using AI vision and LLMs instead of brittle selectors, built on Playwright/Selenium.",
       "summaryKo": "취약한 선택자 대신 AI 비전·LLM으로 브라우저 워크플로를 자동화(플레이라이트/셀레니움 기반).",
       "categories": [
         "backend"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:go-chi/chi",
@@ -839,7 +830,7 @@
         "router"
       ],
       "metrics": {
-        "stars": 22760
+        "stars": 22767
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -851,7 +842,7 @@
         "backend"
       ],
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:wwebjs/whatsapp-web.js",
@@ -872,19 +863,19 @@
         "whatsapp-web-api"
       ],
       "metrics": {
-        "stars": 22494
+        "stars": 22500
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2019-02-17T02:16:02Z",
-      "updatedAt": "2026-08-30T12:04:32Z",
+      "updatedAt": "2026-09-01T19:53:39Z",
       "summaryEn": "A Node.js library that controls WhatsApp by driving the WhatsApp Web browser client, for building bots and integrations.",
       "summaryKo": "왓츠앱 웹 브라우저 클라이언트를 제어하는 Node.js 라이브러리, 봇·연동 개발용.",
       "categories": [
         "backend"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:bitwarden/server",
@@ -907,12 +898,12 @@
         "sql-server"
       ],
       "metrics": {
-        "stars": 19971
+        "stars": 19977
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2015-11-23T23:45:33Z",
-      "updatedAt": "2026-08-31T23:39:56Z",
+      "updatedAt": "2026-09-01T21:30:39Z",
       "summaryEn": "Backend infrastructure for the Bitwarden password manager — API, database, and Docker deployment, in C#/.NET.",
       "summaryKo": "비트워든 비밀번호 관리자의 백엔드 인프라(API·DB·도커), C#/.NET 기반.",
       "categories": [
@@ -920,7 +911,7 @@
         "data"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:iii-hq/iii",
@@ -944,19 +935,19 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 18657
+        "stars": 18662
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2025-01-02T17:45:02Z",
-      "updatedAt": "2026-08-31T22:49:42Z",
+      "updatedAt": "2026-09-01T20:34:30Z",
       "summaryEn": "A runtime for composing, extending, and observing services together in real time, across JS, Python, and Rust.",
       "summaryKo": "JS·파이썬·러스트 서비스를 실시간으로 조합·확장·관찰하는 런타임.",
       "categories": [
         "backend"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:getmaxun/maxun",
@@ -980,7 +971,7 @@
         "rpa"
       ],
       "metrics": {
-        "stars": 17341
+        "stars": 17344
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -992,7 +983,7 @@
         "backend"
       ],
       "firstSeenAt": "2026-08-18T15:33:48.196Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:apache/apisix",
@@ -1016,12 +1007,12 @@
         "luajit"
       ],
       "metrics": {
-        "stars": 17066
+        "stars": 17068
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2019-04-10T02:02:05Z",
-      "updatedAt": "2026-08-31T11:26:17Z",
+      "updatedAt": "2026-09-01T10:56:03Z",
       "summaryEn": "A cloud-native API gateway with built-in AI gateway features, load balancing, and Kubernetes ingress support.",
       "summaryKo": "AI 게이트웨이 기능을 내장한 클라우드 네이티브 API 게이트웨이, 로드밸런싱·쿠버네티스 인그레스 지원.",
       "categories": [
@@ -1029,7 +1020,41 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+    },
+    {
+      "id": "gh:scalar/scalar",
+      "type": "repo",
+      "title": "scalar/scalar",
+      "summaryOriginal": "Scalar is an open-source API platform: 🌐 Modern REST API Client 📖 Beautiful API References ✨ 1st-Class OpenAPI/Swagger Support",
+      "url": "https://github.com/scalar/scalar",
+      "lang": "TypeScript",
+      "tags": [
+        "api",
+        "api-client",
+        "docs",
+        "http-client",
+        "openapi",
+        "openapi3",
+        "reference",
+        "rest-api",
+        "swagger",
+        "vue"
+      ],
+      "metrics": {
+        "stars": 16026
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2023-08-16T13:42:32Z",
+      "updatedAt": "2026-09-01T17:04:44Z",
+      "summaryEn": "Open-source API platform combining a modern REST client with polished OpenAPI/Swagger documentation.",
+      "summaryKo": "모던 REST 클라이언트와 세련된 OpenAPI 문서화를 결합한 오픈소스 API 플랫폼.",
+      "categories": [
+        "backend"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:Jackett/Jackett",
@@ -1053,19 +1078,55 @@
         "proxy"
       ],
       "metrics": {
-        "stars": 15981
+        "stars": 15986
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2015-10-29T16:23:19Z",
-      "updatedAt": "2026-08-31T19:44:26Z",
+      "updatedAt": "2026-09-01T19:06:53Z",
       "summaryEn": "A proxy that adds unified API/search support for torrent tracker sites, used by tools like Sonarr and Radarr.",
       "summaryKo": "토렌트 트래커 사이트에 통합 API 검색을 붙여주는 프록시, 소나르·라다르 등에서 사용.",
       "categories": [
         "backend"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+    },
+    {
+      "id": "gh:JoeanAmier/TikTokDownloader",
+      "type": "repo",
+      "title": "JoeanAmier/TikTokDownloader",
+      "summaryOriginal": "抖音 / TikTok 平台作品下载/数据采集工具",
+      "url": "https://github.com/JoeanAmier/TikTokDownloader",
+      "lang": "Python",
+      "tags": [
+        "api",
+        "csv",
+        "docker",
+        "douyin",
+        "downloader",
+        "ffmpeg",
+        "httpx",
+        "linux",
+        "macos",
+        "pyinstaller",
+        "python",
+        "rich"
+      ],
+      "metrics": {
+        "stars": 15690
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2022-10-10T14:27:36Z",
+      "updatedAt": "2026-09-01T14:46:15Z",
+      "summaryEn": "A data collection and video downloading tool for Douyin and TikTok platforms.",
+      "summaryKo": "더이언 및 틱톡 플랫폼을 위한 데이터 수집 및 비디오 다운로드 도구입니다.",
+      "categories": [
+        "backend"
+      ],
+      "firstSeenAt": "2026-08-27T13:54:10.701Z",
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:jsdoc/jsdoc",
@@ -1087,14 +1148,14 @@
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2010-03-13T09:18:03Z",
-      "updatedAt": "2026-08-31T21:02:45Z",
+      "updatedAt": "2026-09-01T19:09:10Z",
       "summaryEn": "The standard API documentation generator for JavaScript, producing docs from source comments.",
       "summaryKo": "자바스크립트 표준 API 문서 생성기, 소스 주석에서 문서를 뽑아냄.",
       "categories": [
         "backend"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:rmyndharis/OpenWA",
@@ -1118,19 +1179,19 @@
         "whatsapp-web-api"
       ],
       "metrics": {
-        "stars": 13527
+        "stars": 13581
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-02-02T12:14:45Z",
-      "updatedAt": "2026-08-31T09:20:14Z",
+      "updatedAt": "2026-09-01T19:58:13Z",
       "summaryEn": "Free, self-hosted API gateway for automating and integrating with WhatsApp.",
       "summaryKo": "왓츠앱 자동화·연동을 위한 무료 자체 호스팅 API 게이트웨이.",
       "categories": [
         "backend"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:gotenberg/gotenberg",
@@ -1154,7 +1215,7 @@
         "pdf"
       ],
       "metrics": {
-        "stars": 12973
+        "stars": 12985
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1166,115 +1227,7 @@
         "backend"
       ],
       "firstSeenAt": "2026-08-21T06:50:49.363Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
-    },
-    {
-      "id": "gh:manticoresoftware/manticoresearch",
-      "type": "repo",
-      "title": "manticoresoftware/manticoresearch",
-      "summaryOriginal": "Open-source search database for full-text, vector, and hybrid search with real-time indexing and SQL.",
-      "url": "https://github.com/manticoresoftware/manticoresearch",
-      "lang": "C++",
-      "tags": [
-        "api",
-        "bm25",
-        "cpp",
-        "database",
-        "full-text-search",
-        "hacktoberfest",
-        "json",
-        "mysql",
-        "search",
-        "search-api",
-        "search-engine",
-        "search-server"
-      ],
-      "metrics": {
-        "stars": 11971
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2017-06-28T01:15:30Z",
-      "updatedAt": "2026-08-31T19:15:59Z",
-      "summaryEn": "Open-source search database supporting full-text, vector, and hybrid search with real-time indexing and SQL.",
-      "summaryKo": "전문 검색, 벡터 검색, 하이브리드 검색을 지원하는 오픈소스 검색 데이터베이스.",
-      "categories": [
-        "backend"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
-    },
-    {
-      "id": "gh:NangoHQ/nango",
-      "type": "repo",
-      "title": "NangoHQ/nango",
-      "summaryOriginal": "Build product integrations with AI.",
-      "url": "https://github.com/NangoHQ/nango",
-      "lang": "TypeScript",
-      "tags": [
-        "access-token",
-        "api",
-        "api-client",
-        "api-integration",
-        "api-integrations",
-        "integrations",
-        "oauth",
-        "oauth1",
-        "oauth2",
-        "product-integration",
-        "refresh-token",
-        "unified-api"
-      ],
-      "metrics": {
-        "stars": 11655
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2020-04-09T09:31:24Z",
-      "updatedAt": "2026-08-31T22:37:57Z",
-      "summaryEn": "Platform for building third-party integrations; handles OAuth, token management, and unified APIs.",
-      "summaryKo": "타사 통합 구축 플랫폼; OAuth, 토큰 관리 및 통합 API 처리.",
-      "categories": [
-        "backend"
-      ],
-      "firstSeenAt": "2026-08-19T01:20:28.544Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
-    },
-    {
-      "id": "gh:TykTechnologies/tyk",
-      "type": "repo",
-      "title": "TykTechnologies/tyk",
-      "summaryOriginal": "Tyk Open Source API Gateway written in Go, supporting REST, GraphQL, TCP and gRPC protocols",
-      "url": "https://github.com/TykTechnologies/tyk",
-      "lang": "Go",
-      "tags": [
-        "api",
-        "api-gateway",
-        "api-management",
-        "cloudnative",
-        "go",
-        "graphql",
-        "grpc",
-        "k8s",
-        "kubernetes",
-        "microservices",
-        "reverse-proxy",
-        "tyk"
-      ],
-      "metrics": {
-        "stars": 10811
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2014-05-07T14:38:24Z",
-      "updatedAt": "2026-08-31T14:22:41Z",
-      "summaryEn": "Open-source API gateway in Go; supports REST, GraphQL, TCP, and gRPC with API management features.",
-      "summaryKo": "Go로 작성된 오픈소스 API 게이트웨이; REST, GraphQL, TCP, gRPC 지원.",
-      "categories": [
-        "backend"
-      ],
-      "firstSeenAt": "2026-08-19T01:20:28.544Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:Dokploy/dokploy",
@@ -1298,12 +1251,12 @@
         "mongodb"
       ],
       "metrics": {
-        "stars": 37003
+        "stars": 37022
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2024-04-19T07:49:30Z",
-      "updatedAt": "2026-08-31T20:59:03Z",
+      "updatedAt": "2026-09-01T18:54:19Z",
       "summaryEn": "Self-hosted deployment platform alternative to Vercel and Heroku; supports Docker, databases, and multiple frameworks.",
       "summaryKo": "Vercel, Heroku 대체 자체 호스팅 배포 플랫폼; Docker, 데이터베이스, 다양한 프레임워크 지원.",
       "categories": [
@@ -1311,7 +1264,43 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+    },
+    {
+      "id": "gh:parse-community/parse-server",
+      "type": "repo",
+      "title": "parse-community/parse-server",
+      "summaryOriginal": "Parse Server for Node.js / Express",
+      "url": "https://github.com/parse-community/parse-server",
+      "lang": "JavaScript",
+      "tags": [
+        "baas",
+        "backend",
+        "file-storage",
+        "graphql",
+        "graphql-api",
+        "graphql-relay",
+        "graphql-server",
+        "hacktoberfest",
+        "mbaas",
+        "mongodb",
+        "nodejs",
+        "notifications"
+      ],
+      "metrics": {
+        "stars": 21410
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2016-01-28T18:29:14Z",
+      "updatedAt": "2026-09-01T00:27:24Z",
+      "summaryEn": "Open-source backend-as-a-service for Node.js and Express that provides data storage, authentication, and GraphQL APIs.",
+      "summaryKo": "Node.js와 Express용 오픈소스 백엔드 서비스로 데이터 저장, 인증, GraphQL API를 제공합니다.",
+      "categories": [
+        "backend"
+      ],
+      "firstSeenAt": "2026-08-25T21:30:01.334Z",
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:get-convex/convex-backend",
@@ -1328,19 +1317,19 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 12461
+        "stars": 12466
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2024-03-08T07:23:15Z",
-      "updatedAt": "2026-09-01T00:00:48Z",
+      "updatedAt": "2026-09-01T22:44:04Z",
       "summaryEn": "Reactive database for app developers; combines database, backend functions, and real-time sync in one system.",
       "summaryKo": "앱 개발자를 위한 반응형 데이터베이스; 데이터베이스, 백엔드 함수, 실시간 동기화 통합.",
       "categories": [
         "backend"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:encoredev/encore",
@@ -1369,7 +1358,7 @@
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2021-02-17T16:33:24Z",
-      "updatedAt": "2026-08-31T09:35:38Z",
+      "updatedAt": "2026-09-01T07:05:17Z",
       "summaryEn": "Infrastructure platform for backend development; automates cloud deployment, microservices, and DevOps workflows.",
       "summaryKo": "백엔드 개발용 인프라 플랫폼; 클라우드 배포, 마이크로서비스, DevOps 자동화.",
       "categories": [
@@ -1377,7 +1366,7 @@
         "infra"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:octobercms/october",
@@ -1410,7 +1399,7 @@
         "backend"
       ],
       "firstSeenAt": "2026-08-19T12:50:55.884Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:nhost/nhost",
@@ -1434,19 +1423,19 @@
         "nhost"
       ],
       "metrics": {
-        "stars": 9281
+        "stars": 9282
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2021-02-09T13:33:34Z",
-      "updatedAt": "2026-08-31T22:35:25Z",
+      "updatedAt": "2026-09-01T22:31:13Z",
       "summaryEn": "Open-source Firebase alternative with GraphQL API; includes auth, database, functions, and storage.",
       "summaryKo": "GraphQL API를 포함한 오픈소스 Firebase 대체; 인증, 데이터베이스, 함수, 저장소 포함.",
       "categories": [
         "backend"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:backend-br/vagas",
@@ -1469,7 +1458,7 @@
         "vagas-para-desenvolvedores"
       ],
       "metrics": {
-        "stars": 7969
+        "stars": 7971
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1481,7 +1470,38 @@
         "backend"
       ],
       "firstSeenAt": "2026-09-01T00:11:05.708Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+    },
+    {
+      "id": "gh:sparckles/Robyn",
+      "type": "repo",
+      "title": "sparckles/Robyn",
+      "summaryOriginal": "Robyn is a Super Fast Async Python Web Framework with a Rust runtime.",
+      "url": "https://github.com/sparckles/Robyn",
+      "lang": "Python",
+      "tags": [
+        "async",
+        "backend",
+        "hacktoberfest",
+        "http-server",
+        "python",
+        "python3",
+        "rust",
+        "web"
+      ],
+      "metrics": {
+        "stars": 7386
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2021-06-18T09:32:00Z",
+      "updatedAt": "2026-08-31T18:31:35Z",
+      "summaryEn": "Async Python web framework with Rust runtime for high-performance HTTP services and real-time applications.",
+      "categories": [
+        "backend"
+      ],
+      "firstSeenAt": "2026-08-19T15:33:13.943Z",
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "gh:metalbear-co/mirrord",
@@ -1505,72 +1525,50 @@
         "development"
       ],
       "metrics": {
-        "stars": 5286
+        "stars": 5287
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2022-02-01T16:42:30Z",
-      "updatedAt": "2026-08-31T20:53:19Z",
+      "updatedAt": "2026-09-01T19:36:49Z",
       "summaryEn": "Development tool for running local processes as if in Kubernetes; enables debugging with real cluster environment.",
       "summaryKo": "로컬 프로세스를 Kubernetes 클러스터처럼 실행하는 개발 도구; 실제 클러스터 환경으로 디버깅 가능.",
       "categories": [
         "backend"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
-      "id": "gh:zhaoxuya520/reverse-skill",
+      "id": "gh:apache/lucene",
       "type": "repo",
-      "title": "zhaoxuya520/reverse-skill",
-      "summaryOriginal": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-      "url": "https://github.com/zhaoxuya520/reverse-skill",
-      "lang": "PowerShell",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 6,
-        "pushes": 1,
-        "totalScore": 226.321,
-        "stars": 33100
-      },
-      "source": "ossinsight",
-      "admitReason": "notable",
-      "summaryEn": "AI-routed skill pack for reverse engineering and authorized pentesting, with on-demand tool bootstrapping for Claude Code, Cursor, and similar clients.",
-      "summaryKo": "리버스 엔지니어링·인가된 침투테스트용 AI 라우팅 스킬팩, Claude Code·Cursor 등 지원.",
-      "reasonEn": "New repo gaining early stars on GitHub",
-      "reasonKo": "신규 저장소, 초기 스타 증가 중",
-      "categories": [
-        "backend",
-        "engineering"
-      ],
-      "updatedAt": "2026-08-31T07:23:08Z",
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
-    },
-    {
-      "id": "gh:diudiu-tech/delivery-harness",
-      "type": "repo",
-      "title": "diudiu-tech/delivery-harness",
-      "summaryOriginal": "AI harness reference implementation for on-demand delivery workflows",
-      "url": "https://github.com/diudiu-tech/delivery-harness",
+      "title": "apache/lucene",
+      "summaryOriginal": "Apache Lucene open-source search software",
+      "url": "https://github.com/apache/lucene",
       "lang": "Java",
-      "tags": [],
-      "metrics": {
-        "starsDelta": 4,
-        "totalScore": 214.6114,
-        "stars": 892
-      },
-      "source": "ossinsight",
-      "admitReason": "notable",
-      "summaryEn": "A reference implementation of an AI harness designed for building on-demand delivery workflows.",
-      "summaryKo": "온디맨드 배송 워크플로 구축을 위해 설계된 AI 하네스의 레퍼런스 구현체입니다.",
-      "categories": [
+      "tags": [
         "backend",
-        "ai-agents"
+        "information-retrieval",
+        "java",
+        "lucene",
+        "nosql",
+        "search",
+        "search-engine"
       ],
-      "updatedAt": "2026-08-27T09:55:21Z",
-      "firstSeenAt": "2026-09-01T00:11:05.708Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "metrics": {
+        "stars": 3553
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2021-02-23T17:16:56Z",
+      "updatedAt": "2026-09-01T22:42:32Z",
+      "summaryEn": "Apache search engine library for full-text and information retrieval; foundation for many search systems.",
+      "summaryKo": "전문 검색 및 정보 검색용 Apache 검색 엔진 라이브러리; 많은 검색 시스템의 기반.",
+      "categories": [
+        "backend"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "hn:49154332",
@@ -1586,37 +1584,15 @@
       "source": "hn",
       "publishedAt": "2026-08-03T11:28:54Z",
       "admitReason": "notable",
-      "summaryEn": "An analysis examining whether recent reports of critical SQLite CVEs are genuine vulnerabilities or LLM-generated noise.",
-      "summaryKo": "최근 보고된 SQLite 치명적 CVE가 실제 취약점인지 LLM이 생성한 노이즈인지 분석한 글.",
+      "summaryEn": "Investigation into whether recent reports of critical vulnerabilities in SQLite are genuine or generated AI slop.",
+      "summaryKo": "최근 제기된 SQLite 치명적 취약점 보고가 실제인지 LLM이 생성한 허위 정보인지 분석합니다.",
+      "reasonEn": "Debate over AI-generated vulnerability reports",
+      "reasonKo": "AI가 생성한 가짜 취약점 보고에 대한 논란",
       "categories": [
-        "data",
         "backend"
       ],
       "firstSeenAt": "2026-09-01T00:11:05.708Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
-    },
-    {
-      "id": "hn:49182996",
-      "type": "article",
-      "title": "Cloudflare OS: an open platform for agents, apps, and work",
-      "summaryOriginal": "Cloudflare OS: an open platform for agents, apps, and work",
-      "url": "https://blog.cloudflare.com/cloudflare-os/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 668,
-        "comments": 330
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-05T13:58:53Z",
-      "admitReason": "notable",
-      "summaryEn": "Cloudflare OS introduces an open platform architecture geared towards running distributed agentic applications and workloads.",
-      "summaryKo": "Cloudflare OS는 분산 에이전트 애플리케이션과 워크로드 실행을 목표로 하는 개방형 플랫폼 아키텍처를 소개합니다.",
-      "categories": [
-        "infra",
-        "backend"
-      ],
-      "firstSeenAt": "2026-09-01T00:11:05.708Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "hn:49415271",
@@ -1632,16 +1608,16 @@
       "source": "hn",
       "publishedAt": "2026-08-24T04:48:20Z",
       "admitReason": "notable",
-      "summaryEn": "An exploration of self-contained executable binaries that double as valid SQLite databases.",
-      "summaryKo": "유효한 SQLite 데이터베이스이자 동시에 실행 가능한 바이너리 파일에 대한 탐구.",
-      "reasonEn": "Novel database engineering technique.",
-      "reasonKo": "참신한 데이터베이스 엔지니어링 기술.",
+      "summaryEn": "An exploration of how executable binary files can be structured and run directly as SQLite database files.",
+      "summaryKo": "실행 가능한 바이너리 파일이 SQLite 데이터베이스로 작동하도록 구조화하는 기법입니다.",
+      "reasonEn": "Clever systems programming hack",
+      "reasonKo": "창의적인 시스템 프로그래밍 및 데이터베이스 활용법",
       "categories": [
-        "data",
-        "backend"
+        "backend",
+        "data"
       ],
       "firstSeenAt": "2026-09-01T00:11:05.708Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
       "id": "hn:49342530",
@@ -1657,41 +1633,329 @@
       "source": "hn",
       "publishedAt": "2026-08-18T07:28:27Z",
       "admitReason": "notable",
-      "summaryEn": "An opinionated look at rethinking how developers approach database programming paradigms.",
-      "summaryKo": "개발자의 데이터베이스 프로그래밍 패러다임 접근 방식을 재고하는 글.",
-      "reasonEn": "Core software architecture discussion.",
-      "reasonKo": "핵심 소프트웨어 아키텍처 토론.",
+      "summaryEn": "An exploration of how we approach database programming, discussing modern paradigms and improvements for developers.",
+      "summaryKo": "데이터베이스 프로그래밍 접근 방식을 재고하고 개발자를 위한 현대적 패러다임을 논합니다.",
+      "reasonEn": "High discussion volume on database design patterns",
+      "reasonKo": "데이터베이스 설계 패턴에 대한 높은 관심",
       "categories": [
         "data",
         "backend"
       ],
       "firstSeenAt": "2026-08-29T22:55:06.972Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
     },
     {
-      "id": "hn:49426995",
+      "id": "hn:49437049",
       "type": "article",
-      "title": "SQLite as a Document Database (2020)",
-      "summaryOriginal": "SQLite as a Document Database (2020)",
-      "url": "https://dgl.cx/2020/06/sqlite-json-support",
+      "title": "Show HN: LatticeDB – Like SQLite but for graph databases",
+      "summaryOriginal": "Show HN: LatticeDB – Like SQLite but for graph databases",
+      "url": "https://github.com/jeffhajewski/latticedb",
       "tags": [],
       "metrics": {
-        "upvotes": 253,
-        "comments": 56
+        "upvotes": 189,
+        "comments": 54
       },
       "source": "hn",
-      "publishedAt": "2026-08-24T23:00:10Z",
+      "publishedAt": "2026-08-25T16:52:05Z",
       "admitReason": "notable",
-      "summaryEn": "An archival look at utilizing SQLite effectively as a document database for modern applications.",
-      "summaryKo": "최신 애플리케이션을 위한 문서형 데이터베이스로 SQLite를 활용하는 방법에 관한 글.",
-      "reasonEn": "Persistent developer interest in SQLite flexibility.",
-      "reasonKo": "SQLite 유연성에 대한 지속적인 개발자 관심.",
+      "summaryEn": "LatticeDB is a new tool providing SQLite-like simplicity specifically designed for graph databases.",
+      "summaryKo": "그래프 데이터베이스를 위해 SQLite와 같은 단순함을 제공하는 새로운 도구입니다.",
+      "reasonEn": "New open-source database tool launch",
+      "reasonKo": "신규 오픈소스 데이터베이스 도구 출시",
       "categories": [
         "data",
         "backend"
       ],
+      "firstSeenAt": "2026-09-01T22:53:39.547Z",
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+    },
+    {
+      "id": "hn:49365405",
+      "type": "article",
+      "title": "Go 1.27",
+      "summaryOriginal": "Go 1.27",
+      "url": "https://go.dev/blog/go1.27",
+      "tags": [],
+      "metrics": {
+        "upvotes": 759,
+        "comments": 265
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-19T18:33:49Z",
+      "admitReason": "notable",
+      "summaryEn": "Go 1.27 brings new language features, performance improvements, and toolchain updates for developers.",
+      "summaryKo": "Go 1.27은 새로운 언어 기능과 성능 개선 및 툴체인 업데이트를 제공합니다.",
+      "reasonEn": "Major language release announcement",
+      "reasonKo": "주요 프로그래밍 언어 새 버전 출시",
+      "categories": [
+        "backend",
+        "engineering"
+      ],
+      "firstSeenAt": "2026-09-01T22:53:39.547Z",
+      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+    },
+    {
+      "id": "gh:Osmantic/ODS",
+      "type": "repo",
+      "categories": [
+        "ai-models",
+        "ai-agents",
+        "backend"
+      ],
+      "title": "Osmantic/ODS",
+      "summaryEn": "Turn your local computer into an AI server for LLM inference, chat UIs, voice, and RAG.",
+      "summaryKo": "로컬 컴퓨터를 LLM 추론, 챗 UI, RAG 등을 지원하는 AI 서버로 변환합니다.",
+      "summaryOriginal": "Turn your PC, Mac, or Linux box into an AI server. LLM inference, chat UI, voice, agents, workflows, RAG, and image generation.",
+      "reasonEn": "Gaining 35 stars today",
+      "reasonKo": "오늘 35개 스타 획득",
+      "url": "https://github.com/Osmantic/ODS",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "stars": 5476,
+        "starsDelta": 77
+      },
+      "source": "github-trending",
+      "firstSeenAt": "2026-08-29T22:55:06.972Z",
+      "lastSeenAt": "2026-09-01T00:11:05.708Z",
+      "admitReason": "trending"
+    },
+    {
+      "id": "gh:DeusData/codebase-memory-mcp",
+      "type": "repo",
+      "categories": [
+        "ai-agents",
+        "backend",
+        "devtools"
+      ],
+      "title": "DeusData/codebase-memory-mcp",
+      "summaryEn": "MCP server that indexes codebases into a knowledge graph for sub-millisecond code queries across 158 languages.",
+      "summaryKo": "코드베이스를 지식 그래프로 색인하는 MCP 서버. 158개 언어, 밀리초 이하 질의 지원.",
+      "summaryOriginal": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "lang": "C",
+      "tags": [
+        "aider",
+        "ast",
+        "claude-code",
+        "code-analysis",
+        "code-intelligence",
+        "codex",
+        "cursor",
+        "cypher",
+        "developer-tools",
+        "gemini-cli",
+        "graph-visualization",
+        "kilocode"
+      ],
+      "metrics": {
+        "stars": 41521
+      },
+      "source": "github-search",
+      "publishedAt": "2026-02-24T22:01:00Z",
+      "updatedAt": "2026-08-31T12:56:11Z",
+      "firstSeenAt": "2026-08-29T22:55:06.972Z",
+      "lastSeenAt": "2026-09-01T00:11:05.708Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:The-Vibe-Company/Quivr",
+      "type": "repo",
+      "categories": [
+        "backend",
+        "infra",
+        "data"
+      ],
+      "title": "The-Vibe-Company/Quivr",
+      "summaryEn": "Quivr is an opinionated RAG framework for integrating generative AI and LLMs into applications with various vector stores.",
+      "summaryKo": "다양한 LLM과 벡터 저장소를 연동하는 RAG 프레임워크입니다.",
+      "summaryOriginal": "Opiniated RAG for integrating GenAI in your apps 🧠 Focus on your product rather than the RAG. Easy integration in existing products with customisation! Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want.",
+      "url": "https://github.com/The-Vibe-Company/Quivr",
+      "lang": "Python",
+      "tags": [
+        "ai",
+        "api",
+        "chatbot",
+        "chatgpt",
+        "database",
+        "docker",
+        "framework",
+        "frontend",
+        "groq",
+        "html",
+        "javascript",
+        "llm"
+      ],
+      "metrics": {
+        "stars": 39437
+      },
+      "source": "github-search",
+      "publishedAt": "2023-05-12T23:53:30Z",
+      "updatedAt": "2026-08-31T18:02:45Z",
       "firstSeenAt": "2026-09-01T00:11:05.708Z",
-      "lastSeenAt": "2026-09-01T00:11:05.708Z"
+      "lastSeenAt": "2026-09-01T00:11:05.708Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:manticoresoftware/manticoresearch",
+      "type": "repo",
+      "categories": [
+        "backend"
+      ],
+      "title": "manticoresoftware/manticoresearch",
+      "summaryEn": "Open-source search database supporting full-text, vector, and hybrid search with real-time indexing and SQL.",
+      "summaryKo": "전문 검색, 벡터 검색, 하이브리드 검색을 지원하는 오픈소스 검색 데이터베이스.",
+      "summaryOriginal": "Open-source search database for full-text, vector, and hybrid search with real-time indexing and SQL.",
+      "url": "https://github.com/manticoresoftware/manticoresearch",
+      "lang": "C++",
+      "tags": [
+        "api",
+        "bm25",
+        "cpp",
+        "database",
+        "full-text-search",
+        "hacktoberfest",
+        "json",
+        "mysql",
+        "search",
+        "search-api",
+        "search-engine",
+        "search-server"
+      ],
+      "metrics": {
+        "stars": 11971
+      },
+      "source": "github-search",
+      "publishedAt": "2017-06-28T01:15:30Z",
+      "updatedAt": "2026-08-31T19:15:59Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-09-01T00:11:05.708Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:NangoHQ/nango",
+      "type": "repo",
+      "categories": [
+        "backend"
+      ],
+      "title": "NangoHQ/nango",
+      "summaryEn": "Platform for building third-party integrations; handles OAuth, token management, and unified APIs.",
+      "summaryKo": "타사 통합 구축 플랫폼; OAuth, 토큰 관리 및 통합 API 처리.",
+      "summaryOriginal": "Build product integrations with AI.",
+      "url": "https://github.com/NangoHQ/nango",
+      "lang": "TypeScript",
+      "tags": [
+        "access-token",
+        "api",
+        "api-client",
+        "api-integration",
+        "api-integrations",
+        "integrations",
+        "oauth",
+        "oauth1",
+        "oauth2",
+        "product-integration",
+        "refresh-token",
+        "unified-api"
+      ],
+      "metrics": {
+        "stars": 11655
+      },
+      "source": "github-search",
+      "publishedAt": "2020-04-09T09:31:24Z",
+      "updatedAt": "2026-08-31T22:37:57Z",
+      "firstSeenAt": "2026-08-19T01:20:28.544Z",
+      "lastSeenAt": "2026-09-01T00:11:05.708Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:TykTechnologies/tyk",
+      "type": "repo",
+      "categories": [
+        "backend"
+      ],
+      "title": "TykTechnologies/tyk",
+      "summaryEn": "Open-source API gateway in Go; supports REST, GraphQL, TCP, and gRPC with API management features.",
+      "summaryKo": "Go로 작성된 오픈소스 API 게이트웨이; REST, GraphQL, TCP, gRPC 지원.",
+      "summaryOriginal": "Tyk Open Source API Gateway written in Go, supporting REST, GraphQL, TCP and gRPC protocols",
+      "url": "https://github.com/TykTechnologies/tyk",
+      "lang": "Go",
+      "tags": [
+        "api",
+        "api-gateway",
+        "api-management",
+        "cloudnative",
+        "go",
+        "graphql",
+        "grpc",
+        "k8s",
+        "kubernetes",
+        "microservices",
+        "reverse-proxy",
+        "tyk"
+      ],
+      "metrics": {
+        "stars": 10811
+      },
+      "source": "github-search",
+      "publishedAt": "2014-05-07T14:38:24Z",
+      "updatedAt": "2026-08-31T14:22:41Z",
+      "firstSeenAt": "2026-08-19T01:20:28.544Z",
+      "lastSeenAt": "2026-09-01T00:11:05.708Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:zhaoxuya520/reverse-skill",
+      "type": "repo",
+      "categories": [
+        "backend",
+        "engineering"
+      ],
+      "title": "zhaoxuya520/reverse-skill",
+      "summaryEn": "AI-routed skill pack for reverse engineering and authorized pentesting, with on-demand tool bootstrapping for Claude Code, Cursor, and similar clients.",
+      "summaryKo": "리버스 엔지니어링·인가된 침투테스트용 AI 라우팅 스킬팩, Claude Code·Cursor 등 지원.",
+      "summaryOriginal": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "reasonEn": "New repo gaining early stars on GitHub",
+      "reasonKo": "신규 저장소, 초기 스타 증가 중",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "lang": "PowerShell",
+      "tags": [],
+      "metrics": {
+        "stars": 33100,
+        "starsDelta": 6,
+        "pushes": 1,
+        "totalScore": 226.321
+      },
+      "source": "ossinsight",
+      "updatedAt": "2026-08-31T07:23:08Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-09-01T00:11:05.708Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:diudiu-tech/delivery-harness",
+      "type": "repo",
+      "categories": [
+        "backend",
+        "ai-agents"
+      ],
+      "title": "diudiu-tech/delivery-harness",
+      "summaryEn": "A reference implementation of an AI harness designed for building on-demand delivery workflows.",
+      "summaryKo": "온디맨드 배송 워크플로 구축을 위해 설계된 AI 하네스의 레퍼런스 구현체입니다.",
+      "summaryOriginal": "AI harness reference implementation for on-demand delivery workflows",
+      "url": "https://github.com/diudiu-tech/delivery-harness",
+      "lang": "Java",
+      "tags": [],
+      "metrics": {
+        "stars": 892,
+        "starsDelta": 4,
+        "totalScore": 214.6114
+      },
+      "source": "ossinsight",
+      "updatedAt": "2026-08-27T09:55:21Z",
+      "firstSeenAt": "2026-09-01T00:11:05.708Z",
+      "lastSeenAt": "2026-09-01T00:11:05.708Z",
+      "admitReason": "notable"
     },
     {
       "id": "gh:abhigyanpatwari/GitNexus",
@@ -1782,42 +2046,6 @@
       "publishedAt": "2016-11-22T05:17:05Z",
       "updatedAt": "2026-08-28T09:31:10Z",
       "firstSeenAt": "2026-08-22T06:42:25.995Z",
-      "lastSeenAt": "2026-08-30T23:00:09.024Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "gh:JoeanAmier/TikTokDownloader",
-      "type": "repo",
-      "categories": [
-        "backend"
-      ],
-      "title": "JoeanAmier/TikTokDownloader",
-      "summaryEn": "A data collection and video downloading tool for Douyin and TikTok platforms.",
-      "summaryKo": "더이언 및 틱톡 플랫폼을 위한 데이터 수집 및 비디오 다운로드 도구입니다.",
-      "summaryOriginal": "抖音 / TikTok 平台作品下载/数据采集工具",
-      "url": "https://github.com/JoeanAmier/TikTokDownloader",
-      "lang": "Python",
-      "tags": [
-        "api",
-        "csv",
-        "docker",
-        "douyin",
-        "downloader",
-        "ffmpeg",
-        "httpx",
-        "linux",
-        "macos",
-        "pyinstaller",
-        "python",
-        "rich"
-      ],
-      "metrics": {
-        "stars": 15645
-      },
-      "source": "github-search",
-      "publishedAt": "2022-10-10T14:27:36Z",
-      "updatedAt": "2026-08-29T01:23:54Z",
-      "firstSeenAt": "2026-08-27T13:54:10.701Z",
       "lastSeenAt": "2026-08-30T23:00:09.024Z",
       "admitReason": "notable"
     },
@@ -2351,78 +2579,6 @@
       "admitReason": "notable"
     },
     {
-      "id": "gh:fastapi/fastapi",
-      "type": "repo",
-      "categories": [
-        "backend"
-      ],
-      "title": "fastapi/fastapi",
-      "summaryEn": "High-performance Python web framework for building APIs, with automatic docs and type-based validation via Pydantic.",
-      "summaryKo": "파이썬 고성능 웹 API 프레임워크, 자동 문서화와 Pydantic 기반 타입 검증 지원.",
-      "summaryOriginal": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
-      "url": "https://github.com/fastapi/fastapi",
-      "lang": "Python",
-      "tags": [
-        "api",
-        "async",
-        "asyncio",
-        "fastapi",
-        "framework",
-        "json",
-        "json-schema",
-        "openapi",
-        "openapi3",
-        "pydantic",
-        "python",
-        "python-types"
-      ],
-      "metrics": {
-        "stars": 101977
-      },
-      "source": "github-search",
-      "publishedAt": "2018-12-08T08:21:47Z",
-      "updatedAt": "2026-08-26T17:54:56Z",
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-28T03:07:04.913Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "gh:parse-community/parse-server",
-      "type": "repo",
-      "categories": [
-        "backend"
-      ],
-      "title": "parse-community/parse-server",
-      "summaryEn": "Open-source backend-as-a-service for Node.js and Express that provides data storage, authentication, and GraphQL APIs.",
-      "summaryKo": "Node.js와 Express용 오픈소스 백엔드 서비스로 데이터 저장, 인증, GraphQL API를 제공합니다.",
-      "summaryOriginal": "Parse Server for Node.js / Express",
-      "url": "https://github.com/parse-community/parse-server",
-      "lang": "JavaScript",
-      "tags": [
-        "baas",
-        "backend",
-        "file-storage",
-        "graphql",
-        "graphql-api",
-        "graphql-relay",
-        "graphql-server",
-        "hacktoberfest",
-        "mbaas",
-        "mongodb",
-        "nodejs",
-        "notifications"
-      ],
-      "metrics": {
-        "stars": 21412
-      },
-      "source": "github-search",
-      "publishedAt": "2016-01-28T18:29:14Z",
-      "updatedAt": "2026-08-26T01:35:53Z",
-      "firstSeenAt": "2026-08-25T21:30:01.334Z",
-      "lastSeenAt": "2026-08-28T03:07:04.913Z",
-      "admitReason": "notable"
-    },
-    {
       "id": "gh:valeriansaliou/sonic",
       "type": "repo",
       "categories": [
@@ -2454,37 +2610,6 @@
       "source": "github-search",
       "publishedAt": "2019-02-26T13:16:58Z",
       "updatedAt": "2026-08-26T15:43:58Z",
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-28T03:07:04.913Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "gh:apache/lucene",
-      "type": "repo",
-      "categories": [
-        "backend"
-      ],
-      "title": "apache/lucene",
-      "summaryEn": "Apache search engine library for full-text and information retrieval; foundation for many search systems.",
-      "summaryKo": "전문 검색 및 정보 검색용 Apache 검색 엔진 라이브러리; 많은 검색 시스템의 기반.",
-      "summaryOriginal": "Apache Lucene open-source search software",
-      "url": "https://github.com/apache/lucene",
-      "lang": "Java",
-      "tags": [
-        "backend",
-        "information-retrieval",
-        "java",
-        "lucene",
-        "nosql",
-        "search",
-        "search-engine"
-      ],
-      "metrics": {
-        "stars": 3552
-      },
-      "source": "github-search",
-      "publishedAt": "2021-02-23T17:16:56Z",
-      "updatedAt": "2026-08-31T18:09:31Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-28T03:07:04.913Z",
       "admitReason": "notable"
@@ -2563,34 +2688,6 @@
       "updatedAt": "2026-08-28T19:35:22Z",
       "firstSeenAt": "2026-08-27T13:54:10.701Z",
       "lastSeenAt": "2026-08-28T03:07:04.913Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "gh:encode/django-rest-framework",
-      "type": "repo",
-      "categories": [
-        "backend"
-      ],
-      "title": "encode/django-rest-framework",
-      "summaryEn": "Django REST framework for building web APIs in Python; simplifies API development with serialization and permissions.",
-      "summaryKo": "Python 웹 API 구축용 Django REST 프레임워크; 직렬화 및 권한 관리를 단순화함.",
-      "summaryOriginal": "Web APIs for Django. 🎸",
-      "url": "https://github.com/encode/django-rest-framework",
-      "lang": "Python",
-      "tags": [
-        "api",
-        "django",
-        "python",
-        "rest"
-      ],
-      "metrics": {
-        "stars": 30151
-      },
-      "source": "github-search",
-      "publishedAt": "2011-03-02T17:13:56Z",
-      "updatedAt": "2026-08-25T19:14:08Z",
-      "firstSeenAt": "2026-08-18T15:33:48.196Z",
-      "lastSeenAt": "2026-08-27T13:54:10.701Z",
       "admitReason": "notable"
     },
     {
@@ -2817,37 +2914,6 @@
       "publishedAt": "2015-11-27T07:03:24Z",
       "updatedAt": "2026-08-24T05:58:44Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-08-26T19:50:13.055Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "gh:sparckles/Robyn",
-      "type": "repo",
-      "categories": [
-        "backend"
-      ],
-      "title": "sparckles/Robyn",
-      "summaryEn": "Async Python web framework with Rust runtime for high-performance HTTP services and real-time applications.",
-      "summaryOriginal": "Robyn is a Super Fast Async Python Web Framework with a Rust runtime.",
-      "url": "https://github.com/sparckles/Robyn",
-      "lang": "Python",
-      "tags": [
-        "async",
-        "backend",
-        "hacktoberfest",
-        "http-server",
-        "python",
-        "python3",
-        "rust",
-        "web"
-      ],
-      "metrics": {
-        "stars": 7383
-      },
-      "source": "github-search",
-      "publishedAt": "2021-06-18T09:32:00Z",
-      "updatedAt": "2026-08-31T18:31:35Z",
-      "firstSeenAt": "2026-08-19T15:33:13.943Z",
       "lastSeenAt": "2026-08-26T19:50:13.055Z",
       "admitReason": "notable"
     },
