@@ -1,54 +1,121 @@
 {
   "version": 1,
   "category": "ai-models",
-  "generatedAt": "2026-09-01T22:53:39.547Z",
+  "generatedAt": "2026-09-02T22:54:08.675Z",
   "ttlSeconds": 10800,
   "cards": [
     {
-      "id": "gh:jingyaogong/minimind",
+      "id": "gh:google-research/timesfm",
       "type": "repo",
-      "title": "jingyaogong/minimind",
-      "summaryOriginal": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
-      "url": "https://github.com/jingyaogong/minimind",
+      "title": "google-research/timesfm",
+      "summaryOriginal": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "url": "https://github.com/google-research/timesfm",
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 57010,
-        "starsDelta": 1005
+        "stars": 29694,
+        "starsDelta": 326
       },
       "source": "github-trending",
       "admitReason": "trending",
-      "summaryEn": "Train a 64M parameter LLM from scratch in just 2 hours, providing a hands-on resource for understanding foundational large language model architecture.",
-      "summaryKo": "불과 2시간 만에 64M 파라미터 LLM을 처음부터 학습시키는 오픈소스 프로젝트입니다.",
+      "summaryEn": "TimesFM is a pretrained time-series foundation model by Google Research for time-series forecasting.",
+      "summaryKo": "시계열 예측을 위해 Google Research가 개발한 사전 학습된 시계열 파운데이션 모델입니다.",
+      "reasonEn": "High interest in foundational models for forecasting.",
+      "reasonKo": "시계열 예측 파운데이션 모델에 대한 높은 관심",
       "categories": [
-        "ai-models"
+        "ai-models",
+        "data"
       ],
-      "firstSeenAt": "2026-09-01T00:11:05.708Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "firstSeenAt": "2026-09-02T22:54:08.675Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
     },
     {
-      "id": "gh:unclecode/crawl4ai",
+      "id": "gh:debpalash/VoiceStudio",
       "type": "repo",
-      "title": "unclecode/crawl4ai",
-      "summaryOriginal": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
-      "url": "https://github.com/unclecode/crawl4ai",
+      "title": "debpalash/VoiceStudio",
+      "summaryOriginal": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "url": "https://github.com/debpalash/VoiceStudio",
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 80825,
-        "starsDelta": 179
+        "stars": 14613,
+        "starsDelta": 834
       },
       "source": "github-trending",
       "admitReason": "trending",
-      "summaryEn": "Crawl4AI is an open-source web crawler and scraper designed for LLMs, turning web pages into clean markdown for AI applications.",
-      "summaryKo": "LLM을 위한 오픈소스 웹 크롤러 및 스크래퍼로, 웹페이지를 정제된 마크다운으로 변환합니다.",
-      "reasonEn": "Gaining traction for LLM data pipelines",
-      "reasonKo": "LLM 데이터 파이프라인용으로 주목받는 중",
+      "summaryEn": "An open-source, fully-local ElevenLabs alternative for voice cloning, dubbing, and transcription in 646 languages.",
+      "summaryKo": "646개 언어의 음성 복제, 더빙, 전사를 지원하는 완전 로컬 오픈소스 ElevenLabs 대안입니다.",
+      "reasonEn": "Popular open-source local voice cloning tool.",
+      "reasonKo": "인기 있는 로컬 오픈소스 음성 복제 도구",
       "categories": [
+        "ai-models",
+        "devtools"
+      ],
+      "firstSeenAt": "2026-09-02T22:54:08.675Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "gh:superlinked/sie",
+      "type": "repo",
+      "title": "superlinked/sie",
+      "summaryOriginal": "Open-source inference server and production cluster for all the models your agent needs.",
+      "url": "https://github.com/superlinked/sie",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "stars": 3038,
+        "starsDelta": 61
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "An open-source inference server and production cluster designed to serve models needed by AI agents.",
+      "summaryKo": "AI 에이전트에 필요한 모델을 제공하기 위한 오픈소스 추론 서버 및 프로덕션 클러스터입니다.",
+      "reasonEn": "Growing demand for production infrastructure tailored to AI agents.",
+      "reasonKo": "AI 에이전트 맞춤형 인프라에 대한 수요 증가",
+      "categories": [
+        "ai-models",
+        "ai-agents",
+        "backend"
+      ],
+      "firstSeenAt": "2026-09-02T22:54:08.675Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "gh:NousResearch/hermes-agent",
+      "type": "repo",
+      "title": "NousResearch/hermes-agent",
+      "summaryOriginal": "The agent that grows with you",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "lang": "Python",
+      "tags": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "codex",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "nous-research"
+      ],
+      "metrics": {
+        "stars": 240091
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2025-07-22T22:22:28Z",
+      "updatedAt": "2026-09-02T22:53:36Z",
+      "summaryEn": "Scalable AI agent framework adaptable to various LLMs including Claude and OpenAI models.",
+      "summaryKo": "Claude와 OpenAI 모델에 적응하는 확장 가능한 AI 에이전트 프레임워크.",
+      "categories": [
+        "ai-agents",
         "ai-models"
       ],
-      "firstSeenAt": "2026-08-30T23:00:09.024Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
     },
     {
       "id": "gh:affaan-m/ECC",
@@ -68,12 +135,12 @@
         "productivity"
       ],
       "metrics": {
-        "stars": 245736
+        "stars": 246283
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-01-18T00:51:51Z",
-      "updatedAt": "2026-08-31T22:18:39Z",
+      "updatedAt": "2026-09-02T22:27:22Z",
       "summaryEn": "Agent harness optimization system for Claude Code and other coding agents covering skills, memory, and security.",
       "summaryKo": "Claude Code 및 코딩 에이전트 최적화 시스템.",
       "categories": [
@@ -83,7 +150,41 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "gh:JuliusBrussee/caveman",
+      "type": "repo",
+      "title": "JuliusBrussee/caveman",
+      "summaryOriginal": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "lang": "Go",
+      "tags": [
+        "ai",
+        "anthropic",
+        "caveman",
+        "claude",
+        "claude-code",
+        "llm",
+        "meme",
+        "prompt-engineering",
+        "skill",
+        "tokens"
+      ],
+      "metrics": {
+        "stars": 102598
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2026-04-04T10:03:00Z",
+      "updatedAt": "2026-09-02T13:48:52Z",
+      "summaryEn": "Claude Code skill that reduces token usage by 65% using simplified prompt language, trading precision for efficiency in LLM interactions.",
+      "summaryKo": "단순화된 프롬프트 언어로 토큰 사용량을 65% 줄이는 Claude Code 스킬입니다.",
+      "categories": [
+        "ai-models"
+      ],
+      "firstSeenAt": "2026-08-20T12:53:13.611Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
     },
     {
       "id": "gh:Nanako0129/sepia",
@@ -107,12 +208,12 @@
         "writing-tools"
       ],
       "metrics": {
-        "stars": 1351
+        "stars": 1549
       },
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-28T05:56:49Z",
-      "updatedAt": "2026-09-01T18:07:24Z",
+      "updatedAt": "2026-09-02T19:38:16Z",
       "summaryEn": "De-AI writing skill for Claude Code, Codex, and Grok, providing narrative-architecture repair and venue-matched rules for prose.",
       "summaryKo": "Claude Code, Codex, Grok용 AI 글쓰기 교정 스킬로 서사 구조를 보정합니다.",
       "reasonEn": "Gaining attention for AI writing workflow adjustments",
@@ -122,36 +223,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-29T02:56:27.939Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
-    },
-    {
-      "id": "gh:rome-os/rome",
-      "type": "repo",
-      "title": "rome-os/rome",
-      "summaryOriginal": "Rome is the agentic OS.",
-      "url": "https://github.com/rome-os/rome",
-      "lang": "TypeScript",
-      "tags": [
-        "agent",
-        "agent-os",
-        "claude-code",
-        "codex",
-        "llm"
-      ],
-      "metrics": {
-        "stars": 444
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-08-23T06:15:15Z",
-      "updatedAt": "2026-09-01T22:31:45Z",
-      "summaryEn": "Rome is an agentic operating system designed to integrate LLMs, Claude Code, and Codex for autonomous task execution.",
-      "summaryKo": "대규모 언어 모델과 에이전트를 통합하여 자율 작업을 실행하는 에이전틱 운영체제입니다.",
-      "categories": [
-        "ai-models"
-      ],
-      "firstSeenAt": "2026-08-24T08:55:53.167Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
     },
     {
       "id": "gh:panxunying/ai-coding-welfare",
@@ -173,19 +245,82 @@
         "openai"
       ],
       "metrics": {
-        "stars": 438
+        "stars": 486
       },
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-21T08:59:30Z",
-      "updatedAt": "2026-09-01T21:03:45Z",
+      "updatedAt": "2026-09-02T21:05:07Z",
       "summaryEn": "A community-driven navigation list and configuration helper for free AI coding quotas, proxy stations, and models.",
       "summaryKo": "무료 AI 코딩 할당량과 프록시 스테이션을 모아둔 커뮤니티 네비게이션 가이드입니다.",
       "categories": [
         "ai-models"
       ],
       "firstSeenAt": "2026-08-30T23:00:09.024Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "gh:rome-os/rome",
+      "type": "repo",
+      "title": "rome-os/rome",
+      "summaryOriginal": "Rome is the agentic OS.",
+      "url": "https://github.com/rome-os/rome",
+      "lang": "TypeScript",
+      "tags": [
+        "agent",
+        "agent-os",
+        "claude-code",
+        "codex",
+        "llm"
+      ],
+      "metrics": {
+        "stars": 448
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-08-23T06:15:15Z",
+      "updatedAt": "2026-09-02T22:50:22Z",
+      "summaryEn": "Rome is an agentic operating system designed to integrate LLMs, Claude Code, and Codex for autonomous task execution.",
+      "summaryKo": "대규모 언어 모델과 에이전트를 통합하여 자율 작업을 실행하는 에이전틱 운영체제입니다.",
+      "categories": [
+        "ai-models"
+      ],
+      "firstSeenAt": "2026-08-24T08:55:53.167Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "gh:Player-YN/PawWork_ZhuaZhua",
+      "type": "repo",
+      "title": "Player-YN/PawWork_ZhuaZhua",
+      "summaryOriginal": "Paw Work - selection-first web agent for Chrome: select on the live page, describe the outcome, take away an editable office file. BYOK, sandboxed, no server.",
+      "url": "https://github.com/Player-YN/PawWork_ZhuaZhua",
+      "lang": "JavaScript",
+      "tags": [
+        "ai-agent",
+        "browser-agent",
+        "byok",
+        "chrome-extension",
+        "llm",
+        "pptx",
+        "tldraw",
+        "univer"
+      ],
+      "metrics": {
+        "stars": 434
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-08-28T10:56:56Z",
+      "updatedAt": "2026-09-01T15:03:17Z",
+      "summaryEn": "Paw Work is a selection-first browser agent for Chrome that lets you select elements on a page, describe outcomes, and output editable office files locally.",
+      "summaryKo": "웹페이지를 선택하고 결과를 설명하여 편집 가능한 오피스 파일을 로컬로 생성하는 크롬용 브라우저 에이전트.",
+      "reasonEn": "Popular open-source release for local AI browser automation.",
+      "reasonKo": "로컬 AI 브라우저 자동화 도구로 인기를 얻는 오픈소스.",
+      "categories": [
+        "ai-models"
+      ],
+      "firstSeenAt": "2026-09-01T22:53:39.547Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
     },
     {
       "id": "gh:OnlyTerp/opengrok",
@@ -203,7 +338,7 @@
         "windows"
       ],
       "metrics": {
-        "stars": 405
+        "stars": 415
       },
       "source": "github-search",
       "admitReason": "new",
@@ -218,7 +353,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-29T02:56:27.939Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
     },
     {
       "id": "gh:S1N6H/pentest-harness",
@@ -241,12 +376,12 @@
         "security-tools"
       ],
       "metrics": {
-        "stars": 321
+        "stars": 327
       },
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-26T04:57:19Z",
-      "updatedAt": "2026-08-29T20:08:30Z",
+      "updatedAt": "2026-09-02T20:06:34Z",
       "summaryEn": "Self-hosted AI agent harness for authorized pentests, bug bounties, and security CTFs with local sessions.",
       "summaryKo": "로컬 세션 기반의 공인 침투 테스트 및 버그 바운티용 셀프 호스팅 AI 에이전트 도구입니다.",
       "reasonEn": "Popular for running local AI pentesting agents",
@@ -255,7 +390,7 @@
         "ai-models"
       ],
       "firstSeenAt": "2026-08-29T02:56:27.939Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
     },
     {
       "id": "gh:useagenthq/useagent",
@@ -279,7 +414,7 @@
         "developer-tools"
       ],
       "metrics": {
-        "stars": 269
+        "stars": 274
       },
       "source": "github-search",
       "admitReason": "new",
@@ -296,7 +431,7 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-30T23:00:09.024Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
     },
     {
       "id": "gh:JordyZomer/lemmalog",
@@ -315,12 +450,12 @@
         "neurosymbolic"
       ],
       "metrics": {
-        "stars": 248
+        "stars": 259
       },
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-27T07:06:55Z",
-      "updatedAt": "2026-09-01T19:48:24Z",
+      "updatedAt": "2026-09-02T07:00:09Z",
       "summaryEn": "A Datalog engine providing shared memory and knowledge graphs for LLM agents.",
       "summaryKo": "LLM 에이전트를 위한 공유 메모리와 지식 그래프를 제공하는 Datalog 엔진입니다.",
       "reasonEn": "Trending in LLM agent memory",
@@ -330,41 +465,43 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-29T22:55:06.972Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
     },
     {
-      "id": "gh:Player-YN/PawWork_ZhuaZhua",
+      "id": "gh:carloslfu/slotstream",
       "type": "repo",
-      "title": "Player-YN/PawWork_ZhuaZhua",
-      "summaryOriginal": "Paw Work - selection-first web agent for Chrome: select on the live page, describe the outcome, take away an editable office file. BYOK, sandboxed, no server.",
-      "url": "https://github.com/Player-YN/PawWork_ZhuaZhua",
-      "lang": "JavaScript",
+      "title": "carloslfu/slotstream",
+      "summaryOriginal": "Run Qwen3.8-Flash-Next (125B MoE, 104 GB at 4-bit) on Macs with a fraction of that RAM by streaming experts from SSD. MLX + Swift, Ollama-compatible API.",
+      "url": "https://github.com/carloslfu/slotstream",
+      "lang": "Swift",
       "tags": [
-        "ai-agent",
-        "browser-agent",
-        "byok",
-        "chrome-extension",
+        "apple-silicon",
         "llm",
-        "pptx",
-        "tldraw",
-        "univer"
+        "llm-inference",
+        "local-llm",
+        "macos",
+        "mixture-of-experts",
+        "mlx",
+        "ollama",
+        "qwen",
+        "swift"
       ],
       "metrics": {
-        "stars": 198
+        "stars": 244
       },
       "source": "github-search",
       "admitReason": "new",
-      "publishedAt": "2026-08-28T10:56:56Z",
-      "updatedAt": "2026-09-01T15:03:17Z",
-      "summaryEn": "Paw Work is a selection-first browser agent for Chrome that lets you select elements on a page, describe outcomes, and output editable office files locally.",
-      "summaryKo": "웹페이지를 선택하고 결과를 설명하여 편집 가능한 오피스 파일을 로컬로 생성하는 크롬용 브라우저 에이전트.",
-      "reasonEn": "Popular open-source release for local AI browser automation.",
-      "reasonKo": "로컬 AI 브라우저 자동화 도구로 인기를 얻는 오픈소스.",
+      "publishedAt": "2026-08-28T06:42:21Z",
+      "updatedAt": "2026-09-02T20:30:38Z",
+      "summaryEn": "Slotstream lets you run large MoE language models like Qwen on Macs with limited RAM by streaming model experts directly from an SSD using MLX and Swift.",
+      "summaryKo": "MLX와 Swift를 사용하여 SSD에서 모델 전문가를 스트리밍함으로써 RAM이 부족한 맥에서도 대형 MoE 언어 모델을 실행합니다.",
+      "reasonEn": "Enables running huge local models on consumer Mac hardware.",
+      "reasonKo": "일반 맥 하드웨어에서 거대한 로컬 모델 실행을 가능하게 합니다.",
       "categories": [
         "ai-models"
       ],
       "firstSeenAt": "2026-09-01T22:53:39.547Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
     },
     {
       "id": "gh:Vuk97/forward-implementation-first",
@@ -388,7 +525,7 @@
         "llm-agents"
       ],
       "metrics": {
-        "stars": 159
+        "stars": 161
       },
       "source": "github-search",
       "admitReason": "new",
@@ -402,7 +539,42 @@
         "devtools"
       ],
       "firstSeenAt": "2026-08-30T23:00:09.024Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "gh:Human-Agent-Society/reef",
+      "type": "repo",
+      "title": "Human-Agent-Society/reef",
+      "summaryOriginal": "Continual learning infra for self-improving agents",
+      "url": "https://github.com/Human-Agent-Society/reef",
+      "lang": "Python",
+      "tags": [
+        "agent-infrastructure",
+        "ai-agents",
+        "continual-learning",
+        "inference",
+        "llm",
+        "llm-training",
+        "reinforcement-learning",
+        "self-improving-agents"
+      ],
+      "metrics": {
+        "stars": 151
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-08-31T01:39:18Z",
+      "updatedAt": "2026-09-02T22:44:27Z",
+      "summaryEn": "Continual learning infrastructure built for self-improving AI agents.",
+      "summaryKo": "스스로 학습하고 발전하는 AI 에이전트를 위한 지속적 학습 인프라입니다.",
+      "reasonEn": "Interest in self-improving AI agent loops.",
+      "reasonKo": "자기 개선형 AI 에이전트 루프에 대한 관심",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-09-02T22:54:08.675Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
     },
     {
       "id": "gh:itshen/source-reading-methodology",
@@ -424,7 +596,7 @@
         "technical-writing"
       ],
       "metrics": {
-        "stars": 127
+        "stars": 129
       },
       "source": "github-search",
       "admitReason": "new",
@@ -438,7 +610,46 @@
         "ai-models"
       ],
       "firstSeenAt": "2026-08-25T01:21:01.540Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "gh:kydlikebtc/awesome-grokbot",
+      "type": "repo",
+      "title": "kydlikebtc/awesome-grokbot",
+      "summaryOriginal": "361 live x.ai/bot shares for Grok Bot — every link status-checked, every row attributed. Bilingual EN/中文 catalog with a JSON schema, CI, and a searchable site.",
+      "url": "https://github.com/kydlikebtc/awesome-grokbot",
+      "lang": "Python",
+      "tags": [
+        "agents",
+        "ai-agents",
+        "ai-tools",
+        "awesome",
+        "awesome-list",
+        "bot-templates",
+        "catalog",
+        "cursor",
+        "directory",
+        "grok",
+        "grok-bot",
+        "grokbot"
+      ],
+      "metrics": {
+        "stars": 123
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-09-01T02:30:25Z",
+      "updatedAt": "2026-09-02T13:01:03Z",
+      "summaryEn": "A curated catalog of live x.ai Grok bot shares with status-checking and a JSON schema.",
+      "summaryKo": "상태 확인 기능과 JSON 스키마가 포함된 x.ai Grok 봇 공유 카탈로그입니다.",
+      "reasonEn": "Growing repository of custom Grok bot shares.",
+      "reasonKo": "맞춤형 Grok 봇 공유 리포지토리 증가",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-09-02T22:54:08.675Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
     },
     {
       "id": "gh:unclecode/modelprint",
@@ -454,55 +665,54 @@
         "openrouter"
       ],
       "metrics": {
-        "stars": 112
+        "stars": 115
       },
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-21T12:16:56Z",
-      "updatedAt": "2026-09-01T08:41:25Z",
+      "updatedAt": "2026-09-02T07:57:24Z",
       "summaryEn": "Fingerprint any OpenAI-compatible API endpoint in the browser using 9 infrastructure probes.",
       "summaryKo": "브라우저에서 9가지 인프라 프로브를 사용하여 OpenAI 호환 API 엔드포인트 지문 채집",
       "categories": [
         "ai-models"
       ],
       "firstSeenAt": "2026-08-28T00:16:59.828Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
     },
     {
-      "id": "gh:carloslfu/slotstream",
+      "id": "gh:UditAkhourii/cdaf",
       "type": "repo",
-      "title": "carloslfu/slotstream",
-      "summaryOriginal": "Run Qwen3.8-Flash-Next (125B MoE, 104 GB at 4-bit) on Macs with a fraction of that RAM by streaming experts from SSD. MLX + Swift, Ollama-compatible API.",
-      "url": "https://github.com/carloslfu/slotstream",
-      "lang": "Swift",
+      "title": "UditAkhourii/cdaf",
+      "summaryOriginal": "CDAF (Cached Descriptive Asset Files) - open sidecar format for video so AI agents stop re-analyzing the same footage. Spec, CLI, agent skill, reproducible benchmark.",
+      "url": "https://github.com/UditAkhourii/cdaf",
+      "lang": "Python",
       "tags": [
-        "apple-silicon",
+        "agentic-ai",
+        "ai-agents",
+        "file-format",
+        "gemini",
         "llm",
-        "llm-inference",
-        "local-llm",
-        "macos",
-        "mixture-of-experts",
-        "mlx",
-        "ollama",
-        "qwen",
-        "swift"
+        "remotion",
+        "sidecar",
+        "token-optimization",
+        "video",
+        "video-understanding"
       ],
       "metrics": {
-        "stars": 111
+        "stars": 109
       },
       "source": "github-search",
       "admitReason": "new",
-      "publishedAt": "2026-08-28T06:42:21Z",
-      "updatedAt": "2026-09-01T22:41:56Z",
-      "summaryEn": "Slotstream lets you run large MoE language models like Qwen on Macs with limited RAM by streaming model experts directly from an SSD using MLX and Swift.",
-      "summaryKo": "MLX와 Swift를 사용하여 SSD에서 모델 전문가를 스트리밍함으로써 RAM이 부족한 맥에서도 대형 MoE 언어 모델을 실행합니다.",
-      "reasonEn": "Enables running huge local models on consumer Mac hardware.",
-      "reasonKo": "일반 맥 하드웨어에서 거대한 로컬 모델 실행을 가능하게 합니다.",
+      "publishedAt": "2026-08-26T09:12:41Z",
+      "updatedAt": "2026-08-28T05:07:23Z",
+      "summaryEn": "Open sidecar format for video assets, preventing AI agents from repeatedly re-analyzing the same footage and optimizing token usage.",
+      "summaryKo": "AI 에이전트가 동일한 영상을 중복 분석하지 않도록 방지하는 비디오 사이드카 포맷입니다.",
       "categories": [
-        "ai-models"
+        "ai-models",
+        "ai-agents"
       ],
-      "firstSeenAt": "2026-09-01T22:53:39.547Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "firstSeenAt": "2026-09-01T00:11:05.708Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
     },
     {
       "id": "gh:abligail/narralume",
@@ -535,46 +745,7 @@
         "ai-models"
       ],
       "firstSeenAt": "2026-08-27T13:54:10.701Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
-    },
-    {
-      "id": "gh:rokbenko/quackd",
-      "type": "repo",
-      "title": "rokbenko/quackd",
-      "summaryOriginal": "🦆🧠 Give your Microduck a brain. Tell a small robot with two legs what you want in plain language. An LLM (Claude, OpenAI, Gemini, Grok, or a local model via Ollama, vLLM or llama.cpp) uses the skills it already has to do it. Includes a simulator, .duck task files, MCP and a flock mode where multiple simulated ducks cooperate. Apache 2.0 license.",
-      "url": "https://github.com/rokbenko/quackd",
-      "lang": "Python",
-      "tags": [
-        "claude",
-        "embodied-ai",
-        "hugging-face",
-        "llama-cpp",
-        "llm",
-        "llm-agents",
-        "local-llm",
-        "mcp",
-        "microduck",
-        "model-context-protocol",
-        "multi-agent",
-        "ollama"
-      ],
-      "metrics": {
-        "stars": 107
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-08-28T09:09:16Z",
-      "updatedAt": "2026-09-01T15:28:30Z",
-      "summaryEn": "Quackd gives physical or simulated robots a language-based brain, allowing local and cloud LLMs to control robot tasks via a standardized framework.",
-      "summaryKo": "LLM이 표준화된 프레임워크를 통해 로봇 작업을 제어할 수 있도록 물리적 또는 시뮬레이션된 로봇에 언어 기반 두뇌를 부여합니다.",
-      "reasonEn": "Novel integration of LLMs with physical and simulated robotics.",
-      "reasonKo": "LL물과 물리적 및 시뮬레이션 로보틱스의 새로운 결합.",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-09-01T22:53:39.547Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
     },
     {
       "id": "gh:Jordanwei1/jiaojie-skill",
@@ -613,79 +784,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-22T06:42:25.995Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
-    },
-    {
-      "id": "gh:UditAkhourii/cdaf",
-      "type": "repo",
-      "title": "UditAkhourii/cdaf",
-      "summaryOriginal": "CDAF (Cached Descriptive Asset Files) - open sidecar format for video so AI agents stop re-analyzing the same footage. Spec, CLI, agent skill, reproducible benchmark.",
-      "url": "https://github.com/UditAkhourii/cdaf",
-      "lang": "Python",
-      "tags": [
-        "agentic-ai",
-        "ai-agents",
-        "file-format",
-        "gemini",
-        "llm",
-        "remotion",
-        "sidecar",
-        "token-optimization",
-        "video",
-        "video-understanding"
-      ],
-      "metrics": {
-        "stars": 104
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-08-26T09:12:41Z",
-      "updatedAt": "2026-08-28T05:07:23Z",
-      "summaryEn": "Open sidecar format for video assets, preventing AI agents from repeatedly re-analyzing the same footage and optimizing token usage.",
-      "summaryKo": "AI 에이전트가 동일한 영상을 중복 분석하지 않도록 방지하는 비디오 사이드카 포맷입니다.",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-09-01T00:11:05.708Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
-    },
-    {
-      "id": "gh:NousResearch/hermes-agent",
-      "type": "repo",
-      "title": "NousResearch/hermes-agent",
-      "summaryOriginal": "The agent that grows with you",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "lang": "Python",
-      "tags": [
-        "ai",
-        "ai-agent",
-        "ai-agents",
-        "anthropic",
-        "chatgpt",
-        "claude",
-        "claude-code",
-        "codex",
-        "hermes",
-        "hermes-agent",
-        "llm",
-        "nous-research"
-      ],
-      "metrics": {
-        "stars": 239496
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-09-01T22:41:53Z",
-      "summaryEn": "Scalable AI agent framework adaptable to various LLMs including Claude and OpenAI models.",
-      "summaryKo": "Claude와 OpenAI 모델에 적응하는 확장 가능한 AI 에이전트 프레임워크.",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
     },
     {
       "id": "gh:Significant-Gravitas/AutoGPT",
@@ -708,12 +807,12 @@
         "python"
       ],
       "metrics": {
-        "stars": 187064
+        "stars": 187083
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2023-03-16T09:21:07Z",
-      "updatedAt": "2026-09-01T22:08:50Z",
+      "updatedAt": "2026-09-02T22:45:43Z",
       "summaryEn": "Open autonomous AI agent framework providing accessible tools for building agentic systems with multiple LLM backends.",
       "summaryKo": "다양한 LLM을 지원하는 오픈소스 자율 AI 에이전트 프레임워크.",
       "categories": [
@@ -721,7 +820,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
     },
     {
       "id": "gh:ollama/ollama",
@@ -745,399 +844,19 @@
         "minimax"
       ],
       "metrics": {
-        "stars": 179917
+        "stars": 179998
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2023-06-26T19:39:32Z",
-      "updatedAt": "2026-09-01T21:52:08Z",
+      "updatedAt": "2026-09-02T22:23:13Z",
       "summaryEn": "Local LLM runtime supporting DeepSeek, Qwen, Gemma, Mistral and other open-source models without cloud dependency.",
       "summaryKo": "DeepSeek, Qwen, Gemma 등 오픈소스 모델을 로컬에서 실행하는 런타임.",
       "categories": [
         "ai-models"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
-    },
-    {
-      "id": "gh:firecrawl/firecrawl",
-      "type": "repo",
-      "title": "firecrawl/firecrawl",
-      "summaryOriginal": "The context API to search, scrape, and interact with the web at scale. 🔥",
-      "url": "https://github.com/firecrawl/firecrawl",
-      "lang": "TypeScript",
-      "tags": [
-        "ai",
-        "ai-agents",
-        "ai-crawler",
-        "ai-scraping",
-        "ai-search",
-        "crawler",
-        "data-extraction",
-        "html-to-markdown",
-        "llm",
-        "markdown",
-        "scraper",
-        "scraping"
-      ],
-      "metrics": {
-        "stars": 175281
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2024-04-15T21:02:29Z",
-      "updatedAt": "2026-09-01T22:46:16Z",
-      "summaryEn": "Web scraper and data extractor optimized for AI agents and LLMs to search, scrape, and interact with web content at scale.",
-      "summaryKo": "AI 에이전트와 LLM을 위한 웹 스크래퍼 및 데이터 추출기로 대규모 웹 콘텐츠 수집 최적화.",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
-    },
-    {
-      "id": "gh:f/prompts.chat",
-      "type": "repo",
-      "title": "f/prompts.chat",
-      "summaryOriginal": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-      "url": "https://github.com/f/prompts.chat",
-      "lang": "HTML",
-      "tags": [
-        "ai",
-        "artificial-intelligence",
-        "awesome-list",
-        "chatgpt",
-        "chatgpt-prompts",
-        "claude",
-        "gemini",
-        "gpt",
-        "gpt-4",
-        "llm",
-        "machine-learning",
-        "nextjs"
-      ],
-      "metrics": {
-        "stars": 168430
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2022-12-05T13:54:13Z",
-      "updatedAt": "2026-09-01T03:19:49Z",
-      "summaryEn": "Community-driven repository of prompts for ChatGPT, Claude, Gemini, and other LLMs. Self-hostable alternative to commercial prompt libraries.",
-      "categories": [
-        "ai-models",
-        "web"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
-    },
-    {
-      "id": "gh:huggingface/transformers",
-      "type": "repo",
-      "title": "huggingface/transformers",
-      "summaryOriginal": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
-      "url": "https://github.com/huggingface/transformers",
-      "lang": "Python",
-      "tags": [
-        "audio",
-        "deep-learning",
-        "deepseek",
-        "gemma",
-        "glm",
-        "hacktoberfest",
-        "llm",
-        "machine-learning",
-        "model-hub",
-        "natural-language-processing",
-        "nlp",
-        "pretrained-models"
-      ],
-      "metrics": {
-        "stars": 164704
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2018-10-29T13:56:00Z",
-      "updatedAt": "2026-09-01T19:48:16Z",
-      "summaryEn": "Hugging Face's framework defining state-of-the-art models for text, vision, audio, and multimodal tasks.",
-      "summaryKo": "텍스트·비전·오디오·멀티모달 최신 모델을 정의하는 허깅페이스 프레임워크.",
-      "reasonEn": "164k+ stars, standard library for ML model inference/training",
-      "reasonKo": "스타 16.4만, ML 모델 추론·학습 표준 라이브러리",
-      "categories": [
-        "ai-models"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
-    },
-    {
-      "id": "gh:langgenius/dify",
-      "type": "repo",
-      "title": "langgenius/dify",
-      "summaryOriginal": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
-      "url": "https://github.com/langgenius/dify",
-      "lang": "TypeScript",
-      "tags": [
-        "agent",
-        "agentic-ai",
-        "agentic-framework",
-        "agentic-workflow",
-        "ai",
-        "automation",
-        "claude",
-        "deepseek",
-        "genai",
-        "gpt",
-        "llm",
-        "low-code"
-      ],
-      "metrics": {
-        "stars": 154120
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2023-04-12T07:40:24Z",
-      "updatedAt": "2026-09-01T22:44:23Z",
-      "summaryEn": "Low-code platform for building agentic workflows and RAG pipelines with broad AI model and tool support.",
-      "summaryKo": "에이전트 워크플로우와 RAG 파이프라인을 만드는 로우코드 플랫폼, 다양한 AI 모델·툴 지원.",
-      "reasonEn": "Near 153k GitHub stars, high developer adoption",
-      "reasonKo": "스타 15만 개 돌파, 개발자 채택 급증",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
-    },
-    {
-      "id": "gh:open-webui/open-webui",
-      "type": "repo",
-      "title": "open-webui/open-webui",
-      "summaryOriginal": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-      "url": "https://github.com/open-webui/open-webui",
-      "lang": "Python",
-      "tags": [
-        "ai",
-        "llm",
-        "llm-ui",
-        "llm-webui",
-        "llms",
-        "mcp",
-        "ollama",
-        "ollama-webui",
-        "open-webui",
-        "openai",
-        "openapi",
-        "rag"
-      ],
-      "metrics": {
-        "stars": 150623
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2023-10-06T22:08:27Z",
-      "updatedAt": "2026-09-01T02:20:26Z",
-      "summaryEn": "Self-hosted web interface for local and API-based LLMs, supporting Ollama and OpenAI-compatible backends.",
-      "summaryKo": "로컬·API 기반 LLM용 셀프호스팅 웹 UI, Ollama·OpenAI 호환 백엔드 지원.",
-      "reasonEn": "149k+ stars, top choice for self-hosted AI chat UIs",
-      "reasonKo": "스타 14.9만, 셀프호스팅 AI 챗 UI 1위",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
-    },
-    {
-      "id": "gh:langchain-ai/langchain",
-      "type": "repo",
-      "title": "langchain-ai/langchain",
-      "summaryOriginal": "The agent engineering platform.",
-      "url": "https://github.com/langchain-ai/langchain",
-      "lang": "Python",
-      "tags": [
-        "agents",
-        "ai",
-        "ai-agents",
-        "anthropic",
-        "chatgpt",
-        "deepagents",
-        "enterprise",
-        "framework",
-        "gemini",
-        "generative-ai",
-        "langchain",
-        "langgraph"
-      ],
-      "metrics": {
-        "stars": 145454
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2022-10-17T02:58:36Z",
-      "updatedAt": "2026-09-01T22:27:04Z",
-      "summaryEn": "Framework for building AI agents, from prototyping to production, with multi-model and RAG support.",
-      "summaryKo": "AI 에이전트를 프로토타입부터 프로덕션까지 만드는 프레임워크, 멀티모델·RAG 지원.",
-      "reasonEn": "144k+ stars, foundational agent engineering toolkit",
-      "reasonKo": "스타 14만 이상, 에이전트 엔지니어링 기반 툴킷",
-      "categories": [
-        "ai-models",
-        "ai-agents",
-        "web"
-      ],
-      "firstSeenAt": "2026-09-01T22:53:39.547Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
-    },
-    {
-      "id": "gh:harry0703/MoneyPrinterTurbo",
-      "type": "repo",
-      "title": "harry0703/MoneyPrinterTurbo",
-      "summaryOriginal": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "lang": "Python",
-      "tags": [
-        "ai-video-generator",
-        "content-creation",
-        "ffmpeg",
-        "instagram-reels",
-        "llm",
-        "python",
-        "short-video",
-        "subtitles",
-        "text-to-speech",
-        "tiktok",
-        "video-automation",
-        "video-workflow"
-      ],
-      "metrics": {
-        "stars": 119389
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2024-03-11T02:57:34Z",
-      "updatedAt": "2026-09-01T10:47:23Z",
-      "summaryEn": "Generates HD short videos automatically from a topic or keyword using an AI workflow.",
-      "summaryKo": "주제나 키워드만 넣으면 AI가 자동으로 고화질 숏폼 영상을 만들어준다.",
-      "reasonEn": "Gained 1,189 stars today",
-      "reasonKo": "오늘 스타 1,189개 급증",
-      "categories": [
-        "ai-models"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
-    },
-    {
-      "id": "gh:Graphify-Labs/graphify",
-      "type": "repo",
-      "title": "Graphify-Labs/graphify",
-      "summaryOriginal": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "lang": "Python",
-      "tags": [
-        "ai-agents",
-        "antigravity",
-        "ast",
-        "claude-code",
-        "code-analysis",
-        "code-search",
-        "codex",
-        "cursor",
-        "developer-tools",
-        "gemini",
-        "graphrag",
-        "knowledge-graph"
-      ],
-      "metrics": {
-        "stars": 113401
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2026-04-03T15:49:07Z",
-      "updatedAt": "2026-08-30T15:03:47Z",
-      "summaryEn": "Convert codebases into queryable knowledge graphs using AST parsing; integrates with Claude Code and Cursor for code analysis.",
-      "summaryKo": "코드베이스를 쿼리 가능한 그래프로 변환, Claude Code와 Cursor 통합.",
-      "categories": [
-        "ai-models",
-        "ai-agents",
-        "devtools"
-      ],
-      "firstSeenAt": "2026-09-01T22:53:39.547Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
-    },
-    {
-      "id": "hf-model:Qwen/Qwen3.8-Flash-Next",
-      "type": "model",
-      "title": "Qwen/Qwen3.8-Flash-Next",
-      "summaryOriginal": "image-text-to-text model · transformers, safetensors, qwen4_exp, image-text-to-text, conversational",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
-      "lang": "image-text-to-text",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen4_exp",
-        "image-text-to-text",
-        "conversational",
-        "license:other",
-        "eval-results",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "metrics": {
-        "likes": 4632,
-        "downloads": 207941,
-        "trendingScore": 3262
-      },
-      "source": "hf-models",
-      "admitReason": "trending",
-      "publishedAt": "2026-08-24T08:24:59.000Z",
-      "summaryEn": "Qwen3.8-Flash-Next is an image-text-to-text conversational model compatible with standard transformers.",
-      "summaryKo": "이미지-텍스트 대화를 지원하는 Qwen3.8-Flash-Next 모델입니다.",
-      "reasonEn": "Trending high community engagement and downloads.",
-      "reasonKo": "커뮤니티 참여도와 다운로드 수가 급증하고 있습니다.",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-26T12:55:17.882Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
-    },
-    {
-      "id": "hf-model:zai-org/GLM-5.3-Flash",
-      "type": "model",
-      "title": "zai-org/GLM-5.3-Flash",
-      "summaryOriginal": "image-text-to-text model · transformers, safetensors, glm5_next, image-text-to-text, conversational",
-      "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
-      "lang": "image-text-to-text",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "glm5_next",
-        "image-text-to-text",
-        "conversational",
-        "en",
-        "zh",
-        "arxiv:2602.15763",
-        "license:mit",
-        "eval-results",
-        "endpoints_compatible",
-        "fp8"
-      ],
-      "metrics": {
-        "likes": 1876,
-        "downloads": 441348,
-        "trendingScore": 1760
-      },
-      "source": "hf-models",
-      "admitReason": "trending",
-      "publishedAt": "2026-08-25T06:43:14.000Z",
-      "summaryEn": "GLM-5.3-Flash is a text-generation and multimodal model by zai-org supporting multilingual tasks.",
-      "summaryKo": "zai-org의 다국어 텍스트 생성 및 멀티모달 모델인 GLM-5.3-Flash입니다.",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-26T16:19:00.899Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
     },
     {
       "id": "hf-model:zai-org/GLM-5.3",
@@ -1161,9 +880,9 @@
         "fp8"
       ],
       "metrics": {
-        "likes": 1466,
+        "likes": 1514,
         "downloads": 94403,
-        "trendingScore": 1391
+        "trendingScore": 1429
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1177,7 +896,82 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-29T02:56:27.939Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "hf-model:zai-org/GLM-5.3-Flash",
+      "type": "model",
+      "title": "zai-org/GLM-5.3-Flash",
+      "summaryOriginal": "image-text-to-text model · transformers, safetensors, glm5_next, image-text-to-text, conversational",
+      "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+      "lang": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "glm5_next",
+        "image-text-to-text",
+        "conversational",
+        "en",
+        "zh",
+        "arxiv:2602.15763",
+        "license:mit",
+        "eval-results",
+        "endpoints_compatible",
+        "fp8"
+      ],
+      "metrics": {
+        "likes": 1963,
+        "downloads": 441348,
+        "trendingScore": 1084
+      },
+      "source": "hf-models",
+      "admitReason": "trending",
+      "publishedAt": "2026-08-25T06:43:14.000Z",
+      "summaryEn": "GLM-5.3-Flash is a text-generation and multimodal model by zai-org supporting multilingual tasks.",
+      "summaryKo": "zai-org의 다국어 텍스트 생성 및 멀티모달 모델인 GLM-5.3-Flash입니다.",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-08-26T16:19:00.899Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "hf-model:Qwen/Qwen3.8-Flash-Next",
+      "type": "model",
+      "title": "Qwen/Qwen3.8-Flash-Next",
+      "summaryOriginal": "image-text-to-text model · transformers, safetensors, qwen4_exp, image-text-to-text, conversational",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+      "lang": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen4_exp",
+        "image-text-to-text",
+        "conversational",
+        "license:other",
+        "eval-results",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "metrics": {
+        "likes": 4731,
+        "downloads": 207941,
+        "trendingScore": 967
+      },
+      "source": "hf-models",
+      "admitReason": "trending",
+      "publishedAt": "2026-08-24T08:24:59.000Z",
+      "summaryEn": "Qwen3.8-Flash-Next is an image-text-to-text conversational model compatible with standard transformers.",
+      "summaryKo": "이미지-텍스트 대화를 지원하는 Qwen3.8-Flash-Next 모델입니다.",
+      "reasonEn": "Trending high community engagement and downloads.",
+      "reasonKo": "커뮤니티 참여도와 다운로드 수가 급증하고 있습니다.",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-08-26T12:55:17.882Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
     },
     {
       "id": "hf-model:Qwen/Qwen3.8-27B",
@@ -1200,9 +994,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 13578,
+        "likes": 13682,
         "downloads": 4960483,
-        "trendingScore": 654
+        "trendingScore": 566
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1216,42 +1010,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
-    },
-    {
-      "id": "hf-model:unsloth/Qwen3.8-Flash-Next-GGUF",
-      "type": "model",
-      "title": "unsloth/Qwen3.8-Flash-Next-GGUF",
-      "summaryOriginal": "image-text-to-text model · gguf, unsloth, image-text-to-text, base_model:Qwen/Qwen3.8-Flash-Next, base_model:quantized:Qwen/Qwen3.8-Flash…",
-      "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF",
-      "lang": "image-text-to-text",
-      "tags": [
-        "gguf",
-        "unsloth",
-        "image-text-to-text",
-        "base_model:Qwen/Qwen3.8-Flash-Next",
-        "base_model:quantized:Qwen/Qwen3.8-Flash…",
-        "license:other",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "metrics": {
-        "likes": 666,
-        "downloads": 431339,
-        "trendingScore": 649
-      },
-      "source": "hf-models",
-      "admitReason": "trending",
-      "publishedAt": "2026-08-26T12:29:32.000Z",
-      "summaryEn": "A quantized image-text-to-text model based on Qwen3.8 optimized for efficient local deployment.",
-      "summaryKo": "효율적인 로컬 배포를 위해 최적화된 Qwen3.8 기반 양자화 이미지-텍스트 모델입니다.",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-27T13:54:10.701Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
     },
     {
       "id": "hf-model:deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
@@ -1274,9 +1033,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 446,
+        "likes": 501,
         "downloads": 17893,
-        "trendingScore": 438
+        "trendingScore": 483
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1288,7 +1047,42 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-09-01T00:11:05.708Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "hf-model:unsloth/Qwen3.8-Flash-Next-GGUF",
+      "type": "model",
+      "title": "unsloth/Qwen3.8-Flash-Next-GGUF",
+      "summaryOriginal": "image-text-to-text model · gguf, unsloth, image-text-to-text, base_model:Qwen/Qwen3.8-Flash-Next, base_model:quantized:Qwen/Qwen3.8-Flash…",
+      "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF",
+      "lang": "image-text-to-text",
+      "tags": [
+        "gguf",
+        "unsloth",
+        "image-text-to-text",
+        "base_model:Qwen/Qwen3.8-Flash-Next",
+        "base_model:quantized:Qwen/Qwen3.8-Flash…",
+        "license:other",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "metrics": {
+        "likes": 725,
+        "downloads": 431339,
+        "trendingScore": 396
+      },
+      "source": "hf-models",
+      "admitReason": "trending",
+      "publishedAt": "2026-08-26T12:29:32.000Z",
+      "summaryEn": "A quantized image-text-to-text model based on Qwen3.8 optimized for efficient local deployment.",
+      "summaryKo": "효율적인 로컬 배포를 위해 최적화된 Qwen3.8 기반 양자화 이미지-텍스트 모델입니다.",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-08-27T13:54:10.701Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
     },
     {
       "id": "hf-model:tencent/Hy4-preview",
@@ -1312,9 +1106,9 @@
         "eval-results"
       ],
       "metrics": {
-        "likes": 381,
+        "likes": 399,
         "downloads": 3516,
-        "trendingScore": 375
+        "trendingScore": 391
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1328,44 +1122,7 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-29T22:55:06.972Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
-    },
-    {
-      "id": "hf-model:unsloth/Qwen3.8-27B-GGUF",
-      "type": "model",
-      "title": "unsloth/Qwen3.8-27B-GGUF",
-      "summaryOriginal": "model · gguf, qwen3_5, unsloth, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B",
-      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
-      "tags": [
-        "gguf",
-        "qwen3_5",
-        "unsloth",
-        "base_model:Qwen/Qwen3.8-27B",
-        "base_model:quantized:Qwen/Qwen3.8-27B",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us",
-        "imatrix",
-        "conversational"
-      ],
-      "metrics": {
-        "likes": 3333,
-        "downloads": 9354057,
-        "trendingScore": 353
-      },
-      "source": "hf-models",
-      "admitReason": "trending",
-      "publishedAt": "2026-08-13T08:28:40.000Z",
-      "summaryEn": "GGUF-quantized version of Qwen's 27B model for running locally with tools like llama.cpp.",
-      "summaryKo": "llama.cpp 등으로 로컬 실행 가능한 Qwen 27B 모델의 GGUF 양자화 버전",
-      "reasonEn": "New quantized build riding the base Qwen3.8-27B release.",
-      "reasonKo": "기반 Qwen3.8-27B 공개에 편승한 신규 양자화 빌드",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
     },
     {
       "id": "hf-model:Lightricks/LTX-2.5",
@@ -1389,9 +1146,9 @@
         "image-text-to-audio-video"
       ],
       "metrics": {
-        "likes": 2455,
+        "likes": 2567,
         "downloads": 1232274,
-        "trendingScore": 331
+        "trendingScore": 354
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1405,13 +1162,865 @@
         "ai-agents"
       ],
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "hf-model:unsloth/Qwen3.8-27B-GGUF",
+      "type": "model",
+      "title": "unsloth/Qwen3.8-27B-GGUF",
+      "summaryOriginal": "model · gguf, qwen3_5, unsloth, base_model:Qwen/Qwen3.8-27B, base_model:quantized:Qwen/Qwen3.8-27B",
+      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+      "tags": [
+        "gguf",
+        "qwen3_5",
+        "unsloth",
+        "base_model:Qwen/Qwen3.8-27B",
+        "base_model:quantized:Qwen/Qwen3.8-27B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "imatrix",
+        "conversational"
+      ],
+      "metrics": {
+        "likes": 3390,
+        "downloads": 9354057,
+        "trendingScore": 318
+      },
+      "source": "hf-models",
+      "admitReason": "trending",
+      "publishedAt": "2026-08-13T08:28:40.000Z",
+      "summaryEn": "GGUF-quantized version of Qwen's 27B model for running locally with tools like llama.cpp.",
+      "summaryKo": "llama.cpp 등으로 로컬 실행 가능한 Qwen 27B 모델의 GGUF 양자화 버전",
+      "reasonEn": "New quantized build riding the base Qwen3.8-27B release.",
+      "reasonKo": "기반 Qwen3.8-27B 공개에 편승한 신규 양자화 빌드",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "hf-model:google/timesfm-3.0-pytorch",
+      "type": "model",
+      "title": "google/timesfm-3.0-pytorch",
+      "summaryOriginal": "time-series-forecasting model · safetensors, time-series, forecasting, pretrained, pytorch",
+      "url": "https://huggingface.co/google/timesfm-3.0-pytorch",
+      "lang": "time-series-forecasting",
+      "tags": [
+        "safetensors",
+        "time-series",
+        "forecasting",
+        "pretrained",
+        "pytorch",
+        "google",
+        "time-series-forecasting",
+        "arxiv:2310.10688",
+        "license:other",
+        "region:us"
+      ],
+      "metrics": {
+        "likes": 295,
+        "downloads": 0,
+        "trendingScore": 271
+      },
+      "source": "hf-models",
+      "admitReason": "trending",
+      "publishedAt": "2026-08-24T22:05:51.000Z",
+      "summaryEn": "A pretrained PyTorch time-series forecasting model released by Google.",
+      "summaryKo": "구글이 공개한 사전 학습된 PyTorch 시계열 예측 모델입니다.",
+      "reasonEn": "New official time-series model release from Google.",
+      "reasonKo": "구글의 새로운 공식 시계열 모델 출시",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-09-02T22:54:08.675Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "hf-paper:2608.26623",
+      "type": "paper",
+      "title": "AgentJudgeBench: A Multi-Difficulty Benchmark for Evaluating LLM Judges on Agentic Tool-Calling",
+      "summaryOriginal": "LLM judges are widely used to evaluate agentic tool-calling systems, yet their reliability on structured, dependency-driven workflows remains largely unexamined. We present AgentJudgeBench, the first benchmark to systematically study LLM-as-a-judge reliability for agentic tool-calling over workflow DAGs, as distinct from the broader LLM-as-a-judge task of open-ended text or preference evaluation.…",
+      "url": "https://huggingface.co/papers/2608.26623",
+      "tags": [],
+      "metrics": {
+        "upvotes": 16,
+        "comments": 1
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-08-27T00:00:00.000Z",
+      "admitReason": "notable",
+      "summaryEn": "A benchmark evaluating the reliability of LLM judges on structured agentic tool-calling workflows.",
+      "summaryKo": "구조화된 에이전트 도구 호출 워크플로우에서 LLM 평가자의 신뢰성을 측정하는 벤치마크입니다.",
+      "reasonEn": "Evaluating LLM reliability in agent workflows.",
+      "reasonKo": "에이전트 워크플로우에서 LLM 신뢰성 평가",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-09-02T22:54:08.675Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "hf-paper:2609.01572",
+      "type": "paper",
+      "title": "From Production Traffic to Post-Training: Building a Self-Hosted LLM That Covers the Corporate Request Mix",
+      "summaryOriginal": "Data-residency constraints force enterprises to self-host LLMs, but continuous adoption of newer models without decommissioning their predecessors expands the serving fleet, fragmenting a finite GPU pool. We consolidate traffic from over 200 internal applications onto a single model by closing quality gaps identified through production error analysis along three axes: instruction following, funct…",
+      "url": "https://huggingface.co/papers/2609.01572",
+      "tags": [],
+      "metrics": {
+        "upvotes": 31,
+        "comments": 2
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "admitReason": "notable",
+      "summaryEn": "A research paper on consolidating traffic from multiple internal apps onto a single self-hosted LLM.",
+      "summaryKo": "여러 내부 애플리케이션의 트래픽을 단일 자체 호스팅 LLM으로 통합하는 방법에 대한 연구 논문입니다.",
+      "reasonEn": "Enterprise demand for efficient self-hosted LLMs.",
+      "reasonKo": "효율적인 자체 호스팅 LLM에 대한 기업 수요",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-09-02T22:54:08.675Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "hf-paper:2609.00768",
+      "type": "paper",
+      "title": "DiagEvo: Diagnosis-Guided Self-Evolution via Hierarchical Error Memory",
+      "summaryOriginal": "Self-play is an effective paradigm for language-model self-evolution, but without guidance, solver performance can plateau or decline across rounds. Unguided methods steer question generation with signals such as difficulty, learnability, or diversity. These signals keep questions challenging and varied but do not specify which unresolved reasoning weaknesses later rounds should target. Guided me…",
+      "url": "https://huggingface.co/papers/2609.00768",
+      "tags": [],
+      "metrics": {
+        "upvotes": 14,
+        "comments": 1
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "admitReason": "notable",
+      "summaryEn": "A diagnosis-guided self-evolution method using hierarchical error memory to improve language models.",
+      "summaryKo": "계층적 오류 메모리를 사용하여 언어 모델을 개선하는 진단 유도형 자기 진화 방법입니다.",
+      "reasonEn": "Advancing language model self-play techniques.",
+      "reasonKo": "언어 모델 셀프플레이 기술 발전",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-09-02T22:54:08.675Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "hf-paper:2609.00092",
+      "type": "paper",
+      "title": "Safin-1: Safety from Within through Memory-Native State Evolution",
+      "summaryOriginal": "Long-horizon complex tasks require foundation models to accumulate information, maintain internal states, and adapt over extended interactions. Safety should be an intrinsic property of the model itself, rather than a behavioral constraint relying solely on external safeguards or post-hoc alignment such as supervised fine-tuning. This motivates Safety from Within, where safety-relevant capabiliti…",
+      "url": "https://huggingface.co/papers/2609.00092",
+      "tags": [],
+      "metrics": {
+        "upvotes": 19,
+        "comments": 1,
+        "githubStars": 1
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "admitReason": "notable",
+      "summaryEn": "A safety-from-within approach for foundation models using memory-native state evolution.",
+      "summaryKo": "메모리 네이티브 상태 진화를 활용하는 기초 모델용 내부 안전성 확보 접근법입니다.",
+      "reasonEn": "New approaches to intrinsic model safety.",
+      "reasonKo": "내재적 모델 안전성을 위한 새로운 접근법",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-09-02T22:54:08.675Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "hf-paper:2609.01343",
+      "type": "paper",
+      "title": "SMELT: Scaling Laws for Compute-Matched MoE Looped Transformers",
+      "summaryOriginal": "Looped Transformers increase effective depth by iterating a shared block of layers, but most evaluations compare at fixed model size, conflating architectural advantage with extra FLOPs. We study looping on Mixture-of-Experts Transformers while closely matching per-token FLOPs, total non-embedding parameters, and KV cache. Through a series of ablations, we arrive at a recipe we call SMELT (Sparse…",
+      "url": "https://huggingface.co/papers/2609.01343",
+      "tags": [],
+      "metrics": {
+        "upvotes": 70,
+        "comments": 1
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "admitReason": "notable",
+      "summaryEn": "Scaling laws and architectural recipes for compute-matched Mixture-of-Experts looped transformers.",
+      "summaryKo": "연산량이 일치하는 MoE 루프 트랜스포머를 위한 확장 법칙과 아키텍처 레시피입니다.",
+      "reasonEn": "Optimizing compute efficiency in MoE architectures.",
+      "reasonKo": "MoE 아키텍처의 연산 효율성 최적화",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-09-02T22:54:08.675Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "hf-paper:2609.00028",
+      "type": "paper",
+      "title": "UI-Venus-2 Technical Report",
+      "summaryOriginal": "Multimodal GUI agents have emerged as a promising paradigm for digital task automation, yet transitioning from benchmark-oriented models to dependable real-world applications remains challenging due to limited environment coverage, brittle task construction, and unreliable reward verification. In this work, we present UI-Venus-2, a general-purpose foundation GUI agent designed to operate across m…",
+      "url": "https://huggingface.co/papers/2609.00028",
+      "tags": [],
+      "metrics": {
+        "upvotes": 54,
+        "comments": 0
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-08-27T00:00:00.000Z",
+      "admitReason": "notable",
+      "summaryEn": "Technical report on UI-Venus-2, a general-purpose foundation GUI agent for task automation.",
+      "summaryKo": "작업 자동화를 위한 범용 기초 GUI 에이전트 UI-Venus-2에 대한 기술 보고서입니다.",
+      "reasonEn": "Advances in multimodal GUI automation agents.",
+      "reasonKo": "멀티모달 GUI 자동화 에이전트의 발전",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-09-02T22:54:08.675Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "hf-paper:2609.00111",
+      "type": "paper",
+      "title": "Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
+      "summaryOriginal": "We present Qwen-Drive-1.0, an initial step towards a vision-language foundation model for autonomous driving. Qwen-Drive-1.0 retains the architecture of the pretrained vision-language model (VLM) and integrates 3D perception, visual question answering, and motion planning within a unified framework. An external bird's-eye-view (BEV) perception head jointly performs 3D object detection, semantic o…",
+      "url": "https://huggingface.co/papers/2609.00111",
+      "tags": [],
+      "metrics": {
+        "upvotes": 337,
+        "comments": 2
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "admitReason": "notable",
+      "summaryEn": "Qwen-Drive-1.0 integrates 3D perception and motion planning into a vision-language driving model.",
+      "summaryKo": "3D 인지와 모션 계획을 비전 언어 주행 모델에 통합한 Qwen-Drive-1.0입니다.",
+      "reasonEn": "Bridging vision-language models with autonomous driving.",
+      "reasonKo": "비전 언어 모델과 자율주행의 결합",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-09-02T22:54:08.675Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "hf-paper:2609.00188",
+      "type": "paper",
+      "title": "ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training",
+      "summaryOriginal": "Robotic manipulation faces a fundamental scaling challenge: robust generalization demands broad physical experience, yet action-labeled robot trajectories are expensive to collect and inherently limited in diversity. Egocentric videos offer a far more scalable source of embodied experience, capturing object interactions, contact dynamics, tool use, and long-horizon behaviors across diverse enviro…",
+      "url": "https://huggingface.co/papers/2609.00188",
+      "tags": [],
+      "metrics": {
+        "upvotes": 39,
+        "comments": 1,
+        "githubStars": 3
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "admitReason": "notable",
+      "summaryEn": "ZimaBlue evolves generalizable action models using scalable egocentric video pre-training.",
+      "summaryKo": "확장 가능한 egocentric 비디오 사전 학습을 통해 범용 행동 모델을 발전시키는 ZimaBlue입니다.",
+      "reasonEn": "Scaling robotic manipulation via video pre-training.",
+      "reasonKo": "비디오 사전 학습을 통한 로봇 조작 기능 확장",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-09-02T22:54:08.675Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "hf-paper:2609.01560",
+      "type": "paper",
+      "title": "H3-World: Turning Language Understanding into World Control",
+      "summaryOriginal": "We present H3-World, an efficient framework that turns the 33B MiniMax-H3 video generator into an interactive world model. Our key finding is that, as large video generators become more capable, language is emerging as a natural interface for control. MiniMax-H3, for example, already supports zero-shot control of character behavior and camera motion through natural-language instructions. Building…",
+      "url": "https://huggingface.co/papers/2609.01560",
+      "tags": [],
+      "metrics": {
+        "upvotes": 41,
+        "comments": 2,
+        "githubStars": 8
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "admitReason": "notable",
+      "summaryEn": "H3-World turns the MiniMax-H3 video generator into an interactive world model controlled by language.",
+      "summaryKo": "MiniMax-H3 비디오 생성기를 언어로 제어되는 대화형 월드 모델로 전환하는 H3-World입니다.",
+      "reasonEn": "Using video generators as interactive world models.",
+      "reasonKo": "비디오 생성기를 대화형 월드 모델로 활용",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-09-02T22:54:08.675Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "hf-paper:2609.01591",
+      "type": "paper",
+      "title": "StudentSim: Training LLM-based Student Simulators",
+      "summaryOriginal": "AI tutors are most useful when they adapt to each student's strengths, weaknesses, and preferred guidance, but evidence about which guidance works for which student is sparse, slow, and costly to collect from real learners. Student simulators can provide this signal as a proxy, yet existing approaches are limited: state-tracking models fit student behavior but struggle to process explanations or…",
+      "url": "https://huggingface.co/papers/2609.01591",
+      "tags": [],
+      "metrics": {
+        "upvotes": 435,
+        "comments": 2,
+        "githubStars": 10
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "admitReason": "notable",
+      "summaryEn": "A research framework for training LLM-based student simulators to act as AI tutoring proxies.",
+      "summaryKo": "AI 튜터링 프록시 역할을 하는 LLM 기반 학생 시뮬레이터 학습 연구 프레임워크입니다.",
+      "reasonEn": "Improving AI tutoring through student simulation.",
+      "reasonKo": "학생 시뮬레이션을 통한 AI 튜터링 개선",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-09-02T22:54:08.675Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "hn:49234675",
+      "type": "article",
+      "title": "How I use LLMs to learn complex topics",
+      "summaryOriginal": "How I use LLMs to learn complex topics",
+      "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 835,
+        "comments": 548
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-09T19:16:49Z",
+      "admitReason": "notable",
+      "summaryEn": "A workflow guide on using large language models to effectively learn complex technical topics.",
+      "summaryKo": "대규모 언어 모델을 사용하여 복잡한 기술 주제를 효과적으로 학습하는 워크플로우 가이드입니다.",
+      "reasonEn": "Popular discussion on LLM-assisted self-learning.",
+      "reasonKo": "LLM을 활용한 자기주도 학습에 대한 인기 토론",
+      "categories": [
+        "ai-models",
+        "engineering"
+      ],
+      "firstSeenAt": "2026-09-02T22:54:08.675Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "hn:49257876",
+      "type": "article",
+      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "summaryOriginal": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "url": "https://stolen-thoughts.com/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 699,
+        "comments": 308
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-11T13:22:00Z",
+      "admitReason": "notable",
+      "summaryEn": "An exploration of techniques used to extract internal reasoning traces from proprietary LLM APIs.",
+      "summaryKo": "상용 LLM API에서 내부 추론 과정을 추출하는 기술에 대한 탐구입니다.",
+      "reasonEn": "Curiosity regarding proprietary LLM internals.",
+      "reasonKo": "상용 LLM 내부 구조에 대한 호기심",
+      "categories": [
+        "ai-models",
+        "backend"
+      ],
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "hn:49519939",
+      "type": "article",
+      "title": "I trained a small transformer in 1.5hrs and it beats many LLMs",
+      "summaryOriginal": "I trained a small transformer in 1.5hrs and it beats many LLMs",
+      "url": "https://mvakde.github.io/blog/44-on-arc-1/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 650,
+        "comments": 161
+      },
+      "source": "hn",
+      "publishedAt": "2026-09-01T09:52:45Z",
+      "admitReason": "notable",
+      "summaryEn": "An experiment showing how a small transformer trained in 1.5 hours can outperform many existing LLMs.",
+      "summaryKo": "1.5시간 만에 학습시킨 소형 트랜스포머가 기존 많은 LLM을 능가하는 방식을 보여주는 실험입니다.",
+      "reasonEn": "High interest in efficient, rapid model training.",
+      "reasonKo": "효율적이고 빠른 모델 학습에 대한 높은 관심",
+      "categories": [
+        "ai-models",
+        "engineering"
+      ],
+      "firstSeenAt": "2026-09-02T22:54:08.675Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "hn:49412396",
+      "type": "article",
+      "title": "I were 17, I'd learn how to build LLMs from scratch",
+      "summaryOriginal": "I were 17, I'd learn how to build LLMs from scratch",
+      "url": "https://twitter.com/paulg/status/2091544343589060625",
+      "tags": [],
+      "metrics": {
+        "upvotes": 609,
+        "comments": 684
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-23T20:38:09Z",
+      "admitReason": "notable",
+      "summaryEn": "An opinion piece reflecting on why young developers should learn to build LLMs from scratch.",
+      "summaryKo": "젊은 개발자들이 LLM을 처음부터 직접 만들어봐야 하는 이유를 다룬 의견 글입니다.",
+      "reasonEn": "Debate on foundational AI engineering skills.",
+      "reasonKo": "기초 AI 엔지니어링 역량에 대한 토론",
+      "categories": [
+        "ai-models",
+        "engineering"
+      ],
+      "firstSeenAt": "2026-08-25T09:36:47.621Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "hn:49246804",
+      "type": "article",
+      "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+      "summaryOriginal": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+      "url": "https://cactuscompute.com/needle",
+      "tags": [],
+      "metrics": {
+        "upvotes": 537,
+        "comments": 185
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-10T17:22:07Z",
+      "admitReason": "notable",
+      "summaryEn": "Needle2 is a lightweight 14MB agentic LLM designed to run on phones, wearables, and smart home devices.",
+      "summaryKo": "Needle2는 스마트폰과 웨어러블에서 실행되도록 설계된 경량 14MB 에이전트 LLM입니다.",
+      "reasonEn": "Interest in running lightweight models on edge devices.",
+      "reasonKo": "엣지 디바이스용 경량 모델 실행에 대한 관심",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "firstSeenAt": "2026-09-01T22:53:39.547Z",
+      "lastSeenAt": "2026-09-02T22:54:08.675Z"
+    },
+    {
+      "id": "gh:jingyaogong/minimind",
+      "type": "repo",
+      "categories": [
+        "ai-models"
+      ],
+      "title": "jingyaogong/minimind",
+      "summaryEn": "Train a 64M parameter LLM from scratch in just 2 hours, providing a hands-on resource for understanding foundational large language model architecture.",
+      "summaryKo": "불과 2시간 만에 64M 파라미터 LLM을 처음부터 학습시키는 오픈소스 프로젝트입니다.",
+      "summaryOriginal": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "url": "https://github.com/jingyaogong/minimind",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "stars": 57010,
+        "starsDelta": 1005
+      },
+      "source": "github-trending",
+      "firstSeenAt": "2026-09-01T00:11:05.708Z",
+      "lastSeenAt": "2026-09-01T22:53:39.547Z",
+      "admitReason": "trending"
+    },
+    {
+      "id": "gh:unclecode/crawl4ai",
+      "type": "repo",
+      "categories": [
+        "ai-models"
+      ],
+      "title": "unclecode/crawl4ai",
+      "summaryEn": "Crawl4AI is an open-source web crawler and scraper designed for LLMs, turning web pages into clean markdown for AI applications.",
+      "summaryKo": "LLM을 위한 오픈소스 웹 크롤러 및 스크래퍼로, 웹페이지를 정제된 마크다운으로 변환합니다.",
+      "summaryOriginal": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+      "reasonEn": "Gaining traction for LLM data pipelines",
+      "reasonKo": "LLM 데이터 파이프라인용으로 주목받는 중",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "stars": 80825,
+        "starsDelta": 179
+      },
+      "source": "github-trending",
+      "firstSeenAt": "2026-08-30T23:00:09.024Z",
+      "lastSeenAt": "2026-09-01T22:53:39.547Z",
+      "admitReason": "trending"
+    },
+    {
+      "id": "gh:rokbenko/quackd",
+      "type": "repo",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "title": "rokbenko/quackd",
+      "summaryEn": "Quackd gives physical or simulated robots a language-based brain, allowing local and cloud LLMs to control robot tasks via a standardized framework.",
+      "summaryKo": "LLM이 표준화된 프레임워크를 통해 로봇 작업을 제어할 수 있도록 물리적 또는 시뮬레이션된 로봇에 언어 기반 두뇌를 부여합니다.",
+      "summaryOriginal": "🦆🧠 Give your Microduck a brain. Tell a small robot with two legs what you want in plain language. An LLM (Claude, OpenAI, Gemini, Grok, or a local model via Ollama, vLLM or llama.cpp) uses the skills it already has to do it. Includes a simulator, .duck task files, MCP and a flock mode where multiple simulated ducks cooperate. Apache 2.0 license.",
+      "reasonEn": "Novel integration of LLMs with physical and simulated robotics.",
+      "reasonKo": "LL물과 물리적 및 시뮬레이션 로보틱스의 새로운 결합.",
+      "url": "https://github.com/rokbenko/quackd",
+      "lang": "Python",
+      "tags": [
+        "claude",
+        "embodied-ai",
+        "hugging-face",
+        "llama-cpp",
+        "llm",
+        "llm-agents",
+        "local-llm",
+        "mcp",
+        "microduck",
+        "model-context-protocol",
+        "multi-agent",
+        "ollama"
+      ],
+      "metrics": {
+        "stars": 107
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-28T09:09:16Z",
+      "updatedAt": "2026-09-01T15:28:30Z",
+      "firstSeenAt": "2026-09-01T22:53:39.547Z",
+      "lastSeenAt": "2026-09-01T22:53:39.547Z",
+      "admitReason": "new"
+    },
+    {
+      "id": "gh:firecrawl/firecrawl",
+      "type": "repo",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "title": "firecrawl/firecrawl",
+      "summaryEn": "Web scraper and data extractor optimized for AI agents and LLMs to search, scrape, and interact with web content at scale.",
+      "summaryKo": "AI 에이전트와 LLM을 위한 웹 스크래퍼 및 데이터 추출기로 대규모 웹 콘텐츠 수집 최적화.",
+      "summaryOriginal": "The context API to search, scrape, and interact with the web at scale. 🔥",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "lang": "TypeScript",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "ai-crawler",
+        "ai-scraping",
+        "ai-search",
+        "crawler",
+        "data-extraction",
+        "html-to-markdown",
+        "llm",
+        "markdown",
+        "scraper",
+        "scraping"
+      ],
+      "metrics": {
+        "stars": 175281
+      },
+      "source": "github-search",
+      "publishedAt": "2024-04-15T21:02:29Z",
+      "updatedAt": "2026-09-01T22:46:16Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-09-01T22:53:39.547Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:f/prompts.chat",
+      "type": "repo",
+      "categories": [
+        "ai-models",
+        "web"
+      ],
+      "title": "f/prompts.chat",
+      "summaryEn": "Community-driven repository of prompts for ChatGPT, Claude, Gemini, and other LLMs. Self-hostable alternative to commercial prompt libraries.",
+      "summaryOriginal": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "url": "https://github.com/f/prompts.chat",
+      "lang": "HTML",
+      "tags": [
+        "ai",
+        "artificial-intelligence",
+        "awesome-list",
+        "chatgpt",
+        "chatgpt-prompts",
+        "claude",
+        "gemini",
+        "gpt",
+        "gpt-4",
+        "llm",
+        "machine-learning",
+        "nextjs"
+      ],
+      "metrics": {
+        "stars": 168430
+      },
+      "source": "github-search",
+      "publishedAt": "2022-12-05T13:54:13Z",
+      "updatedAt": "2026-09-01T03:19:49Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-09-01T22:53:39.547Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:huggingface/transformers",
+      "type": "repo",
+      "categories": [
+        "ai-models"
+      ],
+      "title": "huggingface/transformers",
+      "summaryEn": "Hugging Face's framework defining state-of-the-art models for text, vision, audio, and multimodal tasks.",
+      "summaryKo": "텍스트·비전·오디오·멀티모달 최신 모델을 정의하는 허깅페이스 프레임워크.",
+      "summaryOriginal": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "reasonEn": "164k+ stars, standard library for ML model inference/training",
+      "reasonKo": "스타 16.4만, ML 모델 추론·학습 표준 라이브러리",
+      "url": "https://github.com/huggingface/transformers",
+      "lang": "Python",
+      "tags": [
+        "audio",
+        "deep-learning",
+        "deepseek",
+        "gemma",
+        "glm",
+        "hacktoberfest",
+        "llm",
+        "machine-learning",
+        "model-hub",
+        "natural-language-processing",
+        "nlp",
+        "pretrained-models"
+      ],
+      "metrics": {
+        "stars": 164704
+      },
+      "source": "github-search",
+      "publishedAt": "2018-10-29T13:56:00Z",
+      "updatedAt": "2026-09-01T19:48:16Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-09-01T22:53:39.547Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:langgenius/dify",
+      "type": "repo",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "title": "langgenius/dify",
+      "summaryEn": "Low-code platform for building agentic workflows and RAG pipelines with broad AI model and tool support.",
+      "summaryKo": "에이전트 워크플로우와 RAG 파이프라인을 만드는 로우코드 플랫폼, 다양한 AI 모델·툴 지원.",
+      "summaryOriginal": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+      "reasonEn": "Near 153k GitHub stars, high developer adoption",
+      "reasonKo": "스타 15만 개 돌파, 개발자 채택 급증",
+      "url": "https://github.com/langgenius/dify",
+      "lang": "TypeScript",
+      "tags": [
+        "agent",
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-workflow",
+        "ai",
+        "automation",
+        "claude",
+        "deepseek",
+        "genai",
+        "gpt",
+        "llm",
+        "low-code"
+      ],
+      "metrics": {
+        "stars": 154120
+      },
+      "source": "github-search",
+      "publishedAt": "2023-04-12T07:40:24Z",
+      "updatedAt": "2026-09-01T22:44:23Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-09-01T22:53:39.547Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:open-webui/open-webui",
+      "type": "repo",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "title": "open-webui/open-webui",
+      "summaryEn": "Self-hosted web interface for local and API-based LLMs, supporting Ollama and OpenAI-compatible backends.",
+      "summaryKo": "로컬·API 기반 LLM용 셀프호스팅 웹 UI, Ollama·OpenAI 호환 백엔드 지원.",
+      "summaryOriginal": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "reasonEn": "149k+ stars, top choice for self-hosted AI chat UIs",
+      "reasonKo": "스타 14.9만, 셀프호스팅 AI 챗 UI 1위",
+      "url": "https://github.com/open-webui/open-webui",
+      "lang": "Python",
+      "tags": [
+        "ai",
+        "llm",
+        "llm-ui",
+        "llm-webui",
+        "llms",
+        "mcp",
+        "ollama",
+        "ollama-webui",
+        "open-webui",
+        "openai",
+        "openapi",
+        "rag"
+      ],
+      "metrics": {
+        "stars": 150623
+      },
+      "source": "github-search",
+      "publishedAt": "2023-10-06T22:08:27Z",
+      "updatedAt": "2026-09-01T02:20:26Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-09-01T22:53:39.547Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:langchain-ai/langchain",
+      "type": "repo",
+      "categories": [
+        "ai-models",
+        "ai-agents",
+        "web"
+      ],
+      "title": "langchain-ai/langchain",
+      "summaryEn": "Framework for building AI agents, from prototyping to production, with multi-model and RAG support.",
+      "summaryKo": "AI 에이전트를 프로토타입부터 프로덕션까지 만드는 프레임워크, 멀티모델·RAG 지원.",
+      "summaryOriginal": "The agent engineering platform.",
+      "reasonEn": "144k+ stars, foundational agent engineering toolkit",
+      "reasonKo": "스타 14만 이상, 에이전트 엔지니어링 기반 툴킷",
+      "url": "https://github.com/langchain-ai/langchain",
+      "lang": "Python",
+      "tags": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "deepagents",
+        "enterprise",
+        "framework",
+        "gemini",
+        "generative-ai",
+        "langchain",
+        "langgraph"
+      ],
+      "metrics": {
+        "stars": 145454
+      },
+      "source": "github-search",
+      "publishedAt": "2022-10-17T02:58:36Z",
+      "updatedAt": "2026-09-01T22:27:04Z",
+      "firstSeenAt": "2026-09-01T22:53:39.547Z",
+      "lastSeenAt": "2026-09-01T22:53:39.547Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:harry0703/MoneyPrinterTurbo",
+      "type": "repo",
+      "categories": [
+        "ai-models"
+      ],
+      "title": "harry0703/MoneyPrinterTurbo",
+      "summaryEn": "Generates HD short videos automatically from a topic or keyword using an AI workflow.",
+      "summaryKo": "주제나 키워드만 넣으면 AI가 자동으로 고화질 숏폼 영상을 만들어준다.",
+      "summaryOriginal": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "reasonEn": "Gained 1,189 stars today",
+      "reasonKo": "오늘 스타 1,189개 급증",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "lang": "Python",
+      "tags": [
+        "ai-video-generator",
+        "content-creation",
+        "ffmpeg",
+        "instagram-reels",
+        "llm",
+        "python",
+        "short-video",
+        "subtitles",
+        "text-to-speech",
+        "tiktok",
+        "video-automation",
+        "video-workflow"
+      ],
+      "metrics": {
+        "stars": 119389
+      },
+      "source": "github-search",
+      "publishedAt": "2024-03-11T02:57:34Z",
+      "updatedAt": "2026-09-01T10:47:23Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-09-01T22:53:39.547Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:Graphify-Labs/graphify",
+      "type": "repo",
+      "categories": [
+        "ai-models",
+        "ai-agents",
+        "devtools"
+      ],
+      "title": "Graphify-Labs/graphify",
+      "summaryEn": "Convert codebases into queryable knowledge graphs using AST parsing; integrates with Claude Code and Cursor for code analysis.",
+      "summaryKo": "코드베이스를 쿼리 가능한 그래프로 변환, Claude Code와 Cursor 통합.",
+      "summaryOriginal": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "lang": "Python",
+      "tags": [
+        "ai-agents",
+        "antigravity",
+        "ast",
+        "claude-code",
+        "code-analysis",
+        "code-search",
+        "codex",
+        "cursor",
+        "developer-tools",
+        "gemini",
+        "graphrag",
+        "knowledge-graph"
+      ],
+      "metrics": {
+        "stars": 113401
+      },
+      "source": "github-search",
+      "publishedAt": "2026-04-03T15:49:07Z",
+      "updatedAt": "2026-08-30T15:03:47Z",
+      "firstSeenAt": "2026-09-01T22:53:39.547Z",
+      "lastSeenAt": "2026-09-01T22:53:39.547Z",
+      "admitReason": "notable"
     },
     {
       "id": "hf-model:unsloth/GLM-5.3-Flash-GGUF",
       "type": "model",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
       "title": "unsloth/GLM-5.3-Flash-GGUF",
+      "summaryEn": "Optimized GGUF quantization of the GLM-5.3-Flash model for efficient local execution.",
+      "summaryKo": "효율적인 로컬 실행을 위해 최적화된 GLM-5.3-Flash 모델의 GGUF 양자화 버전입니다.",
       "summaryOriginal": "text-generation model · gguf, unsloth, glm5_next, text-generation, en",
+      "reasonEn": "High download volume today",
+      "reasonKo": "오늘 높은 다운로드 수 기록",
       "url": "https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF",
       "lang": "text-generation",
       "tags": [
@@ -1429,276 +2038,146 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 326,
+        "likes": 337,
         "downloads": 63718,
         "trendingScore": 318
       },
       "source": "hf-models",
-      "admitReason": "trending",
       "publishedAt": "2026-08-26T14:21:15.000Z",
-      "summaryEn": "Optimized GGUF quantization of the GLM-5.3-Flash model for efficient local execution.",
-      "summaryKo": "효율적인 로컬 실행을 위해 최적화된 GLM-5.3-Flash 모델의 GGUF 양자화 버전입니다.",
-      "reasonEn": "High download volume today",
-      "reasonKo": "오늘 높은 다운로드 수 기록",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
       "firstSeenAt": "2026-08-29T22:55:06.972Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z",
+      "admitReason": "trending",
+      "updatedAt": "2026-08-29T10:43:43.000Z"
     },
     {
       "id": "hf-paper:2608.31106",
       "type": "paper",
-      "title": "DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution",
-      "summaryOriginal": "Recent video generators often omit audio or synthesize it in a separate stage, limiting reciprocal modeling of visual dynamics and acoustic events. We present DreamX-Creator 1.0, a compact native joint audio-video generation system centered on a 7B generator. Conditioned on a first frame and a text prompt, the generator jointly denoises modality-specialized audio and video streams. The streams ar…",
-      "url": "https://huggingface.co/papers/2608.31106",
-      "tags": [],
-      "metrics": {
-        "upvotes": 86,
-        "comments": 5,
-        "githubStars": 91
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "admitReason": "notable",
-      "summaryEn": "DreamX-Creator 1.0 is a 7B native joint audio-video generation system that denoises specialized audio and video streams simultaneously for better synchronization.",
-      "summaryKo": "더 나은 동기화를 위해 특화된 오디오 및 비디오 스트림을 동시에 노이즈 제거하는 7B 네이티브 공동 오디오-비디오 생성 시스템.",
-      "reasonEn": "Advances joint multimodal audio-video generation at 2K resolution.",
-      "reasonKo": "2K 해상도에서 공동 멀티모달 오디오-비디오 생성 기술 발전.",
       "categories": [
         "ai-models",
         "ai-agents"
       ],
+      "title": "DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution",
+      "summaryEn": "DreamX-Creator 1.0 is a 7B native joint audio-video generation system that denoises specialized audio and video streams simultaneously for better synchronization.",
+      "summaryKo": "더 나은 동기화를 위해 특화된 오디오 및 비디오 스트림을 동시에 노이즈 제거하는 7B 네이티브 공동 오디오-비디오 생성 시스템.",
+      "summaryOriginal": "Recent video generators often omit audio or synthesize it in a separate stage, limiting reciprocal modeling of visual dynamics and acoustic events. We present DreamX-Creator 1.0, a compact native joint audio-video generation system centered on a 7B generator. Conditioned on a first frame and a text prompt, the generator jointly denoises modality-specialized audio and video streams. The streams ar…",
+      "reasonEn": "Advances joint multimodal audio-video generation at 2K resolution.",
+      "reasonKo": "2K 해상도에서 공동 멀티모달 오디오-비디오 생성 기술 발전.",
+      "url": "https://huggingface.co/papers/2608.31106",
+      "tags": [],
+      "metrics": {
+        "upvotes": 93,
+        "comments": 5,
+        "githubStars": 104
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
       "firstSeenAt": "2026-09-01T22:53:39.547Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z",
+      "admitReason": "notable"
     },
     {
       "id": "hf-paper:2608.29310",
       "type": "paper",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
       "title": "Super Library Agent: Joint Generation and Maintenance of Multiple Applications Beyond the Single Codebase",
+      "summaryEn": "Super Library Agent explores joint generation and maintenance workflows for portfolios of related applications to reduce code duplication in multi-app projects.",
+      "summaryKo": "다중 애플리케이션 프로젝트에서 코드 중복을 줄이기 위해 관련된 애플리케이션 포트폴리오의 공동 생성 및 유지보수 워크플로우를 탐구합니다.",
       "summaryOriginal": "Organizations often develop and maintain portfolios of related applications: independently deployable codebases that share substantial domain logic, interface patterns, or operational conventions. As LLM coding agents are increasingly used to generate and maintain such software, a naive application-by-application workflow duplicates shared logic across codebases and allows prolonged agentic maint…",
+      "reasonEn": "Addresses multi-codebase agentic software maintenance challenges.",
+      "reasonKo": "다중 코드베이스 에이전트 소프트웨어 유지보수 과제 해결.",
       "url": "https://huggingface.co/papers/2608.29310",
       "tags": [],
       "metrics": {
-        "upvotes": 24,
+        "upvotes": 25,
         "comments": 3,
         "githubStars": 0
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-29T00:00:00.000Z",
-      "admitReason": "notable",
-      "summaryEn": "Super Library Agent explores joint generation and maintenance workflows for portfolios of related applications to reduce code duplication in multi-app projects.",
-      "summaryKo": "다중 애플리케이션 프로젝트에서 코드 중복을 줄이기 위해 관련된 애플리케이션 포트폴리오의 공동 생성 및 유지보수 워크플로우를 탐구합니다.",
-      "reasonEn": "Addresses multi-codebase agentic software maintenance challenges.",
-      "reasonKo": "다중 코드베이스 에이전트 소프트웨어 유지보수 과제 해결.",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
       "firstSeenAt": "2026-09-01T22:53:39.547Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z",
+      "admitReason": "notable"
     },
     {
       "id": "hf-paper:2608.28833",
       "type": "paper",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
       "title": "Evaluating the Hidden Costs of Personalization in Large Language Models",
+      "summaryEn": "Research paper analyzing the hidden risks of LLM personalization, showing how satisfying user context can degrade balanced and informative responses.",
+      "summaryKo": "사용자 맞춤 설정이 균형 잡힌 유익한 응답을 저해하는 방식을 분석하여 LLM 개인화의 숨겨진 위험을 다룬 연구 논문.",
       "summaryOriginal": "While Large language models (LLMs) incorporate user personalization signals to improve usability and helpfulness, they increasingly shift from providing balanced, informative responses toward optimizing for user satisfaction when conditioned on personal context such as conversation history, inferred preferences, and user profiles. Specifically, we identify three emerging risks: (1) irrelevant per…",
+      "reasonEn": "Highlights emerging risks in LLM personalization behaviors.",
+      "reasonKo": "LLM 개인화 동작에서 새롭게 부상하는 위험 강조.",
       "url": "https://huggingface.co/papers/2608.28833",
       "tags": [],
       "metrics": {
-        "upvotes": 24,
+        "upvotes": 25,
         "comments": 1,
         "githubStars": 0
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-28T00:00:00.000Z",
-      "admitReason": "notable",
-      "summaryEn": "Research paper analyzing the hidden risks of LLM personalization, showing how satisfying user context can degrade balanced and informative responses.",
-      "summaryKo": "사용자 맞춤 설정이 균형 잡힌 유익한 응답을 저해하는 방식을 분석하여 LLM 개인화의 숨겨진 위험을 다룬 연구 논문.",
-      "reasonEn": "Highlights emerging risks in LLM personalization behaviors.",
-      "reasonKo": "LLM 개인화 동작에서 새롭게 부상하는 위험 강조.",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
       "firstSeenAt": "2026-09-01T22:53:39.547Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z",
+      "admitReason": "notable"
     },
     {
       "id": "hf-paper:2608.30935",
       "type": "paper",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
       "title": "LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation",
+      "summaryEn": "LightNav-0 leverages vision-language models for robot spatial intelligence, directly applying VLM spatial priors to generalist embodied navigation tasks.",
+      "summaryKo": "로봇 공간 지능을 위해 비전 언어 모델을 활용하여 범용 체화 내비게이션 작업에 VLM 공간 사전 지식을 직접 적용합니다.",
       "summaryOriginal": "Embodied navigation requires agents to translate heterogeneous goals and visual observations into actions across tasks, environments, and robot embodiments. Modern vision-language models (VLMs) already encode spatial priors for visual grounding, spatial reasoning, and pointing, but these capabilities are rarely elicited directly for robot control. Existing navigation systems instead rely on task-…",
+      "reasonEn": "Improves embodied navigation using existing VLM spatial intelligence.",
+      "reasonKo": "기존 VLM 공간 지능을 활용한 체화 내비게이션 개선.",
       "url": "https://huggingface.co/papers/2608.30935",
       "tags": [],
       "metrics": {
-        "upvotes": 24,
+        "upvotes": 26,
         "comments": 1,
         "githubStars": 253
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-31T00:00:00.000Z",
-      "admitReason": "notable",
-      "summaryEn": "LightNav-0 leverages vision-language models for robot spatial intelligence, directly applying VLM spatial priors to generalist embodied navigation tasks.",
-      "summaryKo": "로봇 공간 지능을 위해 비전 언어 모델을 활용하여 범용 체화 내비게이션 작업에 VLM 공간 사전 지식을 직접 적용합니다.",
-      "reasonEn": "Improves embodied navigation using existing VLM spatial intelligence.",
-      "reasonKo": "기존 VLM 공간 지능을 활용한 체화 내비게이션 개선.",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
       "firstSeenAt": "2026-09-01T22:53:39.547Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z",
+      "admitReason": "notable"
     },
     {
       "id": "hf-paper:2608.30428",
       "type": "paper",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
       "title": "Lies We Can See: Joint Verbal and Non-Verbal Deception by VLM Agents in Embodied Social Interactions",
+      "summaryEn": "A study on strategic deception in multi-agent vision-language model systems using social-deduction games to evaluate joint verbal and non-verbal deception.",
+      "summaryKo": "사회적 추리 게임을 사용하여 다중 에이전트 비전 언어 모델 시스템의 언어적 및 비언어적 전략적 기만 행동을 평가하는 연구.",
       "summaryOriginal": "Strategic deception by LLM and VLM agents has emerged as a central AI alignment and safety concern. Social-deduction games (where each player holds a hidden role and communicates with others to deduce identities) serve as the canonical testbed, particularly in multi-agent settings. Existing testbeds, however, are text-only and run on a single fixed agent configuration, missing the non-verbal sens…",
+      "reasonEn": "Explores agent alignment and safety in multi-modal social interactions.",
+      "reasonKo": "멀티모달 사회적 상호작용에서 에이전트 정렬 및 안전성 탐구.",
       "url": "https://huggingface.co/papers/2608.30428",
       "tags": [],
       "metrics": {
-        "upvotes": 11,
+        "upvotes": 12,
         "comments": 1,
-        "githubStars": 5
+        "githubStars": 8
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-31T00:00:00.000Z",
-      "admitReason": "notable",
-      "summaryEn": "A study on strategic deception in multi-agent vision-language model systems using social-deduction games to evaluate joint verbal and non-verbal deception.",
-      "summaryKo": "사회적 추리 게임을 사용하여 다중 에이전트 비전 언어 모델 시스템의 언어적 및 비언어적 전략적 기만 행동을 평가하는 연구.",
-      "reasonEn": "Explores agent alignment and safety in multi-modal social interactions.",
-      "reasonKo": "멀티모달 사회적 상호작용에서 에이전트 정렬 및 안전성 탐구.",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
       "firstSeenAt": "2026-09-01T22:53:39.547Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
-    },
-    {
-      "id": "hn:49161518",
-      "type": "article",
-      "title": "LLMs reward expertise",
-      "summaryOriginal": "LLMs reward expertise",
-      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 1416,
-        "comments": 573
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-03T21:13:53Z",
-      "admitReason": "notable",
-      "summaryEn": "Exploration of how domain expertise allows users to extract significantly better and more accurate results from LLMs.",
-      "summaryKo": "도메인 전문성이 LLM으로부터 더 정확한 결과를 도출하는 데 미치는 영향에 대한 분석입니다.",
-      "reasonEn": "High engagement on AI prompting strategies",
-      "reasonKo": "AI 프롬프트 활용 전략에 대한 활발한 토론",
-      "categories": [
-        "ai-models"
-      ],
-      "firstSeenAt": "2026-08-19T01:42:27.269Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
-    },
-    {
-      "id": "hn:49257876",
-      "type": "article",
-      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
-      "summaryOriginal": "Stealing Reasoning Traces from Proprietary LLM APIs",
-      "url": "https://stolen-thoughts.com/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 699,
-        "comments": 308
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-11T13:22:00Z",
-      "admitReason": "notable",
-      "summaryEn": "Analysis and methods for extracting internal reasoning and hidden chain-of-thought traces from proprietary LLM APIs.",
-      "summaryKo": "상용 LLM API에서 내부 추론 과정과 사고의 흔적을 추출하는 기법을 다룹니다.",
-      "reasonEn": "Fascinating security look at LLM API internals",
-      "reasonKo": "LLM API 내부 구조 및 보안 관련 흥미로운 주제",
-      "categories": [
-        "ai-models"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
-    },
-    {
-      "id": "hn:49412396",
-      "type": "article",
-      "title": "I were 17, I'd learn how to build LLMs from scratch",
-      "summaryOriginal": "I were 17, I'd learn how to build LLMs from scratch",
-      "url": "https://twitter.com/paulg/status/2091544343589060625",
-      "tags": [],
-      "metrics": {
-        "upvotes": 608,
-        "comments": 682
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-23T20:38:09Z",
-      "admitReason": "notable",
-      "summaryEn": "A retrospective look at why young developers should study foundational concepts by building language models from scratch.",
-      "summaryKo": "개발자들이 언어 모델을 밑바닥부터 직접 구현하며 기초를 다져야 하는 이유를 다룹니다.",
-      "reasonEn": "Strong community interest in LLM fundamentals",
-      "reasonKo": "LLM 기초 학습의 중요성에 대한 개발자 공감대",
-      "categories": [
-        "ai-models",
-        "engineering"
-      ],
-      "firstSeenAt": "2026-08-25T09:36:47.621Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
-    },
-    {
-      "id": "hn:49241679",
-      "type": "article",
-      "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
-      "summaryOriginal": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
-      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-      "tags": [],
-      "metrics": {
-        "upvotes": 1209,
-        "comments": 639
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-10T10:10:02Z",
-      "admitReason": "notable",
-      "summaryEn": "Muse Glimmer is a 30B parameter open model fine-tuned for running continuous, local agent workflows.",
-      "summaryKo": "상시 실행되는 로컬 에이전트 워크플로우에 최적화된 30B 파라미터 오픈 모델입니다.",
-      "reasonEn": "New open-weight model launch for local agents",
-      "reasonKo": "로컬 에이전트용 새로운 오픈 소스 모델 공개",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-08-19T01:42:27.269Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
-    },
-    {
-      "id": "hn:49246804",
-      "type": "article",
-      "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
-      "summaryOriginal": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
-      "url": "https://cactuscompute.com/needle",
-      "tags": [],
-      "metrics": {
-        "upvotes": 537,
-        "comments": 185
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-10T17:22:07Z",
-      "admitReason": "notable",
-      "summaryEn": "Needle2 is a compact 14MB agentic LLM designed to run locally on phones, wearables, and edge devices.",
-      "summaryKo": "휴대폰과 웨어러블에서 로컬로 실행되도록 설계된 14MB 크기의 초소형 에이전틱 LLM입니다.",
-      "reasonEn": "Edge AI and lightweight model innovation",
-      "reasonKo": "엣지 AI 및 경량 모델 혁신",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "firstSeenAt": "2026-09-01T22:53:39.547Z",
-      "lastSeenAt": "2026-09-01T22:53:39.547Z"
+      "lastSeenAt": "2026-09-01T22:53:39.547Z",
+      "admitReason": "notable"
     },
     {
       "id": "gh:Osmantic/ODS",
@@ -1766,7 +2245,7 @@
       "url": "https://huggingface.co/papers/2608.28444",
       "tags": [],
       "metrics": {
-        "upvotes": 11,
+        "upvotes": 14,
         "comments": 1
       },
       "source": "hf-papers",
@@ -1789,9 +2268,9 @@
       "url": "https://huggingface.co/papers/2608.23478",
       "tags": [],
       "metrics": {
-        "upvotes": 24,
+        "upvotes": 29,
         "comments": 1,
-        "githubStars": 2
+        "githubStars": 5
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-24T00:00:00.000Z",
@@ -1813,9 +2292,9 @@
       "url": "https://huggingface.co/papers/2608.28281",
       "tags": [],
       "metrics": {
-        "upvotes": 83,
+        "upvotes": 99,
         "comments": 2,
-        "githubStars": 70
+        "githubStars": 76
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-28T00:00:00.000Z",
@@ -1837,9 +2316,9 @@
       "url": "https://huggingface.co/papers/2608.28122",
       "tags": [],
       "metrics": {
-        "upvotes": 51,
+        "upvotes": 59,
         "comments": 1,
-        "githubStars": 14
+        "githubStars": 17
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-28T00:00:00.000Z",
@@ -1861,7 +2340,7 @@
       "url": "https://huggingface.co/papers/2608.18524",
       "tags": [],
       "metrics": {
-        "upvotes": 60,
+        "upvotes": 89,
         "comments": 1
       },
       "source": "hf-papers",
@@ -1884,9 +2363,9 @@
       "url": "https://huggingface.co/papers/2608.28192",
       "tags": [],
       "metrics": {
-        "upvotes": 15,
+        "upvotes": 16,
         "comments": 1,
-        "githubStars": 17
+        "githubStars": 23
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-28T00:00:00.000Z",
@@ -1908,9 +2387,9 @@
       "url": "https://huggingface.co/papers/2608.27763",
       "tags": [],
       "metrics": {
-        "upvotes": 19,
+        "upvotes": 29,
         "comments": 2,
-        "githubStars": 11
+        "githubStars": 22
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-27T00:00:00.000Z",
@@ -1932,7 +2411,7 @@
       "url": "https://huggingface.co/papers/2608.26794",
       "tags": [],
       "metrics": {
-        "upvotes": 11,
+        "upvotes": 14,
         "comments": 1
       },
       "source": "hf-papers",
@@ -1955,9 +2434,9 @@
       "url": "https://huggingface.co/papers/2608.28460",
       "tags": [],
       "metrics": {
-        "upvotes": 25,
+        "upvotes": 27,
         "comments": 1,
-        "githubStars": 6
+        "githubStars": 11
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-28T00:00:00.000Z",
@@ -1979,9 +2458,9 @@
       "url": "https://huggingface.co/papers/2608.27370",
       "tags": [],
       "metrics": {
-        "upvotes": 27,
+        "upvotes": 33,
         "comments": 3,
-        "githubStars": 48
+        "githubStars": 63
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-27T00:00:00.000Z",
@@ -2475,8 +2954,8 @@
         "text-generation"
       ],
       "metrics": {
-        "likes": 974,
-        "downloads": 759644,
+        "likes": 1026,
+        "downloads": 805791,
         "trendingScore": 261
       },
       "source": "hf-models",
@@ -2525,7 +3004,7 @@
       "url": "https://huggingface.co/papers/2608.26530",
       "tags": [],
       "metrics": {
-        "upvotes": 30,
+        "upvotes": 31,
         "comments": 3
       },
       "source": "hf-papers",
@@ -2550,7 +3029,7 @@
       "url": "https://huggingface.co/papers/2608.25518",
       "tags": [],
       "metrics": {
-        "upvotes": 185,
+        "upvotes": 193,
         "comments": 4
       },
       "source": "hf-papers",
@@ -2575,9 +3054,9 @@
       "url": "https://huggingface.co/papers/2608.26238",
       "tags": [],
       "metrics": {
-        "upvotes": 13,
+        "upvotes": 14,
         "comments": 2,
-        "githubStars": 132
+        "githubStars": 146
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-26T00:00:00.000Z",
@@ -2603,7 +3082,7 @@
       "metrics": {
         "upvotes": 45,
         "comments": 2,
-        "githubStars": 28
+        "githubStars": 29
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-25T00:00:00.000Z",
@@ -2627,9 +3106,9 @@
       "url": "https://huggingface.co/papers/2608.27448",
       "tags": [],
       "metrics": {
-        "upvotes": 72,
+        "upvotes": 79,
         "comments": 2,
-        "githubStars": 33
+        "githubStars": 34
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-27T00:00:00.000Z",
@@ -2653,7 +3132,7 @@
       "url": "https://huggingface.co/papers/2608.15763",
       "tags": [],
       "metrics": {
-        "upvotes": 47,
+        "upvotes": 49,
         "comments": 2
       },
       "source": "hf-papers",
@@ -2678,7 +3157,7 @@
       "url": "https://huggingface.co/papers/2608.27345",
       "tags": [],
       "metrics": {
-        "upvotes": 138,
+        "upvotes": 141,
         "comments": 2,
         "githubStars": 6
       },
@@ -2704,9 +3183,9 @@
       "url": "https://huggingface.co/papers/2608.27456",
       "tags": [],
       "metrics": {
-        "upvotes": 106,
+        "upvotes": 109,
         "comments": 3,
-        "githubStars": 114
+        "githubStars": 103
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-27T00:00:00.000Z",
@@ -2730,9 +3209,9 @@
       "url": "https://huggingface.co/papers/2608.26103",
       "tags": [],
       "metrics": {
-        "upvotes": 19,
+        "upvotes": 22,
         "comments": 2,
-        "githubStars": 190
+        "githubStars": 225
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-26T00:00:00.000Z",
@@ -2803,7 +3282,7 @@
         "prompt-engineering"
       ],
       "metrics": {
-        "stars": 170
+        "stars": 209
       },
       "source": "github-search",
       "publishedAt": "2026-08-16T04:57:52Z",
@@ -2832,11 +3311,11 @@
         "skill"
       ],
       "metrics": {
-        "stars": 138
+        "stars": 148
       },
       "source": "github-search",
       "publishedAt": "2026-08-16T15:02:56Z",
-      "updatedAt": "2026-08-28T09:08:51Z",
+      "updatedAt": "2026-09-02T16:12:02Z",
       "firstSeenAt": "2026-08-26T01:24:24.696Z",
       "lastSeenAt": "2026-08-29T22:55:06.972Z",
       "admitReason": "new"
@@ -2857,8 +3336,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 903,
-        "starsDelta": 2,
+        "stars": 1087,
         "totalScore": 209.7969
       },
       "source": "ossinsight",
@@ -2883,7 +3361,7 @@
       "url": "https://huggingface.co/papers/2608.27454",
       "tags": [],
       "metrics": {
-        "upvotes": 24,
+        "upvotes": 26,
         "comments": 1
       },
       "source": "hf-papers",
@@ -2907,13 +3385,13 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 35063,
-        "starsDelta": 457
+        "stars": 35835
       },
       "source": "github-trending",
       "firstSeenAt": "2026-08-26T12:55:17.882Z",
       "lastSeenAt": "2026-08-29T02:56:27.939Z",
-      "admitReason": "trending"
+      "admitReason": "trending",
+      "updatedAt": "2026-09-02T20:15:10Z"
     },
     {
       "id": "gh:AgriciDaniel/claude-obsidian",
@@ -2931,8 +3409,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 14305,
-        "starsDelta": 5,
+        "stars": 14564,
         "totalScore": 221.7727
       },
       "source": "ossinsight",
@@ -2956,13 +3433,12 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 710,
-        "starsDelta": 4,
+        "stars": 822,
         "pushes": 1,
         "totalScore": 218.2177
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-29T02:54:02Z",
+      "updatedAt": "2026-09-02T22:46:17Z",
       "firstSeenAt": "2026-08-29T02:56:27.939Z",
       "lastSeenAt": "2026-08-29T02:56:27.939Z",
       "admitReason": "notable"
@@ -2997,8 +3473,8 @@
         "vllm"
       ],
       "metrics": {
-        "likes": 1326,
-        "downloads": 307496,
+        "likes": 1368,
+        "downloads": 316128,
         "trendingScore": 289
       },
       "source": "hf-models",
@@ -3035,8 +3511,8 @@
         "8-bit"
       ],
       "metrics": {
-        "likes": 1250,
-        "downloads": 114057,
+        "likes": 1272,
+        "downloads": 121028,
         "trendingScore": 286
       },
       "source": "hf-models",
@@ -3062,7 +3538,7 @@
       "url": "https://huggingface.co/papers/2608.26872",
       "tags": [],
       "metrics": {
-        "upvotes": 73,
+        "upvotes": 79,
         "comments": 1
       },
       "source": "hf-papers",
@@ -3088,10 +3564,10 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 102019
+        "stars": 102315
       },
       "source": "github-trending",
-      "updatedAt": "2026-08-31T03:10:42Z",
+      "updatedAt": "2026-09-01T05:38:45Z",
       "firstSeenAt": "2026-08-25T12:50:44.870Z",
       "lastSeenAt": "2026-08-28T03:07:04.913Z",
       "admitReason": "trending"
@@ -3119,7 +3595,7 @@
         "readability"
       ],
       "metrics": {
-        "stars": 263
+        "stars": 268
       },
       "source": "github-search",
       "publishedAt": "2026-08-15T12:53:20Z",
@@ -3148,11 +3624,11 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 7609,
+        "stars": 7641,
         "totalScore": 218.3866
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-31T20:29:07Z",
+      "updatedAt": "2026-09-02T21:55:33Z",
       "firstSeenAt": "2026-08-27T13:54:10.701Z",
       "lastSeenAt": "2026-08-28T03:07:04.913Z",
       "admitReason": "notable"
@@ -3171,12 +3647,12 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 50706,
+        "stars": 51476,
         "pushes": 1,
         "totalScore": 210.8939
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-31T11:44:16Z",
+      "updatedAt": "2026-09-02T13:58:22Z",
       "firstSeenAt": "2026-08-28T03:07:04.913Z",
       "lastSeenAt": "2026-08-28T03:07:04.913Z",
       "admitReason": "notable"
@@ -3209,8 +3685,8 @@
         "multilingual"
       ],
       "metrics": {
-        "likes": 812,
-        "downloads": 1202914,
+        "likes": 865,
+        "downloads": 1276092,
         "trendingScore": 280
       },
       "source": "hf-models",
@@ -3236,7 +3712,7 @@
       "metrics": {
         "upvotes": 14,
         "comments": 1,
-        "githubStars": 41
+        "githubStars": 43
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-24T00:00:00.000Z",
@@ -3281,7 +3757,7 @@
       "url": "https://huggingface.co/papers/2608.24358",
       "tags": [],
       "metrics": {
-        "upvotes": 13,
+        "upvotes": 14,
         "comments": 1
       },
       "source": "hf-papers",
@@ -3306,7 +3782,7 @@
       "metrics": {
         "upvotes": 19,
         "comments": 1,
-        "githubStars": 1983
+        "githubStars": 1990
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-24T00:00:00.000Z",
@@ -3375,9 +3851,9 @@
       "url": "https://huggingface.co/papers/2608.26005",
       "tags": [],
       "metrics": {
-        "upvotes": 171,
+        "upvotes": 174,
         "comments": 1,
-        "githubStars": 454
+        "githubStars": 519
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-26T00:00:00.000Z",
@@ -3401,7 +3877,7 @@
       "metrics": {
         "upvotes": 141,
         "comments": 2,
-        "githubStars": 14
+        "githubStars": 15
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-25T00:00:00.000Z",
@@ -3434,11 +3910,11 @@
         "webui"
       ],
       "metrics": {
-        "stars": 349
+        "stars": 364
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T16:52:02Z",
-      "updatedAt": "2026-08-31T22:23:50Z",
+      "updatedAt": "2026-09-02T10:51:21Z",
       "firstSeenAt": "2026-08-21T03:40:04.140Z",
       "lastSeenAt": "2026-08-27T13:54:10.701Z",
       "admitReason": "new"
@@ -3469,11 +3945,11 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 305
+        "stars": 314
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T08:27:11Z",
-      "updatedAt": "2026-08-31T04:01:44Z",
+      "updatedAt": "2026-09-02T00:28:58Z",
       "firstSeenAt": "2026-08-18T18:40:19.317Z",
       "lastSeenAt": "2026-08-27T13:54:10.701Z",
       "admitReason": "new"
@@ -3504,11 +3980,11 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 133
+        "stars": 139
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T11:38:54Z",
-      "updatedAt": "2026-08-31T08:51:07Z",
+      "updatedAt": "2026-09-02T16:35:31Z",
       "firstSeenAt": "2026-08-26T09:43:03.049Z",
       "lastSeenAt": "2026-08-27T13:54:10.701Z",
       "admitReason": "new"
@@ -3529,7 +4005,7 @@
       "metrics": {
         "upvotes": 19,
         "comments": 1,
-        "githubStars": 157
+        "githubStars": 163
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-26T00:00:00.000Z",
@@ -3551,9 +4027,9 @@
       "url": "https://huggingface.co/papers/2608.19098",
       "tags": [],
       "metrics": {
-        "upvotes": 21,
+        "upvotes": 22,
         "comments": 1,
-        "githubStars": 58
+        "githubStars": 59
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-19T00:00:00.000Z",
@@ -3622,8 +4098,8 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 513,
-        "downloads": 172695,
+        "likes": 531,
+        "downloads": 206651,
         "trendingScore": 341
       },
       "source": "hf-models",
@@ -3673,7 +4149,7 @@
       "metrics": {
         "upvotes": 103,
         "comments": 2,
-        "githubStars": 2626
+        "githubStars": 2630
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-16T00:00:00.000Z",
@@ -3697,7 +4173,7 @@
       "url": "https://huggingface.co/papers/2608.23181",
       "tags": [],
       "metrics": {
-        "upvotes": 33,
+        "upvotes": 34,
         "comments": 1
       },
       "source": "hf-papers",
@@ -3722,7 +4198,7 @@
       "url": "https://huggingface.co/papers/2608.20492",
       "tags": [],
       "metrics": {
-        "upvotes": 110,
+        "upvotes": 111,
         "comments": 1,
         "githubStars": 152
       },
@@ -3746,9 +4222,9 @@
       "url": "https://huggingface.co/papers/2608.24053",
       "tags": [],
       "metrics": {
-        "upvotes": 68,
+        "upvotes": 69,
         "comments": 1,
-        "githubStars": 998
+        "githubStars": 1062
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-25T00:00:00.000Z",
@@ -3770,9 +4246,9 @@
       "url": "https://huggingface.co/papers/2608.23566",
       "tags": [],
       "metrics": {
-        "upvotes": 17,
+        "upvotes": 18,
         "comments": 1,
-        "githubStars": 10
+        "githubStars": 12
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-25T00:00:00.000Z",
@@ -3796,7 +4272,7 @@
       "metrics": {
         "upvotes": 17,
         "comments": 0,
-        "githubStars": 16
+        "githubStars": 18
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-25T00:00:00.000Z",
@@ -3831,11 +4307,11 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 1656
+        "stars": 1774
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T06:28:56Z",
-      "updatedAt": "2026-09-01T00:14:34Z",
+      "updatedAt": "2026-09-02T22:55:28Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-26T19:50:13.055Z",
       "admitReason": "new"
@@ -3868,11 +4344,11 @@
         "tutorial"
       ],
       "metrics": {
-        "stars": 717
+        "stars": 731
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T15:22:29Z",
-      "updatedAt": "2026-08-22T08:57:27Z",
+      "updatedAt": "2026-09-01T03:28:36Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-26T19:50:13.055Z",
       "admitReason": "new"
@@ -3905,11 +4381,11 @@
         "token-usage"
       ],
       "metrics": {
-        "stars": 233
+        "stars": 246
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T14:57:55Z",
-      "updatedAt": "2026-08-31T19:17:32Z",
+      "updatedAt": "2026-09-02T07:56:29Z",
       "firstSeenAt": "2026-08-19T06:46:44.114Z",
       "lastSeenAt": "2026-08-26T19:50:13.055Z",
       "admitReason": "new"
@@ -3942,11 +4418,11 @@
         "deepseek-harness-plugins"
       ],
       "metrics": {
-        "stars": 212
+        "stars": 217
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T13:54:05Z",
-      "updatedAt": "2026-08-31T13:04:15Z",
+      "updatedAt": "2026-09-02T13:02:36Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-26T19:50:13.055Z",
       "admitReason": "new"
@@ -3980,7 +4456,7 @@
         "llm"
       ],
       "metrics": {
-        "stars": 205
+        "stars": 208
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T08:09:10Z",
@@ -4017,11 +4493,11 @@
         "plugin-marketplace"
       ],
       "metrics": {
-        "stars": 152
+        "stars": 155
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T16:01:59Z",
-      "updatedAt": "2026-08-31T23:05:34Z",
+      "updatedAt": "2026-09-02T22:53:31Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-26T19:50:13.055Z",
       "admitReason": "new"
@@ -4055,11 +4531,11 @@
         "subagent"
       ],
       "metrics": {
-        "stars": 124
+        "stars": 130
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T19:44:34Z",
-      "updatedAt": "2026-08-30T12:48:48Z",
+      "updatedAt": "2026-09-02T14:55:05Z",
       "firstSeenAt": "2026-08-25T15:43:44.793Z",
       "lastSeenAt": "2026-08-26T19:50:13.055Z",
       "admitReason": "new"
@@ -4091,7 +4567,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 111
+        "stars": 112
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T01:59:03Z",
@@ -4116,7 +4592,7 @@
       "metrics": {
         "upvotes": 64,
         "comments": 1,
-        "githubStars": 163
+        "githubStars": 165
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-24T00:00:00.000Z",
@@ -4138,9 +4614,9 @@
       "url": "https://huggingface.co/papers/2608.24646",
       "tags": [],
       "metrics": {
-        "upvotes": 66,
+        "upvotes": 67,
         "comments": 1,
-        "githubStars": 234
+        "githubStars": 262
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-25T00:00:00.000Z",
@@ -4162,9 +4638,9 @@
       "url": "https://huggingface.co/papers/2608.24876",
       "tags": [],
       "metrics": {
-        "upvotes": 27,
+        "upvotes": 28,
         "comments": 1,
-        "githubStars": 122
+        "githubStars": 128
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-25T00:00:00.000Z",
@@ -4197,8 +4673,8 @@
         "conversational"
       ],
       "metrics": {
-        "likes": 358,
-        "downloads": 2237578,
+        "likes": 365,
+        "downloads": 2455746,
         "trendingScore": 290
       },
       "source": "hf-models",
@@ -4271,7 +4747,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 135417
+        "stars": 135773
       },
       "source": "github-trending",
       "updatedAt": "2026-08-31T04:54:57Z",
@@ -4294,7 +4770,7 @@
       "url": "https://github.com/multica-ai/andrej-karpathy-skills",
       "tags": [],
       "metrics": {
-        "stars": 209137
+        "stars": 209651
       },
       "source": "github-trending",
       "updatedAt": "2026-04-20T10:05:04Z",
@@ -4332,8 +4808,8 @@
         "audio-to-audio-video"
       ],
       "metrics": {
-        "likes": 4706,
-        "downloads": 5362365,
+        "likes": 4807,
+        "downloads": 5532597,
         "trendingScore": 246
       },
       "source": "hf-models",
@@ -4358,7 +4834,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 757,
+        "stars": 777,
         "pushes": 2,
         "totalScore": 208.608
       },
@@ -4382,11 +4858,11 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 371,
+        "stars": 385,
         "totalScore": 208.0455
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-31T02:27:13Z",
+      "updatedAt": "2026-09-02T16:21:56Z",
       "firstSeenAt": "2026-08-25T09:36:47.621Z",
       "lastSeenAt": "2026-08-26T06:52:39.327Z",
       "admitReason": "notable"
@@ -4406,12 +4882,12 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 17284,
+        "stars": 17330,
         "pushes": 1,
         "totalScore": 207.6597
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-31T20:05:12Z",
+      "updatedAt": "2026-09-01T19:26:25Z",
       "firstSeenAt": "2026-08-25T09:36:47.621Z",
       "lastSeenAt": "2026-08-26T06:52:39.327Z",
       "admitReason": "notable"
@@ -4443,8 +4919,8 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1313,
-        "downloads": 22250,
+        "likes": 1328,
+        "downloads": 22781,
         "trendingScore": 253
       },
       "source": "hf-models",
@@ -4494,7 +4970,7 @@
       "url": "https://huggingface.co/papers/2608.23311",
       "tags": [],
       "metrics": {
-        "upvotes": 16,
+        "upvotes": 17,
         "comments": 1,
         "githubStars": 11
       },
@@ -4556,7 +5032,7 @@
         "long-term-memory"
       ],
       "metrics": {
-        "stars": 138
+        "stars": 139
       },
       "source": "github-search",
       "publishedAt": "2026-08-12T03:19:07Z",
@@ -4590,11 +5066,11 @@
         "transcript"
       ],
       "metrics": {
-        "stars": 133
+        "stars": 137
       },
       "source": "github-search",
       "publishedAt": "2026-08-12T06:48:51Z",
-      "updatedAt": "2026-08-30T05:43:13Z",
+      "updatedAt": "2026-09-02T06:30:32Z",
       "firstSeenAt": "2026-08-25T12:50:44.870Z",
       "lastSeenAt": "2026-08-25T21:30:01.334Z",
       "admitReason": "new"
@@ -4615,7 +5091,7 @@
       "metrics": {
         "upvotes": 33,
         "comments": 1,
-        "githubStars": 73
+        "githubStars": 75
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-20T00:00:00.000Z",
@@ -4677,8 +5153,8 @@
         "base_model:Qwen/Qwen3.8-27B"
       ],
       "metrics": {
-        "likes": 875,
-        "downloads": 2055081,
+        "likes": 918,
+        "downloads": 2143289,
         "trendingScore": 274
       },
       "source": "hf-models",
@@ -4702,7 +5178,7 @@
       "url": "https://huggingface.co/papers/2608.13622",
       "tags": [],
       "metrics": {
-        "upvotes": 16,
+        "upvotes": 17,
         "comments": 1
       },
       "source": "hf-papers",
@@ -4751,7 +5227,7 @@
       "metrics": {
         "upvotes": 24,
         "comments": 1,
-        "githubStars": 33
+        "githubStars": 34
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-24T00:00:00.000Z",
@@ -4773,9 +5249,9 @@
       "url": "https://huggingface.co/papers/2608.23552",
       "tags": [],
       "metrics": {
-        "upvotes": 47,
+        "upvotes": 48,
         "comments": 1,
-        "githubStars": 19375
+        "githubStars": 19617
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-24T00:00:00.000Z",
@@ -4797,11 +5273,11 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 1731,
+        "stars": 1782,
         "totalScore": 204.9715
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-25T08:34:08Z",
+      "updatedAt": "2026-09-01T17:24:27Z",
       "firstSeenAt": "2026-08-24T08:55:53.167Z",
       "lastSeenAt": "2026-08-25T06:51:09.551Z",
       "admitReason": "notable"
@@ -4820,9 +5296,9 @@
       "url": "https://huggingface.co/papers/2608.23283",
       "tags": [],
       "metrics": {
-        "upvotes": 204,
+        "upvotes": 205,
         "comments": 1,
-        "githubStars": 1328
+        "githubStars": 1374
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-24T00:00:00.000Z",
@@ -4846,7 +5322,7 @@
       "metrics": {
         "upvotes": 26,
         "comments": 2,
-        "githubStars": 43
+        "githubStars": 44
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-20T00:00:00.000Z",
@@ -4870,7 +5346,7 @@
       "metrics": {
         "upvotes": 58,
         "comments": 1,
-        "githubStars": 110
+        "githubStars": 111
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-21T00:00:00.000Z",
@@ -5045,7 +5521,7 @@
       "metrics": {
         "upvotes": 30,
         "comments": 1,
-        "githubStars": 26
+        "githubStars": 27
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-21T00:00:00.000Z",
@@ -5069,9 +5545,9 @@
       "url": "https://huggingface.co/papers/2608.21156",
       "tags": [],
       "metrics": {
-        "upvotes": 61,
+        "upvotes": 63,
         "comments": 1,
-        "githubStars": 257
+        "githubStars": 269
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-21T00:00:00.000Z",
@@ -5097,7 +5573,7 @@
       "metrics": {
         "upvotes": 38,
         "comments": 0,
-        "githubStars": 27
+        "githubStars": 29
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-21T00:00:00.000Z",
@@ -5134,7 +5610,7 @@
         "dsh"
       ],
       "metrics": {
-        "stars": 959
+        "stars": 978
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T13:14:49Z",
@@ -5171,11 +5647,11 @@
         "prompt-engineering"
       ],
       "metrics": {
-        "stars": 366
+        "stars": 382
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T05:08:30Z",
-      "updatedAt": "2026-08-26T07:55:36Z",
+      "updatedAt": "2026-09-01T16:37:09Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-24T23:36:24.421Z",
       "admitReason": "new"
@@ -5207,11 +5683,11 @@
         "openai-compatible"
       ],
       "metrics": {
-        "stars": 152
+        "stars": 154
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T07:06:43Z",
-      "updatedAt": "2026-08-31T22:36:30Z",
+      "updatedAt": "2026-09-02T21:06:09Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-24T23:36:24.421Z",
       "admitReason": "new"
@@ -5279,10 +5755,10 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 130918
+        "stars": 131210
       },
       "source": "github-trending",
-      "updatedAt": "2026-08-31T23:44:46Z",
+      "updatedAt": "2026-09-02T22:29:16Z",
       "firstSeenAt": "2026-08-23T12:42:30.740Z",
       "lastSeenAt": "2026-08-24T09:50:01.036Z",
       "admitReason": "trending"
@@ -5303,7 +5779,7 @@
       "metrics": {
         "upvotes": 16,
         "comments": 2,
-        "githubStars": 594
+        "githubStars": 596
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-17T00:00:00.000Z",
@@ -5329,7 +5805,7 @@
       "metrics": {
         "upvotes": 13,
         "comments": 5,
-        "githubStars": 11
+        "githubStars": 12
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-09T00:00:00.000Z",
@@ -5352,11 +5828,11 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 1115,
+        "stars": 1116,
         "totalScore": 204.7798
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-30T15:17:53Z",
+      "updatedAt": "2026-09-02T19:37:53Z",
       "firstSeenAt": "2026-08-23T09:29:14.266Z",
       "lastSeenAt": "2026-08-24T07:01:43.353Z",
       "admitReason": "notable"
@@ -5375,7 +5851,7 @@
       "url": "https://huggingface.co/papers/2608.17744",
       "tags": [],
       "metrics": {
-        "upvotes": 15,
+        "upvotes": 16,
         "comments": 3
       },
       "source": "hf-papers",
@@ -5400,7 +5876,7 @@
       "metrics": {
         "upvotes": 12,
         "comments": 3,
-        "githubStars": 10
+        "githubStars": 11
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-20T00:00:00.000Z",
@@ -5575,9 +6051,9 @@
       "url": "https://huggingface.co/papers/2608.20335",
       "tags": [],
       "metrics": {
-        "upvotes": 82,
+        "upvotes": 83,
         "comments": 7,
-        "githubStars": 1028
+        "githubStars": 1086
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-20T00:00:00.000Z",
@@ -5602,10 +6078,10 @@
       "lang": "Go",
       "tags": [],
       "metrics": {
-        "stars": 39994
+        "stars": 40215
       },
       "source": "github-trending",
-      "updatedAt": "2026-08-31T15:26:10Z",
+      "updatedAt": "2026-09-02T15:15:15Z",
       "firstSeenAt": "2026-08-22T15:22:55.161Z",
       "lastSeenAt": "2026-08-23T09:29:14.266Z",
       "admitReason": "trending"
@@ -5625,10 +6101,10 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 6094
+        "stars": 6116
       },
       "source": "github-trending",
-      "updatedAt": "2026-08-31T02:28:33Z",
+      "updatedAt": "2026-09-02T02:09:49Z",
       "firstSeenAt": "2026-08-20T12:53:13.611Z",
       "lastSeenAt": "2026-08-23T09:29:14.266Z",
       "admitReason": "trending"
@@ -5655,11 +6131,11 @@
         "programming-language"
       ],
       "metrics": {
-        "stars": 29409
+        "stars": 29483
       },
       "source": "github-search",
       "publishedAt": "2023-04-28T22:17:24Z",
-      "updatedAt": "2026-08-31T06:30:05Z",
+      "updatedAt": "2026-09-02T06:54:59Z",
       "firstSeenAt": "2026-08-20T12:53:13.611Z",
       "lastSeenAt": "2026-08-23T09:29:14.266Z",
       "admitReason": "notable"
@@ -5681,7 +6157,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 3042,
+        "stars": 3068,
         "totalScore": 214.6587
       },
       "source": "ossinsight",
@@ -5740,7 +6216,7 @@
         "typescript-tutorial"
       ],
       "metrics": {
-        "stars": 1153
+        "stars": 1163
       },
       "source": "github-search",
       "publishedAt": "2026-08-09T12:15:30Z",
@@ -5774,7 +6250,7 @@
         "skill"
       ],
       "metrics": {
-        "stars": 2896
+        "stars": 2981
       },
       "source": "github-search",
       "publishedAt": "2026-08-09T23:39:12Z",
@@ -5808,11 +6284,11 @@
         "tensorflow"
       ],
       "metrics": {
-        "stars": 21687
+        "stars": 21732
       },
       "source": "github-search",
       "publishedAt": "2018-11-10T02:22:53Z",
-      "updatedAt": "2026-09-01T00:06:22Z",
+      "updatedAt": "2026-09-02T22:50:41Z",
       "firstSeenAt": "2026-08-22T01:19:03.673Z",
       "lastSeenAt": "2026-08-22T12:41:49.365Z",
       "admitReason": "notable"
@@ -5846,8 +6322,8 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 740,
-        "downloads": 5303437,
+        "likes": 751,
+        "downloads": 5528743,
         "trendingScore": 330
       },
       "source": "hf-models",
@@ -5856,40 +6332,6 @@
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-22T01:19:03.673Z",
       "admitReason": "trending"
-    },
-    {
-      "id": "gh:JuliusBrussee/caveman",
-      "type": "repo",
-      "categories": [
-        "ai-models"
-      ],
-      "title": "JuliusBrussee/caveman",
-      "summaryEn": "Claude Code skill that reduces token usage by 65% using simplified prompt language, trading precision for efficiency in LLM interactions.",
-      "summaryKo": "단순화된 프롬프트 언어로 토큰 사용량을 65% 줄이는 Claude Code 스킬입니다.",
-      "summaryOriginal": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "lang": "Go",
-      "tags": [
-        "ai",
-        "anthropic",
-        "caveman",
-        "claude",
-        "claude-code",
-        "llm",
-        "meme",
-        "prompt-engineering",
-        "skill",
-        "tokens"
-      ],
-      "metrics": {
-        "stars": 102046
-      },
-      "source": "github-search",
-      "publishedAt": "2026-04-04T10:03:00Z",
-      "updatedAt": "2026-08-29T22:17:17Z",
-      "firstSeenAt": "2026-08-20T12:53:13.611Z",
-      "lastSeenAt": "2026-08-21T21:26:14.378Z",
-      "admitReason": "notable"
     },
     {
       "id": "gh:i3T4AN/KADATH",
@@ -5924,7 +6366,7 @@
         "self-evolving-agents"
       ],
       "metrics": {
-        "stars": 273
+        "stars": 274
       },
       "source": "github-search",
       "publishedAt": "2026-08-08T15:49:55Z",
@@ -5999,7 +6441,7 @@
       "metrics": {
         "upvotes": 121,
         "comments": 2,
-        "githubStars": 119
+        "githubStars": 120
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-19T00:00:00.000Z",
@@ -6021,9 +6463,9 @@
       "url": "https://huggingface.co/papers/2608.19880",
       "tags": [],
       "metrics": {
-        "upvotes": 273,
+        "upvotes": 274,
         "comments": 1,
-        "githubStars": 445
+        "githubStars": 491
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-20T00:00:00.000Z",
@@ -6046,12 +6488,12 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 1538,
+        "stars": 1674,
         "pushes": 1,
         "totalScore": 208.8765
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-31T23:52:33Z",
+      "updatedAt": "2026-09-02T16:26:25Z",
       "firstSeenAt": "2026-08-19T09:35:40.383Z",
       "lastSeenAt": "2026-08-21T12:51:22.781Z",
       "admitReason": "notable"
@@ -6091,11 +6533,11 @@
         "tutorial"
       ],
       "metrics": {
-        "stars": 6565
+        "stars": 6607
       },
       "source": "github-search",
       "publishedAt": "2026-05-04T22:18:51Z",
-      "updatedAt": "2026-08-31T11:16:03Z",
+      "updatedAt": "2026-09-01T18:56:42Z",
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
       "lastSeenAt": "2026-08-21T06:50:49.363Z",
       "admitReason": "notable"
@@ -6115,12 +6557,12 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 12736,
+        "stars": 13037,
         "pushes": 18,
         "totalScore": 215.5132
       },
       "source": "ossinsight",
-      "updatedAt": "2026-09-01T00:12:37Z",
+      "updatedAt": "2026-09-02T21:39:54Z",
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
       "lastSeenAt": "2026-08-21T06:50:49.363Z",
       "admitReason": "notable"
@@ -6139,12 +6581,12 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 628,
+        "stars": 632,
         "pushes": 1,
         "totalScore": 211.1323
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-27T08:30:22Z",
+      "updatedAt": "2026-09-01T10:54:45Z",
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
       "lastSeenAt": "2026-08-21T06:50:49.363Z",
       "admitReason": "notable"
@@ -6192,7 +6634,7 @@
       "metrics": {
         "upvotes": 95,
         "comments": 2,
-        "githubStars": 23
+        "githubStars": 24
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-19T00:00:00.000Z",
@@ -6237,9 +6679,9 @@
       "url": "https://huggingface.co/papers/2608.13558",
       "tags": [],
       "metrics": {
-        "upvotes": 91,
+        "upvotes": 92,
         "comments": 2,
-        "githubStars": 144
+        "githubStars": 147
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-13T00:00:00.000Z",
@@ -6263,7 +6705,7 @@
       "metrics": {
         "upvotes": 149,
         "comments": 1,
-        "githubStars": 600
+        "githubStars": 657
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-17T00:00:00.000Z",
@@ -6285,7 +6727,7 @@
       "url": "https://huggingface.co/papers/2608.18746",
       "tags": [],
       "metrics": {
-        "upvotes": 17,
+        "upvotes": 18,
         "comments": 1
       },
       "source": "hf-papers",
@@ -6414,7 +6856,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 384
+        "stars": 386
       },
       "source": "github-search",
       "publishedAt": "2026-08-07T17:14:43Z",
@@ -6483,8 +6925,8 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 792,
-        "downloads": 134723,
+        "likes": 796,
+        "downloads": 138833,
         "trendingScore": 368
       },
       "source": "hf-models",
@@ -6521,8 +6963,8 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1189,
-        "downloads": 36081,
+        "likes": 1191,
+        "downloads": 38782,
         "trendingScore": 366
       },
       "source": "hf-models",
@@ -6548,7 +6990,7 @@
       "metrics": {
         "upvotes": 116,
         "comments": 1,
-        "githubStars": 71
+        "githubStars": 73
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-19T00:00:00.000Z",
@@ -6573,10 +7015,10 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 21161
+        "stars": 21325
       },
       "source": "github-trending",
-      "updatedAt": "2026-08-31T14:44:25Z",
+      "updatedAt": "2026-09-02T12:44:25Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-20T09:36:42.325Z",
       "admitReason": "trending"
@@ -6612,11 +7054,11 @@
         "trading-platform"
       ],
       "metrics": {
-        "stars": 28220
+        "stars": 28321
       },
       "source": "github-search",
       "publishedAt": "2018-06-25T06:26:16Z",
-      "updatedAt": "2026-08-31T23:29:51Z",
+      "updatedAt": "2026-09-02T22:43:57Z",
       "firstSeenAt": "2026-08-19T15:33:13.943Z",
       "lastSeenAt": "2026-08-20T09:36:42.325Z",
       "admitReason": "notable"
@@ -6637,11 +7079,11 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 34611,
+        "stars": 34750,
         "totalScore": 214.0876
       },
       "source": "ossinsight",
-      "updatedAt": "2026-08-31T08:54:38Z",
+      "updatedAt": "2026-09-02T11:14:26Z",
       "firstSeenAt": "2026-08-19T09:35:40.383Z",
       "lastSeenAt": "2026-08-20T06:49:10.510Z",
       "admitReason": "notable"
@@ -6664,7 +7106,7 @@
       "metrics": {
         "upvotes": 24,
         "comments": 2,
-        "githubStars": 66
+        "githubStars": 68
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-18T00:00:00.000Z",
@@ -6688,7 +7130,7 @@
       "metrics": {
         "upvotes": 30,
         "comments": 2,
-        "githubStars": 94
+        "githubStars": 99
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-13T00:00:00.000Z",
@@ -6737,7 +7179,7 @@
       "metrics": {
         "upvotes": 17,
         "comments": 2,
-        "githubStars": 22
+        "githubStars": 23
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-18T00:00:00.000Z",
@@ -6809,7 +7251,7 @@
       "metrics": {
         "upvotes": 15,
         "comments": 2,
-        "githubStars": 29
+        "githubStars": 30
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-18T00:00:00.000Z",
@@ -6858,9 +7300,9 @@
       "url": "https://huggingface.co/papers/2608.16157",
       "tags": [],
       "metrics": {
-        "upvotes": 104,
+        "upvotes": 107,
         "comments": 2,
-        "githubStars": 10590
+        "githubStars": 10988
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-17T00:00:00.000Z",
@@ -6905,7 +7347,7 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-06T12:24:49Z",
-      "updatedAt": "2026-08-31T12:17:56Z",
+      "updatedAt": "2026-09-01T11:28:07Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-19T21:26:49.454Z",
       "admitReason": "new"
@@ -6970,7 +7412,7 @@
       "metrics": {
         "upvotes": 51,
         "comments": 2,
-        "githubStars": 232
+        "githubStars": 235
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-18T00:00:00.000Z",
@@ -7030,8 +7472,8 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1818,
-        "downloads": 600273,
+        "likes": 1831,
+        "downloads": 609919,
         "trendingScore": 411
       },
       "source": "hf-models",
@@ -7087,11 +7529,11 @@
         "quantitative-trading"
       ],
       "metrics": {
-        "stars": 64397
+        "stars": 64518
       },
       "source": "github-search",
       "publishedAt": "2026-01-10T06:43:20Z",
-      "updatedAt": "2026-08-30T13:50:22Z",
+      "updatedAt": "2026-09-01T11:25:15Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-19T06:46:44.114Z",
       "admitReason": "notable"
@@ -7113,7 +7555,7 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 4208,
+        "stars": 4289,
         "totalScore": 207.3834
       },
       "source": "ossinsight",
@@ -7135,7 +7577,7 @@
       "url": "https://github.com/ServiceNow/ServiceNowDocs",
       "tags": [],
       "metrics": {
-        "stars": 463,
+        "stars": 466,
         "totalScore": 204.8284
       },
       "source": "ossinsight",
@@ -7158,7 +7600,7 @@
       "url": "https://huggingface.co/papers/2608.17271",
       "tags": [],
       "metrics": {
-        "upvotes": 62,
+        "upvotes": 64,
         "comments": 2,
         "githubStars": 276
       },
@@ -7184,7 +7626,7 @@
       "metrics": {
         "upvotes": 106,
         "comments": 1,
-        "githubStars": 60
+        "githubStars": 62
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-18T00:00:00.000Z",
@@ -7234,7 +7676,7 @@
       "metrics": {
         "upvotes": 445,
         "comments": 2,
-        "githubStars": 779
+        "githubStars": 843
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-15T00:00:00.000Z",
@@ -7256,9 +7698,9 @@
       "url": "https://huggingface.co/papers/2608.16319",
       "tags": [],
       "metrics": {
-        "upvotes": 28,
+        "upvotes": 29,
         "comments": 2,
-        "githubStars": 54
+        "githubStars": 55
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-17T00:00:00.000Z",
@@ -7306,7 +7748,7 @@
       "metrics": {
         "upvotes": 50,
         "comments": 2,
-        "githubStars": 489
+        "githubStars": 495
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-15T00:00:00.000Z",
@@ -7409,7 +7851,7 @@
         "workflow"
       ],
       "metrics": {
-        "stars": 409
+        "stars": 414
       },
       "source": "github-search",
       "publishedAt": "2026-08-05T10:26:26Z",
@@ -7432,7 +7874,7 @@
       "metrics": {
         "upvotes": 339,
         "comments": 1,
-        "githubStars": 278
+        "githubStars": 283
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-17T00:00:00.000Z",
@@ -7452,7 +7894,7 @@
       "url": "https://huggingface.co/papers/2608.16887",
       "tags": [],
       "metrics": {
-        "upvotes": 33,
+        "upvotes": 34,
         "comments": 1
       },
       "source": "hf-papers",
