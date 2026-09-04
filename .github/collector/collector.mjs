@@ -45307,6 +45307,17 @@ var CardObjectSchema = external_exports.object({
   firstSeenAt: external_exports.iso.datetime({ offset: true }).optional(),
   /** 마지막으로 수집에 잡힌 시각. 보존 기간과 상한 정리(D20)의 기준이다. */
   lastSeenAt: external_exports.iso.datetime({ offset: true }).optional(),
+  /**
+   * **지표를 마지막으로 실측한 시각.** 재수집으로 새 값을 받았거나 갱신기가 다시 읽어 본
+   * 시각이고, 읽기가 실패해도 찍힌다 — "언제 값을 확인했나"이지 "언제 값이 바뀌었나"가 아니다.
+   *
+   * `lastSeenAt`과 나뉘어야 갱신이 **순번**이 된다. 갱신은 `lastSeenAt`을 건드리지 않으므로
+   * 그것으로 정렬하면 매 run 같은 카드가 앞줄에 서고, run당 상한 밖의 카드는 영영 굶는다
+   * (실측 2026-09-03: 묵은 599장 중 445장만 읽혀 ~150장이 매일 밀렸다).
+   *
+   * optional인 이유는 `firstSeenAt`과 같다. 값이 없는 카드가 앞줄이므로 이행은 저절로 끝난다.
+   */
+  metricsRefreshedAt: external_exports.iso.datetime({ offset: true }).optional(),
   /** 편입 신호 (D21). optional인 이유는 `firstSeenAt`과 같다. */
   admitReason: external_exports.enum(ADMIT_REASONS).optional()
 });
@@ -45610,13 +45621,14 @@ var forEachConcurrently = async (items, limit, run) => {
   await Promise.all(Array.from({ length: Math.min(limit, items.length) }, worker));
 };
 var refreshRepoMetrics = async (input) => {
-  const outcome = { refreshed: /* @__PURE__ */ new Map(), failed: 0 };
+  const outcome = { refreshed: /* @__PURE__ */ new Map(), failed: 0, attempted: [] };
   if (input.githubToken === void 0) return outcome;
   const token = input.githubToken;
   const targets = input.cardIds.flatMap((cardId) => {
     const fullName = fullNameOf(cardId);
     return fullName === void 0 ? [] : [{ cardId, fullName }];
   }).slice(0, MAX_REFRESHED_PER_RUN);
+  outcome.attempted = targets.map(({ cardId }) => cardId);
   await forEachConcurrently(targets, CONCURRENCY, async ({ cardId, fullName }) => {
     try {
       outcome.refreshed.set(cardId, await readOne(fullName, token));
@@ -60310,11 +60322,12 @@ var readOne2 = async (target) => {
   return { metrics: compactMetrics({ upvotes: body.upvotes, githubStars: body.githubStars }) };
 };
 var refreshHfMetrics = async (input) => {
-  const outcome = { refreshed: /* @__PURE__ */ new Map(), failed: 0 };
+  const outcome = { refreshed: /* @__PURE__ */ new Map(), failed: 0, attempted: [] };
   const targets = input.cardIds.flatMap((cardId) => {
     const target = targetOf(cardId);
     return target === void 0 ? [] : [target];
   }).slice(0, MAX_HF_REFRESHED_PER_RUN);
+  outcome.attempted = targets.map(({ cardId }) => cardId);
   await forEachConcurrently(targets, CONCURRENCY2, async (target) => {
     try {
       outcome.refreshed.set(target.cardId, await readOne2(target));
@@ -60432,7 +60445,12 @@ var categoryTasks = (ctx, categories) => categories.flatMap((category) => [
 var collect = async (ctx, categories) => {
   const tasks = [...globalTasks(ctx), ...categoryTasks(ctx, categories)];
   const settled = await Promise.allSettled(tasks.map(async (task) => task.run()));
-  const outcome = { batches: [], rejectedSources: /* @__PURE__ */ new Set(), errors: [] };
+  const outcome = {
+    batches: [],
+    rejectedSources: /* @__PURE__ */ new Set(),
+    emptySources: /* @__PURE__ */ new Set(),
+    errors: []
+  };
   settled.forEach((result, index2) => {
     const task = tasks[index2];
     if (task === void 0) return;
@@ -60446,6 +60464,13 @@ var collect = async (ctx, categories) => {
       attribution: task.attribution,
       cards: result.value
     });
+  });
+  const produced = new Set(
+    outcome.batches.filter((batch) => batch.cards.length > 0).map((batch) => batch.source)
+  );
+  new Set(tasks.map((task) => task.source)).forEach((source) => {
+    if (produced.has(source) || outcome.rejectedSources.has(source)) return;
+    outcome.emptySources.add(source);
   });
   return outcome;
 };
@@ -60723,12 +60748,15 @@ var publishOrKeepPrevious = (candidate, previous, logger2) => {
   });
   return { feed: previous, valid: false };
 };
-var logCollectionIssues = (input, rejected, errors2) => {
+var logCollectionIssues = (input, outcome) => {
   if (input.githubToken === void 0) input.logger.warn(DEGRADED_NO_TOKEN);
-  errors2.forEach(({ source, error: error51 }) => {
+  outcome.errors.forEach(({ source, error: error51 }) => {
     input.logger.warn(`SOURCE_FAILED ${source}: ${String(error51)}`);
   });
-  if (rejected.has("github-trending")) {
+  outcome.emptySources.forEach((source) => {
+    input.logger.warn(`SOURCE_EMPTY ${source}: \uC751\uB2F5\uC740 \uC131\uACF5\uD588\uB294\uB370 \uCE74\uB4DC 0\uC7A5 \u2014 \uC18C\uC2A4\uAC00 \uC8FD\uC5C8\uB294\uC9C0 \uBCF8\uB2E4`);
+  });
+  if (outcome.rejectedSources.has("github-trending")) {
     input.logger.warn("FALLBACK github-trending \u2192 github-search promoted as primary repo source");
   }
 };
@@ -60738,8 +60766,9 @@ var gatherCards = async (input) => {
     logger: input.logger,
     ...input.githubToken !== void 0 && { githubToken: input.githubToken }
   };
-  const { batches, rejectedSources, errors: errors2 } = await collect(ctx, input.categories);
-  logCollectionIssues(input, rejectedSources, errors2);
+  const outcome = await collect(ctx, input.categories);
+  logCollectionIssues(input, outcome);
+  const { batches, rejectedSources, emptySources } = outcome;
   const collected = batches.flatMap((batch) => attribute(batch, input.categories));
   const producedBySource = new Set(
     batches.filter((batch) => batch.cards.length > 0).map((batch) => batch.source)
@@ -60749,7 +60778,7 @@ var gatherCards = async (input) => {
     input.logger.warn(`CARRY_OVER ${source}: \uC774\uC804 \uD53C\uB4DC\uC5D0\uC11C \uCE74\uB4DC ${cards.length}\uC7A5 \uC720\uC9C0`);
     return cards;
   });
-  return { cards: [...collected, ...revived], rejected: rejectedSources };
+  return { cards: [...collected, ...revived], rejected: rejectedSources, empty: emptySources };
 };
 var classifyDeferred = async (merged, previousById, summarize) => {
   const deferred = merged.filter((entry) => entry.deferToLlm);
@@ -60801,6 +60830,7 @@ var collectStaleCards = (input, freshIds) => {
   );
   return [...stale.values()];
 };
+var byRefreshPriority = (a, b) => (a.metricsRefreshedAt ?? "").localeCompare(b.metricsRefreshedAt ?? "") || (a.lastSeenAt ?? "").localeCompare(b.lastSeenAt ?? "");
 var refreshStaleMetrics = async (input, fresh) => {
   const freshIds = new Set(fresh.map((card) => card.id));
   const stale = collectStaleCards(input, freshIds);
@@ -60808,10 +60838,10 @@ var refreshStaleMetrics = async (input, fresh) => {
   fresh.forEach((card) => {
     if (card.type === "repo" && card.metrics?.stars === void 0) unknown2.set(card.id, card);
   });
-  if (stale.length === 0 && unknown2.size === 0) return /* @__PURE__ */ new Map();
+  if (stale.length === 0 && unknown2.size === 0) return { refreshed: /* @__PURE__ */ new Map(), attempted: /* @__PURE__ */ new Set() };
   const cardIds = [
     ...unknown2.keys(),
-    ...[...stale].sort((a, b) => (a.lastSeenAt ?? "").localeCompare(b.lastSeenAt ?? "")).map((card) => card.id)
+    ...[...stale].sort(byRefreshPriority).map((card) => card.id)
   ];
   const [repoOutcome, hfOutcome] = await Promise.all([
     refreshRepoMetrics({
@@ -60821,13 +60851,14 @@ var refreshStaleMetrics = async (input, fresh) => {
     refreshHfMetrics({ cardIds })
   ]);
   const refreshed = new Map([...repoOutcome.refreshed, ...hfOutcome.refreshed]);
+  const attempted = /* @__PURE__ */ new Set([...repoOutcome.attempted, ...hfOutcome.attempted]);
   const failed = repoOutcome.failed + hfOutcome.failed;
   if (refreshed.size > 0 || failed > 0) {
     input.logger.info(
       `METRICS_REFRESH \uAC31\uC2E0 ${refreshed.size}\uC7A5 \xB7 \uC2E4\uD328 ${failed}\uC7A5 (\uBB35\uC740 ${stale.length}\uC7A5 \xB7 \uBBF8\uC0C1 ${unknown2.size}\uC7A5)`
     );
   }
-  return refreshed;
+  return { refreshed, attempted };
 };
 var mergedMetrics = (previous, patch, drop) => ({
   ...Object.fromEntries(Object.entries(previous ?? {}).filter(([name]) => !drop.includes(name))),
@@ -60842,12 +60873,15 @@ var withRefreshedMetrics = (cards, refreshed, drop = SUPERSEDED_METRICS) => card
     ...patch.updatedAt === void 0 ? {} : { updatedAt: patch.updatedAt }
   };
 });
+var stampRefreshedAt = (cards, at, ids) => cards.map(
+  (card) => ids === void 0 || ids.has(card.id) ? { ...card, metricsRefreshedAt: at } : card
+);
 var runPipeline = async (raw) => {
   const input = {
     ...raw,
     previousFeeds: applyOverridesToFeeds(raw.previousFeeds, raw.overrides)
   };
-  const { cards: gathered, rejected } = await gatherCards(input);
+  const { cards: gathered, rejected, empty: empty2 } = await gatherCards(input);
   const { admitted, rejectedBySource } = admit(gathered.map((entry) => entry.card));
   const admittedById = new Map(admitted.map((card) => [card.id, card]));
   const passed = gathered.flatMap((entry) => {
@@ -60864,7 +60898,7 @@ var runPipeline = async (raw) => {
   const publishable = overridden.filter((entry) => entry.categories.length > 0);
   const generatedAt = input.now.toISOString();
   const composed = composeAll(input.categories, publishable);
-  const refreshed = await refreshStaleMetrics(input, [...composed.values()].flat());
+  const { refreshed, attempted } = await refreshStaleMetrics(input, [...composed.values()].flat());
   const summarizedById = await summarizeComposed(
     composed,
     // 오버라이드 적용본을 넘긴다 — `classified`를 넘기면 사람이 고친 요약이 요약 패스에서
@@ -60881,8 +60915,15 @@ var runPipeline = async (raw) => {
   input.categories.forEach(({ slug }) => {
     const pool = mergeIntoPool({
       now: input.now,
-      fresh: withRefreshedMetrics(applySummaries(composed.get(slug) ?? [], summarizedById), refreshed, []),
-      previous: withRefreshedMetrics(input.previousFeeds[slug]?.cards ?? [], refreshed)
+      fresh: stampRefreshedAt(
+        withRefreshedMetrics(applySummaries(composed.get(slug) ?? [], summarizedById), refreshed, []),
+        generatedAt
+      ),
+      previous: stampRefreshedAt(
+        withRefreshedMetrics(input.previousFeeds[slug]?.cards ?? [], refreshed),
+        generatedAt,
+        attempted
+      )
     });
     newCardsThisRun += pool.newCards;
     if (pool.expired > 0 || pool.trimmed > 0) {
@@ -60904,6 +60945,7 @@ var runPipeline = async (raw) => {
     feeds,
     invalidCategories,
     rejectedSources: [...rejected],
+    emptySources: [...empty2],
     cardsBySource: countBy(publishable, (entry) => entry.card.source),
     cardsPublished,
     newCardsThisRun,
@@ -60920,6 +60962,9 @@ var logRunSummary = (result, logger2) => {
   logger2.info(`cardsBySource ${JSON.stringify(result.cardsBySource)}`);
   logger2.info(`newCardsThisRun ${result.newCardsThisRun}`);
   if (result.blocked > 0) logger2.info(`blocked ${result.blocked}`);
+  if (result.emptySources.length > 0) {
+    logger2.info(`emptySources ${JSON.stringify(result.emptySources)}`);
+  }
   if (Object.keys(result.rejectedByAdmission).length > 0) {
     logger2.info(`rejectedByAdmission ${JSON.stringify(result.rejectedByAdmission)}`);
   }
@@ -61145,6 +61190,7 @@ var publish = async (options) => {
     cardsPublished: result.cardsPublished,
     cardsBySource: result.cardsBySource,
     rejectedSources: result.rejectedSources,
+    emptySources: result.emptySources,
     invalidCategories: result.invalidCategories,
     // `carryOverRatio`를 대체한다(D20 4번). 누적이 기본이면 carry-over는 항상 높아 신호가
     // 안 되지만, **이 값이 0이면 소스가 통째로 죽은 것**이다.
@@ -61161,6 +61207,7 @@ var publish = async (options) => {
     cardsBySource: result.cardsBySource,
     invalidCategories: result.invalidCategories,
     rejectedSources: result.rejectedSources,
+    emptySources: result.emptySources,
     newCardsThisRun: result.newCardsThisRun,
     generatedAt
   };
