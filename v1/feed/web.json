@@ -1,46 +1,9 @@
 {
   "version": 1,
   "category": "web",
-  "generatedAt": "2026-09-03T22:53:21.894Z",
+  "generatedAt": "2026-09-04T21:10:24.767Z",
   "ttlSeconds": 10800,
   "cards": [
-    {
-      "id": "gh:f/prompts.chat",
-      "type": "repo",
-      "title": "f/prompts.chat",
-      "summaryOriginal": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-      "url": "https://github.com/f/prompts.chat",
-      "lang": "HTML",
-      "tags": [
-        "ai",
-        "artificial-intelligence",
-        "awesome-list",
-        "chatgpt",
-        "chatgpt-prompts",
-        "claude",
-        "gemini",
-        "gpt",
-        "gpt-4",
-        "llm",
-        "machine-learning",
-        "nextjs"
-      ],
-      "metrics": {
-        "stars": 168953
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2022-12-05T13:54:13Z",
-      "updatedAt": "2026-09-03T04:30:27Z",
-      "summaryEn": "Community-driven repository of prompts for ChatGPT, Claude, Gemini, and other LLMs. Self-hostable alternative to commercial prompt libraries.",
-      "categories": [
-        "ai-agents",
-        "ai-models",
-        "web"
-      ],
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
-    },
     {
       "id": "gh:useagenthq/useagent",
       "type": "repo",
@@ -63,7 +26,7 @@
         "developer-tools"
       ],
       "metrics": {
-        "stars": 280
+        "stars": 284
       },
       "source": "github-search",
       "admitReason": "new",
@@ -79,8 +42,86 @@
         "web",
         "devtools"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-30T23:00:09.024Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
+    },
+    {
+      "id": "gh:KelaoHu/dsh-lowtide",
+      "type": "repo",
+      "title": "KelaoHu/dsh-lowtide",
+      "summaryOriginal": "Time-shifting task delegation for DeepSeek Harness (dsh): plan tasks at leisure, they run unattended off-peak, come back to a report. Human-adjudicated, desktop + web.",
+      "url": "https://github.com/KelaoHu/dsh-lowtide",
+      "lang": "TypeScript",
+      "tags": [
+        "ai-agent",
+        "automation",
+        "batch-processing",
+        "cordis",
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugin",
+        "llm",
+        "plugin",
+        "scheduler",
+        "task-queue",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 107
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-08-23T13:00:17Z",
+      "updatedAt": "2026-09-01T05:04:03Z",
+      "summaryEn": "Time-shifting task delegation for DeepSeek Harness, enabling off-peak background task execution and reports.",
+      "summaryKo": "DeepSeek Harness를 위한 비동기 태스크 위임 및 오프피크 실행 도구입니다.",
+      "reasonEn": "Optimizing LLM workflow scheduling.",
+      "reasonKo": "LLM 워크플로우 스케줄링 최적화.",
+      "categories": [
+        "ai-models",
+        "web"
+      ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
+      "firstSeenAt": "2026-09-04T21:10:24.767Z",
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
+    },
+    {
+      "id": "gh:f/prompts.chat",
+      "type": "repo",
+      "title": "f/prompts.chat",
+      "summaryOriginal": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "url": "https://github.com/f/prompts.chat",
+      "lang": "HTML",
+      "tags": [
+        "ai",
+        "artificial-intelligence",
+        "awesome-list",
+        "chatgpt",
+        "chatgpt-prompts",
+        "claude",
+        "gemini",
+        "gpt",
+        "gpt-4",
+        "llm",
+        "machine-learning",
+        "nextjs"
+      ],
+      "metrics": {
+        "stars": 169314
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2022-12-05T13:54:13Z",
+      "updatedAt": "2026-09-04T03:17:56Z",
+      "summaryEn": "Community-driven repository of prompts for ChatGPT, Claude, Gemini, and other LLMs. Self-hostable alternative to commercial prompt libraries.",
+      "categories": [
+        "ai-models",
+        "web"
+      ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:langchain-ai/langchain",
@@ -104,12 +145,12 @@
         "langgraph"
       ],
       "metrics": {
-        "stars": 145593
+        "stars": 145648
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2022-10-17T02:58:36Z",
-      "updatedAt": "2026-09-03T16:59:53Z",
+      "updatedAt": "2026-09-04T20:05:54Z",
       "summaryEn": "Framework for building AI agents, from prototyping to production, with multi-model and RAG support.",
       "summaryKo": "AI 에이전트를 프로토타입부터 프로덕션까지 만드는 프레임워크, 멀티모델·RAG 지원.",
       "reasonEn": "144k+ stars, foundational agent engineering toolkit",
@@ -119,8 +160,9 @@
         "ai-agents",
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:bytedance/deer-flow",
@@ -144,20 +186,21 @@
         "llm"
       ],
       "metrics": {
-        "stars": 81319
+        "stars": 81365
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2025-05-07T02:50:19Z",
-      "updatedAt": "2026-09-03T16:03:49Z",
+      "updatedAt": "2026-09-04T15:46:57Z",
       "summaryEn": "Long-horizon agent framework with research, coding, and creation capabilities. Handles complex tasks via sandboxes, memory, and multi-agent coordination.",
       "categories": [
         "ai-models",
         "ai-agents",
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:headroomlabs-ai/headroom",
@@ -181,20 +224,21 @@
         "mcp"
       ],
       "metrics": {
-        "stars": 68810
+        "stars": 68937
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-01-07T19:58:51Z",
-      "updatedAt": "2026-09-03T07:29:38Z",
+      "updatedAt": "2026-09-04T05:01:51Z",
       "summaryEn": "Token compression library for AI agents that reduces context size 20-60% while preserving output quality. Offered as library, proxy, or MCP server.",
       "categories": [
         "ai-models",
         "ai-agents",
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:ruvnet/ruflo",
@@ -218,7 +262,7 @@
         "harness"
       ],
       "metrics": {
-        "stars": 70349
+        "stars": 70483
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -229,14 +273,15 @@
         "ai-agents",
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:code-yeongyu/oh-my-openagent",
       "type": "repo",
       "title": "code-yeongyu/oh-my-openagent",
-      "summaryOriginal": "omo/lazycodex: The coding agent for tokenmaxxers;the one and only agent harness for complex codebases. For your Codex, for your OpenCode",
+      "summaryOriginal": "OmO: Drop your tokens. Ultrawork. Done.",
       "url": "https://github.com/code-yeongyu/oh-my-openagent",
       "lang": "TypeScript",
       "tags": [
@@ -254,19 +299,20 @@
         "opencode"
       ],
       "metrics": {
-        "stars": 68662
+        "stars": 68694
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2025-12-03T01:40:05Z",
-      "updatedAt": "2026-09-03T15:24:42Z",
+      "updatedAt": "2026-09-04T21:06:44Z",
       "summaryEn": "Coding agent harness designed for complex codebases. Integrates with Claude, Codex, and IDE tooling for code generation and navigation.",
       "categories": [
         "ai-agents",
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:n8n-io/n8n",
@@ -290,49 +336,56 @@
         "mcp"
       ],
       "metrics": {
-        "stars": 203260
+        "stars": 203360
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2019-06-22T09:24:21Z",
-      "updatedAt": "2026-09-03T22:50:48Z",
+      "updatedAt": "2026-09-04T20:22:37Z",
       "summaryEn": "Workflow automation platform with visual UI and custom code support, 400+ integrations, native AI capabilities. Open-source, self-hostable.",
       "categories": [
         "ai-agents",
         "web",
         "devtools"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
-      "id": "gh:MengTo/threeui",
+      "id": "gh:lnkiai/m3e-canvas",
       "type": "repo",
-      "title": "MengTo/threeui",
-      "summaryOriginal": "Open-source ThreeUI Community catalog with live interactive components and complete Community source.",
-      "url": "https://github.com/MengTo/threeui",
-      "lang": "HTML",
+      "title": "lnkiai/m3e-canvas",
+      "summaryOriginal": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
+      "url": "https://github.com/lnkiai/m3e-canvas",
+      "lang": "TypeScript",
       "tags": [
+        "design-tool",
+        "material-3-expressive",
+        "material-design",
+        "material3",
+        "nextjs",
+        "prompt",
         "react",
-        "shaders",
-        "threejs",
-        "ui-components",
-        "webgl"
+        "vibe-coding"
       ],
       "metrics": {
-        "stars": 5064
+        "stars": 1671
       },
       "source": "github-search",
       "admitReason": "new",
-      "publishedAt": "2026-08-21T11:56:39Z",
-      "updatedAt": "2026-09-03T05:36:26Z",
-      "summaryEn": "Open-source ThreeJS and React UI component catalog with live interactive previews.",
-      "summaryKo": "실시간 인터랙티브 미리보기를 제공하는 오픈소스 ThreeJS 및 React UI 컴포넌트 카탈로그입니다.",
+      "publishedAt": "2026-09-02T04:36:34Z",
+      "updatedAt": "2026-09-04T14:31:48Z",
+      "summaryEn": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
+      "summaryKo": "브라우저에서 Material 3 화면을 스케치하고 바이브 코딩 프롬프트로 변환합니다.",
+      "reasonEn": "Popular for rapid UI prototyping",
+      "reasonKo": "빠른 UI 프로토타이핑 도구",
       "categories": [
         "web"
       ],
-      "firstSeenAt": "2026-08-21T18:38:31.239Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
+      "firstSeenAt": "2026-09-03T22:53:21.894Z",
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:xevrion/breakscale",
@@ -354,12 +407,12 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 1000
+        "stars": 1042
       },
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-08-23T06:21:21Z",
-      "updatedAt": "2026-09-02T13:08:00Z",
+      "updatedAt": "2026-09-04T11:38:54Z",
       "summaryEn": "A system design simulator to load-test and learn distributed systems architecture.",
       "summaryKo": "부하 테스트를 통해 분산 시스템 아키텍처를 학습할 수 있는 시스템 디자인 시뮬레이터입니다.",
       "reasonEn": "Popular educational system tool",
@@ -368,75 +421,9 @@
         "web",
         "backend"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-29T22:55:06.972Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
-    },
-    {
-      "id": "gh:ChenShuo2004/cs-board",
-      "type": "repo",
-      "title": "ChenShuo2004/cs-board",
-      "summaryOriginal": "将参考声音和中文文案自动生成白板动画视频的本地 AI 工具。",
-      "url": "https://github.com/ChenShuo2004/cs-board",
-      "lang": "Python",
-      "tags": [
-        "ai-video",
-        "chinese",
-        "fastapi",
-        "index-tts",
-        "react",
-        "tts",
-        "whiteboard-animation"
-      ],
-      "metrics": {
-        "stars": 475
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-08-21T00:50:30Z",
-      "updatedAt": "2026-09-03T12:23:06Z",
-      "summaryEn": "A local AI tool that automatically generates whiteboard animation videos from reference voices and Chinese text.",
-      "summaryKo": "참조 음성과 중국어 텍스트로 화이트보드 애니메이션 비디오를 자동 생성하는 로컬 AI 도구입니다.",
-      "reasonEn": "Gaining attention for automated local AI video generation.",
-      "reasonKo": "로컬 AI 비디오 자동 생성 기능으로 주목받고 있습니다.",
-      "categories": [
-        "web"
-      ],
-      "firstSeenAt": "2026-08-22T18:33:05.265Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
-    },
-    {
-      "id": "gh:lnkiai/m3e-canvas",
-      "type": "repo",
-      "title": "lnkiai/m3e-canvas",
-      "summaryOriginal": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
-      "url": "https://github.com/lnkiai/m3e-canvas",
-      "lang": "TypeScript",
-      "tags": [
-        "design-tool",
-        "material-3-expressive",
-        "material-design",
-        "material3",
-        "nextjs",
-        "prompt",
-        "react",
-        "vibe-coding"
-      ],
-      "metrics": {
-        "stars": 455
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-09-02T04:36:34Z",
-      "updatedAt": "2026-09-03T15:19:08Z",
-      "summaryEn": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
-      "summaryKo": "브라우저에서 Material 3 화면을 스케치하고 바이브 코딩 프롬프트로 변환합니다.",
-      "reasonEn": "Popular for rapid UI prototyping",
-      "reasonKo": "빠른 UI 프로토타이핑 도구",
-      "categories": [
-        "web"
-      ],
-      "firstSeenAt": "2026-09-03T22:53:21.894Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:Alexwtlf/agentic-product-demo",
@@ -457,7 +444,7 @@
         "video"
       ],
       "metrics": {
-        "stars": 131
+        "stars": 152
       },
       "source": "github-search",
       "admitReason": "new",
@@ -470,8 +457,48 @@
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-09-03T22:53:21.894Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
+    },
+    {
+      "id": "gh:kyky2347/ALTA",
+      "type": "repo",
+      "title": "kyky2347/ALTA",
+      "summaryOriginal": "Autonomous LLM Trading Asterism — research-only, evidence-first multi-agent opportunity discovery, audited Shadow expression, durable recovery, and a bilingual local operator console.",
+      "url": "https://github.com/kyky2347/ALTA",
+      "lang": "Python",
+      "tags": [
+        "autonomous-agents",
+        "codex-app-server",
+        "event-driven-architecture",
+        "llm-agents",
+        "local-first",
+        "market-research",
+        "multi-agent-systems",
+        "operator-console",
+        "quantitative-finance",
+        "react",
+        "research-software",
+        "shadow-trading"
+      ],
+      "metrics": {
+        "stars": 106
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-08-27T09:42:45Z",
+      "updatedAt": "2026-09-04T06:00:23Z",
+      "summaryEn": "ALTA is an autonomous LLM trading system featuring multi-agent opportunity discovery and durable recovery.",
+      "summaryKo": "다중 에이전트 기회 발견 기능을 갖춘 자율 LLM 트레이딩 시스템입니다.",
+      "reasonEn": "Exploring autonomous multi-agent financial research.",
+      "reasonKo": "자율 다중 에이전트 금융 연구 탐구.",
+      "categories": [
+        "web"
+      ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
+      "firstSeenAt": "2026-09-04T21:10:24.767Z",
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:feyzilim/clipfactory",
@@ -493,7 +520,7 @@
         "video-generation"
       ],
       "metrics": {
-        "stars": 103
+        "stars": 104
       },
       "source": "github-search",
       "admitReason": "new",
@@ -504,8 +531,9 @@
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-09-01T00:11:05.708Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:freeCodeCamp/freeCodeCamp",
@@ -529,18 +557,19 @@
         "nonprofits"
       ],
       "metrics": {
-        "stars": 454971
+        "stars": 455007
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2014-12-24T17:49:19Z",
-      "updatedAt": "2026-09-03T19:35:09Z",
+      "updatedAt": "2026-09-04T18:31:12Z",
       "summaryEn": "Free open-source curriculum covering math, programming, and computer science with certification",
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:react/react",
@@ -558,18 +587,19 @@
         "ui"
       ],
       "metrics": {
-        "stars": 249060
+        "stars": 249074
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2013-05-24T16:15:54Z",
-      "updatedAt": "2026-09-03T13:14:56Z",
+      "updatedAt": "2026-09-04T20:59:38Z",
       "summaryEn": "Core React library for building declarative web and native user interfaces",
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:vercel/next.js",
@@ -593,18 +623,19 @@
         "static-site-generator"
       ],
       "metrics": {
-        "stars": 142083
+        "stars": 142096
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2016-10-05T23:32:51Z",
-      "updatedAt": "2026-09-03T22:53:54Z",
+      "updatedAt": "2026-09-04T21:03:26Z",
       "summaryEn": "React framework with server rendering, static generation, and built-in compiler for full-stack apps",
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:react/react-native",
@@ -624,18 +655,19 @@
         "react-native"
       ],
       "metrics": {
-        "stars": 126487
+        "stars": 126497
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2015-01-09T18:10:16Z",
-      "updatedAt": "2026-09-03T21:11:30Z",
+      "updatedAt": "2026-09-04T19:42:50Z",
       "summaryEn": "React framework for building native iOS and Android apps with cross-platform code",
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:nextlevelbuilder/ui-ux-pro-max-skill",
@@ -659,7 +691,7 @@
         "mobile-ui"
       ],
       "metrics": {
-        "stars": 124674
+        "stars": 125006
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -669,8 +701,9 @@
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T18:40:19.317Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:shadcn-ui/ui",
@@ -694,18 +727,19 @@
         "ui"
       ],
       "metrics": {
-        "stars": 122943
+        "stars": 123032
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2023-01-04T12:43:27Z",
-      "updatedAt": "2026-09-03T19:57:22Z",
+      "updatedAt": "2026-09-04T05:32:33Z",
       "summaryEn": "Open-source accessible component library with copy-paste distribution model for multiple frameworks",
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:ant-design/ant-design",
@@ -724,18 +758,19 @@
         "ui-library"
       ],
       "metrics": {
-        "stars": 99376
+        "stars": 99388
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2015-04-24T15:37:24Z",
-      "updatedAt": "2026-09-03T21:28:11Z",
+      "updatedAt": "2026-09-04T18:13:09Z",
       "summaryEn": "Enterprise-class React UI library implementing comprehensive design system with TypeScript",
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:mui/material-ui",
@@ -752,18 +787,19 @@
         "react-components"
       ],
       "metrics": {
-        "stars": 99002
+        "stars": 99011
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2014-08-18T19:11:54Z",
-      "updatedAt": "2026-09-03T14:23:06Z",
+      "updatedAt": "2026-09-04T19:25:14Z",
       "summaryEn": "Comprehensive React component library implementing Google's Material Design standard",
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:oven-sh/bun",
@@ -787,18 +823,19 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 95875
+        "stars": 95879
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2021-04-14T00:48:17Z",
-      "updatedAt": "2026-09-03T22:49:06Z",
+      "updatedAt": "2026-09-04T21:11:14Z",
       "summaryEn": "Fast all-in-one JavaScript runtime, bundler, test runner, and package manager written in Rust",
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:ruvnet/RuView",
@@ -822,18 +859,19 @@
         "pose-estimation"
       ],
       "metrics": {
-        "stars": 92442
+        "stars": 92501
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2025-06-07T04:32:30Z",
-      "updatedAt": "2026-09-03T18:18:44Z",
+      "updatedAt": "2026-09-04T20:31:39Z",
       "summaryEn": "WiFi-based spatial intelligence and vital sign monitoring without video, with home automation integration",
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:storybookjs/storybook",
@@ -857,19 +895,20 @@
         "svelte"
       ],
       "metrics": {
-        "stars": 90997
+        "stars": 91009
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2016-03-18T04:23:44Z",
-      "updatedAt": "2026-09-03T22:26:29Z",
+      "updatedAt": "2026-09-04T19:23:02Z",
       "summaryEn": "Industry-standard workshop for building, documenting, and testing UI components in isolation",
       "categories": [
         "web",
         "engineering"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:apache/superset",
@@ -893,19 +932,20 @@
         "data-visualization"
       ],
       "metrics": {
-        "stars": 74616
+        "stars": 74639
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2015-07-21T18:55:34Z",
-      "updatedAt": "2026-09-03T22:33:01Z",
+      "updatedAt": "2026-09-04T21:03:21Z",
       "summaryEn": "Open-source data visualization and exploration platform for analytics and business intelligence",
       "categories": [
         "web",
         "data"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:enaqx/awesome-react",
@@ -926,19 +966,20 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 74479
+        "stars": 74490
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2014-08-06T05:31:44Z",
-      "updatedAt": "2026-09-03T21:56:36Z",
+      "updatedAt": "2026-09-04T01:13:20Z",
       "summaryEn": "Curated collection of React ecosystem tools, libraries, and resources—comprehensive reference for React developers.",
       "summaryKo": "React 생태계 도구와 라이브러리의 큐레이션된 목록.",
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:facebook/docusaurus",
@@ -956,19 +997,20 @@
         "website"
       ],
       "metrics": {
-        "stars": 66169
+        "stars": 66175
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2017-06-20T16:13:53Z",
-      "updatedAt": "2026-09-03T16:48:42Z",
+      "updatedAt": "2026-09-04T20:38:26Z",
       "summaryEn": "React-based static site generator for building and maintaining open-source documentation websites with minimal setup.",
       "summaryKo": "React 기반 정적 사이트 생성기로 오픈소스 문서 사이트를 쉽게 구축하고 유지보수할 수 있습니다.",
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-20T18:41:26.574Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:usememos/memos",
@@ -992,19 +1034,20 @@
         "social-network"
       ],
       "metrics": {
-        "stars": 62754
+        "stars": 62772
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2021-12-08T15:30:18Z",
-      "updatedAt": "2026-09-03T15:43:43Z",
+      "updatedAt": "2026-09-04T16:22:11Z",
       "summaryEn": "Self-hosted markdown-native note-taking tool built for quick capture and personal knowledge",
       "categories": [
         "web",
         "infra"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:makeplane/plane",
@@ -1028,19 +1071,20 @@
         "product-management"
       ],
       "metrics": {
-        "stars": 58856
+        "stars": 58896
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2022-11-19T12:55:01Z",
-      "updatedAt": "2026-09-03T16:07:57Z",
+      "updatedAt": "2026-09-04T19:20:22Z",
       "summaryEn": "Open-source project management platform and Jira alternative with boards, sprints, and docs",
       "categories": [
         "web",
         "infra"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:remotion-dev/remotion",
@@ -1055,18 +1099,19 @@
         "video"
       ],
       "metrics": {
-        "stars": 58219
+        "stars": 58318
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2020-06-23T19:49:10Z",
-      "updatedAt": "2026-09-03T17:51:17Z",
+      "updatedAt": "2026-09-04T12:04:04Z",
       "summaryEn": "Programmatic video creation library using React components and JavaScript animation",
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:appwrite/appwrite",
@@ -1090,12 +1135,12 @@
         "react"
       ],
       "metrics": {
-        "stars": 57275
+        "stars": 57288
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2019-04-08T16:36:25Z",
-      "updatedAt": "2026-09-03T18:25:05Z",
+      "updatedAt": "2026-09-04T21:10:34Z",
       "summaryEn": "Complete backend-as-a-service platform: auth, databases, storage, functions, and messaging for web, mobile, and AI apps.",
       "summaryKo": "인증·DB·스토리지·함수·메시징을 아우르는 웹·모바일·AI용 완전한 백엔드 플랫폼.",
       "categories": [
@@ -1103,8 +1148,9 @@
         "backend",
         "infra"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:twentyhq/twenty",
@@ -1128,18 +1174,19 @@
         "postgresql"
       ],
       "metrics": {
-        "stars": 56176
+        "stars": 56250
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2022-12-01T13:04:40Z",
-      "updatedAt": "2026-09-03T22:39:42Z",
+      "updatedAt": "2026-09-04T21:04:57Z",
       "summaryEn": "Open-source CRM platform designed for AI, alternative to Salesforce with GraphQL backend",
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:gatsbyjs/gatsby",
@@ -1158,19 +1205,20 @@
         "web-app"
       ],
       "metrics": {
-        "stars": 55940
+        "stars": 55937
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2015-05-21T22:43:05Z",
-      "updatedAt": "2026-09-03T22:26:09Z",
+      "updatedAt": "2026-09-04T03:44:46Z",
       "summaryEn": "A React-based web framework focused on performance, scalability, and static site generation.",
       "summaryKo": "성능, 확장성, 정적 사이트 생성에 중점을 둔 React 기반 웹 프레임워크입니다.",
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-27T13:54:10.701Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:ionic-team/ionic-framework",
@@ -1194,19 +1242,20 @@
         "stencil"
       ],
       "metrics": {
-        "stars": 52641
+        "stars": 52644
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2013-08-20T23:06:02Z",
-      "updatedAt": "2026-09-03T21:14:15Z",
+      "updatedAt": "2026-09-04T21:00:14Z",
       "summaryEn": "Cross-platform UI toolkit for iOS, Android, and PWAs using web technologies; enables code reuse across platforms.",
       "summaryKo": "웹 기술로 iOS, Android, PWA를 구축하는 크로스플랫폼 UI 툴킷; 플랫폼 간 코드 재사용 가능.",
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:expo/expo",
@@ -1230,12 +1279,12 @@
         "react-native"
       ],
       "metrics": {
-        "stars": 52021
+        "stars": 52040
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2016-08-15T17:14:25Z",
-      "updatedAt": "2026-09-03T22:49:05Z",
+      "updatedAt": "2026-09-04T18:15:37Z",
       "summaryEn": "Open-source framework for building universal native apps with React, running on iOS, Android, and web.",
       "summaryKo": "React로 iOS·Android·웹용 유니버설 네이티브 앱을 만드는 오픈소스 프레임워크.",
       "reasonEn": "51k+ stars, dominant React Native tooling framework",
@@ -1243,8 +1292,9 @@
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:TanStack/query",
@@ -1268,12 +1318,12 @@
         "stale-while-revalidate"
       ],
       "metrics": {
-        "stars": 50257
+        "stars": 50267
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2019-09-10T19:23:58Z",
-      "updatedAt": "2026-09-03T14:06:56Z",
+      "updatedAt": "2026-09-04T14:39:06Z",
       "summaryEn": "Asynchronous state management and data-fetching library for React, Vue, Solid, and Svelte.",
       "summaryKo": "React·Vue·Solid·Svelte용 비동기 상태 관리·데이터 페칭 라이브러리.",
       "reasonEn": "50k+ stars, de facto standard for server-state in web apps",
@@ -1281,8 +1331,9 @@
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:tldraw/tldraw",
@@ -1306,12 +1357,12 @@
         "whiteboard"
       ],
       "metrics": {
-        "stars": 50112
+        "stars": 50139
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2021-05-09T11:48:37Z",
-      "updatedAt": "2026-09-03T17:19:50Z",
+      "updatedAt": "2026-09-04T17:15:31Z",
       "summaryEn": "SDK for building infinite-canvas, multiplayer drawing and diagramming apps in React.",
       "summaryKo": "무한 캔버스·멀티플레이어 그림·다이어그램 앱을 만드는 React SDK.",
       "reasonEn": "49k+ stars, widely used canvas/whiteboard SDK",
@@ -1319,8 +1370,46 @@
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
+    },
+    {
+      "id": "gh:DavidHDev/react-bits",
+      "type": "repo",
+      "title": "DavidHDev/react-bits",
+      "summaryOriginal": "An open source collection of animated, interactive & fully customizable React components for building memorable websites.",
+      "url": "https://github.com/DavidHDev/react-bits",
+      "lang": "JavaScript",
+      "tags": [
+        "3d",
+        "animations",
+        "component-library",
+        "components",
+        "components-library",
+        "components-react",
+        "css-animations",
+        "javascript",
+        "react",
+        "react-components",
+        "reactjs",
+        "tailwind"
+      ],
+      "metrics": {
+        "stars": 46765
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2024-08-06T06:54:54Z",
+      "updatedAt": "2026-09-04T19:50:17Z",
+      "summaryEn": "An open-source collection of animated, interactive, and customizable React components for web development.",
+      "summaryKo": "웹 개발을 위한 애니메이션 및 인터랙티브 React 컴포넌트 모음입니다.",
+      "categories": [
+        "web"
+      ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
+      "firstSeenAt": "2026-08-29T02:56:27.939Z",
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:fastapi/full-stack-fastapi-template",
@@ -1344,7 +1433,7 @@
         "python"
       ],
       "metrics": {
-        "stars": 45360
+        "stars": 45387
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1356,8 +1445,9 @@
         "web",
         "infra"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:meteor/meteor",
@@ -1381,12 +1471,12 @@
         "rpc"
       ],
       "metrics": {
-        "stars": 44808
+        "stars": 44810
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2012-01-19T01:58:17Z",
-      "updatedAt": "2026-09-03T15:39:31Z",
+      "updatedAt": "2026-09-04T14:48:28Z",
       "summaryEn": "Full-stack JavaScript app platform with built-in reactivity, real-time sync, and MongoDB integration.",
       "summaryKo": "실시간 동기화와 MongoDB 연동을 갖춘 풀스택 자바스크립트 앱 플랫폼.",
       "reasonEn": "44k+ stars, long-standing full-stack JS platform",
@@ -1394,8 +1484,9 @@
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:payloadcms/payload",
@@ -1419,19 +1510,57 @@
         "nextjs"
       ],
       "metrics": {
-        "stars": 44564
+        "stars": 44571
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2021-01-05T18:49:45Z",
-      "updatedAt": "2026-09-03T21:56:09Z",
+      "updatedAt": "2026-09-04T09:09:06Z",
       "summaryEn": "Open-source, full-stack Next.js and TypeScript framework providing instant backend capabilities and an admin panel.",
       "summaryKo": "즉각적인 백엔드와 관리자 패널을 제공하는 오픈소스 풀스택 Next.js 및 TypeScript 프레임워크입니다.",
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-09-01T00:11:05.708Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
+    },
+    {
+      "id": "gh:amruthpillai/reactive-resume",
+      "type": "repo",
+      "title": "amruthpillai/reactive-resume",
+      "summaryOriginal": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
+      "url": "https://github.com/amruthpillai/reactive-resume",
+      "lang": "TypeScript",
+      "tags": [
+        "agent-skills",
+        "ai",
+        "dsh-plugin",
+        "hacktoberfest",
+        "javascript",
+        "mcp-server",
+        "react",
+        "resume-builder",
+        "self-hosted",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 42186
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2020-03-25T14:08:22Z",
+      "updatedAt": "2026-09-04T09:05:27Z",
+      "summaryEn": "Reactive Resume is a secure, privacy-first, open-source resume builder built with modern web technologies.",
+      "summaryKo": "현대적인 웹 기술로 구축된 보안 중심의 오픈소스 이력서 빌더입니다.",
+      "reasonEn": "Continued high demand for privacy-focused tools.",
+      "reasonKo": "개인정보 보호 중심 도구에 대한 지속적인 수요.",
+      "categories": [
+        "web"
+      ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
+      "firstSeenAt": "2026-09-04T21:10:24.767Z",
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:appsmithorg/appsmith",
@@ -1455,89 +1584,21 @@
         "java"
       ],
       "metrics": {
-        "stars": 40809
+        "stars": 40812
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2020-06-30T04:07:36Z",
-      "updatedAt": "2026-09-03T20:09:35Z",
+      "updatedAt": "2026-09-04T17:45:23Z",
       "summaryEn": "Low-code platform for building internal dashboards and admin panels with 25+ database and API integrations, self-hosted.",
       "summaryKo": "25+ DB 및 API 통합을 지원하는 내부 대시보드/관리 패널용 로우코드 플랫폼.",
       "categories": [
         "web",
         "devtools"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-09-01T22:53:39.547Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
-    },
-    {
-      "id": "gh:chakra-ui/chakra-ui",
-      "type": "repo",
-      "title": "chakra-ui/chakra-ui",
-      "summaryOriginal": "Chakra UI is a component system for building SaaS products with speed ⚡️",
-      "url": "https://github.com/chakra-ui/chakra-ui",
-      "lang": "TypeScript",
-      "tags": [
-        "a11y",
-        "accessible",
-        "ark-ui",
-        "chakra-ui",
-        "component",
-        "css-in-js",
-        "dark-mode",
-        "design-system",
-        "react",
-        "react-components",
-        "reactjs",
-        "styled"
-      ],
-      "metrics": {
-        "stars": 40617
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2019-08-17T14:27:54Z",
-      "updatedAt": "2026-09-02T17:59:24Z",
-      "summaryEn": "A modular and accessible component system for building React and SaaS products with speed.",
-      "summaryKo": "React 및 SaaS 제품을 빠르게 구축하기 위한 모듈식 접근성 컴포넌트 시스템입니다.",
-      "reasonEn": "Widely used React UI library",
-      "reasonKo": "널리 쓰이는 React UI 라이브러리",
-      "categories": [
-        "web"
-      ],
-      "firstSeenAt": "2026-09-03T22:53:21.894Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
-    },
-    {
-      "id": "gh:trpc/trpc",
-      "type": "repo",
-      "title": "trpc/trpc",
-      "summaryOriginal": "🧙‍♀️ Move Fast and Break Nothing. End-to-end typesafe APIs made easy.",
-      "url": "https://github.com/trpc/trpc",
-      "lang": "TypeScript",
-      "tags": [
-        "api",
-        "next",
-        "nextjs",
-        "prisma",
-        "react",
-        "typescript"
-      ],
-      "metrics": {
-        "stars": 40577
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2020-07-18T01:17:11Z",
-      "updatedAt": "2026-09-03T22:13:01Z",
-      "summaryEn": "tRPC lets you build end-to-end typesafe APIs easily without schemas or code generation, streamlining full-stack TypeScript development.",
-      "summaryKo": "스키마 없이 타입 안전한 API를 구축하는 TypeScript 라이브러리입니다.",
-      "categories": [
-        "web",
-        "backend"
-      ],
-      "firstSeenAt": "2026-09-03T22:53:21.894Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:marktext/marktext",
@@ -1561,20 +1622,21 @@
         "typewriter-mode"
       ],
       "metrics": {
-        "stars": 60988
+        "stars": 61034
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2017-11-12T16:05:25Z",
-      "updatedAt": "2026-09-03T03:35:48Z",
+      "updatedAt": "2026-09-04T04:59:05Z",
       "summaryEn": "MarkText is a simple and elegant open-source markdown editor for Linux, macOS, and Windows.",
       "summaryKo": "Linux, macOS, Windows를 지원하는 심플하고 우수한 오픈소스 마크다운 편집기입니다.",
       "categories": [
         "web",
         "devtools"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-09-02T22:54:08.675Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:nuxt/nuxt",
@@ -1598,19 +1660,20 @@
         "universal"
       ],
       "metrics": {
-        "stars": 60816
+        "stars": 60817
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2016-10-26T11:18:47Z",
-      "updatedAt": "2026-09-03T22:38:30Z",
+      "updatedAt": "2026-09-04T20:21:00Z",
       "summaryEn": "The popular full-stack Vue framework for building hybrid web applications.",
       "summaryKo": "하이브리드 웹 애플리케이션 구축을 위한 인기 있는 풀스택 Vue 프레임워크입니다.",
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-09-02T22:54:08.675Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:go-gitea/gitea",
@@ -1634,20 +1697,21 @@
         "gitlab"
       ],
       "metrics": {
-        "stars": 57800
+        "stars": 57825
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2016-11-01T02:13:26Z",
-      "updatedAt": "2026-09-03T18:43:31Z",
+      "updatedAt": "2026-09-04T08:45:40Z",
       "summaryEn": "Self-hosted Git service with code review, CI/CD, package registry, and team collaboration—a lightweight alternative to GitHub/GitLab.",
       "reasonEn": "Self-hosted DevOps solution avoiding external dependencies and vendor lock-in",
       "categories": [
         "web",
         "infra"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-09-02T22:54:08.675Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:prettier/prettier",
@@ -1671,25 +1735,213 @@
         "markdown"
       ],
       "metrics": {
-        "stars": 52238
+        "stars": 52240
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2016-11-29T17:13:37Z",
-      "updatedAt": "2026-09-03T18:43:26Z",
+      "updatedAt": "2026-09-04T09:49:57Z",
       "summaryEn": "An opinionated code formatter supporting multiple languages and file types.",
       "summaryKo": "다양한 언어와 파일 형식을 지원하는 일관된 스타일의 코드 포매터입니다.",
       "categories": [
         "web"
       ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
       "firstSeenAt": "2026-09-02T22:54:08.675Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
+    },
+    {
+      "id": "hn:49555233",
+      "type": "article",
+      "title": "The asteroid currently hitting front end web development",
+      "summaryOriginal": "The asteroid currently hitting front end web development",
+      "url": "https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 205,
+        "comments": 259
+      },
+      "source": "hn",
+      "publishedAt": "2026-09-03T19:17:24Z",
+      "admitReason": "notable",
+      "summaryEn": "An analysis of major architectural shifts and disruption currently impacting frontend web development ecosystems.",
+      "summaryKo": "프론트엔드 웹 개발 생태계에 큰 변화를 일으키고 있는 아키텍처적 흐름 분석입니다.",
+      "categories": [
+        "web"
+      ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
+      "firstSeenAt": "2026-09-04T21:10:24.767Z",
+      "lastSeenAt": "2026-09-04T21:10:24.767Z"
+    },
+    {
+      "id": "hn:49213660",
+      "type": "article",
+      "title": "Ask HN: In your experience, what are sound conventions for e-ink UI development?",
+      "summaryOriginal": "Ask HN: In your experience, what are sound conventions for e-ink UI development?",
+      "url": "https://news.ycombinator.com/item?id=49213660",
+      "tags": [],
+      "metrics": {
+        "upvotes": 219,
+        "comments": 74
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-07T17:29:16Z",
+      "admitReason": "notable",
+      "summaryEn": "A discussion gathering conventions, best practices, and patterns for developing user interfaces on e-ink displays.",
+      "summaryKo": "전자잉크 디스플레이용 사용자 인터페이스 개발 시 유용한 규칙과 패턴에 대한 논의입니다.",
+      "categories": [
+        "web",
+        "engineering"
+      ],
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z",
+      "firstSeenAt": "2026-08-19T01:42:27.269Z",
+      "lastSeenAt": "2026-09-04T21:10:24.767Z",
+      "reasonEn": "Niche hardware UI development discussion",
+      "reasonKo": "틈새 하드웨어 UI 개발에 대한 토론"
+    },
+    {
+      "id": "gh:MengTo/threeui",
+      "type": "repo",
+      "categories": [
+        "web"
+      ],
+      "title": "MengTo/threeui",
+      "summaryEn": "Open-source ThreeJS and React UI component catalog with live interactive previews.",
+      "summaryKo": "실시간 인터랙티브 미리보기를 제공하는 오픈소스 ThreeJS 및 React UI 컴포넌트 카탈로그입니다.",
+      "summaryOriginal": "Open-source ThreeUI Community catalog with live interactive components and complete Community source.",
+      "url": "https://github.com/MengTo/threeui",
+      "lang": "HTML",
+      "tags": [
+        "react",
+        "shaders",
+        "threejs",
+        "ui-components",
+        "webgl"
+      ],
+      "metrics": {
+        "stars": 5064
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-21T11:56:39Z",
+      "updatedAt": "2026-09-03T05:36:26Z",
+      "firstSeenAt": "2026-08-21T18:38:31.239Z",
+      "lastSeenAt": "2026-09-03T22:53:21.894Z",
+      "admitReason": "new"
+    },
+    {
+      "id": "gh:ChenShuo2004/cs-board",
+      "type": "repo",
+      "categories": [
+        "web"
+      ],
+      "title": "ChenShuo2004/cs-board",
+      "summaryEn": "A local AI tool that automatically generates whiteboard animation videos from reference voices and Chinese text.",
+      "summaryKo": "참조 음성과 중국어 텍스트로 화이트보드 애니메이션 비디오를 자동 생성하는 로컬 AI 도구입니다.",
+      "summaryOriginal": "将参考声音和中文文案自动生成白板动画视频的本地 AI 工具。",
+      "reasonEn": "Gaining attention for automated local AI video generation.",
+      "reasonKo": "로컬 AI 비디오 자동 생성 기능으로 주목받고 있습니다.",
+      "url": "https://github.com/ChenShuo2004/cs-board",
+      "lang": "Python",
+      "tags": [
+        "ai-video",
+        "chinese",
+        "fastapi",
+        "index-tts",
+        "react",
+        "tts",
+        "whiteboard-animation"
+      ],
+      "metrics": {
+        "stars": 475
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-21T00:50:30Z",
+      "updatedAt": "2026-09-03T12:23:06Z",
+      "firstSeenAt": "2026-08-22T18:33:05.265Z",
+      "lastSeenAt": "2026-09-03T22:53:21.894Z",
+      "admitReason": "new"
+    },
+    {
+      "id": "gh:chakra-ui/chakra-ui",
+      "type": "repo",
+      "categories": [
+        "web"
+      ],
+      "title": "chakra-ui/chakra-ui",
+      "summaryEn": "A modular and accessible component system for building React and SaaS products with speed.",
+      "summaryKo": "React 및 SaaS 제품을 빠르게 구축하기 위한 모듈식 접근성 컴포넌트 시스템입니다.",
+      "summaryOriginal": "Chakra UI is a component system for building SaaS products with speed ⚡️",
+      "reasonEn": "Widely used React UI library",
+      "reasonKo": "널리 쓰이는 React UI 라이브러리",
+      "url": "https://github.com/chakra-ui/chakra-ui",
+      "lang": "TypeScript",
+      "tags": [
+        "a11y",
+        "accessible",
+        "ark-ui",
+        "chakra-ui",
+        "component",
+        "css-in-js",
+        "dark-mode",
+        "design-system",
+        "react",
+        "react-components",
+        "reactjs",
+        "styled"
+      ],
+      "metrics": {
+        "stars": 40617
+      },
+      "source": "github-search",
+      "publishedAt": "2019-08-17T14:27:54Z",
+      "updatedAt": "2026-09-02T17:59:24Z",
+      "firstSeenAt": "2026-09-03T22:53:21.894Z",
+      "lastSeenAt": "2026-09-03T22:53:21.894Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "gh:trpc/trpc",
+      "type": "repo",
+      "categories": [
+        "web",
+        "backend"
+      ],
+      "title": "trpc/trpc",
+      "summaryEn": "tRPC lets you build end-to-end typesafe APIs easily without schemas or code generation, streamlining full-stack TypeScript development.",
+      "summaryKo": "스키마 없이 타입 안전한 API를 구축하는 TypeScript 라이브러리입니다.",
+      "summaryOriginal": "🧙‍♀️ Move Fast and Break Nothing. End-to-end typesafe APIs made easy.",
+      "url": "https://github.com/trpc/trpc",
+      "lang": "TypeScript",
+      "tags": [
+        "api",
+        "next",
+        "nextjs",
+        "prisma",
+        "react",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 40577
+      },
+      "source": "github-search",
+      "publishedAt": "2020-07-18T01:17:11Z",
+      "updatedAt": "2026-09-03T22:13:01Z",
+      "firstSeenAt": "2026-09-03T22:53:21.894Z",
+      "lastSeenAt": "2026-09-03T22:53:21.894Z",
+      "admitReason": "notable"
     },
     {
       "id": "gh:dcloudio/uni-app",
       "type": "repo",
+      "categories": [
+        "web"
+      ],
       "title": "dcloudio/uni-app",
+      "summaryEn": "A cross-platform framework using Vue.js to build apps for iOS, Android, and web mini-programs.",
+      "summaryKo": "Vue.js를 사용하여 iOS, Android 및 웹 미니 프로그램을 만드는 크로스플랫폼 프레임워크입니다.",
       "summaryOriginal": "A cross-platform framework using Vue.js",
+      "reasonEn": "Popular cross-platform Vue framework",
+      "reasonKo": "인기 있는 Vue 크로스플랫폼 프레임워크",
       "url": "https://github.com/dcloudio/uni-app",
       "lang": "JavaScript",
       "tags": [
@@ -1710,43 +1962,11 @@
         "stars": 41603
       },
       "source": "github-search",
-      "admitReason": "notable",
       "publishedAt": "2018-07-12T08:52:39Z",
       "updatedAt": "2026-09-03T16:55:29Z",
-      "summaryEn": "A cross-platform framework using Vue.js to build apps for iOS, Android, and web mini-programs.",
-      "summaryKo": "Vue.js를 사용하여 iOS, Android 및 웹 미니 프로그램을 만드는 크로스플랫폼 프레임워크입니다.",
-      "reasonEn": "Popular cross-platform Vue framework",
-      "reasonKo": "인기 있는 Vue 크로스플랫폼 프레임워크",
-      "categories": [
-        "web"
-      ],
       "firstSeenAt": "2026-09-03T22:53:21.894Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
-    },
-    {
-      "id": "hn:49213660",
-      "type": "article",
-      "title": "Ask HN: In your experience, what are sound conventions for e-ink UI development?",
-      "summaryOriginal": "Ask HN: In your experience, what are sound conventions for e-ink UI development?",
-      "url": "https://news.ycombinator.com/item?id=49213660",
-      "tags": [],
-      "metrics": {
-        "upvotes": 219,
-        "comments": 74
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-07T17:29:16Z",
-      "admitReason": "notable",
-      "summaryEn": "A discussion on established conventions and best practices for developing user interfaces on e-ink displays.",
-      "summaryKo": "전자잉크 디스플레이용 사용자 인터페이스 개발 시 고려해야 할 관례와 모범 사례.",
-      "reasonEn": "Niche hardware UI development discussion",
-      "reasonKo": "틈새 하드웨어 UI 개발에 대한 토론",
-      "categories": [
-        "web",
-        "engineering"
-      ],
-      "firstSeenAt": "2026-08-19T01:42:27.269Z",
-      "lastSeenAt": "2026-09-03T22:53:21.894Z"
+      "lastSeenAt": "2026-09-03T22:53:21.894Z",
+      "admitReason": "notable"
     },
     {
       "id": "gh:zyronon/TypeWords",
@@ -1834,42 +2054,6 @@
       "publishedAt": "2019-04-09T09:10:06Z",
       "updatedAt": "2026-08-31T21:26:17Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-02T22:54:08.675Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "gh:DavidHDev/react-bits",
-      "type": "repo",
-      "categories": [
-        "web"
-      ],
-      "title": "DavidHDev/react-bits",
-      "summaryEn": "An open-source collection of animated, interactive, and customizable React components for web development.",
-      "summaryKo": "웹 개발을 위한 애니메이션 및 인터랙티브 React 컴포넌트 모음입니다.",
-      "summaryOriginal": "An open source collection of animated, interactive & fully customizable React components for building memorable websites.",
-      "url": "https://github.com/DavidHDev/react-bits",
-      "lang": "JavaScript",
-      "tags": [
-        "3d",
-        "animations",
-        "component-library",
-        "components",
-        "components-library",
-        "components-react",
-        "css-animations",
-        "javascript",
-        "react",
-        "react-components",
-        "reactjs",
-        "tailwind"
-      ],
-      "metrics": {
-        "stars": 46657
-      },
-      "source": "github-search",
-      "publishedAt": "2024-08-06T06:54:54Z",
-      "updatedAt": "2026-08-31T20:33:05Z",
-      "firstSeenAt": "2026-08-29T02:56:27.939Z",
       "lastSeenAt": "2026-09-02T22:54:08.675Z",
       "admitReason": "notable"
     },
@@ -2261,13 +2445,14 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 43641,
-        "starsDelta": 76
+        "stars": 43832
       },
       "source": "github-trending",
       "firstSeenAt": "2026-08-30T23:00:09.024Z",
       "lastSeenAt": "2026-08-30T23:00:09.024Z",
-      "admitReason": "trending"
+      "admitReason": "trending",
+      "updatedAt": "2026-09-04T20:47:39Z",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:abhigyanpatwari/GitNexus",
@@ -2288,13 +2473,14 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 46969
+        "stars": 47012
       },
       "source": "github-trending",
+      "updatedAt": "2026-09-04T21:11:16Z",
       "firstSeenAt": "2026-08-29T02:56:27.939Z",
       "lastSeenAt": "2026-08-30T23:00:09.024Z",
       "admitReason": "trending",
-      "updatedAt": "2026-09-03T20:14:39Z"
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:joe960913/Jixu",
@@ -2500,13 +2686,14 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 49335
+        "stars": 49346
       },
       "source": "github-trending",
+      "updatedAt": "2026-09-04T04:06:21Z",
       "firstSeenAt": "2026-08-29T22:55:06.972Z",
       "lastSeenAt": "2026-08-29T22:55:06.972Z",
       "admitReason": "trending",
-      "updatedAt": "2026-09-03T14:51:22Z"
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:abi/screenshot-to-code",
@@ -2525,13 +2712,14 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 77414
+        "stars": 77664
       },
       "source": "github-trending",
       "updatedAt": "2026-08-14T17:20:50Z",
       "firstSeenAt": "2026-08-29T02:56:27.939Z",
       "lastSeenAt": "2026-08-29T22:55:06.972Z",
-      "admitReason": "trending"
+      "admitReason": "trending",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:ZSeven-W/dsh-crew",
@@ -2561,14 +2749,15 @@
         "subagent"
       ],
       "metrics": {
-        "stars": 129
+        "stars": 132
       },
       "source": "github-search",
       "publishedAt": "2026-08-16T15:19:41Z",
       "updatedAt": "2026-09-02T17:49:48Z",
       "firstSeenAt": "2026-08-22T21:23:23.291Z",
       "lastSeenAt": "2026-08-29T22:55:06.972Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:Asabeneh/30-Days-Of-JavaScript",
@@ -2597,14 +2786,15 @@
         "node"
       ],
       "metrics": {
-        "stars": 46763
+        "stars": 46765
       },
       "source": "github-search",
       "publishedAt": "2019-12-23T14:07:40Z",
       "updatedAt": "2026-08-27T12:03:08Z",
       "firstSeenAt": "2026-08-29T02:56:27.939Z",
       "lastSeenAt": "2026-08-29T22:55:06.972Z",
-      "admitReason": "notable"
+      "admitReason": "notable",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:t8y2/dbx",
@@ -2638,14 +2828,15 @@
         "postgresql"
       ],
       "metrics": {
-        "stars": 17916
+        "stars": 18044
       },
       "source": "github-search",
       "publishedAt": "2026-04-29T03:00:36Z",
-      "updatedAt": "2026-09-03T18:42:07Z",
+      "updatedAt": "2026-09-04T17:03:38Z",
       "firstSeenAt": "2026-08-25T09:36:47.621Z",
       "lastSeenAt": "2026-08-29T02:56:27.939Z",
-      "admitReason": "notable"
+      "admitReason": "notable",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:zedeus/nitter",
@@ -2663,13 +2854,14 @@
       "lang": "Nim",
       "tags": [],
       "metrics": {
-        "stars": 14096
+        "stars": 14102
       },
       "source": "github-trending",
       "updatedAt": "2026-08-26T11:19:23Z",
       "firstSeenAt": "2026-08-27T13:54:10.701Z",
       "lastSeenAt": "2026-08-28T03:07:04.913Z",
-      "admitReason": "trending"
+      "admitReason": "trending",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:toolclub/dsh-agent-team-gui",
@@ -2706,7 +2898,8 @@
       "updatedAt": "2026-08-31T06:34:58Z",
       "firstSeenAt": "2026-08-19T12:50:55.884Z",
       "lastSeenAt": "2026-08-28T03:07:04.913Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:m1ckc3s/procedural-sounds",
@@ -2734,14 +2927,15 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 178
+        "stars": 180
       },
       "source": "github-search",
       "publishedAt": "2026-08-15T21:36:23Z",
       "updatedAt": "2026-08-18T05:05:08Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-28T03:07:04.913Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:anonrig/router",
@@ -2770,7 +2964,8 @@
       "updatedAt": "2026-08-31T00:14:18Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-28T03:07:04.913Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:hancao97/hanai-investment-dsh",
@@ -2796,14 +2991,15 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 109
+        "stars": 110
       },
       "source": "github-search",
       "publishedAt": "2026-08-15T00:23:35Z",
       "updatedAt": "2026-08-26T00:43:40Z",
       "firstSeenAt": "2026-08-26T16:19:00.899Z",
       "lastSeenAt": "2026-08-28T03:07:04.913Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:rocketride-org/rocketride-server",
@@ -2825,14 +3021,15 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 7703,
+        "stars": 7922,
         "totalScore": 218.3866
       },
       "source": "ossinsight",
-      "updatedAt": "2026-09-03T22:31:21Z",
+      "updatedAt": "2026-09-04T19:52:04Z",
       "firstSeenAt": "2026-08-27T13:54:10.701Z",
       "lastSeenAt": "2026-08-28T03:07:04.913Z",
-      "admitReason": "notable"
+      "admitReason": "notable",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:bryllim/workout-guide",
@@ -2848,14 +3045,15 @@
       "lang": "Astro",
       "tags": [],
       "metrics": {
-        "stars": 1162,
+        "stars": 1175,
         "totalScore": 211.559
       },
       "source": "ossinsight",
       "updatedAt": "2026-08-26T16:05:37Z",
       "firstSeenAt": "2026-08-28T03:07:04.913Z",
       "lastSeenAt": "2026-08-28T03:07:04.913Z",
-      "admitReason": "notable"
+      "admitReason": "notable",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:V1ki/dsh-plugin-subscriptions",
@@ -2883,14 +3081,15 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 317
+        "stars": 320
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T08:27:11Z",
-      "updatedAt": "2026-09-03T06:33:12Z",
+      "updatedAt": "2026-09-04T03:19:52Z",
       "firstSeenAt": "2026-08-18T18:40:19.317Z",
       "lastSeenAt": "2026-08-27T13:54:10.701Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:Mars-Sea/dsh-commandcode-provider",
@@ -2918,14 +3117,15 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 143
+        "stars": 159
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T11:38:54Z",
-      "updatedAt": "2026-09-03T00:26:24Z",
+      "updatedAt": "2026-09-04T13:36:41Z",
       "firstSeenAt": "2026-08-25T15:43:44.793Z",
       "lastSeenAt": "2026-08-27T13:54:10.701Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:ZSeven-W/dsh-noema",
@@ -2961,7 +3161,8 @@
       "updatedAt": "2026-08-21T14:50:44Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-27T13:54:10.701Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:pengyue-polaron/deepseek-harness-genui",
@@ -2993,7 +3194,8 @@
       "updatedAt": "2026-09-02T14:25:24Z",
       "firstSeenAt": "2026-08-24T18:42:24.176Z",
       "lastSeenAt": "2026-08-27T13:54:10.701Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:LerSent001/orb",
@@ -3017,14 +3219,15 @@
         "wgsl"
       ],
       "metrics": {
-        "stars": 599
+        "stars": 606
       },
       "source": "github-search",
       "publishedAt": "2026-08-14T15:57:06Z",
       "updatedAt": "2026-08-29T03:23:26Z",
       "firstSeenAt": "2026-08-23T12:42:30.740Z",
       "lastSeenAt": "2026-08-27T13:54:10.701Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:browser-use/browser-use",
@@ -3075,15 +3278,16 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 12205,
+        "stars": 12215,
         "pushes": 13,
         "totalScore": 211.0357
       },
       "source": "ossinsight",
-      "updatedAt": "2026-09-03T22:45:56Z",
+      "updatedAt": "2026-09-04T20:47:28Z",
       "firstSeenAt": "2026-08-26T09:43:03.049Z",
       "lastSeenAt": "2026-08-27T00:31:31.641Z",
-      "admitReason": "notable"
+      "admitReason": "notable",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:opengeos/GeoLibre",
@@ -3100,15 +3304,16 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 7105,
+        "stars": 7134,
         "pushes": 5,
         "totalScore": 208.482
       },
       "source": "ossinsight",
-      "updatedAt": "2026-09-03T22:53:21Z",
+      "updatedAt": "2026-09-04T19:41:09Z",
       "firstSeenAt": "2026-08-26T09:43:03.049Z",
       "lastSeenAt": "2026-08-27T00:31:31.641Z",
-      "admitReason": "notable"
+      "admitReason": "notable",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:elie222/rakazo",
@@ -3137,14 +3342,15 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 1867
+        "stars": 1917
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T06:28:56Z",
-      "updatedAt": "2026-09-03T22:55:40Z",
+      "updatedAt": "2026-09-04T20:54:09Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-26T19:50:13.055Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:vuphongle/oss-pr-reviewer",
@@ -3180,7 +3386,8 @@
       "updatedAt": "2026-08-29T19:49:49Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-26T19:50:13.055Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:decionis/agent-safe-pipeline",
@@ -3213,10 +3420,11 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T21:36:19Z",
-      "updatedAt": "2026-09-02T13:39:30Z",
+      "updatedAt": "2026-09-04T21:10:26Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-26T19:50:13.055Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:vibeinging/dsh-desktop",
@@ -3246,14 +3454,15 @@
         "model-context-protocol"
       ],
       "metrics": {
-        "stars": 634
+        "stars": 638
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T10:41:33Z",
-      "updatedAt": "2026-09-03T17:47:00Z",
+      "updatedAt": "2026-09-04T06:43:07Z",
       "firstSeenAt": "2026-08-23T01:26:23.378Z",
       "lastSeenAt": "2026-08-26T19:50:13.055Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:ccch1mneyyy/dsh-TUI",
@@ -3280,14 +3489,15 @@
         "tui"
       ],
       "metrics": {
-        "stars": 2812
+        "stars": 2833
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T12:49:31Z",
-      "updatedAt": "2026-09-03T22:35:47Z",
+      "updatedAt": "2026-09-04T17:43:32Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-26T19:50:13.055Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:khanhcamap2020-sudo/formkind",
@@ -3322,7 +3532,8 @@
       "updatedAt": "2026-08-27T11:07:26Z",
       "firstSeenAt": "2026-08-21T03:40:04.140Z",
       "lastSeenAt": "2026-08-26T19:50:13.055Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:CopilotKit/OpenBot",
@@ -3347,14 +3558,15 @@
         "mcp"
       ],
       "metrics": {
-        "stars": 4113
+        "stars": 4253
       },
       "source": "github-search",
       "publishedAt": "2026-08-17T00:44:59Z",
-      "updatedAt": "2026-09-03T19:08:03Z",
+      "updatedAt": "2026-09-04T21:02:46Z",
       "firstSeenAt": "2026-08-25T09:36:47.621Z",
       "lastSeenAt": "2026-08-26T06:52:39.327Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:browser-use/browser-harness",
@@ -3371,15 +3583,16 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 17354,
+        "stars": 17379,
         "pushes": 1,
         "totalScore": 207.6597
       },
       "source": "ossinsight",
-      "updatedAt": "2026-09-03T19:48:08Z",
+      "updatedAt": "2026-09-04T16:00:59Z",
       "firstSeenAt": "2026-08-25T09:36:47.621Z",
       "lastSeenAt": "2026-08-26T06:52:39.327Z",
-      "admitReason": "notable"
+      "admitReason": "notable",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:nduc99911/repo-context-mcp",
@@ -3410,7 +3623,8 @@
       "updatedAt": "2026-08-12T09:21:15Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-25T21:30:01.334Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:citrolabs/ego-lite",
@@ -3430,14 +3644,15 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 14899,
+        "stars": 15037,
         "totalScore": 204.9391
       },
       "source": "ossinsight",
-      "updatedAt": "2026-09-03T08:58:54Z",
+      "updatedAt": "2026-09-04T09:42:25Z",
       "firstSeenAt": "2026-08-19T09:35:40.383Z",
       "lastSeenAt": "2026-08-25T06:51:09.551Z",
-      "admitReason": "notable"
+      "admitReason": "notable",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:shadcn-labs/pdfcn",
@@ -3465,14 +3680,15 @@
         "wasm"
       ],
       "metrics": {
-        "stars": 954
+        "stars": 978
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T11:55:41Z",
       "updatedAt": "2026-09-03T12:35:55Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-24T23:36:24.421Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:PostHog/posthog",
@@ -3505,14 +3721,15 @@
         "session-replay"
       ],
       "metrics": {
-        "stars": 39578
+        "stars": 39588
       },
       "source": "github-search",
       "publishedAt": "2020-01-23T22:46:58Z",
-      "updatedAt": "2026-09-03T22:55:21Z",
+      "updatedAt": "2026-09-04T21:12:46Z",
       "firstSeenAt": "2026-08-24T12:53:33.595Z",
       "lastSeenAt": "2026-08-24T12:53:33.595Z",
-      "admitReason": "notable"
+      "admitReason": "notable",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:heygen-com/hyperframes",
@@ -3543,14 +3760,15 @@
         "video"
       ],
       "metrics": {
-        "stars": 43839
+        "stars": 43965
       },
       "source": "github-search",
       "publishedAt": "2026-03-10T01:51:06Z",
-      "updatedAt": "2026-09-03T17:42:34Z",
+      "updatedAt": "2026-09-04T21:12:36Z",
       "firstSeenAt": "2026-08-24T01:23:41.283Z",
       "lastSeenAt": "2026-08-24T07:01:43.353Z",
-      "admitReason": "notable"
+      "admitReason": "notable",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:CopilotKit/CopilotKit",
@@ -3590,14 +3808,15 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 37183
+        "stars": 37204
       },
       "source": "github-search",
       "publishedAt": "2023-06-19T04:08:31Z",
-      "updatedAt": "2026-09-03T22:52:24Z",
+      "updatedAt": "2026-09-04T20:46:51Z",
       "firstSeenAt": "2026-08-24T01:23:41.283Z",
       "lastSeenAt": "2026-08-24T01:23:41.283Z",
-      "admitReason": "notable"
+      "admitReason": "notable",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:liyupi/ai-guide",
@@ -3635,14 +3854,15 @@
         "vuepress"
       ],
       "metrics": {
-        "stars": 19498
+        "stars": 19541
       },
       "source": "github-search",
       "publishedAt": "2025-02-13T05:47:46Z",
       "updatedAt": "2026-09-02T08:32:57Z",
       "firstSeenAt": "2026-08-21T09:38:23.718Z",
       "lastSeenAt": "2026-08-23T21:22:43.210Z",
-      "admitReason": "notable"
+      "admitReason": "notable",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:microsoft/TypeScript",
@@ -3663,14 +3883,15 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 110877
+        "stars": 110890
       },
       "source": "github-search",
       "publishedAt": "2014-06-17T15:28:39Z",
-      "updatedAt": "2026-09-03T22:52:50Z",
+      "updatedAt": "2026-09-04T19:48:18Z",
       "firstSeenAt": "2026-08-22T01:19:03.673Z",
       "lastSeenAt": "2026-08-23T09:29:14.266Z",
-      "admitReason": "notable"
+      "admitReason": "notable",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:farion1231/cc-switch",
@@ -3707,14 +3928,15 @@
         "wsl-support"
       ],
       "metrics": {
-        "stars": 130939
+        "stars": 131081
       },
       "source": "github-search",
       "publishedAt": "2025-08-04T14:16:16Z",
-      "updatedAt": "2026-09-03T18:35:19Z",
+      "updatedAt": "2026-09-04T13:43:14Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-23T06:43:06.551Z",
-      "admitReason": "notable"
+      "admitReason": "notable",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:agentrhq/webcmd",
@@ -3733,15 +3955,16 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 1569,
+        "stars": 1572,
         "pushes": 2,
         "totalScore": 243.2202
       },
       "source": "ossinsight",
-      "updatedAt": "2026-09-03T14:06:52Z",
+      "updatedAt": "2026-09-04T15:06:48Z",
       "firstSeenAt": "2026-08-22T09:28:16.052Z",
       "lastSeenAt": "2026-08-23T06:43:06.551Z",
-      "admitReason": "notable"
+      "admitReason": "notable",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:gastongouron/ironpress",
@@ -3759,14 +3982,15 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 689,
+        "stars": 692,
         "totalScore": 217.4894
       },
       "source": "ossinsight",
-      "updatedAt": "2026-09-02T18:04:26Z",
+      "updatedAt": "2026-09-04T06:03:01Z",
       "firstSeenAt": "2026-08-22T09:28:16.052Z",
       "lastSeenAt": "2026-08-23T06:43:06.551Z",
-      "admitReason": "notable"
+      "admitReason": "notable",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:SaladDay/pi-from-scratch",
@@ -3794,14 +4018,15 @@
         "typescript-tutorial"
       ],
       "metrics": {
-        "stars": 1165
+        "stars": 1170
       },
       "source": "github-search",
       "publishedAt": "2026-08-09T12:15:30Z",
       "updatedAt": "2026-08-18T08:09:35Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-22T21:23:23.291Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:vibeinging/deepseek-harness-desktop-app",
@@ -3833,14 +4058,15 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 634
+        "stars": 638
       },
       "source": "github-search",
       "publishedAt": "2026-08-13T10:41:33Z",
-      "updatedAt": "2026-09-03T17:47:00Z",
+      "updatedAt": "2026-09-04T06:43:07Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-22T21:23:23.291Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:MkThingsHQ/mkagent",
@@ -3867,14 +4093,15 @@
         "webui"
       ],
       "metrics": {
-        "stars": 184
+        "stars": 185
       },
       "source": "github-search",
       "publishedAt": "2026-08-09T06:55:40Z",
       "updatedAt": "2026-09-02T15:00:45Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-22T21:23:23.291Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:vlinx-io/VelaTerm",
@@ -3913,7 +4140,8 @@
       "updatedAt": "2026-09-02T13:30:05Z",
       "firstSeenAt": "2026-08-20T15:35:22.477Z",
       "lastSeenAt": "2026-08-22T21:23:23.291Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:holaboss-ai/holaOS",
@@ -3960,7 +4188,8 @@
       "updatedAt": "2026-08-21T13:11:13Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-22T06:42:25.995Z",
-      "admitReason": "notable"
+      "admitReason": "notable",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:zenbu-labs/terminal-browser",
@@ -3977,7 +4206,7 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 2543,
+        "stars": 2644,
         "pushes": 1,
         "totalScore": 218.2227
       },
@@ -3985,7 +4214,8 @@
       "updatedAt": "2026-09-03T04:33:18Z",
       "firstSeenAt": "2026-08-21T09:38:23.718Z",
       "lastSeenAt": "2026-08-22T06:42:25.995Z",
-      "admitReason": "notable"
+      "admitReason": "notable",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:xdreizein666/getcontact-cli",
@@ -4003,14 +4233,15 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 540,
+        "stars": 541,
         "totalScore": 213.2614
       },
       "source": "ossinsight",
       "updatedAt": "2026-08-24T17:58:25Z",
       "firstSeenAt": "2026-08-21T09:38:23.718Z",
       "lastSeenAt": "2026-08-22T06:42:25.995Z",
-      "admitReason": "notable"
+      "admitReason": "notable",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:chuspeeism/dashi-ppt-skill",
@@ -4027,14 +4258,15 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 7442,
+        "stars": 7513,
         "totalScore": 208.4296
       },
       "source": "ossinsight",
       "updatedAt": "2026-07-30T14:02:33Z",
       "firstSeenAt": "2026-08-19T09:35:40.383Z",
       "lastSeenAt": "2026-08-22T06:42:25.995Z",
-      "admitReason": "notable"
+      "admitReason": "notable",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:Appllama/top-welcome-screens",
@@ -4060,14 +4292,15 @@
         "uiux-design"
       ],
       "metrics": {
-        "stars": 574
+        "stars": 576
       },
       "source": "github-search",
       "publishedAt": "2026-08-08T12:44:52Z",
       "updatedAt": "2026-08-08T15:54:13Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-21T21:26:14.378Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:kasturikhanke/generative-loaders",
@@ -4098,7 +4331,8 @@
       "updatedAt": "2026-08-29T07:06:41Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-21T21:26:14.378Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:can1357/oh-my-pi",
@@ -4132,14 +4366,15 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 29297
+        "stars": 29491
       },
       "source": "github-search",
       "publishedAt": "2025-12-31T14:01:28Z",
-      "updatedAt": "2026-09-03T22:46:37Z",
+      "updatedAt": "2026-09-04T20:29:42Z",
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
       "lastSeenAt": "2026-08-21T06:50:49.363Z",
-      "admitReason": "notable"
+      "admitReason": "notable",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:antinomie-lab/pi-book",
@@ -4168,14 +4403,15 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 386
+        "stars": 388
       },
       "source": "github-search",
       "publishedAt": "2026-08-07T17:14:43Z",
       "updatedAt": "2026-08-24T09:26:27Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-20T21:29:24.742Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:sv-number/mcp-server",
@@ -4214,7 +4450,8 @@
       "updatedAt": "2026-08-10T18:55:24Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-20T21:29:24.742Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:immich-app/immich",
@@ -4247,14 +4484,15 @@
         "videos"
       ],
       "metrics": {
-        "stars": 113358
+        "stars": 113423
       },
       "source": "github-search",
       "publishedAt": "2022-02-03T15:56:27Z",
-      "updatedAt": "2026-09-03T17:52:17Z",
+      "updatedAt": "2026-09-04T20:55:13Z",
       "firstSeenAt": "2026-08-19T15:33:13.943Z",
       "lastSeenAt": "2026-08-20T09:36:42.325Z",
-      "admitReason": "notable"
+      "admitReason": "notable",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:BetterWright/betterwright",
@@ -4276,10 +4514,11 @@
         "totalScore": 210.8921
       },
       "source": "ossinsight",
-      "updatedAt": "2026-09-03T22:54:08Z",
+      "updatedAt": "2026-09-03T23:01:19Z",
       "firstSeenAt": "2026-08-19T09:35:40.383Z",
       "lastSeenAt": "2026-08-20T06:49:10.510Z",
-      "admitReason": "notable"
+      "admitReason": "notable",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:Juror-AI/juror",
@@ -4318,10 +4557,11 @@
       },
       "source": "github-search",
       "publishedAt": "2026-08-06T12:24:49Z",
-      "updatedAt": "2026-09-01T11:28:07Z",
+      "updatedAt": "2026-09-04T15:29:20Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-19T21:26:49.454Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:BOMWiki/partmode",
@@ -4358,14 +4598,15 @@
         "webassembly"
       ],
       "metrics": {
-        "stars": 518
+        "stars": 520
       },
       "source": "github-search",
       "publishedAt": "2026-08-06T04:51:12Z",
       "updatedAt": "2026-08-17T16:55:51Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-19T21:26:49.454Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     },
     {
       "id": "gh:jdshfhds/northcinder",
@@ -4400,7 +4641,8 @@
       "updatedAt": "2026-08-22T12:11:30Z",
       "firstSeenAt": "2026-08-19T03:48:08.240Z",
       "lastSeenAt": "2026-08-19T03:48:08.240Z",
-      "admitReason": "new"
+      "admitReason": "new",
+      "metricsRefreshedAt": "2026-09-04T21:10:24.767Z"
     }
   ]
 }
