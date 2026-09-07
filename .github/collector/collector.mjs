@@ -45237,7 +45237,6 @@ var BUNDLE_ONLY_CARD_TYPES = ["knowledge", "snippet"];
 var CARD_SOURCES = [
   "github-trending",
   "github-search",
-  "ossinsight",
   "hf-models",
   "hf-papers",
   "hn",
@@ -45449,6 +45448,18 @@ var readOverrides = async (dataDir, logger2) => readSidecar(
   (raw) => OverridesFileSchema.safeParse(raw),
   logger2
 );
+var dropRetiredSourceCards = (raw, name, logger2) => {
+  if (typeof raw !== "object" || raw === null || !Array.isArray(raw.cards)) {
+    return raw;
+  }
+  const known = new Set(CARD_SOURCES);
+  const cards = raw.cards;
+  const kept = cards.filter((card) => typeof card.source === "string" && known.has(card.source));
+  if (kept.length !== cards.length) {
+    logger2.info(`POOL_RETIRED ${name}: \uC740\uD1F4 \uC18C\uC2A4 \uCE74\uB4DC ${cards.length - kept.length}\uC7A5 \uC81C\uC678`);
+  }
+  return { ...raw, cards: kept };
+};
 var readPreviousFeeds = async (dataDir, logger2) => {
   const feedDir = path.join(dataDir, FEED_DIR);
   if (!existsSync(feedDir)) return {};
@@ -45458,7 +45469,9 @@ var readPreviousFeeds = async (dataDir, logger2) => {
       const raw = await readFile(path.join(feedDir, name), "utf8").catch(() => null);
       if (raw === null) return null;
       try {
-        const parsed = CategoryFeedSchema.safeParse(JSON.parse(raw));
+        const parsed = CategoryFeedSchema.safeParse(
+          dropRetiredSourceCards(JSON.parse(raw), name, logger2)
+        );
         if (!parsed.success) {
           logger2.warn(`PREVIOUS_INVALID ${name}: \uC774\uC804\uBCF8\uC744 \uBB34\uC2DC\uD55C\uB2E4`);
           return null;
@@ -45500,7 +45513,6 @@ var strongerReason = (a, b) => REASON_RANK[a] <= REASON_RANK[b] ? a : b;
 var DEFAULT_ADMIT_REASON = {
   "github-trending": "trending",
   "github-search": "notable",
-  ossinsight: "notable",
   "hf-models": "notable",
   "hf-papers": "notable",
   hn: "notable",
@@ -60390,42 +60402,6 @@ var fetchHackerNews = async (ctx) => {
   return mapHits(fulfilled.flatMap((result) => result.value.hits ?? []));
 };
 
-// src/sources/ossinsight.ts
-var SOURCE6 = "ossinsight";
-var OSSINSIGHT_TRENDS_URL = "https://api.ossinsight.io/v1/trends/repos/?period=past_24_hours&language=All";
-var mapTrendRows = (rows) => rows.filter((row) => Boolean(row.repo_name)).map((row) => {
-  const description = collapseWhitespace(row.description ?? "");
-  const language = collapseWhitespace(row.primary_language ?? "");
-  return {
-    id: githubCardId(row.repo_name),
-    type: "repo",
-    title: row.repo_name,
-    summaryOriginal: description.length > 0 ? description : row.repo_name,
-    url: `https://github.com/${row.repo_name}`,
-    ...language.length > 0 ? { lang: language } : {},
-    tags: [],
-    // **이 소스의 `stars`·`forks`는 총량이 아니라 그 기간(24시간) 증분이다**(실측
-    // 2026-08-15: 상위 행이 18·15·4·7인데 같은 저장소의 GitHub 총 스타는 수천이다).
-    // `stars`로 실으면 카드가 7.6k짜리 저장소를 "6 stars"라고 말한다 — 크기를 묻는
-    // 자리에 증가율을 넣는 것이라 사용자가 읽는 뜻이 정반대가 된다.
-    // `forks`는 대응하는 증분 라벨이 없고 24시간 포크 수는 신호도 약해 싣지 않는다.
-    metrics: compactMetrics({
-      starsDelta: parseCount(row.stars),
-      pullRequests: parseCount(row.pull_requests),
-      pushes: parseCount(row.pushes),
-      totalScore: parseCount(row.total_score)
-    }),
-    source: SOURCE6
-  };
-});
-var TRENDS_TOP_N = 30;
-var byScoreDesc = (a, b) => Number(b.total_score ?? 0) - Number(a.total_score ?? 0);
-var fetchOssInsightTrends = async (_ctx) => {
-  const body = await httpGetJson(OSSINSIGHT_TRENDS_URL);
-  const rows = [...body.data?.rows ?? []].sort(byScoreDesc).slice(0, TRENDS_TOP_N);
-  return mapTrendRows(rows);
-};
-
 // src/collect.ts
 var VERIFIED_SOURCE = "hn";
 var needsVerification = (source) => source === VERIFIED_SOURCE;
@@ -60435,13 +60411,6 @@ var globalTasks = (ctx) => [
     // 트렌딩 페이지 순서가 곧 화제성 순위다 — 상위 10만 R3 후보.
     attribution: { kind: "classify", r3RankLimit: R3_TRENDING_RANK_LIMIT },
     run: async () => fetchGithubTrending(ctx)
-  },
-  {
-    source: "ossinsight",
-    // total_score 내림차순 top-30 전부가 R3 후보다 (2026-08-28 결정). 이 소스는 신흥
-    // 저장소가 많아 topic·keywords에 잘 안 걸린다 — 상한을 좁히면 배지 달고 온 카드를 버린다.
-    attribution: { kind: "classify", r3RankLimit: TRENDS_TOP_N },
-    run: async () => fetchOssInsightTrends(ctx)
   },
   { source: "hf-models", attribution: { kind: "hf" }, run: async () => fetchHfModels(ctx) },
   { source: "hf-papers", attribution: { kind: "hf" }, run: async () => fetchHfPapers(ctx) }
@@ -60495,7 +60464,6 @@ var collect = async (ctx, categories) => {
 var SOURCE_PRIORITY = [
   "github-trending",
   "github-search",
-  "ossinsight",
   "hf-models",
   "hf-papers",
   "hn",
@@ -60538,17 +60506,11 @@ var mergeDuplicates = (entries) => {
 };
 
 // src/compose.ts
-var OSSINSIGHT_CARDS_PER_CATEGORY = 10;
 var MAX_CARDS_PER_CATEGORY = 50;
 var QUOTAS = [
   { name: "article", limit: 10, match: (card) => card.type === "article" },
   { name: "model", limit: 10, match: (card) => card.type === "model" },
-  { name: "paper", limit: 10, match: (card) => card.type === "paper" },
-  {
-    name: "ossinsight",
-    limit: OSSINSIGHT_CARDS_PER_CATEGORY,
-    match: (card) => card.source === "ossinsight"
-  }
+  { name: "paper", limit: 10, match: (card) => card.type === "paper" }
 ];
 var bySourcePriority = (a, b) => SOURCE_PRIORITY.indexOf(a.source) - SOURCE_PRIORITY.indexOf(b.source);
 var isUnquotaed = (card) => !QUOTAS.some((quota) => quota.match(card));
