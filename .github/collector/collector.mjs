@@ -30573,7 +30573,7 @@ var CATEGORIES = [
     ],
     keywords: /llm|large language model|transformer|diffusion|fine-?tun|inference|quantiz|embedding|neural net|machine learning/i,
     hfSources: true,
-    hnQuery: "llm"
+    hnQueries: ["llm", "openai", "claude"]
   },
   {
     slug: "ai-agents",
@@ -30592,7 +30592,7 @@ var CATEGORIES = [
     ],
     keywords: /\bagent|agentic|\bmcp\b|model context protocol|prompt|\brag\b|tool[- ]use|copilot|ai app|llm app/i,
     hfSources: true,
-    hnQuery: "agents"
+    hnQueries: ["agents", "mcp", "copilot"]
   },
   {
     slug: "web",
@@ -30611,7 +30611,7 @@ var CATEGORIES = [
     ],
     keywords: /react|vue|svelte|angular|typescript|\bcss\b|tailwind|browser|\bwasm\b|web ?(app|perf|framework)/i,
     hfSources: false,
-    hnQuery: "frontend"
+    hnQueries: ["frontend", "browser", "css", "javascript"]
   },
   {
     slug: "backend",
@@ -30630,7 +30630,7 @@ var CATEGORIES = [
     ],
     keywords: /\bapi\b|backend|server|microservice|distributed|\bgrpc\b|websocket|auth(entication)?|queue|runtime/i,
     hfSources: false,
-    hnQuery: "backend"
+    hnQueries: ["backend", "server", "api", "rust"]
   },
   {
     slug: "infra",
@@ -30649,7 +30649,7 @@ var CATEGORIES = [
     ],
     keywords: /kubernetes|docker|container|devops|terraform|cloud|observability|ci[/ -]?cd|self-?hosted|deploy/i,
     hfSources: false,
-    hnQuery: "kubernetes"
+    hnQueries: ["kubernetes", "docker", "cloud", "linux"]
   },
   {
     slug: "data",
@@ -30668,7 +30668,7 @@ var CATEGORIES = [
     ],
     keywords: /database|\bsql\b|\betl\b|data ?(pipeline|engineering|warehouse)|analytics|vector ?db|graph ?(db|database)|stream(ing)?|duckdb/i,
     hfSources: false,
-    hnQuery: "database"
+    hnQueries: ["database", "postgres", "sqlite", "duckdb"]
   },
   {
     slug: "engineering",
@@ -30686,7 +30686,7 @@ var CATEGORIES = [
     ],
     keywords: /architecture|design pattern|refactor|clean code|test(ing)?|system design|code review|security|best practice/i,
     hfSources: false,
-    hnQuery: "architecture"
+    hnQueries: ["architecture", "engineering", "testing", "software"]
   },
   {
     slug: "devtools",
@@ -30704,7 +30704,7 @@ var CATEGORIES = [
     ],
     keywords: /\bcli\b|terminal|editor|\bide\b|neovim|developer tool|productivity|shell|\bgit\b|debug/i,
     hfSources: false,
-    hnQuery: "cli"
+    hnQueries: ["cli", "terminal", "editor", "git"]
   }
 ];
 
@@ -45493,7 +45493,7 @@ var appendMetrics = async (dataDir, line) => {
 };
 
 // src/admit.ts
-var REPO_MIN_STARS = 100;
+var REPO_MIN_STARS = 300;
 var STARS_FLOOR_EXEMPT = ["github-trending"];
 var REASON_RANK = { trending: 0, new: 1, notable: 2 };
 var strongerReason = (a, b) => REASON_RANK[a] <= REASON_RANK[b] ? a : b;
@@ -45646,8 +45646,8 @@ var PER_PAGE = 30;
 var TOPICS_PER_CATEGORY = 4;
 var MIN_REQUEST_INTERVAL_MS = 2200;
 var NEW_REPO_WINDOW_DAYS = 14;
-var ACTIVE_REPO_WINDOW_DAYS = 3;
-var ACTIVE_REPO_MIN_STARS = 1e3;
+var NOTABLE_REPO_WINDOW_DAYS = 90;
+var NOTABLE_REPO_MIN_STARS = 1e3;
 var NEW_REPO_MIN_STARS = REPO_MIN_STARS;
 var toDateFilter = (now, daysAgo) => {
   const at = new Date(now.getTime() - daysAgo * 24 * 60 * 60 * 1e3);
@@ -45655,7 +45655,7 @@ var toDateFilter = (now, daysAgo) => {
 };
 var buildQueries = (topics, now) => topics.slice(0, TOPICS_PER_CATEGORY).flatMap((topic) => [
   `created:>${toDateFilter(now, NEW_REPO_WINDOW_DAYS)} topic:${topic} stars:>=${NEW_REPO_MIN_STARS}`,
-  `pushed:>${toDateFilter(now, ACTIVE_REPO_WINDOW_DAYS)} topic:${topic} stars:>${ACTIVE_REPO_MIN_STARS}`
+  `created:>${toDateFilter(now, NOTABLE_REPO_WINDOW_DAYS)} topic:${topic} stars:>${NOTABLE_REPO_MIN_STARS}`
 ]);
 var mapSearchItems = (items, admitReason = "notable") => items.map((item) => {
   const description = collapseWhitespace(item.description ?? "");
@@ -60343,7 +60343,7 @@ var SOURCE5 = "hn";
 var SEARCH_URL2 = "https://hn.algolia.com/api/v1/search";
 var MIN_POINTS = 150;
 var WINDOW_DAYS = 30;
-var CARDS_PER_CATEGORY = 5;
+var CARDS_PER_CATEGORY = 10;
 var buildSearchUrl = (query, now) => {
   const since = Math.floor((now.getTime() - WINDOW_DAYS * 24 * 60 * 60 * 1e3) / 1e3);
   const params = new URLSearchParams({
@@ -60353,7 +60353,8 @@ var buildSearchUrl = (query, now) => {
   });
   return `${SEARCH_URL2}?${params.toString()}`;
 };
-var mapHits = (hits) => hits.filter((hit) => Boolean(hit.objectID)).map((hit) => {
+var pointsOf = (hit) => hit.points ?? 0;
+var mapHits = (hits) => [...new Map(hits.map((hit) => [hit.objectID, hit])).values()].filter((hit) => Boolean(hit.objectID)).sort((a, b) => pointsOf(b) - pointsOf(a)).map((hit) => {
   const title = collapseWhitespace(hit.title ?? "");
   const safeTitle = title.length > 0 ? title : `Hacker News ${hit.objectID}`;
   return {
@@ -60370,8 +60371,23 @@ var mapHits = (hits) => hits.filter((hit) => Boolean(hit.objectID)).map((hit) =>
   };
 }).slice(0, CARDS_PER_CATEGORY);
 var fetchHackerNews = async (ctx) => {
-  const body = await httpGetJson(buildSearchUrl(ctx.category.hnQuery, ctx.now));
-  return mapHits(body.hits ?? []);
+  const results = await Promise.allSettled(
+    ctx.category.hnQueries.map(
+      async (query) => httpGetJson(buildSearchUrl(query, ctx.now))
+    )
+  );
+  for (const result of results) {
+    if (result.status === "rejected") {
+      ctx.logger?.warn(`SOURCE_QUERY_FAILED hn ${ctx.category.slug}: ${String(result.reason)}`);
+    }
+  }
+  const fulfilled = results.filter(
+    (result) => result.status === "fulfilled"
+  );
+  if (fulfilled.length === 0 && results.length > 0) {
+    throw results[0].reason;
+  }
+  return mapHits(fulfilled.flatMap((result) => result.value.hits ?? []));
 };
 
 // src/sources/ossinsight.ts
@@ -60525,7 +60541,7 @@ var mergeDuplicates = (entries) => {
 var OSSINSIGHT_CARDS_PER_CATEGORY = 10;
 var MAX_CARDS_PER_CATEGORY = 50;
 var QUOTAS = [
-  { name: "article", limit: 5, match: (card) => card.type === "article" },
+  { name: "article", limit: 10, match: (card) => card.type === "article" },
   { name: "model", limit: 10, match: (card) => card.type === "model" },
   { name: "paper", limit: 10, match: (card) => card.type === "paper" },
   {
@@ -60550,7 +60566,7 @@ var RETENTION_DAYS = {
   repo: 90,
   model: 90,
   paper: 30,
-  article: 14,
+  article: 30,
   knowledge: 90,
   snippet: 90
 };
@@ -60989,7 +61005,7 @@ var buildIndex = (categories, feeds, generatedAt) => {
 // src/summarize.ts
 var CARDS_PER_REQUEST = 20;
 var MAX_CONCURRENT_REQUESTS = 3;
-var DEFAULT_MAX_CARDS_PER_RUN = 120;
+var DEFAULT_MAX_CARDS_PER_RUN = 200;
 var SummaryItemSchema = external_exports.object({
   id: external_exports.string(),
   summaryEn: external_exports.string().optional(),
@@ -61025,8 +61041,14 @@ var PROMPT_TITLE_MAX = 200;
 var PROMPT_ORIGINAL_MAX = 600;
 var PROMPT_TAGS_MAX = 8;
 var DATA_FENCE = "=== UNTRUSTED DATA ===";
-var describeCard = (entry) => {
+var ageInDays = (publishedAt, now) => {
+  if (publishedAt === void 0) return void 0;
+  const days = Math.floor((now.getTime() - new Date(publishedAt).getTime()) / 864e5);
+  return Number.isFinite(days) && days >= 0 ? days : void 0;
+};
+var describeCard = (entry, now) => {
   const { card } = entry;
+  const ageDays = ageInDays(card.publishedAt, now);
   return JSON.stringify({
     id: card.id,
     type: card.type,
@@ -61034,17 +61056,23 @@ var describeCard = (entry) => {
     original: truncate(collapseWhitespace(card.summaryOriginal), PROMPT_ORIGINAL_MAX),
     ...card.tags.length > 0 ? { tags: card.tags.slice(0, PROMPT_TAGS_MAX) } : {},
     ...card.metrics !== void 0 ? { metrics: card.metrics } : {},
+    ...card.admitReason !== void 0 ? { admitReason: card.admitReason } : {},
+    ...ageDays !== void 0 ? { ageDays } : {},
     ...entry.deferToLlm ? { needsCategories: true } : {},
     ...entry.needsRelevanceCheck === true ? { needsRelevanceCheck: true } : {}
   });
 };
-var buildPrompt = (batch, categories) => {
+var buildPrompt = (batch, categories, now) => {
   const catalog = categories.map((category) => `- ${category.slug}: ${category.nameEn}`).join("\n");
   return [
     "You write one-line cards for a developer new-tab extension. For each item below, produce:",
     "- summaryEn: what it is and why it matters, <=160 chars, plain English, no marketing.",
     "- summaryKo: the same in Korean, <=120 characters.",
-    "- reasonEn: why it is trending right now, <=80 chars. Omit if you cannot tell from the data.",
+    "- reasonEn: why it is worth attention right now, <=80 chars. Ground it in the data:",
+    "  admitReason (trending = star surge today, new = created recently, notable = became",
+    "  established fast), ageDays (days since creation/publication), and metrics",
+    '  (stars, starsDelta, upvotes). E.g. "1.2K stars within 3 weeks of launch". Omit only',
+    "  when none of those fields say anything.",
     "- reasonKo: the same in Korean, <=60 characters.",
     "- categories: ONLY for items marked `needsCategories: true`. Pick from the list below;",
     "  return an empty array if none fit. Never invent a slug. Omit the field for other items.",
@@ -61063,7 +61091,7 @@ var buildPrompt = (batch, categories) => {
     "One JSON object per line; the fields above refer to those object keys.",
     "",
     DATA_FENCE,
-    batch.map(describeCard).join("\n"),
+    batch.map((entry) => describeCard(entry, now)).join("\n"),
     DATA_FENCE,
     "",
     "Return one entry per item id exactly as it appears in the data. Do not invent items."
@@ -61084,7 +61112,7 @@ var requestBatch = async (batch, config2) => {
   try {
     const raw = await config2.client({
       model: config2.model,
-      prompt: buildPrompt(batch, config2.categories),
+      prompt: buildPrompt(batch, config2.categories, config2.now ?? /* @__PURE__ */ new Date()),
       responseSchema: SUMMARY_JSON_SCHEMA
     });
     const parsed = SummaryResponseSchema.safeParse(JSON.parse(raw));
