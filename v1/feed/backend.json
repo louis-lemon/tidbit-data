@@ -1,34 +1,9 @@
 {
   "version": 1,
   "category": "backend",
-  "generatedAt": "2026-09-07T05:50:34.565Z",
+  "generatedAt": "2026-09-07T21:51:32.810Z",
   "ttlSeconds": 10800,
   "cards": [
-    {
-      "id": "gh:magnitudedev/magnitude",
-      "type": "repo",
-      "title": "magnitudedev/magnitude",
-      "summaryOriginal": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
-      "url": "https://github.com/magnitudedev/magnitude",
-      "lang": "TypeScript",
-      "tags": [],
-      "metrics": {
-        "stars": 3787,
-        "starsDelta": 604
-      },
-      "source": "github-trending",
-      "admitReason": "trending",
-      "summaryEn": "Fully local, private AI agent that runs models on your machine with built-in inference—no external dependencies needed.",
-      "summaryKo": "기기에서 완전히 로컬로 실행되는 개인 AI 에이전트, 기본 추론 엔진 포함.",
-      "categories": [
-        "ai-models",
-        "ai-agents",
-        "backend"
-      ],
-      "metricsRefreshedAt": "2026-09-07T05:50:34.565Z",
-      "firstSeenAt": "2026-09-03T22:53:21.894Z",
-      "lastSeenAt": "2026-09-07T05:50:34.565Z"
-    },
     {
       "id": "gh:xevrion/breakscale",
       "type": "repo",
@@ -49,12 +24,12 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 1063
+        "stars": 1074
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-08-23T06:21:21Z",
-      "updatedAt": "2026-09-06T04:59:55Z",
+      "updatedAt": "2026-09-07T13:49:21Z",
       "summaryEn": "A system design simulator to load-test and learn distributed systems architecture.",
       "summaryKo": "부하 테스트를 통해 분산 시스템 아키텍처를 학습할 수 있는 시스템 디자인 시뮬레이터입니다.",
       "reasonEn": "Popular educational system tool",
@@ -63,9 +38,9 @@
         "web",
         "backend"
       ],
-      "metricsRefreshedAt": "2026-09-07T05:50:34.565Z",
+      "metricsRefreshedAt": "2026-09-07T21:51:32.810Z",
       "firstSeenAt": "2026-08-29T22:55:06.972Z",
-      "lastSeenAt": "2026-09-07T05:50:34.565Z"
+      "lastSeenAt": "2026-09-07T21:51:32.810Z"
     },
     {
       "id": "gh:sums001/Windows-Copilot-API",
@@ -84,7 +59,7 @@
         "openai"
       ],
       "metrics": {
-        "stars": 1232
+        "stars": 1233
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -97,35 +72,59 @@
       "categories": [
         "backend"
       ],
-      "metricsRefreshedAt": "2026-09-07T05:50:34.565Z",
+      "metricsRefreshedAt": "2026-09-07T21:51:32.810Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
-      "lastSeenAt": "2026-09-07T05:50:34.565Z"
+      "lastSeenAt": "2026-09-07T21:51:32.810Z"
     },
     {
-      "id": "hn:49261133",
+      "id": "hn:49270040",
       "type": "article",
-      "title": "Go is an ideal language for AI-assisted software engineering",
-      "summaryOriginal": "Go is an ideal language for AI-assisted software engineering",
-      "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
+      "title": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
+      "summaryOriginal": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
+      "url": "https://woxi.ad-si.com",
       "tags": [],
       "metrics": {
-        "upvotes": 444,
-        "comments": 544
+        "upvotes": 314,
+        "comments": 46
       },
       "source": "hn",
-      "publishedAt": "2026-08-11T16:57:09Z",
+      "publishedAt": "2026-08-12T10:06:29Z",
       "admitReason": "notable",
-      "summaryEn": "Exploring why Go is well-suited for AI-assisted software engineering workflows.",
-      "summaryKo": "Go 언어가 AI 지원 소프트웨어 엔지니어링에 적합한 이유를 살펴봅니다.",
-      "reasonEn": "444 upvotes within 26 days of release",
-      "reasonKo": "26일 동안 444개의 추천을 기록함",
+      "summaryEn": "Woxi is an open-source reimplementation of Mathematica and the Wolfram Language.",
+      "summaryKo": "Mathematica 및 Wolfram 언어의 오픈소스 재구현 버전인 Woxi입니다.",
+      "reasonEn": "314 upvotes within 26 days",
+      "reasonKo": "26일 동안 314 추천",
       "categories": [
-        "backend",
-        "engineering"
+        "backend"
       ],
-      "metricsRefreshedAt": "2026-09-07T05:50:34.565Z",
-      "firstSeenAt": "2026-09-07T05:17:00.892Z",
-      "lastSeenAt": "2026-09-07T05:50:34.565Z"
+      "metricsRefreshedAt": "2026-09-07T21:51:32.810Z",
+      "firstSeenAt": "2026-09-07T21:51:32.810Z",
+      "lastSeenAt": "2026-09-07T21:51:32.810Z"
+    },
+    {
+      "id": "hn:49374269",
+      "type": "article",
+      "title": "Malicious Rust crate Arrayref runs a build-time payload",
+      "summaryOriginal": "Malicious Rust crate Arrayref runs a build-time payload",
+      "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 554,
+        "comments": 513
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-20T13:23:12Z",
+      "admitReason": "notable",
+      "summaryEn": "A malicious Rust crate named Arrayref executing unintended build-time payloads.",
+      "summaryKo": "빌드 시점에 악성 페이로드를 실행하는 악성 러스트 크레이트 Arrayref입니다.",
+      "reasonEn": "554 upvotes within 18 days",
+      "reasonKo": "18일 동안 554 추천",
+      "categories": [
+        "backend"
+      ],
+      "metricsRefreshedAt": "2026-09-07T21:51:32.810Z",
+      "firstSeenAt": "2026-09-07T21:51:32.810Z",
+      "lastSeenAt": "2026-09-07T21:51:32.810Z"
     },
     {
       "id": "hn:49468083",
@@ -141,17 +140,17 @@
       "source": "hn",
       "publishedAt": "2026-08-27T17:17:57Z",
       "admitReason": "notable",
-      "summaryEn": "Cloudflare details how optimizing 1.1.1.1's DNS cache saved 100 terabytes of memory.",
-      "summaryKo": "1.1.1.1 DNS 캐시 최적화로 100테라바이트의 메모리를 절약한 방법을 설명합니다.",
-      "reasonEn": "924 upvotes within 10 days of release",
-      "reasonKo": "10일 동안 924개의 추천을 기록함",
+      "summaryEn": "Cloudflare details memory optimizations in 1.1.1.1's DNS cache saving 100 terabytes.",
+      "summaryKo": "1.1.1.1 DNS 캐시 최적화로 100테라바이트의 메모리를 절약한 사례입니다.",
+      "reasonEn": "924 upvotes within 11 days",
+      "reasonKo": "11일 동안 924 추천",
       "categories": [
         "backend",
         "infra"
       ],
-      "metricsRefreshedAt": "2026-09-07T05:50:34.565Z",
+      "metricsRefreshedAt": "2026-09-07T21:51:32.810Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
-      "lastSeenAt": "2026-09-07T05:50:34.565Z"
+      "lastSeenAt": "2026-09-07T21:51:32.810Z"
     },
     {
       "id": "hn:49365405",
@@ -167,42 +166,16 @@
       "source": "hn",
       "publishedAt": "2026-08-19T18:33:49Z",
       "admitReason": "notable",
-      "summaryEn": "Overview of new features, changes, and performance improvements in Go 1.27.",
-      "summaryKo": "Go 1.27 버전의 새로운 기능과 성능 개선 사항 안내.",
-      "reasonEn": "759 upvotes within 3 weeks of posting.",
-      "reasonKo": "게시 후 3주 내 759개의 추천.",
+      "summaryEn": "An overview of Go 1.27, detailing new language features, compiler optimizations, and toolchain updates.",
+      "summaryKo": "새로운 언어 기능과 컴파일러 최적화가 포함된 Go 1.27의 주요 변경 사항입니다.",
+      "reasonEn": "759 upvotes within 19 days",
+      "reasonKo": "19일 만에 759 추천",
       "categories": [
         "backend"
       ],
-      "metricsRefreshedAt": "2026-09-07T05:50:34.565Z",
+      "metricsRefreshedAt": "2026-09-07T21:51:32.810Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
-      "lastSeenAt": "2026-09-07T05:50:34.565Z"
-    },
-    {
-      "id": "hn:49361279",
-      "type": "article",
-      "title": "PostgreSQL for Everything",
-      "summaryOriginal": "PostgreSQL for Everything",
-      "url": "https://www.raphaelbauer.com:443/posts/postgresql-everything/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 451,
-        "comments": 269
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-19T13:21:21Z",
-      "admitReason": "notable",
-      "summaryEn": "Discussion on using PostgreSQL as a versatile store for multiple data models beyond traditional relational use.",
-      "summaryKo": "관계형 데이터베이스를 넘어 다양한 용도로 PostgreSQL을 활용하는 방안.",
-      "reasonEn": "451 upvotes within 3 weeks of posting.",
-      "reasonKo": "게시 후 3주 내 451개의 추천.",
-      "categories": [
-        "data",
-        "backend"
-      ],
-      "metricsRefreshedAt": "2026-09-07T05:50:34.565Z",
-      "firstSeenAt": "2026-09-07T05:50:34.565Z",
-      "lastSeenAt": "2026-09-07T05:50:34.565Z"
+      "lastSeenAt": "2026-09-07T21:51:32.810Z"
     },
     {
       "id": "hn:49243061",
@@ -218,17 +191,68 @@
       "source": "hn",
       "publishedAt": "2026-08-10T13:01:18Z",
       "admitReason": "notable",
-      "summaryEn": "Deep dive into the asynchronous I/O architecture and worker thread model implemented in DuckDB.",
-      "summaryKo": "DuckDB의 비동기 I/O 구조와 워커 스레드 모델 심층 분석.",
-      "reasonEn": "281 upvotes within 4 weeks of posting.",
-      "reasonKo": "게시 후 4주 내 281개의 추천.",
+      "summaryEn": "An architectural look at implementing asynchronous I/O in DuckDB with a work-thread model.",
+      "summaryKo": "작업 스레드 모델을 사용하여 DuckDB에 비동기 I/O를 구현한 아키텍처 설명입니다.",
+      "reasonEn": "281 upvotes within 28 days",
+      "reasonKo": "28일 만에 281 추천",
       "categories": [
         "data",
         "backend"
       ],
-      "metricsRefreshedAt": "2026-09-07T05:50:34.565Z",
+      "metricsRefreshedAt": "2026-09-07T21:51:32.810Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
-      "lastSeenAt": "2026-09-07T05:50:34.565Z"
+      "lastSeenAt": "2026-09-07T21:51:32.810Z"
+    },
+    {
+      "id": "hn:49261133",
+      "type": "article",
+      "title": "Go is an ideal language for AI-assisted software engineering",
+      "summaryOriginal": "Go is an ideal language for AI-assisted software engineering",
+      "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 444,
+        "comments": 544
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-11T16:57:09Z",
+      "admitReason": "notable",
+      "summaryEn": "An analysis discussing why Go is well-suited for AI-assisted software engineering workloads and developer workflows.",
+      "summaryKo": "AI 보조 소프트웨어 엔지니어링에 Go 언어가 적합한 이유를 다룬 분석입니다.",
+      "reasonEn": "444 upvotes within 27 days of launch",
+      "reasonKo": "공개 후 27일 만에 444표 획득",
+      "categories": [
+        "backend",
+        "engineering"
+      ],
+      "metricsRefreshedAt": "2026-09-07T21:51:32.810Z",
+      "firstSeenAt": "2026-09-07T05:17:00.892Z",
+      "lastSeenAt": "2026-09-07T21:51:32.810Z"
+    },
+    {
+      "id": "gh:magnitudedev/magnitude",
+      "type": "repo",
+      "categories": [
+        "ai-models",
+        "ai-agents",
+        "backend"
+      ],
+      "title": "magnitudedev/magnitude",
+      "summaryEn": "Fully local, private AI agent that runs models on your machine with built-in inference—no external dependencies needed.",
+      "summaryKo": "기기에서 완전히 로컬로 실행되는 개인 AI 에이전트, 기본 추론 엔진 포함.",
+      "summaryOriginal": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "lang": "TypeScript",
+      "tags": [],
+      "metrics": {
+        "stars": 3787,
+        "starsDelta": 604
+      },
+      "source": "github-trending",
+      "firstSeenAt": "2026-09-03T22:53:21.894Z",
+      "lastSeenAt": "2026-09-07T05:50:34.565Z",
+      "metricsRefreshedAt": "2026-09-07T05:50:34.565Z",
+      "admitReason": "trending"
     },
     {
       "id": "gh:dmlc/xgboost",
