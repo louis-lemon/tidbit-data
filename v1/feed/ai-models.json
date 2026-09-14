@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "ai-models",
-  "generatedAt": "2026-09-13T21:13:30.222Z",
+  "generatedAt": "2026-09-14T22:13:48.779Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,24 +13,76 @@
       "lang": "Go",
       "tags": [],
       "metrics": {
-        "stars": 23350,
-        "starsDelta": 438
+        "stars": 25521,
+        "starsDelta": 1796
       },
       "source": "github-trending",
       "admitReason": "trending",
-      "summaryEn": "Alibaba's hybrid code review tool combines deterministic pipelines with LLM agents for line-level comments and multi-language security rulesets.",
-      "summaryKo": "알리바바의 하이브리드 코드 리뷰 도구는 파이프라인과 LLM 에이전트를 결합합니다.",
-      "reasonEn": "Gained 438 stars today",
-      "reasonKo": "오늘 438개의 스타 획득",
+      "summaryEn": "Alibaba's open-source code review tool combining deterministic pipelines with an LLM agent for line-level comments.",
+      "summaryKo": "알리바바 오픈소스 코드 리뷰 도구. 결정적 파이프라인 + LLM 에이전트로 라인 단위 코멘트.",
+      "reasonEn": "Slow, steady growth",
+      "reasonKo": "완만한 성장",
       "categories": [
         "ai-models",
         "ai-agents",
         "data",
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-13T21:13:30.222Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
+    },
+    {
+      "id": "gh:debpalash/VoiceStudio",
+      "type": "repo",
+      "title": "debpalash/VoiceStudio",
+      "summaryOriginal": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "stars": 29027,
+        "starsDelta": 2774
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "An open-source, fully-local ElevenLabs alternative for voice cloning, dubbing, and transcription in 646 languages.",
+      "summaryKo": "646개 언어의 음성 복제, 더빙, 전사를 지원하는 완전 로컬 오픈소스 ElevenLabs 대안입니다.",
+      "reasonEn": "Popular open-source local voice cloning tool.",
+      "reasonKo": "인기 있는 로컬 오픈소스 음성 복제 도구",
+      "categories": [
+        "ai-models",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "firstSeenAt": "2026-09-02T22:54:08.675Z",
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
+    },
+    {
+      "id": "gh:TauricResearch/TradingAgents",
+      "type": "repo",
+      "title": "TauricResearch/TradingAgents",
+      "summaryOriginal": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "stars": 106048,
+        "starsDelta": 756
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "Multi-agent LLM financial trading framework, helping developers build automated trading systems with AI agents.",
+      "summaryKo": "멀티 에이전트 LLM 금융 트레이딩 프레임워크로, AI 기반 자동화 시스템 구축을 돕습니다.",
+      "reasonEn": "High daily star growth and interest in AI finance",
+      "reasonKo": "AI 금융 분야 관심 증가로 스타 급증",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "firstSeenAt": "2026-08-25T12:50:44.870Z",
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "gh:huggingface/transformers",
@@ -41,8 +93,8 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 165457,
-        "starsDelta": 102
+        "stars": 165944,
+        "starsDelta": 528
       },
       "source": "github-trending",
       "admitReason": "trending",
@@ -53,9 +105,9 @@
       "categories": [
         "ai-models"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "gh:tigerless-labs/agent-memory",
@@ -79,12 +131,12 @@
         "sqlite"
       ],
       "metrics": {
-        "stars": 1279
+        "stars": 1444
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-09-01T21:52:29Z",
-      "updatedAt": "2026-09-11T12:44:13Z",
+      "updatedAt": "2026-09-14T11:19:23Z",
       "summaryEn": "Long-term memory runtime for AI agents using local Markdown files and ranked retrieval, sharing state between Claude Code and Codex without API keys.",
       "summaryKo": "로컬 마크다운을 활용해 AI 에이전트의 장기 기억을 관리하는 런타임입니다.",
       "reasonEn": "616 stars within 6 days of launch",
@@ -93,86 +145,81 @@
         "ai-models",
         "ai-agents"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-08T21:31:48.079Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
-      "id": "gh:Human-Agent-Society/reef",
+      "id": "gh:TokenRhythm/NeoHorse",
       "type": "repo",
-      "title": "Human-Agent-Society/reef",
-      "summaryOriginal": "Continual learning infra for self-improving agents",
-      "url": "https://github.com/Human-Agent-Society/reef",
-      "lang": "Python",
+      "title": "TokenRhythm/NeoHorse",
+      "summaryOriginal": "NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness.",
+      "url": "https://github.com/TokenRhythm/NeoHorse",
       "tags": [
-        "agent-infrastructure",
-        "ai-agents",
-        "continual-learning",
-        "inference",
+        "agent",
+        "large-language-models",
         "llm",
-        "llm-training",
-        "reinforcement-learning",
-        "self-improving-agents"
+        "post-training",
+        "recursive-self-improvement",
+        "rsi"
       ],
       "metrics": {
-        "stars": 1197
+        "stars": 338
       },
       "source": "github-search",
       "admitReason": "new",
-      "publishedAt": "2026-08-31T01:39:18Z",
-      "updatedAt": "2026-09-13T20:38:29Z",
-      "summaryEn": "Continual learning infrastructure built for self-improving AI agents.",
-      "summaryKo": "스스로 학습하고 발전하는 AI 에이전트를 위한 지속적 학습 인프라입니다.",
-      "reasonEn": "Interest in self-improving AI agent loops.",
-      "reasonKo": "자기 개선형 AI 에이전트 루프에 대한 관심",
+      "publishedAt": "2026-09-04T08:34:54Z",
+      "updatedAt": "2026-09-10T07:45:25Z",
+      "summaryEn": "NeoHorse-1 explores recursive self-improvement via agentic post-training with a routing harness.",
+      "summaryKo": "라우팅 하네스를 이용한 에이전틱 후학습 기반 재귀적 자기 개선 프레임워크입니다.",
+      "reasonEn": "338 stars within 10 days of launch",
+      "reasonKo": "출시 후 10일 만에 338 스타 획득",
+      "categories": [
+        "ai-models"
+      ],
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "firstSeenAt": "2026-09-14T22:13:48.779Z",
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
+    },
+    {
+      "id": "gh:kydlikebtc/awesome-grokbot",
+      "type": "repo",
+      "title": "kydlikebtc/awesome-grokbot",
+      "summaryOriginal": "730 live x.ai/bot shares for Grok Bot — every link status-checked, every row attributed. Bilingual EN/中文 catalog with a JSON schema, CI, and a searchable site.",
+      "url": "https://github.com/kydlikebtc/awesome-grokbot",
+      "lang": "Python",
+      "tags": [
+        "agents",
+        "ai-agents",
+        "ai-tools",
+        "awesome",
+        "awesome-list",
+        "bot-templates",
+        "catalog",
+        "cursor",
+        "directory",
+        "grok",
+        "grok-bot",
+        "grokbot"
+      ],
+      "metrics": {
+        "stars": 302
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-09-01T02:30:25Z",
+      "updatedAt": "2026-09-14T10:43:02Z",
+      "summaryEn": "A curated catalog of 730 live x.ai/bot shares for Grok Bot with a bilingual EN/ZH interface and JSON schema.",
+      "summaryKo": "Grok Bot을 위한 730개의 라이브 공유 링크와 JSON 스키마를 제공하는 큐레이션 카탈로그입니다.",
+      "reasonEn": "302 stars within 13 days of launch",
+      "reasonKo": "출시 후 13일 만에 302 스타 획득",
       "categories": [
         "ai-models",
         "ai-agents"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "firstSeenAt": "2026-09-02T22:54:08.675Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
-    },
-    {
-      "id": "gh:2akouwu/reverify",
-      "type": "repo",
-      "title": "2akouwu/reverify",
-      "summaryOriginal": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI.",
-      "url": "https://github.com/2akouwu/reverify",
-      "lang": "Python",
-      "tags": [
-        "ai",
-        "ai-agents",
-        "ai-coding",
-        "anti-hallucination",
-        "binary-analysis",
-        "context-engineering",
-        "ctf",
-        "developer-tools",
-        "disassembler",
-        "grounding",
-        "hallucination",
-        "hallucination-detection"
-      ],
-      "metrics": {
-        "stars": 1187
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2026-08-31T01:02:18Z",
-      "updatedAt": "2026-09-07T10:12:07Z",
-      "summaryEn": "Verified reverse engineering tool combining AI with deterministic tool checks to prevent hallucinations.",
-      "summaryKo": "환각 방지를 위해 AI와 확정적 도구 검증을 결합한 검증된 리버스 엔지니어링 도구입니다.",
-      "reasonEn": "Combining AI with deterministic checks for binary analysis.",
-      "reasonKo": "바이너리 분석을 위해 AI와 확정적 검증 결합",
-      "categories": [
-        "ai-models",
-        "ai-agents",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "firstSeenAt": "2026-09-03T22:53:21.894Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "firstSeenAt": "2026-09-14T22:13:48.779Z",
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "gh:lidge-jun/opencodex",
@@ -196,12 +243,12 @@
         "grok"
       ],
       "metrics": {
-        "stars": 14518
+        "stars": 14637
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-06-18T23:03:18Z",
-      "updatedAt": "2026-09-13T21:12:45Z",
+      "updatedAt": "2026-09-14T21:34:10Z",
       "summaryEn": "Universal LLM proxy for Codex and Claude Code—swap any LLM model while keeping CLI, App, and SDK working.",
       "summaryKo": "Codex와 Claude Code를 위한 범용 LLM 프록시—모든 LLM 모델 교체 가능.",
       "categories": [
@@ -209,9 +256,9 @@
         "web",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "gh:FareedKhan-dev/kimi-k3-in-c",
@@ -235,7 +282,7 @@
         "memory-efficient"
       ],
       "metrics": {
-        "stars": 7847
+        "stars": 7920
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -248,9 +295,9 @@
       "categories": [
         "ai-models"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "gh:trailhq/Graft",
@@ -274,12 +321,12 @@
         "llm"
       ],
       "metrics": {
-        "stars": 7452
+        "stars": 7740
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-07-03T13:44:21Z",
-      "updatedAt": "2026-09-13T17:17:32Z",
+      "updatedAt": "2026-09-14T21:47:47Z",
       "summaryEn": "A CLI tool to turbocharge coding agents like Claude Code and Cursor with codebase-specific contextual understanding.",
       "summaryKo": "코드베이스별 컨텍스트 이해를 통해 코딩 에이전트의 속도와 효율성을 높이는 CLI 도구.",
       "reasonEn": "5.8K stars within 3 months",
@@ -289,9 +336,9 @@
         "ai-agents",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "gh:deeplethe/utopia",
@@ -315,12 +362,12 @@
         "self-hosted"
       ],
       "metrics": {
-        "stars": 7335
+        "stars": 7461
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-08-07T19:33:17Z",
-      "updatedAt": "2026-09-13T20:01:13Z",
+      "updatedAt": "2026-09-14T16:16:37Z",
       "summaryEn": "An open-source enterprise world model providing knowledge graphs and agent memory capabilities.",
       "summaryKo": "지식 그래프와 에이전트 메모리 기능을 제공하는 오픈소스 엔터프라이즈 월드 모델.",
       "reasonEn": "5.2K stars within a month",
@@ -328,9 +375,9 @@
       "categories": [
         "ai-models"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "gh:drumih/turbo-fieldfare",
@@ -354,7 +401,7 @@
         "on-device-llm"
       ],
       "metrics": {
-        "stars": 6725
+        "stars": 6730
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -367,9 +414,9 @@
       "categories": [
         "ai-models"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "gh:shy3130/tick-stock-panel",
@@ -393,12 +440,12 @@
         "quantitative-trading"
       ],
       "metrics": {
-        "stars": 4646
+        "stars": 4680
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-06-18T06:18:29Z",
-      "updatedAt": "2026-09-13T15:51:50Z",
+      "updatedAt": "2026-09-14T07:57:20Z",
       "summaryEn": "A self-hosted, zero-maintenance quantitative stock trading workbench driven by LLM capabilities.",
       "summaryKo": "LLM 기반의 자가 호스팅형 제로 유지보수 주식 퀀트 트레이딩 워크벤치.",
       "reasonEn": "4.4K stars within 3 months",
@@ -407,9 +454,9 @@
         "ai-models",
         "web"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "gh:kirodotdev/KiroCrew",
@@ -430,12 +477,12 @@
         "llm"
       ],
       "metrics": {
-        "stars": 3889
+        "stars": 3911
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-07-16T21:21:54Z",
-      "updatedAt": "2026-09-13T21:11:45Z",
+      "updatedAt": "2026-09-14T22:11:40Z",
       "summaryEn": "A persistent development workspace that self-improves and continues tasks beyond a single session.",
       "summaryKo": "단일 세션을 넘어 스스로 개선하고 작업을 이어가는 지속형 개발 워크스페이스.",
       "reasonEn": "3.6K stars within 2 months",
@@ -444,9 +491,9 @@
         "ai-models",
         "ai-agents"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "gh:spinabot/brigade",
@@ -470,7 +517,7 @@
         "hermes-agent"
       ],
       "metrics": {
-        "stars": 3708
+        "stars": 3737
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -483,9 +530,9 @@
       "categories": [
         "ai-models"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-07T21:51:32.810Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "gh:synthetic-sciences/openscience",
@@ -509,12 +556,12 @@
         "open-source"
       ],
       "metrics": {
-        "stars": 3572
+        "stars": 3578
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-07-03T15:06:45Z",
-      "updatedAt": "2026-09-13T13:53:42Z",
+      "updatedAt": "2026-09-14T20:33:14Z",
       "summaryEn": "An open-source AI workbench designed to assist with scientific research workflows.",
       "summaryKo": "과학 연구 워크플로우를 지원하기 위해 설계된 오픈소스 AI 워크벤치.",
       "reasonEn": "3.5K stars within 3 months",
@@ -523,9 +570,9 @@
         "ai-models",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "gh:fuxicodex/Fuxi",
@@ -549,7 +596,7 @@
         "go"
       ],
       "metrics": {
-        "stars": 3409
+        "stars": 3412
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -564,9 +611,9 @@
         "ai-agents",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-10T21:20:01.286Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "gh:Leonxlnx/unlazy",
@@ -585,7 +632,7 @@
         "skill"
       ],
       "metrics": {
-        "stars": 3316
+        "stars": 3359
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -599,9 +646,9 @@
         "ai-models",
         "ai-agents"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "gh:AlephAITech/WorkBuddyGuide",
@@ -621,12 +668,12 @@
         "workflow"
       ],
       "metrics": {
-        "stars": 2938
+        "stars": 2962
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-07-10T04:13:51Z",
-      "updatedAt": "2026-09-04T08:28:41Z",
+      "updatedAt": "2026-09-14T01:56:58Z",
       "summaryEn": "A practical open-source guide for mastering WorkBuddy workflows, multi-agent setups, automation, and MCP integration.",
       "summaryKo": "WorkBuddy 워크플로, 멀티 에이전트 설정, 자동화를 마스터하기 위한 실용적인 가이드입니다.",
       "reasonEn": "2.9K stars within 62 days",
@@ -634,9 +681,9 @@
       "categories": [
         "ai-models"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-10T21:20:01.286Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "gh:makecindy/cindy",
@@ -660,12 +707,12 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 2673
+        "stars": 2686
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-07-22T17:49:34Z",
-      "updatedAt": "2026-09-13T16:39:43Z",
+      "updatedAt": "2026-09-14T16:35:26Z",
       "summaryEn": "An out-of-the-box open-source desktop AI agent built for multi-platform environments.",
       "summaryKo": "다중 플랫폼 환경을 위해 제작된 즉시 사용 가능한 오픈소스 데스크톱 AI 에이전트.",
       "reasonEn": "2.4K stars within 46 days",
@@ -674,44 +721,9 @@
         "ai-models",
         "web"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-10T21:20:01.286Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
-    },
-    {
-      "id": "gh:Player-YN/PawWork_ZhuaZhua",
-      "type": "repo",
-      "title": "Player-YN/PawWork_ZhuaZhua",
-      "summaryOriginal": "Paw Work - selection-first web agent for Chrome: select on the live page, describe the outcome, take away an editable office file. BYOK, sandboxed, no server.",
-      "url": "https://github.com/Player-YN/PawWork_ZhuaZhua",
-      "lang": "JavaScript",
-      "tags": [
-        "ai-agent",
-        "browser-agent",
-        "byok",
-        "chrome-extension",
-        "llm",
-        "pptx",
-        "tldraw",
-        "univer"
-      ],
-      "metrics": {
-        "stars": 2597
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2026-08-28T10:56:56Z",
-      "updatedAt": "2026-09-09T16:19:58Z",
-      "summaryEn": "Paw Work is a selection-first browser agent for Chrome that lets you select elements on a page, describe outcomes, and output editable office files locally.",
-      "summaryKo": "웹페이지를 선택하고 결과를 설명하여 편집 가능한 오피스 파일을 로컬로 생성하는 크롬용 브라우저 에이전트.",
-      "reasonEn": "Popular open-source release for local AI browser automation.",
-      "reasonKo": "로컬 AI 브라우저 자동화 도구로 인기를 얻는 오픈소스.",
-      "categories": [
-        "ai-models"
-      ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "firstSeenAt": "2026-09-01T22:53:39.547Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "gh:Nanako0129/sepia",
@@ -735,7 +747,7 @@
         "writing-tools"
       ],
       "metrics": {
-        "stars": 2582
+        "stars": 2607
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -749,9 +761,44 @@
         "ai-models",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-08-29T02:56:27.939Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
+    },
+    {
+      "id": "gh:Player-YN/PawWork_ZhuaZhua",
+      "type": "repo",
+      "title": "Player-YN/PawWork_ZhuaZhua",
+      "summaryOriginal": "Paw Work - selection-first web agent for Chrome: select on the live page, describe the outcome, take away an editable office file. BYOK, sandboxed, no server.",
+      "url": "https://github.com/Player-YN/PawWork_ZhuaZhua",
+      "lang": "JavaScript",
+      "tags": [
+        "ai-agent",
+        "browser-agent",
+        "byok",
+        "chrome-extension",
+        "llm",
+        "pptx",
+        "tldraw",
+        "univer"
+      ],
+      "metrics": {
+        "stars": 2596
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2026-08-28T10:56:56Z",
+      "updatedAt": "2026-09-09T16:19:58Z",
+      "summaryEn": "Paw Work is a selection-first browser agent for Chrome that lets you select elements on a page, describe outcomes, and output editable office files locally.",
+      "summaryKo": "웹페이지를 선택하고 결과를 설명하여 편집 가능한 오피스 파일을 로컬로 생성하는 크롬용 브라우저 에이전트.",
+      "reasonEn": "Popular open-source release for local AI browser automation.",
+      "reasonKo": "로컬 AI 브라우저 자동화 도구로 인기를 얻는 오픈소스.",
+      "categories": [
+        "ai-models"
+      ],
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "firstSeenAt": "2026-09-01T22:53:39.547Z",
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "gh:simonlin1212/Vibe-Research",
@@ -775,7 +822,7 @@
         "mcp"
       ],
       "metrics": {
-        "stars": 2478
+        "stars": 2483
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -790,9 +837,46 @@
         "ai-agents",
         "web"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-10T21:20:01.286Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
+    },
+    {
+      "id": "gh:elie222/rakazo",
+      "type": "repo",
+      "title": "elie222/rakazo",
+      "summaryOriginal": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+      "url": "https://github.com/elie222/rakazo",
+      "lang": "TypeScript",
+      "tags": [
+        "ai-agents",
+        "chatgpt",
+        "docker",
+        "electron",
+        "expo",
+        "grok",
+        "llm",
+        "self-hosted",
+        "typescript"
+      ],
+      "metrics": {
+        "stars": 2463
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2026-08-13T06:28:56Z",
+      "updatedAt": "2026-09-14T21:56:00Z",
+      "summaryEn": "Open-source alternative to Grok's coding bot — pick your own model and sandbox.",
+      "summaryKo": "Grok 봇의 오픈소스 대안, 모델과 샌드박스를 직접 선택",
+      "categories": [
+        "ai-models",
+        "ai-agents",
+        "web",
+        "infra"
+      ],
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "hf-model:deepseek-ai/DeepSeek-V4.1-Flash",
@@ -815,9 +899,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 2186,
-        "downloads": 244457,
-        "trendingScore": 1972
+        "likes": 2438,
+        "downloads": 288414,
+        "trendingScore": 2155
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -830,9 +914,50 @@
         "ai-models",
         "ai-agents"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-10T21:20:01.286Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
+    },
+    {
+      "id": "hf-model:Edge0/Edge0-35B-A3B-preview",
+      "type": "model",
+      "title": "Edge0/Edge0-35B-A3B-preview",
+      "summaryOriginal": "text-generation model · mlx, safetensors, qwen3_5_moe, moe, edge-inference",
+      "url": "https://huggingface.co/Edge0/Edge0-35B-A3B-preview",
+      "lang": "text-generation",
+      "tags": [
+        "mlx",
+        "safetensors",
+        "qwen3_5_moe",
+        "moe",
+        "edge-inference",
+        "prerouter",
+        "lora",
+        "ssd-offload",
+        "text-generation",
+        "conversational",
+        "base_model:Qwen/Qwen3.6-35B-A3B",
+        "base_model:adapter:Qwen/Qwen3.6-35B-A3B"
+      ],
+      "metrics": {
+        "likes": 1910,
+        "downloads": 8109,
+        "trendingScore": 1693
+      },
+      "source": "hf-models",
+      "admitReason": "trending",
+      "publishedAt": "2026-09-08T13:56:18.000Z",
+      "summaryEn": "A 35B text-generation model optimized for edge inference and Mixture of Experts architectures.",
+      "summaryKo": "엣지 추론 및 MoE 아키텍처에 최적화된 35B 텍스트 생성 모델입니다.",
+      "reasonEn": "399 likes within 4 days of release",
+      "reasonKo": "출시 4일 만에 좋아요 399개 획득",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "firstSeenAt": "2026-09-12T21:08:18.614Z",
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "hf-model:openbmb/MiniCPM5-2B",
@@ -856,9 +981,9 @@
         "en"
       ],
       "metrics": {
-        "likes": 1331,
-        "downloads": 150110,
-        "trendingScore": 1127
+        "likes": 1390,
+        "downloads": 206774,
+        "trendingScore": 996
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -871,50 +996,9 @@
         "ai-models",
         "ai-agents"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-08T21:31:48.079Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
-    },
-    {
-      "id": "hf-model:Edge0/Edge0-35B-A3B-preview",
-      "type": "model",
-      "title": "Edge0/Edge0-35B-A3B-preview",
-      "summaryOriginal": "text-generation model · mlx, safetensors, qwen3_5_moe, moe, edge-inference",
-      "url": "https://huggingface.co/Edge0/Edge0-35B-A3B-preview",
-      "lang": "text-generation",
-      "tags": [
-        "mlx",
-        "safetensors",
-        "qwen3_5_moe",
-        "moe",
-        "edge-inference",
-        "prerouter",
-        "lora",
-        "ssd-offload",
-        "text-generation",
-        "conversational",
-        "license:apache-2.0",
-        "4-bit"
-      ],
-      "metrics": {
-        "likes": 978,
-        "downloads": 3552,
-        "trendingScore": 954
-      },
-      "source": "hf-models",
-      "admitReason": "trending",
-      "publishedAt": "2026-09-08T13:56:18.000Z",
-      "summaryEn": "A 35B text-generation model optimized for edge inference and Mixture of Experts architectures.",
-      "summaryKo": "엣지 추론 및 MoE 아키텍처에 최적화된 35B 텍스트 생성 모델입니다.",
-      "reasonEn": "399 likes within 4 days of release",
-      "reasonKo": "출시 4일 만에 좋아요 399개 획득",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "firstSeenAt": "2026-09-12T21:08:18.614Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "hf-model:nex-agi/Nex-N2.5-mini",
@@ -935,9 +1019,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 754,
-        "downloads": 3970,
-        "trendingScore": 597
+        "likes": 778,
+        "downloads": 4543,
+        "trendingScore": 617
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -950,9 +1034,9 @@
         "ai-models",
         "ai-agents"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-10T21:20:01.286Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "hf-model:Qwen/Qwen3.8-27B",
@@ -975,9 +1059,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 14958,
-        "downloads": 7768964,
-        "trendingScore": 558
+        "likes": 15131,
+        "downloads": 7703400,
+        "trendingScore": 577
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -990,50 +1074,9 @@
         "ai-models",
         "ai-agents"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
-    },
-    {
-      "id": "hf-model:XHToken/Spark-X2.5-4B",
-      "type": "model",
-      "title": "XHToken/Spark-X2.5-4B",
-      "summaryOriginal": "text-generation model · transformers, safetensors, spark2_5, text-generation, llm",
-      "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
-      "lang": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "spark2_5",
-        "text-generation",
-        "llm",
-        "sparkx2_5",
-        "conversational",
-        "custom_code",
-        "base_model:XHToken/Spark-X2.5-4B-Base",
-        "base_model:finetune:XHToken/Spark-X2.5-…",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "metrics": {
-        "likes": 1151,
-        "downloads": 21336,
-        "trendingScore": 480
-      },
-      "source": "hf-models",
-      "admitReason": "trending",
-      "publishedAt": "2026-08-24T06:34:34.000Z",
-      "summaryEn": "Spark-X2.5-4B is a 4-billion parameter text-generation model designed for efficient conversational tasks.",
-      "summaryKo": "효율적인 대화 작업을 위해 설계된 40억 파라미터 텍스트 생성 모델입니다.",
-      "reasonEn": "Trending small-scale language model.",
-      "reasonKo": "인기 있는 소규모 언어 모델.",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "firstSeenAt": "2026-09-04T21:10:24.767Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "hf-model:nex-agi/Nex-N2.5-Pro",
@@ -1050,14 +1093,15 @@
         "text-generation",
         "conversational",
         "license:apache-2.0",
+        "eval-results",
         "endpoints_compatible",
         "compressed-tensors",
         "region:us"
       ],
       "metrics": {
-        "likes": 623,
-        "downloads": 30289,
-        "trendingScore": 478
+        "likes": 633,
+        "downloads": 30489,
+        "trendingScore": 484
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1070,9 +1114,9 @@
         "ai-models",
         "ai-agents"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-11T21:29:44.686Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "hf-model:ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
@@ -1096,9 +1140,9 @@
         "base_model:Qwen/Qwen3.8-27B"
       ],
       "metrics": {
-        "likes": 961,
-        "downloads": 769557,
-        "trendingScore": 470
+        "likes": 1037,
+        "downloads": 819784,
+        "trendingScore": 464
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1111,9 +1155,9 @@
         "ai-models",
         "ai-agents"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-04T21:10:24.767Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "hf-model:m-a-p/YuE2-3B",
@@ -1137,9 +1181,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 393,
-        "downloads": 3707,
-        "trendingScore": 373
+        "likes": 471,
+        "downloads": 5186,
+        "trendingScore": 447
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1152,9 +1196,50 @@
         "ai-models",
         "ai-agents"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-13T21:13:30.222Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
+    },
+    {
+      "id": "hf-model:XHToken/Spark-X2.5-4B",
+      "type": "model",
+      "title": "XHToken/Spark-X2.5-4B",
+      "summaryOriginal": "text-generation model · transformers, safetensors, spark2_5, text-generation, llm",
+      "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
+      "lang": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "spark2_5",
+        "text-generation",
+        "llm",
+        "sparkx2_5",
+        "agent",
+        "conversational",
+        "custom_code",
+        "base_model:XHToken/Spark-X2.5-4B-Base",
+        "base_model:finetune:XHToken/Spark-X2.5-…",
+        "license:apache-2.0"
+      ],
+      "metrics": {
+        "likes": 1171,
+        "downloads": 24084,
+        "trendingScore": 398
+      },
+      "source": "hf-models",
+      "admitReason": "trending",
+      "publishedAt": "2026-08-24T06:34:34.000Z",
+      "summaryEn": "Spark-X2.5-4B is a 4-billion parameter text-generation model designed for efficient conversational tasks.",
+      "summaryKo": "효율적인 대화 작업을 위해 설계된 40억 파라미터 텍스트 생성 모델입니다.",
+      "reasonEn": "Trending small-scale language model.",
+      "reasonKo": "인기 있는 소규모 언어 모델.",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "firstSeenAt": "2026-09-04T21:10:24.767Z",
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "hf-model:Lightricks/LTX-2.5",
@@ -1178,9 +1263,9 @@
         "image-text-to-audio-video"
       ],
       "metrics": {
-        "likes": 3726,
-        "downloads": 1548442,
-        "trendingScore": 371
+        "likes": 3867,
+        "downloads": 1559653,
+        "trendingScore": 372
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1193,277 +1278,195 @@
         "ai-models",
         "ai-agents"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
-      "id": "hf-paper:2609.09143",
+      "id": "hf-paper:2609.06107",
       "type": "paper",
-      "title": "Studying Image Tokenizers as Visual Languages in Unified Multimodal Models",
-      "summaryOriginal": "Image tokenizers define the ``visual language'' of unified multimodal models, yet are commonly studied through isolated metrics or generation-/understanding-only evaluations. These evaluations do not fully capture how visual tokens behave when modeled jointly with text. We build a controlled pure-autoregressive testbed and track task-specific validation losses during multimodal continual pretrain…",
-      "url": "https://huggingface.co/papers/2609.09143",
+      "title": "DataFlex-RL: An Evaluation Platform for RLVR Data Policies",
+      "summaryOriginal": "Data policies for reinforcement learning with verifiable rewards (RLVR) determine which rollouts are used, how strongly they are weighted, and which domains contribute to subsequent training batches. We introduce DataFlex-RL, an evaluation platform for comparing these choices under a common GRPO recipe. Our primary experiment evaluates 13 configurations across 12 matched seeds using Qwen2.5-7B-Ba…",
+      "url": "https://huggingface.co/papers/2609.06107",
+      "tags": [],
+      "metrics": {
+        "upvotes": 96,
+        "comments": 1
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-09-05T00:00:00.000Z",
+      "admitReason": "notable",
+      "summaryEn": "DataFlex-RL evaluates data policies for reinforcement learning with verifiable rewards under a common GRPO recipe.",
+      "summaryKo": "공통 GRPO 레시피 하에서 검증 가능한 보상 강화학습용 데이터 정책을 평가하는 플랫폼입니다.",
+      "reasonEn": "96 upvotes within 9 days",
+      "reasonKo": "9일 만에 96 업보트",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "firstSeenAt": "2026-09-14T22:13:48.779Z",
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
+    },
+    {
+      "id": "hf-paper:2609.12945",
+      "type": "paper",
+      "title": "StepAudio 3 Gen Technical Report",
+      "summaryOriginal": "We introduce StepAudio 3 Gen, a general-purpose audio generation model that supports zero-shot text-to-speech (TTS), voice design, vocal generation, sound effects, music, vibe speech, and mixtures of multiple audio types within a unified framework. At its core, StepAudio 3 Gen is a discrete autoregressive generator that models audio directly over residual vector quantization (RVQ) tokens, departi…",
+      "url": "https://huggingface.co/papers/2609.12945",
       "tags": [],
       "metrics": {
         "upvotes": 28,
-        "comments": 2,
-        "githubStars": 0
+        "comments": 1
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-09-11T00:00:00.000Z",
+      "admitReason": "notable",
+      "summaryEn": "StepAudio 3 Gen is a unified discrete autoregressive audio generation model supporting zero-shot TTS, voice design, and music.",
+      "summaryKo": "제로샷 TTS, 보이스 디자인, 음악 생성을 지원하는 통합 이산 자기회귀 오디오 모델입니다.",
+      "reasonEn": "28 upvotes within 3 days",
+      "reasonKo": "3일 만에 28 업보트",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "firstSeenAt": "2026-09-14T22:13:48.779Z",
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
+    },
+    {
+      "id": "hf-paper:2609.08418",
+      "type": "paper",
+      "title": "Feyospace-v1: How the Cyber Mercury Seven Trained Frontier Cyber Models",
+      "summaryOriginal": "Training capable cyber agents is often treated primarily as a problem of model scale, yet open-weight post-training is constrained more directly by the cost of executable environments, reliable multi-turn supervision, and access to strong teachers. We present a data-centric framework that addresses these bottlenecks through five complementary systems: Choulea analyzes hidden reasoning signatures,…",
+      "url": "https://huggingface.co/papers/2609.08418",
+      "tags": [],
+      "metrics": {
+        "upvotes": 75,
+        "comments": 1
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "admitReason": "notable",
-      "summaryEn": "Studies how image tokenizers behave as visual languages when modeled jointly with text in unified multimodal models.",
-      "summaryKo": "통합 멀티모달 모델에서 이미지 토크나이저가 텍스트와 함께 시각 언어로 작동하는 방식을 분석합니다.",
-      "reasonEn": "19 upvotes within 4 days",
-      "reasonKo": "4일 만에 19개 업vote",
+      "summaryEn": "Feyospace-v1 is a data-centric framework addressing high environment costs and supervision bottlenecks for training cyber agents.",
+      "summaryKo": "사이버 에이전트 학습을 위한 비용 및 감독 병목 현상을 해결하는 데이터 중심 프레임워크입니다.",
+      "reasonEn": "75 upvotes within 6 days",
+      "reasonKo": "6일 만에 75 업보트",
       "categories": [
         "ai-models",
         "ai-agents"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "firstSeenAt": "2026-09-12T21:08:18.614Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "firstSeenAt": "2026-09-14T22:13:48.779Z",
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
-      "id": "hf-paper:2609.10745",
+      "id": "hf-paper:2609.11115",
       "type": "paper",
-      "title": "Think Before You Link: Rarity, Reasoning, and Retrieval in Multilingual Entity Linking",
-      "summaryOriginal": "Multimodal entity linking grounds entity mentions in text and images to knowledge-base entries. These systems degrade on rare entities, but prior work measures rarity primarily through popularity-based metrics such as pageviews. We broaden this view using knowledge-graph structural metrics that capture how well an entity is documented and connected. These metrics identify many rare entities that…",
-      "url": "https://huggingface.co/papers/2609.10745",
+      "title": "Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation",
+      "summaryOriginal": "Benchmark researchers and developers of large language models (LLMs) and other AI systems need to find relevant evaluations, locate their benchmark datasets and code, and understand the settings behind reported scores. We present Benchmark Radar, a living database and search engine for retrieval and discovery of AI benchmarks, covering LLM evaluation, agentic and tool-use benchmarks, coding, reas…",
+      "url": "https://huggingface.co/papers/2609.11115",
       "tags": [],
       "metrics": {
-        "upvotes": 22,
-        "comments": 2,
-        "githubStars": 2
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "admitReason": "notable",
-      "summaryEn": "Improves multilingual entity linking by using knowledge-graph structural metrics to better handle rare entities.",
-      "summaryKo": "지식 그래프 구조 지표를 활용해 희귀 엔티티 처리 능력을 개선한 다국어 엔티티 링킹 연구입니다.",
-      "reasonEn": "12 upvotes within 3 days",
-      "reasonKo": "3일 만에 12개 업vote",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "firstSeenAt": "2026-09-12T21:08:18.614Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
-    },
-    {
-      "id": "hf-paper:2609.10445",
-      "type": "paper",
-      "title": "Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning",
-      "summaryOriginal": "Reasoning language models have made substantial advances on a variety of complex tasks, yet their capabilities remain overwhelmingly English-centric: models primarily reason in English regardless of the language they are prompted in. This is inaccessible for non-English-speaking users, risks losing the intent of the original question, and forgoes knowledge more readily expressed in the target lan…",
-      "url": "https://huggingface.co/papers/2609.10445",
-      "tags": [],
-      "metrics": {
-        "upvotes": 27,
-        "comments": 2
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "admitReason": "notable",
-      "summaryEn": "Explores data mixing strategies to improve in-language reasoning capabilities of reasoning models beyond English.",
-      "summaryKo": "영어 중심의 추론 모델이 다른 언어에서도 잘 작동하도록 데이터 믹싱 전략을 탐구합니다.",
-      "reasonEn": "16 upvotes within 3 days",
-      "reasonKo": "3일 만에 16개 업vote",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "firstSeenAt": "2026-09-12T21:08:18.614Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
-    },
-    {
-      "id": "hf-paper:2608.15380",
-      "type": "paper",
-      "title": "Adaptive Bridge: A Proxy-Based Decoupling Layer for Mitigating DDS Backpressure in ROS 2",
-      "summaryOriginal": "In systems built on Robot Operating System 2 (ROS 2) and using Data Distribution Service (DDS), a single network-impaired or throttled subscriber on a RELIABLE topic can cause backpressure that degrades throughput and latency for all other subscribers, including safety-critical ones sharing the publisher, because the publisher's DDS writer can no longer accept new samples. We present Adaptive Bri…",
-      "url": "https://huggingface.co/papers/2608.15380",
-      "tags": [],
-      "metrics": {
-        "upvotes": 23,
-        "comments": 3,
-        "githubStars": 0
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-09-06T00:00:00.000Z",
-      "admitReason": "notable",
-      "summaryEn": "Introduces a proxy decoupling layer for ROS 2 to mitigate DDS backpressure issues caused by throttled subscribers.",
-      "summaryKo": "제한된 구독자로 인한 DDS 배압 문제를 해결하기 위해 ROS 2용 프록시 디커플링 레이어를 도입합니다.",
-      "reasonEn": "12 upvotes within 6 days",
-      "reasonKo": "6일 만에 12개 업vote",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "firstSeenAt": "2026-09-12T21:08:18.614Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
-    },
-    {
-      "id": "hf-paper:2609.11085",
-      "type": "paper",
-      "title": "Beyond Solver Verdicts: Generative Reward Models for Autoformalization",
-      "summaryOriginal": "Neurosymbolic systems rely on mathematical solvers to guarantee reasoning correctness, yet solvers are fundamentally blind to whether a formal translation maintains strict reference-equivalence to a designated formalization. We formalize this vulnerability as Verdict-Preserving-Unfaithfulness (VPU): a failure mode where an incorrect encoding executes successfully and matches the expected verdict.…",
-      "url": "https://huggingface.co/papers/2609.11085",
-      "tags": [],
-      "metrics": {
-        "upvotes": 28,
-        "comments": 2
+        "upvotes": 75,
+        "comments": 8,
+        "githubStars": 204
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "admitReason": "notable",
-      "summaryEn": "Addresses Verdict-Preserving-Unfaithfulness in neurosymbolic systems using generative reward models.",
-      "summaryKo": "생성 보상 모델을 사용하여 신경기호학 시스템의 판정 보존 불충실성 문제를 해결합니다.",
-      "reasonEn": "15 upvotes within 2 days",
-      "reasonKo": "2일 만에 15개 업vote",
+      "summaryEn": "Benchmark Radar is a living database and search engine for discovering AI benchmarks, datasets, and evaluation settings.",
+      "summaryKo": "AI 벤치마크, 데이터셋, 평가 설정을 검색하고 탐색할 수 있는 라이브 데이터베이스입니다.",
+      "reasonEn": "75 upvotes within 4 days",
+      "reasonKo": "4일 만에 75 업보트",
       "categories": [
         "ai-models",
         "ai-agents"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "firstSeenAt": "2026-09-12T21:08:18.614Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "firstSeenAt": "2026-09-14T22:13:48.779Z",
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
-      "id": "hf-paper:2609.09076",
+      "id": "hf-paper:2609.12641",
       "type": "paper",
-      "title": "ActReview: Rebuttal-Guided Training Data and Rubric Rewards for Actionable Peer Review Generation",
-      "summaryOriginal": "As LLMs are increasingly used for pre-submission self-review, there is growing demand for feedback that not only identifies weaknesses but also guides authors toward concrete revisions. We study this as Actionable Peer-review Generation and decompose it into two subtasks: diagnostic claim generation and revision suggestion generation. We introduce ActReview, a rebuttal-guided post-training framew…",
-      "url": "https://huggingface.co/papers/2609.09076",
+      "title": "Breaking the Vision-Action Shortcut: Latent Interface Training for Generalizable Robotics Foundation Models",
+      "summaryOriginal": "Robot foundation models achieve strong in-distribution performance but often degrade under visual distribution shifts. When learning to generate actions from pretrained visual representations, models may exploit task-irrelevant visual cues that correlate with demonstrated actions within the training distribution. Such vision-action shortcuts can undermine generalization when these correlations ch…",
+      "url": "https://huggingface.co/papers/2609.12641",
       "tags": [],
       "metrics": {
-        "upvotes": 22,
-        "comments": 2,
-        "githubStars": 0
+        "upvotes": 63,
+        "comments": 1,
+        "githubStars": 26
       },
       "source": "hf-papers",
-      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "publishedAt": "2026-09-11T00:00:00.000Z",
       "admitReason": "notable",
-      "summaryEn": "Proposes ActReview, a framework using rebuttal-guided training data to generate actionable peer reviews with LLMs.",
-      "summaryKo": "LLM이 실행 가능한 피어 리뷰를 생성할 수 있도록 반박 기반 학습 데이터를 활용하는 프레임워크입니다.",
-      "reasonEn": "12 upvotes within 4 days",
-      "reasonKo": "4일 만에 12개 업vote",
+      "summaryEn": "Latent Interface Training helps robotics foundation models avoid vision-action shortcuts for better generalization.",
+      "summaryKo": "로봇 파운데이션 모델의 일반화 성능을 높이기 위해 시각-행동 지름길을 방지하는 학습법입니다.",
+      "reasonEn": "63 upvotes within 3 days",
+      "reasonKo": "3일 만에 63 업보트",
       "categories": [
         "ai-models",
         "ai-agents"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "firstSeenAt": "2026-09-12T21:08:18.614Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "firstSeenAt": "2026-09-14T22:13:48.779Z",
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
-      "id": "hf-paper:2609.10539",
+      "id": "hf-paper:2609.11682",
       "type": "paper",
-      "title": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
-      "summaryOriginal": "A research idea may be novel, coherent, and scientifically plausible, yet its proposed method may remain insufficiently specified for faithful implementation. We study the codification readiness of implementation-facing research-method specifications, defined by whether they provide sufficient methodological information for a competent implementer or coding agent to construct the intended method…",
-      "url": "https://huggingface.co/papers/2609.10539",
-      "tags": [],
-      "metrics": {
-        "upvotes": 23,
-        "comments": 2,
-        "githubStars": 1
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "admitReason": "notable",
-      "summaryEn": "Benchmarks implementation-critical gaps in research-idea specifications to help coding agents build intended methods.",
-      "summaryKo": "코딩 에이전트가 연구 아이디어를 구현할 때 발생하는 명세상의 간극을 벤치마킹합니다.",
-      "reasonEn": "12 upvotes within 3 days",
-      "reasonKo": "3일 만에 12개 업vote",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "firstSeenAt": "2026-09-12T21:08:18.614Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
-    },
-    {
-      "id": "hf-paper:2609.11561",
-      "type": "paper",
-      "title": "Memory as Plans: World-Action Modeling with Memory-Grounded Planning",
-      "summaryOriginal": "Mainstream robotic policies often adopt a Markovian formulation, but many complex real-world manipulation tasks are inherently non-Markovian, requiring long-horizon memory beyond the current observation. Existing memory mechanisms often rely on language summaries, growing visual windows, or their combinations, and may therefore lose fine-grained visual evidence or face a trade-off between history…",
-      "url": "https://huggingface.co/papers/2609.11561",
-      "tags": [],
-      "metrics": {
-        "upvotes": 36,
-        "comments": 2,
-        "githubStars": 6
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "admitReason": "notable",
-      "summaryEn": "Proposes a memory-grounded planning framework for non-Markovian robotic manipulation tasks requiring long-horizon memory.",
-      "summaryKo": "장기 기억이 필요한 로봇 조작 작업을 위한 메모리 기반 계획 프레임워크를 제안합니다.",
-      "reasonEn": "25 upvotes within 2 days",
-      "reasonKo": "2일 만에 25개 업vote",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "firstSeenAt": "2026-09-12T21:08:18.614Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
-    },
-    {
-      "id": "hf-paper:2609.11699",
-      "type": "paper",
-      "title": "Negative Self-Distillation: Learning to Reason by Avoiding Flaws",
-      "summaryOriginal": "On-Policy Self-Distillation (OPSD) has emerged as a popular paradigm for large language model (LLM) self-improvement, allowing models to act as their own teachers by leveraging privileged information such as ground-truth solutions. However, recent findings indicate that OPSD can severely degrade the performance of LLMs on complex reasoning tasks: By forcing the student to imitate an artificially…",
-      "url": "https://huggingface.co/papers/2609.11699",
+      "title": "COBRA-Skills: Contextual Bandit-Guided Evolution for Agent Skill Optimization",
+      "summaryOriginal": "Large language model (LLM) agents can benefit from reusable skills distilled from prior task experience, yet existing skill optimization methods often rely on costly execution-based evaluation and substantial task data. We introduce COBRA-Skills, an efficient framework that formulates skill optimization as budgeted sequential optimization over a dynamically evolving candidate space. COBRA-Skills…",
+      "url": "https://huggingface.co/papers/2609.11682",
       "tags": [],
       "metrics": {
         "upvotes": 29,
-        "comments": 3,
-        "githubStars": 5
+        "comments": 1,
+        "githubStars": 8
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "admitReason": "notable",
-      "summaryEn": "Analyzes negative self-distillation to prevent LLMs from degrading on complex reasoning tasks during self-improvement.",
-      "summaryKo": "자기 개선 과정에서 LLM의 복잡한 추론 능력 저하를 막기 위한 네거티브 셀프 증류를 분석합니다.",
-      "reasonEn": "17 upvotes within 2 days",
-      "reasonKo": "2일 만에 17개 업vote",
+      "summaryEn": "COBRA-Skills formulates agent skill optimization as budgeted sequential optimization over a dynamically evolving space.",
+      "summaryKo": "에이전트 기술 최적화를 동적 순차 최적화 문제로 다루는 효율적인 프레임워크입니다.",
+      "reasonEn": "29 upvotes within 4 days",
+      "reasonKo": "4일 만에 29 업보트",
       "categories": [
         "ai-models",
         "ai-agents"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "firstSeenAt": "2026-09-12T21:08:18.614Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "firstSeenAt": "2026-09-14T22:13:48.779Z",
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
-      "id": "hf-paper:2609.11486",
+      "id": "hf-paper:2608.30597",
       "type": "paper",
-      "title": "FreeFlow: A Bias-free Hierarchical Transformer for Optical Flow Estimation",
-      "summaryOriginal": "Optical flow methods typically rely on task-specific inductive biases, such as correlation volumes, feature warping, and iterative refinement, among others, to reach high accuracy. While effective, such biases constrain the model to predefined heuristics, which can limit its expressivity and lead to more complex pipelines and additional computational cost. We present FreeFlow, a hierarchical tran…",
-      "url": "https://huggingface.co/papers/2609.11486",
+      "title": "PLC-DPO: Posterior Label Correction in Noisy and Ambiguous Preference Optimization",
+      "summaryOriginal": "Direct Preference Optimization (DPO) simplifies alignment through pairwise comparisons but assumes all observed preferences are reliable. Real data often violates this assumption, leading to reversed, weak, or ambiguous labels that cause harmful policy updates. To address this, we propose Posterior Label Correction DPO (PLC-DPO) to robustly optimize preferences by routing each pair's training sig…",
+      "url": "https://huggingface.co/papers/2608.30597",
       "tags": [],
       "metrics": {
-        "upvotes": 34,
-        "comments": 2,
-        "githubStars": 13
+        "upvotes": 23,
+        "comments": 1,
+        "githubStars": 4
       },
       "source": "hf-papers",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
       "admitReason": "notable",
-      "summaryEn": "Presents FreeFlow, a bias-free hierarchical transformer for optical flow estimation without predefined heuristics.",
-      "summaryKo": "사전 정의된 휴리스틱 없이 광학 흐름을 추정하는 바이어스 없는 계층형 트랜스포머입니다.",
-      "reasonEn": "22 upvotes within 2 days",
-      "reasonKo": "2일 만에 22개 업vote",
+      "summaryEn": "PLC-DPO introduces Posterior Label Correction to robustly handle noisy and ambiguous preference pairs in DPO.",
+      "summaryKo": "DPO 학습 시 노이즈가 있고 모호한 선호도 레이블을 강건하게 처리하는 보정 기법입니다.",
+      "reasonEn": "23 upvotes within 14 days",
+      "reasonKo": "14일 만에 23 업보트",
       "categories": [
         "ai-models",
         "ai-agents"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "firstSeenAt": "2026-09-12T21:08:18.614Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "firstSeenAt": "2026-09-14T22:13:48.779Z",
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "hn:49525378",
@@ -1479,16 +1482,16 @@
       "source": "hn",
       "publishedAt": "2026-09-01T17:53:53Z",
       "admitReason": "notable",
-      "summaryEn": "Discussion regarding new Claude Fable 5.1 and Claude Mythos 5.1 models.",
-      "summaryKo": "새로운 Claude Fable 5.1 및 Claude Mythos 5.1 모델에 대한 토론.",
-      "reasonEn": "1.4K upvotes within 12 days.",
-      "reasonKo": "12일 만에 1.4K 업보트 기록.",
+      "summaryEn": "Discussion regarding Claude Fable 5.1 and Claude Mythos 5.1 models.",
+      "summaryKo": "Claude Fable 5.1 및 Claude Mythos 5.1 모델에 관한 토론입니다.",
+      "reasonEn": "1.4K upvotes within 13 days.",
+      "reasonKo": "13일 내 1.4천 개 추천을 받았습니다.",
       "categories": [
         "ai-models"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-11T21:29:44.686Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "hn:49324087",
@@ -1504,16 +1507,16 @@
       "source": "hn",
       "publishedAt": "2026-08-16T21:53:43Z",
       "admitReason": "notable",
-      "summaryEn": "A critical look at Anthropic's text watermarking mechanism in Claude.",
-      "summaryKo": "Claude의 텍스트 워터마킹 메커니즘을 비판적으로 다룬 글.",
-      "reasonEn": "825 upvotes within 27 days.",
-      "reasonKo": "27일 만에 825 업보트 기록.",
+      "summaryEn": "Critique of Anthropic's text watermarking mechanism in Claude as altering natural writing.",
+      "summaryKo": "자연스러운 글쓰기를 변질시킨다는 비판을 받는 Anthropic의 Claude 텍스트 워터마킹 기능에 대한 토론입니다.",
+      "reasonEn": "825 upvotes within 29 days.",
+      "reasonKo": "29일 내 825개 추천을 받았습니다.",
       "categories": [
         "ai-models"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-13T21:13:30.222Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "hn:49319556",
@@ -1529,16 +1532,16 @@
       "source": "hn",
       "publishedAt": "2026-08-16T12:48:21Z",
       "admitReason": "notable",
-      "summaryEn": "An overview of system prompts used within Claude.",
-      "summaryKo": "Claude 내부에서 사용되는 시스템 프롬프트 개요.",
-      "reasonEn": "762 upvotes within 28 days.",
-      "reasonKo": "28일 만에 762 업보트 기록.",
+      "summaryEn": "An overview and analysis of system prompts used by Claude.",
+      "summaryKo": "Claude에서 사용하는 시스템 프롬프트에 대한 개요 및 분석입니다.",
+      "reasonEn": "762 upvotes within 29 days.",
+      "reasonKo": "29일 내 762개 추천을 받았습니다.",
       "categories": [
         "ai-models"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "hn:49461817",
@@ -1554,16 +1557,16 @@
       "source": "hn",
       "publishedAt": "2026-08-27T08:59:49Z",
       "admitReason": "notable",
-      "summaryEn": "A Show HN project analyzing the recurrent vocabulary patterns in Claude's output.",
-      "summaryKo": "Claude 출력에서 반복되는 어휘 패턴을 분석한 Show HN 프로젝트.",
-      "reasonEn": "710 upvotes within 17 days.",
-      "reasonKo": "17일 만에 710 업보트 기록.",
+      "summaryEn": "An analysis of recurring vocabulary patterns and phrasing frequently used by Claude.",
+      "summaryKo": "Claude가 자주 사용하는 반복적인 어휘 패턴과 문구에 대한 분석입니다.",
+      "reasonEn": "710 upvotes within 18 days.",
+      "reasonKo": "18일 내 710개 추천을 받았습니다.",
       "categories": [
         "ai-models"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-11T21:29:44.686Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "hn:49554643",
@@ -1579,16 +1582,16 @@
       "source": "hn",
       "publishedAt": "2026-09-03T18:41:05Z",
       "admitReason": "notable",
-      "summaryEn": "Discussion regarding OpenAI's GPT-6 Astra release.",
-      "summaryKo": "OpenAI의 GPT-6 Astra 출시 관련 토론.",
-      "reasonEn": "2.2K upvotes within 10 days.",
-      "reasonKo": "10일 만에 2.2K 업보트 기록.",
+      "summaryEn": "Discussion regarding the capabilities and implications of GPT-6 Astra.",
+      "summaryKo": "GPT-6 Astra의 기능과 그 영향에 관한 토론입니다.",
+      "reasonEn": "2.3K upvotes within 11 days.",
+      "reasonKo": "11일 내 2.3천 개 추천을 받았습니다.",
       "categories": [
         "ai-models"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-11T21:29:44.686Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "hn:49373456",
@@ -1604,17 +1607,16 @@
       "source": "hn",
       "publishedAt": "2026-08-20T12:04:38Z",
       "admitReason": "notable",
-      "summaryEn": "A Show HN project featuring a 125M parameter model trained to autocomplete piano music on-device.",
-      "summaryKo": "디바이스 상에서 피아노 음악을 자동 완성하도록 학습된 125M 파라미터 모델을 소개하는 Show HN.",
-      "reasonEn": "598 upvotes within 24 days.",
-      "reasonKo": "24일 만에 598 업보트 기록.",
+      "summaryEn": "A lightweight 125M parameter model trained to autocomplete piano notes directly on-device.",
+      "summaryKo": "기기에서 직접 피아노 음을 자동완성하도록 학습된 경량 1억 2천 5백만 파라미터 모델입니다.",
+      "reasonEn": "598 upvotes within 25 days.",
+      "reasonKo": "25일 내 598개 추천을 받았습니다.",
       "categories": [
-        "ai-models",
-        "engineering"
+        "ai-models"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "hn:49624603",
@@ -1630,16 +1632,16 @@
       "source": "hn",
       "publishedAt": "2026-09-09T11:19:26Z",
       "admitReason": "notable",
-      "summaryEn": "DeepSeek launches v4.1 flash, positioned as cheaper and more capable than v4 pro.",
-      "summaryKo": "딥시크가 v4 프로보다 저렴하고 성능이 뛰어난 v4.1 플래시를 출시했습니다.",
-      "reasonEn": "417 upvotes within 4 days of posting.",
-      "reasonKo": "게시 후 4일 동안 417개의 추천을 받았습니다.",
+      "summaryEn": "DeepSeek launches the v4.1 flash model, claiming lower cost and higher capability than v4 pro.",
+      "summaryKo": "딥시크가 v4 프로보다 저렴하고 뛰어난 v4.1 플래시 모델을 출시합니다.",
+      "reasonEn": "417 upvotes within 5 days of launch",
+      "reasonKo": "5일 만에 417표 획득",
       "categories": [
         "ai-models"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-09T21:27:06.431Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "hn:49662371",
@@ -1649,47 +1651,392 @@
       "url": "https://mathandai.org/",
       "tags": [],
       "metrics": {
-        "upvotes": 1217,
-        "comments": 1200
+        "upvotes": 1229,
+        "comments": 1213
       },
       "source": "hn",
       "publishedAt": "2026-09-11T17:45:12Z",
       "admitReason": "notable",
-      "summaryEn": "An examination of misalignment issues when applying AI to mathematical reasoning.",
-      "summaryKo": "수학적 추론에 AI를 적용할 때 발생하는 정렬 오류 문제에 대한 조사입니다.",
-      "reasonEn": "1.2K upvotes within 2 days of posting.",
-      "reasonKo": "게시 후 2일 동안 1.2K개의 추천을 받았습니다.",
+      "summaryEn": "Discussion on the limitations and misalignments of AI systems applied to mathematics.",
+      "summaryKo": "수학에 적용된 AI 시스템의 한계와 정렬 문제에 대한 토론입니다.",
+      "reasonEn": "1.2K upvotes within 3 days of launch",
+      "reasonKo": "3일 만에 1200표 이상 획득",
       "categories": [
         "ai-models"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-12T21:08:18.614Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
-      "id": "hn:49407507",
+      "id": "hn:49656225",
       "type": "article",
-      "title": "I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes",
-      "summaryOriginal": "I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes",
-      "url": "https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/",
+      "title": "Claude is only available to people over 18 years",
+      "summaryOriginal": "Claude is only available to people over 18 years",
+      "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
       "tags": [],
       "metrics": {
-        "upvotes": 369,
-        "comments": 153
+        "upvotes": 673,
+        "comments": 667
       },
       "source": "hn",
-      "publishedAt": "2026-08-23T10:02:51Z",
+      "publishedAt": "2026-09-11T10:48:00Z",
       "admitReason": "notable",
-      "summaryEn": "Testing Qwen 3.8 27B on a complex reverse-engineering task with fast completion times.",
-      "summaryKo": "빠른 완료 시간으로 복잡한 리버스 엔지니어링 작업에서 Qwen 3.8 27B 테스트.",
-      "reasonEn": "369 upvotes within 21 days of publication",
-      "reasonKo": "게시 후 21일 내 369개 추천",
+      "summaryEn": "Anthropic restricts Claude access to users over 18 years old, impacting younger developers and students.",
+      "summaryKo": "앤스로픽이 클로드 사용 연령을 18세 이상으로 제한하여 어린 개발자와 학생들에게 영향을 줍니다.",
+      "reasonEn": "673 upvotes within 3 days of publication",
+      "reasonKo": "3일 만에 673개의 추천을 받음",
       "categories": [
         "ai-models"
       ],
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "firstSeenAt": "2026-09-14T22:13:48.779Z",
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
+    },
+    {
+      "id": "gh:Human-Agent-Society/reef",
+      "type": "repo",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "title": "Human-Agent-Society/reef",
+      "summaryEn": "Continual learning infrastructure built for self-improving AI agents.",
+      "summaryKo": "스스로 학습하고 발전하는 AI 에이전트를 위한 지속적 학습 인프라입니다.",
+      "summaryOriginal": "Continual learning infra for self-improving agents",
+      "reasonEn": "Interest in self-improving AI agent loops.",
+      "reasonKo": "자기 개선형 AI 에이전트 루프에 대한 관심",
+      "url": "https://github.com/Human-Agent-Society/reef",
+      "lang": "Python",
+      "tags": [
+        "agent-infrastructure",
+        "ai-agents",
+        "continual-learning",
+        "inference",
+        "llm",
+        "llm-training",
+        "reinforcement-learning",
+        "self-improving-agents"
+      ],
+      "metrics": {
+        "stars": 1197
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-31T01:39:18Z",
+      "updatedAt": "2026-09-13T20:38:29Z",
+      "firstSeenAt": "2026-09-02T22:54:08.675Z",
+      "lastSeenAt": "2026-09-13T21:13:30.222Z",
       "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "firstSeenAt": "2026-09-13T21:13:30.222Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "admitReason": "new"
+    },
+    {
+      "id": "gh:2akouwu/reverify",
+      "type": "repo",
+      "categories": [
+        "ai-models",
+        "ai-agents",
+        "devtools"
+      ],
+      "title": "2akouwu/reverify",
+      "summaryEn": "Verified reverse engineering tool combining AI with deterministic tool checks to prevent hallucinations.",
+      "summaryKo": "환각 방지를 위해 AI와 확정적 도구 검증을 결합한 검증된 리버스 엔지니어링 도구입니다.",
+      "summaryOriginal": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI.",
+      "reasonEn": "Combining AI with deterministic checks for binary analysis.",
+      "reasonKo": "바이너리 분석을 위해 AI와 확정적 검증 결합",
+      "url": "https://github.com/2akouwu/reverify",
+      "lang": "Python",
+      "tags": [
+        "ai",
+        "ai-agents",
+        "ai-coding",
+        "anti-hallucination",
+        "binary-analysis",
+        "context-engineering",
+        "ctf",
+        "developer-tools",
+        "disassembler",
+        "grounding",
+        "hallucination",
+        "hallucination-detection"
+      ],
+      "metrics": {
+        "stars": 1187
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-31T01:02:18Z",
+      "updatedAt": "2026-09-07T10:12:07Z",
+      "firstSeenAt": "2026-09-03T22:53:21.894Z",
+      "lastSeenAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "hf-paper:2609.09143",
+      "type": "paper",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "title": "Studying Image Tokenizers as Visual Languages in Unified Multimodal Models",
+      "summaryEn": "Studies how image tokenizers behave as visual languages when modeled jointly with text in unified multimodal models.",
+      "summaryKo": "통합 멀티모달 모델에서 이미지 토크나이저가 텍스트와 함께 시각 언어로 작동하는 방식을 분석합니다.",
+      "summaryOriginal": "Image tokenizers define the ``visual language'' of unified multimodal models, yet are commonly studied through isolated metrics or generation-/understanding-only evaluations. These evaluations do not fully capture how visual tokens behave when modeled jointly with text. We build a controlled pure-autoregressive testbed and track task-specific validation losses during multimodal continual pretrain…",
+      "reasonEn": "19 upvotes within 4 days",
+      "reasonKo": "4일 만에 19개 업vote",
+      "url": "https://huggingface.co/papers/2609.09143",
+      "tags": [],
+      "metrics": {
+        "upvotes": 28,
+        "comments": 2,
+        "githubStars": 0
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "firstSeenAt": "2026-09-12T21:08:18.614Z",
+      "lastSeenAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "hf-paper:2609.10745",
+      "type": "paper",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "title": "Think Before You Link: Rarity, Reasoning, and Retrieval in Multilingual Entity Linking",
+      "summaryEn": "Improves multilingual entity linking by using knowledge-graph structural metrics to better handle rare entities.",
+      "summaryKo": "지식 그래프 구조 지표를 활용해 희귀 엔티티 처리 능력을 개선한 다국어 엔티티 링킹 연구입니다.",
+      "summaryOriginal": "Multimodal entity linking grounds entity mentions in text and images to knowledge-base entries. These systems degrade on rare entities, but prior work measures rarity primarily through popularity-based metrics such as pageviews. We broaden this view using knowledge-graph structural metrics that capture how well an entity is documented and connected. These metrics identify many rare entities that…",
+      "reasonEn": "12 upvotes within 3 days",
+      "reasonKo": "3일 만에 12개 업vote",
+      "url": "https://huggingface.co/papers/2609.10745",
+      "tags": [],
+      "metrics": {
+        "upvotes": 22,
+        "comments": 2,
+        "githubStars": 2
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-09-09T00:00:00.000Z",
+      "firstSeenAt": "2026-09-12T21:08:18.614Z",
+      "lastSeenAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "hf-paper:2609.10445",
+      "type": "paper",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "title": "Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning",
+      "summaryEn": "Explores data mixing strategies to improve in-language reasoning capabilities of reasoning models beyond English.",
+      "summaryKo": "영어 중심의 추론 모델이 다른 언어에서도 잘 작동하도록 데이터 믹싱 전략을 탐구합니다.",
+      "summaryOriginal": "Reasoning language models have made substantial advances on a variety of complex tasks, yet their capabilities remain overwhelmingly English-centric: models primarily reason in English regardless of the language they are prompted in. This is inaccessible for non-English-speaking users, risks losing the intent of the original question, and forgoes knowledge more readily expressed in the target lan…",
+      "reasonEn": "16 upvotes within 3 days",
+      "reasonKo": "3일 만에 16개 업vote",
+      "url": "https://huggingface.co/papers/2609.10445",
+      "tags": [],
+      "metrics": {
+        "upvotes": 27,
+        "comments": 2
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-09-09T00:00:00.000Z",
+      "firstSeenAt": "2026-09-12T21:08:18.614Z",
+      "lastSeenAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "hf-paper:2608.15380",
+      "type": "paper",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "title": "Adaptive Bridge: A Proxy-Based Decoupling Layer for Mitigating DDS Backpressure in ROS 2",
+      "summaryEn": "Introduces a proxy decoupling layer for ROS 2 to mitigate DDS backpressure issues caused by throttled subscribers.",
+      "summaryKo": "제한된 구독자로 인한 DDS 배압 문제를 해결하기 위해 ROS 2용 프록시 디커플링 레이어를 도입합니다.",
+      "summaryOriginal": "In systems built on Robot Operating System 2 (ROS 2) and using Data Distribution Service (DDS), a single network-impaired or throttled subscriber on a RELIABLE topic can cause backpressure that degrades throughput and latency for all other subscribers, including safety-critical ones sharing the publisher, because the publisher's DDS writer can no longer accept new samples. We present Adaptive Bri…",
+      "reasonEn": "12 upvotes within 6 days",
+      "reasonKo": "6일 만에 12개 업vote",
+      "url": "https://huggingface.co/papers/2608.15380",
+      "tags": [],
+      "metrics": {
+        "upvotes": 23,
+        "comments": 3,
+        "githubStars": 0
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-09-06T00:00:00.000Z",
+      "firstSeenAt": "2026-09-12T21:08:18.614Z",
+      "lastSeenAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "hf-paper:2609.11085",
+      "type": "paper",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "title": "Beyond Solver Verdicts: Generative Reward Models for Autoformalization",
+      "summaryEn": "Addresses Verdict-Preserving-Unfaithfulness in neurosymbolic systems using generative reward models.",
+      "summaryKo": "생성 보상 모델을 사용하여 신경기호학 시스템의 판정 보존 불충실성 문제를 해결합니다.",
+      "summaryOriginal": "Neurosymbolic systems rely on mathematical solvers to guarantee reasoning correctness, yet solvers are fundamentally blind to whether a formal translation maintains strict reference-equivalence to a designated formalization. We formalize this vulnerability as Verdict-Preserving-Unfaithfulness (VPU): a failure mode where an incorrect encoding executes successfully and matches the expected verdict.…",
+      "reasonEn": "15 upvotes within 2 days",
+      "reasonKo": "2일 만에 15개 업vote",
+      "url": "https://huggingface.co/papers/2609.11085",
+      "tags": [],
+      "metrics": {
+        "upvotes": 33,
+        "comments": 2
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "firstSeenAt": "2026-09-12T21:08:18.614Z",
+      "lastSeenAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "hf-paper:2609.09076",
+      "type": "paper",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "title": "ActReview: Rebuttal-Guided Training Data and Rubric Rewards for Actionable Peer Review Generation",
+      "summaryEn": "Proposes ActReview, a framework using rebuttal-guided training data to generate actionable peer reviews with LLMs.",
+      "summaryKo": "LLM이 실행 가능한 피어 리뷰를 생성할 수 있도록 반박 기반 학습 데이터를 활용하는 프레임워크입니다.",
+      "summaryOriginal": "As LLMs are increasingly used for pre-submission self-review, there is growing demand for feedback that not only identifies weaknesses but also guides authors toward concrete revisions. We study this as Actionable Peer-review Generation and decompose it into two subtasks: diagnostic claim generation and revision suggestion generation. We introduce ActReview, a rebuttal-guided post-training framew…",
+      "reasonEn": "12 upvotes within 4 days",
+      "reasonKo": "4일 만에 12개 업vote",
+      "url": "https://huggingface.co/papers/2609.09076",
+      "tags": [],
+      "metrics": {
+        "upvotes": 23,
+        "comments": 2,
+        "githubStars": 0
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "firstSeenAt": "2026-09-12T21:08:18.614Z",
+      "lastSeenAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "hf-paper:2609.10539",
+      "type": "paper",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "title": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
+      "summaryEn": "Benchmarks implementation-critical gaps in research-idea specifications to help coding agents build intended methods.",
+      "summaryKo": "코딩 에이전트가 연구 아이디어를 구현할 때 발생하는 명세상의 간극을 벤치마킹합니다.",
+      "summaryOriginal": "A research idea may be novel, coherent, and scientifically plausible, yet its proposed method may remain insufficiently specified for faithful implementation. We study the codification readiness of implementation-facing research-method specifications, defined by whether they provide sufficient methodological information for a competent implementer or coding agent to construct the intended method…",
+      "reasonEn": "12 upvotes within 3 days",
+      "reasonKo": "3일 만에 12개 업vote",
+      "url": "https://huggingface.co/papers/2609.10539",
+      "tags": [],
+      "metrics": {
+        "upvotes": 23,
+        "comments": 2,
+        "githubStars": 1
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-09-09T00:00:00.000Z",
+      "firstSeenAt": "2026-09-12T21:08:18.614Z",
+      "lastSeenAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "hf-paper:2609.11561",
+      "type": "paper",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "title": "Memory as Plans: World-Action Modeling with Memory-Grounded Planning",
+      "summaryEn": "Proposes a memory-grounded planning framework for non-Markovian robotic manipulation tasks requiring long-horizon memory.",
+      "summaryKo": "장기 기억이 필요한 로봇 조작 작업을 위한 메모리 기반 계획 프레임워크를 제안합니다.",
+      "summaryOriginal": "Mainstream robotic policies often adopt a Markovian formulation, but many complex real-world manipulation tasks are inherently non-Markovian, requiring long-horizon memory beyond the current observation. Existing memory mechanisms often rely on language summaries, growing visual windows, or their combinations, and may therefore lose fine-grained visual evidence or face a trade-off between history…",
+      "reasonEn": "25 upvotes within 2 days",
+      "reasonKo": "2일 만에 25개 업vote",
+      "url": "https://huggingface.co/papers/2609.11561",
+      "tags": [],
+      "metrics": {
+        "upvotes": 38,
+        "comments": 2,
+        "githubStars": 8
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "firstSeenAt": "2026-09-12T21:08:18.614Z",
+      "lastSeenAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "hf-paper:2609.11699",
+      "type": "paper",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "title": "Negative Self-Distillation: Learning to Reason by Avoiding Flaws",
+      "summaryEn": "Analyzes negative self-distillation to prevent LLMs from degrading on complex reasoning tasks during self-improvement.",
+      "summaryKo": "자기 개선 과정에서 LLM의 복잡한 추론 능력 저하를 막기 위한 네거티브 셀프 증류를 분석합니다.",
+      "summaryOriginal": "On-Policy Self-Distillation (OPSD) has emerged as a popular paradigm for large language model (LLM) self-improvement, allowing models to act as their own teachers by leveraging privileged information such as ground-truth solutions. However, recent findings indicate that OPSD can severely degrade the performance of LLMs on complex reasoning tasks: By forcing the student to imitate an artificially…",
+      "reasonEn": "17 upvotes within 2 days",
+      "reasonKo": "2일 만에 17개 업vote",
+      "url": "https://huggingface.co/papers/2609.11699",
+      "tags": [],
+      "metrics": {
+        "upvotes": 32,
+        "comments": 3,
+        "githubStars": 8
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "firstSeenAt": "2026-09-12T21:08:18.614Z",
+      "lastSeenAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "admitReason": "notable"
+    },
+    {
+      "id": "hf-paper:2609.11486",
+      "type": "paper",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "title": "FreeFlow: A Bias-free Hierarchical Transformer for Optical Flow Estimation",
+      "summaryEn": "Presents FreeFlow, a bias-free hierarchical transformer for optical flow estimation without predefined heuristics.",
+      "summaryKo": "사전 정의된 휴리스틱 없이 광학 흐름을 추정하는 바이어스 없는 계층형 트랜스포머입니다.",
+      "summaryOriginal": "Optical flow methods typically rely on task-specific inductive biases, such as correlation volumes, feature warping, and iterative refinement, among others, to reach high accuracy. While effective, such biases constrain the model to predefined heuristics, which can limit its expressivity and lead to more complex pipelines and additional computational cost. We present FreeFlow, a hierarchical tran…",
+      "reasonEn": "22 upvotes within 2 days",
+      "reasonKo": "2일 만에 22개 업vote",
+      "url": "https://huggingface.co/papers/2609.11486",
+      "tags": [],
+      "metrics": {
+        "upvotes": 34,
+        "comments": 2,
+        "githubStars": 14
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "firstSeenAt": "2026-09-12T21:08:18.614Z",
+      "lastSeenAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "admitReason": "notable"
     },
     {
       "id": "gh:Shubhamsaboo/awesome-llm-apps",
@@ -1708,51 +2055,14 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 137576,
-        "starsDelta": 237
+        "stars": 138168
       },
       "source": "github-trending",
       "firstSeenAt": "2026-08-25T12:50:44.870Z",
       "lastSeenAt": "2026-09-12T21:08:18.614Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
-      "admitReason": "trending"
-    },
-    {
-      "id": "gh:elie222/rakazo",
-      "type": "repo",
-      "categories": [
-        "ai-models",
-        "ai-agents",
-        "web",
-        "infra"
-      ],
-      "title": "elie222/rakazo",
-      "summaryEn": "Open-source alternative to Grok's coding bot — pick your own model and sandbox.",
-      "summaryKo": "Grok 봇의 오픈소스 대안, 모델과 샌드박스를 직접 선택",
-      "summaryOriginal": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
-      "url": "https://github.com/elie222/rakazo",
-      "lang": "TypeScript",
-      "tags": [
-        "ai-agents",
-        "chatgpt",
-        "docker",
-        "electron",
-        "expo",
-        "grok",
-        "llm",
-        "self-hosted",
-        "typescript"
-      ],
-      "metrics": {
-        "stars": 2343
-      },
-      "source": "github-search",
-      "publishedAt": "2026-08-13T06:28:56Z",
-      "updatedAt": "2026-09-12T19:27:58Z",
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-12T21:08:18.614Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
-      "admitReason": "notable"
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "admitReason": "trending",
+      "updatedAt": "2026-09-14T08:06:38Z"
     },
     {
       "id": "gh:Sahir619/fable-method",
@@ -1818,17 +2128,17 @@
         "conversational"
       ],
       "metrics": {
-        "likes": 4005,
-        "downloads": 11005880,
+        "likes": 4095,
+        "downloads": 10077938,
         "trendingScore": 340
       },
       "source": "hf-models",
       "publishedAt": "2026-08-13T08:28:40.000Z",
+      "updatedAt": "2026-08-20T12:04:25.000Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-12T21:08:18.614Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "admitReason": "trending",
-      "updatedAt": "2026-08-20T12:04:25.000Z"
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "admitReason": "trending"
     },
     {
       "id": "gh:nashsu/llm_wiki",
@@ -1850,11 +2160,11 @@
         "stars": 19321
       },
       "source": "github-trending",
+      "updatedAt": "2026-08-25T06:42:02Z",
       "firstSeenAt": "2026-09-10T21:20:01.286Z",
       "lastSeenAt": "2026-09-11T21:29:44.686Z",
       "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "admitReason": "trending",
-      "updatedAt": "2026-08-25T06:42:02Z"
+      "admitReason": "trending"
     },
     {
       "id": "gh:HUANGCHIHHUNGLeo/claude-real-video",
@@ -2049,8 +2359,8 @@
         "moe"
       ],
       "metrics": {
-        "likes": 428,
-        "downloads": 30310,
+        "likes": 448,
+        "downloads": 30502,
         "trendingScore": 291
       },
       "source": "hf-models",
@@ -2058,7 +2368,7 @@
       "updatedAt": "2026-09-08T14:59:56.000Z",
       "firstSeenAt": "2026-09-11T21:29:44.686Z",
       "lastSeenAt": "2026-09-11T21:29:44.686Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -2079,13 +2389,13 @@
       "metrics": {
         "upvotes": 49,
         "comments": 2,
-        "githubStars": 46
+        "githubStars": 58
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "firstSeenAt": "2026-09-11T21:29:44.686Z",
       "lastSeenAt": "2026-09-11T21:29:44.686Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -2104,15 +2414,15 @@
       "url": "https://huggingface.co/papers/2609.11412",
       "tags": [],
       "metrics": {
-        "upvotes": 41,
+        "upvotes": 43,
         "comments": 1,
-        "githubStars": 9
+        "githubStars": 10
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "firstSeenAt": "2026-09-11T21:29:44.686Z",
       "lastSeenAt": "2026-09-11T21:29:44.686Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -2139,7 +2449,7 @@
       "publishedAt": "2026-09-05T00:00:00.000Z",
       "firstSeenAt": "2026-09-11T21:29:44.686Z",
       "lastSeenAt": "2026-09-11T21:29:44.686Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -2158,14 +2468,14 @@
       "url": "https://huggingface.co/papers/2609.10715",
       "tags": [],
       "metrics": {
-        "upvotes": 284,
+        "upvotes": 304,
         "comments": 1
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-09T00:00:00.000Z",
       "firstSeenAt": "2026-09-11T21:29:44.686Z",
       "lastSeenAt": "2026-09-11T21:29:44.686Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -2184,13 +2494,13 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 36229
+        "stars": 36548
       },
       "source": "github-trending",
-      "updatedAt": "2026-09-11T08:35:06Z",
+      "updatedAt": "2026-09-14T13:12:08Z",
       "firstSeenAt": "2026-09-10T21:20:01.286Z",
       "lastSeenAt": "2026-09-10T21:20:01.286Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -2220,14 +2530,14 @@
         "swift"
       ],
       "metrics": {
-        "stars": 349
+        "stars": 358
       },
       "source": "github-search",
       "publishedAt": "2026-08-28T06:42:21Z",
-      "updatedAt": "2026-09-11T18:51:42Z",
+      "updatedAt": "2026-09-14T20:42:53Z",
       "firstSeenAt": "2026-09-07T05:50:34.565Z",
       "lastSeenAt": "2026-09-10T21:20:01.286Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "new"
     },
     {
@@ -2258,8 +2568,8 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 773,
-        "downloads": 797832,
+        "likes": 789,
+        "downloads": 826017,
         "trendingScore": 320
       },
       "source": "hf-models",
@@ -2267,7 +2577,7 @@
       "updatedAt": "2026-09-02T15:44:59.000Z",
       "firstSeenAt": "2026-09-02T22:54:08.675Z",
       "lastSeenAt": "2026-09-10T21:20:01.286Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -2300,8 +2610,8 @@
         "qwen3_5"
       ],
       "metrics": {
-        "likes": 630,
-        "downloads": 750591,
+        "likes": 677,
+        "downloads": 875703,
         "trendingScore": 287
       },
       "source": "hf-models",
@@ -2309,7 +2619,7 @@
       "updatedAt": "2026-09-08T02:07:39.000Z",
       "firstSeenAt": "2026-09-07T21:51:32.810Z",
       "lastSeenAt": "2026-09-10T21:20:01.286Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -2328,14 +2638,14 @@
       "url": "https://huggingface.co/papers/2609.08572",
       "tags": [],
       "metrics": {
-        "upvotes": 93,
+        "upvotes": 94,
         "comments": 1
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "firstSeenAt": "2026-09-10T21:20:01.286Z",
       "lastSeenAt": "2026-09-10T21:20:01.286Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -2354,14 +2664,14 @@
       "url": "https://huggingface.co/papers/2609.08149",
       "tags": [],
       "metrics": {
-        "upvotes": 25,
+        "upvotes": 27,
         "comments": 3
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "firstSeenAt": "2026-09-10T21:20:01.286Z",
       "lastSeenAt": "2026-09-10T21:20:01.286Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -2380,15 +2690,15 @@
       "url": "https://huggingface.co/papers/2609.09155",
       "tags": [],
       "metrics": {
-        "upvotes": 16,
+        "upvotes": 17,
         "comments": 1,
-        "githubStars": 19
+        "githubStars": 20
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "firstSeenAt": "2026-09-10T21:20:01.286Z",
       "lastSeenAt": "2026-09-10T21:20:01.286Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -2407,15 +2717,15 @@
       "url": "https://huggingface.co/papers/2609.05405",
       "tags": [],
       "metrics": {
-        "upvotes": 38,
+        "upvotes": 41,
         "comments": 1,
-        "githubStars": 15
+        "githubStars": 17
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-04T00:00:00.000Z",
       "firstSeenAt": "2026-09-10T21:20:01.286Z",
       "lastSeenAt": "2026-09-10T21:20:01.286Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -2436,40 +2746,14 @@
       "metrics": {
         "upvotes": 20,
         "comments": 1,
-        "githubStars": 16
+        "githubStars": 17
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "firstSeenAt": "2026-09-10T21:20:01.286Z",
       "lastSeenAt": "2026-09-10T21:20:01.286Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
-    },
-    {
-      "id": "gh:TauricResearch/TradingAgents",
-      "type": "repo",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "TauricResearch/TradingAgents",
-      "summaryEn": "Multi-agent LLM financial trading framework, helping developers build automated trading systems with AI agents.",
-      "summaryKo": "멀티 에이전트 LLM 금융 트레이딩 프레임워크로, AI 기반 자동화 시스템 구축을 돕습니다.",
-      "summaryOriginal": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "reasonEn": "High daily star growth and interest in AI finance",
-      "reasonKo": "AI 금융 분야 관심 증가로 스타 급증",
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "stars": 105294
-      },
-      "source": "github-trending",
-      "updatedAt": "2026-09-07T22:51:54Z",
-      "firstSeenAt": "2026-08-25T12:50:44.870Z",
-      "lastSeenAt": "2026-09-09T21:27:06.431Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "admitReason": "trending"
     },
     {
       "id": "gh:openai/plugins",
@@ -2636,8 +2920,8 @@
         "en"
       ],
       "metrics": {
-        "likes": 5925,
-        "downloads": 252928721,
+        "likes": 5965,
+        "downloads": 252806720,
         "trendingScore": 306
       },
       "source": "hf-models",
@@ -2645,7 +2929,7 @@
       "updatedAt": "2026-06-01T06:29:13.000Z",
       "firstSeenAt": "2026-09-09T21:27:06.431Z",
       "lastSeenAt": "2026-09-09T21:27:06.431Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -2678,8 +2962,8 @@
         "en"
       ],
       "metrics": {
-        "likes": 4030,
-        "downloads": 15158496,
+        "likes": 4075,
+        "downloads": 15182177,
         "trendingScore": 303
       },
       "source": "hf-models",
@@ -2687,7 +2971,7 @@
       "updatedAt": "2024-02-19T10:57:45.000Z",
       "firstSeenAt": "2026-09-09T21:27:06.431Z",
       "lastSeenAt": "2026-09-09T21:27:06.431Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -2708,13 +2992,13 @@
       "metrics": {
         "upvotes": 25,
         "comments": 1,
-        "githubStars": 3
+        "githubStars": 4
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-04T00:00:00.000Z",
       "firstSeenAt": "2026-09-09T21:27:06.431Z",
       "lastSeenAt": "2026-09-09T21:27:06.431Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -2741,7 +3025,7 @@
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "firstSeenAt": "2026-09-09T21:27:06.431Z",
       "lastSeenAt": "2026-09-09T21:27:06.431Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -2760,15 +3044,15 @@
       "url": "https://huggingface.co/papers/2609.07398",
       "tags": [],
       "metrics": {
-        "upvotes": 73,
+        "upvotes": 74,
         "comments": 1,
-        "githubStars": 597
+        "githubStars": 674
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-07T00:00:00.000Z",
       "firstSeenAt": "2026-09-09T21:27:06.431Z",
       "lastSeenAt": "2026-09-09T21:27:06.431Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -2787,14 +3071,14 @@
       "url": "https://huggingface.co/papers/2609.07821",
       "tags": [],
       "metrics": {
-        "upvotes": 16,
+        "upvotes": 18,
         "comments": 1
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-07T17:56:20.000Z",
       "firstSeenAt": "2026-09-09T21:27:06.431Z",
       "lastSeenAt": "2026-09-09T21:27:06.431Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -2813,15 +3097,15 @@
       "url": "https://huggingface.co/papers/2609.08084",
       "tags": [],
       "metrics": {
-        "upvotes": 64,
+        "upvotes": 68,
         "comments": 1,
-        "githubStars": 552
+        "githubStars": 631
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-08T00:00:00.000Z",
       "firstSeenAt": "2026-09-09T21:27:06.431Z",
       "lastSeenAt": "2026-09-09T21:27:06.431Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -2842,13 +3126,13 @@
       "metrics": {
         "upvotes": 18,
         "comments": 1,
-        "githubStars": 6
+        "githubStars": 8
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-07T00:00:00.000Z",
       "firstSeenAt": "2026-09-09T21:27:06.431Z",
       "lastSeenAt": "2026-09-09T21:27:06.431Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -2874,7 +3158,7 @@
       "publishedAt": "2026-09-07T00:00:00.000Z",
       "firstSeenAt": "2026-09-09T21:27:06.431Z",
       "lastSeenAt": "2026-09-09T21:27:06.431Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -2901,7 +3185,7 @@
       "publishedAt": "2026-09-05T00:00:00.000Z",
       "firstSeenAt": "2026-09-09T21:27:06.431Z",
       "lastSeenAt": "2026-09-09T21:27:06.431Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -2920,14 +3204,14 @@
       "url": "https://huggingface.co/papers/2609.07470",
       "tags": [],
       "metrics": {
-        "upvotes": 24,
+        "upvotes": 25,
         "comments": 1
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-07T00:00:00.000Z",
       "firstSeenAt": "2026-09-09T21:27:06.431Z",
       "lastSeenAt": "2026-09-09T21:27:06.431Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -2954,7 +3238,7 @@
       "publishedAt": "2026-09-07T00:00:00.000Z",
       "firstSeenAt": "2026-09-09T21:27:06.431Z",
       "lastSeenAt": "2026-09-09T21:27:06.431Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -2974,13 +3258,13 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 27000
+        "stars": 27184
       },
       "source": "github-trending",
       "updatedAt": "2026-09-08T20:35:26Z",
       "firstSeenAt": "2026-09-06T20:59:25.857Z",
       "lastSeenAt": "2026-09-08T21:31:48.079Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -2998,13 +3282,13 @@
       "url": "https://github.com/multica-ai/andrej-karpathy-skills",
       "tags": [],
       "metrics": {
-        "stars": 212590
+        "stars": 212983
       },
       "source": "github-trending",
       "updatedAt": "2026-04-20T10:05:04Z",
       "firstSeenAt": "2026-08-22T15:22:55.161Z",
       "lastSeenAt": "2026-09-08T21:31:48.079Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -3024,13 +3308,13 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 183190
+        "stars": 183978
       },
       "source": "github-trending",
-      "updatedAt": "2026-09-12T20:25:34Z",
+      "updatedAt": "2026-09-14T16:53:38Z",
       "firstSeenAt": "2026-09-07T21:51:32.810Z",
       "lastSeenAt": "2026-09-08T21:31:48.079Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -3061,14 +3345,14 @@
         "security-tools"
       ],
       "metrics": {
-        "stars": 358
+        "stars": 372
       },
       "source": "github-search",
       "publishedAt": "2026-08-26T04:57:19Z",
       "updatedAt": "2026-09-11T07:43:39Z",
       "firstSeenAt": "2026-08-29T02:56:27.939Z",
       "lastSeenAt": "2026-09-08T21:31:48.079Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "new"
     },
     {
@@ -3102,14 +3386,14 @@
         "llm"
       ],
       "metrics": {
-        "stars": 9884
+        "stars": 9946
       },
       "source": "github-search",
       "publishedAt": "2026-06-11T12:18:13Z",
-      "updatedAt": "2026-09-12T20:30:50Z",
+      "updatedAt": "2026-09-14T22:11:16Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-09-08T21:31:48.079Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3140,14 +3424,14 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 4130
+        "stars": 4201
       },
       "source": "github-search",
       "publishedAt": "2026-06-11T21:41:54Z",
-      "updatedAt": "2026-09-12T21:06:27Z",
+      "updatedAt": "2026-09-13T20:02:47Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-09-08T21:31:48.079Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3177,8 +3461,8 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 5161,
-        "downloads": 624390,
+        "likes": 5222,
+        "downloads": 645881,
         "trendingScore": 289
       },
       "source": "hf-models",
@@ -3186,7 +3470,7 @@
       "updatedAt": "2026-08-27T05:03:36.000Z",
       "firstSeenAt": "2026-08-26T12:55:17.882Z",
       "lastSeenAt": "2026-09-08T21:31:48.079Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -3216,8 +3500,8 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 893,
-        "downloads": 518558,
+        "likes": 901,
+        "downloads": 547463,
         "trendingScore": 271
       },
       "source": "hf-models",
@@ -3225,7 +3509,7 @@
       "updatedAt": "2026-09-01T09:22:10.000Z",
       "firstSeenAt": "2026-09-01T00:11:05.708Z",
       "lastSeenAt": "2026-09-08T21:31:48.079Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -3246,13 +3530,13 @@
       "metrics": {
         "upvotes": 47,
         "comments": 2,
-        "githubStars": 78
+        "githubStars": 79
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "firstSeenAt": "2026-09-08T21:31:48.079Z",
       "lastSeenAt": "2026-09-08T21:31:48.079Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3271,15 +3555,15 @@
       "url": "https://huggingface.co/papers/2609.04010",
       "tags": [],
       "metrics": {
-        "upvotes": 147,
+        "upvotes": 149,
         "comments": 6,
-        "githubStars": 69
+        "githubStars": 70
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "firstSeenAt": "2026-09-08T21:31:48.079Z",
       "lastSeenAt": "2026-09-08T21:31:48.079Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3305,7 +3589,7 @@
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "firstSeenAt": "2026-09-08T21:31:48.079Z",
       "lastSeenAt": "2026-09-08T21:31:48.079Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3326,13 +3610,13 @@
       "metrics": {
         "upvotes": 16,
         "comments": 1,
-        "githubStars": 43
+        "githubStars": 53
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "firstSeenAt": "2026-09-08T21:31:48.079Z",
       "lastSeenAt": "2026-09-08T21:31:48.079Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3359,7 +3643,7 @@
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "firstSeenAt": "2026-09-08T21:31:48.079Z",
       "lastSeenAt": "2026-09-08T21:31:48.079Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3378,15 +3662,15 @@
       "url": "https://huggingface.co/papers/2609.00365",
       "tags": [],
       "metrics": {
-        "upvotes": 179,
+        "upvotes": 180,
         "comments": 3,
-        "githubStars": 1099
+        "githubStars": 1117
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "firstSeenAt": "2026-09-08T21:31:48.079Z",
       "lastSeenAt": "2026-09-08T21:31:48.079Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3407,13 +3691,13 @@
       "metrics": {
         "upvotes": 17,
         "comments": 2,
-        "githubStars": 167
+        "githubStars": 194
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-04T00:00:00.000Z",
       "firstSeenAt": "2026-09-07T21:51:32.810Z",
       "lastSeenAt": "2026-09-08T21:31:48.079Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3440,7 +3724,7 @@
       "publishedAt": "2026-09-04T00:00:00.000Z",
       "firstSeenAt": "2026-09-07T21:51:32.810Z",
       "lastSeenAt": "2026-09-08T21:31:48.079Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3495,8 +3779,8 @@
         "fp8"
       ],
       "metrics": {
-        "likes": 2302,
-        "downloads": 1576209,
+        "likes": 2332,
+        "downloads": 1770038,
         "trendingScore": 266
       },
       "source": "hf-models",
@@ -3504,7 +3788,7 @@
       "updatedAt": "2026-09-07T12:13:47.000Z",
       "firstSeenAt": "2026-08-26T16:19:00.899Z",
       "lastSeenAt": "2026-09-07T21:51:32.810Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -3531,7 +3815,7 @@
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "firstSeenAt": "2026-09-07T21:51:32.810Z",
       "lastSeenAt": "2026-09-07T21:51:32.810Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3550,7 +3834,7 @@
       "url": "https://huggingface.co/papers/2609.03586",
       "tags": [],
       "metrics": {
-        "upvotes": 41,
+        "upvotes": 42,
         "comments": 2,
         "githubStars": 5
       },
@@ -3558,7 +3842,7 @@
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "firstSeenAt": "2026-09-07T21:51:32.810Z",
       "lastSeenAt": "2026-09-07T21:51:32.810Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3585,7 +3869,7 @@
       "publishedAt": "2026-09-01T02:21:28.000Z",
       "firstSeenAt": "2026-09-07T21:51:32.810Z",
       "lastSeenAt": "2026-09-07T21:51:32.810Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3606,13 +3890,13 @@
       "metrics": {
         "upvotes": 21,
         "comments": 2,
-        "githubStars": 6
+        "githubStars": 7
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-04T00:00:00.000Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-09-07T21:51:32.810Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3633,13 +3917,13 @@
       "metrics": {
         "upvotes": 42,
         "comments": 1,
-        "githubStars": 22
+        "githubStars": 23
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-28T00:00:00.000Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-09-07T21:51:32.810Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3697,8 +3981,8 @@
         "fp8"
       ],
       "metrics": {
-        "likes": 1823,
-        "downloads": 668988,
+        "likes": 1831,
+        "downloads": 712553,
         "trendingScore": 275
       },
       "source": "hf-models",
@@ -3706,7 +3990,7 @@
       "updatedAt": "2026-09-04T06:41:23.000Z",
       "firstSeenAt": "2026-08-29T02:56:27.939Z",
       "lastSeenAt": "2026-09-07T05:50:34.565Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -3727,13 +4011,13 @@
       "metrics": {
         "upvotes": 27,
         "comments": 0,
-        "githubStars": 183
+        "githubStars": 204
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-04T00:00:00.000Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-09-07T05:50:34.565Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3752,15 +4036,15 @@
       "url": "https://huggingface.co/papers/2609.04304",
       "tags": [],
       "metrics": {
-        "upvotes": 68,
+        "upvotes": 69,
         "comments": 3,
-        "githubStars": 49
+        "githubStars": 65
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-09-07T05:50:34.565Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3777,15 +4061,15 @@
       "url": "https://huggingface.co/papers/2609.03199",
       "tags": [],
       "metrics": {
-        "upvotes": 121,
+        "upvotes": 122,
         "comments": 3,
-        "githubStars": 43
+        "githubStars": 44
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "firstSeenAt": "2026-09-05T20:52:55.871Z",
       "lastSeenAt": "2026-09-07T05:50:34.565Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3810,7 +4094,7 @@
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "firstSeenAt": "2026-09-06T20:59:25.857Z",
       "lastSeenAt": "2026-09-07T05:50:34.565Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3827,14 +4111,14 @@
       "url": "https://huggingface.co/papers/2609.03153",
       "tags": [],
       "metrics": {
-        "upvotes": 13,
+        "upvotes": 14,
         "comments": 2
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "firstSeenAt": "2026-09-05T20:52:55.871Z",
       "lastSeenAt": "2026-09-07T05:50:34.565Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3859,7 +4143,7 @@
       "publishedAt": "2026-08-29T00:00:00.000Z",
       "firstSeenAt": "2026-09-06T20:59:25.857Z",
       "lastSeenAt": "2026-09-07T05:50:34.565Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3886,7 +4170,7 @@
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "firstSeenAt": "2026-09-04T21:10:24.767Z",
       "lastSeenAt": "2026-09-07T05:50:34.565Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3905,7 +4189,7 @@
       "url": "https://huggingface.co/papers/2609.04173",
       "tags": [],
       "metrics": {
-        "upvotes": 39,
+        "upvotes": 40,
         "comments": 2,
         "githubStars": 53
       },
@@ -3913,7 +4197,7 @@
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "firstSeenAt": "2026-09-04T21:10:24.767Z",
       "lastSeenAt": "2026-09-07T05:50:34.565Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3980,14 +4264,14 @@
         "nous-research"
       ],
       "metrics": {
-        "stars": 244872
+        "stars": 245481
       },
       "source": "github-search",
       "publishedAt": "2025-07-22T22:22:28Z",
-      "updatedAt": "2026-09-12T21:08:33Z",
+      "updatedAt": "2026-09-14T22:15:35Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -4017,14 +4301,14 @@
         "python"
       ],
       "metrics": {
-        "stars": 187286
+        "stars": 187337
       },
       "source": "github-search",
       "publishedAt": "2023-03-16T09:21:07Z",
-      "updatedAt": "2026-09-12T19:12:34Z",
+      "updatedAt": "2026-09-14T22:06:51Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -4054,14 +4338,14 @@
         "minimax"
       ],
       "metrics": {
-        "stars": 180752
+        "stars": 180945
       },
       "source": "github-search",
       "publishedAt": "2023-06-26T19:39:32Z",
-      "updatedAt": "2026-09-11T21:44:45Z",
+      "updatedAt": "2026-09-14T20:34:47Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -4086,7 +4370,7 @@
       "publishedAt": "2026-08-29T00:00:00.000Z",
       "firstSeenAt": "2026-09-05T20:52:55.871Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -4111,7 +4395,7 @@
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "firstSeenAt": "2026-09-05T20:52:55.871Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -4138,7 +4422,7 @@
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "firstSeenAt": "2026-09-04T21:10:24.767Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -4159,13 +4443,13 @@
       "metrics": {
         "upvotes": 49,
         "comments": 2,
-        "githubStars": 64
+        "githubStars": 65
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "firstSeenAt": "2026-09-04T21:10:24.767Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -4220,7 +4504,7 @@
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "firstSeenAt": "2026-09-05T20:52:55.871Z",
       "lastSeenAt": "2026-09-05T20:52:55.871Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -4241,13 +4525,13 @@
       "metrics": {
         "upvotes": 383,
         "comments": 3,
-        "githubStars": 14
+        "githubStars": 15
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "firstSeenAt": "2026-09-04T21:10:24.767Z",
       "lastSeenAt": "2026-09-05T20:52:55.871Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -4333,7 +4617,7 @@
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "firstSeenAt": "2026-09-04T21:10:24.767Z",
       "lastSeenAt": "2026-09-04T21:10:24.767Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -4359,7 +4643,7 @@
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "firstSeenAt": "2026-09-04T21:10:24.767Z",
       "lastSeenAt": "2026-09-04T21:10:24.767Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -4378,14 +4662,14 @@
       "url": "https://huggingface.co/papers/2609.04196",
       "tags": [],
       "metrics": {
-        "upvotes": 68,
+        "upvotes": 69,
         "comments": 2
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "firstSeenAt": "2026-09-04T21:10:24.767Z",
       "lastSeenAt": "2026-09-04T21:10:24.767Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -4411,7 +4695,7 @@
       "publishedAt": "2026-09-03T00:00:00.000Z",
       "firstSeenAt": "2026-09-04T21:10:24.767Z",
       "lastSeenAt": "2026-09-04T21:10:24.767Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -4437,7 +4721,7 @@
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "firstSeenAt": "2026-09-04T21:10:24.767Z",
       "lastSeenAt": "2026-09-04T21:10:24.767Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -4494,14 +4778,14 @@
         "nextjs"
       ],
       "metrics": {
-        "stars": 170128
+        "stars": 170339
       },
       "source": "github-search",
       "publishedAt": "2022-12-05T13:54:13Z",
       "updatedAt": "2026-09-09T10:27:05Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-03T22:53:21.894Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -4607,8 +4891,8 @@
         "eval-results"
       ],
       "metrics": {
-        "likes": 473,
-        "downloads": 9521,
+        "likes": 476,
+        "downloads": 10147,
         "trendingScore": 402
       },
       "source": "hf-models",
@@ -4616,7 +4900,7 @@
       "updatedAt": "2026-08-28T14:58:32.000Z",
       "firstSeenAt": "2026-08-29T22:55:06.972Z",
       "lastSeenAt": "2026-09-03T22:53:21.894Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -4644,8 +4928,8 @@
         "conversational"
       ],
       "metrics": {
-        "likes": 919,
-        "downloads": 1211625,
+        "likes": 936,
+        "downloads": 1256828,
         "trendingScore": 284
       },
       "source": "hf-models",
@@ -4653,7 +4937,7 @@
       "updatedAt": "2026-09-02T14:02:41.000Z",
       "firstSeenAt": "2026-08-27T13:54:10.701Z",
       "lastSeenAt": "2026-09-03T22:53:21.894Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -4679,7 +4963,7 @@
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "firstSeenAt": "2026-09-03T22:53:21.894Z",
       "lastSeenAt": "2026-09-03T22:53:21.894Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -4705,7 +4989,7 @@
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "firstSeenAt": "2026-09-03T22:53:21.894Z",
       "lastSeenAt": "2026-09-03T22:53:21.894Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -4731,7 +5015,7 @@
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "firstSeenAt": "2026-09-03T22:53:21.894Z",
       "lastSeenAt": "2026-09-03T22:53:21.894Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -4757,7 +5041,7 @@
       "publishedAt": "2026-09-02T00:00:00.000Z",
       "firstSeenAt": "2026-09-03T22:53:21.894Z",
       "lastSeenAt": "2026-09-03T22:53:21.894Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -4784,7 +5068,7 @@
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "firstSeenAt": "2026-09-03T22:53:21.894Z",
       "lastSeenAt": "2026-09-03T22:53:21.894Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -4803,14 +5087,14 @@
       "url": "https://huggingface.co/papers/2609.01437",
       "tags": [],
       "metrics": {
-        "upvotes": 267,
+        "upvotes": 268,
         "comments": 2
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "firstSeenAt": "2026-09-03T22:53:21.894Z",
       "lastSeenAt": "2026-09-03T22:53:21.894Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -4836,34 +5120,8 @@
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "firstSeenAt": "2026-09-03T22:53:21.894Z",
       "lastSeenAt": "2026-09-03T22:53:21.894Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
-    },
-    {
-      "id": "gh:debpalash/VoiceStudio",
-      "type": "repo",
-      "categories": [
-        "ai-models",
-        "devtools"
-      ],
-      "title": "debpalash/VoiceStudio",
-      "summaryEn": "An open-source, fully-local ElevenLabs alternative for voice cloning, dubbing, and transcription in 646 languages.",
-      "summaryKo": "646개 언어의 음성 복제, 더빙, 전사를 지원하는 완전 로컬 오픈소스 ElevenLabs 대안입니다.",
-      "summaryOriginal": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "reasonEn": "Popular open-source local voice cloning tool.",
-      "reasonKo": "인기 있는 로컬 오픈소스 음성 복제 도구",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "stars": 26481
-      },
-      "source": "github-trending",
-      "updatedAt": "2026-09-11T05:50:20Z",
-      "firstSeenAt": "2026-09-02T22:54:08.675Z",
-      "lastSeenAt": "2026-09-02T22:54:08.675Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "admitReason": "trending"
     },
     {
       "id": "gh:superlinked/sie",
@@ -4908,14 +5166,14 @@
       "url": "https://huggingface.co/papers/2608.26623",
       "tags": [],
       "metrics": {
-        "upvotes": 20,
+        "upvotes": 21,
         "comments": 1
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "firstSeenAt": "2026-09-02T22:54:08.675Z",
       "lastSeenAt": "2026-09-02T22:54:08.675Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -4934,14 +5192,14 @@
       "url": "https://huggingface.co/papers/2609.01572",
       "tags": [],
       "metrics": {
-        "upvotes": 35,
+        "upvotes": 36,
         "comments": 2
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "firstSeenAt": "2026-09-02T22:54:08.675Z",
       "lastSeenAt": "2026-09-02T22:54:08.675Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -4960,14 +5218,14 @@
       "url": "https://huggingface.co/papers/2609.00768",
       "tags": [],
       "metrics": {
-        "upvotes": 22,
+        "upvotes": 23,
         "comments": 1
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "firstSeenAt": "2026-09-02T22:54:08.675Z",
       "lastSeenAt": "2026-09-02T22:54:08.675Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -4986,7 +5244,7 @@
       "url": "https://huggingface.co/papers/2609.00092",
       "tags": [],
       "metrics": {
-        "upvotes": 20,
+        "upvotes": 21,
         "comments": 1,
         "githubStars": 8
       },
@@ -4994,7 +5252,7 @@
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "firstSeenAt": "2026-09-02T22:54:08.675Z",
       "lastSeenAt": "2026-09-02T22:54:08.675Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -5020,7 +5278,7 @@
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "firstSeenAt": "2026-09-02T22:54:08.675Z",
       "lastSeenAt": "2026-09-02T22:54:08.675Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -5046,7 +5304,7 @@
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "firstSeenAt": "2026-09-02T22:54:08.675Z",
       "lastSeenAt": "2026-09-02T22:54:08.675Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -5065,14 +5323,14 @@
       "url": "https://huggingface.co/papers/2609.00111",
       "tags": [],
       "metrics": {
-        "upvotes": 383,
+        "upvotes": 384,
         "comments": 2
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "firstSeenAt": "2026-09-02T22:54:08.675Z",
       "lastSeenAt": "2026-09-02T22:54:08.675Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -5099,7 +5357,7 @@
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "firstSeenAt": "2026-09-02T22:54:08.675Z",
       "lastSeenAt": "2026-09-02T22:54:08.675Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -5120,13 +5378,13 @@
       "metrics": {
         "upvotes": 51,
         "comments": 2,
-        "githubStars": 270
+        "githubStars": 276
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "firstSeenAt": "2026-09-02T22:54:08.675Z",
       "lastSeenAt": "2026-09-02T22:54:08.675Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -5147,13 +5405,13 @@
       "metrics": {
         "upvotes": 488,
         "comments": 2,
-        "githubStars": 43
+        "githubStars": 44
       },
       "source": "hf-papers",
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "firstSeenAt": "2026-09-02T22:54:08.675Z",
       "lastSeenAt": "2026-09-02T22:54:08.675Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -5315,14 +5573,14 @@
         "langgraph"
       ],
       "metrics": {
-        "stars": 146197
+        "stars": 146329
       },
       "source": "github-search",
       "publishedAt": "2022-10-17T02:58:36Z",
-      "updatedAt": "2026-09-12T08:27:03Z",
+      "updatedAt": "2026-09-14T18:09:13Z",
       "firstSeenAt": "2026-09-01T22:53:39.547Z",
       "lastSeenAt": "2026-09-01T22:53:39.547Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -5393,14 +5651,14 @@
         "knowledge-graph"
       ],
       "metrics": {
-        "stars": 116224
+        "stars": 116719
       },
       "source": "github-search",
       "publishedAt": "2026-04-03T15:49:07Z",
-      "updatedAt": "2026-09-12T21:03:26Z",
+      "updatedAt": "2026-09-12T21:24:20Z",
       "firstSeenAt": "2026-09-01T22:53:39.547Z",
       "lastSeenAt": "2026-09-01T22:53:39.547Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -5433,8 +5691,8 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 405,
-        "downloads": 428518,
+        "likes": 408,
+        "downloads": 457926,
         "trendingScore": 318
       },
       "source": "hf-models",
@@ -5442,7 +5700,7 @@
       "updatedAt": "2026-09-06T06:55:24.000Z",
       "firstSeenAt": "2026-08-29T22:55:06.972Z",
       "lastSeenAt": "2026-09-01T22:53:39.547Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -5463,13 +5721,13 @@
       "metrics": {
         "upvotes": 101,
         "comments": 5,
-        "githubStars": 257
+        "githubStars": 273
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "firstSeenAt": "2026-09-01T22:53:39.547Z",
       "lastSeenAt": "2026-09-01T22:53:39.547Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -5496,7 +5754,7 @@
       "publishedAt": "2026-08-29T00:00:00.000Z",
       "firstSeenAt": "2026-09-01T22:53:39.547Z",
       "lastSeenAt": "2026-09-01T22:53:39.547Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -5523,7 +5781,7 @@
       "publishedAt": "2026-08-28T00:00:00.000Z",
       "firstSeenAt": "2026-09-01T22:53:39.547Z",
       "lastSeenAt": "2026-09-01T22:53:39.547Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -5544,13 +5802,13 @@
       "metrics": {
         "upvotes": 32,
         "comments": 1,
-        "githubStars": 559
+        "githubStars": 575
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "firstSeenAt": "2026-09-01T22:53:39.547Z",
       "lastSeenAt": "2026-09-01T22:53:39.547Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -5577,7 +5835,7 @@
       "publishedAt": "2026-08-31T00:00:00.000Z",
       "firstSeenAt": "2026-09-01T22:53:39.547Z",
       "lastSeenAt": "2026-09-01T22:53:39.547Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -5628,7 +5886,7 @@
       "publishedAt": "2026-08-28T00:00:00.000Z",
       "firstSeenAt": "2026-09-01T00:11:05.708Z",
       "lastSeenAt": "2026-09-01T00:11:05.708Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -5653,7 +5911,7 @@
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "firstSeenAt": "2026-09-01T00:11:05.708Z",
       "lastSeenAt": "2026-09-01T00:11:05.708Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -5672,13 +5930,13 @@
       "metrics": {
         "upvotes": 106,
         "comments": 2,
-        "githubStars": 133
+        "githubStars": 135
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-28T00:00:00.000Z",
       "firstSeenAt": "2026-09-01T00:11:05.708Z",
       "lastSeenAt": "2026-09-01T00:11:05.708Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -5703,7 +5961,7 @@
       "publishedAt": "2026-08-28T00:00:00.000Z",
       "firstSeenAt": "2026-09-01T00:11:05.708Z",
       "lastSeenAt": "2026-09-01T00:11:05.708Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -5727,7 +5985,7 @@
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "firstSeenAt": "2026-09-01T00:11:05.708Z",
       "lastSeenAt": "2026-09-01T00:11:05.708Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -5752,7 +6010,7 @@
       "publishedAt": "2026-08-28T00:00:00.000Z",
       "firstSeenAt": "2026-09-01T00:11:05.708Z",
       "lastSeenAt": "2026-09-01T00:11:05.708Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -5777,7 +6035,7 @@
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "firstSeenAt": "2026-09-01T00:11:05.708Z",
       "lastSeenAt": "2026-09-01T00:11:05.708Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -5801,7 +6059,7 @@
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "firstSeenAt": "2026-09-01T00:11:05.708Z",
       "lastSeenAt": "2026-09-01T00:11:05.708Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -5826,7 +6084,7 @@
       "publishedAt": "2026-08-28T00:00:00.000Z",
       "firstSeenAt": "2026-09-01T00:11:05.708Z",
       "lastSeenAt": "2026-09-01T00:11:05.708Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -5851,7 +6109,7 @@
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "firstSeenAt": "2026-09-01T00:11:05.708Z",
       "lastSeenAt": "2026-09-01T00:11:05.708Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6028,8 +6286,8 @@
         "text-generation"
       ],
       "metrics": {
-        "likes": 1185,
-        "downloads": 1220339,
+        "likes": 1202,
+        "downloads": 1244256,
         "trendingScore": 261
       },
       "source": "hf-models",
@@ -6037,7 +6295,7 @@
       "updatedAt": "2026-08-24T17:47:52.000Z",
       "firstSeenAt": "2026-08-21T12:51:22.781Z",
       "lastSeenAt": "2026-08-30T23:00:09.024Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -6061,7 +6319,7 @@
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "firstSeenAt": "2026-08-30T23:00:09.024Z",
       "lastSeenAt": "2026-08-30T23:00:09.024Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6087,7 +6345,7 @@
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "firstSeenAt": "2026-08-29T02:56:27.939Z",
       "lastSeenAt": "2026-08-30T23:00:09.024Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6113,7 +6371,7 @@
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "firstSeenAt": "2026-08-29T02:56:27.939Z",
       "lastSeenAt": "2026-08-30T23:00:09.024Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6134,13 +6392,13 @@
       "metrics": {
         "upvotes": 16,
         "comments": 2,
-        "githubStars": 210
+        "githubStars": 212
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "firstSeenAt": "2026-08-29T22:55:06.972Z",
       "lastSeenAt": "2026-08-30T23:00:09.024Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6161,13 +6419,13 @@
       "metrics": {
         "upvotes": 48,
         "comments": 2,
-        "githubStars": 36
+        "githubStars": 39
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "firstSeenAt": "2026-08-29T02:56:27.939Z",
       "lastSeenAt": "2026-08-30T23:00:09.024Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6194,7 +6452,7 @@
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "firstSeenAt": "2026-08-29T02:56:27.939Z",
       "lastSeenAt": "2026-08-30T23:00:09.024Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6221,7 +6479,7 @@
       "publishedAt": "2026-08-22T00:00:00.000Z",
       "firstSeenAt": "2026-08-28T03:07:04.913Z",
       "lastSeenAt": "2026-08-30T23:00:09.024Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6248,7 +6506,7 @@
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "firstSeenAt": "2026-08-29T02:56:27.939Z",
       "lastSeenAt": "2026-08-30T23:00:09.024Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6275,7 +6533,7 @@
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "firstSeenAt": "2026-08-29T02:56:27.939Z",
       "lastSeenAt": "2026-08-30T23:00:09.024Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6296,13 +6554,13 @@
       "metrics": {
         "upvotes": 26,
         "comments": 2,
-        "githubStars": 315
+        "githubStars": 323
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "firstSeenAt": "2026-08-29T02:56:27.939Z",
       "lastSeenAt": "2026-08-30T23:00:09.024Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6336,14 +6594,14 @@
         "mcp"
       ],
       "metrics": {
-        "stars": 54360
+        "stars": 54574
       },
       "source": "github-search",
       "publishedAt": "2026-03-18T18:38:02Z",
       "updatedAt": "2026-09-07T11:42:35Z",
       "firstSeenAt": "2026-08-24T12:53:33.595Z",
       "lastSeenAt": "2026-08-29T22:55:06.972Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6369,7 +6627,7 @@
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "firstSeenAt": "2026-08-29T22:55:06.972Z",
       "lastSeenAt": "2026-08-29T22:55:06.972Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6426,8 +6684,8 @@
         "vllm"
       ],
       "metrics": {
-        "likes": 1579,
-        "downloads": 462257,
+        "likes": 1601,
+        "downloads": 467261,
         "trendingScore": 289
       },
       "source": "hf-models",
@@ -6435,7 +6693,7 @@
       "updatedAt": "2026-08-27T13:54:19.000Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-29T02:56:27.939Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -6465,8 +6723,8 @@
         "8-bit"
       ],
       "metrics": {
-        "likes": 1361,
-        "downloads": 165931,
+        "likes": 1371,
+        "downloads": 168766,
         "trendingScore": 286
       },
       "source": "hf-models",
@@ -6474,7 +6732,7 @@
       "updatedAt": "2026-08-27T13:54:41.000Z",
       "firstSeenAt": "2026-08-19T15:33:13.943Z",
       "lastSeenAt": "2026-08-29T02:56:27.939Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -6500,7 +6758,7 @@
       "publishedAt": "2026-08-27T00:00:00.000Z",
       "firstSeenAt": "2026-08-29T02:56:27.939Z",
       "lastSeenAt": "2026-08-29T02:56:27.939Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6531,8 +6789,8 @@
         "multilingual"
       ],
       "metrics": {
-        "likes": 1146,
-        "downloads": 2157412,
+        "likes": 1171,
+        "downloads": 2224663,
         "trendingScore": 280
       },
       "source": "hf-models",
@@ -6540,7 +6798,7 @@
       "updatedAt": "2026-08-17T22:02:10.000Z",
       "firstSeenAt": "2026-08-21T01:23:34.400Z",
       "lastSeenAt": "2026-08-28T03:07:04.913Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -6559,13 +6817,13 @@
       "metrics": {
         "upvotes": 15,
         "comments": 1,
-        "githubStars": 49
+        "githubStars": 50
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "firstSeenAt": "2026-08-27T13:54:10.701Z",
       "lastSeenAt": "2026-08-28T03:07:04.913Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6589,7 +6847,7 @@
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "firstSeenAt": "2026-08-27T13:54:10.701Z",
       "lastSeenAt": "2026-08-28T00:16:59.828Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6613,7 +6871,7 @@
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "firstSeenAt": "2026-08-27T13:54:10.701Z",
       "lastSeenAt": "2026-08-28T00:16:59.828Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6632,13 +6890,13 @@
       "metrics": {
         "upvotes": 19,
         "comments": 1,
-        "githubStars": 2028
+        "githubStars": 2029
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "firstSeenAt": "2026-08-27T13:54:10.701Z",
       "lastSeenAt": "2026-08-28T00:16:59.828Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6663,7 +6921,7 @@
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "firstSeenAt": "2026-08-27T13:54:10.701Z",
       "lastSeenAt": "2026-08-28T00:16:59.828Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6687,7 +6945,7 @@
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "firstSeenAt": "2026-08-27T13:54:10.701Z",
       "lastSeenAt": "2026-08-28T00:16:59.828Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6704,15 +6962,15 @@
       "url": "https://huggingface.co/papers/2608.26005",
       "tags": [],
       "metrics": {
-        "upvotes": 179,
+        "upvotes": 180,
         "comments": 1,
-        "githubStars": 1516
+        "githubStars": 1619
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "firstSeenAt": "2026-08-27T13:54:10.701Z",
       "lastSeenAt": "2026-08-28T00:16:59.828Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6737,7 +6995,7 @@
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "firstSeenAt": "2026-08-27T13:54:10.701Z",
       "lastSeenAt": "2026-08-28T00:16:59.828Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6827,13 +7085,13 @@
       "metrics": {
         "upvotes": 20,
         "comments": 1,
-        "githubStars": 231
+        "githubStars": 227
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-26T00:00:00.000Z",
       "firstSeenAt": "2026-08-27T13:54:10.701Z",
       "lastSeenAt": "2026-08-27T13:54:10.701Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6852,13 +7110,13 @@
       "metrics": {
         "upvotes": 23,
         "comments": 1,
-        "githubStars": 77
+        "githubStars": 79
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "firstSeenAt": "2026-08-27T13:54:10.701Z",
       "lastSeenAt": "2026-08-27T13:54:10.701Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6887,14 +7145,14 @@
         "python"
       ],
       "metrics": {
-        "stars": 114359
+        "stars": 114617
       },
       "source": "github-search",
       "publishedAt": "2024-10-31T16:00:56Z",
-      "updatedAt": "2026-09-12T07:39:39Z",
+      "updatedAt": "2026-09-13T20:04:16Z",
       "firstSeenAt": "2026-08-26T12:55:17.882Z",
       "lastSeenAt": "2026-08-27T00:31:31.641Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6923,8 +7181,8 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 593,
-        "downloads": 349556,
+        "likes": 606,
+        "downloads": 359808,
         "trendingScore": 341
       },
       "source": "hf-models",
@@ -6932,7 +7190,7 @@
       "updatedAt": "2026-08-23T03:17:39.000Z",
       "firstSeenAt": "2026-08-22T12:41:49.365Z",
       "lastSeenAt": "2026-08-27T00:31:31.641Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -6951,13 +7209,13 @@
       "metrics": {
         "upvotes": 41,
         "comments": 1,
-        "githubStars": 8
+        "githubStars": 9
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "firstSeenAt": "2026-08-26T16:19:00.899Z",
       "lastSeenAt": "2026-08-27T00:31:31.641Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -6976,13 +7234,13 @@
       "metrics": {
         "upvotes": 103,
         "comments": 2,
-        "githubStars": 2645
+        "githubStars": 2647
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-16T00:00:00.000Z",
       "firstSeenAt": "2026-08-26T16:19:00.899Z",
       "lastSeenAt": "2026-08-27T00:31:31.641Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7008,7 +7266,7 @@
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "firstSeenAt": "2026-08-26T12:55:17.882Z",
       "lastSeenAt": "2026-08-27T00:31:31.641Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7029,13 +7287,13 @@
       "metrics": {
         "upvotes": 111,
         "comments": 1,
-        "githubStars": 152
+        "githubStars": 154
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "firstSeenAt": "2026-08-26T06:52:39.327Z",
       "lastSeenAt": "2026-08-27T00:31:31.641Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7054,13 +7312,13 @@
       "metrics": {
         "upvotes": 70,
         "comments": 1,
-        "githubStars": 1559
+        "githubStars": 1578
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "firstSeenAt": "2026-08-26T03:54:34.919Z",
       "lastSeenAt": "2026-08-27T00:31:31.641Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7085,7 +7343,7 @@
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "firstSeenAt": "2026-08-26T09:43:03.049Z",
       "lastSeenAt": "2026-08-27T00:31:31.641Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7110,7 +7368,7 @@
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "firstSeenAt": "2026-08-26T16:19:00.899Z",
       "lastSeenAt": "2026-08-27T00:31:31.641Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7167,13 +7425,13 @@
       "metrics": {
         "upvotes": 64,
         "comments": 1,
-        "githubStars": 220
+        "githubStars": 221
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "firstSeenAt": "2026-08-26T03:54:34.919Z",
       "lastSeenAt": "2026-08-26T19:50:13.055Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7192,13 +7450,13 @@
       "metrics": {
         "upvotes": 69,
         "comments": 1,
-        "githubStars": 396
+        "githubStars": 405
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "firstSeenAt": "2026-08-26T03:54:34.919Z",
       "lastSeenAt": "2026-08-26T16:19:00.899Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7217,13 +7475,13 @@
       "metrics": {
         "upvotes": 30,
         "comments": 1,
-        "githubStars": 190
+        "githubStars": 193
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "firstSeenAt": "2026-08-26T03:54:34.919Z",
       "lastSeenAt": "2026-08-26T16:19:00.899Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7251,8 +7509,8 @@
         "conversational"
       ],
       "metrics": {
-        "likes": 406,
-        "downloads": 4030977,
+        "likes": 415,
+        "downloads": 4149809,
         "trendingScore": 290
       },
       "source": "hf-models",
@@ -7260,7 +7518,7 @@
       "updatedAt": "2026-08-24T03:43:47.000Z",
       "firstSeenAt": "2026-08-25T18:41:21.378Z",
       "lastSeenAt": "2026-08-26T12:55:17.882Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -7284,7 +7542,7 @@
       "publishedAt": "2026-08-15T00:00:00.000Z",
       "firstSeenAt": "2026-08-26T03:54:34.919Z",
       "lastSeenAt": "2026-08-26T12:55:17.882Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7308,7 +7566,7 @@
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "firstSeenAt": "2026-08-26T01:24:24.696Z",
       "lastSeenAt": "2026-08-26T12:55:17.882Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7341,8 +7599,8 @@
         "audio-to-audio-video"
       ],
       "metrics": {
-        "likes": 5234,
-        "downloads": 4819845,
+        "likes": 5289,
+        "downloads": 4827156,
         "trendingScore": 246
       },
       "source": "hf-models",
@@ -7350,7 +7608,7 @@
       "updatedAt": "2026-08-13T01:46:29.000Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-26T09:43:03.049Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -7380,8 +7638,8 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 1378,
-        "downloads": 22714,
+        "likes": 1381,
+        "downloads": 19376,
         "trendingScore": 253
       },
       "source": "hf-models",
@@ -7389,7 +7647,7 @@
       "updatedAt": "2026-08-14T10:51:40.000Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-26T03:54:34.919Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -7416,7 +7674,7 @@
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "firstSeenAt": "2026-08-25T12:50:44.870Z",
       "lastSeenAt": "2026-08-26T01:24:24.696Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7441,7 +7699,7 @@
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "firstSeenAt": "2026-08-25T09:36:47.621Z",
       "lastSeenAt": "2026-08-26T01:24:24.696Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7466,7 +7724,7 @@
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "firstSeenAt": "2026-08-25T09:36:47.621Z",
       "lastSeenAt": "2026-08-26T01:24:24.696Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7491,7 +7749,7 @@
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "firstSeenAt": "2026-08-25T06:51:09.551Z",
       "lastSeenAt": "2026-08-25T21:30:01.334Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7516,7 +7774,7 @@
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "firstSeenAt": "2026-08-25T06:51:09.551Z",
       "lastSeenAt": "2026-08-25T21:30:01.334Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7549,8 +7807,8 @@
         "base_model:Qwen/Qwen3.8-27B"
       ],
       "metrics": {
-        "likes": 1097,
-        "downloads": 2994589,
+        "likes": 1106,
+        "downloads": 2914886,
         "trendingScore": 274
       },
       "source": "hf-models",
@@ -7558,7 +7816,7 @@
       "updatedAt": "2026-08-29T04:18:18.000Z",
       "firstSeenAt": "2026-08-19T18:38:04.622Z",
       "lastSeenAt": "2026-08-25T15:43:44.793Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -7582,7 +7840,7 @@
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "firstSeenAt": "2026-08-25T06:51:09.551Z",
       "lastSeenAt": "2026-08-25T12:50:44.870Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7607,7 +7865,7 @@
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "firstSeenAt": "2026-08-25T06:51:09.551Z",
       "lastSeenAt": "2026-08-25T09:36:47.621Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7632,7 +7890,7 @@
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "firstSeenAt": "2026-08-25T06:51:09.551Z",
       "lastSeenAt": "2026-08-25T09:36:47.621Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7651,13 +7909,13 @@
       "metrics": {
         "upvotes": 52,
         "comments": 1,
-        "githubStars": 20654
+        "githubStars": 20776
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "firstSeenAt": "2026-08-25T06:51:09.551Z",
       "lastSeenAt": "2026-08-25T09:36:47.621Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7676,13 +7934,13 @@
       "metrics": {
         "upvotes": 207,
         "comments": 1,
-        "githubStars": 2793
+        "githubStars": 2914
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "firstSeenAt": "2026-08-25T03:50:28.986Z",
       "lastSeenAt": "2026-08-25T06:51:09.551Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7707,7 +7965,7 @@
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "firstSeenAt": "2026-08-25T03:50:28.986Z",
       "lastSeenAt": "2026-08-25T06:51:09.551Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7732,7 +7990,7 @@
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "firstSeenAt": "2026-08-25T03:50:28.986Z",
       "lastSeenAt": "2026-08-25T06:51:09.551Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7757,7 +8015,7 @@
       "publishedAt": "2026-08-18T00:00:00.000Z",
       "firstSeenAt": "2026-08-25T03:50:28.986Z",
       "lastSeenAt": "2026-08-25T06:51:09.551Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7784,7 +8042,7 @@
       "publishedAt": "2026-08-17T11:24:46.000Z",
       "firstSeenAt": "2026-08-24T12:53:33.595Z",
       "lastSeenAt": "2026-08-25T03:50:28.986Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7811,7 +8069,7 @@
       "publishedAt": "2026-08-09T00:00:00.000Z",
       "firstSeenAt": "2026-08-25T01:21:01.540Z",
       "lastSeenAt": "2026-08-25T03:50:28.986Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7835,7 +8093,7 @@
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "firstSeenAt": "2026-08-24T15:40:18.500Z",
       "lastSeenAt": "2026-08-25T01:21:01.540Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7861,7 +8119,7 @@
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "firstSeenAt": "2026-08-24T12:53:33.595Z",
       "lastSeenAt": "2026-08-25T01:21:01.540Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7887,7 +8145,7 @@
       "publishedAt": "2026-08-20T13:57:43.000Z",
       "firstSeenAt": "2026-08-24T07:01:43.353Z",
       "lastSeenAt": "2026-08-25T01:21:01.540Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7914,7 +8172,7 @@
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "firstSeenAt": "2026-08-24T07:01:43.353Z",
       "lastSeenAt": "2026-08-25T01:21:01.540Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7935,13 +8193,13 @@
       "metrics": {
         "upvotes": 63,
         "comments": 1,
-        "githubStars": 324
+        "githubStars": 327
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "firstSeenAt": "2026-08-24T07:01:43.353Z",
       "lastSeenAt": "2026-08-25T01:21:01.540Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -7962,13 +8220,13 @@
       "metrics": {
         "upvotes": 39,
         "comments": 0,
-        "githubStars": 31
+        "githubStars": 32
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-21T00:00:00.000Z",
       "firstSeenAt": "2026-08-24T09:44:13.228Z",
       "lastSeenAt": "2026-08-25T01:21:01.540Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -8069,7 +8327,7 @@
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "firstSeenAt": "2026-08-24T18:42:24.176Z",
       "lastSeenAt": "2026-08-24T23:36:24.421Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -8095,7 +8353,7 @@
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "firstSeenAt": "2026-08-23T06:43:06.551Z",
       "lastSeenAt": "2026-08-24T12:53:33.595Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -8113,13 +8371,13 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 132763
+        "stars": 133146
       },
       "source": "github-trending",
-      "updatedAt": "2026-09-12T20:58:30Z",
+      "updatedAt": "2026-09-14T22:15:39Z",
       "firstSeenAt": "2026-08-23T12:42:30.740Z",
       "lastSeenAt": "2026-08-24T09:50:01.036Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -8138,13 +8396,13 @@
       "metrics": {
         "upvotes": 16,
         "comments": 2,
-        "githubStars": 615
+        "githubStars": 618
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "firstSeenAt": "2026-08-23T09:29:14.266Z",
       "lastSeenAt": "2026-08-24T09:50:01.036Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -8171,7 +8429,7 @@
       "publishedAt": "2026-08-09T00:00:00.000Z",
       "firstSeenAt": "2026-08-22T18:33:05.265Z",
       "lastSeenAt": "2026-08-24T09:50:01.036Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -8195,7 +8453,7 @@
       "publishedAt": "2026-08-18T13:09:03.000Z",
       "firstSeenAt": "2026-08-22T01:19:03.673Z",
       "lastSeenAt": "2026-08-24T03:55:51.382Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -8220,7 +8478,7 @@
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "firstSeenAt": "2026-08-23T15:24:03.896Z",
       "lastSeenAt": "2026-08-24T03:55:51.382Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -8245,7 +8503,7 @@
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "firstSeenAt": "2026-08-21T09:38:23.718Z",
       "lastSeenAt": "2026-08-24T01:23:41.283Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -8270,7 +8528,7 @@
       "publishedAt": "2026-08-20T08:02:55.000Z",
       "firstSeenAt": "2026-08-22T01:19:03.673Z",
       "lastSeenAt": "2026-08-24T01:23:41.283Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -8294,7 +8552,7 @@
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "firstSeenAt": "2026-08-21T09:38:23.718Z",
       "lastSeenAt": "2026-08-24T01:23:41.283Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -8318,7 +8576,7 @@
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "firstSeenAt": "2026-08-21T15:35:08.741Z",
       "lastSeenAt": "2026-08-24T01:23:41.283Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -8342,7 +8600,7 @@
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "firstSeenAt": "2026-08-22T03:43:28.978Z",
       "lastSeenAt": "2026-08-24T01:23:41.283Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -8398,13 +8656,13 @@
       "metrics": {
         "upvotes": 83,
         "comments": 7,
-        "githubStars": 1293
+        "githubStars": 1298
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "firstSeenAt": "2026-08-21T03:40:04.140Z",
       "lastSeenAt": "2026-08-23T12:42:30.740Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -8424,13 +8682,13 @@
       "lang": "Go",
       "tags": [],
       "metrics": {
-        "stars": 41390
+        "stars": 41511
       },
       "source": "github-trending",
-      "updatedAt": "2026-09-13T16:54:23Z",
+      "updatedAt": "2026-09-14T17:55:54Z",
       "firstSeenAt": "2026-08-22T15:22:55.161Z",
       "lastSeenAt": "2026-08-23T09:29:14.266Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -8448,13 +8706,13 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 6257
+        "stars": 6272
       },
       "source": "github-trending",
-      "updatedAt": "2026-09-11T08:15:18Z",
+      "updatedAt": "2026-09-14T07:48:32Z",
       "firstSeenAt": "2026-08-20T12:53:13.611Z",
       "lastSeenAt": "2026-08-23T09:29:14.266Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -8479,14 +8737,14 @@
         "programming-language"
       ],
       "metrics": {
-        "stars": 29724
+        "stars": 29745
       },
       "source": "github-search",
       "publishedAt": "2023-04-28T22:17:24Z",
-      "updatedAt": "2026-09-13T06:24:44Z",
+      "updatedAt": "2026-09-14T22:09:21Z",
       "firstSeenAt": "2026-08-20T12:53:13.611Z",
       "lastSeenAt": "2026-08-23T09:29:14.266Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -8511,7 +8769,7 @@
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "firstSeenAt": "2026-08-21T03:40:04.140Z",
       "lastSeenAt": "2026-08-23T06:43:06.551Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -8575,14 +8833,14 @@
         "tensorflow"
       ],
       "metrics": {
-        "stars": 21841
+        "stars": 21851
       },
       "source": "github-search",
       "publishedAt": "2018-11-10T02:22:53Z",
-      "updatedAt": "2026-09-13T18:08:21Z",
+      "updatedAt": "2026-09-14T22:16:25Z",
       "firstSeenAt": "2026-08-22T01:19:03.673Z",
       "lastSeenAt": "2026-08-22T12:41:49.365Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -8614,8 +8872,8 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 796,
-        "downloads": 7853611,
+        "likes": 820,
+        "downloads": 7752562,
         "trendingScore": 330
       },
       "source": "hf-models",
@@ -8623,7 +8881,7 @@
       "updatedAt": "2026-08-14T14:44:41.000Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-22T01:19:03.673Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -8650,7 +8908,7 @@
       "publishedAt": "2026-08-14T07:13:34.000Z",
       "firstSeenAt": "2026-08-21T05:32:06.059Z",
       "lastSeenAt": "2026-08-21T21:26:14.378Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -8675,7 +8933,7 @@
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "firstSeenAt": "2026-08-21T03:40:04.140Z",
       "lastSeenAt": "2026-08-21T18:38:31.239Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -8700,7 +8958,7 @@
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "firstSeenAt": "2026-08-21T03:40:04.140Z",
       "lastSeenAt": "2026-08-21T15:35:08.741Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -8719,258 +8977,13 @@
       "metrics": {
         "upvotes": 275,
         "comments": 1,
-        "githubStars": 543
+        "githubStars": 545
       },
       "source": "hf-papers",
       "publishedAt": "2026-08-20T00:00:00.000Z",
       "firstSeenAt": "2026-08-21T03:40:04.140Z",
       "lastSeenAt": "2026-08-21T15:35:08.741Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "gh:WenyuChiou/awesome-agentic-ai-zh",
-      "type": "repo",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "WenyuChiou/awesome-agentic-ai-zh",
-      "summaryEn": "Trilingual learning roadmap for agentic AI covering LLM basics to multi-agent systems with 240+ resources and examples.",
-      "summaryKo": "LLM 기초부터 멀티에이전트 시스템까지 다루는 240+ 삼언어 에이전트 AI 학습 로드맵.",
-      "summaryOriginal": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with 240+ curated resources and hands-on examples. 中文 AI agent 學習地圖。",
-      "url": "https://github.com/WenyuChiou/awesome-agentic-ai-zh",
-      "lang": "Python",
-      "tags": [
-        "agentic-ai",
-        "agentic-workflows",
-        "ai-agent",
-        "ai-agents",
-        "awesome-list",
-        "chinese-llm",
-        "claude-code",
-        "claude-skills",
-        "cli",
-        "learning-roadmap",
-        "llm",
-        "llm-agents",
-        "mcp",
-        "model-context-protocol",
-        "multi-agent-systems",
-        "prompt-engineering",
-        "rag",
-        "trilingual",
-        "tutorial"
-      ],
-      "metrics": {
-        "stars": 6952
-      },
-      "source": "github-search",
-      "publishedAt": "2026-05-04T22:18:51Z",
-      "updatedAt": "2026-09-13T16:18:05Z",
-      "firstSeenAt": "2026-08-20T09:36:42.325Z",
-      "lastSeenAt": "2026-08-21T06:50:49.363Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "hf-paper:2608.14229",
-      "type": "paper",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "The More Popular, The Harder to Forget: Adaptive Popularity for LLM Unlearning",
-      "summaryEn": "Research on removing memorized facts from LLMs by applying stronger gradient pressure to frequently-occurring training data, addressing a gap in existing unlearning methods.",
-      "summaryKo": "자주 나타나는 학습 데이터에 강한 그래디언트 압력을 적용해 LLM에서 암기된 사실을 제거하는 연구.",
-      "summaryOriginal": "Popular facts are memorised more deeply during pretraining and resist removal longer than rare ones, yet existing LLM unlearning methods apply uniform gradient pressure regardless of training-data frequency. We propose the AdaPop (Adaptive Popularity) method, which combines local token confidence with a per-fact popularity-dependent exponent derived from an external proxy (e.g., Wikidata sitelink…",
-      "reasonEn": "Unlearning and model safety increasingly important as LLMs handle sensitive data.",
-      "reasonKo": "LLM 안전성과 데이터 프라이버시 문제 대두.",
-      "url": "https://huggingface.co/papers/2608.14229",
-      "tags": [],
-      "metrics": {
-        "upvotes": 17,
-        "comments": 2
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "firstSeenAt": "2026-08-20T15:35:22.477Z",
-      "lastSeenAt": "2026-08-21T04:20:45.975Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "hf-paper:2608.17253",
-      "type": "paper",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL",
-      "summaryEn": "Unsupervised multi-agent RL learns to reason without ground-truth rewards, addressing the bottleneck of expensive human annotations for advanced reasoning tasks.",
-      "summaryKo": "지도 없이 다중 에이전트 강화학습으로 추론을 학습하며, 고비용 인간 주석 문제를 해결합니다.",
-      "summaryOriginal": "Reinforcement learning (RL) has emerged as a powerful approach for improving reasoning in language and vision-language models, yet its strongest successes still depend heavily on ground-truth supervision (e.g., verifiable reward). Such annotations are costly to obtain and become increasingly scarce as reasoning capabilities advance beyond what humans can reliably evaluate. Self-rewarding RL reduc…",
-      "reasonEn": "Self-rewarding RL reduces dependency on costly human verification for advanced reasoning.",
-      "reasonKo": "자기보상 RL로 비용 높은 인간 검증 필요성 감소.",
-      "url": "https://huggingface.co/papers/2608.17253",
-      "tags": [],
-      "metrics": {
-        "upvotes": 97,
-        "comments": 2,
-        "githubStars": 26
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-08-19T00:00:00.000Z",
-      "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-21T03:51:31.943Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "hf-paper:2608.13947",
-      "type": "paper",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "Scaling Creative Writing Beyond Story-Centric Data with Attribute-Guided Genre Expansion",
-      "summaryEn": "Framework for scaling LLM creative writing training data beyond stories to diverse genres by separating thematic and structural control.",
-      "summaryKo": "다양한 장르로 LLM 창작 학습 데이터를 확장하는 프레임워크입니다.",
-      "summaryOriginal": "High-quality creative writing data for large language models (LLMs) remains dominated by story-centric data, limiting models' ability to follow the structural and functional conventions of diverse creative formats. We propose an attribute-guided genre expansion framework for scaling creative writing data beyond story generation. By separating thematic breadth from genre-form control, our framewor…",
-      "url": "https://huggingface.co/papers/2608.13947",
-      "tags": [],
-      "metrics": {
-        "upvotes": 15,
-        "comments": 1
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-21T01:23:34.400Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "hf-paper:2608.13558",
-      "type": "paper",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
-      "summaryEn": "Multi-modal AI system automating complete research workflows from hypothesis generation through manuscript preparation across multiple disciplines.",
-      "summaryKo": "가설 생성부터 논문 작성까지 연구 워크플로우를 자동화하는 AI 시스템입니다.",
-      "summaryOriginal": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depends. Existing systems typically reason over text, code, labels, or precomputed summaries, leaving sci…",
-      "url": "https://huggingface.co/papers/2608.13558",
-      "tags": [],
-      "metrics": {
-        "upvotes": 94,
-        "comments": 2,
-        "githubStars": 154
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-21T01:23:34.400Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "hf-paper:2608.16590",
-      "type": "paper",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
-      "summaryEn": "Closed-loop embodied learning harness enabling physical agents to adapt during execution rather than only after episodes complete.",
-      "summaryKo": "신체형 에이전트가 실행 중에 적응하는 폐루프 학습 시스템입니다.",
-      "summaryOriginal": "Embodied agents are increasingly used to close the gap left by end-to-end policy models. Yet the agentic path has not realized closed-loop learning in physical execution: existing harnesses remain largely open-loop, following fixed skills during rollout and reflecting only after an episode completes. Such post-hoc reflection cannot govern execution as it unfolds, because physical interaction requ…",
-      "url": "https://huggingface.co/papers/2608.16590",
-      "tags": [],
-      "metrics": {
-        "upvotes": 150,
-        "comments": 1,
-        "githubStars": 1061
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-21T01:23:34.400Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "hf-paper:2608.18746",
-      "type": "paper",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "Decision-Metric Alignment in Latent World Models: Diagnostics and Action-Conditioned Objectives for MPC Planning",
-      "summaryEn": "Diagnostic framework for checking whether latent world model costs actually rank actions by real task progress in MPC planning.",
-      "summaryKo": "잠재 세계 모델이 실제 작업 진행을 올바르게 순위 매기는지 확인하는 진단 도구입니다.",
-      "summaryOriginal": "JEPA-style latent world models can use Euclidean distance to a goal latent as the cost for model-predictive control (MPC). Strong decoding of task variables, however, does not guarantee that this particular cost ranks candidate action sequences by real task progress. We call the latter property decision-metric alignment. We introduce Plan-Real Spearman, which measures latent--real rank agreement…",
-      "url": "https://huggingface.co/papers/2608.18746",
-      "tags": [],
-      "metrics": {
-        "upvotes": 18,
-        "comments": 1
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-08-19T00:00:00.000Z",
-      "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-21T01:23:34.400Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "hf-paper:2608.18701",
-      "type": "paper",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "SoftVTBench: A Deformation-Aware Visuo-Tactile Dataset and Benchmark for Deformable-Object Manipulation",
-      "summaryEn": "Visuo-tactile dataset and benchmark for deformable-object manipulation with ground-truth contact verification beyond task success metrics.",
-      "summaryKo": "변형 객체 조작을 위한 시각-촉각 데이터셋 및 벤치마크입니다.",
-      "summaryOriginal": "Physical interaction quality is central to deformable-object manipulation, yet most benchmarks evaluate task success alone. A policy may complete the task while allowing slip or causing excessive compression. A primary bottleneck is the absence of visuo-tactile datasets that pair policy-visible contact observations with independent physical ground truth over complete tasks. We introduce SoftVTBen…",
-      "url": "https://huggingface.co/papers/2608.18701",
-      "tags": [],
-      "metrics": {
-        "upvotes": 15,
-        "comments": 1
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-08-19T00:00:00.000Z",
-      "firstSeenAt": "2026-08-20T06:49:10.510Z",
-      "lastSeenAt": "2026-08-21T01:23:34.400Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "admitReason": "notable"
-    },
-    {
-      "id": "hf-paper:2608.17426",
-      "type": "paper",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "SemComp-Bench: Benchmarking Semantic Task Completion in Video Generation",
-      "summaryEn": "Benchmark for evaluating video generation models on task completion: does generated output achieve intended outcome with semantic grounding to reference images?",
-      "summaryKo": "비디오 생성 모델이 의도한 결과를 달성하고 참조 이미지와 의미론적으로 일치하는지 평가하는 벤치마크",
-      "summaryOriginal": "We introduce Semantic Task Completion Video Generation, an outcome-oriented video generation task. Under this formulation, success requires both achievement of the intended outcome and semantic grounding. Semantic grounding characterizes the correspondence between the reference image and the generated outcome in terms of high-level semantics relevant to the task. Evaluation focuses on the generat…",
-      "url": "https://huggingface.co/papers/2608.17426",
-      "tags": [],
-      "metrics": {
-        "upvotes": 159,
-        "comments": 4,
-        "githubStars": 14
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "firstSeenAt": "2026-08-20T03:48:34.150Z",
-      "lastSeenAt": "2026-08-21T01:23:34.400Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     }
   ]

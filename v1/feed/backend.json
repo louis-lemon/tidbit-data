@@ -1,34 +1,121 @@
 {
   "version": 1,
   "category": "backend",
-  "generatedAt": "2026-09-13T21:13:30.222Z",
+  "generatedAt": "2026-09-14T22:13:48.779Z",
   "ttlSeconds": 10800,
   "cards": [
     {
-      "id": "gh:ever-co/ever-gauzy",
+      "id": "gh:Panniantong/Agent-Reach",
       "type": "repo",
-      "title": "ever-co/ever-gauzy",
-      "summaryOriginal": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
-      "url": "https://github.com/ever-co/ever-gauzy",
-      "lang": "TypeScript",
+      "title": "Panniantong/Agent-Reach",
+      "summaryOriginal": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 4952,
-        "starsDelta": 58
+        "stars": 81168,
+        "starsDelta": 640
       },
       "source": "github-trending",
       "admitReason": "trending",
-      "summaryEn": "An open-source business management platform providing ERP, CRM, HRM, ATS, and PM features.",
-      "summaryKo": "ERP, CRM, HRM, ATS, PM 기능을 제공하는 오픈소스 비즈니스 관리 플랫폼.",
-      "reasonEn": "Gained 58 stars today.",
-      "reasonKo": "오늘 58개의 스타를 획득함.",
+      "summaryEn": "Agent-Reach is a CLI tool that lets AI agents search and read major social platforms with zero API fees.",
+      "summaryKo": "AI 에이전트가 API 비용 없이 주요 소셜 플랫폼의 데이터를 검색하고 읽을 수 있게 해주는 CLI 도구입니다.",
       "categories": [
+        "ai-agents",
         "backend",
-        "engineering"
+        "devtools"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "firstSeenAt": "2026-09-13T21:13:30.222Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "firstSeenAt": "2026-09-14T22:13:48.779Z",
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
+    },
+    {
+      "id": "gh:dani-garcia/vaultwarden",
+      "type": "repo",
+      "title": "dani-garcia/vaultwarden",
+      "summaryOriginal": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "lang": "Rust",
+      "tags": [],
+      "metrics": {
+        "stars": 67514,
+        "starsDelta": 110
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "Lightweight, unofficial Bitwarden-compatible password manager server written in Rust, requiring fewer system resources.",
+      "summaryKo": "Rust로 작성된 가볍고 비공식적인 Bitwarden 호환 서버입니다.",
+      "categories": [
+        "backend"
+      ],
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "firstSeenAt": "2026-08-23T12:42:30.740Z",
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
+    },
+    {
+      "id": "gh:Crosstalk-Solutions/project-nomad",
+      "type": "repo",
+      "title": "Crosstalk-Solutions/project-nomad",
+      "summaryOriginal": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "lang": "TypeScript",
+      "tags": [],
+      "metrics": {
+        "stars": 36874,
+        "starsDelta": 26
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "An offline-first knowledge and education server with Wikipedia, books, courses, and optional local AI.",
+      "summaryKo": "위키피디아, 도서, 강좌 등을 인터넷 없이 로컬에서 실행하는 오프라인 지식 서버입니다.",
+      "reasonEn": "36K+ stars with 26 star surge today",
+      "reasonKo": "오늘 26개 급증 포함 36K+ 스타 기록",
+      "categories": [
+        "backend"
+      ],
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "firstSeenAt": "2026-09-14T22:13:48.779Z",
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
+    },
+    {
+      "id": "gh:bojieli/ai-infra-book",
+      "type": "repo",
+      "title": "bojieli/ai-infra-book",
+      "summaryOriginal": "《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
+      "url": "https://github.com/bojieli/ai-infra-book",
+      "lang": "Python",
+      "tags": [
+        "accelerator",
+        "ai-infra",
+        "ai-infrastructure",
+        "book",
+        "datacenter-network",
+        "deepseek",
+        "distributed-systems",
+        "gpu",
+        "kv-cache",
+        "llm",
+        "llm-inference",
+        "llm-serving"
+      ],
+      "metrics": {
+        "stars": 2282
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2026-08-22T15:30:41Z",
+      "updatedAt": "2026-09-14T06:55:36Z",
+      "summaryEn": "An open-source book and computational toolset providing quantitative analysis and system design for AI infrastructure.",
+      "summaryKo": "AI 인프라의 시스템 설계와 양적 분석을 다루는 오픈소스 도서 및 계산 도구 모음입니다.",
+      "reasonEn": "2.2K stars within 23 days of launch",
+      "reasonKo": "출시 후 23일 만에 2.2K 스타 획득",
+      "categories": [
+        "ai-models",
+        "backend"
+      ],
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "firstSeenAt": "2026-09-14T22:13:48.779Z",
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "gh:xevrion/breakscale",
@@ -50,12 +137,12 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 1143
+        "stars": 1149
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-08-23T06:21:21Z",
-      "updatedAt": "2026-09-11T18:18:27Z",
+      "updatedAt": "2026-09-14T12:23:34Z",
       "summaryEn": "A system design simulator to load-test and learn distributed systems architecture.",
       "summaryKo": "부하 테스트를 통해 분산 시스템 아키텍처를 학습할 수 있는 시스템 디자인 시뮬레이터입니다.",
       "reasonEn": "Popular educational system tool",
@@ -64,9 +151,9 @@
         "web",
         "backend"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-08-29T22:55:06.972Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "gh:sums001/Windows-Copilot-API",
@@ -85,7 +172,7 @@
         "openai"
       ],
       "metrics": {
-        "stars": 1237
+        "stars": 1236
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -98,9 +185,35 @@
       "categories": [
         "backend"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
+    },
+    {
+      "id": "hn:49626718",
+      "type": "article",
+      "title": "A Design Space Exploration of Async/Await",
+      "summaryOriginal": "A Design Space Exploration of Async/Await",
+      "url": "https://cel.cs.brown.edu/blog/design-space-async-await/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 462,
+        "comments": 134
+      },
+      "source": "hn",
+      "publishedAt": "2026-09-09T13:59:50Z",
+      "admitReason": "notable",
+      "summaryEn": "An exploration into the design space of async and await concurrency models.",
+      "summaryKo": "async 및 await 동시성 모델의 디자인 공간 탐구입니다.",
+      "reasonEn": "462 upvotes within 5 days of launch",
+      "reasonKo": "5일 만에 462표 획득",
+      "categories": [
+        "backend",
+        "engineering"
+      ],
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "firstSeenAt": "2026-09-14T22:13:48.779Z",
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "hn:49468083",
@@ -117,16 +230,16 @@
       "publishedAt": "2026-08-27T17:17:57Z",
       "admitReason": "notable",
       "summaryEn": "Cloudflare details how optimizing the 1.1.1.1 DNS cache saved 100 terabytes of memory.",
-      "summaryKo": "클라우드플레어가 1.1.1.1 DNS 캐시 최적화로 100TB의 메모리를 절약한 방법을 설명합니다.",
-      "reasonEn": "925 upvotes within 17 days of posting.",
-      "reasonKo": "게시 후 17일 동안 925개의 추천을 받았습니다.",
+      "summaryKo": "1.1.1.1 DNS 캐시 최적화로 100테라바이트의 메모리를 절약한 방법을 설명합니다.",
+      "reasonEn": "925 upvotes within 18 days of launch",
+      "reasonKo": "18일 만에 925표 획득",
       "categories": [
         "backend",
         "infra"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "hn:49365405",
@@ -142,16 +255,94 @@
       "source": "hn",
       "publishedAt": "2026-08-19T18:33:49Z",
       "admitReason": "notable",
-      "summaryEn": "Go 1.27 introduces new language features, performance tuning, and toolchain updates.",
-      "summaryKo": "새로운 언어 기능, 성능 튜닝 및 툴체인 업데이트를 도입하는 Go 1.27.",
-      "reasonEn": "759 upvotes within 25 days of publication",
-      "reasonKo": "게시 후 25일 내 759개 추천",
+      "summaryEn": "Go 1.27 introduces new language features, toolchain updates, and performance optimizations.",
+      "summaryKo": "Go 1.27은 새로운 언어 기능, 툴체인 업데이트 및 성능 최적화를 제공합니다.",
+      "reasonEn": "759 upvotes within 26 days of publication",
+      "reasonKo": "26일 만에 759개의 추천을 받음",
       "categories": [
         "backend"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
+    },
+    {
+      "id": "hn:49415271",
+      "type": "article",
+      "title": "Executable Is a SQLite Database",
+      "summaryOriginal": "Executable Is a SQLite Database",
+      "url": "https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database",
+      "tags": [],
+      "metrics": {
+        "upvotes": 563,
+        "comments": 109
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-24T04:48:20Z",
+      "admitReason": "notable",
+      "summaryEn": "An exploration of self-contained binary executables that double as functional SQLite databases.",
+      "summaryKo": "단일 바이너리 실행 파일이 기능적인 SQLite 데이터베이스 역할도 수행하는 방식을 탐구합니다.",
+      "reasonEn": "563 upvotes within 21 days of publication",
+      "reasonKo": "21일 만에 563개의 추천을 받음",
+      "categories": [
+        "data",
+        "backend"
+      ],
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "firstSeenAt": "2026-09-14T22:13:48.779Z",
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
+    },
+    {
+      "id": "hn:49361279",
+      "type": "article",
+      "title": "PostgreSQL for Everything",
+      "summaryOriginal": "PostgreSQL for Everything",
+      "url": "https://www.raphaelbauer.com:443/posts/postgresql-everything/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 451,
+        "comments": 269
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-19T13:21:21Z",
+      "admitReason": "notable",
+      "summaryEn": "Discussing the trend and feasibility of using PostgreSQL for various non-traditional data storage tasks.",
+      "summaryKo": "다양한 비정형 데이터 저장 작업에 PostgreSQL을 사용하는 트렌드와 가능성을 논의합니다.",
+      "reasonEn": "451 upvotes within 26 days of publication",
+      "reasonKo": "26일 만에 451개의 추천을 받음",
+      "categories": [
+        "data",
+        "backend"
+      ],
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "firstSeenAt": "2026-09-14T22:13:48.779Z",
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
+    },
+    {
+      "id": "hn:49645686",
+      "type": "article",
+      "title": "Neki – Sharded Postgres",
+      "summaryOriginal": "Neki – Sharded Postgres",
+      "url": "https://planetscale.com/blog/introducing-neki",
+      "tags": [],
+      "metrics": {
+        "upvotes": 279,
+        "comments": 153
+      },
+      "source": "hn",
+      "publishedAt": "2026-09-10T15:43:49Z",
+      "admitReason": "notable",
+      "summaryEn": "Neki introduces sharded PostgreSQL capabilities for scaling relational database workloads.",
+      "summaryKo": "네키(Neki)는 관계형 데이터베이스 워크로드를 확장하기 위한 샤딩된 PostgreSQL 기능을 소개합니다.",
+      "reasonEn": "279 upvotes within 4 days of publication",
+      "reasonKo": "4일 만에 279개의 추천을 받음",
+      "categories": [
+        "data",
+        "backend"
+      ],
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "firstSeenAt": "2026-09-14T22:13:48.779Z",
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
     },
     {
       "id": "hn:49421806",
@@ -167,16 +358,43 @@
       "source": "hn",
       "publishedAt": "2026-08-24T16:08:17Z",
       "admitReason": "notable",
-      "summaryEn": "PicoMQ provides durable message streams over HTTP backed by object storage.",
-      "summaryKo": "오브젝트 스토리지 기반의 HTTP를 통한 지속성 있는 메시지 스트림을 제공하는 PicoMQ.",
-      "reasonEn": "159 upvotes within 20 days of publication",
-      "reasonKo": "게시 후 20일 내 159개 추천",
+      "summaryEn": "PicoMQ provides durable message streams over HTTP using standard object storage backends.",
+      "summaryKo": "PicoMQ는 표준 오브젝트 스토리지를 백엔드로 사용하여 HTTP 기반의 지속형 메시지 스트림을 제공합니다.",
+      "reasonEn": "159 upvotes within 21 days of publication",
+      "reasonKo": "21일 만에 159개의 추천을 받음",
       "categories": [
-        "backend"
+        "backend",
+        "infra"
       ],
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "firstSeenAt": "2026-09-11T21:29:44.686Z",
-      "lastSeenAt": "2026-09-13T21:13:30.222Z"
+      "lastSeenAt": "2026-09-14T22:13:48.779Z"
+    },
+    {
+      "id": "gh:ever-co/ever-gauzy",
+      "type": "repo",
+      "categories": [
+        "backend",
+        "engineering"
+      ],
+      "title": "ever-co/ever-gauzy",
+      "summaryEn": "An open-source business management platform providing ERP, CRM, HRM, ATS, and PM features.",
+      "summaryKo": "ERP, CRM, HRM, ATS, PM 기능을 제공하는 오픈소스 비즈니스 관리 플랫폼.",
+      "summaryOriginal": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+      "reasonEn": "Gained 58 stars today.",
+      "reasonKo": "오늘 58개의 스타를 획득함.",
+      "url": "https://github.com/ever-co/ever-gauzy",
+      "lang": "TypeScript",
+      "tags": [],
+      "metrics": {
+        "stars": 4952,
+        "starsDelta": 58
+      },
+      "source": "github-trending",
+      "firstSeenAt": "2026-09-13T21:13:30.222Z",
+      "lastSeenAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "admitReason": "trending"
     },
     {
       "id": "gh:Sonarr/Sonarr",
@@ -194,14 +412,14 @@
       "lang": "C#",
       "tags": [],
       "metrics": {
-        "stars": 15895,
-        "starsDelta": 228
+        "stars": 16145
       },
       "source": "github-trending",
       "firstSeenAt": "2026-09-11T21:29:44.686Z",
       "lastSeenAt": "2026-09-12T21:08:18.614Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
-      "admitReason": "trending"
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
+      "admitReason": "trending",
+      "updatedAt": "2026-09-14T00:30:05Z"
     },
     {
       "id": "gh:liquidslr/system-design-notes",
@@ -219,13 +437,13 @@
       "url": "https://github.com/liquidslr/system-design-notes",
       "tags": [],
       "metrics": {
-        "stars": 19452
+        "stars": 19766
       },
       "source": "github-trending",
       "updatedAt": "2026-08-12T22:22:21Z",
       "firstSeenAt": "2026-09-09T21:27:06.431Z",
       "lastSeenAt": "2026-09-10T21:20:01.286Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -301,14 +519,14 @@
         "xgboost"
       ],
       "metrics": {
-        "stars": 28756
+        "stars": 28764
       },
       "source": "github-search",
       "publishedAt": "2014-02-06T17:28:03Z",
-      "updatedAt": "2026-09-11T08:59:57Z",
+      "updatedAt": "2026-09-14T20:18:37Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -339,14 +557,14 @@
         "mcp"
       ],
       "metrics": {
-        "stars": 49080
+        "stars": 49109
       },
       "source": "github-search",
       "publishedAt": "2023-03-18T22:58:02Z",
-      "updatedAt": "2026-09-12T21:08:25Z",
+      "updatedAt": "2026-09-14T21:40:46Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -378,14 +596,14 @@
         "react"
       ],
       "metrics": {
-        "stars": 57351
+        "stars": 57366
       },
       "source": "github-search",
       "publishedAt": "2019-04-08T16:36:25Z",
-      "updatedAt": "2026-09-12T20:51:45Z",
+      "updatedAt": "2026-09-14T22:12:49Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -457,14 +675,14 @@
         "mssql"
       ],
       "metrics": {
-        "stars": 37877
+        "stars": 37909
       },
       "source": "github-search",
       "publishedAt": "2012-12-12T01:35:36Z",
-      "updatedAt": "2026-09-12T20:10:29Z",
+      "updatedAt": "2026-09-14T19:51:57Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -493,14 +711,14 @@
         "vue"
       ],
       "metrics": {
-        "stars": 16091
+        "stars": 16101
       },
       "source": "github-search",
       "publishedAt": "2023-08-16T13:42:32Z",
-      "updatedAt": "2026-09-12T05:20:53Z",
+      "updatedAt": "2026-09-14T20:00:49Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -531,14 +749,14 @@
         "javascript"
       ],
       "metrics": {
-        "stars": 73133
+        "stars": 73155
       },
       "source": "github-search",
       "publishedAt": "2015-09-30T15:34:48Z",
-      "updatedAt": "2026-09-12T18:49:15Z",
+      "updatedAt": "2026-09-14T20:03:32Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -568,14 +786,14 @@
         "resources"
       ],
       "metrics": {
-        "stars": 479354
+        "stars": 480148
       },
       "source": "github-search",
       "publishedAt": "2016-03-20T23:49:42Z",
-      "updatedAt": "2026-09-12T20:07:08Z",
+      "updatedAt": "2026-09-14T21:41:33Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -600,14 +818,14 @@
         "vim"
       ],
       "metrics": {
-        "stars": 102289
+        "stars": 102334
       },
       "source": "github-search",
       "publishedAt": "2014-01-31T13:39:22Z",
-      "updatedAt": "2026-09-12T15:04:56Z",
+      "updatedAt": "2026-09-14T12:26:53Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -637,14 +855,14 @@
         "native"
       ],
       "metrics": {
-        "stars": 76168
+        "stars": 76195
       },
       "source": "github-search",
       "publishedAt": "2014-07-21T14:29:47Z",
-      "updatedAt": "2026-09-10T16:32:48Z",
+      "updatedAt": "2026-09-14T17:50:57Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -674,14 +892,14 @@
         "exchange"
       ],
       "metrics": {
-        "stars": 43968
+        "stars": 43994
       },
       "source": "github-search",
       "publishedAt": "2017-05-14T15:41:56Z",
-      "updatedAt": "2026-09-12T13:47:31Z",
+      "updatedAt": "2026-09-14T16:46:43Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -709,14 +927,14 @@
         "websockets"
       ],
       "metrics": {
-        "stars": 40005
+        "stars": 40014
       },
       "source": "github-search",
       "publishedAt": "2016-04-23T03:54:26Z",
-      "updatedAt": "2026-09-11T08:31:34Z",
+      "updatedAt": "2026-09-14T15:56:24Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -738,14 +956,14 @@
         "rest"
       ],
       "metrics": {
-        "stars": 30175
+        "stars": 30179
       },
       "source": "github-search",
       "publishedAt": "2011-03-02T17:13:56Z",
-      "updatedAt": "2026-09-12T17:52:41Z",
+      "updatedAt": "2026-09-14T14:07:14Z",
       "firstSeenAt": "2026-08-18T15:33:48.196Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -775,14 +993,14 @@
         "serverchan"
       ],
       "metrics": {
-        "stars": 27953
+        "stars": 27980
       },
       "source": "github-search",
       "publishedAt": "2021-02-10T02:23:07Z",
-      "updatedAt": "2026-09-12T01:29:57Z",
+      "updatedAt": "2026-09-14T06:46:28Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -813,14 +1031,14 @@
         "server"
       ],
       "metrics": {
-        "stars": 27660
+        "stars": 27664
       },
       "source": "github-search",
       "publishedAt": "2014-06-13T00:23:00Z",
-      "updatedAt": "2026-09-11T16:28:07Z",
+      "updatedAt": "2026-09-13T19:07:36Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -850,14 +1068,14 @@
         "restful-api"
       ],
       "metrics": {
-        "stars": 26737
+        "stars": 26738
       },
       "source": "github-search",
       "publishedAt": "2018-05-12T09:57:56Z",
-      "updatedAt": "2026-09-11T08:46:10Z",
+      "updatedAt": "2026-09-14T15:38:46Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -887,14 +1105,14 @@
         "python"
       ],
       "metrics": {
-        "stars": 22982
+        "stars": 23000
       },
       "source": "github-search",
       "publishedAt": "2024-02-28T15:45:19Z",
-      "updatedAt": "2026-09-12T07:50:28Z",
+      "updatedAt": "2026-09-14T22:09:33Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -921,14 +1139,14 @@
         "whatsapp-web-api"
       ],
       "metrics": {
-        "stars": 22545
+        "stars": 22559
       },
       "source": "github-search",
       "publishedAt": "2019-02-17T02:16:02Z",
-      "updatedAt": "2026-09-06T12:04:26Z",
+      "updatedAt": "2026-09-13T12:04:23Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -958,14 +1176,14 @@
         "sql-server"
       ],
       "metrics": {
-        "stars": 20126
+        "stars": 20138
       },
       "source": "github-search",
       "publishedAt": "2015-11-23T23:45:33Z",
-      "updatedAt": "2026-09-12T14:26:59Z",
+      "updatedAt": "2026-09-14T22:04:27Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -996,14 +1214,14 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 18691
+        "stars": 18698
       },
       "source": "github-search",
       "publishedAt": "2025-01-02T17:45:02Z",
-      "updatedAt": "2026-09-12T15:17:10Z",
+      "updatedAt": "2026-09-14T20:19:50Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -1033,14 +1251,14 @@
         "rpa"
       ],
       "metrics": {
-        "stars": 17430
+        "stars": 17452
       },
       "source": "github-search",
       "publishedAt": "2023-10-23T21:40:19Z",
-      "updatedAt": "2026-09-12T12:24:02Z",
+      "updatedAt": "2026-09-14T17:17:51Z",
       "firstSeenAt": "2026-08-18T15:33:48.196Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -1071,14 +1289,14 @@
         "luajit"
       ],
       "metrics": {
-        "stars": 17111
+        "stars": 17120
       },
       "source": "github-search",
       "publishedAt": "2019-04-10T02:02:05Z",
-      "updatedAt": "2026-09-11T10:36:45Z",
+      "updatedAt": "2026-09-14T10:37:26Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -1108,14 +1326,14 @@
         "proxy"
       ],
       "metrics": {
-        "stars": 16025
+        "stars": 16031
       },
       "source": "github-search",
       "publishedAt": "2015-10-29T16:23:19Z",
-      "updatedAt": "2026-09-12T19:17:17Z",
+      "updatedAt": "2026-09-14T18:41:28Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -1145,14 +1363,14 @@
         "self-hosting"
       ],
       "metrics": {
-        "stars": 15882
+        "stars": 15895
       },
       "source": "github-search",
       "publishedAt": "2018-01-15T20:25:27Z",
       "updatedAt": "2026-09-12T17:37:00Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -1182,14 +1400,14 @@
         "rich"
       ],
       "metrics": {
-        "stars": 15900
+        "stars": 15944
       },
       "source": "github-search",
       "publishedAt": "2022-10-10T14:27:36Z",
-      "updatedAt": "2026-09-12T10:23:56Z",
+      "updatedAt": "2026-09-13T11:10:11Z",
       "firstSeenAt": "2026-08-27T13:54:10.701Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -1228,7 +1446,7 @@
       "updatedAt": "2026-09-06T11:26:21Z",
       "firstSeenAt": "2026-09-06T20:59:25.857Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -1251,14 +1469,14 @@
         "jsdoc"
       ],
       "metrics": {
-        "stars": 15457
+        "stars": 15459
       },
       "source": "github-search",
       "publishedAt": "2010-03-13T09:18:03Z",
-      "updatedAt": "2026-09-12T18:20:52Z",
+      "updatedAt": "2026-09-14T16:44:42Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -1288,14 +1506,14 @@
         "whatsapp-web-api"
       ],
       "metrics": {
-        "stars": 14082
+        "stars": 14153
       },
       "source": "github-search",
       "publishedAt": "2026-02-02T12:14:45Z",
-      "updatedAt": "2026-09-09T14:28:52Z",
+      "updatedAt": "2026-09-14T21:19:18Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -1325,14 +1543,14 @@
         "pdf"
       ],
       "metrics": {
-        "stars": 13051
+        "stars": 13074
       },
       "source": "github-search",
       "publishedAt": "2018-03-23T14:05:59Z",
-      "updatedAt": "2026-09-11T14:42:17Z",
+      "updatedAt": "2026-09-13T08:16:33Z",
       "firstSeenAt": "2026-08-21T06:50:49.363Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -1368,10 +1586,10 @@
       },
       "source": "github-search",
       "publishedAt": "2016-04-14T21:29:19Z",
-      "updatedAt": "2026-09-10T23:19:07Z",
+      "updatedAt": "2026-09-14T17:15:10Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -1393,14 +1611,14 @@
         "showdoc"
       ],
       "metrics": {
-        "stars": 12865
+        "stars": 12867
       },
       "source": "github-search",
       "publishedAt": "2015-11-27T07:03:24Z",
-      "updatedAt": "2026-09-10T16:19:08Z",
+      "updatedAt": "2026-09-14T02:20:59Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -1430,14 +1648,14 @@
         "python"
       ],
       "metrics": {
-        "stars": 12679
+        "stars": 12701
       },
       "source": "github-search",
       "publishedAt": "2023-08-16T11:03:36Z",
       "updatedAt": "2026-09-12T14:00:19Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -1459,14 +1677,14 @@
         "realtime"
       ],
       "metrics": {
-        "stars": 61024
+        "stars": 61035
       },
       "source": "github-search",
       "publishedAt": "2022-07-05T06:06:21Z",
       "updatedAt": "2026-09-12T20:07:15Z",
       "firstSeenAt": "2026-08-18T18:40:19.317Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -1497,14 +1715,14 @@
         "mongodb"
       ],
       "metrics": {
-        "stars": 37252
+        "stars": 37286
       },
       "source": "github-search",
       "publishedAt": "2024-04-19T07:49:30Z",
-      "updatedAt": "2026-09-11T08:20:23Z",
+      "updatedAt": "2026-09-14T17:05:29Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -1534,14 +1752,14 @@
         "notifications"
       ],
       "metrics": {
-        "stars": 21411
+        "stars": 21412
       },
       "source": "github-search",
       "publishedAt": "2016-01-28T18:29:14Z",
-      "updatedAt": "2026-09-10T22:44:12Z",
+      "updatedAt": "2026-09-13T20:53:23Z",
       "firstSeenAt": "2026-08-25T21:30:01.334Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -1572,14 +1790,14 @@
         "server"
       ],
       "metrics": {
-        "stars": 21340
+        "stars": 21341
       },
       "source": "github-search",
       "publishedAt": "2019-02-26T13:16:58Z",
       "updatedAt": "2026-09-10T12:34:23Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -1609,14 +1827,14 @@
         "lua"
       ],
       "metrics": {
-        "stars": 13315
+        "stars": 13329
       },
       "source": "github-search",
       "publishedAt": "2017-01-13T17:15:12Z",
       "updatedAt": "2026-09-11T16:40:38Z",
       "firstSeenAt": "2026-08-18T15:33:48.196Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -1639,14 +1857,14 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 12534
+        "stars": 12546
       },
       "source": "github-search",
       "publishedAt": "2024-03-08T07:23:15Z",
-      "updatedAt": "2026-09-12T01:03:33Z",
+      "updatedAt": "2026-09-14T20:33:32Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -1673,14 +1891,14 @@
         "platform"
       ],
       "metrics": {
-        "stars": 11146
+        "stars": 11145
       },
       "source": "github-search",
       "publishedAt": "2013-11-26T23:30:43Z",
       "updatedAt": "2026-09-11T23:24:09Z",
       "firstSeenAt": "2026-08-19T12:50:55.884Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -1710,14 +1928,14 @@
         "nhost"
       ],
       "metrics": {
-        "stars": 9290
+        "stars": 9293
       },
       "source": "github-search",
       "publishedAt": "2021-02-09T13:33:34Z",
-      "updatedAt": "2026-09-12T07:07:33Z",
+      "updatedAt": "2026-09-14T20:44:22Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -1751,10 +1969,10 @@
       },
       "source": "github-search",
       "publishedAt": "2022-02-01T16:42:30Z",
-      "updatedAt": "2026-09-11T16:05:40Z",
+      "updatedAt": "2026-09-14T21:02:41Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -1784,14 +2002,14 @@
         "rust-lang"
       ],
       "metrics": {
-        "stars": 5279
+        "stars": 5280
       },
       "source": "github-search",
       "publishedAt": "2022-05-24T14:39:20Z",
-      "updatedAt": "2026-09-11T19:01:13Z",
+      "updatedAt": "2026-09-14T17:15:45Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -1819,14 +2037,14 @@
         "symfony-bundle"
       ],
       "metrics": {
-        "stars": 4299
+        "stars": 4300
       },
       "source": "github-search",
       "publishedAt": "2015-01-12T08:43:02Z",
-      "updatedAt": "2026-09-10T08:25:12Z",
+      "updatedAt": "2026-09-14T20:29:53Z",
       "firstSeenAt": "2026-09-06T20:59:25.857Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -1851,14 +2069,14 @@
         "search-engine"
       ],
       "metrics": {
-        "stars": 3554
+        "stars": 3556
       },
       "source": "github-search",
       "publishedAt": "2021-02-23T17:16:56Z",
-      "updatedAt": "2026-09-11T08:24:32Z",
+      "updatedAt": "2026-09-13T20:06:40Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -2417,14 +2635,14 @@
         "kilocode"
       ],
       "metrics": {
-        "stars": 43041
+        "stars": 43256
       },
       "source": "github-search",
       "publishedAt": "2026-02-24T22:01:00Z",
-      "updatedAt": "2026-09-12T20:38:23Z",
+      "updatedAt": "2026-09-14T21:38:55Z",
       "firstSeenAt": "2026-08-29T22:55:06.972Z",
       "lastSeenAt": "2026-09-01T00:11:05.708Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3020,38 +3238,6 @@
       "admitReason": "notable"
     },
     {
-      "id": "gh:dani-garcia/vaultwarden",
-      "type": "repo",
-      "categories": [
-        "backend",
-        "infra"
-      ],
-      "title": "dani-garcia/vaultwarden",
-      "summaryEn": "Lightweight, unofficial Bitwarden-compatible password manager server written in Rust, requiring fewer system resources.",
-      "summaryKo": "Rust로 작성된 가볍고 비공식적인 Bitwarden 호환 서버입니다.",
-      "summaryOriginal": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
-      "url": "https://github.com/dani-garcia/vaultwarden",
-      "lang": "Rust",
-      "tags": [
-        "bitwarden",
-        "bitwarden-rs",
-        "docker",
-        "rocket",
-        "rust",
-        "vaultwarden"
-      ],
-      "metrics": {
-        "stars": 67355
-      },
-      "source": "github-search",
-      "publishedAt": "2018-02-17T22:40:20Z",
-      "updatedAt": "2026-09-13T14:43:47Z",
-      "firstSeenAt": "2026-08-23T12:42:30.740Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
-      "admitReason": "notable"
-    },
-    {
       "id": "gh:TailAdmin/tailadmin-free-tailwind-dashboard-template",
       "type": "repo",
       "categories": [
@@ -3175,13 +3361,13 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 32612
+        "stars": 32714
       },
       "source": "github-trending",
-      "updatedAt": "2026-09-12T18:09:32Z",
+      "updatedAt": "2026-09-14T22:14:08Z",
       "firstSeenAt": "2026-08-23T12:42:30.740Z",
       "lastSeenAt": "2026-08-24T09:50:01.036Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -3199,13 +3385,13 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 132763
+        "stars": 133146
       },
       "source": "github-trending",
-      "updatedAt": "2026-09-12T20:58:30Z",
+      "updatedAt": "2026-09-14T22:15:39Z",
       "firstSeenAt": "2026-08-23T12:42:30.740Z",
       "lastSeenAt": "2026-08-24T09:50:01.036Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -3241,14 +3427,14 @@
         "spring-cloud"
       ],
       "metrics": {
-        "stars": 33363
+        "stars": 33367
       },
       "source": "github-search",
       "publishedAt": "2018-06-15T06:49:27Z",
-      "updatedAt": "2026-09-10T12:29:11Z",
+      "updatedAt": "2026-09-14T09:12:27Z",
       "firstSeenAt": "2026-08-24T03:55:51.382Z",
       "lastSeenAt": "2026-08-24T03:55:51.382Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3365,14 +3551,14 @@
         "utility"
       ],
       "metrics": {
-        "stars": 8161
+        "stars": 8162
       },
       "source": "github-search",
       "publishedAt": "2022-05-11T12:29:32Z",
-      "updatedAt": "2026-09-11T09:20:24Z",
+      "updatedAt": "2026-09-13T01:31:09Z",
       "firstSeenAt": "2026-08-24T01:23:41.283Z",
       "lastSeenAt": "2026-08-24T01:23:41.283Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3408,14 +3594,14 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 6495
+        "stars": 6494
       },
       "source": "github-search",
       "publishedAt": "2016-09-30T00:28:20Z",
-      "updatedAt": "2026-09-12T02:04:56Z",
+      "updatedAt": "2026-09-14T21:52:27Z",
       "firstSeenAt": "2026-08-24T01:23:41.283Z",
       "lastSeenAt": "2026-08-24T01:23:41.283Z",
-      "metricsRefreshedAt": "2026-09-12T21:08:18.614Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3435,13 +3621,13 @@
       "lang": "Go",
       "tags": [],
       "metrics": {
-        "stars": 41390
+        "stars": 41511
       },
       "source": "github-trending",
-      "updatedAt": "2026-09-13T16:54:23Z",
+      "updatedAt": "2026-09-14T17:55:54Z",
       "firstSeenAt": "2026-08-22T15:22:55.161Z",
       "lastSeenAt": "2026-08-23T09:29:14.266Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -3465,14 +3651,14 @@
         "telegram"
       ],
       "metrics": {
-        "stars": 9207
+        "stars": 9203
       },
       "source": "github-search",
       "publishedAt": "2015-06-28T22:35:33Z",
       "updatedAt": "2026-09-07T23:49:00Z",
       "firstSeenAt": "2026-08-23T01:26:23.378Z",
       "lastSeenAt": "2026-08-23T09:29:14.266Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3500,14 +3686,14 @@
         "tensorflow"
       ],
       "metrics": {
-        "stars": 21841
+        "stars": 21851
       },
       "source": "github-search",
       "publishedAt": "2018-11-10T02:22:53Z",
-      "updatedAt": "2026-09-13T18:08:21Z",
+      "updatedAt": "2026-09-14T22:16:25Z",
       "firstSeenAt": "2026-08-22T01:19:03.673Z",
       "lastSeenAt": "2026-08-22T12:41:49.365Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3547,7 +3733,7 @@
       "updatedAt": "2026-09-09T01:51:19Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-21T21:26:14.378Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3582,7 +3768,7 @@
       "updatedAt": "2026-09-10T05:57:28Z",
       "firstSeenAt": "2026-08-20T06:49:10.510Z",
       "lastSeenAt": "2026-08-21T06:50:49.363Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3615,14 +3801,14 @@
         "zeal"
       ],
       "metrics": {
-        "stars": 12791
+        "stars": 12794
       },
       "source": "github-search",
       "publishedAt": "2013-01-20T01:50:30Z",
       "updatedAt": "2026-09-09T18:59:27Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-20T21:29:24.742Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3660,14 +3846,14 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 1717
+        "stars": 1720
       },
       "source": "github-search",
       "publishedAt": "2018-08-15T22:49:14Z",
       "updatedAt": "2026-09-13T05:18:33Z",
       "firstSeenAt": "2026-08-20T06:49:10.510Z",
       "lastSeenAt": "2026-08-20T18:41:26.574Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3687,13 +3873,13 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 21687
+        "stars": 21728
       },
       "source": "github-trending",
-      "updatedAt": "2026-09-13T15:14:54Z",
+      "updatedAt": "2026-09-14T10:08:58Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-20T09:36:42.325Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "trending"
     },
     {
@@ -3722,10 +3908,10 @@
       },
       "source": "github-search",
       "publishedAt": "2014-12-18T14:01:33Z",
-      "updatedAt": "2026-09-08T01:35:07Z",
+      "updatedAt": "2026-09-14T01:35:38Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-19T12:50:55.884Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     },
     {
@@ -3761,7 +3947,7 @@
       "updatedAt": "2026-09-06T10:18:46Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-18T15:33:48.196Z",
-      "metricsRefreshedAt": "2026-09-13T21:13:30.222Z",
+      "metricsRefreshedAt": "2026-09-14T22:13:48.779Z",
       "admitReason": "notable"
     }
   ]
