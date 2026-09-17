@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "infra",
-  "generatedAt": "2026-09-17T06:47:04.744Z",
+  "generatedAt": "2026-09-17T21:51:41.893Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,8 +13,8 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 8005,
-        "starsDelta": 927
+        "stars": 10393,
+        "starsDelta": 3606
       },
       "source": "github-trending",
       "admitReason": "trending",
@@ -27,9 +27,93 @@
         "infra",
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-09-17T06:47:04.744Z",
+      "metricsRefreshedAt": "2026-09-17T21:51:41.893Z",
       "firstSeenAt": "2026-09-16T21:50:05.780Z",
-      "lastSeenAt": "2026-09-17T06:47:04.744Z"
+      "lastSeenAt": "2026-09-17T21:51:41.893Z"
+    },
+    {
+      "id": "gh:cilium/cilium",
+      "type": "repo",
+      "title": "cilium/cilium",
+      "summaryOriginal": "eBPF-based Networking, Security, and Observability",
+      "url": "https://github.com/cilium/cilium",
+      "lang": "Go",
+      "tags": [],
+      "metrics": {
+        "stars": 25246,
+        "starsDelta": 153
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "eBPF-based networking, security, and observability layer for Kubernetes providing CNI, load balancing, and network policy enforcement.",
+      "summaryKo": "쿠버네티스용 eBPF 기반 네트워킹, 보안, 관찰성 레이어로 CNI, 로드밸런싱 제공.",
+      "categories": [
+        "infra",
+        "engineering"
+      ],
+      "metricsRefreshedAt": "2026-09-17T21:51:41.893Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-09-17T21:51:41.893Z"
+    },
+    {
+      "id": "gh:n8n-io/n8n",
+      "type": "repo",
+      "title": "n8n-io/n8n",
+      "summaryOriginal": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "url": "https://github.com/n8n-io/n8n",
+      "lang": "TypeScript",
+      "tags": [],
+      "metrics": {
+        "stars": 204925,
+        "starsDelta": 319
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "n8n is a fair-code workflow automation platform combining visual node-building with custom code and native AI capabilities.",
+      "summaryKo": "시각적 빌더와 커스텀 코드를 결합한 워크플로우 자동화 플랫폼입니다.",
+      "reasonEn": "Added 319 stars today, reaching 204K total.",
+      "reasonKo": "오늘 319개의 스타가 추가되어 총 204K를 달성했습니다.",
+      "categories": [
+        "infra"
+      ],
+      "metricsRefreshedAt": "2026-09-17T21:51:41.893Z",
+      "firstSeenAt": "2026-08-22T15:22:55.161Z",
+      "lastSeenAt": "2026-09-17T21:51:41.893Z"
+    },
+    {
+      "id": "gh:TencentCloud/Octop",
+      "type": "repo",
+      "title": "TencentCloud/Octop",
+      "summaryOriginal": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "url": "https://github.com/TencentCloud/Octop",
+      "lang": "Python",
+      "tags": [
+        "agent",
+        "agentic-ai",
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "local-first",
+        "long-term-memory"
+      ],
+      "metrics": {
+        "stars": 3390
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2026-07-08T12:54:20Z",
+      "updatedAt": "2026-09-17T13:31:22Z",
+      "summaryEn": "TencentCloud/Octop is a self-hosted, multi-user AI assistant platform with local-first long-term memory and multi-agent support.",
+      "summaryKo": "다중 사용자 및 로컬 우선 장기 기억을 지원하는 셀프 호스팅 AI 어시스턴트입니다.",
+      "reasonEn": "Established with 3.3K stars within 71 days.",
+      "reasonKo": "71일 만에 3.3K개의 스타를 모았습니다.",
+      "categories": [
+        "ai-agents",
+        "infra"
+      ],
+      "metricsRefreshedAt": "2026-09-17T21:51:41.893Z",
+      "firstSeenAt": "2026-09-17T21:51:41.893Z",
+      "lastSeenAt": "2026-09-17T21:51:41.893Z"
     },
     {
       "id": "gh:elie222/rakazo",
@@ -50,12 +134,12 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 2592
+        "stars": 2637
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-08-13T06:28:56Z",
-      "updatedAt": "2026-09-17T05:06:24Z",
+      "updatedAt": "2026-09-17T16:40:10Z",
       "summaryEn": "Open-source alternative to Grok's coding bot — pick your own model and sandbox.",
       "summaryKo": "Grok 봇의 오픈소스 대안, 모델과 샌드박스를 직접 선택",
       "categories": [
@@ -64,9 +148,9 @@
         "web",
         "infra"
       ],
-      "metricsRefreshedAt": "2026-09-17T06:47:04.744Z",
+      "metricsRefreshedAt": "2026-09-17T21:51:41.893Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-17T06:47:04.744Z"
+      "lastSeenAt": "2026-09-17T21:51:41.893Z"
     },
     {
       "id": "gh:tianma-if/edgeever",
@@ -90,12 +174,12 @@
         "model-context-protocol"
       ],
       "metrics": {
-        "stars": 1428
+        "stars": 1434
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-06-26T06:59:58Z",
-      "updatedAt": "2026-09-17T06:44:46Z",
+      "updatedAt": "2026-09-17T16:32:45Z",
       "summaryEn": "An open-source, AI-native knowledge base and Evernote alternative featuring native MCP support for serverless deployment.",
       "summaryKo": "MCP를 지원하는 AI 기반 오픈소스 지식 베이스 및 에버노트 대안입니다.",
       "reasonEn": "1.3K stars within 3 months of launch",
@@ -104,9 +188,9 @@
         "ai-agents",
         "infra"
       ],
-      "metricsRefreshedAt": "2026-09-17T06:47:04.744Z",
+      "metricsRefreshedAt": "2026-09-17T21:51:41.893Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
-      "lastSeenAt": "2026-09-17T06:47:04.744Z"
+      "lastSeenAt": "2026-09-17T21:51:41.893Z"
     },
     {
       "id": "gh:fancydirty/mediary-scout",
@@ -123,7 +207,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 1414
+        "stars": 1413
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -137,9 +221,9 @@
         "web",
         "infra"
       ],
-      "metricsRefreshedAt": "2026-09-17T06:47:04.744Z",
+      "metricsRefreshedAt": "2026-09-17T21:51:41.893Z",
       "firstSeenAt": "2026-09-07T21:51:32.810Z",
-      "lastSeenAt": "2026-09-17T06:47:04.744Z"
+      "lastSeenAt": "2026-09-17T21:51:41.893Z"
     },
     {
       "id": "gh:agentconnect-md/agentconnect",
@@ -167,7 +251,7 @@
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-07-24T02:17:34Z",
-      "updatedAt": "2026-09-17T04:41:46Z",
+      "updatedAt": "2026-09-17T13:54:02Z",
       "summaryEn": "Allows tagging and collaborating with AI agents directly where your team works.",
       "summaryKo": "팀이 일하는 곳에서 직접 AI 에이전트를 태그하고 협업할 수 있게 해줍니다.",
       "reasonEn": "New team collaboration tool",
@@ -177,9 +261,9 @@
         "infra",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-09-17T06:47:04.744Z",
+      "metricsRefreshedAt": "2026-09-17T21:51:41.893Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
-      "lastSeenAt": "2026-09-17T06:47:04.744Z"
+      "lastSeenAt": "2026-09-17T21:51:41.893Z"
     },
     {
       "id": "gh:nklmilojevic/sofka",
@@ -203,12 +287,12 @@
         "kubernetes"
       ],
       "metrics": {
-        "stars": 1194
+        "stars": 1221
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-07-01T12:31:02Z",
-      "updatedAt": "2026-09-17T05:50:10Z",
+      "updatedAt": "2026-09-17T18:03:29Z",
       "summaryEn": "A modern Kubernetes terminal user interface written in Rust using kube-rs and ratatui for async cluster management.",
       "summaryKo": "비동기 클러스터 관리를 위해 kube-rs와 ratatui로 러스트로 작성된 모던 쿠버네티스 TUI입니다.",
       "reasonEn": "1K stars within 71 days",
@@ -216,9 +300,9 @@
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-09-17T06:47:04.744Z",
+      "metricsRefreshedAt": "2026-09-17T21:51:41.893Z",
       "firstSeenAt": "2026-09-10T21:20:01.286Z",
-      "lastSeenAt": "2026-09-17T06:47:04.744Z"
+      "lastSeenAt": "2026-09-17T21:51:41.893Z"
     },
     {
       "id": "gh:arnegiacomo/fugleramme",
@@ -242,12 +326,12 @@
         "pimoroni"
       ],
       "metrics": {
-        "stars": 2602
+        "stars": 2887
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-07-08T19:01:49Z",
-      "updatedAt": "2026-09-17T05:00:11Z",
+      "updatedAt": "2026-09-17T21:09:28Z",
       "summaryEn": "E-ink bird frame powered by Raspberry Pi and local AI audio detection, styled like vintage illustrations.",
       "summaryKo": "라즈베리 파이와 로컬 AI 오디오 감지로 작동하는 빈티지 스타일의 전자잉크 새 액자입니다.",
       "reasonEn": "1.3K stars within 10 weeks of launch",
@@ -255,9 +339,9 @@
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-09-17T06:47:04.744Z",
+      "metricsRefreshedAt": "2026-09-17T21:51:41.893Z",
       "firstSeenAt": "2026-09-15T21:52:44.143Z",
-      "lastSeenAt": "2026-09-17T06:47:04.744Z"
+      "lastSeenAt": "2026-09-17T21:51:41.893Z"
     },
     {
       "id": "gh:BitMiracle-AI/Dormice",
@@ -277,12 +361,12 @@
         "self-hosted"
       ],
       "metrics": {
-        "stars": 1158
+        "stars": 1167
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-07-08T13:02:44Z",
-      "updatedAt": "2026-09-17T05:40:05Z",
+      "updatedAt": "2026-09-17T07:48:50Z",
       "summaryEn": "Self-hosted, E2B-compatible SQLite alternative for agent sandboxes, offering persistent environments with zero idle costs.",
       "summaryKo": "에이전트 샌드박스를 위한 자체 호스팅 E2B 호환 SQLite 대안으로, 유휴 비용 없이 영구 환경을 제공합니다.",
       "reasonEn": "1K+ stars within 2 months of launch",
@@ -290,9 +374,35 @@
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-09-17T06:47:04.744Z",
+      "metricsRefreshedAt": "2026-09-17T21:51:41.893Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
-      "lastSeenAt": "2026-09-17T06:47:04.744Z"
+      "lastSeenAt": "2026-09-17T21:51:41.893Z"
+    },
+    {
+      "id": "hn:49447682",
+      "type": "article",
+      "title": "Omarchy development practices lead to predictable security issues",
+      "summaryOriginal": "Omarchy development practices lead to predictable security issues",
+      "url": "https://blog.happyfellow.dev/merchants-of-insecurity/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 297,
+        "comments": 445
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-26T12:17:43Z",
+      "admitReason": "notable",
+      "summaryEn": "An analysis showing how Omarchy development practices lead to predictable security issues.",
+      "summaryKo": "Omarchy 개발 관행이 예측 가능한 보안 문제를 초래하는 방식 분석.",
+      "reasonEn": "297 upvotes within 22 days.",
+      "reasonKo": "22일 동안 297개 업보트.",
+      "categories": [
+        "engineering",
+        "infra"
+      ],
+      "metricsRefreshedAt": "2026-09-17T21:51:41.893Z",
+      "firstSeenAt": "2026-09-17T21:51:41.893Z",
+      "lastSeenAt": "2026-09-17T21:51:41.893Z"
     },
     {
       "id": "hn:49593563",
@@ -308,16 +418,42 @@
       "source": "hn",
       "publishedAt": "2026-09-07T03:29:51Z",
       "admitReason": "notable",
-      "summaryEn": "A call to action regarding server maintenance and operational costs.",
-      "summaryKo": "서버 유지 관리 및 운영 비용에 대한 대응 촉구입니다.",
-      "reasonEn": "1057 upvotes within 10 days of posting",
-      "reasonKo": "게시 후 10일 동안 1057개의 추천을 받았습니다.",
+      "summaryEn": "An appeal or discussion focused on keeping servers running and operational.",
+      "summaryKo": "서버 가동 및 운영 유지에 초점을 맞춘 게시글.",
+      "reasonEn": "1057 upvotes within 10 days.",
+      "reasonKo": "10일 동안 1,057개 업보트.",
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-09-17T06:47:04.744Z",
+      "metricsRefreshedAt": "2026-09-17T21:51:41.893Z",
       "firstSeenAt": "2026-09-14T22:13:48.779Z",
-      "lastSeenAt": "2026-09-17T06:47:04.744Z"
+      "lastSeenAt": "2026-09-17T21:51:41.893Z"
+    },
+    {
+      "id": "hn:49374269",
+      "type": "article",
+      "title": "Malicious Rust crate Arrayref runs a build-time payload",
+      "summaryOriginal": "Malicious Rust crate Arrayref runs a build-time payload",
+      "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 554,
+        "comments": 513
+      },
+      "source": "hn",
+      "publishedAt": "2026-08-20T13:23:12Z",
+      "admitReason": "notable",
+      "summaryEn": "A discovery of a malicious Rust crate, Arrayref, executing payloads during build time.",
+      "summaryKo": "빌드 중에 페이로드를 실행하는 악성 Rust 크레이트 Arrayref 발견.",
+      "reasonEn": "554 upvotes within 28 days.",
+      "reasonKo": "28일 동안 554개 업보트.",
+      "categories": [
+        "engineering",
+        "infra"
+      ],
+      "metricsRefreshedAt": "2026-09-17T21:51:41.893Z",
+      "firstSeenAt": "2026-09-17T21:51:41.893Z",
+      "lastSeenAt": "2026-09-17T21:51:41.893Z"
     },
     {
       "id": "hn:49468083",
@@ -333,42 +469,17 @@
       "source": "hn",
       "publishedAt": "2026-08-27T17:17:57Z",
       "admitReason": "notable",
-      "summaryEn": "Cloudflare details memory optimizations that saved 100 terabytes in 1.1.1.1's DNS cache.",
-      "summaryKo": "클라우드플레어가 1.1.1.1 DNS 캐시에서 100TB의 메모리를 절약한 최적화 기법을 설명합니다.",
-      "reasonEn": "925 upvotes within 20 days of posting",
-      "reasonKo": "게시 후 20일 동안 925개의 추천을 받았습니다.",
+      "summaryEn": "Cloudflare details how optimizing 1.1.1.1's DNS cache saved 100 terabytes of memory.",
+      "summaryKo": "1.1.1.1 DNS 캐시 최적화로 100테라바이트의 메모리를 절약한 사례.",
+      "reasonEn": "925 upvotes within 21 days.",
+      "reasonKo": "21일 동안 925개 업보트.",
       "categories": [
         "backend",
         "infra"
       ],
-      "metricsRefreshedAt": "2026-09-17T06:47:04.744Z",
+      "metricsRefreshedAt": "2026-09-17T21:51:41.893Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
-      "lastSeenAt": "2026-09-17T06:47:04.744Z"
-    },
-    {
-      "id": "hn:49495372",
-      "type": "article",
-      "title": "California lawmakers unanimously pass Linux exemption from age-verification law",
-      "summaryOriginal": "California lawmakers unanimously pass Linux exemption from age-verification law",
-      "url": "https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt",
-      "tags": [],
-      "metrics": {
-        "upvotes": 807,
-        "comments": 410
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-30T03:15:36Z",
-      "admitReason": "notable",
-      "summaryEn": "California passes a law exempting Linux from age-verification requirements.",
-      "summaryKo": "캘리포니아주가 연령 확인 법안에서 리눅스를 면제하는 법안을 통과시켰습니다.",
-      "reasonEn": "807 upvotes within 18 days of posting",
-      "reasonKo": "게시 후 18일 동안 807개의 추천을 받았습니다.",
-      "categories": [
-        "infra"
-      ],
-      "metricsRefreshedAt": "2026-09-17T06:47:04.744Z",
-      "firstSeenAt": "2026-09-17T06:47:04.744Z",
-      "lastSeenAt": "2026-09-17T06:47:04.744Z"
+      "lastSeenAt": "2026-09-17T21:51:41.893Z"
     },
     {
       "id": "hn:49582000",
@@ -378,22 +489,22 @@
       "url": "https://cloudinabottle.org/blog/launch-post",
       "tags": [],
       "metrics": {
-        "upvotes": 653,
+        "upvotes": 654,
         "comments": 321
       },
       "source": "hn",
       "publishedAt": "2026-09-06T00:03:29Z",
       "admitReason": "notable",
-      "summaryEn": "Cloud in a Bottle aims to make self-hosting accessible to everyone by simplifying deployment and management.",
-      "summaryKo": "누구나 쉽게 자가 호스팅을 할 수 있도록 돕는 서비스입니다.",
-      "reasonEn": "653 upvotes within 11 days of launch",
-      "reasonKo": "출시 11일 만에 653개 업보트 기록",
+      "summaryEn": "Cloud in a Bottle aims to make self-hosting accessible and easy for everyone.",
+      "summaryKo": "모든 사람이 쉽게 셀프 호스팅을 할 수 있도록 돕는 도구.",
+      "reasonEn": "654 upvotes within 11 days.",
+      "reasonKo": "11일 동안 654개 업보트.",
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-09-17T06:47:04.744Z",
+      "metricsRefreshedAt": "2026-09-17T21:51:41.893Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
-      "lastSeenAt": "2026-09-17T06:47:04.744Z"
+      "lastSeenAt": "2026-09-17T21:51:41.893Z"
     },
     {
       "id": "hn:49586698",
@@ -409,116 +520,118 @@
       "source": "hn",
       "publishedAt": "2026-09-06T14:08:59Z",
       "admitReason": "notable",
-      "summaryEn": "Asahi Linux brings support for Apple Silicon M3 hardware, enabling native Linux runs on modern Macs.",
-      "summaryKo": "애플 실리콘 M3 하드웨어를 지원하는 아사히 리눅스 관련 소식입니다.",
-      "reasonEn": "563 upvotes within 10 days of publication",
-      "reasonKo": "공개 10일 만에 563개 업보트 기록",
+      "summaryEn": "Progress report on running Asahi Linux on Apple M3 hardware.",
+      "summaryKo": "애플 M3 하드웨어에서 Asahi Linux 구동 진척 상황.",
+      "reasonEn": "563 upvotes within 11 days.",
+      "reasonKo": "11일 동안 563개 업보트.",
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-09-17T06:47:04.744Z",
+      "metricsRefreshedAt": "2026-09-17T21:51:41.893Z",
       "firstSeenAt": "2026-09-12T21:08:18.614Z",
-      "lastSeenAt": "2026-09-17T06:47:04.744Z"
+      "lastSeenAt": "2026-09-17T21:51:41.893Z"
     },
     {
-      "id": "hn:49342719",
+      "id": "hn:49415386",
       "type": "article",
-      "title": "Linux 7.3 improves performance when running out of vRAM",
-      "summaryOriginal": "Linux 7.3 improves performance when running out of vRAM",
-      "url": "https://pixelcluster.dev/VRAM-Overcommit/",
+      "title": "Tether: iMessage, SMS, etc. on Linux",
+      "summaryOriginal": "Tether: iMessage, SMS, etc. on Linux",
+      "url": "https://zackbartel.com/blog/2026/08/tether/",
       "tags": [],
       "metrics": {
-        "upvotes": 547,
-        "comments": 313
+        "upvotes": 549,
+        "comments": 218
       },
       "source": "hn",
-      "publishedAt": "2026-08-18T07:51:50Z",
+      "publishedAt": "2026-08-24T05:09:23Z",
       "admitReason": "notable",
-      "summaryEn": "Linux 7.3 kernel update brings performance improvements when systems run low on video RAM.",
-      "summaryKo": "비디오 램 부족 시 성능을 개선하는 리눅스 7.3 커널 업데이트입니다.",
-      "reasonEn": "547 upvotes within 29 days of release",
-      "reasonKo": "배포 29일 만에 547개 업보트 기록",
+      "summaryEn": "Tether lets you use iMessage, SMS, and other messaging services on Linux.",
+      "summaryKo": "리눅스에서 iMessage와 SMS 등을 사용할 수 있게 해주는 테더입니다.",
+      "reasonEn": "549 upvotes within 24 days of publication",
+      "reasonKo": "공개 후 24일 만에 549개의 추천을 받음",
+      "categories": [
+        "infra",
+        "backend"
+      ],
+      "metricsRefreshedAt": "2026-09-17T21:51:41.893Z",
+      "firstSeenAt": "2026-09-17T21:51:41.893Z",
+      "lastSeenAt": "2026-09-17T21:51:41.893Z"
+    },
+    {
+      "id": "hn:49675902",
+      "type": "article",
+      "title": "Linux Zoom client proactively reading everything written to X11 clipboard",
+      "summaryOriginal": "Linux Zoom client proactively reading everything written to X11 clipboard",
+      "url": "https://hachyderm.io/@simontatham/117201594980991062",
+      "tags": [],
+      "metrics": {
+        "upvotes": 429,
+        "comments": 167
+      },
+      "source": "hn",
+      "publishedAt": "2026-09-12T18:58:57Z",
+      "admitReason": "notable",
+      "summaryEn": "An analysis showing that the Linux Zoom client proactively reads the X11 clipboard.",
+      "summaryKo": "리눅스용 줌 클라이언트가 X11 클립보드의 내용을 읽어가는 문제를 다룬 분석입니다.",
+      "reasonEn": "429 upvotes within 5 days of publication",
+      "reasonKo": "공개 후 5일 만에 429개의 추천을 받음",
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-09-17T06:47:04.744Z",
-      "firstSeenAt": "2026-09-13T21:13:30.222Z",
-      "lastSeenAt": "2026-09-17T06:47:04.744Z"
+      "metricsRefreshedAt": "2026-09-17T21:51:41.893Z",
+      "firstSeenAt": "2026-09-17T21:51:41.893Z",
+      "lastSeenAt": "2026-09-17T21:51:41.893Z"
     },
     {
-      "id": "hn:49569896",
+      "id": "hn:49456851",
       "type": "article",
-      "title": "Statichost.eu – European static site hosting",
-      "summaryOriginal": "Statichost.eu – European static site hosting",
-      "url": "https://www.statichost.eu/",
+      "title": "Asahi Linux Progress Report: Linux 7.2",
+      "summaryOriginal": "Asahi Linux Progress Report: Linux 7.2",
+      "url": "https://asahilinux.org/2026/08/progress-report-7-2/",
       "tags": [],
       "metrics": {
-        "upvotes": 506,
-        "comments": 246
+        "upvotes": 410,
+        "comments": 235
       },
       "source": "hn",
-      "publishedAt": "2026-09-04T20:34:49Z",
+      "publishedAt": "2026-08-26T22:35:02Z",
       "admitReason": "notable",
-      "summaryEn": "Statichost.eu provides static site hosting infrastructure targeted specifically at European users.",
-      "summaryKo": "유럽 사용자를 타겟으로 하는 정적 사이트 호스팅 서비스입니다.",
-      "reasonEn": "506 upvotes within 12 days of launch",
-      "reasonKo": "출시 12일 만에 506개 업보트 기록",
+      "summaryEn": "Asahi Linux progress report highlighting improvements and support for Linux 7.2.",
+      "summaryKo": "리눅스 7.2 지원 및 개선 사항을 담은 아사히 리눅스 진행 상황 보고서입니다.",
+      "reasonEn": "410 upvotes within 21 days of publication",
+      "reasonKo": "공개 후 21일 만에 410개의 추천을 받음",
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-09-17T06:47:04.744Z",
-      "firstSeenAt": "2026-09-16T21:50:05.780Z",
-      "lastSeenAt": "2026-09-17T06:47:04.744Z"
+      "metricsRefreshedAt": "2026-09-17T21:51:41.893Z",
+      "firstSeenAt": "2026-09-17T21:51:41.893Z",
+      "lastSeenAt": "2026-09-17T21:51:41.893Z"
     },
     {
-      "id": "hn:49586171",
+      "id": "hn:49421806",
       "type": "article",
-      "title": "QBittorrent breaks out of sandbox to commit crimes",
-      "summaryOriginal": "QBittorrent breaks out of sandbox to commit crimes",
-      "url": "https://beige.party/@intransitivelie/117057396732763183",
+      "title": "Show HN: PicoMQ – Durable Streams over HTTP, on object storage",
+      "summaryOriginal": "Show HN: PicoMQ – Durable Streams over HTTP, on object storage",
+      "url": "https://picomq.com/",
       "tags": [],
       "metrics": {
-        "upvotes": 1355,
-        "comments": 293
+        "upvotes": 159,
+        "comments": 31
       },
       "source": "hn",
-      "publishedAt": "2026-09-06T13:02:41Z",
+      "publishedAt": "2026-08-24T16:08:17Z",
       "admitReason": "notable",
-      "summaryEn": "A look into a software anomaly where QBittorrent unexpectedly bypassed sandbox security restrictions.",
-      "summaryKo": "QBittorrent가 샌드박스 보안 제한을 우회하여 실행된 예외적인 소프트웨어 이슈.",
-      "reasonEn": "1.3K upvotes within 10 days",
-      "reasonKo": "10일 만에 1,300개 이상 업vote",
+      "summaryEn": "PicoMQ provides durable message streams over HTTP backed by object storage.",
+      "summaryKo": "오브젝트 스토리지 기반의 HTTP 지속성 메시지 스트림을 제공하는 PicoMQ입니다.",
+      "reasonEn": "159 upvotes within 24 days of publication",
+      "reasonKo": "공개 후 24일 만에 159개의 추천을 받음",
       "categories": [
+        "backend",
         "infra"
       ],
-      "metricsRefreshedAt": "2026-09-17T06:47:04.744Z",
-      "firstSeenAt": "2026-09-17T06:47:04.744Z",
-      "lastSeenAt": "2026-09-17T06:47:04.744Z"
-    },
-    {
-      "id": "hn:49364745",
-      "type": "article",
-      "title": "Google has stopped pushing Git tags for some Android source code",
-      "summaryOriginal": "Google has stopped pushing Git tags for some Android source code",
-      "url": "https://grapheneos.social/@GrapheneOS/117057099753905023",
-      "tags": [],
-      "metrics": {
-        "upvotes": 829,
-        "comments": 337
-      },
-      "source": "hn",
-      "publishedAt": "2026-08-19T17:47:29Z",
-      "admitReason": "notable",
-      "summaryEn": "Google halts the publication of Git tags for certain components of the Android source code repository.",
-      "summaryKo": "구글이 안드로이드 소스 코드 일부 리포지토리의 Git 태그 발행을 중단한 이슈.",
-      "reasonEn": "829 upvotes within 28 days",
-      "reasonKo": "28일 만에 829개 업vote",
-      "categories": [
-        "infra"
-      ],
-      "metricsRefreshedAt": "2026-09-17T06:47:04.744Z",
-      "firstSeenAt": "2026-09-17T06:47:04.744Z",
-      "lastSeenAt": "2026-09-17T06:47:04.744Z"
+      "metricsRefreshedAt": "2026-09-17T21:51:41.893Z",
+      "firstSeenAt": "2026-09-17T21:51:41.893Z",
+      "lastSeenAt": "2026-09-17T21:51:41.893Z"
     },
     {
       "id": "gh:Augani/dory",
@@ -576,6 +689,7 @@
         "stars": 3085
       },
       "source": "github-trending",
+      "updatedAt": "2026-09-17T01:18:11Z",
       "firstSeenAt": "2026-09-11T21:29:44.686Z",
       "lastSeenAt": "2026-09-15T21:52:44.143Z",
       "metricsRefreshedAt": "2026-09-17T06:47:04.744Z",
@@ -583,8 +697,7 @@
       "summaryEn": "DeskcommCRM is an open-source, self-hosted AI sales CRM with native AI agents and WhatsApp integration.",
       "summaryKo": "네이티브 AI 에이전트와 왓츠앱 연동을 지원하는 오픈소스 셀프 호스팅 AI CRM입니다.",
       "reasonEn": "1.2K stars with a 126 star surge today",
-      "reasonKo": "오늘만 스타 126개가 늘며 총 1.2K 스타 기록",
-      "updatedAt": "2026-09-17T01:18:11Z"
+      "reasonKo": "오늘만 스타 126개가 늘며 총 1.2K 스타 기록"
     },
     {
       "id": "gh:Flowseal/zapret-discord-youtube",
@@ -1902,43 +2015,6 @@
       "admitReason": "notable",
       "summaryEn": "Authentication and authorization platform supporting OAuth2, OIDC, SAML, reverse proxy, and SSO for Kubernetes-native deployments.",
       "summaryKo": "OAuth2, OIDC, SAML, 리버스 프록시, SSO를 지원하는 인증 및 권한 부여 플랫폼."
-    },
-    {
-      "id": "gh:cilium/cilium",
-      "type": "repo",
-      "categories": [
-        "infra"
-      ],
-      "title": "cilium/cilium",
-      "summaryOriginal": "eBPF-based Networking, Security, and Observability",
-      "url": "https://github.com/cilium/cilium",
-      "lang": "Go",
-      "tags": [
-        "bpf",
-        "cncf",
-        "cni",
-        "containers",
-        "ebpf",
-        "k8s",
-        "kernel",
-        "kubernetes",
-        "kubernetes-networking",
-        "loadbalancing",
-        "monitoring",
-        "networking"
-      ],
-      "metrics": {
-        "stars": 25190
-      },
-      "source": "github-search",
-      "publishedAt": "2015-12-16T12:33:31Z",
-      "updatedAt": "2026-09-16T21:17:31Z",
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-16T21:50:05.780Z",
-      "admitReason": "notable",
-      "summaryEn": "eBPF-based networking, security, and observability layer for Kubernetes providing CNI, load balancing, and network policy enforcement.",
-      "summaryKo": "쿠버네티스용 eBPF 기반 네트워킹, 보안, 관찰성 레이어로 CNI, 로드밸런싱 제공."
     },
     {
       "id": "gh:argoproj/argo-cd",
@@ -3380,53 +3456,6 @@
       "summaryKo": "로컬 데스크톱에서 전체 서버 인프라, SSH 연결 및 컨테이너를 관리하는 데스크톱 앱.",
       "reasonEn": "Unified desktop GUI demand for system administration",
       "reasonKo": "시스템 관리를 위한 통합 데스크톱 GUI 수요"
-    },
-    {
-      "id": "gh:n8n-io/n8n",
-      "type": "repo",
-      "categories": [
-        "infra",
-        "ai-agents",
-        "web",
-        "devtools"
-      ],
-      "title": "n8n-io/n8n",
-      "summaryOriginal": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "url": "https://github.com/n8n-io/n8n",
-      "lang": "TypeScript",
-      "tags": [
-        "ai",
-        "apis",
-        "automation",
-        "cli",
-        "data-flow",
-        "development",
-        "integration-framework",
-        "integrations",
-        "ipaas",
-        "low-code",
-        "low-code-platform",
-        "mcp",
-        "mcp-client",
-        "mcp-server",
-        "n8n",
-        "no-code",
-        "self-hosted",
-        "typescript",
-        "workflow",
-        "workflow-automation"
-      ],
-      "metrics": {
-        "stars": 204638
-      },
-      "source": "github-search",
-      "publishedAt": "2019-06-22T09:24:21Z",
-      "updatedAt": "2026-09-16T18:48:22Z",
-      "firstSeenAt": "2026-08-22T15:22:55.161Z",
-      "lastSeenAt": "2026-08-23T09:29:14.266Z",
-      "metricsRefreshedAt": "2026-09-16T21:50:05.780Z",
-      "admitReason": "notable",
-      "summaryEn": "Workflow automation platform with visual UI and custom code support, 400+ integrations, native AI capabilities. Open-source, self-hostable."
     },
     {
       "id": "gh:immich-app/immich",
