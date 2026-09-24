@@ -1,9 +1,37 @@
 {
   "version": 1,
   "category": "engineering",
-  "generatedAt": "2026-09-23T21:56:52.747Z",
+  "generatedAt": "2026-09-24T21:54:59.755Z",
   "ttlSeconds": 10800,
   "cards": [
+    {
+      "id": "gh:NVIDIA/Model-Optimizer",
+      "type": "repo",
+      "title": "NVIDIA/Model-Optimizer",
+      "summaryOriginal": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+      "url": "https://github.com/NVIDIA/Model-Optimizer",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "stars": 4040,
+        "starsDelta": 22
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "A unified library of model optimization techniques like quantization and pruning, compressing deep learning models for faster deployment on frameworks like TensorRT.",
+      "summaryKo": "양자화 및 가지치기 같은 모델 최적화 기법을 통합하여 딥러닝 모델의 추론 속도를 높이는 라이브러리입니다.",
+      "reasonEn": "4K+ stars on GitHub",
+      "reasonKo": "GitHub 스타 4K개 돌파",
+      "categories": [
+        "ai-models",
+        "infra",
+        "data",
+        "engineering"
+      ],
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
+      "firstSeenAt": "2026-09-24T21:54:59.755Z",
+      "lastSeenAt": "2026-09-24T21:54:59.755Z"
+    },
     {
       "id": "gh:google/artemis",
       "type": "repo",
@@ -19,7 +47,7 @@
         "testing"
       ],
       "metrics": {
-        "stars": 9530
+        "stars": 9729
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -33,9 +61,9 @@
         "ai-agents",
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-09-23T21:56:52.747Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "firstSeenAt": "2026-09-10T21:20:01.286Z",
-      "lastSeenAt": "2026-09-23T21:56:52.747Z"
+      "lastSeenAt": "2026-09-24T21:54:59.755Z"
     },
     {
       "id": "gh:Qiuner/birdview",
@@ -55,7 +83,7 @@
         "software-architecture"
       ],
       "metrics": {
-        "stars": 598
+        "stars": 608
       },
       "source": "github-search",
       "admitReason": "new",
@@ -69,9 +97,9 @@
         "engineering",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-09-23T21:56:52.747Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "firstSeenAt": "2026-09-16T21:50:05.780Z",
-      "lastSeenAt": "2026-09-23T21:56:52.747Z"
+      "lastSeenAt": "2026-09-24T21:54:59.755Z"
     },
     {
       "id": "hn:49747070",
@@ -81,72 +109,98 @@
       "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
       "tags": [],
       "metrics": {
-        "upvotes": 759,
-        "comments": 416
+        "upvotes": 763,
+        "comments": 419
       },
       "source": "hn",
       "publishedAt": "2026-09-17T21:48:38Z",
       "admitReason": "notable",
-      "summaryEn": "A practical guide on how to effectively write content and code using large language models.",
-      "summaryKo": "LLM을 활용해 효과적으로 글을 작성하는 방법에 대한 가이드.",
-      "reasonEn": "759 upvotes within 6 days of publication",
-      "reasonKo": "게시 후 6일 만에 759 추천",
+      "summaryEn": "Practical advice and techniques on how to effectively write content and code using large language models.",
+      "summaryKo": "대규모 언어 모델을 사용하여 콘텐츠와 코드를 효과적으로 작성하는 방법에 대한 실용적인 조언.",
+      "reasonEn": "763 upvotes within 7 days",
+      "reasonKo": "7일 내 763 업보트",
       "categories": [
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-09-23T21:56:52.747Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "firstSeenAt": "2026-09-23T21:56:52.747Z",
-      "lastSeenAt": "2026-09-23T21:56:52.747Z"
+      "lastSeenAt": "2026-09-24T21:54:59.755Z"
     },
     {
-      "id": "hn:49463888",
+      "id": "hn:49604637",
       "type": "article",
-      "title": "Casey Muratori – The Root of the Root of All Evil – BSC 2026 [video]",
-      "summaryOriginal": "Casey Muratori – The Root of the Root of All Evil – BSC 2026 [video]",
-      "url": "https://www.youtube.com/watch?v=hpj6r6CjJf8",
+      "title": "I've factored the RSA keys of a Certificate Authority from the 90s",
+      "summaryOriginal": "I've factored the RSA keys of a Certificate Authority from the 90s",
+      "url": "https://mcpherrin.ca/2026/09/07/rsa.html",
       "tags": [],
       "metrics": {
-        "upvotes": 326,
-        "comments": 219
+        "upvotes": 514,
+        "comments": 129
       },
       "source": "hn",
-      "publishedAt": "2026-08-27T12:40:43Z",
+      "publishedAt": "2026-09-08T01:16:59Z",
       "admitReason": "notable",
-      "summaryEn": "Casey Muratori discusses software design principles and complexity in programming at BSC 2026.",
-      "summaryKo": "케이시 무라토리가 BSC 2026에서 소프트웨어 설계 원칙과 복잡성에 대해 논의합니다.",
-      "reasonEn": "326 upvotes within 4 weeks.",
-      "reasonKo": "4주 내 326개의 추천.",
+      "summaryEn": "Technical breakdown of factoring vintage RSA keys from a 1990s Certificate Authority.",
+      "summaryKo": "1990년대 인증 기관의 구형 RSA 키를 인수분해한 기술적 분석.",
+      "reasonEn": "514 upvotes within 16 days",
+      "reasonKo": "16일 내 514 업보트",
       "categories": [
+        "backend",
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-09-23T21:56:52.747Z",
-      "firstSeenAt": "2026-09-14T22:13:48.779Z",
-      "lastSeenAt": "2026-09-23T21:56:52.747Z"
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
+      "firstSeenAt": "2026-09-24T21:54:59.755Z",
+      "lastSeenAt": "2026-09-24T21:54:59.755Z"
     },
     {
-      "id": "hn:49758736",
+      "id": "hn:49626718",
       "type": "article",
-      "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
-      "summaryOriginal": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
-      "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
+      "title": "A Design Space Exploration of Async/Await",
+      "summaryOriginal": "A Design Space Exploration of Async/Await",
+      "url": "https://cel.cs.brown.edu/blog/design-space-async-await/",
       "tags": [],
       "metrics": {
-        "upvotes": 1180,
-        "comments": 721
+        "upvotes": 466,
+        "comments": 134
       },
       "source": "hn",
-      "publishedAt": "2026-09-18T19:03:09Z",
+      "publishedAt": "2026-09-09T13:59:50Z",
       "admitReason": "notable",
-      "summaryEn": "Android 17 introduces new APIs without releasing them to the AOSP for the first time since version 3.x.",
-      "summaryKo": "안드로이드 17이 3.x 버전 이후 처음으로 AOSP에 공개하지 않고 새 API를 도입합니다.",
-      "reasonEn": "1.1K upvotes within 5 days.",
-      "reasonKo": "5일 내 1,100개 이상의 추천.",
+      "summaryEn": "A detailed exploration of the design space for async/await concurrency models in programming languages.",
+      "summaryKo": "프로그래밍 언어의 비동기(async/await) 동시성 모델에 대한 심층 설계 탐색입니다.",
+      "reasonEn": "Attracted 466 upvotes over 15 days.",
+      "reasonKo": "15일 동안 466개의 추천을 받았습니다.",
       "categories": [
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-09-23T21:56:52.747Z",
-      "firstSeenAt": "2026-09-23T21:56:52.747Z",
-      "lastSeenAt": "2026-09-23T21:56:52.747Z"
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
+      "firstSeenAt": "2026-09-24T21:54:59.755Z",
+      "lastSeenAt": "2026-09-24T21:54:59.755Z"
+    },
+    {
+      "id": "hn:49550375",
+      "type": "article",
+      "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
+      "summaryOriginal": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
+      "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 381,
+        "comments": 133
+      },
+      "source": "hn",
+      "publishedAt": "2026-09-03T14:28:18Z",
+      "admitReason": "notable",
+      "summaryEn": "A developer's journey porting a 1993 Amiga game to the Godot engine using an LLM to read 68000 assembly code.",
+      "summaryKo": "LLM을 활용해 68000 어셈블리를 읽고 1993년 아미가 게임을 고도 엔진으로 포팅한 개발기입니다.",
+      "reasonEn": "Secured 381 upvotes over 21 days.",
+      "reasonKo": "21일 동안 381개의 추천을 얻었습니다.",
+      "categories": [
+        "engineering"
+      ],
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
+      "firstSeenAt": "2026-09-24T21:54:59.755Z",
+      "lastSeenAt": "2026-09-24T21:54:59.755Z"
     },
     {
       "id": "hn:49724881",
@@ -162,171 +216,142 @@
       "source": "hn",
       "publishedAt": "2026-09-16T11:15:53Z",
       "admitReason": "notable",
-      "summaryEn": "Nvidia announces native support for GPU programming using the Rust language.",
-      "summaryKo": "엔비디아가 러스트 언어를 사용한 네이티브 GPU 프로그래밍 지원을 발표했습니다.",
-      "reasonEn": "970 upvotes within 7 days.",
-      "reasonKo": "7일 내 970개의 추천.",
+      "summaryEn": "Nvidia announces support for native GPU programming using the Rust programming language.",
+      "summaryKo": "엔비디아가 러스트(Rust) 언어를 이용한 네이티브 GPU 프로그래밍 지원을 발표했습니다.",
+      "reasonEn": "Scored 970 upvotes within 8 days.",
+      "reasonKo": "8일 만에 970개의 추천을 기록했습니다.",
       "categories": [
-        "backend",
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-09-23T21:56:52.747Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "firstSeenAt": "2026-09-20T21:07:54.921Z",
-      "lastSeenAt": "2026-09-23T21:56:52.747Z"
+      "lastSeenAt": "2026-09-24T21:54:59.755Z"
     },
     {
-      "id": "hn:49797982",
+      "id": "hn:49643982",
       "type": "article",
-      "title": "I said no and Apple said yes",
-      "summaryOriginal": "I said no and Apple said yes",
-      "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
+      "title": "Shopify is moving from React Native back to Swift and Kotlin",
+      "summaryOriginal": "Shopify is moving from React Native back to Swift and Kotlin",
+      "url": "https://shopify.engineering/back-to-native",
       "tags": [],
       "metrics": {
-        "upvotes": 853,
-        "comments": 690
+        "upvotes": 1275,
+        "comments": 957
       },
       "source": "hn",
-      "publishedAt": "2026-09-22T08:04:55Z",
+      "publishedAt": "2026-09-10T14:09:31Z",
       "admitReason": "notable",
-      "summaryEn": "A developer account experience dealing with Apple's app review and policy decisions.",
-      "summaryKo": "애플의 앱 심사 및 정책 결정 과정을 다룬 개발자 계정 경험담.",
-      "reasonEn": "853 upvotes within 1 day.",
-      "reasonKo": "1일 내 853개의 추천.",
+      "summaryEn": "Shopify explains its architectural decision to move away from React Native back to Swift and Kotlin.",
+      "summaryKo": "Shopify가 React Native에서 Swift와 Kotlin으로 다시 전환한 아키텍처 결정 배경을 설명합니다.",
+      "reasonEn": "Gained 1.2K upvotes within 2 weeks.",
+      "reasonKo": "2주 동안 1.2K개의 추천을 받았습니다.",
+      "categories": [
+        "web",
+        "engineering"
+      ],
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
+      "firstSeenAt": "2026-09-24T21:54:59.755Z",
+      "lastSeenAt": "2026-09-24T21:54:59.755Z"
+    },
+    {
+      "id": "hn:49701004",
+      "type": "article",
+      "title": "iOS 27, iPadOS 27, and macOS 27",
+      "summaryOriginal": "iOS 27, iPadOS 27, and macOS 27",
+      "url": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 718,
+        "comments": 856
+      },
+      "source": "hn",
+      "publishedAt": "2026-09-14T17:50:29Z",
+      "admitReason": "notable",
+      "summaryEn": "Overview of announcements and new features coming in iOS 27, iPadOS 27, and macOS 27.",
+      "summaryKo": "iOS 27, iPadOS 27, macOS 27의 새로운 발표 및 기능 개요입니다.",
+      "reasonEn": "Gained 718 upvotes within 10 days.",
+      "reasonKo": "10일 동안 718개의 추천을 받았습니다.",
       "categories": [
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-09-23T21:56:52.747Z",
-      "firstSeenAt": "2026-09-23T21:56:52.747Z",
-      "lastSeenAt": "2026-09-23T21:56:52.747Z"
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
+      "firstSeenAt": "2026-09-24T21:54:59.755Z",
+      "lastSeenAt": "2026-09-24T21:54:59.755Z"
     },
     {
-      "id": "hn:49643546",
+      "id": "hn:49638071",
       "type": "article",
-      "title": "Rust is tier-1 language at Microsoft",
-      "summaryOriginal": "Rust is tier-1 language at Microsoft",
-      "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
+      "title": "Reverse engineering my e-scooter and rewriting the firmware in Rust",
+      "summaryOriginal": "Reverse engineering my e-scooter and rewriting the firmware in Rust",
+      "url": "https://bensimms.moe/reverse-engineering-scooter/",
       "tags": [],
       "metrics": {
-        "upvotes": 730,
-        "comments": 517
+        "upvotes": 452,
+        "comments": 105
       },
       "source": "hn",
-      "publishedAt": "2026-09-10T13:39:16Z",
+      "publishedAt": "2026-09-10T03:32:04Z",
       "admitReason": "notable",
-      "summaryEn": "Microsoft officially designates Rust as a tier-1 programming language.",
-      "summaryKo": "마이크로소프트가 러스트를 공식 티어-1 프로그래밍 언어로 지정했습니다.",
-      "reasonEn": "730 upvotes within 13 days.",
-      "reasonKo": "13일 내 730개의 추천.",
+      "summaryEn": "A project reverse engineering an e-scooter and rewriting its custom firmware in Rust.",
+      "summaryKo": "전동 킥보드를 리버스 엔지니어링하고 커스텀 펌웨어를 Rust로 재작성한 프로젝트입니다.",
+      "reasonEn": "Gained 452 upvotes within 14 days.",
+      "reasonKo": "14일 동안 452개의 추천을 받았습니다.",
       "categories": [
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-09-23T21:56:52.747Z",
-      "firstSeenAt": "2026-09-23T21:56:52.747Z",
-      "lastSeenAt": "2026-09-23T21:56:52.747Z"
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
+      "firstSeenAt": "2026-09-24T21:54:59.755Z",
+      "lastSeenAt": "2026-09-24T21:54:59.755Z"
     },
     {
-      "id": "hn:49586698",
+      "id": "hn:49562657",
       "type": "article",
-      "title": "Asahi Linux on M3",
-      "summaryOriginal": "Asahi Linux on M3",
-      "url": "https://asahilinux.org/2026/09/m2-episode-1/",
+      "title": "Solving the Jane Street reverse engineering challenge",
+      "summaryOriginal": "Solving the Jane Street reverse engineering challenge",
+      "url": "https://jestoph.com/2026/09/04/jane-street-challenge.html",
       "tags": [],
       "metrics": {
-        "upvotes": 563,
-        "comments": 378
+        "upvotes": 439,
+        "comments": 99
       },
       "source": "hn",
-      "publishedAt": "2026-09-06T14:08:59Z",
+      "publishedAt": "2026-09-04T10:17:01Z",
       "admitReason": "notable",
-      "summaryEn": "Progress report and technical details on running Asahi Linux natively on Apple M3 hardware.",
-      "summaryKo": "Apple M3 하드웨어에서 아사히 리눅스를 네이티브로 실행하는 기술적 진행 상황.",
-      "reasonEn": "563 upvotes within 17 days",
-      "reasonKo": "17일 동안 563개의 추천",
+      "summaryEn": "A breakdown of the methodology used to solve the Jane Street reverse engineering programming challenge.",
+      "summaryKo": "Jane Street 리버스 엔지니어링 프로그래밍 챌린지를 해결하는 데 사용된 방법론 분석입니다.",
+      "reasonEn": "Gained 439 upvotes within 20 days.",
+      "reasonKo": "20일 동안 439개의 추천을 받았습니다.",
       "categories": [
-        "infra",
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-09-23T21:56:52.747Z",
-      "firstSeenAt": "2026-09-23T21:56:52.747Z",
-      "lastSeenAt": "2026-09-23T21:56:52.747Z"
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
+      "firstSeenAt": "2026-09-24T21:54:59.755Z",
+      "lastSeenAt": "2026-09-24T21:54:59.755Z"
     },
     {
-      "id": "hn:49758580",
+      "id": "hn:49688695",
       "type": "article",
-      "title": "Saving another 100TB of RAM",
-      "summaryOriginal": "Saving another 100TB of RAM",
-      "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
+      "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+      "summaryOriginal": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+      "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
       "tags": [],
       "metrics": {
-        "upvotes": 485,
-        "comments": 121
+        "upvotes": 1218,
+        "comments": 571
       },
       "source": "hn",
-      "publishedAt": "2026-09-18T18:51:46Z",
+      "publishedAt": "2026-09-13T21:06:13Z",
       "admitReason": "notable",
-      "summaryEn": "Engineering insights and strategies on optimizing memory usage to save another 100TB of RAM.",
-      "summaryKo": "100TB의 RAM을 추가로 절약하기 위한 메모리 최적화 엔지니어링 인사이트.",
-      "reasonEn": "485 upvotes within 5 days",
-      "reasonKo": "5일 동안 485개의 추천",
+      "summaryEn": "Fable 5.1 successfully cracks the Cyphral Distich, a complex 370-year-old historical cipher.",
+      "summaryKo": "Fable 5.1이 370년 된 복잡한 역사적 암호인 Cyphral Distich를 성공적으로 해독했습니다.",
+      "reasonEn": "Gained 1.2K upvotes within 11 days.",
+      "reasonKo": "11일 동안 1.2K개의 추천을 받았습니다.",
       "categories": [
-        "engineering",
-        "backend"
-      ],
-      "metricsRefreshedAt": "2026-09-23T21:56:52.747Z",
-      "firstSeenAt": "2026-09-23T21:56:52.747Z",
-      "lastSeenAt": "2026-09-23T21:56:52.747Z"
-    },
-    {
-      "id": "hn:49675902",
-      "type": "article",
-      "title": "Linux Zoom client proactively reading everything written to X11 clipboard",
-      "summaryOriginal": "Linux Zoom client proactively reading everything written to X11 clipboard",
-      "url": "https://hachyderm.io/@simontatham/117201594980991062",
-      "tags": [],
-      "metrics": {
-        "upvotes": 431,
-        "comments": 168
-      },
-      "source": "hn",
-      "publishedAt": "2026-09-12T18:58:57Z",
-      "admitReason": "notable",
-      "summaryEn": "A security issue where the Linux Zoom client proactively reads all text written to the X11 clipboard.",
-      "summaryKo": "Linux Zoom 클라이언트가 X11 클립보드의 모든 텍스트를 읽어오는 보안 문제.",
-      "reasonEn": "431 upvotes within 11 days",
-      "reasonKo": "11일 동안 431개의 추천",
-      "categories": [
-        "infra",
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-09-23T21:56:52.747Z",
-      "firstSeenAt": "2026-09-23T21:56:52.747Z",
-      "lastSeenAt": "2026-09-23T21:56:52.747Z"
-    },
-    {
-      "id": "hn:49717638",
-      "type": "article",
-      "title": "Building a Linux GPU Driver for the M4 Mac Mini in One Month",
-      "summaryOriginal": "Building a Linux GPU Driver for the M4 Mac Mini in One Month",
-      "url": "https://codyho.dev/blog/gpu-driver/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 421,
-        "comments": 290
-      },
-      "source": "hn",
-      "publishedAt": "2026-09-15T19:30:03Z",
-      "admitReason": "notable",
-      "summaryEn": "Building a custom Linux GPU driver for the M4 Mac Mini from scratch in just one month.",
-      "summaryKo": "한 달 만에 M4 Mac Mini용 커스텀 Linux GPU 드라이버를 개발한 과정.",
-      "reasonEn": "421 upvotes within 8 days",
-      "reasonKo": "8일 동안 421개의 추천",
-      "categories": [
-        "engineering",
-        "infra"
-      ],
-      "metricsRefreshedAt": "2026-09-23T21:56:52.747Z",
-      "firstSeenAt": "2026-09-23T21:56:52.747Z",
-      "lastSeenAt": "2026-09-23T21:56:52.747Z"
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
+      "firstSeenAt": "2026-09-24T21:54:59.755Z",
+      "lastSeenAt": "2026-09-24T21:54:59.755Z"
     },
     {
       "id": "gh:affaan-m/ECC",
@@ -344,13 +369,13 @@
         "stars": 266142
       },
       "source": "github-trending",
+      "updatedAt": "2026-09-22T23:09:59Z",
       "firstSeenAt": "2026-08-22T01:19:03.673Z",
       "lastSeenAt": "2026-09-20T21:07:54.921Z",
       "metricsRefreshedAt": "2026-09-23T21:56:52.747Z",
       "admitReason": "trending",
       "summaryEn": "Agent harness optimization system for Claude Code and other coding agents covering skills, memory, and security.",
-      "summaryKo": "Claude Code 및 코딩 에이전트 최적화 시스템.",
-      "updatedAt": "2026-09-22T23:09:59Z"
+      "summaryKo": "Claude Code 및 코딩 에이전트 최적화 시스템."
     },
     {
       "id": "gh:cloudflare/security-audit-skill",
@@ -369,6 +394,7 @@
         "stars": 20849
       },
       "source": "github-trending",
+      "updatedAt": "2026-09-14T19:29:02Z",
       "firstSeenAt": "2026-09-16T21:50:05.780Z",
       "lastSeenAt": "2026-09-20T21:07:54.921Z",
       "metricsRefreshedAt": "2026-09-23T21:56:52.747Z",
@@ -376,8 +402,7 @@
       "summaryEn": "A coding-agent skill for conducting multi-phase security audits with independently verified, machine-readable findings.",
       "summaryKo": "기계 판독 가능한 보안 감사를 수행하는 코딩 에이전트 스킬입니다.",
       "reasonEn": "Gained 927 stars today",
-      "reasonKo": "오늘 927개의 스타 획득",
-      "updatedAt": "2026-09-14T19:29:02Z"
+      "reasonKo": "오늘 927개의 스타 획득"
     },
     {
       "id": "gh:mihail911/modern-software-dev-assignments",
@@ -394,6 +419,7 @@
         "stars": 4904
       },
       "source": "github-trending",
+      "updatedAt": "2026-09-23T19:26:10Z",
       "firstSeenAt": "2026-09-20T21:07:54.921Z",
       "lastSeenAt": "2026-09-20T21:07:54.921Z",
       "metricsRefreshedAt": "2026-09-23T21:56:52.747Z",
@@ -401,8 +427,7 @@
       "summaryEn": "Assignments for CS146S: The Modern Software Dev course at Stanford University.",
       "summaryKo": "스탠퍼드 대학교의 현대 소프트웨어 개발(CS146S) 강의 과제 모음입니다.",
       "reasonEn": "174 stars gained today",
-      "reasonKo": "오늘 174개의 스타 획득",
-      "updatedAt": "2026-09-23T19:26:10Z"
+      "reasonKo": "오늘 174개의 스타 획득"
     },
     {
       "id": "gh:alibaba/open-code-review",
@@ -444,13 +469,13 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 31395
+        "stars": 31509
       },
       "source": "github-trending",
-      "updatedAt": "2026-09-21T20:46:03Z",
+      "updatedAt": "2026-09-24T16:17:31Z",
       "firstSeenAt": "2026-09-16T21:50:05.780Z",
       "lastSeenAt": "2026-09-18T21:22:45.528Z",
-      "metricsRefreshedAt": "2026-09-21T22:23:23.865Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "trending",
       "summaryEn": "Anki is a popular smart spaced repetition flashcard program for efficient memorization.",
       "summaryKo": "효율적인 암기를 위한 스마트 간격 반복 플래시카드 프로그램입니다.",
@@ -578,13 +603,13 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 6681
+        "stars": 6873
       },
       "source": "github-trending",
       "updatedAt": "2026-09-19T23:46:22Z",
       "firstSeenAt": "2026-09-12T21:08:18.614Z",
       "lastSeenAt": "2026-09-17T06:47:04.744Z",
-      "metricsRefreshedAt": "2026-09-21T22:23:23.865Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "trending",
       "summaryEn": "A curated library of offensive security skills designed to prime Claude for specialized attack surface methods.",
       "summaryKo": "Claude가 전문적인 공격 표면 분석 기법을 수행하도록 지원하는 공격 보안 스킬 라이브러리입니다.",
@@ -690,13 +715,13 @@
       "url": "https://github.com/liquidslr/system-design-notes",
       "tags": [],
       "metrics": {
-        "stars": 20893
+        "stars": 21454
       },
       "source": "github-trending",
       "updatedAt": "2026-08-12T22:22:21Z",
       "firstSeenAt": "2026-09-09T21:27:06.431Z",
       "lastSeenAt": "2026-09-10T21:20:01.286Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "trending",
       "summaryEn": "Comprehensive notes for preparing for system design interviews, covering key architectural concepts.",
       "summaryKo": "시스템 디자인 면접 준비를 위한 핵심 아키텍처 개념 종합 정리 노트.",
@@ -726,7 +751,7 @@
       "updatedAt": "2026-08-26T18:17:41Z",
       "firstSeenAt": "2026-08-27T13:54:10.701Z",
       "lastSeenAt": "2026-09-08T21:31:48.079Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "new",
       "summaryEn": "A Claude skill designed to analyze and refactor codebases to reduce cyclomatic complexity and improve maintainability.",
       "summaryKo": "코드의 순환 복잡도를 줄이고 유지보수성을 높이도록 돕는 Claude 스킬입니다."
@@ -752,14 +777,14 @@
         "testing"
       ],
       "metrics": {
-        "stars": 3348
+        "stars": 3419
       },
       "source": "github-search",
       "publishedAt": "2026-06-11T10:44:15Z",
-      "updatedAt": "2026-09-21T23:47:32Z",
+      "updatedAt": "2026-09-24T08:39:35Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-09-08T21:31:48.079Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Official CLI for TestSprite, enabling automated AI-powered end-to-end testing directly from your terminal.",
       "summaryKo": "터미널에서 직접 AI 기반 자동화된 E2E 테스트를 수행할 수 있는 공식 TestSprite CLI입니다.",
@@ -814,14 +839,14 @@
         "refactoring"
       ],
       "metrics": {
-        "stars": 494
+        "stars": 495
       },
       "source": "github-search",
       "publishedAt": "2026-08-24T07:52:08Z",
       "updatedAt": "2026-09-04T07:13:36Z",
       "firstSeenAt": "2026-08-28T00:16:59.828Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "new",
       "summaryEn": "Prove and remove accidental codebase complexity automatically without breaking behavior.",
       "summaryKo": "동작을 깨뜨리지 않고 우발적인 코드베이스 복잡성을 자동으로 증명하고 제거"
@@ -856,10 +881,10 @@
       },
       "source": "github-search",
       "publishedAt": "2022-01-19T10:40:31Z",
-      "updatedAt": "2026-09-22T12:24:38Z",
+      "updatedAt": "2026-09-24T19:09:45Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Open-source platform for generating mocks and sandboxes for API and E2E testing; reduces test maintenance burden.",
       "summaryKo": "API 및 E2E 테스트용 목 및 샌드박스 생성을 위한 오픈소스 플랫폼; 테스트 유지보수 부담 감소."
@@ -890,14 +915,14 @@
         "svelte"
       ],
       "metrics": {
-        "stars": 91131
+        "stars": 91148
       },
       "source": "github-search",
       "publishedAt": "2016-03-18T04:23:44Z",
-      "updatedAt": "2026-09-22T21:00:50Z",
+      "updatedAt": "2026-09-24T21:17:19Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Industry-standard workshop for building, documenting, and testing UI components in isolation"
     },
@@ -967,14 +992,14 @@
         "microservice"
       ],
       "metrics": {
-        "stars": 11691
+        "stars": 11693
       },
       "source": "github-search",
       "publishedAt": "2021-02-06T22:17:38Z",
       "updatedAt": "2026-09-08T20:13:05Z",
       "firstSeenAt": "2026-09-05T20:52:55.871Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "A curated list of resources for learning software architecture patterns, principles, and clean design.",
       "summaryKo": "소프트웨어 아키텍처 패턴과 원칙을 학습하기 위한 리소스 모음입니다."
@@ -1005,14 +1030,14 @@
         "test-automation"
       ],
       "metrics": {
-        "stars": 8965
+        "stars": 8969
       },
       "source": "github-search",
       "publishedAt": "2017-02-07T15:59:17Z",
-      "updatedAt": "2026-09-19T03:47:36Z",
+      "updatedAt": "2026-09-24T06:24:26Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Lightweight testing framework for API and E2E tests using BDD syntax; no build step required, runs on JVM.",
       "summaryKo": "BDD 문법을 사용한 API 및 E2E 테스팅 프레임워크; 빌드 스텝 불필요, JVM에서 실행."
@@ -1039,14 +1064,14 @@
         "testing-library"
       ],
       "metrics": {
-        "stars": 7948
+        "stars": 7949
       },
       "source": "github-search",
       "publishedAt": "2016-03-05T00:26:17Z",
-      "updatedAt": "2026-09-22T19:12:17Z",
+      "updatedAt": "2026-09-23T22:09:38Z",
       "firstSeenAt": "2026-08-25T03:50:28.986Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Terratest is a Go library that simplifies writing automated tests for infrastructure code like Terraform and Docker.",
       "summaryKo": "Terraform 및 Docker 같은 인프라 코드의 자동화된 테스트 작성을 단순화하는 Go 라이브러리입니다."
@@ -1077,14 +1102,14 @@
         "diagrams"
       ],
       "metrics": {
-        "stars": 69852
+        "stars": 71191
       },
       "source": "github-search",
       "publishedAt": "2026-04-15T05:27:37Z",
-      "updatedAt": "2026-09-22T17:25:48Z",
+      "updatedAt": "2026-09-24T18:07:36Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "An agent skill that generates verifiable architecture and workflow diagrams as self-contained animated HTML.",
       "summaryKo": "에이전트용 스킬. 아키텍처·워크플로우 다이어그램을 애니메이션 HTML로 생성."
@@ -1110,14 +1135,14 @@
         "text-to-diagram"
       ],
       "metrics": {
-        "stars": 25488
+        "stars": 25504
       },
       "source": "github-search",
       "publishedAt": "2022-09-05T23:12:27Z",
       "updatedAt": "2026-09-20T16:30:17Z",
       "firstSeenAt": "2026-08-23T21:22:43.210Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "A modern text-to-diagram scripting language designed to generate clean software architecture diagrams.",
       "summaryKo": "텍스트로 소프트웨어 아키텍처 다이어그램을 생성하는 최신 스크립트 언어입니다.",
@@ -1149,14 +1174,14 @@
         "evidence-driven"
       ],
       "metrics": {
-        "stars": 1227
+        "stars": 1278
       },
       "source": "github-search",
       "publishedAt": "2026-04-30T17:40:49Z",
-      "updatedAt": "2026-09-20T11:25:37Z",
+      "updatedAt": "2026-09-24T11:21:43Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Keeps AI coding agents architecture-aware with baseline-first, evidence-verified, drift-checked guardrails.",
       "summaryKo": "긴 작업에서 AI 코딩 에이전트가 아키텍처를 인지하도록 베이스라인·근거·드리프트를 검증"
@@ -1177,14 +1202,14 @@
         "python"
       ],
       "metrics": {
-        "stars": 43005
+        "stars": 43013
       },
       "source": "github-search",
       "publishedAt": "2012-06-06T21:02:35Z",
-      "updatedAt": "2026-09-22T18:02:40Z",
+      "updatedAt": "2026-09-24T20:11:38Z",
       "firstSeenAt": "2026-08-20T09:36:42.325Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Collection of Python design patterns and idioms—learn Pythonic approaches to common programming problems.",
       "summaryKo": "Python 디자인 패턴과 관례 모음—파이썬다운 접근법 학습."
@@ -1214,14 +1239,14 @@
         "ui"
       ],
       "metrics": {
-        "stars": 4057
+        "stars": 4058
       },
       "source": "github-search",
       "publishedAt": "2020-09-25T16:09:18Z",
-      "updatedAt": "2026-09-22T16:27:35Z",
+      "updatedAt": "2026-09-24T21:42:08Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Angular component library with TypeScript and responsive design; production-ready UI kit for enterprise applications.",
       "summaryKo": "TypeScript 및 반응형 디자인을 갖춘 Angular 컴포넌트 라이브러리; 엔터프라이즈 앱용 프로덕션 레디 UI 킷."
@@ -1251,14 +1276,14 @@
         "lfx"
       ],
       "metrics": {
-        "stars": 1128
+        "stars": 1132
       },
       "source": "github-search",
       "publishedAt": "2018-06-07T02:30:12Z",
-      "updatedAt": "2026-09-22T20:36:39Z",
+      "updatedAt": "2026-09-24T19:34:02Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Cloud-native infrastructure design and management platform with Kubernetes integration and visual configuration tools.",
       "summaryKo": "Kubernetes 통합 및 시각적 구성 도구를 갖춘 클라우드 네이티브 인프라 설계 및 관리 플랫폼."
@@ -1288,14 +1313,14 @@
         "static-analysis"
       ],
       "metrics": {
-        "stars": 16002
+        "stars": 16024
       },
       "source": "github-search",
       "publishedAt": "2022-07-01T19:21:00Z",
-      "updatedAt": "2026-09-21T20:17:14Z",
+      "updatedAt": "2026-09-24T03:59:14Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "CLI tool for code structural search, linting, and rewriting using tree-sitter. Fast AST-based alternative to regex grep for codebases.",
       "summaryKo": "트리-시터 기반 구조적 코드 검색, 린팅, 리라이팅 CLI 도구. 정규식보다 강력한 코드 변환.",
@@ -1327,14 +1352,14 @@
         "python"
       ],
       "metrics": {
-        "stars": 6926
+        "stars": 7011
       },
       "source": "github-search",
       "publishedAt": "2026-03-23T09:12:28Z",
-      "updatedAt": "2026-09-22T19:42:35Z",
+      "updatedAt": "2026-09-24T09:31:01Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "AI-powered codebase analysis: code health scores, auto-docs, git analytics, dead code detection. Integrates via MCP protocol.",
       "summaryKo": "AI 기반 코드베이스 분석: 건강도 점수, 자동 문서화, 깃 분석, 데드코드 탐지.",
@@ -1360,14 +1385,14 @@
         "refactoring-tools"
       ],
       "metrics": {
-        "stars": 3743
+        "stars": 3750
       },
       "source": "github-search",
       "publishedAt": "2020-05-12T20:16:14Z",
-      "updatedAt": "2026-09-22T21:01:20Z",
+      "updatedAt": "2026-09-24T21:29:26Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Automated mass refactoring engine using AST analysis. Handles large-scale code transformations across Java and polyglot codebases.",
       "summaryKo": "AST 기반 자동화된 대규모 리팩토링 엔진. 자바 코드 변환에 특화."
@@ -1389,14 +1414,14 @@
         "refactoring-tools"
       ],
       "metrics": {
-        "stars": 2238
+        "stars": 2239
       },
       "source": "github-search",
       "publishedAt": "2013-11-30T15:30:20Z",
       "updatedAt": "2026-09-15T15:59:30Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Python library for automated code refactoring, such as renames and extractions.",
       "summaryKo": "이름 변경·추출 등 자동 코드 리팩터링을 지원하는 파이썬 라이브러리.",
@@ -1422,14 +1447,14 @@
         "software-development"
       ],
       "metrics": {
-        "stars": 1871
+        "stars": 1870
       },
       "source": "github-search",
       "publishedAt": "2019-07-15T12:25:13Z",
-      "updatedAt": "2026-09-22T03:41:42Z",
+      "updatedAt": "2026-09-24T03:56:48Z",
       "firstSeenAt": "2026-08-20T06:49:10.510Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "AI-powered code review tool that provides instant refactoring suggestions and quality improvements for Python development workflows.",
       "summaryKo": "Python 코드의 즉각적인 리팩토링과 품질 개선을 제시하는 AI 코드 리뷰 도구입니다."
@@ -1459,14 +1484,14 @@
         "testing"
       ],
       "metrics": {
-        "stars": 96517
+        "stars": 96639
       },
       "source": "github-search",
       "publishedAt": "2019-11-15T18:32:42Z",
-      "updatedAt": "2026-09-22T21:14:08Z",
+      "updatedAt": "2026-09-24T21:07:58Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Cross-browser testing and automation framework (Chromium, Firefox, WebKit). Single API for end-to-end testing across modern browser engines.",
       "summaryKo": "크로스 브라우저 테스트 및 자동화 프레임워크. 하나의 API로 여러 브라우저 엔진 지원."
@@ -1494,14 +1519,14 @@
         "web"
       ],
       "metrics": {
-        "stars": 95610
+        "stars": 95619
       },
       "source": "github-search",
       "publishedAt": "2017-05-09T22:16:13Z",
-      "updatedAt": "2026-09-21T08:24:42Z",
+      "updatedAt": "2026-09-24T19:40:00Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Node.js library for headless browser automation of Chrome/Firefox. Industry standard for E2E testing, scraping, and performance measurement.",
       "summaryKo": "크롬/파이어폭스 헤드리스 브라우저 자동화 Node.js 라이브러리. E2E 테스트 표준."
@@ -1532,14 +1557,14 @@
         "rest-api"
       ],
       "metrics": {
-        "stars": 47117
+        "stars": 47174
       },
       "source": "github-search",
       "publishedAt": "2022-09-27T20:51:45Z",
-      "updatedAt": "2026-09-22T15:04:08Z",
+      "updatedAt": "2026-09-24T17:13:29Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Lightweight open-source API client IDE for REST, GraphQL, and OpenAPI. Git-friendly alternative to Postman/Insomnia for API testing.",
       "summaryKo": "REST, GraphQL, OpenAPI용 경량 오픈소스 API 클라이언트 IDE. 포스트맨 대체 도구."
@@ -1569,14 +1594,14 @@
         "prompt-engineering"
       ],
       "metrics": {
-        "stars": 25371
+        "stars": 25422
       },
       "source": "github-search",
       "publishedAt": "2023-04-28T15:48:49Z",
-      "updatedAt": "2026-09-22T18:11:29Z",
+      "updatedAt": "2026-09-24T14:27:00Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Testing and evaluation framework for LLM prompts, agents, and RAGs with red teaming, benchmarking, and CI/CD integration across multiple models.",
       "summaryKo": "LLM 프롬프트 및 에이전트 테스트, 평가, 레드팀 기능과 CI/CD 통합."
@@ -1610,10 +1635,10 @@
       },
       "source": "github-search",
       "publishedAt": "2011-03-07T18:44:25Z",
-      "updatedAt": "2026-09-22T10:45:01Z",
+      "updatedAt": "2026-09-23T20:39:47Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Widely-used JavaScript test framework for Node.js and browsers supporting BDD/TDD with flexible reporting and async support.",
       "summaryKo": "Node.js와 브라우저용 JavaScript 테스트 프레임워크로 BDD/TDD 지원."
@@ -1639,14 +1664,14 @@
         "testing"
       ],
       "metrics": {
-        "stars": 21489
+        "stars": 21491
       },
       "source": "github-search",
       "publishedAt": "2010-11-08T18:22:56Z",
       "updatedAt": "2026-09-14T12:08:29Z",
       "firstSeenAt": "2026-08-20T15:35:22.477Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Header-only C++ test framework supporting modern C++ standards (C++14/17+), widely used for unit testing, TDD, and BDD without external dependencies.",
       "summaryKo": "C++14/17+ 표준을 지원하는 헤더 전용 C++ 테스트 프레임워크, 외부 의존성 없음."
@@ -1672,14 +1697,14 @@
         "testing-tools"
       ],
       "metrics": {
-        "stars": 19211
+        "stars": 19217
       },
       "source": "github-search",
       "publishedAt": "2020-08-25T14:50:56Z",
       "updatedAt": "2026-09-21T09:23:23Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "CLI tool for testing and running HTTP requests using plain text format, useful for API testing and integration testing without coding.",
       "summaryKo": "평문 형식으로 HTTP 요청을 테스트하는 CLI 도구로 API 통합 테스트에 유용."
@@ -1709,14 +1734,14 @@
         "testing-tools"
       ],
       "metrics": {
-        "stars": 15457
+        "stars": 15458
       },
       "source": "github-search",
       "publishedAt": "2012-10-13T20:27:12Z",
-      "updatedAt": "2026-09-09T13:49:42Z",
+      "updatedAt": "2026-09-23T13:50:12Z",
       "firstSeenAt": "2026-08-29T02:56:27.939Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Mockito is a popular mocking framework used for writing unit tests in Java applications.",
       "summaryKo": "자바 애플리케이션의 단위 테스트 작성을 위한 인기 모킹 프레임워크입니다."
@@ -1742,14 +1767,14 @@
         "testing"
       ],
       "metrics": {
-        "stars": 14992
+        "stars": 15012
       },
       "source": "github-search",
       "publishedAt": "2024-07-23T04:03:50Z",
-      "updatedAt": "2026-09-22T16:04:18Z",
+      "updatedAt": "2026-09-24T11:26:37Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "GUI automation agent for end-to-end testing that understands and interacts with web interfaces using computer vision and AI.",
       "summaryKo": "컴퓨터 비전 기반 GUI 자동화로 웹 UI를 테스트하는 E2E 테스트 에이전트."
@@ -1772,14 +1797,14 @@
         "unit-testing"
       ],
       "metrics": {
-        "stars": 14521
+        "stars": 14530
       },
       "source": "github-search",
       "publishedAt": "2015-06-15T20:28:27Z",
-      "updatedAt": "2026-09-21T21:29:09Z",
+      "updatedAt": "2026-09-24T09:16:18Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Popular Python testing framework enabling simple unit tests to complex functional tests with fixtures, plugins, and powerful assertion introspection.",
       "summaryKo": "간단한 단위 테스트부터 복잡한 기능 테스트까지 지원하는 Python 테스트 프레임워크."
@@ -1804,14 +1829,14 @@
         "testing"
       ],
       "metrics": {
-        "stars": 14106
+        "stars": 14110
       },
       "source": "github-search",
       "publishedAt": "2016-01-04T18:22:16Z",
-      "updatedAt": "2026-09-22T19:51:29Z",
+      "updatedAt": "2026-09-24T21:18:28Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Static analysis tool for PHP that detects bugs and type errors without executing code, improving code quality and type safety.",
       "summaryKo": "PHP 코드의 버그와 타입 오류를 실행 없이 감지하는 정적 분석 도구."
@@ -1840,14 +1865,14 @@
         "testing-tools"
       ],
       "metrics": {
-        "stars": 12027
+        "stars": 12029
       },
       "source": "github-search",
       "publishedAt": "2016-06-15T11:58:01Z",
       "updatedAt": "2026-09-07T14:48:39Z",
       "firstSeenAt": "2026-08-24T15:40:18.500Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Detox is a gray-box end-to-end testing and automation framework designed for mobile applications on iOS and Android.",
       "summaryKo": "iOS 및 안드로이드 모바일 앱을 위한 회색 상자 기반 E2E 테스트 및 자동화 프레임워크입니다."
@@ -1873,14 +1898,14 @@
         "testing"
       ],
       "metrics": {
-        "stars": 11906
+        "stars": 11914
       },
       "source": "github-search",
       "publishedAt": "2014-06-27T11:10:38Z",
       "updatedAt": "2026-09-21T15:19:54Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Automation framework for acceptance testing and RPA using keyword-driven approach, supporting multiple libraries and data-driven testing.",
       "summaryKo": "키워드 기반 자동화 프레임워크로 수용 테스트 및 RPA 작업 지원."
@@ -1902,14 +1927,14 @@
         "testing"
       ],
       "metrics": {
-        "stars": 11723
+        "stars": 11724
       },
       "source": "github-search",
       "publishedAt": "2020-03-11T20:36:55Z",
       "updatedAt": "2026-09-18T09:00:59Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Elegant PHP testing framework with expressive syntax designed for both developers and AI agents to write readable unit and feature tests.",
       "summaryKo": "PHP 개발자와 AI 에이전트를 위한 우아한 테스트 프레임워크."
@@ -1939,14 +1964,14 @@
         "ir"
       ],
       "metrics": {
-        "stars": 10620
+        "stars": 10625
       },
       "source": "github-search",
       "publishedAt": "2021-09-08T11:23:11Z",
-      "updatedAt": "2026-09-22T21:19:10Z",
+      "updatedAt": "2026-09-24T20:42:12Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Rust toolkit for Ethereum smart contract development including compiler, fuzzing, and testing tools for fast and portable dApp development.",
       "summaryKo": "Rust 기반 Ethereum 스마트 계약 개발 도구로 컴파일, 퍼징, 테스트 지원."
@@ -1968,14 +1993,14 @@
         "testing"
       ],
       "metrics": {
-        "stars": 9003
+        "stars": 9009
       },
       "source": "github-search",
       "publishedAt": "2013-03-10T13:51:19Z",
-      "updatedAt": "2026-09-20T00:08:57Z",
+      "updatedAt": "2026-09-23T04:33:39Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Property-based testing library for Python that generates edge-case inputs automatically.",
       "summaryKo": "엣지 케이스 입력을 자동 생성하는 파이썬 속성 기반 테스트 라이브러리.",
@@ -2002,10 +2027,10 @@
       },
       "source": "github-search",
       "publishedAt": "2016-08-30T13:47:17Z",
-      "updatedAt": "2026-09-22T12:20:39Z",
+      "updatedAt": "2026-09-24T19:39:26Z",
       "firstSeenAt": "2026-08-21T18:38:31.239Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Jest transformer with source map support for testing TypeScript projects natively.",
       "summaryKo": "TypeScript 프로젝트를 네이티브로 테스트할 수 있는 소스 맵 지원 Jest 트랜스포머입니다."
@@ -2035,14 +2060,14 @@
         "recaptcha-v3"
       ],
       "metrics": {
-        "stars": 7095
+        "stars": 7099
       },
       "source": "github-search",
       "publishedAt": "2024-10-27T15:46:43Z",
       "updatedAt": "2026-09-16T18:29:37Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Browser automation library for Chromium without WebDriver, enables realistic interactions for scraping and testing with anti-detection.",
       "summaryKo": "WebDriver 없이 Chromium 자동화, 실제 같은 상호작용으로 스크래핑과 테스트 지원."
@@ -2072,14 +2097,14 @@
         "security"
       ],
       "metrics": {
-        "stars": 6766
+        "stars": 6769
       },
       "source": "github-search",
       "publishedAt": "2019-05-28T14:29:06Z",
       "updatedAt": "2026-09-21T11:25:28Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Advanced fuzzing toolkit with coverage-guided testing, enhanced mutation strategies, and multi-architecture support for security.",
       "summaryKo": "고급 퍼징 도구, 커버리지 기반 테스트와 강화된 뮤테이션 전략."
@@ -2106,14 +2131,14 @@
         "testing"
       ],
       "metrics": {
-        "stars": 6326
+        "stars": 6329
       },
       "source": "github-search",
       "publishedAt": "2015-10-12T06:05:05Z",
-      "updatedAt": "2026-09-22T20:58:26Z",
+      "updatedAt": "2026-09-24T21:06:14Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Unsupervised kernel fuzzer with coverage guidance for finding Linux kernel vulnerabilities and crashes automatically.",
       "summaryKo": "Linux 커널 퍼저, 취약점을 자동으로 찾기 위한 커버리지 기반 테스트."
@@ -2139,14 +2164,14 @@
         "xunit"
       ],
       "metrics": {
-        "stars": 6277
+        "stars": 6279
       },
       "source": "github-search",
       "publishedAt": "2017-09-19T21:28:20Z",
-      "updatedAt": "2026-09-21T16:08:19Z",
+      "updatedAt": "2026-09-23T05:50:59Z",
       "firstSeenAt": "2026-09-06T20:59:25.857Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "A Bash Automated Testing System that provides a framework for testing shell scripts.",
       "summaryKo": "쉘 스크립트 테스트를 위한 프레임워크를 제공하는 Bash 자동화 테스트 시스템입니다.",
@@ -2178,14 +2203,14 @@
         "test-automation"
       ],
       "metrics": {
-        "stars": 6169
+        "stars": 6171
       },
       "source": "github-search",
       "publishedAt": "2012-03-04T12:58:11Z",
-      "updatedAt": "2026-09-22T21:15:58Z",
+      "updatedAt": "2026-09-24T21:50:24Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Comprehensive test suite for web standards (WHATWG, W3C) across all major browsers; ensures cross-platform compatibility.",
       "summaryKo": "WHATWG, W3C 웹 표준 테스트 스위트, 모든 브라우저 호환성 검증."
@@ -3766,13 +3791,13 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 33960
+        "stars": 34270
       },
       "source": "github-trending",
-      "updatedAt": "2026-09-22T21:20:47Z",
+      "updatedAt": "2026-09-24T21:55:30Z",
       "firstSeenAt": "2026-08-23T12:42:30.740Z",
       "lastSeenAt": "2026-08-24T09:50:01.036Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "trending",
       "summaryEn": "A hive mind communication platform for teams to collaborate seamlessly.",
       "summaryKo": "팀 협업을 위한 하이브 마인드 커뮤니케이션 플랫폼입니다.",
@@ -3981,14 +4006,14 @@
         "uiux-design"
       ],
       "metrics": {
-        "stars": 587
+        "stars": 589
       },
       "source": "github-search",
       "publishedAt": "2026-08-08T12:44:52Z",
       "updatedAt": "2026-08-08T15:54:13Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-21T21:26:14.378Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "new",
       "summaryEn": "Collection of animated welcome screen designs inspired by top iOS apps, rebuilt in React Native and Expo for reference."
     },
@@ -4017,14 +4042,14 @@
         "uml"
       ],
       "metrics": {
-        "stars": 26957
+        "stars": 27021
       },
       "source": "github-search",
       "publishedAt": "2023-11-17T10:15:12Z",
       "updatedAt": "2026-08-19T08:47:42Z",
       "firstSeenAt": "2026-08-19T09:35:40.383Z",
       "lastSeenAt": "2026-08-21T21:26:14.378Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Curated free resource collection for learning system design patterns and preparing for architecture interview questions.",
       "summaryKo": "시스템 설계와 아키텍처 인터뷰 준비를 위한 무료 학습 자료 모음."
@@ -4087,14 +4112,14 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 419
+        "stars": 420
       },
       "source": "github-search",
       "publishedAt": "2026-08-07T17:14:43Z",
       "updatedAt": "2026-08-24T09:26:27Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-20T21:29:24.742Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "new",
       "summaryEn": "Architecture reference and code walkthrough for building AI agents, with focus on agent-loop patterns and design.",
       "summaryKo": "AI 에이전트 구축을 위한 아키텍처 레퍼런스 및 코드 분석."
@@ -4139,7 +4164,7 @@
       "updatedAt": "2026-08-18T18:26:29Z",
       "firstSeenAt": "2026-08-18T18:40:19.317Z",
       "lastSeenAt": "2026-08-20T21:29:24.742Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Curated learning resource collection for iOS development covering SwiftUI, Combine, ML, and platform best practices.",
       "summaryKo": "SwiftUI, Combine, ML 및 플랫폼 모범 사례를 다루는 iOS 개발 학습 리소스 큐레이션."
@@ -4171,14 +4196,14 @@
         "trading-platform"
       ],
       "metrics": {
-        "stars": 29274
+        "stars": 29357
       },
       "source": "github-search",
       "publishedAt": "2018-06-25T06:26:16Z",
-      "updatedAt": "2026-09-22T21:31:45Z",
+      "updatedAt": "2026-09-24T20:41:17Z",
       "firstSeenAt": "2026-08-19T15:33:13.943Z",
       "lastSeenAt": "2026-08-20T09:36:42.325Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Rust-native algorithmic trading engine with deterministic, event-driven execution for production use.",
       "summaryKo": "결정론적 이벤트 기반 실행을 지원하는 러스트 기반 프로덕션급 트레이딩 엔진.",
@@ -4203,14 +4228,14 @@
         "refactoring"
       ],
       "metrics": {
-        "stars": 15591
+        "stars": 15593
       },
       "source": "github-search",
       "publishedAt": "2014-03-13T00:39:38Z",
       "updatedAt": "2026-08-17T23:37:08Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-19T21:26:49.454Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Framework for managing multi-language pre-commit hooks in Git workflows. Standardizes lint and test checks before commits.",
       "summaryKo": "깃 워크플로우에서 다국어 pre-commit 훅을 관리하는 프레임워크. 표준화된 린트 검사.",
@@ -4235,14 +4260,14 @@
         "refactoring"
       ],
       "metrics": {
-        "stars": 6685
+        "stars": 6686
       },
       "source": "github-search",
       "publishedAt": "2014-03-13T15:21:46Z",
       "updatedAt": "2026-08-17T23:37:42Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-19T21:26:49.454Z",
-      "metricsRefreshedAt": "2026-09-22T21:44:36.199Z",
+      "metricsRefreshedAt": "2026-09-24T21:54:59.755Z",
       "admitReason": "notable",
       "summaryEn": "Out-of-the-box pre-commit hooks collection for common linting, formatting, and Git checks. Drop-in complement to pre-commit framework.",
       "summaryKo": "사전 정의된 린팅, 포맷팅, 깃 검사 훅 모음. pre-commit의 확장팩."
