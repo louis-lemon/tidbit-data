@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "infra",
-  "generatedAt": "2026-11-02T09:19:52.923Z",
+  "generatedAt": "2026-11-02T09:23:53.161Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -31,7 +31,7 @@
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-08-11T18:58:55Z",
-      "updatedAt": "2026-11-02T09:19:30Z",
+      "updatedAt": "2026-11-02T09:21:28Z",
       "summaryEn": "Open-source Grok Bot alternative with an embedded virtual machine for computer use tasks.",
       "summaryKo": "컴퓨터 사용 작업을 위한 가상 머신이 포함된 오픈소스 Grok 봇 대안.",
       "reasonEn": "Established quickly with 3.9K stars over 53 days.",
@@ -41,9 +41,9 @@
         "web",
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-02T09:19:52.923Z",
+      "metricsRefreshedAt": "2026-11-02T09:23:53.161Z",
       "firstSeenAt": "2026-10-03T21:56:27.615Z",
-      "lastSeenAt": "2026-11-02T09:19:52.923Z"
+      "lastSeenAt": "2026-11-02T09:23:53.161Z"
     },
     {
       "id": "gh:elie222/rakazo",
@@ -64,12 +64,12 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 6627
+        "stars": 6628
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-08-13T06:28:56Z",
-      "updatedAt": "2026-11-02T09:20:05Z",
+      "updatedAt": "2026-11-02T09:23:35Z",
       "summaryEn": "Open-source alternative to Grok's coding bot — pick your own model and sandbox.",
       "summaryKo": "Grok 봇의 오픈소스 대안, 모델과 샌드박스를 직접 선택",
       "categories": [
@@ -78,9 +78,9 @@
         "web",
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-02T09:19:52.923Z",
+      "metricsRefreshedAt": "2026-11-02T09:23:53.161Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-11-02T09:19:52.923Z"
+      "lastSeenAt": "2026-11-02T09:23:53.161Z"
     },
     {
       "id": "gh:AienTech/dossier",
@@ -104,7 +104,7 @@
         "self-hosted"
       ],
       "metrics": {
-        "stars": 3906
+        "stars": 3907
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -119,9 +119,9 @@
         "web",
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-02T09:19:52.923Z",
+      "metricsRefreshedAt": "2026-11-02T09:23:53.161Z",
       "firstSeenAt": "2026-10-27T22:47:56.693Z",
-      "lastSeenAt": "2026-11-02T09:19:52.923Z"
+      "lastSeenAt": "2026-11-02T09:23:53.161Z"
     },
     {
       "id": "gh:zeabur-oss/zeabur",
@@ -154,9 +154,9 @@
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-02T09:19:52.923Z",
+      "metricsRefreshedAt": "2026-11-02T09:23:53.161Z",
       "firstSeenAt": "2026-10-29T23:03:36.686Z",
-      "lastSeenAt": "2026-11-02T09:19:52.923Z"
+      "lastSeenAt": "2026-11-02T09:23:53.161Z"
     },
     {
       "id": "gh:mikehasa/golive-skill",
@@ -195,9 +195,9 @@
         "data",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-02T09:19:52.923Z",
+      "metricsRefreshedAt": "2026-11-02T09:23:53.161Z",
       "firstSeenAt": "2026-09-24T21:54:59.755Z",
-      "lastSeenAt": "2026-11-02T09:19:52.923Z"
+      "lastSeenAt": "2026-11-02T09:23:53.161Z"
     },
     {
       "id": "gh:aimod-cc/Agent2API",
@@ -231,9 +231,9 @@
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-02T09:19:52.923Z",
+      "metricsRefreshedAt": "2026-11-02T09:23:53.161Z",
       "firstSeenAt": "2026-10-16T21:51:53.281Z",
-      "lastSeenAt": "2026-11-02T09:19:52.923Z"
+      "lastSeenAt": "2026-11-02T09:23:53.161Z"
     },
     {
       "id": "hn:50319143",
@@ -249,16 +249,42 @@
       "source": "hn",
       "publishedAt": "2026-10-31T19:16:30Z",
       "admitReason": "notable",
-      "summaryEn": "A CVSS 9.8 use-after-free bug in the TCP stack, a critical memory-safety flaw that can let attackers run code on affected systems.",
-      "summaryKo": "TCP 스택의 CVSS 9.8 해제 후 사용(use-after-free) 취약점으로, 공격자가 코드를 실행할 수 있는 치명적 결함입니다.",
-      "reasonEn": "713 upvotes and 329 comments within a day; critical CVE",
-      "reasonKo": "하루 만에 추천 713개, 댓글 329개, 치명적 CVE",
+      "summaryEn": "Disclosure of CVE-2026-98432, a TCP use-after-free flaw scored CVSS 9.8, which can let attackers run code or crash systems.",
+      "summaryKo": "CVSS 9.8 등급의 TCP use-after-free 취약점 CVE-2026-98432 공개입니다. 코드 실행이나 시스템 중단 위험이 있습니다.",
+      "reasonEn": "Critical CVSS 9.8 flaw, 713 upvotes within one day",
+      "reasonKo": "CVSS 9.8 치명적 취약점, 하루 만에 추천 713",
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-02T09:19:52.923Z",
+      "metricsRefreshedAt": "2026-11-02T09:23:53.161Z",
       "firstSeenAt": "2026-11-01T22:33:06.545Z",
-      "lastSeenAt": "2026-11-02T09:19:52.923Z"
+      "lastSeenAt": "2026-11-02T09:23:53.161Z"
+    },
+    {
+      "id": "hn:50198675",
+      "type": "article",
+      "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "summaryOriginal": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "tags": [],
+      "metrics": {
+        "upvotes": 508,
+        "comments": 218
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-22T17:44:06Z",
+      "admitReason": "notable",
+      "summaryEn": "OpenShell is a runtime meant to run fleets of autonomous AI agents safely and privately, aimed at agent infrastructure.",
+      "summaryKo": "OpenShell은 자율 AI 에이전트 여러 개를 안전하고 비공개로 실행하기 위한 런타임입니다.",
+      "reasonEn": "508 upvotes and 218 comments within 10 days",
+      "reasonKo": "10일 만에 추천 508, 댓글 218",
+      "categories": [
+        "ai-agents",
+        "infra"
+      ],
+      "metricsRefreshedAt": "2026-11-02T09:23:53.161Z",
+      "firstSeenAt": "2026-11-02T09:23:53.161Z",
+      "lastSeenAt": "2026-11-02T09:23:53.161Z"
     },
     {
       "id": "hn:50202681",
@@ -274,16 +300,41 @@
       "source": "hn",
       "publishedAt": "2026-10-22T23:45:56Z",
       "admitReason": "notable",
-      "summaryEn": "A discussion of Docker's behavior and quirks that surprise users. Useful for developers who run containers in daily work.",
-      "summaryKo": "사용자를 놀라게 하는 Docker의 동작과 특이점을 다룬 글입니다. 매일 컨테이너를 쓰는 개발자에게 유용합니다.",
-      "reasonEn": "885 upvotes and 370 comments within 10 days",
-      "reasonKo": "10일 만에 추천 885, 댓글 370",
+      "summaryEn": "An essay on Docker's surprising behaviors and design quirks that trip up developers. Useful for avoiding common container mistakes.",
+      "summaryKo": "개발자를 곤란하게 하는 Docker의 예상 밖 동작과 설계상 특이점을 다룬 글입니다. 흔한 컨테이너 실수를 피하는 데 도움이 됩니다.",
+      "reasonEn": "Notable: 885 upvotes and 370 comments within 10 days",
+      "reasonKo": "주목: 10일 만에 추천 885, 댓글 370",
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-02T09:19:52.923Z",
+      "metricsRefreshedAt": "2026-11-02T09:23:53.161Z",
       "firstSeenAt": "2026-10-23T21:47:37.203Z",
-      "lastSeenAt": "2026-11-02T09:19:52.923Z"
+      "lastSeenAt": "2026-11-02T09:23:53.161Z"
+    },
+    {
+      "id": "hn:50041619",
+      "type": "article",
+      "title": "Bot traffic from Yandex",
+      "summaryOriginal": "Bot traffic from Yandex",
+      "url": "https://radar.cloudflare.com/bots/as13238?dateRange=7d",
+      "tags": [],
+      "metrics": {
+        "upvotes": 656,
+        "comments": 261
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-11T10:27:53Z",
+      "admitReason": "notable",
+      "summaryEn": "Discussion of a surge of bot traffic originating from Yandex's crawlers hitting websites. Relevant to anyone running public servers or tuning rate limits.",
+      "summaryKo": "Yandex 크롤러에서 웹사이트로 몰리는 봇 트래픽에 관한 논의. 공개 서버 운영과 요청 제한 설정에 관련.",
+      "reasonEn": "Notable: 656 upvotes and 261 comments within 21 days",
+      "reasonKo": "21일간 추천 656, 댓글 261개로 주목",
+      "categories": [
+        "infra"
+      ],
+      "metricsRefreshedAt": "2026-11-02T09:23:53.161Z",
+      "firstSeenAt": "2026-11-02T09:23:53.161Z",
+      "lastSeenAt": "2026-11-02T09:23:53.161Z"
     },
     {
       "id": "hn:50149392",
@@ -299,41 +350,16 @@
       "source": "hn",
       "publishedAt": "2026-10-19T07:23:57Z",
       "admitReason": "notable",
-      "summaryEn": "Release announcement for Linux 7.3 kernel, with new features, driver updates, and fixes for systems and developers on Linux.",
-      "summaryKo": "Linux 7.3 커널 출시 소식으로, 새 기능, 드라이버 업데이트, 수정 사항을 담고 있습니다.",
-      "reasonEn": "636 upvotes and 301 comments within 14 days of release",
-      "reasonKo": "출시 14일 만에 추천 636개, 댓글 301개",
+      "summaryEn": "Release announcement for Linux 7.3, the next kernel version with new drivers, features, and fixes. Matters for anyone deploying or building on Linux.",
+      "summaryKo": "새 기능, 드라이버, 수정 사항이 담긴 Linux 7.3 커널 릴리스 소식. Linux 배포와 빌드에 중요.",
+      "reasonEn": "Notable: 636 upvotes and 301 comments within 14 days",
+      "reasonKo": "14일간 추천 636, 댓글 301개로 주목",
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-02T09:19:52.923Z",
+      "metricsRefreshedAt": "2026-11-02T09:23:53.161Z",
       "firstSeenAt": "2026-11-02T09:19:52.923Z",
-      "lastSeenAt": "2026-11-02T09:19:52.923Z"
-    },
-    {
-      "id": "hn:49946895",
-      "type": "article",
-      "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
-      "summaryOriginal": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
-      "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
-      "tags": [],
-      "metrics": {
-        "upvotes": 501,
-        "comments": 108
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-03T19:14:48Z",
-      "admitReason": "notable",
-      "summaryEn": "Valve engineer Timur Kristóf's work improving performance and support for older AMD GPUs in the Linux graphics driver stack.",
-      "summaryKo": "Valve 엔지니어 Timur Kristóf가 Linux 그래픽 드라이버에서 구형 AMD GPU 성능과 지원을 개선한 작업입니다.",
-      "reasonEn": "501 upvotes and 108 comments within 29 days of publication",
-      "reasonKo": "공개 29일 만에 추천 501개, 댓글 108개",
-      "categories": [
-        "infra"
-      ],
-      "metricsRefreshedAt": "2026-11-02T09:19:52.923Z",
-      "firstSeenAt": "2026-11-02T09:19:52.923Z",
-      "lastSeenAt": "2026-11-02T09:19:52.923Z"
+      "lastSeenAt": "2026-11-02T09:23:53.161Z"
     },
     {
       "id": "gh:bregman-arie/devops-exercises",
