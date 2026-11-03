@@ -43464,7 +43464,7 @@ function date4(params) {
 config(en_default());
 
 // ../../packages/feed-schema/src/schema.ts
-var CARD_ID_PREFIXES = ["gh", "hf-model", "hf-paper", "hn", "kb"];
+var CARD_ID_PREFIXES = ["gh", "hf-model", "hf-paper", "hn", "devto", "geeknews", "kb"];
 var CARD_TYPES = ["repo", "model", "paper", "article", "knowledge", "snippet"];
 var BUNDLE_ONLY_CARD_TYPES = ["knowledge", "snippet"];
 var CARD_SOURCES = [
@@ -43473,9 +43473,23 @@ var CARD_SOURCES = [
   "hf-models",
   "hf-papers",
   "hn",
+  "devto",
+  "geeknews",
   "bundle"
 ];
 var ADMIT_REASONS = ["trending", "new", "notable"];
+var dropUnknownSourceCards = (raw) => {
+  if (typeof raw !== "object" || raw === null || !Array.isArray(raw.cards)) {
+    return { feed: raw, dropped: 0 };
+  }
+  const known = new Set(CARD_SOURCES);
+  const cards = raw.cards;
+  const kept = cards.filter((card) => {
+    const source = card?.source;
+    return typeof source === "string" && known.has(source);
+  });
+  return { feed: { ...raw, cards: kept }, dropped: cards.length - kept.length };
+};
 var CATEGORY_SLUG_PATTERN = /^[a-z][a-z0-9-]*$/;
 var CARD_ID_PATTERN = new RegExp(`^(?:${CARD_ID_PREFIXES.join("|")}):.+$`);
 var bundleOnlyTypes = BUNDLE_ONLY_CARD_TYPES;
@@ -43682,16 +43696,9 @@ var readOverrides = async (dataDir, logger2) => readSidecar(
   logger2
 );
 var dropRetiredSourceCards = (raw, name, logger2) => {
-  if (typeof raw !== "object" || raw === null || !Array.isArray(raw.cards)) {
-    return raw;
-  }
-  const known = new Set(CARD_SOURCES);
-  const cards = raw.cards;
-  const kept = cards.filter((card) => typeof card.source === "string" && known.has(card.source));
-  if (kept.length !== cards.length) {
-    logger2.info(`POOL_RETIRED ${name}: \uC740\uD1F4 \uC18C\uC2A4 \uCE74\uB4DC ${cards.length - kept.length}\uC7A5 \uC81C\uC678`);
-  }
-  return { ...raw, cards: kept };
+  const { feed, dropped } = dropUnknownSourceCards(raw);
+  if (dropped > 0) logger2.info(`POOL_RETIRED ${name}: \uC740\uD1F4 \uC18C\uC2A4 \uCE74\uB4DC ${dropped}\uC7A5 \uC81C\uC678`);
+  return feed;
 };
 var readPreviousFeeds = async (dataDir, logger2) => {
   const feedDir = path4.join(dataDir, FEED_DIR);
@@ -43749,6 +43756,8 @@ var DEFAULT_ADMIT_REASON = {
   "hf-models": "notable",
   "hf-papers": "notable",
   hn: "notable",
+  devto: "notable",
+  geeknews: "notable",
   bundle: "notable"
 };
 var starsOf = (card) => card.metrics?.stars;
@@ -43833,137 +43842,44 @@ var normalizeTags = (raw) => {
   }
   return [...seen];
 };
+var ISO_DATETIME = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$/;
+var isIsoDateTime = (raw) => ISO_DATETIME.test(raw) && !Number.isNaN(Date.parse(raw));
 
-// src/sources/github-repo.ts
-var REPO_URL = "https://api.github.com/repos";
-var ID_PREFIX = "gh:";
-var githubCardId = (fullName) => `${ID_PREFIX}${fullName}`;
-var FULL_NAME = /^[A-Za-z0-9][A-Za-z0-9._-]*\/[A-Za-z0-9][A-Za-z0-9._-]*$/;
-var fullNameOf = (cardId) => {
-  if (!cardId.startsWith(ID_PREFIX)) return void 0;
-  const fullName = cardId.slice(ID_PREFIX.length);
-  return FULL_NAME.test(fullName) ? fullName : void 0;
-};
-var MAX_REFRESHED_PER_RUN = 300;
-var SUPERSEDED_METRICS = ["starsDelta"];
-var CONCURRENCY = 6;
-var readOne = async (fullName, token) => {
-  const url2 = `${REPO_URL}/${fullName.split("/").map(encodeURIComponent).join("/")}`;
-  const body = await httpGetJson(url2, {
-    headers: { accept: "application/vnd.github+json", authorization: `Bearer ${token}` }
-  });
-  return {
-    metrics: compactMetrics({ stars: body.stargazers_count }),
-    ...typeof body.pushed_at === "string" ? { updatedAt: body.pushed_at } : {}
-  };
-};
-var forEachConcurrently = async (items, limit2, run) => {
-  let cursor = 0;
-  const worker = async () => {
-    while (cursor < items.length) {
-      const item = items[cursor];
-      cursor += 1;
-      if (item !== void 0) await run(item);
-    }
-  };
-  await Promise.all(Array.from({ length: Math.min(limit2, items.length) }, worker));
-};
-var refreshRepoMetrics = async (input) => {
-  const outcome = { refreshed: /* @__PURE__ */ new Map(), failed: 0, attempted: [] };
-  if (input.githubToken === void 0) return outcome;
-  const token = input.githubToken;
-  const targets = input.cardIds.flatMap((cardId) => {
-    const fullName = fullNameOf(cardId);
-    return fullName === void 0 ? [] : [{ cardId, fullName }];
-  }).slice(0, MAX_REFRESHED_PER_RUN);
-  outcome.attempted = targets.map(({ cardId }) => cardId);
-  await forEachConcurrently(targets, CONCURRENCY, async ({ cardId, fullName }) => {
-    try {
-      outcome.refreshed.set(cardId, await readOne(fullName, token));
-    } catch {
-      outcome.failed += 1;
-    }
-  });
-  return outcome;
-};
-
-// src/sources/github-search.ts
-var SOURCE = "github-search";
-var SEARCH_URL = "https://api.github.com/search/repositories";
-var PER_PAGE = 30;
-var TOPICS_PER_CATEGORY = 4;
-var MIN_REQUEST_INTERVAL_MS = 2200;
-var NEW_REPO_WINDOW_DAYS = 14;
-var NOTABLE_REPO_WINDOW_DAYS = 90;
-var NOTABLE_REPO_MIN_STARS = 1e3;
-var NEW_REPO_MIN_STARS = REPO_MIN_STARS;
-var toDateFilter = (now, daysAgo) => {
-  const at = new Date(now.getTime() - daysAgo * 24 * 60 * 60 * 1e3);
-  return at.toISOString().slice(0, 10);
-};
-var buildQueries = (topics, now) => topics.slice(0, TOPICS_PER_CATEGORY).flatMap((topic) => [
-  `created:>${toDateFilter(now, NEW_REPO_WINDOW_DAYS)} topic:${topic} stars:>=${NEW_REPO_MIN_STARS}`,
-  `created:>${toDateFilter(now, NOTABLE_REPO_WINDOW_DAYS)} topic:${topic} stars:>${NOTABLE_REPO_MIN_STARS}`
-]);
-var mapSearchItems = (items, admitReason = "notable") => items.map((item) => {
+// src/sources/devto.ts
+var SOURCE = "devto";
+var DEVTO_URL = "https://dev.to/api/articles?top=7&per_page=60";
+var MIN_REACTIONS = 50;
+var DEVTO_MAX_CARDS = 20;
+var reactionsOf = (item) => item.public_reactions_count ?? 0;
+var isMappable = (item) => item.type_of === "article" && Number.isInteger(item.id) && typeof item.url === "string" && collapseWhitespace(item.title ?? "").length > 0;
+var mapDevtoArticles = (items) => items.filter(isMappable).sort((a, b) => reactionsOf(b) - reactionsOf(a)).slice(0, DEVTO_MAX_CARDS).map((item) => {
+  const title = collapseWhitespace(item.title);
   const description = collapseWhitespace(item.description ?? "");
+  const published = item.published_timestamp ?? "";
   return {
-    id: githubCardId(item.full_name),
-    type: "repo",
-    title: item.full_name,
-    summaryOriginal: description.length > 0 ? description : item.full_name,
-    url: item.html_url,
-    ...item.language !== null ? { lang: item.language } : {},
-    tags: normalizeTags(item.topics),
-    metrics: compactMetrics({ stars: item.stargazers_count }),
+    id: `devto:${item.id}`,
+    type: "article",
+    title,
+    summaryOriginal: description.length > 0 ? description : title,
+    url: item.url,
+    tags: normalizeTags(item.tag_list),
+    metrics: compactMetrics({
+      upvotes: item.public_reactions_count,
+      comments: item.comments_count
+    }),
     source: SOURCE,
-    admitReason,
-    // 저장소의 나이와 마지막 활동. 둘 다 실어야 "오래됐지만 지금 움직인다"가 구분된다.
-    ...item.created_at !== void 0 ? { publishedAt: item.created_at } : {},
-    ...item.pushed_at !== void 0 ? { updatedAt: item.pushed_at } : {}
+    ...isIsoDateTime(published) ? { publishedAt: published } : {}
   };
 });
-var nextSlotAt = 0;
-var waitForSlot = async () => {
-  const now = Date.now();
-  const waitMs = Math.max(0, nextSlotAt - now);
-  nextSlotAt = Math.max(now, nextSlotAt) + MIN_REQUEST_INTERVAL_MS;
-  if (waitMs === 0) return;
-  await new Promise((resolve2) => {
-    setTimeout(resolve2, waitMs);
-  });
-};
-var runQuery = async (query, token, admitReason) => {
-  await waitForSlot();
-  const url2 = `${SEARCH_URL}?q=${encodeURIComponent(query)}&sort=stars&order=desc&per_page=${PER_PAGE}`;
-  const body = await httpGetJson(url2, {
-    headers: { accept: "application/vnd.github+json", authorization: `Bearer ${token}` }
-  });
-  return mapSearchItems(body.items ?? [], admitReason);
-};
-var reasonOf = (queryIndex) => queryIndex % 2 === 0 ? "new" : "notable";
-var fetchGithubSearch = async (ctx) => {
-  if (ctx.githubToken === void 0) return [];
-  const token = ctx.githubToken;
-  const results = await Promise.allSettled(
-    buildQueries(ctx.category.topics, ctx.now).map(
-      async (query, index2) => runQuery(query, token, reasonOf(index2))
-    )
-  );
-  for (const result of results) {
-    if (result.status === "rejected") {
-      ctx.logger?.warn(
-        `SOURCE_QUERY_FAILED github-search ${ctx.category.slug}: ${String(result.reason)}`
-      );
-    }
+var fetchDevto = async (_ctx) => {
+  const body = await httpGetJson(DEVTO_URL);
+  if (!Array.isArray(body)) {
+    throw new Error(`devto: expected an array, got ${typeof body}`);
   }
-  const fulfilled = results.filter(
-    (result) => result.status === "fulfilled"
+  const items = body.filter(
+    (item) => typeof item === "object" && item !== null
   );
-  if (fulfilled.length === 0 && results.length > 0) {
-    throw results[0].reason;
-  }
-  return fulfilled.flatMap((result) => result.value);
+  return mapDevtoArticles(items.filter((item) => reactionsOf(item) >= MIN_REACTIONS));
 };
 
 // ../../node_modules/cheerio/dist/esm/options.js
@@ -50062,9 +49978,184 @@ function isNode(obj) {
 // ../../node_modules/cheerio/dist/esm/slim.js
 var load = getLoad(getParse(parseDocument), esm_default);
 
+// src/sources/geeknews.ts
+var SOURCE2 = "geeknews";
+var GEEKNEWS_URL = "https://news.hada.io/rss/news";
+var TOPIC_URL = "https://news.hada.io/topic";
+var GEEKNEWS_MAX_CARDS = 20;
+var topicIdOf = (raw) => {
+  try {
+    const id = new URL(raw).searchParams.get("id");
+    return id !== null && /^\d+$/.test(id) ? id : void 0;
+  } catch {
+    return void 0;
+  }
+};
+var textOfHtml = (html3) => collapseWhitespace(load(html3).text());
+var parseEntry = (entry) => {
+  const id = topicIdOf(entry.find("id").first().text().trim());
+  const title = collapseWhitespace(entry.find("title").first().text());
+  if (id === void 0 || title.length === 0) return void 0;
+  const summary = textOfHtml(entry.find("content").first().text());
+  const published = entry.find("published").first().text().trim();
+  return {
+    id: `${SOURCE2}:${id}`,
+    type: "article",
+    title,
+    summaryOriginal: summary.length > 0 ? summary : title,
+    url: `${TOPIC_URL}?id=${id}`,
+    tags: [],
+    source: SOURCE2,
+    ...isIsoDateTime(published) ? { publishedAt: published } : {}
+  };
+};
+var parseGeeknewsFeed = (xml2) => {
+  const $ = load(xml2, { xml: true });
+  return $("entry").toArray().map((element) => parseEntry($(element))).filter((card) => card !== void 0).slice(0, GEEKNEWS_MAX_CARDS);
+};
+var fetchGeeknews = async (_ctx) => {
+  const cards = parseGeeknewsFeed(await httpGetText(GEEKNEWS_URL));
+  if (cards.length === 0) {
+    throw new Error(`${SOURCE2}: entry 0\uAC1C \u2014 RSS \uAD6C\uC870\uAC00 \uBC14\uB00C\uC5C8\uAC70\uB098 \uCC28\uB2E8 \uC751\uB2F5\uC774\uB2E4`);
+  }
+  return cards;
+};
+
+// src/sources/github-repo.ts
+var REPO_URL = "https://api.github.com/repos";
+var ID_PREFIX = "gh:";
+var githubCardId = (fullName) => `${ID_PREFIX}${fullName}`;
+var FULL_NAME = /^[A-Za-z0-9][A-Za-z0-9._-]*\/[A-Za-z0-9][A-Za-z0-9._-]*$/;
+var fullNameOf = (cardId) => {
+  if (!cardId.startsWith(ID_PREFIX)) return void 0;
+  const fullName = cardId.slice(ID_PREFIX.length);
+  return FULL_NAME.test(fullName) ? fullName : void 0;
+};
+var MAX_REFRESHED_PER_RUN = 300;
+var SUPERSEDED_METRICS = ["starsDelta"];
+var CONCURRENCY = 6;
+var readOne = async (fullName, token) => {
+  const url2 = `${REPO_URL}/${fullName.split("/").map(encodeURIComponent).join("/")}`;
+  const body = await httpGetJson(url2, {
+    headers: { accept: "application/vnd.github+json", authorization: `Bearer ${token}` }
+  });
+  return {
+    metrics: compactMetrics({ stars: body.stargazers_count }),
+    ...typeof body.pushed_at === "string" ? { updatedAt: body.pushed_at } : {}
+  };
+};
+var forEachConcurrently = async (items, limit2, run) => {
+  let cursor = 0;
+  const worker = async () => {
+    while (cursor < items.length) {
+      const item = items[cursor];
+      cursor += 1;
+      if (item !== void 0) await run(item);
+    }
+  };
+  await Promise.all(Array.from({ length: Math.min(limit2, items.length) }, worker));
+};
+var refreshRepoMetrics = async (input) => {
+  const outcome = { refreshed: /* @__PURE__ */ new Map(), failed: 0, attempted: [] };
+  if (input.githubToken === void 0) return outcome;
+  const token = input.githubToken;
+  const targets = input.cardIds.flatMap((cardId) => {
+    const fullName = fullNameOf(cardId);
+    return fullName === void 0 ? [] : [{ cardId, fullName }];
+  }).slice(0, MAX_REFRESHED_PER_RUN);
+  outcome.attempted = targets.map(({ cardId }) => cardId);
+  await forEachConcurrently(targets, CONCURRENCY, async ({ cardId, fullName }) => {
+    try {
+      outcome.refreshed.set(cardId, await readOne(fullName, token));
+    } catch {
+      outcome.failed += 1;
+    }
+  });
+  return outcome;
+};
+
+// src/sources/github-search.ts
+var SOURCE3 = "github-search";
+var SEARCH_URL = "https://api.github.com/search/repositories";
+var PER_PAGE = 30;
+var TOPICS_PER_CATEGORY = 4;
+var MIN_REQUEST_INTERVAL_MS = 2200;
+var NEW_REPO_WINDOW_DAYS = 14;
+var NOTABLE_REPO_WINDOW_DAYS = 90;
+var NOTABLE_REPO_MIN_STARS = 1e3;
+var NEW_REPO_MIN_STARS = REPO_MIN_STARS;
+var toDateFilter = (now, daysAgo) => {
+  const at = new Date(now.getTime() - daysAgo * 24 * 60 * 60 * 1e3);
+  return at.toISOString().slice(0, 10);
+};
+var buildQueries = (topics, now) => topics.slice(0, TOPICS_PER_CATEGORY).flatMap((topic) => [
+  `created:>${toDateFilter(now, NEW_REPO_WINDOW_DAYS)} topic:${topic} stars:>=${NEW_REPO_MIN_STARS}`,
+  `created:>${toDateFilter(now, NOTABLE_REPO_WINDOW_DAYS)} topic:${topic} stars:>${NOTABLE_REPO_MIN_STARS}`
+]);
+var mapSearchItems = (items, admitReason = "notable") => items.map((item) => {
+  const description = collapseWhitespace(item.description ?? "");
+  return {
+    id: githubCardId(item.full_name),
+    type: "repo",
+    title: item.full_name,
+    summaryOriginal: description.length > 0 ? description : item.full_name,
+    url: item.html_url,
+    ...item.language !== null ? { lang: item.language } : {},
+    tags: normalizeTags(item.topics),
+    metrics: compactMetrics({ stars: item.stargazers_count }),
+    source: SOURCE3,
+    admitReason,
+    // 저장소의 나이와 마지막 활동. 둘 다 실어야 "오래됐지만 지금 움직인다"가 구분된다.
+    ...item.created_at !== void 0 ? { publishedAt: item.created_at } : {},
+    ...item.pushed_at !== void 0 ? { updatedAt: item.pushed_at } : {}
+  };
+});
+var nextSlotAt = 0;
+var waitForSlot = async () => {
+  const now = Date.now();
+  const waitMs = Math.max(0, nextSlotAt - now);
+  nextSlotAt = Math.max(now, nextSlotAt) + MIN_REQUEST_INTERVAL_MS;
+  if (waitMs === 0) return;
+  await new Promise((resolve2) => {
+    setTimeout(resolve2, waitMs);
+  });
+};
+var runQuery = async (query, token, admitReason) => {
+  await waitForSlot();
+  const url2 = `${SEARCH_URL}?q=${encodeURIComponent(query)}&sort=stars&order=desc&per_page=${PER_PAGE}`;
+  const body = await httpGetJson(url2, {
+    headers: { accept: "application/vnd.github+json", authorization: `Bearer ${token}` }
+  });
+  return mapSearchItems(body.items ?? [], admitReason);
+};
+var reasonOf = (queryIndex) => queryIndex % 2 === 0 ? "new" : "notable";
+var fetchGithubSearch = async (ctx) => {
+  if (ctx.githubToken === void 0) return [];
+  const token = ctx.githubToken;
+  const results = await Promise.allSettled(
+    buildQueries(ctx.category.topics, ctx.now).map(
+      async (query, index2) => runQuery(query, token, reasonOf(index2))
+    )
+  );
+  for (const result of results) {
+    if (result.status === "rejected") {
+      ctx.logger?.warn(
+        `SOURCE_QUERY_FAILED github-search ${ctx.category.slug}: ${String(result.reason)}`
+      );
+    }
+  }
+  const fulfilled = results.filter(
+    (result) => result.status === "fulfilled"
+  );
+  if (fulfilled.length === 0 && results.length > 0) {
+    throw results[0].reason;
+  }
+  return fulfilled.flatMap((result) => result.value);
+};
+
 // src/sources/github-trending.ts
 var TRENDING_URL = "https://github.com/trending?since=daily";
-var SOURCE2 = "github-trending";
+var SOURCE4 = "github-trending";
 var MAX_MISSING_RATIO = 0.5;
 var SELECTOR = {
   row: "article.Box-row",
@@ -50098,20 +50189,20 @@ var parseRow = (row) => {
       stars: parseCount(row.find(SELECTOR.stars).first().text()),
       starsDelta: parseCount(row.find(SELECTOR.starsToday).first().text())
     }),
-    source: SOURCE2
+    source: SOURCE4
   };
 };
 var parseTrendingHtml = (html3) => {
   const $ = load(html3);
   const rows = $(SELECTOR.row).toArray();
   if (rows.length === 0) {
-    throw new Error(`${SOURCE2}: ${SELECTOR.row} 0\uAC1C \u2014 \uD2B8\uB80C\uB529 \uD398\uC774\uC9C0 \uAD6C\uC870\uAC00 \uBC14\uB00C\uC5C8\uB2E4`);
+    throw new Error(`${SOURCE4}: ${SELECTOR.row} 0\uAC1C \u2014 \uD2B8\uB80C\uB529 \uD398\uC774\uC9C0 \uAD6C\uC870\uAC00 \uBC14\uB00C\uC5C8\uB2E4`);
   }
   const cards = rows.map((element) => parseRow($(element))).filter((card) => card !== void 0);
   const missingRatio = 1 - cards.length / rows.length;
   if (missingRatio > MAX_MISSING_RATIO) {
     throw new Error(
-      `${SOURCE2}: \uD544\uC218 \uD544\uB4DC \uACB0\uCE21\uB960 ${Math.round(missingRatio * 100)}% (\uD589 ${rows.length}\uAC1C \uC911 ${cards.length}\uAC1C\uB9CC \uD30C\uC2F1) \u2014 \uC140\uB809\uD130\uAC00 \uB0A1\uC558\uB2E4`
+      `${SOURCE4}: \uD544\uC218 \uD544\uB4DC \uACB0\uCE21\uB960 ${Math.round(missingRatio * 100)}% (\uD589 ${rows.length}\uAC1C \uC911 ${cards.length}\uAC1C\uB9CC \uD30C\uC2F1) \u2014 \uC140\uB809\uD130\uAC00 \uB0A1\uC558\uB2E4`
     );
   }
   return cards;
@@ -50119,7 +50210,7 @@ var parseTrendingHtml = (html3) => {
 var fetchGithubTrending = async (_ctx) => parseTrendingHtml(await httpGetText(TRENDING_URL));
 
 // src/sources/hf-models.ts
-var SOURCE3 = "hf-models";
+var SOURCE5 = "hf-models";
 var HF_MODELS_URL = "https://huggingface.co/api/models?sort=trendingScore&limit=20";
 var SUMMARY_TAG_COUNT = 5;
 var MIN_LIKES = 50;
@@ -50147,7 +50238,7 @@ var mapModels = (models) => models.filter((model) => Boolean(model.id)).map((mod
       downloads: model.downloads,
       trendingScore: model.trendingScore
     }),
-    source: SOURCE3,
+    source: SOURCE5,
     // 엔드포인트가 `sort=trendingScore&limit=20`이라 여기 오는 것은 전부 상위권이다(D21).
     admitReason: "trending",
     ...model.createdAt !== void 0 ? { publishedAt: model.createdAt } : {}
@@ -50156,7 +50247,7 @@ var mapModels = (models) => models.filter((model) => Boolean(model.id)).map((mod
 var fetchHfModels = async (_ctx) => mapModels((await httpGetJson(HF_MODELS_URL)).filter(isNotableModel));
 
 // src/sources/hf-papers.ts
-var SOURCE4 = "hf-papers";
+var SOURCE6 = "hf-papers";
 var HF_PAPERS_URL = "https://huggingface.co/api/daily_papers?limit=20";
 var MAX_ABSTRACT_CHARS = 400;
 var MIN_UPVOTES = 10;
@@ -50179,7 +50270,7 @@ var mapPapers = (entries) => entries.filter(
       comments: entry.numComments,
       githubStars: paper.githubStars
     }),
-    source: SOURCE4,
+    source: SOURCE6,
     ...paper.publishedAt !== void 0 ? { publishedAt: paper.publishedAt } : {}
   };
 });
@@ -50241,7 +50332,7 @@ var refreshHfMetrics = async (input) => {
 };
 
 // src/sources/hn.ts
-var SOURCE5 = "hn";
+var SOURCE7 = "hn";
 var SEARCH_URL2 = "https://hn.algolia.com/api/v1/search";
 var MIN_POINTS = 150;
 var WINDOW_DAYS = 30;
@@ -50268,7 +50359,7 @@ var mapHits = (hits) => [...new Map(hits.map((hit) => [hit.objectID, hit])).valu
     url: hit.url ?? `https://news.ycombinator.com/item?id=${hit.objectID}`,
     tags: [],
     metrics: compactMetrics({ upvotes: hit.points, comments: hit.num_comments }),
-    source: SOURCE5,
+    source: SOURCE7,
     ...hit.created_at !== void 0 ? { publishedAt: hit.created_at } : {}
   };
 }).slice(0, CARDS_PER_CATEGORY);
@@ -50293,8 +50384,13 @@ var fetchHackerNews = async (ctx) => {
 };
 
 // src/collect.ts
-var VERIFIED_SOURCE = "hn";
-var needsVerification = (source) => source === VERIFIED_SOURCE;
+var VERIFIED_SOURCES = ["hn", "devto", "geeknews"];
+var verified = (source) => ({
+  source,
+  attribution: { kind: "verify" }
+});
+var VERIFIED = new Set(VERIFIED_SOURCES);
+var needsVerification = (source) => VERIFIED.has(source);
 var globalTasks = (ctx) => [
   {
     source: "github-trending",
@@ -50303,7 +50399,9 @@ var globalTasks = (ctx) => [
     run: async () => fetchGithubTrending(ctx)
   },
   { source: "hf-models", attribution: { kind: "hf" }, run: async () => fetchHfModels(ctx) },
-  { source: "hf-papers", attribution: { kind: "hf" }, run: async () => fetchHfPapers(ctx) }
+  { source: "hf-papers", attribution: { kind: "hf" }, run: async () => fetchHfPapers(ctx) },
+  { ...verified("devto"), run: async () => fetchDevto(ctx) },
+  { ...verified("geeknews"), run: async () => fetchGeeknews(ctx) }
 ];
 var categoryTasks = (ctx, categories) => categories.flatMap((category) => [
   {
@@ -50311,11 +50409,7 @@ var categoryTasks = (ctx, categories) => categories.flatMap((category) => [
     attribution: { kind: "category", slug: category.slug },
     run: async () => fetchGithubSearch({ ...ctx, category })
   },
-  {
-    source: VERIFIED_SOURCE,
-    attribution: { kind: "verify", slug: category.slug },
-    run: async () => fetchHackerNews({ ...ctx, category })
-  }
+  { ...verified("hn"), run: async () => fetchHackerNews({ ...ctx, category }) }
 ]);
 var collect = async (ctx, categories) => {
   const tasks = [...globalTasks(ctx), ...categoryTasks(ctx, categories)];
@@ -50351,18 +50445,17 @@ var collect = async (ctx, categories) => {
 };
 
 // src/dedupe.ts
-var SOURCE_PRIORITY = [
-  "github-trending",
-  "github-search",
-  "hf-models",
-  "hf-papers",
-  "hn",
-  "bundle"
-];
-var priorityOf = (source) => {
-  const index2 = SOURCE_PRIORITY.indexOf(source);
-  return index2 === -1 ? SOURCE_PRIORITY.length : index2;
+var SOURCE_RANK = {
+  "github-trending": 0,
+  "github-search": 1,
+  "hf-models": 2,
+  "hf-papers": 3,
+  hn: 4,
+  devto: 5,
+  geeknews: 6,
+  bundle: 7
 };
+var sourcePriority = (source) => SOURCE_RANK[source];
 var mergeReason = (winner, loser) => {
   const a = winner.card.admitReason;
   const b = loser.card.admitReason;
@@ -50389,7 +50482,7 @@ var mergeDuplicates = (entries) => {
       byId.set(entry.card.id, entry);
       return;
     }
-    const entryWins = priorityOf(entry.card.source) < priorityOf(existing.card.source);
+    const entryWins = sourcePriority(entry.card.source) < sourcePriority(existing.card.source);
     byId.set(entry.card.id, entryWins ? merge3(entry, existing) : merge3(existing, entry));
   });
   return [...byId.values()];
@@ -50402,7 +50495,7 @@ var QUOTAS = [
   { name: "model", limit: 10, match: (card) => card.type === "model" },
   { name: "paper", limit: 10, match: (card) => card.type === "paper" }
 ];
-var bySourcePriority = (a, b) => SOURCE_PRIORITY.indexOf(a.source) - SOURCE_PRIORITY.indexOf(b.source);
+var bySourcePriority = (a, b) => sourcePriority(a.source) - sourcePriority(b.source);
 var isUnquotaed = (card) => !QUOTAS.some((quota) => quota.match(card));
 var composeCategoryCards = (cards) => {
   const ordered = [...cards].sort(bySourcePriority);
@@ -50576,7 +50669,7 @@ var SummaryItemSchema = external_exports.object({
   reasonEn: external_exports.string().optional(),
   reasonKo: external_exports.string().optional(),
   categories: external_exports.array(external_exports.string()).optional(),
-  /** D22 — 개발자에게 직업적으로 유의미한 기술 콘텐츠인가. HN 카드에만 묻는다. */
+  /** D22 — 개발자에게 직업적으로 유의미한 기술 콘텐츠인가. 판정 대상 소스(HN·dev.to·GeekNews) 카드에만 묻는다. */
   isDevRelevant: external_exports.boolean().optional()
 });
 var SummaryResponseSchema = external_exports.object({ summaries: external_exports.array(SummaryItemSchema) });
@@ -50784,14 +50877,21 @@ var scrubFeeds = (feeds) => Object.fromEntries(
 );
 var carryOver = (feeds, source) => {
   const byId = /* @__PURE__ */ new Map();
-  Object.values(feeds).forEach((feed) => {
-    feed.cards.filter((card) => card.source === source).forEach(({ categories, ...rest }) => {
-      const existing = byId.get(rest.id);
-      byId.set(rest.id, {
-        card: rest,
-        categories: [.../* @__PURE__ */ new Set([...existing?.categories ?? [], ...categories])],
-        deferToLlm: false
-      });
+  const cards = Object.values(feeds).flatMap(
+    (feed) => feed.cards.filter((card) => card.source === source)
+  );
+  if (needsVerification(source)) {
+    cards.forEach(({ categories: _categories, ...rest }) => {
+      byId.set(rest.id, { card: rest, categories: [], deferToLlm: true, needsRelevanceCheck: true });
+    });
+    return [...byId.values()];
+  }
+  cards.forEach(({ categories, ...rest }) => {
+    const existing = byId.get(rest.id);
+    byId.set(rest.id, {
+      card: rest,
+      categories: [.../* @__PURE__ */ new Set([...existing?.categories ?? [], ...categories])],
+      deferToLlm: false
     });
   });
   return [...byId.values()];
@@ -50957,6 +51057,19 @@ var withRefreshedMetrics = (cards, refreshed, drop = SUPERSEDED_METRICS) => card
 var stampRefreshedAt = (cards, at, ids) => cards.map(
   (card) => ids === void 0 || ids.has(card.id) ? { ...card, metricsRefreshedAt: at } : card
 );
+var logVerifiedEmpty = (incoming, publishable, composed, logger2) => {
+  const judged = new Set(publishable.map((entry) => entry.card.source));
+  const placed = new Set(composed.map((card) => card.source));
+  const incomingBySource = /* @__PURE__ */ new Map();
+  incoming.forEach(({ card }) => {
+    incomingBySource.set(card.source, (incomingBySource.get(card.source) ?? 0) + 1);
+  });
+  [...incomingBySource].filter(([source]) => needsVerification(source) && !placed.has(source)).forEach(([source, count]) => {
+    logger2.warn(
+      judged.has(source) ? `QUOTA_EMPTY ${source}: \uD310\uC815 \uD1B5\uACFC\uBD84\uC774 \uAD6C\uC131 \uBAAB\uC5D0\uC11C \uC804\uBD80 \uBC00\uB9BC` : `RELEVANCE_EMPTY ${source}: \uD310\uC815 \uB300\uC0C1 ${count}\uC7A5 \uC804\uBD80 \uD0C8\uB77D`
+    );
+  });
+};
 var runPipeline = async (raw) => {
   const input = {
     ...raw,
@@ -50979,6 +51092,7 @@ var runPipeline = async (raw) => {
   const publishable = overridden.filter((entry) => entry.categories.length > 0);
   const generatedAt = input.now.toISOString();
   const composed = composeAll(input.categories, publishable);
+  logVerifiedEmpty(overridden, publishable, [...composed.values()].flat(), input.logger);
   const { refreshed, attempted } = await refreshStaleMetrics(input, [...composed.values()].flat());
   const summarizedById = await summarizeComposed(
     composed,
@@ -51141,7 +51255,7 @@ var main = async () => {
   const summaryClient = createSummaryClientFromEnv(process.env, logger);
   if (githubToken === void 0) logger.warn("DEGRADED: no GITHUB_TOKEN, SRC2 skipped");
   if (summaryClient === void 0) {
-    logger.warn("DEGRADED: no summary provider (ANTHROPIC_API_KEY\xB7GEMINI_API_KEY), HN \uCE74\uB4DC \uC804\uBD80 \uD0C8\uB77D + R3 \uBD84\uB958 \uC5C6\uC74C");
+    logger.warn("DEGRADED: no summary provider (ANTHROPIC_API_KEY\xB7GEMINI_API_KEY), \uD310\uC815 \uB300\uC0C1(HN\xB7dev.to\xB7GeekNews) \uCE74\uB4DC \uC804\uBD80 \uD0C8\uB77D + R3 \uBD84\uB958 \uC5C6\uC74C");
   }
   const result = await publish({
     dataDir,
