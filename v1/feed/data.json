@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "data",
-  "generatedAt": "2026-11-03T10:58:48.324Z",
+  "generatedAt": "2026-11-03T23:50:20.273Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,8 +13,8 @@
       "lang": "C",
       "tags": [],
       "metrics": {
-        "stars": 46895,
-        "starsDelta": 675
+        "stars": 47230,
+        "starsDelta": 803
       },
       "source": "github-trending",
       "admitReason": "trending",
@@ -26,9 +26,9 @@
         "ai-models",
         "data"
       ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
       "firstSeenAt": "2026-09-10T21:20:01.286Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
     },
     {
       "id": "gh:mikehasa/golive-skill",
@@ -52,7 +52,7 @@
         "godaddy"
       ],
       "metrics": {
-        "stars": 1364
+        "stars": 1371
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -67,9 +67,9 @@
         "data",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
       "firstSeenAt": "2026-09-24T21:54:59.755Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
     },
     {
       "id": "gh:pgrundev/pgbot",
@@ -87,7 +87,7 @@
         "postgresql-database"
       ],
       "metrics": {
-        "stars": 1478
+        "stars": 1481
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -98,13 +98,269 @@
       "categories": [
         "data"
       ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
+    },
+    {
+      "id": "gh:hugues31/duckpad",
+      "type": "repo",
+      "title": "hugues31/duckpad",
+      "summaryOriginal": "The data transformation tool the open-source community deserves.",
+      "url": "https://github.com/hugues31/duckpad",
+      "lang": "Python",
+      "tags": [
+        "data-engineering",
+        "duckdb"
+      ],
+      "metrics": {
+        "stars": 303
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-10-25T07:57:16Z",
+      "updatedAt": "2026-11-03T22:22:53Z",
+      "summaryEn": "Data transformation tool built on DuckDB for data engineering tasks; the README is a generic tagline with little technical detail.",
+      "summaryKo": "DuckDB 기반 데이터 변환 도구. README 설명이 일반적이라 기술 세부 정보는 적음.",
+      "reasonEn": "303 stars within 9 days of creation",
+      "reasonKo": "생성 9일 만에 스타 303개",
+      "categories": [
+        "data"
+      ],
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
+      "firstSeenAt": "2026-11-03T23:50:20.273Z",
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
+    },
+    {
+      "id": "hn:50312408",
+      "type": "article",
+      "title": "Postgres 19 is late because so many more bugs are being found now",
+      "summaryOriginal": "Postgres 19 is late because so many more bugs are being found now",
+      "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+      "tags": [],
+      "metrics": {
+        "upvotes": 843,
+        "comments": 510
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-31T01:38:56Z",
+      "admitReason": "notable",
+      "summaryEn": "PostgreSQL 19 is delayed because contributors are finding many more bugs than before. Shows the release schedule and quality process for a major database.",
+      "summaryKo": "PostgreSQL 19 출시가 지연되었습니다. 기존보다 훨씬 많은 버그가 발견되어서입니다. 주요 데이터베이스의 출시 과정을 보여줍니다.",
+      "reasonEn": "843 upvotes and 510 comments on a 3-day-old post",
+      "reasonKo": "3일 된 글, 추천 843·댓글 510",
+      "categories": [
+        "data"
+      ],
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
+      "firstSeenAt": "2026-11-02T09:19:52.923Z",
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
+    },
+    {
+      "id": "hn:50181136",
+      "type": "article",
+      "title": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
+      "summaryOriginal": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
+      "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+      "tags": [],
+      "metrics": {
+        "upvotes": 463,
+        "comments": 63
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-21T14:01:22Z",
+      "admitReason": "notable",
+      "summaryEn": "DuckDB 2.0.0 LTS release, a long-term support version of the embedded analytics database. Important for teams choosing a stable release for production.",
+      "summaryKo": "임베디드 분석 데이터베이스 DuckDB 2.0.0 LTS 출시. 운영 환경에 쓸 장기 지원 버전을 고르는 팀에게 중요합니다.",
+      "reasonEn": "463 upvotes on a 13-day-old LTS release",
+      "reasonKo": "13일 된 LTS 출시, 추천 463",
+      "categories": [
+        "data"
+      ],
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
+      "firstSeenAt": "2026-10-21T22:03:13.438Z",
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
+    },
+    {
+      "id": "hn:50217500",
+      "type": "article",
+      "title": "Twelve years of distributed SQLite",
+      "summaryOriginal": "Twelve years of distributed SQLite",
+      "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 394,
+        "comments": 70
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-24T01:16:58Z",
+      "admitReason": "notable",
+      "summaryEn": "A retrospective on twelve years of building distributed SQLite systems. Useful for engineers thinking about replication, consistency, and embedded databases.",
+      "summaryKo": "분산 SQLite 시스템을 12년간 만든 경험을 돌아보는 글. 복제, 일관성, 임베디드 DB를 고민하는 엔지니어에게 유용합니다.",
+      "reasonEn": "394 upvotes within 10 days of publication",
+      "reasonKo": "게시 10일 만에 추천 394",
+      "categories": [
+        "data"
+      ],
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
+      "firstSeenAt": "2026-10-26T22:58:48.719Z",
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
+    },
+    {
+      "id": "hn:49996149",
+      "type": "article",
+      "title": "DuckDB Ducklake",
+      "summaryOriginal": "DuckDB Ducklake",
+      "url": "https://github.com/duckdb/ducklake",
+      "tags": [],
+      "metrics": {
+        "upvotes": 240,
+        "comments": 40
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-07T17:40:23Z",
+      "admitReason": "notable",
+      "summaryEn": "DuckLake, a DuckDB-based lakehouse format for storing data in catalogs and tables. Relevant to data engineers exploring open table formats.",
+      "summaryKo": "DuckDB 기반 레이크하우스 형식 DuckLake. 오픈 테이블 포맷을 살펴보는 데이터 엔지니어에게 관련됩니다.",
+      "reasonEn": "240 upvotes and 40 comments within 27 days",
+      "reasonKo": "27일 만에 추천 240·댓글 40",
+      "categories": [
+        "data"
+      ],
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
+      "firstSeenAt": "2026-10-09T22:59:18.171Z",
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
+    },
+    {
+      "id": "hn:50119991",
+      "type": "article",
+      "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+      "summaryOriginal": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+      "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+      "tags": [],
+      "metrics": {
+        "upvotes": 227,
+        "comments": 93
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-16T15:55:40Z",
+      "admitReason": "notable",
+      "summaryEn": "Postgres 19 is delayed because AI code reviewers flag more bugs than maintainers can fix. Shows how AI review tools change open-source workflows.",
+      "summaryKo": "AI 코드 리뷰어가 유지보수자가 고칠 수 있는 것보다 많은 버그를 찾아내 Postgres 19가 지연되었습니다. AI 리뷰 도구가 오픈소스 흐름을 바꾸는 사례입니다.",
+      "reasonEn": "227 upvotes and 93 comments within 18 days",
+      "reasonKo": "18일 만에 추천 227·댓글 93",
+      "categories": [
+        "data",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
+      "firstSeenAt": "2026-10-17T21:10:51.961Z",
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
+    },
+    {
+      "id": "hn:50035530",
+      "type": "article",
+      "title": "Why DuckDB 2.0 is faster",
+      "summaryOriginal": "Why DuckDB 2.0 is faster",
+      "url": "https://motherduck.com/blog/why-duckdb-20-is-faster/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 223,
+        "comments": 71
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-10T18:08:49Z",
+      "admitReason": "notable",
+      "summaryEn": "An explanation of why DuckDB 2.0 is faster, covering engine changes and performance design choices. Useful for anyone tuning analytical queries.",
+      "summaryKo": "DuckDB 2.0이 더 빠른 이유를 설명합니다. 엔진 변경과 성능 설계 선택을 다룹니다. 분석 쿼리를 튜닝하는 사람에게 유용합니다.",
+      "reasonEn": "223 upvotes and 71 comments within 24 days",
+      "reasonKo": "24일 만에 추천 223·댓글 71",
+      "categories": [
+        "data"
+      ],
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
+      "firstSeenAt": "2026-10-11T22:38:04.361Z",
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
+    },
+    {
+      "id": "hn:50338747",
+      "type": "article",
+      "title": "Moving our warehouse off DuckDB",
+      "summaryOriginal": "Moving our warehouse off DuckDB",
+      "url": "https://posthog.com/blog/moving-off-duckdb",
+      "tags": [],
+      "metrics": {
+        "upvotes": 184,
+        "comments": 119
+      },
+      "source": "hn",
+      "publishedAt": "2026-11-02T16:02:26Z",
+      "admitReason": "notable",
+      "summaryEn": "A team describes moving its data warehouse off DuckDB, with reasons and tradeoffs. A useful real-world account of choosing analytics infrastructure.",
+      "summaryKo": "한 팀이 데이터 웨어하우스를 DuckDB에서 옮긴 이유와 트레이드오프를 설명합니다. 분석 인프라 선택의 실제 사례입니다.",
+      "reasonEn": "184 upvotes and 119 comments on a 1-day-old post",
+      "reasonKo": "1일 된 글, 추천 184·댓글 119",
+      "categories": [
+        "data"
+      ],
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
+      "firstSeenAt": "2026-11-03T01:25:46.164Z",
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
+    },
+    {
+      "id": "hn:50052163",
+      "type": "article",
+      "title": "Postgres isn't slow, your storage is",
+      "summaryOriginal": "Postgres isn't slow, your storage is",
+      "url": "https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is",
+      "tags": [],
+      "metrics": {
+        "upvotes": 180,
+        "comments": 187
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-12T06:36:53Z",
+      "admitReason": "notable",
+      "summaryEn": "Argues that Postgres performance problems often come from storage hardware and configuration rather than the database itself. Useful for diagnosing slow databases.",
+      "summaryKo": "Postgres 성능 문제는 DB 자체보다 스토리지 하드웨어와 설정에서 오는 경우가 많다고 주장합니다. 느린 DB를 진단할 때 참고할 만합니다.",
+      "reasonEn": "187 comments and 180 upvotes within 22 days",
+      "reasonKo": "22일 만에 추천 180·댓글 187",
+      "categories": [
+        "data",
+        "infra"
+      ],
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
+      "firstSeenAt": "2026-10-13T01:04:05.704Z",
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
+    },
+    {
+      "id": "geeknews:36528",
+      "type": "article",
+      "title": "NVIDIA Auto Ontology - 기업 데이터의 의미와 관계를 AI 에이전트에 연결하는 오픈소스 도구",
+      "summaryOriginal": "데이터의 업무 용어와 지표, 관계를 정리해 AI 에이전트가 기업 데이터를 이해하고 질의하도록 돕는 도구메타데이터에서 온톨로지와 지식 그래프를 생성하며, 기존 온톨로지와 의미 모델도 연결 가능자연어 질문을 SQL로 변환하고 실행하며, 업무 정의와 데이터 계보에 대조해 검증하고 답변의 출처를 제공MCP, CLI, API로 에이전트와 연결하며, 웹 UI에서 데이터 질의와 카탈로그 관리도 지원Databricks, PostgreSQL, Snowflake, DuckDB와 연결하며, NVIDIA NIM이나 OpenAI 호환 모델 엔드포인트를 사용 가능기업 데이터의 의미와 …",
+      "url": "https://news.hada.io/topic?id=36528",
+      "tags": [],
+      "source": "geeknews",
+      "publishedAt": "2026-11-03T23:37:52+09:00",
+      "admitReason": "notable",
+      "summaryEn": "NVIDIA's open-source Auto Ontology builds ontologies and knowledge graphs from metadata, turns natural language into validated SQL, and connects agents via MCP, CLI, or API.",
+      "summaryKo": "NVIDIA Auto Ontology는 메타데이터로 온톨로지와 지식 그래프를 만들고, 자연어를 검증된 SQL로 바꿔 MCP, CLI, API로 에이전트에 연결합니다.",
+      "reasonEn": "Notable: new open-source data-agent tool published today",
+      "reasonKo": "Notable: 오늘 공개된 오픈소스 데이터 에이전트 도구",
+      "categories": [
+        "data",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
+      "firstSeenAt": "2026-11-03T23:50:20.273Z",
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
     },
     {
       "id": "gh:kividbio/kividb",
       "type": "repo",
+      "categories": [
+        "data"
+      ],
       "title": "kividbio/kividb",
       "summaryOriginal": "A fast, multi-threaded Redis® and Valkey alternative written in Rust: drop-in compatible, with full-text and vector search built in",
       "url": "https://github.com/kividbio/kividb",
@@ -127,220 +383,16 @@
         "stars": 1088
       },
       "source": "github-search",
-      "admitReason": "notable",
       "publishedAt": "2026-10-16T01:07:52Z",
       "updatedAt": "2026-11-03T07:09:06Z",
+      "firstSeenAt": "2026-10-20T22:00:02.979Z",
+      "lastSeenAt": "2026-11-03T10:58:48.324Z",
+      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
+      "admitReason": "notable",
       "summaryEn": "A fast, multi-threaded Redis and Valkey alternative written in Rust with built-in full-text and vector search.",
       "summaryKo": "전체 텍스트 및 벡터 검색이 내장된 러스트 기반의 고속 Redis 및 Valkey 대안입니다.",
       "reasonEn": "326 stars within 4 days of launch",
-      "reasonKo": "출시 후 4일 만에 326개 스타 획득",
-      "categories": [
-        "data"
-      ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
-      "firstSeenAt": "2026-10-20T22:00:02.979Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
-    },
-    {
-      "id": "hn:50312408",
-      "type": "article",
-      "title": "Postgres 19 is late because so many more bugs are being found now",
-      "summaryOriginal": "Postgres 19 is late because so many more bugs are being found now",
-      "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
-      "tags": [],
-      "metrics": {
-        "upvotes": 828,
-        "comments": 491
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-31T01:38:56Z",
-      "admitReason": "notable",
-      "summaryEn": "Postgres 19 is delayed because maintainers are finding many more bugs than before. Shows the release cadence and quality process of a core database.",
-      "summaryKo": "관리자들이 예전보다 훨씬 많은 버그를 발견해 Postgres 19 출시가 늦어졌습니다. 핵심 데이터베이스의 품질 관리 상황을 보여줍니다.",
-      "reasonEn": "828 upvotes and 491 comments within 3 days; notable database news",
-      "reasonKo": "3일 만에 업보트 828, 댓글 491; 주요 DB 소식",
-      "categories": [
-        "data"
-      ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
-      "firstSeenAt": "2026-11-02T09:19:52.923Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
-    },
-    {
-      "id": "hn:50181136",
-      "type": "article",
-      "title": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
-      "summaryOriginal": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
-      "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
-      "tags": [],
-      "metrics": {
-        "upvotes": 463,
-        "comments": 63
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-21T14:01:22Z",
-      "admitReason": "notable",
-      "summaryEn": "DuckDB 2.0.0 LTS adds long-term support for the embedded analytics database. Teams choosing a stable release line should note the support window.",
-      "summaryKo": "임베디드 분석 데이터베이스 DuckDB 2.0.0 LTS가 장기 지원 버전으로 나왔습니다. 안정 버전을 고르는 팀은 지원 기간을 확인하세요.",
-      "reasonEn": "463 upvotes and 63 comments within 12 days of release",
-      "reasonKo": "출시 12일 만에 업보트 463, 댓글 63",
-      "categories": [
-        "data"
-      ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
-      "firstSeenAt": "2026-10-21T22:03:13.438Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
-    },
-    {
-      "id": "hn:50217500",
-      "type": "article",
-      "title": "Twelve years of distributed SQLite",
-      "summaryOriginal": "Twelve years of distributed SQLite",
-      "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 394,
-        "comments": 70
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-24T01:16:58Z",
-      "admitReason": "notable",
-      "summaryEn": "A retrospective on twelve years of building distributed SQLite systems. Covers practical lessons about replication, consistency, and operations.",
-      "summaryKo": "분산 SQLite 시스템을 12년간 만들어 온 회고입니다. 복제, 일관성, 운영에 관한 실무 교훈을 다룹니다.",
-      "reasonEn": "394 upvotes and 70 comments within 10 days; engineering retrospective",
-      "reasonKo": "10일 만에 업보트 394, 댓글 70; 엔지니어링 회고",
-      "categories": [
-        "data"
-      ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
-      "firstSeenAt": "2026-10-26T22:58:48.719Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
-    },
-    {
-      "id": "hn:49996149",
-      "type": "article",
-      "title": "DuckDB Ducklake",
-      "summaryOriginal": "DuckDB Ducklake",
-      "url": "https://github.com/duckdb/ducklake",
-      "tags": [],
-      "metrics": {
-        "upvotes": 240,
-        "comments": 40
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-07T17:40:23Z",
-      "admitReason": "notable",
-      "summaryEn": "DuckLake is a DuckDB-based lakehouse format that stores table metadata in a SQL database. It aims to simplify data lake setup.",
-      "summaryKo": "DuckDB 기반 레이크하우스 포맷 DuckLake로, 테이블 메타데이터를 SQL 데이터베이스에 저장합니다. 데이터 레이크 구성을 단순화하려는 목적입니다.",
-      "reasonEn": "240 upvotes and 40 comments within 26 days of posting",
-      "reasonKo": "26일 만에 업보트 240, 댓글 40",
-      "categories": [
-        "data"
-      ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
-      "firstSeenAt": "2026-10-09T22:59:18.171Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
-    },
-    {
-      "id": "hn:50119991",
-      "type": "article",
-      "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
-      "summaryOriginal": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
-      "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
-      "tags": [],
-      "metrics": {
-        "upvotes": 227,
-        "comments": 93
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-16T15:55:40Z",
-      "admitReason": "notable",
-      "summaryEn": "Postgres 19 is delayed because AI-based code reviewers are surfacing more bugs than maintainers can fix. Shows how AI review is changing release workflows.",
-      "summaryKo": "AI 코드 리뷰어가 관리자가 고칠 수 있는 것보다 많은 버그를 찾아 Postgres 19가 지연되었습니다. AI 리뷰가 출시 흐름을 바꾸고 있습니다.",
-      "reasonEn": "227 upvotes and 93 comments within 17 days; AI review affecting a core DB",
-      "reasonKo": "17일 만에 업보트 227, 댓글 93; AI 리뷰가 핵심 DB에 영향",
-      "categories": [
-        "data",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
-      "firstSeenAt": "2026-10-17T21:10:51.961Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
-    },
-    {
-      "id": "hn:50035530",
-      "type": "article",
-      "title": "Why DuckDB 2.0 is faster",
-      "summaryOriginal": "Why DuckDB 2.0 is faster",
-      "url": "https://motherduck.com/blog/why-duckdb-20-is-faster/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 223,
-        "comments": 71
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-10T18:08:49Z",
-      "admitReason": "notable",
-      "summaryEn": "An analysis of why DuckDB 2.0 runs faster, covering execution engine and storage changes. Useful for understanding analytics performance tradeoffs.",
-      "summaryKo": "DuckDB 2.0이 더 빠른 이유를 실행 엔진과 저장소 변경 관점에서 분석한 글입니다. 분석 성능의 트레이드오프를 이해하는 데 도움이 됩니다.",
-      "reasonEn": "223 upvotes and 71 comments within 23 days; performance deep dive",
-      "reasonKo": "23일 만에 업보트 223, 댓글 71; 성능 심층 분석",
-      "categories": [
-        "data"
-      ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
-      "firstSeenAt": "2026-10-11T22:38:04.361Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
-    },
-    {
-      "id": "hn:50052163",
-      "type": "article",
-      "title": "Postgres isn't slow, your storage is",
-      "summaryOriginal": "Postgres isn't slow, your storage is",
-      "url": "https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is",
-      "tags": [],
-      "metrics": {
-        "upvotes": 180,
-        "comments": 187
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-12T06:36:53Z",
-      "admitReason": "notable",
-      "summaryEn": "Argues Postgres is not slow; the storage layer is usually the bottleneck. Useful for diagnosing database performance problems.",
-      "summaryKo": "Postgres가 느린 것이 아니라 보통 저장소가 병목이라는 주장입니다. 데이터베이스 성능 문제를 진단할 때 참고할 만합니다.",
-      "reasonEn": "180 upvotes and 187 comments within 22 days; active performance debate",
-      "reasonKo": "22일 만에 업보트 180, 댓글 187; 성능 논쟁",
-      "categories": [
-        "data"
-      ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
-      "firstSeenAt": "2026-10-13T01:04:05.704Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
-    },
-    {
-      "id": "hn:50338747",
-      "type": "article",
-      "title": "Moving our warehouse off DuckDB",
-      "summaryOriginal": "Moving our warehouse off DuckDB",
-      "url": "https://posthog.com/blog/moving-off-duckdb",
-      "tags": [],
-      "metrics": {
-        "upvotes": 179,
-        "comments": 116
-      },
-      "source": "hn",
-      "publishedAt": "2026-11-02T16:02:26Z",
-      "admitReason": "notable",
-      "summaryEn": "An engineering team explains why they moved their data warehouse off DuckDB, with reasons and tradeoffs. Useful input for warehouse choices.",
-      "summaryKo": "한 엔지니어링 팀이 데이터 웨어하우스를 DuckDB에서 옮긴 이유와 트레이드오프를 설명합니다. 웨어하우스 선택에 참고할 만합니다.",
-      "reasonEn": "179 upvotes and 116 comments on day zero; practical migration write-up",
-      "reasonKo": "등록 당일 업보트 179, 댓글 116; 실무 이전 사례",
-      "categories": [
-        "data"
-      ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
-      "firstSeenAt": "2026-11-03T01:25:46.164Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
+      "reasonKo": "출시 후 4일 만에 326개 스타 획득"
     },
     {
       "id": "gh:D4Vinci/Scrapling",

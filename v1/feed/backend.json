@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "backend",
-  "generatedAt": "2026-11-03T10:58:48.324Z",
+  "generatedAt": "2026-11-03T23:50:20.273Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -26,7 +26,7 @@
         "llm-serving"
       ],
       "metrics": {
-        "stars": 7267
+        "stars": 7281
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -40,9 +40,9 @@
         "ai-models",
         "backend"
       ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
       "firstSeenAt": "2026-09-14T22:13:48.779Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
     },
     {
       "id": "gh:workersio/breakscale",
@@ -64,7 +64,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 1965
+        "stars": 1976
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -78,9 +78,9 @@
         "web",
         "backend"
       ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
       "firstSeenAt": "2026-10-28T22:55:38.716Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
     },
     {
       "id": "hn:49963171",
@@ -96,16 +96,16 @@
       "source": "hn",
       "publishedAt": "2026-10-05T10:47:06Z",
       "admitReason": "notable",
-      "summaryEn": "A new Web Search API that lets applications query web search results programmatically. Relevant for building search or agent features.",
-      "summaryKo": "애플리케이션에서 웹 검색 결과를 프로그래밍 방식으로 조회할 수 있는 새 웹 검색 API입니다. 검색이나 에이전트 기능 구현에 쓸 수 있습니다.",
-      "reasonEn": "596 upvotes and 286 comments in 29 days; notable for a new API",
-      "reasonKo": "29일 만에 업보트 596, 댓글 286; 새 API",
+      "summaryEn": "Launch of a Web Search API that lets developers add search results to their apps. Matters for teams weighing search providers for AI or product features.",
+      "summaryKo": "개발자가 앱에 검색 결과를 붙일 수 있는 웹 검색 API 출시. AI나 제품 기능용 검색 제공자를 고를 때 참고할 만합니다.",
+      "reasonEn": "596 upvotes and 286 comments within 29 days",
+      "reasonKo": "29일 만에 추천 596·댓글 286",
       "categories": [
         "backend"
       ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
       "firstSeenAt": "2026-10-06T00:31:42.162Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
     },
     {
       "id": "devto:4921809",
@@ -126,38 +126,16 @@
       "source": "devto",
       "publishedAt": "2026-10-28T09:52:39Z",
       "admitReason": "notable",
-      "summaryEn": "Covers SaaS user deprovisioning, explaining why access removal when users leave is often missed and how SCIM and Keycloak can automate it.",
-      "summaryKo": "퇴사자 계정 회수를 다룹니다. 접근 권한 제거가 자주 누락되는 이유와 SCIM, Keycloak으로 자동화하는 방법을 설명합니다.",
-      "reasonEn": "Notable: 68 upvotes, 12 comments in 6 days",
-      "reasonKo": "6일 만에 추천 68, 댓글 12",
+      "summaryEn": "Covers SaaS user deprovisioning with SCIM and Keycloak, and why leaver access is often missed. Practical identity-management engineering.",
+      "summaryKo": "SCIM과 Keycloak으로 SaaS 사용자 권한을 회수하는 방법과 퇴사자 계정 누락 문제를 다룹니다.",
+      "reasonEn": "68 upvotes and 12 comments in 6 days",
+      "reasonKo": "게시 6일 만에 추천 68, 댓글 12",
       "categories": [
         "backend"
       ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
       "firstSeenAt": "2026-11-03T10:58:48.324Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
-    },
-    {
-      "id": "geeknews:36497",
-      "type": "article",
-      "title": "DNS 빌드 지연을 절반으로 줄이고 메모리 사용량을 85% 절감한 방법",
-      "summaryOriginal": "Cloudflare가 변경 범위만 재빌드하는 플래너와 통합 스케줄러를 도입해, 일부 영역 설정 변경이 수천만 개 DNS 레코드 전체를 다시 처리하던 문제를 해결함플래너는 이벤트와 실행 직전 데이터베이스 상태를 확인해 안전성을 입증할 수 있는 최소 작업을 선택하며, 변경 내용을 알 수 없으면 원칙적으로 전체 빌드를 수행함같은 영역에 쌓인 변경을 하나로 합치되 Kafka 메시지 완료 추적은 별도로 유지해, 재시도나 작업 병합 과정에서 변경을 잃지 않도록 함도입 후 전체 빌드 횟수가 약 40% 감소했으며, 피크 메모리는 79GiB에서 …",
-      "url": "https://news.hada.io/topic?id=36497",
-      "tags": [],
-      "source": "geeknews",
-      "publishedAt": "2026-11-03T09:40:29+09:00",
-      "admitReason": "notable",
-      "summaryEn": "Cloudflare's DNS build planner rebuilds only the changed scope, not all tens of millions of records. Build count fell about 40% and peak memory dropped sharply.",
-      "summaryKo": "Cloudflare가 변경 범위만 재빌드하는 플래너를 도입해 DNS 빌드 횟수를 약 40% 줄이고 메모리를 크게 절감했다.",
-      "reasonEn": "Notable engineering write-up, published today",
-      "reasonKo": "오늘 공개된 주목받는 엔지니어링 사례",
-      "categories": [
-        "infra",
-        "backend"
-      ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
-      "firstSeenAt": "2026-11-03T10:58:48.324Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
     },
     {
       "id": "gh:public-apis/public-apis",

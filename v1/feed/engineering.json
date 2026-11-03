@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "engineering",
-  "generatedAt": "2026-11-03T10:58:48.324Z",
+  "generatedAt": "2026-11-03T23:50:20.273Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -19,7 +19,7 @@
         "testing"
       ],
       "metrics": {
-        "stars": 16307
+        "stars": 16413
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -33,9 +33,9 @@
         "ai-agents",
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
       "firstSeenAt": "2026-09-10T21:20:01.286Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
     },
     {
       "id": "gh:seanhowarthdev/Roam-Control",
@@ -53,7 +53,7 @@
         "testing"
       ],
       "metrics": {
-        "stars": 1167
+        "stars": 1168
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -67,34 +67,9 @@
         "engineering",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
       "firstSeenAt": "2026-09-11T21:29:44.686Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
-    },
-    {
-      "id": "hn:50319143",
-      "type": "article",
-      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
-      "summaryOriginal": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
-      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
-      "tags": [],
-      "metrics": {
-        "upvotes": 741,
-        "comments": 332
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-31T19:16:30Z",
-      "admitReason": "notable",
-      "summaryEn": "A TCP use-after-free vulnerability tracked as CVE-2026-98432 with a CVSS score of 9.8. Patching affected systems is urgent.",
-      "summaryKo": "CVE-2026-98432로 추적되는 TCP use-after-free 취약점으로 CVSS 9.8이다. 영향받는 시스템의 패치가 시급하다.",
-      "reasonEn": "741 upvotes and 332 comments within 2 days",
-      "reasonKo": "2일 만에 추천 741, 댓글 332개",
-      "categories": [
-        "engineering"
-      ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
-      "firstSeenAt": "2026-11-03T01:25:46.164Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
     },
     {
       "id": "hn:50323088",
@@ -104,23 +79,23 @@
       "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
       "tags": [],
       "metrics": {
-        "upvotes": 470,
-        "comments": 389
+        "upvotes": 474,
+        "comments": 392
       },
       "source": "hn",
       "publishedAt": "2026-11-01T06:06:19Z",
       "admitReason": "notable",
-      "summaryEn": "An analysis of the AI cost of JavaScript frameworks, looking at how framework choices affect token and compute usage in AI-assisted coding.",
-      "summaryKo": "AI 지원 코딩에서 JavaScript 프레임워크 선택이 토큰과 연산 사용량에 미치는 영향을 분석합니다.",
-      "reasonEn": "470 upvotes and 389 comments within 2 days",
-      "reasonKo": "2일 만에 추천 470개, 댓글 389개",
+      "summaryEn": "An analysis of the AI and compute cost of running JavaScript frameworks, comparing their overhead and what it means for developers.",
+      "summaryKo": "JavaScript 프레임워크를 실행할 때 드는 AI 및 연산 비용을 분석하고, 개발자에게 주는 의미를 따집니다.",
+      "reasonEn": "474 upvotes and 392 comments within 2 days",
+      "reasonKo": "2일 만에 추천 474, 댓글 392",
       "categories": [
         "web",
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
       "firstSeenAt": "2026-11-03T10:58:48.324Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
     },
     {
       "id": "hn:50271640",
@@ -136,16 +111,41 @@
       "source": "hn",
       "publishedAt": "2026-10-28T11:03:40Z",
       "admitReason": "notable",
-      "summaryEn": "Apple's git distribution still trusts certificates from eMudhra that were reported compromised. Developers should check their trust configurations.",
-      "summaryKo": "Apple의 git 배포본이 침해된 것으로 알려진 eMudhra 인증서를 여전히 신뢰합니다. 개발자는 신뢰 설정을 확인해야 합니다.",
-      "reasonEn": "1.2K upvotes and 413 comments within 5 days",
-      "reasonKo": "5일 만에 추천 1.2K개, 댓글 413개",
+      "summaryEn": "Apple's git setup still trusts code-signing certificates from eMudhra that were reported compromised. A security finding about trust in developer tooling.",
+      "summaryKo": "Apple의 git 설정이 침해된 것으로 보고된 eMudhra 인증서를 여전히 신뢰하고 있습니다. 개발 도구의 신뢰 체계에 관한 보안 발견입니다.",
+      "reasonEn": "1.2K upvotes and 413 comments within 6 days",
+      "reasonKo": "6일 만에 추천 1.2K, 댓글 413",
       "categories": [
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
       "firstSeenAt": "2026-11-03T10:58:48.324Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
+    },
+    {
+      "id": "hn:50211474",
+      "type": "article",
+      "title": "Today, we hacked what we'd set out to hack: the iPhone",
+      "summaryOriginal": "Today, we hacked what we'd set out to hack: the iPhone",
+      "url": "https://blog.calif.io/p/iphone",
+      "tags": [],
+      "metrics": {
+        "upvotes": 1123,
+        "comments": 732
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-23T16:21:50Z",
+      "admitReason": "notable",
+      "summaryEn": "A write-up of a team's successful effort to hack the iPhone, describing the techniques used and what they reveal about iOS security.",
+      "summaryKo": "한 팀이 iPhone 해킹에 성공한 과정을 정리한 글로, 사용된 기법과 iOS 보안에 대해 드러내는 점을 설명합니다.",
+      "reasonEn": "1.1K upvotes and 732 comments within 11 days",
+      "reasonKo": "11일 만에 추천 1.1K, 댓글 732",
+      "categories": [
+        "engineering"
+      ],
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
+      "firstSeenAt": "2026-11-03T23:50:20.273Z",
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
     },
     {
       "id": "hn:50069499",
@@ -161,42 +161,16 @@
       "source": "hn",
       "publishedAt": "2026-10-13T10:27:00Z",
       "admitReason": "notable",
-      "summaryEn": "Researchers found 11-year-old soundness bugs in Rust's borrow checker, which could allow memory-safety violations in code that compiles. Matters for Rust users.",
-      "summaryKo": "Rust borrow checker에서 11년 된 건전성(soundness) 버그가 발견되었습니다. 컴파일되는 코드에서 메모리 안전성 위반이 가능할 수 있습니다.",
-      "reasonEn": "751 upvotes and 446 comments; notable for a core Rust safety tool, 21 days old",
-      "reasonKo": "업보트 751, 댓글 446; 21일 전 공개된 Rust 핵심 안전 도구 이슈",
+      "summaryEn": "Researchers found eleven-year-old soundness bugs in Rust's borrow checker, which could allow memory-unsafe code to compile. Important for Rust users.",
+      "summaryKo": "연구자들이 Rust borrow checker에서 11년 된 건전성 버그를 찾았고, 메모리 안전하지 않은 코드가 컴파일될 수 있습니다. Rust 사용자에게 중요합니다.",
+      "reasonEn": "751 upvotes and 446 comments within 21 days",
+      "reasonKo": "21일 만에 추천 751, 댓글 446",
       "categories": [
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
       "firstSeenAt": "2026-10-26T22:58:48.719Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
-    },
-    {
-      "id": "hn:50165953",
-      "type": "article",
-      "title": "Tsrs: A Port of TypeScript to Rust",
-      "summaryOriginal": "Tsrs: A Port of TypeScript to Rust",
-      "url": "https://blog.cloudflare.com/typescript-rust-port/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 437,
-        "comments": 213
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-20T13:18:07Z",
-      "admitReason": "notable",
-      "summaryEn": "Tsrs is a port of the TypeScript compiler to Rust, aiming for faster type checking and builds. Relevant to anyone following compiler performance.",
-      "summaryKo": "TypeScript 컴파일러를 Rust로 옮긴 Tsrs 프로젝트입니다. 타입 검사와 빌드 속도 향상을 목표로 합니다.",
-      "reasonEn": "437 upvotes and 213 comments within 13 days of posting",
-      "reasonKo": "13일 만에 업보트 437, 댓글 213",
-      "categories": [
-        "engineering",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
-      "firstSeenAt": "2026-11-03T01:25:46.164Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
     },
     {
       "id": "hn:50225695",
@@ -212,16 +186,41 @@
       "source": "hn",
       "publishedAt": "2026-10-24T21:47:31Z",
       "admitReason": "notable",
-      "summaryEn": "An essay arguing developers should aim higher with the software they build, rather than settling for small incremental tools. Drew heavy discussion.",
-      "summaryKo": "개발자는 만드는 소프트웨어에 더 큰 야심을 가져야 한다는 에세이. 활발한 토론을 불러일으켰다.",
-      "reasonEn": "918 upvotes and 778 comments within 9 days of posting",
-      "reasonKo": "게시 9일 만에 추천 918, 댓글 778",
+      "summaryEn": "An essay urging engineers to pursue more ambitious software projects. It is opinion on engineering culture rather than technical content.",
+      "summaryKo": "엔지니어들이 더 야심 찬 소프트웨어를 만들어야 한다고 주장하는 에세이. 기술 내용보다는 엔지니어링 문화에 관한 의견입니다.",
+      "reasonEn": "918 upvotes and 778 comments within 10 days",
+      "reasonKo": "10일 만에 추천 918·댓글 778",
       "categories": [
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
       "firstSeenAt": "2026-11-02T09:23:53.161Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
+    },
+    {
+      "id": "hn:50193416",
+      "type": "article",
+      "title": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry",
+      "summaryOriginal": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry",
+      "url": "https://news.ycombinator.com/item?id=50193416",
+      "tags": [],
+      "metrics": {
+        "upvotes": 753,
+        "comments": 270
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-22T10:11:44Z",
+      "admitReason": "notable",
+      "summaryEn": "A researcher admits accidentally disclosing details of a PHP remote code execution flaw before its coordinated embargo ended, and apologizes to the community.",
+      "summaryKo": "연구자가 PHP 원격 코드 실행 취약점의 공개 유예 기간이 끝나기 전에 세부 내용을 실수로 공개했다며 사과했다.",
+      "reasonEn": "Notable: 753 upvotes and 270 comments in 12 days, on a PHP security disclosure",
+      "reasonKo": "12일 만에 추천 753, 댓글 270, PHP 보안 공개 이슈",
+      "categories": [
+        "engineering"
+      ],
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
+      "firstSeenAt": "2026-11-03T23:50:20.273Z",
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
     },
     {
       "id": "hn:50151036",
@@ -237,42 +236,17 @@
       "source": "hn",
       "publishedAt": "2026-10-19T11:24:34Z",
       "admitReason": "notable",
-      "summaryEn": "A discussion asking how engineers should handle shipping AI-generated code they do not fully understand, covering review, testing, and accountability.",
-      "summaryKo": "엔지니어가 완전히 이해하지 못한 AI 생성 코드를 배포할 때의 대처법을 묻는 토론. 리뷰, 테스트, 책임 문제를 다룬다.",
-      "reasonEn": "630 upvotes and 767 comments within 14 days",
-      "reasonKo": "게시 14일 만에 추천 630, 댓글 767",
+      "summaryEn": "A discussion on how engineers should review, test, and take responsibility for AI-generated code they do not fully understand before it reaches production.",
+      "summaryKo": "이해하지 못한 AI 생성 코드를 프로덕션에 배포하기 전 검토하고 책임지는 방법에 대한 토론.",
+      "reasonEn": "Notable: 630 upvotes and 767 comments in 15 days, a hot debate on AI code",
+      "reasonKo": "15일간 추천 630, 댓글 767, AI 코드 관련 뜨거운 토론",
       "categories": [
         "ai-agents",
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
       "firstSeenAt": "2026-11-02T09:19:52.923Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
-    },
-    {
-      "id": "hn:50142573",
-      "type": "article",
-      "title": "Someone behind the software",
-      "summaryOriginal": "Someone behind the software",
-      "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 557,
-        "comments": 198
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-18T16:32:00Z",
-      "admitReason": "notable",
-      "summaryEn": "An essay on the people who build and maintain software behind the products users see. Focuses on the human side of engineering work.",
-      "summaryKo": "사용자가 보는 제품 뒤에서 소프트웨어를 만들고 유지하는 사람들에 관한 에세이. 엔지니어링의 인간적인 측면을 다룬다.",
-      "reasonEn": "557 upvotes and 198 comments within 15 days",
-      "reasonKo": "게시 15일 만에 추천 557, 댓글 198",
-      "categories": [
-        "engineering"
-      ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
-      "firstSeenAt": "2026-11-03T10:58:48.324Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
     },
     {
       "id": "hn:50202217",
@@ -288,17 +262,17 @@
       "source": "hn",
       "publishedAt": "2026-10-22T22:54:43Z",
       "admitReason": "notable",
-      "summaryEn": "Argues that large language models are making formal software verification practical at much larger scale, lowering the cost of proving program correctness.",
-      "summaryKo": "대형 언어 모델이 형식 검증을 훨씬 더 큰 규모에서 실용적으로 만든다는 주장. 프로그램 정확성 증명 비용을 낮춘다.",
-      "reasonEn": "475 upvotes and 312 comments within 11 days",
-      "reasonKo": "게시 11일 만에 추천 475, 댓글 312",
+      "summaryEn": "An argument that LLMs are lowering the cost of formal verification, making mathematical proofs of software correctness practical for far larger codebases.",
+      "summaryKo": "LLM이 형식 검증 비용을 낮춰 대규모 코드베이스에도 정형 증명을 적용할 수 있게 된다는 주장.",
+      "reasonEn": "Notable: 475 upvotes and 312 comments in 12 days on LLM-driven verification",
+      "reasonKo": "12일간 추천 475, 댓글 312, LLM 기반 검증 주제",
       "categories": [
         "ai-models",
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
       "firstSeenAt": "2026-11-02T09:19:52.923Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
     },
     {
       "id": "devto:4918252",
@@ -313,22 +287,53 @@
         "webdev"
       ],
       "metrics": {
-        "upvotes": 72,
-        "comments": 29
+        "upvotes": 74,
+        "comments": 30
       },
       "source": "devto",
       "publishedAt": "2026-10-30T16:03:47Z",
       "admitReason": "notable",
-      "summaryEn": "A maintainer shares what they did when a brand-new open source project quickly attracted contributors. Practical notes on onboarding and project setup.",
-      "summaryKo": "새로 만든 오픈소스 프로젝트에 기여자가 빨리 모인 과정과 온보딩 방법을 정리한 글입니다.",
-      "reasonEn": "Notable: 72 upvotes, 29 comments in 3 days",
-      "reasonKo": "3일 만에 추천 72, 댓글 29",
+      "summaryEn": "A maintainer shares how a brand-new open-source project quickly gained contributors and what they did to make that happen.",
+      "summaryKo": "새로 만든 오픈소스 프로젝트에 기여자가 빠르게 모인 과정과 그 방법을 공유합니다.",
+      "reasonEn": "74 upvotes and 30 comments in 4 days",
+      "reasonKo": "게시 4일 만에 추천 74, 댓글 30",
       "categories": [
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
       "firstSeenAt": "2026-11-03T10:58:48.324Z",
-      "lastSeenAt": "2026-11-03T10:58:48.324Z"
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
+    },
+    {
+      "id": "devto:4919957",
+      "type": "article",
+      "title": "No Human Will Ever Write Code Better Than LLMs? Better at What?",
+      "summaryOriginal": "A tweet went around saying: \"No human will ever write code better than LLMs. Accept this fact, stop...",
+      "url": "https://dev.to/dannwaneri/no-human-will-ever-write-code-better-than-llms-better-at-what-1dme",
+      "tags": [
+        "ai",
+        "programming",
+        "softwareengineering",
+        "career"
+      ],
+      "metrics": {
+        "upvotes": 60,
+        "comments": 54
+      },
+      "source": "devto",
+      "publishedAt": "2026-10-29T09:34:19Z",
+      "admitReason": "notable",
+      "summaryEn": "Questions the claim that LLMs will always write better code than humans, asking what 'better' means. An opinion piece on AI and software engineering.",
+      "summaryKo": "LLM이 사람보다 코드를 항상 더 잘 쓸 것이라는 주장에 대해 '더 잘'의 의미를 묻는 의견 글입니다.",
+      "reasonEn": "60 upvotes and 54 comments in 5 days",
+      "reasonKo": "게시 5일 만에 추천 60, 댓글 54",
+      "categories": [
+        "ai-models",
+        "engineering"
+      ],
+      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
+      "firstSeenAt": "2026-11-03T23:50:20.273Z",
+      "lastSeenAt": "2026-11-03T23:50:20.273Z"
     },
     {
       "id": "gh:kornia/kornia",
