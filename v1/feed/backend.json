@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "backend",
-  "generatedAt": "2026-11-05T00:04:20.450Z",
+  "generatedAt": "2026-11-05T23:55:17.241Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -26,7 +26,7 @@
         "llm-serving"
       ],
       "metrics": {
-        "stars": 7316
+        "stars": 7338
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -40,9 +40,9 @@
         "ai-models",
         "backend"
       ],
-      "metricsRefreshedAt": "2026-11-05T00:04:20.450Z",
+      "metricsRefreshedAt": "2026-11-05T23:55:17.241Z",
       "firstSeenAt": "2026-09-14T22:13:48.779Z",
-      "lastSeenAt": "2026-11-05T00:04:20.450Z"
+      "lastSeenAt": "2026-11-05T23:55:17.241Z"
     },
     {
       "id": "gh:workersio/breakscale",
@@ -64,12 +64,12 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 1981
+        "stars": 1982
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-08-23T06:21:21Z",
-      "updatedAt": "2026-11-04T14:06:14Z",
+      "updatedAt": "2026-11-05T07:45:49Z",
       "summaryEn": "Breakscale is a system design simulator that lets you load-test architectures to learn distributed systems failure points.",
       "summaryKo": "분산 시스템 설계를 학습하기 위한 부하 테스트 시뮬레이터입니다.",
       "reasonEn": "1.8K stars within 66 days of launch",
@@ -78,61 +78,65 @@
         "web",
         "backend"
       ],
-      "metricsRefreshedAt": "2026-11-05T00:04:20.450Z",
+      "metricsRefreshedAt": "2026-11-05T23:55:17.241Z",
       "firstSeenAt": "2026-10-28T22:55:38.716Z",
-      "lastSeenAt": "2026-11-05T00:04:20.450Z"
+      "lastSeenAt": "2026-11-05T23:55:17.241Z"
     },
     {
-      "id": "devto:4974671",
+      "id": "hn:50193416",
       "type": "article",
-      "title": "After 5 years, Wasp 1.0 is coming: a 6-month plan for our full-stack JS framework",
-      "summaryOriginal": "The time has come: Wasp 1.0 is now officially in the works! ETA: ~6 months. Even though still...",
-      "url": "https://dev.to/wasp/after-5-years-wasp-10-is-coming-a-6-month-plan-for-our-full-stack-js-framework-4hlf",
+      "title": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry",
+      "summaryOriginal": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry",
+      "url": "https://news.ycombinator.com/item?id=50193416",
+      "tags": [],
+      "metrics": {
+        "upvotes": 753,
+        "comments": 270
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-22T10:11:44Z",
+      "admitReason": "notable",
+      "summaryEn": "A poster admits they accidentally disclosed a PHP remote code execution flaw before its embargo lifted. Relevant to anyone running PHP in production.",
+      "summaryKo": "PHP 원격 코드 실행 취약점을 공개 유예 기간 전에 실수로 공개했다는 고백 글. PHP 운영자에게 중요합니다.",
+      "reasonEn": "Notable: 753 upvotes and 270 comments in 14 days",
+      "reasonKo": "14일 만에 추천 753, 댓글 270으로 주목",
+      "categories": [
+        "backend"
+      ],
+      "metricsRefreshedAt": "2026-11-05T23:55:17.241Z",
+      "firstSeenAt": "2026-11-05T23:55:17.241Z",
+      "lastSeenAt": "2026-11-05T23:55:17.241Z"
+    },
+    {
+      "id": "devto:4947757",
+      "type": "article",
+      "title": "Marigold /router - A Private Ofrenda for the Memories We Refuse to Lose",
+      "summaryOriginal": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...",
+      "url": "https://dev.to/kumuda/marigold-router-a-private-ofrenda-for-the-memories-we-refuse-to-lose-2e68",
       "tags": [
-        "webdev",
-        "typescript",
-        "react",
-        "programming"
+        "devchallenge",
+        "hf26challenge",
+        "ai",
+        "gemma"
       ],
       "metrics": {
-        "upvotes": 92,
-        "comments": 13
+        "upvotes": 63,
+        "comments": 10
       },
       "source": "devto",
-      "publishedAt": "2026-11-04T10:42:12Z",
+      "publishedAt": "2026-10-30T14:01:01Z",
       "admitReason": "notable",
-      "summaryEn": "Announces Wasp 1.0 is in progress with a roughly 6-month plan for the full-stack TypeScript and React framework.",
-      "summaryKo": "풀스택 TypeScript/React 프레임워크 Wasp 1.0 개발 계획(약 6개월)을 발표합니다.",
-      "reasonEn": "Posted today, 92 upvotes, 13 comments",
-      "reasonKo": "오늘 게시, 추천 92, 댓글 13",
+      "summaryEn": "A Hacktoberfest challenge entry describing a private, self-hosted router project built with Gemma, focused on preserving personal memories.",
+      "summaryKo": "Gemma로 만든 개인용 자체 호스팅 라우터 프로젝트를 소개하는 Hacktoberfest 챌린지 출품작입니다.",
+      "reasonEn": "63 upvotes and 10 comments within 6 days",
+      "reasonKo": "6일 만에 추천 63, 댓글 10",
       "categories": [
-        "web",
+        "ai-models",
         "backend"
       ],
-      "metricsRefreshedAt": "2026-11-05T00:04:20.450Z",
-      "firstSeenAt": "2026-11-05T00:04:20.450Z",
-      "lastSeenAt": "2026-11-05T00:04:20.450Z"
-    },
-    {
-      "id": "geeknews:36615",
-      "type": "article",
-      "title": "Go의 새로운 JSON API",
-      "summaryOriginal": "Go 1.27에서 encoding/json/v2와 encoding/json/jsontext가 안정화되어 정식 제공됨. 기존 JSON 패키지의 동작, API, 성능 문제를 개선하면서 익숙한 사용 방식을 유지함구문 처리와 Go 값 변환을 분리하고, 토큰과 값을 실제 스트리밍 방식으로 처리함. 새 사용자 정의 인터페이스는 전체 JSON 값을 버퍼링하거나 반복 파싱하는 부담을 줄임기본 동작이 더 엄격해져 잘못된 UTF-8과 중복 객체 이름을 거부함. nil 슬라이스/맵, 구조체 필드 이름 매칭, omitempty 등의 동작도 달라지며 대부분 옵션으로 조정 가능함벤치마크에서 Unma…",
-      "url": "https://news.hada.io/topic?id=36615",
-      "tags": [],
-      "source": "geeknews",
-      "publishedAt": "2026-11-05T07:37:03+09:00",
-      "admitReason": "notable",
-      "summaryEn": "Go 1.27 stabilizes encoding/json/v2 and jsontext, with streaming tokens, stricter defaults that reject invalid UTF-8 and duplicate names, and changed nil and omitempty behavior.",
-      "summaryKo": "Go 1.27에서 encoding/json/v2와 jsontext가 정식 제공된다. 스트리밍 처리가 가능해졌고, 잘못된 UTF-8과 중복 키를 거부하는 등 기본 동작이 엄격해졌다.",
-      "reasonEn": "Published today, notable traction on GeekNews",
-      "reasonKo": "오늘 게시, GeekNews에서 주목도 높음",
-      "categories": [
-        "backend"
-      ],
-      "metricsRefreshedAt": "2026-11-05T00:04:20.450Z",
-      "firstSeenAt": "2026-11-05T00:04:20.450Z",
-      "lastSeenAt": "2026-11-05T00:04:20.450Z"
+      "metricsRefreshedAt": "2026-11-05T23:55:17.241Z",
+      "firstSeenAt": "2026-11-05T23:55:17.241Z",
+      "lastSeenAt": "2026-11-05T23:55:17.241Z"
     },
     {
       "id": "gh:public-apis/public-apis",
