@@ -1,9 +1,84 @@
 {
   "version": 1,
   "category": "devtools",
-  "generatedAt": "2026-11-06T23:36:33.344Z",
+  "generatedAt": "2026-11-07T22:27:25.332Z",
   "ttlSeconds": 10800,
   "cards": [
+    {
+      "id": "gh:vercel-labs/agent-browser",
+      "type": "repo",
+      "title": "vercel-labs/agent-browser",
+      "summaryOriginal": "Browser automation CLI for AI agents",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "lang": "Rust",
+      "tags": [],
+      "metrics": {
+        "stars": 46766,
+        "starsDelta": 180
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "Command-line browser automation tool built for AI agents to drive web pages from the terminal.",
+      "summaryKo": "AI 에이전트가 터미널에서 웹 페이지를 조작할 수 있게 만든 브라우저 자동화 CLI입니다.",
+      "reasonEn": "45.9K stars, up 181 today",
+      "reasonKo": "스타 45.9K, 오늘 +181",
+      "categories": [
+        "ai-agents",
+        "web",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
+      "firstSeenAt": "2026-11-05T23:55:17.241Z",
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
+    },
+    {
+      "id": "gh:sherlock-project/sherlock",
+      "type": "repo",
+      "title": "sherlock-project/sherlock",
+      "summaryOriginal": "Hunt down social media accounts by username across social networks",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "stars": 100334,
+        "starsDelta": 1819
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "OSINT CLI tool for hunting social media accounts by username across networks for reconnaissance and security research.",
+      "summaryKo": "사용자명으로 소셜 미디어 계정을 추적하는 OSINT CLI 도구.",
+      "categories": [
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
+    },
+    {
+      "id": "gh:astral-sh/ruff",
+      "type": "repo",
+      "title": "astral-sh/ruff",
+      "summaryOriginal": "An extremely fast Python linter and code formatter, written in Rust.",
+      "url": "https://github.com/astral-sh/ruff",
+      "lang": "Rust",
+      "tags": [],
+      "metrics": {
+        "stars": 50958,
+        "starsDelta": 350
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "A very fast Python linter and code formatter written in Rust, for checking and formatting Python code quickly.",
+      "summaryKo": "Rust로 작성된 매우 빠른 Python 린터 겸 코드 포매터로, Python 코드 검사와 포맷팅을 빠르게 처리합니다.",
+      "reasonEn": "50.9K stars, up 350 today",
+      "reasonKo": "스타 50.9K, 오늘 +350",
+      "categories": [
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
+      "firstSeenAt": "2026-11-07T22:27:25.332Z",
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
+    },
     {
       "id": "gh:zed-industries/zed",
       "type": "repo",
@@ -13,8 +88,8 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 93598,
-        "starsDelta": 292
+        "stars": 94243,
+        "starsDelta": 1119
       },
       "source": "github-trending",
       "admitReason": "trending",
@@ -25,59 +100,9 @@
       "categories": [
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-11-06T23:36:33.344Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
-    },
-    {
-      "id": "gh:mpv-player/mpv",
-      "type": "repo",
-      "title": "mpv-player/mpv",
-      "summaryOriginal": "🎥 Command line media player",
-      "url": "https://github.com/mpv-player/mpv",
-      "lang": "C",
-      "tags": [],
-      "metrics": {
-        "stars": 37870,
-        "starsDelta": 36
-      },
-      "source": "github-trending",
-      "admitReason": "trending",
-      "summaryEn": "mpv, a free command-line media player that plays nearly any video or audio format and is scriptable. Useful for developers who want lightweight, configurable playback.",
-      "summaryKo": "mpv는 거의 모든 미디어 형식을 재생하고 스크립트로 제어할 수 있는 무료 명령줄 미디어 플레이어입니다.",
-      "reasonEn": "37.9K stars, trending with 36 added today",
-      "reasonKo": "총 3.8만 스타, 오늘 36개 추가로 상승 중",
-      "categories": [
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
-      "firstSeenAt": "2026-11-06T23:36:33.344Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
-    },
-    {
-      "id": "gh:nushell/nushell",
-      "type": "repo",
-      "title": "nushell/nushell",
-      "summaryOriginal": "A new type of shell",
-      "url": "https://github.com/nushell/nushell",
-      "lang": "Rust",
-      "tags": [],
-      "metrics": {
-        "stars": 40976,
-        "starsDelta": 177
-      },
-      "source": "github-trending",
-      "admitReason": "trending",
-      "summaryEn": "Nushell, a shell that treats command output as structured data tables rather than plain text.",
-      "summaryKo": "명령 출력을 평문 대신 구조화된 데이터 테이블로 다루는 셸 Nushell.",
-      "reasonEn": "41K stars, up 177 today",
-      "reasonKo": "별 4만 1천, 오늘 +177",
-      "categories": [
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
-      "firstSeenAt": "2026-11-06T23:36:33.344Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:muaaz9329/cheap-ag",
@@ -101,12 +126,12 @@
         "developer-tools"
       ],
       "metrics": {
-        "stars": 306
+        "stars": 310
       },
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-10-28T22:26:18Z",
-      "updatedAt": "2026-11-03T15:52:44Z",
+      "updatedAt": "2026-11-07T15:45:30Z",
       "summaryEn": "MCP server and plugin for Claude Code and Codex that routes code writing to a cheap model and gates output with tests. Claims lower usage costs.",
       "summaryKo": "Claude Code·Codex용 MCP 서버·플러그인. 저렴한 모델로 코드를 쓰고 테스트로 검증. 사용량 절감을 주장.",
       "reasonEn": "306 stars within 9 days of creation",
@@ -116,9 +141,9 @@
         "ai-agents",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-11-06T23:36:33.344Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:Ebony-Vinyl/dsh-our-free-model",
@@ -140,12 +165,12 @@
         "openai-compatible"
       ],
       "metrics": {
-        "stars": 63931
+        "stars": 65376
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-09-24T16:17:19Z",
-      "updatedAt": "2026-11-05T06:24:03Z",
+      "updatedAt": "2026-11-07T16:54:28Z",
       "summaryEn": "A plugin for dsh offering free, unlimited access to frontier models like DeepSeek V4.1 Flash and Kimi K3 without requiring logins or API keys.",
       "summaryKo": "로그인이나 API 키 없이 DeepSeek V4.1 Flash 등의 모델을 무료로 제공하는 dsh 플러그인.",
       "reasonEn": "1.6K stars within 11 days of launch",
@@ -155,9 +180,9 @@
         "ai-agents",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-10-06T00:31:42.162Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:google/elephant-goldfish-model",
@@ -181,12 +206,12 @@
         "gemini"
       ],
       "metrics": {
-        "stars": 13072
+        "stars": 13799
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-09-13T16:31:06Z",
-      "updatedAt": "2026-11-06T23:09:24Z",
+      "updatedAt": "2026-11-07T20:15:27Z",
       "summaryEn": "An open-source methodology and skill set created at Google for spec-driven development workflows with LLMs.",
       "summaryKo": "LLM을 활용한 사양 주도 개발 워크플로우를 위해 구글에서 제작한 오픈소스 방법론.",
       "reasonEn": "Notable with 1.7K stars after 43 days",
@@ -196,9 +221,9 @@
         "ai-agents",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-10-26T22:58:48.719Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:QingYunA/answer-me-with-html",
@@ -222,7 +247,7 @@
         "llm"
       ],
       "metrics": {
-        "stars": 5789
+        "stars": 5996
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -236,9 +261,9 @@
         "ai-models",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-10-04T22:09:02.469Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:microsoft/TokenEconomizer",
@@ -262,7 +287,7 @@
         "cost-reduction"
       ],
       "metrics": {
-        "stars": 4893
+        "stars": 4948
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -277,9 +302,9 @@
         "ai-agents",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-10-31T22:07:10.334Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:Nanako0129/sepia",
@@ -303,7 +328,7 @@
         "writing-tools"
       ],
       "metrics": {
-        "stars": 3665
+        "stars": 3677
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -317,9 +342,9 @@
         "ai-models",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-08-29T02:56:27.939Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:KKKKhazix/agent-autoloop",
@@ -342,12 +367,12 @@
         "workflow"
       ],
       "metrics": {
-        "stars": 3669
+        "stars": 3948
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-11-03T08:02:11Z",
-      "updatedAt": "2026-11-06T19:06:01Z",
+      "updatedAt": "2026-11-07T13:41:31Z",
       "summaryEn": "CLI agent runner that picks up and follows tasks in the background, interrupting you with a card only when it needs a decision. Works with Claude Code and Codex.",
       "summaryKo": "백그라운드에서 작업을 이어가고 결정이 필요할 때만 카드로 알려주는 CLI 에이전트 실행기로, Claude Code와 Codex를 지원합니다.",
       "reasonEn": "2.5K stars within 1 day of creation",
@@ -357,9 +382,9 @@
         "web",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-11-05T00:04:20.450Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:emanuele-em/kanzo",
@@ -383,12 +408,12 @@
         "project-management"
       ],
       "metrics": {
-        "stars": 1068
+        "stars": 1099
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-10-25T11:14:03Z",
-      "updatedAt": "2026-11-06T14:47:59Z",
+      "updatedAt": "2026-11-07T20:19:30Z",
       "summaryEn": "A self-hosted kanban board designed for both humans and AI agents, packaged as a lightweight 4MB binary with instant startup.",
       "summaryKo": "사람과 AI 에이전트를 위해 설계된 4MB 크기의 가벼운 셀프 호스팅 칸반.",
       "reasonEn": "Created 7 days ago with 564 stars",
@@ -397,9 +422,9 @@
         "ai-agents",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-11-01T22:33:06.545Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:chutingyean/Agent-Cockpit",
@@ -423,7 +448,7 @@
         "reproducibility"
       ],
       "metrics": {
-        "stars": 394
+        "stars": 451
       },
       "source": "github-search",
       "admitReason": "new",
@@ -437,9 +462,9 @@
         "ai-agents",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-11-06T23:36:33.344Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:monid-ai/monid",
@@ -453,7 +478,7 @@
         "developer-tools"
       ],
       "metrics": {
-        "stars": 6141
+        "stars": 6148
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -467,9 +492,9 @@
         "ai-agents",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-10-03T21:56:27.615Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:lennney/stop-that-shit",
@@ -493,7 +518,7 @@
         "opencode"
       ],
       "metrics": {
-        "stars": 3693
+        "stars": 3710
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -505,9 +530,9 @@
         "ai-agents",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:HerdBuilderEstimate/roblox-studio-mcp",
@@ -546,9 +571,9 @@
         "web",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-11-06T23:36:33.344Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:shader-effects-inc/shaders",
@@ -569,12 +594,12 @@
         "webgpu-shaders"
       ],
       "metrics": {
-        "stars": 5851
+        "stars": 5861
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-09-29T16:36:26Z",
-      "updatedAt": "2026-11-06T20:07:35Z",
+      "updatedAt": "2026-11-07T21:36:03Z",
       "summaryEn": "A collection of WebGPU-powered shader components for React, Vue, Svelte, Solid, and Vanilla JS.",
       "summaryKo": "React, Vue, Svelte, Solid 등을 지원하는 WebGPU 기반 셰이더 컴포넌트 모음입니다.",
       "reasonEn": "1.1K stars within 7 days of launch",
@@ -584,9 +609,9 @@
         "web",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-10-06T22:51:26.692Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:dagoSte/squadra",
@@ -610,7 +635,7 @@
         "developer-tools"
       ],
       "metrics": {
-        "stars": 1003
+        "stars": 1188
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -624,9 +649,9 @@
         "ai-agents",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-10-29T23:03:36.686Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:Xpropel/Pi-Remote",
@@ -650,7 +675,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 308
+        "stars": 312
       },
       "source": "github-search",
       "admitReason": "new",
@@ -664,9 +689,9 @@
         "web",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-11-05T23:55:17.241Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:ccch1mneyyy/dsh-TUI",
@@ -687,21 +712,21 @@
         "tui"
       ],
       "metrics": {
-        "stars": 7085
+        "stars": 7160
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-08-13T12:49:31Z",
-      "updatedAt": "2026-11-06T23:07:32Z",
+      "updatedAt": "2026-11-07T22:20:52Z",
       "summaryEn": "Claude Code-style terminal UI plugin for DeepSeek Harness — status bar, streaming thoughts, double-Esc rollback, context/TPS tracking.",
       "summaryKo": "디프시크 하니스용 클로드 코드 스타일 터미널 UI, 상태바·스트리밍·더블Esc 되돌리기 지원.",
       "categories": [
         "web",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:devswha/ovis",
@@ -725,12 +750,12 @@
         "push-notifications"
       ],
       "metrics": {
-        "stars": 1921
+        "stars": 1949
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-09-17T18:52:07Z",
-      "updatedAt": "2026-11-06T23:33:11Z",
+      "updatedAt": "2026-11-07T22:29:37Z",
       "summaryEn": "Ovis is a free web and phone client providing chat and a live terminal interface for coding agents like Claude Code.",
       "summaryKo": "Claude Code 같은 코딩 에이전트를 위한 웹 및 모바일 클라이언트 인터페이스를 제공합니다.",
       "reasonEn": "1.3K stars within 35 days",
@@ -739,9 +764,9 @@
         "web",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-10-22T22:01:31.062Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:dzhng/jevgrep",
@@ -765,12 +790,12 @@
         "vercel-ai-gateway"
       ],
       "metrics": {
-        "stars": 3189
+        "stars": 3199
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-09-26T04:06:56Z",
-      "updatedAt": "2026-11-04T17:50:03Z",
+      "updatedAt": "2026-11-07T16:17:52Z",
       "summaryEn": "Jevgrep is a CLI tool for coding agents that finds relevant files and source context by letting you search code using natural language questions.",
       "summaryKo": "자연어 질문으로 관련 파일과 소스 컨텍스트를 찾는 코딩 에이전트용 CLI 검색 도구입니다.",
       "reasonEn": "696 stars within 1 day of launch",
@@ -779,9 +804,9 @@
         "web",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-09-27T21:48:07.220Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:NxcoreAI/EverRoom",
@@ -801,7 +826,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 2975
+        "stars": 2976
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -813,9 +838,9 @@
         "web",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-08-23T15:24:03.896Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:mikehasa/golive-skill",
@@ -839,7 +864,7 @@
         "godaddy"
       ],
       "metrics": {
-        "stars": 1399
+        "stars": 1408
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -854,9 +879,9 @@
         "data",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-09-24T21:54:59.755Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:seanhowarthdev/Roam-Control",
@@ -874,7 +899,7 @@
         "testing"
       ],
       "metrics": {
-        "stars": 1184
+        "stars": 1187
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -888,9 +913,9 @@
         "engineering",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-09-11T21:29:44.686Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:Verlintas/NOIR",
@@ -914,12 +939,12 @@
         "kotlin"
       ],
       "metrics": {
-        "stars": 2746
+        "stars": 2894
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-10-31T21:34:39Z",
-      "updatedAt": "2026-11-06T12:39:15Z",
+      "updatedAt": "2026-11-07T16:07:16Z",
       "summaryEn": "Desktop tool that audits Android apps over adb for permissions, reporting endpoints, and data flows, with reversible fixes.",
       "summaryKo": "adb로 안드로이드 앱의 권한, 전송 엔드포인트, 데이터 흐름을 점검하고 되돌릴 수 있는 조치를 제시하는 도구.",
       "reasonEn": "690 stars within a day of creation",
@@ -927,9 +952,9 @@
       "categories": [
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-11-02T09:19:52.923Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:govijr/terminal-mac",
@@ -948,12 +973,12 @@
         "tui"
       ],
       "metrics": {
-        "stars": 2144
+        "stars": 2238
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-11-03T03:22:56Z",
-      "updatedAt": "2026-11-06T15:43:37Z",
+      "updatedAt": "2026-11-07T05:58:26Z",
       "summaryEn": "Runs a full macOS desktop inside a terminal, rendered as a TUI in Swift. An experimental novelty that shows what terminal rendering can do.",
       "summaryKo": "터미널 안에서 macOS 데스크톱 전체를 TUI로 띄우는 Swift 프로젝트입니다. 터미널 렌더링 가능성을 보여주는 실험작입니다.",
       "reasonEn": "1.5K stars within 1 day of creation",
@@ -961,9 +986,9 @@
       "categories": [
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-11-05T00:04:20.450Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:AssassinCreator/steam-stash-value-report-card",
@@ -983,12 +1008,12 @@
         "valuation"
       ],
       "metrics": {
-        "stars": 786
+        "stars": 791
       },
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-11-02T00:40:47Z",
-      "updatedAt": "2026-11-03T16:23:22Z",
+      "updatedAt": "2026-11-07T02:23:15Z",
       "summaryEn": "Terminal tool that values a Steam inventory per game and market and prints a share card; Windows portable build.",
       "summaryKo": "Steam 인벤토리를 게임과 시장별로 평가해 공유용 카드를 출력하는 터미널 도구.",
       "reasonEn": "New: 602 stars within 1 day of creation",
@@ -996,9 +1021,46 @@
       "categories": [
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-11-03T01:25:46.164Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
+    },
+    {
+      "id": "gh:stubbi/asm",
+      "type": "repo",
+      "title": "stubbi/asm",
+      "summaryOriginal": "The package registry and command-line tool for assembly projects.",
+      "url": "https://github.com/stubbi/asm",
+      "lang": "Python",
+      "tags": [
+        "aarch64",
+        "assembly",
+        "cli",
+        "linux",
+        "macos",
+        "mcp-server",
+        "package-manager",
+        "package-registry",
+        "riscv",
+        "x86-64"
+      ],
+      "metrics": {
+        "stars": 595
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-10-31T23:22:41Z",
+      "updatedAt": "2026-11-07T22:23:28Z",
+      "summaryEn": "Package registry and CLI for assembly language projects, with MCP server support and aarch64, Linux, and macOS targets.",
+      "summaryKo": "어셈블리 프로젝트용 패키지 레지스트리와 CLI. MCP 서버 지원, aarch64 대상.",
+      "reasonEn": "595 stars within 6 days of creation",
+      "reasonKo": "생성 6일 만에 스타 595개",
+      "categories": [
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
+      "firstSeenAt": "2026-11-07T22:27:25.332Z",
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:heydeer/slimdeer",
@@ -1020,7 +1082,7 @@
         "webassembly"
       ],
       "metrics": {
-        "stars": 502
+        "stars": 508
       },
       "source": "github-search",
       "admitReason": "new",
@@ -1033,9 +1095,9 @@
       "categories": [
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-11-05T00:04:20.450Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:Wallbycontact/java-mod-rust-port-tool",
@@ -1060,7 +1122,7 @@
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-11-05T06:15:39Z",
-      "updatedAt": "2026-11-05T06:19:24Z",
+      "updatedAt": "2026-11-07T05:03:45Z",
       "summaryEn": "CLI that takes a Fabric or NeoForge Minecraft mod jar and generates Rust code for the Horizon engine, flagging unfinished parts in a report.",
       "summaryKo": "Fabric, NeoForge 마인크래프트 모드 jar를 Horizon용 Rust 코드로 변환하고 미완성 부분을 보고서에 표시하는 CLI입니다.",
       "reasonEn": "409 stars on the day of creation",
@@ -1068,9 +1130,9 @@
       "categories": [
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-11-05T23:55:17.241Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:omlahore/RemoveMacAI",
@@ -1093,12 +1155,12 @@
         "swift"
       ],
       "metrics": {
-        "stars": 5914
+        "stars": 5941
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-09-29T11:02:39Z",
-      "updatedAt": "2026-11-06T10:14:21Z",
+      "updatedAt": "2026-11-07T03:05:48Z",
       "summaryEn": "A macOS command-line utility that disables Apple Intelligence and reclaims disk space safely and reversibly.",
       "summaryKo": "Apple Intelligence를 비활성화하고 디스크 공간을 확보하는 macOS CLI 유틸리티입니다.",
       "reasonEn": "Created 5 days ago",
@@ -1106,9 +1168,9 @@
       "categories": [
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-10-04T22:09:02.469Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:xevrion/hatchzip",
@@ -1132,7 +1194,7 @@
         "linux"
       ],
       "metrics": {
-        "stars": 2586
+        "stars": 2620
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1145,9 +1207,9 @@
       "categories": [
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-10-23T21:47:37.203Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:unstablebuild/rune",
@@ -1171,7 +1233,7 @@
         "text-editor"
       ],
       "metrics": {
-        "stars": 1482
+        "stars": 1489
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1184,9 +1246,9 @@
       "categories": [
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-09-12T21:08:18.614Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:Spielewoy/autoprompt-skill",
@@ -1210,7 +1272,7 @@
         "coding-agent"
       ],
       "metrics": {
-        "stars": 1214
+        "stars": 1215
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1221,9 +1283,9 @@
       "categories": [
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-08-19T06:46:44.114Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:Harvil1/codeAgent",
@@ -1245,7 +1307,7 @@
         "terminal"
       ],
       "metrics": {
-        "stars": 1012
+        "stars": 1009
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1258,9 +1320,9 @@
       "categories": [
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-10-13T01:04:05.704Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:haydenschmitty/floorplan",
@@ -1284,7 +1346,7 @@
         "vibe-coding"
       ],
       "metrics": {
-        "stars": 3077
+        "stars": 3166
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1297,9 +1359,9 @@
       "categories": [
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-10-29T23:03:36.686Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:kyy-logs/code-review-skill",
@@ -1318,12 +1380,12 @@
         "static-analysis"
       ],
       "metrics": {
-        "stars": 328
+        "stars": 389
       },
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-10-29T07:57:07Z",
-      "updatedAt": "2026-11-06T10:57:24Z",
+      "updatedAt": "2026-11-07T10:16:06Z",
       "summaryEn": "Agent skill for Claude Code and Codex running four independent review probes, with evidence-backed findings and a merge gate.",
       "summaryKo": "Claude Code·Codex용 스킬. 독립된 검사 4개로 근거 있는 결과를 내고 병합 게이트를 적용.",
       "reasonEn": "328 stars within 8 days of creation",
@@ -1331,9 +1393,48 @@
       "categories": [
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-11-06T23:36:33.344Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
+    },
+    {
+      "id": "gh:devvmhq/devvm",
+      "type": "repo",
+      "title": "devvmhq/devvm",
+      "summaryOriginal": "One VM for every project. An isolated sandbox with your project’s toolchain, ready for you or a coding agent to start coding",
+      "url": "https://github.com/devvmhq/devvm",
+      "lang": "Go",
+      "tags": [
+        "coding-agent",
+        "coding-agents",
+        "developer-tools",
+        "development",
+        "lima",
+        "lima-vm",
+        "linux",
+        "sandbox",
+        "sandbox-environment",
+        "ubuntu",
+        "virtual-machine",
+        "vm"
+      ],
+      "metrics": {
+        "stars": 353
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-11-06T07:02:30Z",
+      "updatedAt": "2026-11-07T22:27:27Z",
+      "summaryEn": "Isolated Lima-based sandbox VM per project, preloaded with its toolchain so developers or coding agents can start working safely.",
+      "summaryKo": "프로젝트별 격리된 Lima 기반 샌드박스 VM. 툴체인이 미리 설치되어 있음.",
+      "reasonEn": "353 stars within a day of creation",
+      "reasonKo": "생성 하루 만에 스타 353개",
+      "categories": [
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
+      "firstSeenAt": "2026-11-07T22:27:25.332Z",
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
     },
     {
       "id": "gh:l0ng-ai/openidea",
@@ -1357,12 +1458,12 @@
         "lsp"
       ],
       "metrics": {
-        "stars": 7431
+        "stars": 7653
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-10-21T12:23:14Z",
-      "updatedAt": "2026-11-06T23:33:17Z",
+      "updatedAt": "2026-11-07T22:13:36Z",
       "summaryEn": "Openidea is a fast native code editor built in Rust featuring IntelliJ-style keymaps, debugger, and database tools.",
       "summaryKo": "러스트로 구축된 인텔리제이 스타일의 빠른 네이티브 코드 에디터입니다.",
       "reasonEn": "505 stars within 7 days of launch",
@@ -1370,13 +1471,323 @@
       "categories": [
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "firstSeenAt": "2026-10-28T22:55:38.716Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
+    },
+    {
+      "id": "hn:50385272",
+      "type": "article",
+      "title": "Claude Code sends your email address to websites",
+      "summaryOriginal": "Claude Code sends your email address to websites",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "tags": [],
+      "metrics": {
+        "upvotes": 1589,
+        "comments": 514
+      },
+      "source": "hn",
+      "publishedAt": "2026-11-05T22:17:15Z",
+      "admitReason": "notable",
+      "summaryEn": "Reports that Claude Code shares users' email addresses with websites, a privacy behavior developers should check in their tool settings and network traffic.",
+      "summaryKo": "Claude Code가 사용자의 이메일 주소를 웹사이트에 전송한다는 보고로, 개발자가 설정과 네트워크 트래픽을 확인해야 합니다.",
+      "reasonEn": "1,589 upvotes and 514 comments within 2 days of posting",
+      "reasonKo": "게시 2일 만에 추천 1,589개, 댓글 514개",
+      "categories": [
+        "ai-agents",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
+      "firstSeenAt": "2026-11-06T23:36:33.344Z",
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
+    },
+    {
+      "id": "hn:50300683",
+      "type": "article",
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "summaryOriginal": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 1011,
+        "comments": 553
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-30T07:09:12Z",
+      "admitReason": "notable",
+      "summaryEn": "A backdoor was found in a Claude Code VS Code extension listed on the Cursor Marketplace, a supply-chain security risk for developers who install editor extensions.",
+      "summaryKo": "Cursor 마켓플레이스의 Claude Code VS Code 확장 프로그램에서 백도어가 발견되어 확장 설치 시 공급망 위험이 있습니다.",
+      "reasonEn": "1,011 upvotes and 553 comments within 8 days",
+      "reasonKo": "게시 8일 만에 추천 1,011개, 댓글 553개",
+      "categories": [
+        "devtools",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
+      "firstSeenAt": "2026-10-30T22:44:49.535Z",
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
+    },
+    {
+      "id": "hn:50284255",
+      "type": "article",
+      "title": "Claude Code regularly sends each background agent’s transcript to its model",
+      "summaryOriginal": "Claude Code regularly sends each background agent’s transcript to its model",
+      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "tags": [],
+      "metrics": {
+        "upvotes": 591,
+        "comments": 236
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-29T03:33:42Z",
+      "admitReason": "notable",
+      "summaryEn": "Reports that Claude Code regularly sends each background agent's full transcript to the model, a data-flow behavior relevant to anyone running agents on sensitive code.",
+      "summaryKo": "Claude Code가 백그라운드 에이전트마다 전체 대화 기록을 모델에 주기적으로 보낸다는 보고로, 민감한 코드에서 에이전트를 쓰는 개발자에게 중요합니다.",
+      "reasonEn": "591 upvotes and 236 comments within 9 days",
+      "reasonKo": "게시 9일 만에 추천 591개, 댓글 236개",
+      "categories": [
+        "ai-agents",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
+      "firstSeenAt": "2026-11-02T09:23:53.161Z",
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
+    },
+    {
+      "id": "hn:50354960",
+      "type": "article",
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "summaryOriginal": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "tags": [],
+      "metrics": {
+        "upvotes": 1524,
+        "comments": 495
+      },
+      "source": "hn",
+      "publishedAt": "2026-11-03T17:22:37Z",
+      "admitReason": "notable",
+      "summaryEn": "Postman reportedly installs AI plugins without asking and tries to send all API request data to third parties. Check settings and data exposure.",
+      "summaryKo": "Postman이 묻지 않고 AI 플러그인을 자동 설치하고 모든 API 데이터를 외부로 보내려 한다는 보고입니다.",
+      "reasonEn": "1.5K upvotes and 495 comments within 4 days",
+      "reasonKo": "4일 내 추천 1.5K건, 댓글 495개",
+      "categories": [
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
+      "firstSeenAt": "2026-11-03T23:50:20.273Z",
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
+    },
+    {
+      "id": "hn:50133401",
+      "type": "article",
+      "title": "OpenCode Hacked: User credentials leaked",
+      "summaryOriginal": "OpenCode Hacked: User credentials leaked",
+      "url": "https://twitter.com/opencode/status/2111516673953935833",
+      "tags": [],
+      "metrics": {
+        "upvotes": 977,
+        "comments": 185
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-17T18:01:41Z",
+      "admitReason": "notable",
+      "summaryEn": "The OpenCode AI coding tool was breached and user credentials were leaked, so users should rotate keys and review access.",
+      "summaryKo": "AI 코딩 도구 OpenCode가 해킹되어 사용자 자격 증명이 유출되었으니 키 재발급과 접근 점검이 필요합니다.",
+      "reasonEn": "977 upvotes and 185 comments within 21 days",
+      "reasonKo": "21일 내 추천 977건, 댓글 185개",
+      "categories": [
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
+      "firstSeenAt": "2026-11-06T23:36:33.344Z",
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
+    },
+    {
+      "id": "hn:50073633",
+      "type": "article",
+      "title": "Redesigning source control at Anthropic",
+      "summaryOriginal": "Redesigning source control at Anthropic",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "tags": [],
+      "metrics": {
+        "upvotes": 900,
+        "comments": 1014
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-13T15:49:56Z",
+      "admitReason": "notable",
+      "summaryEn": "Anthropic describes its redesign of source control for its internal engineering workflow. Covers how version control may change for AI-assisted development.",
+      "summaryKo": "Anthropic이 내부 엔지니어링 워크플로를 위해 소스 컨트롤을 재설계한 과정을 설명합니다. AI 보조 개발에서 버전 관리가 어떻게 바뀔 수 있는지 다룹니다.",
+      "reasonEn": "900 upvotes and 1014 comments within 25 days",
+      "reasonKo": "25일 만에 추천 900개, 댓글 1014개",
+      "categories": [
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
+      "firstSeenAt": "2026-10-23T21:47:37.203Z",
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
+    },
+    {
+      "id": "hn:50352757",
+      "type": "article",
+      "title": "OpenAI seems to be silently re-enabling model training on Codex chats",
+      "summaryOriginal": "OpenAI seems to be silently re-enabling model training on Codex chats",
+      "url": "https://news.ycombinator.com/item?id=50352757",
+      "tags": [],
+      "metrics": {
+        "upvotes": 531,
+        "comments": 163
+      },
+      "source": "hn",
+      "publishedAt": "2026-11-03T14:53:41Z",
+      "admitReason": "notable",
+      "summaryEn": "Reports that OpenAI appears to have quietly re-enabled training on Codex coding chats. Relevant to developers who use Codex and care about code privacy.",
+      "summaryKo": "OpenAI가 Codex 코딩 대화의 학습 사용을 조용히 다시 켠 것으로 보인다는 보고. Codex 사용자와 코드 보안에 관련됩니다.",
+      "reasonEn": "531 upvotes and 163 comments within 4 days of posting",
+      "reasonKo": "게시 4일 만에 추천 531, 댓글 163개",
+      "categories": [
+        "ai-models",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
+      "firstSeenAt": "2026-11-07T22:27:25.332Z",
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
+    },
+    {
+      "id": "hn:50060694",
+      "type": "article",
+      "title": "Codex CLI installs a persistent, self-updating background daemon by default",
+      "summaryOriginal": "Codex CLI installs a persistent, self-updating background daemon by default",
+      "url": "https://github.com/openai/codex/issues/48195",
+      "tags": [],
+      "metrics": {
+        "upvotes": 610,
+        "comments": 294
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-12T18:29:04Z",
+      "admitReason": "notable",
+      "summaryEn": "Reports that Codex CLI installs a persistent, self-updating background daemon by default. Matters for anyone concerned about what developer tools run on their machine.",
+      "summaryKo": "Codex CLI가 기본 설정으로 지속적이고 자동 업데이트되는 백그라운드 데몬을 설치한다는 보고. 개발 도구의 동작을 확인하려는 사람에게 중요합니다.",
+      "reasonEn": "610 upvotes and 294 comments within 26 days",
+      "reasonKo": "26일 만에 추천 610, 댓글 294개",
+      "categories": [
+        "devtools",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
+      "firstSeenAt": "2026-11-07T22:27:25.332Z",
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
+    },
+    {
+      "id": "devto:4948394",
+      "type": "article",
+      "title": "Don't Write Markdown Files for Your Coding Agent. Write Scripts.",
+      "summaryOriginal": "If you want agents to do what you want, you need to learn how to box them into deterministic actions....",
+      "url": "https://dev.to/dannwaneri/dont-write-markdown-files-for-your-coding-agent-write-scripts-j00",
+      "tags": [
+        "ai",
+        "programming",
+        "devops",
+        "productivity"
+      ],
+      "metrics": {
+        "upvotes": 51,
+        "comments": 39
+      },
+      "source": "devto",
+      "publishedAt": "2026-11-05T11:29:41Z",
+      "admitReason": "notable",
+      "summaryEn": "Argues that coding agents work better with deterministic scripts than with Markdown instruction files.",
+      "summaryKo": "코딩 에이전트는 Markdown 지침 파일보다 결정적 스크립트를 쓸 때 더 잘 동작한다고 주장합니다.",
+      "reasonEn": "51 upvotes and 39 comments in 2 days",
+      "reasonKo": "2일 만에 추천 51, 댓글 39",
+      "categories": [
+        "ai-agents",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
+      "firstSeenAt": "2026-11-07T22:27:25.332Z",
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
+    },
+    {
+      "id": "geeknews:36774",
+      "type": "article",
+      "title": "요즘은 이런 걸 만들지 않는다: Borland Turbo Pascal 7",
+      "summaryOriginal": "Turbo Pascal 7은 Windows용 객체 지향 라이브러리, 그래픽 UI 설계 도구, 소스 수준 디버거를 하나의 IDE로 통합해 당시 복잡했던 Windows 프로그래밍의 진입 장벽을 낮춤Object Windows Library는 Windows C API를 객체 지향 방식으로 감싸 UI 모델에 맞게 개발할 수 있도록 했으며, 통합 환경은 명령줄 도구와 복잡한 정의 파일을 직접 다루는 부담을 줄임CP/M 시절의 자원 제약에 맞춰 만든 컴파일러는 어셈블리로 고도로 최적화됐으며, 중간 파일을 디스크에 쓰는 대신 메모리에서 처리해 Windows PC에서도 빠르게 작동함쇠퇴에는…",
+      "url": "https://news.hada.io/topic?id=36774",
+      "tags": [],
+      "source": "geeknews",
+      "publishedAt": "2026-11-08T05:48:20+09:00",
+      "admitReason": "notable",
+      "summaryEn": "A retrospective on Borland Turbo Pascal 7, which combined a compiler, Object Windows Library, and source debugger in one IDE to lower the barrier to Windows programming.",
+      "summaryKo": "Windows 프로그래밍 진입 장벽을 낮춘 Borland Turbo Pascal 7의 통합 IDE, 컴파일러, 디버거를 돌아본 글.",
+      "reasonEn": "Notable: became established fast; published today",
+      "reasonKo": "주목: 빠르게 자리잡음, 오늘 게시",
+      "categories": [
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
+      "firstSeenAt": "2026-11-07T22:27:25.332Z",
+      "lastSeenAt": "2026-11-07T22:27:25.332Z"
+    },
+    {
+      "id": "gh:mpv-player/mpv",
+      "type": "repo",
+      "categories": [
+        "devtools"
+      ],
+      "title": "mpv-player/mpv",
+      "summaryOriginal": "🎥 Command line media player",
+      "url": "https://github.com/mpv-player/mpv",
+      "lang": "C",
+      "tags": [],
+      "metrics": {
+        "stars": 37870,
+        "starsDelta": 36
+      },
+      "source": "github-trending",
+      "firstSeenAt": "2026-11-06T23:36:33.344Z",
+      "lastSeenAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "admitReason": "trending",
+      "summaryEn": "mpv, a free command-line media player that plays nearly any video or audio format and is scriptable. Useful for developers who want lightweight, configurable playback.",
+      "summaryKo": "mpv는 거의 모든 미디어 형식을 재생하고 스크립트로 제어할 수 있는 무료 명령줄 미디어 플레이어입니다.",
+      "reasonEn": "37.9K stars, trending with 36 added today",
+      "reasonKo": "총 3.8만 스타, 오늘 36개 추가로 상승 중"
+    },
+    {
+      "id": "gh:nushell/nushell",
+      "type": "repo",
+      "categories": [
+        "devtools"
+      ],
+      "title": "nushell/nushell",
+      "summaryOriginal": "A new type of shell",
+      "url": "https://github.com/nushell/nushell",
+      "lang": "Rust",
+      "tags": [],
+      "metrics": {
+        "stars": 40976,
+        "starsDelta": 177
+      },
+      "source": "github-trending",
+      "firstSeenAt": "2026-11-06T23:36:33.344Z",
+      "lastSeenAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "admitReason": "trending",
+      "summaryEn": "Nushell, a shell that treats command output as structured data tables rather than plain text.",
+      "summaryKo": "명령 출력을 평문 대신 구조화된 데이터 테이블로 다루는 셸 Nushell.",
+      "reasonEn": "41K stars, up 177 today",
+      "reasonKo": "별 4만 1천, 오늘 +177"
     },
     {
       "id": "gh:MeteorNOX/DeepSeek-Balance-Whale-Widget",
       "type": "repo",
+      "categories": [
+        "devtools"
+      ],
       "title": "MeteorNOX/DeepSeek-Balance-Whale-Widget",
       "summaryOriginal": "DeepSeek Harness（DSH）一只住在 DSH 界面右下角的小鲸鱼娘，帮你盯着DeepSeek账户余额。QQ弹弹，支持拖拽吸附、左吸附翻转、数字滚动动画，随界面自动启用，建议直接喊来你的dsh安装",
       "url": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget",
@@ -1396,23 +1807,23 @@
         "stars": 6952
       },
       "source": "github-search",
-      "admitReason": "notable",
       "publishedAt": "2026-08-18T03:13:51Z",
       "updatedAt": "2026-10-11T12:25:55Z",
+      "firstSeenAt": "2026-09-07T05:17:00.892Z",
+      "lastSeenAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "admitReason": "notable",
       "summaryEn": "Floating desktop widget designed for DeepSeek Harness to monitor account balances with animations.",
       "summaryKo": "애니메이션과 함께 계정 잔액을 모니터링하기 위해 DeepSeek Harness용으로 설계된 플로팅 데스크톱 위젯입니다.",
       "reasonEn": "1.8K stars within 20 days",
-      "reasonKo": "20일 만에 1.8천 개 이상의 스타 획득",
-      "categories": [
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
-      "firstSeenAt": "2026-09-07T05:17:00.892Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "reasonKo": "20일 만에 1.8천 개 이상의 스타 획득"
     },
     {
       "id": "gh:soumatheusgomes/vibe-coding-toolkit",
       "type": "repo",
+      "categories": [
+        "devtools"
+      ],
       "title": "soumatheusgomes/vibe-coding-toolkit",
       "summaryOriginal": "A curated, battle-tested AI-coding toolkit: Claude Code plugins, subagent orchestration, quality gates, and ready-to-copy prompts, extracted from real production use.",
       "url": "https://github.com/soumatheusgomes/vibe-coding-toolkit",
@@ -1429,21 +1840,21 @@
         "stars": 2296
       },
       "source": "github-search",
-      "admitReason": "notable",
       "publishedAt": "2026-08-14T23:41:31Z",
       "updatedAt": "2026-10-30T00:45:50Z",
-      "summaryEn": "Production-tested AI coding toolkit with Claude Code plugins, agent orchestration, quality gates, and reusable prompts.",
-      "summaryKo": "프로덕션 검증된 AI 코딩 도구, Claude Code 플러그인과 프롬프트 제공.",
-      "categories": [
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "lastSeenAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "admitReason": "notable",
+      "summaryEn": "Production-tested AI coding toolkit with Claude Code plugins, agent orchestration, quality gates, and reusable prompts.",
+      "summaryKo": "프로덕션 검증된 AI 코딩 도구, Claude Code 플러그인과 프롬프트 제공."
     },
     {
       "id": "gh:sheprd-labs/sheprd",
       "type": "repo",
+      "categories": [
+        "devtools"
+      ],
       "title": "sheprd-labs/sheprd",
       "summaryOriginal": "Native client for Herdr on macOS, Linux, and Windows, built with Rust and GPUI. View terminal sessions, workspaces, Git worktrees, and agent activity through your local Herdr daemon.",
       "url": "https://github.com/sheprd-labs/sheprd",
@@ -1463,275 +1874,16 @@
         "stars": 2197
       },
       "source": "github-search",
-      "admitReason": "notable",
       "publishedAt": "2026-09-20T05:22:39Z",
       "updatedAt": "2026-11-06T21:15:53Z",
+      "firstSeenAt": "2026-11-06T23:36:33.344Z",
+      "lastSeenAt": "2026-11-06T23:36:33.344Z",
+      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
+      "admitReason": "notable",
       "summaryEn": "Native desktop client for Herdr on macOS, Linux, and Windows, showing terminal sessions, workspaces, worktrees, and agent activity.",
       "summaryKo": "macOS·Linux·Windows용 Herdr 네이티브 클라이언트. 터미널 세션, 워크트리, 에이전트 활동을 표시.",
       "reasonEn": "2.2K stars, established within 47 days",
-      "reasonKo": "별 2,197개, 47일 만에 자리잡음",
-      "categories": [
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
-      "firstSeenAt": "2026-11-06T23:36:33.344Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
-    },
-    {
-      "id": "hn:50385272",
-      "type": "article",
-      "title": "Claude Code sends your email address to websites",
-      "summaryOriginal": "Claude Code sends your email address to websites",
-      "url": "https://github.com/anthropics/claude-code/issues/107757",
-      "tags": [],
-      "metrics": {
-        "upvotes": 1545,
-        "comments": 488
-      },
-      "source": "hn",
-      "publishedAt": "2026-11-05T22:17:15Z",
-      "admitReason": "notable",
-      "summaryEn": "Reports that Claude Code shares the user's email address with websites it interacts with. A privacy concern in a widely used developer agent tool.",
-      "summaryKo": "Claude Code가 상호작용하는 웹사이트에 사용자의 이메일 주소를 전송한다는 보고로, 개발 에이전트 도구의 개인정보 문제입니다.",
-      "reasonEn": "1.5K upvotes and 488 comments within a day of posting",
-      "reasonKo": "게시 하루 만에 추천 1.5K, 댓글 488",
-      "categories": [
-        "devtools",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
-      "firstSeenAt": "2026-11-06T23:36:33.344Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
-    },
-    {
-      "id": "hn:50300683",
-      "type": "article",
-      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-      "summaryOriginal": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 1011,
-        "comments": 553
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-30T07:09:12Z",
-      "admitReason": "notable",
-      "summaryEn": "Report of a backdoor in a Claude Code VS Code extension distributed through the Cursor Marketplace. A supply-chain security issue affecting editor extensions.",
-      "summaryKo": "Cursor 마켓플레이스에 배포된 Claude Code VS Code 확장에서 백도어가 발견되었다는 보고로, 확장 공급망 보안 문제입니다.",
-      "reasonEn": "1K upvotes and 553 comments within a week; security issue",
-      "reasonKo": "일주일 만에 추천 1K, 댓글 553; 보안 이슈",
-      "categories": [
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
-      "firstSeenAt": "2026-10-30T22:44:49.535Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
-    },
-    {
-      "id": "hn:50302334",
-      "type": "article",
-      "title": "Backdoors in official Claude Code extensions",
-      "summaryOriginal": "Backdoors in official Claude Code extensions",
-      "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
-      "tags": [],
-      "metrics": {
-        "upvotes": 662,
-        "comments": 17
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-30T11:05:53Z",
-      "admitReason": "notable",
-      "summaryEn": "Report of backdoors found in official Claude Code extensions. A security finding in widely installed developer tooling.",
-      "summaryKo": "공식 Claude Code 확장에서 백도어가 발견되었다는 보고로, 널리 설치되는 개발 도구의 보안 문제입니다.",
-      "reasonEn": "662 upvotes within a week; security finding in dev tools",
-      "reasonKo": "일주일 만에 추천 662; 개발 도구 보안 문제",
-      "categories": [
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
-      "firstSeenAt": "2026-10-30T22:44:49.535Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
-    },
-    {
-      "id": "hn:50284255",
-      "type": "article",
-      "title": "Claude Code regularly sends each background agent’s transcript to its model",
-      "summaryOriginal": "Claude Code regularly sends each background agent’s transcript to its model",
-      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-      "tags": [],
-      "metrics": {
-        "upvotes": 591,
-        "comments": 236
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-29T03:33:42Z",
-      "admitReason": "notable",
-      "summaryEn": "Report that Claude Code regularly sends each background agent's full transcript to the model. A data-handling behavior developers should know about.",
-      "summaryKo": "Claude Code가 백그라운드 에이전트의 대화 기록 전체를 주기적으로 모델에 전송한다는 보고로, 개발자가 알아야 할 데이터 처리 동작입니다.",
-      "reasonEn": "591 upvotes and 236 comments within 8 days",
-      "reasonKo": "게시 8일 만에 추천 591, 댓글 236",
-      "categories": [
-        "ai-agents",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
-      "firstSeenAt": "2026-11-02T09:23:53.161Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
-    },
-    {
-      "id": "hn:50366117",
-      "type": "article",
-      "title": "Ask HN: What's your current AI agentic setup?",
-      "summaryOriginal": "Ask HN: What's your current AI agentic setup?",
-      "url": "https://news.ycombinator.com/item?id=50366117",
-      "tags": [],
-      "metrics": {
-        "upvotes": 540,
-        "comments": 675
-      },
-      "source": "hn",
-      "publishedAt": "2026-11-04T14:37:22Z",
-      "admitReason": "notable",
-      "summaryEn": "Community thread asking developers which AI agent tools and workflows they currently use. Practical for comparing real-world agentic setups.",
-      "summaryKo": "개발자들이 현재 사용하는 AI 에이전트 도구와 워크플로를 묻는 커뮤니티 토론입니다.",
-      "reasonEn": "540 upvotes and 675 comments within 2 days",
-      "reasonKo": "2일 만에 추천 540, 댓글 675",
-      "categories": [
-        "ai-agents",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
-      "firstSeenAt": "2026-11-06T23:36:33.344Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
-    },
-    {
-      "id": "hn:50354960",
-      "type": "article",
-      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
-      "summaryOriginal": "Postman silently auto-installs AI plugins and attempts to share all API data",
-      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
-      "tags": [],
-      "metrics": {
-        "upvotes": 1521,
-        "comments": 494
-      },
-      "source": "hn",
-      "publishedAt": "2026-11-03T17:22:37Z",
-      "admitReason": "notable",
-      "summaryEn": "Postman reportedly installs AI plugins without consent and tries to send all API data to external parties. A security and privacy concern for API developers.",
-      "summaryKo": "포스트맨이 동의 없이 AI 플러그인을 설치하고 모든 API 데이터를 외부로 보내려 한다는 보고입니다.",
-      "reasonEn": "1.5K upvotes and 494 comments within 3 days",
-      "reasonKo": "3일 만에 추천 1.5K, 댓글 494",
-      "categories": [
-        "devtools",
-        "backend"
-      ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
-      "firstSeenAt": "2026-11-03T23:50:20.273Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
-    },
-    {
-      "id": "hn:50133401",
-      "type": "article",
-      "title": "OpenCode Hacked: User credentials leaked",
-      "summaryOriginal": "OpenCode Hacked: User credentials leaked",
-      "url": "https://twitter.com/opencode/status/2111516673953935833",
-      "tags": [],
-      "metrics": {
-        "upvotes": 977,
-        "comments": 185
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-17T18:01:41Z",
-      "admitReason": "notable",
-      "summaryEn": "Report that the OpenCode project was hacked and user credentials were leaked. Directly relevant to developers using this coding tool.",
-      "summaryKo": "오픈코드 프로젝트가 해킹되어 사용자 자격 증명이 유출되었다는 보고입니다.",
-      "reasonEn": "977 upvotes and 185 comments; notable at 20 days",
-      "reasonKo": "20일 만에 추천 977, 댓글 185",
-      "categories": [
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
-      "firstSeenAt": "2026-11-06T23:36:33.344Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
-    },
-    {
-      "id": "hn:50069499",
-      "type": "article",
-      "title": "11 year old unsoundness bugs found in Rust borrow checker",
-      "summaryOriginal": "11 year old unsoundness bugs found in Rust borrow checker",
-      "url": "https://github.com/rust-lang/rust/issues/164250",
-      "tags": [],
-      "metrics": {
-        "upvotes": 751,
-        "comments": 446
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-13T10:27:00Z",
-      "admitReason": "notable",
-      "summaryEn": "Reports 11-year-old soundness bugs in Rust's borrow checker, which could let unsafe code pass compile-time checks.",
-      "summaryKo": "Rust 빌림 검사기에서 11년 된 건전성(soundness) 버그가 발견됨. 안전하지 않은 코드가 컴파일 검사를 통과할 수 있음.",
-      "reasonEn": "751 upvotes and 446 comments; notable, 24 days old",
-      "reasonKo": "추천 751, 댓글 446; 24일 전 게시",
-      "categories": [
-        "devtools",
-        "engineering"
-      ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
-      "firstSeenAt": "2026-11-06T23:36:33.344Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
-    },
-    {
-      "id": "hn:50202681",
-      "type": "article",
-      "title": "Docker is weird",
-      "summaryOriginal": "Docker is weird",
-      "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
-      "tags": [],
-      "metrics": {
-        "upvotes": 887,
-        "comments": 370
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-22T23:45:56Z",
-      "admitReason": "notable",
-      "summaryEn": "Opinion piece on Docker's surprising behaviors and design quirks that trip up users.",
-      "summaryKo": "Docker의 예상과 다른 동작과 설계상 특이점을 다룬 글.",
-      "reasonEn": "887 upvotes, 370 comments; notable, 14 days old",
-      "reasonKo": "추천 887, 댓글 370; 14일 전 게시",
-      "categories": [
-        "infra",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
-      "firstSeenAt": "2026-11-06T23:36:33.344Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
-    },
-    {
-      "id": "hn:50073633",
-      "type": "article",
-      "title": "Redesigning source control at Anthropic",
-      "summaryOriginal": "Redesigning source control at Anthropic",
-      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
-      "tags": [],
-      "metrics": {
-        "upvotes": 900,
-        "comments": 1014
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-13T15:49:56Z",
-      "admitReason": "notable",
-      "summaryEn": "Anthropic's engineering write-up on redesigning how its teams handle source control, with notes on the tradeoffs behind the new approach.",
-      "summaryKo": "Anthropic이 소스 컨트롤 방식을 재설계한 과정을 다룬 엔지니어링 글입니다.",
-      "reasonEn": "900 upvotes and 1014 comments within 24 days",
-      "reasonKo": "게시 24일 만에 추천 900, 댓글 1014개",
-      "categories": [
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
-      "firstSeenAt": "2026-10-23T21:47:37.203Z",
-      "lastSeenAt": "2026-11-06T23:36:33.344Z"
+      "reasonKo": "별 2,197개, 47일 만에 자리잡음"
     },
     {
       "id": "gh:garrytan/gstack",
@@ -1836,33 +1988,6 @@
       "summaryKo": "병렬 AI 에이전트 워크플로우를 위해 설계된 Git 워크트리 관리 CLI 도구입니다.",
       "reasonEn": "7.1K stars with 137 added today",
       "reasonKo": "오늘 137개 증가, 총 7,100+ 스타"
-    },
-    {
-      "id": "gh:vercel-labs/agent-browser",
-      "type": "repo",
-      "categories": [
-        "ai-agents",
-        "web",
-        "devtools"
-      ],
-      "title": "vercel-labs/agent-browser",
-      "summaryOriginal": "Browser automation CLI for AI agents",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "lang": "Rust",
-      "tags": [],
-      "metrics": {
-        "stars": 45859,
-        "starsDelta": 181
-      },
-      "source": "github-trending",
-      "firstSeenAt": "2026-11-05T23:55:17.241Z",
-      "lastSeenAt": "2026-11-05T23:55:17.241Z",
-      "metricsRefreshedAt": "2026-11-05T23:55:17.241Z",
-      "admitReason": "trending",
-      "summaryEn": "Command-line browser automation tool built for AI agents to drive web pages from the terminal.",
-      "summaryKo": "AI 에이전트가 터미널에서 웹 페이지를 조작할 수 있게 만든 브라우저 자동화 CLI입니다.",
-      "reasonEn": "45.9K stars, up 181 today",
-      "reasonKo": "스타 45.9K, 오늘 +181"
     },
     {
       "id": "gh:Balanov/uncut",
@@ -2374,18 +2499,18 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 4560,
-        "starsDelta": 410
+        "stars": 5678
       },
       "source": "github-trending",
       "firstSeenAt": "2026-11-03T23:50:20.273Z",
       "lastSeenAt": "2026-11-03T23:50:20.273Z",
-      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "trending",
       "summaryEn": "Open-source local voice dictation app for mac, Windows, and Linux. Transcribes speech on your own machine instead of sending audio to a cloud service.",
       "summaryKo": "mac, Windows, Linux용 오픈소스 로컬 음성 받아쓰기 앱. 음성을 클라우드로 보내지 않고 내 기기에서 처리합니다.",
       "reasonEn": "4.6K stars, up 410 today — a trending repo",
-      "reasonKo": "스타 4.6K, 오늘 410 증가 — 트렌딩 저장소"
+      "reasonKo": "스타 4.6K, 오늘 410 증가 — 트렌딩 저장소",
+      "updatedAt": "2026-11-07T22:23:28Z"
     },
     {
       "id": "gh:Anubis-Security-Tool/anubis",
@@ -2420,7 +2545,7 @@
       "updatedAt": "2026-11-02T14:29:24Z",
       "firstSeenAt": "2026-11-03T23:50:20.273Z",
       "lastSeenAt": "2026-11-03T23:50:20.273Z",
-      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Open-source security terminal and vulnerability scanner with SSH, RDP and VNC support, CVE/SBOM scanning and AI agents; claims are broad and unverified.",
       "summaryKo": "SSH, RDP 등을 지원하는 오픈소스 보안 터미널 및 CVE/SBOM 취약점 스캐너. 설명이 광범위함.",
@@ -2450,14 +2575,14 @@
         "webassembly"
       ],
       "metrics": {
-        "stars": 431
+        "stars": 508
       },
       "source": "github-search",
       "publishedAt": "2026-10-25T05:09:24Z",
-      "updatedAt": "2026-11-03T10:13:04Z",
+      "updatedAt": "2026-11-04T05:09:50Z",
       "firstSeenAt": "2026-10-28T22:55:38.716Z",
       "lastSeenAt": "2026-11-03T23:50:20.273Z",
-      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Pngdeer is a Rust-based CLI and browser tool for lossy PNG compression that outperforms TinyPNG.",
       "summaryKo": "러스트 기반의 고효율 손실 PNG 압축 도구입니다.",
@@ -2495,7 +2620,7 @@
       "updatedAt": "2026-11-03T11:00:25Z",
       "firstSeenAt": "2026-11-03T23:50:20.273Z",
       "lastSeenAt": "2026-11-03T23:50:20.273Z",
-      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Repo offering a pre-activated Microsoft Office 2026 installer; pre-activated software is typically cracked and may carry malware. Not a legitimate product.",
       "summaryKo": "사전 활성화된 Office 2026 설치본을 제공하는 저장소. 정품이 아니며 악성코드 위험이 있음.",
@@ -2533,7 +2658,7 @@
       "updatedAt": "2026-11-03T11:00:22Z",
       "firstSeenAt": "2026-11-03T23:50:20.273Z",
       "lastSeenAt": "2026-11-03T23:50:20.273Z",
-      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Repo offering a Microsoft 365 installer with activation included; unlicensed activation tools like this are commonly malware. Not an official release.",
       "summaryKo": "활성화가 포함된 Microsoft 365 설치 프로그램을 제공하는 저장소. 공식 배포가 아니며 위험할 수 있음.",
@@ -2571,7 +2696,7 @@
       "updatedAt": "2026-11-03T10:59:20Z",
       "firstSeenAt": "2026-11-03T23:50:20.273Z",
       "lastSeenAt": "2026-11-03T23:50:20.273Z",
-      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Repo offering a full FL Studio 2026 installer for audio production; paid software distributed this way is typically unlicensed and risky.",
       "summaryKo": "FL Studio 2026 전체 설치 파일을 제공하는 저장소. 무단 배포 소프트웨어로 위험할 수 있음.",
@@ -2609,7 +2734,7 @@
       "updatedAt": "2026-11-03T11:00:23Z",
       "firstSeenAt": "2026-11-03T23:50:20.273Z",
       "lastSeenAt": "2026-11-03T23:50:20.273Z",
-      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Repo offering a Microsoft Visio 2026 installer with features activated; unofficial pre-activated copies are typically unlicensed and may contain malware.",
       "summaryKo": "기능이 활성화된 Visio 2026 설치 파일을 제공하는 저장소. 비공식 복사본이며 악성코드 위험 있음.",
@@ -2647,7 +2772,7 @@
       "updatedAt": "2026-11-03T10:59:49Z",
       "firstSeenAt": "2026-11-03T23:50:20.273Z",
       "lastSeenAt": "2026-11-03T23:50:20.273Z",
-      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Repo offering a hardware ID spoofer with driver-signing bypass; such tools are often used to evade bans and may be malware.",
       "summaryKo": "하드웨어 ID 위조 및 드라이버 서명 우회 도구를 제공하는 저장소. 악성코드일 수 있음.",
@@ -2685,7 +2810,7 @@
       "updatedAt": "2026-11-03T11:00:53Z",
       "firstSeenAt": "2026-11-03T23:50:20.273Z",
       "lastSeenAt": "2026-11-03T23:50:20.273Z",
-      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Repo offering a standalone Reason 14 music software installer; unofficial distribution of commercial audio software, not a developer tool.",
       "summaryKo": "Reason 14 독립 설치 파일을 제공하는 저장소. 상용 오디오 소프트웨어의 비공식 배포.",
@@ -2723,7 +2848,7 @@
       "updatedAt": "2026-11-02T10:11:57Z",
       "firstSeenAt": "2026-11-03T10:58:48.324Z",
       "lastSeenAt": "2026-11-03T23:50:20.273Z",
-      "metricsRefreshedAt": "2026-11-03T23:50:20.273Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Desktop tool repo for copying Discord servers, distributed as a full installer. Cloning servers you do not own may violate Discord terms.",
       "summaryKo": "Discord 서버를 복제하는 데스크톱 도구 저장소이며 설치 파일로 배포됩니다. 타인의 서버 복제는 약관 위반 소지가 있습니다.",
@@ -2761,7 +2886,7 @@
       "updatedAt": "2026-11-02T10:10:18Z",
       "firstSeenAt": "2026-11-03T10:58:48.324Z",
       "lastSeenAt": "2026-11-03T10:58:48.324Z",
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Repo offering a Substance 3D installer that claims no activation is needed; likely pirated software and a malware risk.",
       "summaryKo": "활성화 없이 실행된다고 주장하는 Substance 3D 설치 파일 저장소입니다. 불법 복제 소프트웨어로 보이며 악성코드 위험이 있습니다.",
@@ -2799,7 +2924,7 @@
       "updatedAt": "2026-11-02T10:13:40Z",
       "firstSeenAt": "2026-11-03T10:58:48.324Z",
       "lastSeenAt": "2026-11-03T10:58:48.324Z",
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Repo offering a MetaTrader 5 bot installer with all features pre-activated; likely cracked software and a malware risk.",
       "summaryKo": "모든 기능이 활성화된 MetaTrader 5 봇 설치 파일 저장소입니다. 크랙 소프트웨어로 보이며 악성코드 위험이 있습니다.",
@@ -2837,7 +2962,7 @@
       "updatedAt": "2026-11-02T10:13:44Z",
       "firstSeenAt": "2026-11-03T10:58:48.324Z",
       "lastSeenAt": "2026-11-03T10:58:48.324Z",
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Repo offering a pre-activated Microsoft Project installer; likely pirated software and a malware risk.",
       "summaryKo": "사전 활성화된 Microsoft Project 설치 파일 저장소입니다. 불법 복제 소프트웨어로 보이며 악성코드 위험이 있습니다.",
@@ -2875,7 +3000,7 @@
       "updatedAt": "2026-11-02T10:14:11Z",
       "firstSeenAt": "2026-11-03T10:58:48.324Z",
       "lastSeenAt": "2026-11-03T10:58:48.324Z",
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Repo offering a pre-activated NinjaTrader bot installer; likely cracked software and a malware risk.",
       "summaryKo": "사전 활성화된 NinjaTrader 봇 설치 파일 저장소입니다. 크랙 소프트웨어로 보이며 악성코드 위험이 있습니다.",
@@ -2901,14 +3026,14 @@
         "mobile-development"
       ],
       "metrics": {
-        "stars": 4127
+        "stars": 4633
       },
       "source": "github-search",
       "publishedAt": "2026-08-07T22:28:53Z",
-      "updatedAt": "2026-11-02T09:16:13Z",
+      "updatedAt": "2026-11-03T19:51:53Z",
       "firstSeenAt": "2026-11-02T09:19:52.923Z",
       "lastSeenAt": "2026-11-03T10:58:48.324Z",
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "Tool that lets an AI agent control your phone through automation, aimed at mobile developers.",
       "summaryKo": "AI 에이전트가 자동화를 통해 휴대폰을 제어하도록 하는 도구, 모바일 개발자 대상.",
@@ -2937,14 +3062,14 @@
         "terminal"
       ],
       "metrics": {
-        "stars": 2121
+        "stars": 2210
       },
       "source": "github-search",
       "publishedAt": "2026-09-20T05:22:39Z",
-      "updatedAt": "2026-11-03T10:01:14Z",
+      "updatedAt": "2026-11-07T22:29:19Z",
       "firstSeenAt": "2026-09-29T22:47:33.822Z",
       "lastSeenAt": "2026-11-03T10:58:48.324Z",
-      "metricsRefreshedAt": "2026-11-03T10:58:48.324Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "A native macOS desktop client built with Rust and GPUI to monitor terminal sessions, workspaces, and Git worktrees.",
       "summaryKo": "터미널 세션, 워크스페이스 및 Git 워크트리를 모니터링하기 위해 Rust와 GPUI로 구축된 네이티브 macOS 클라이언트입니다.",
@@ -2963,18 +3088,18 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 41996,
-        "starsDelta": 3229
+        "stars": 51158
       },
       "source": "github-trending",
       "firstSeenAt": "2026-10-03T21:56:27.615Z",
       "lastSeenAt": "2026-11-03T01:25:46.164Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "trending",
       "summaryEn": "An open source project from pingdotgg exploring modern code editing experiences.",
       "summaryKo": "pingdotgg의 최신 코드 편집 경험을 탐구하는 오픈 소스 프로젝트입니다.",
       "reasonEn": "Gained 251 stars today with 24.6K total stars",
-      "reasonKo": "오늘 251개 스타 획득, 총 2.4만 개"
+      "reasonKo": "오늘 251개 스타 획득, 총 2.4만 개",
+      "updatedAt": "2026-11-07T22:27:22Z"
     },
     {
       "id": "gh:Bridgeyaprovide/roblox-game-copier",
@@ -3007,7 +3132,7 @@
       "updatedAt": "2026-11-02T10:14:39Z",
       "firstSeenAt": "2026-11-03T01:25:46.164Z",
       "lastSeenAt": "2026-11-03T01:25:46.164Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Python repo for copying Roblox games, distributed as a pre-activated installer; description is generic promotional text.",
       "summaryKo": "Roblox 게임 복제용 Python 저장소로, 사전 활성화된 설치본으로 배포되며 설명은 일반적인 홍보 문구.",
@@ -3045,7 +3170,7 @@
       "updatedAt": "2026-11-02T10:15:29Z",
       "firstSeenAt": "2026-11-03T01:25:46.164Z",
       "lastSeenAt": "2026-11-03T01:25:46.164Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Python repo offering a Total Commander installer with plugins; provenance and licensing of the bundle are unverified.",
       "summaryKo": "플러그인 포함 Total Commander 설치본을 제공하는 Python 저장소로, 출처와 라이선스가 확인되지 않음.",
@@ -3083,7 +3208,7 @@
       "updatedAt": "2026-11-02T10:11:54Z",
       "firstSeenAt": "2026-11-03T01:25:46.164Z",
       "lastSeenAt": "2026-11-03T01:25:46.164Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Repo promoting a standalone tool that automatically completes Discord quests, which is automation against platform rewards.",
       "summaryKo": "Discord 퀘스트를 자동으로 완료하는 독립 실행형 도구를 홍보하는 저장소로, 플랫폼 보상을 자동화함.",
@@ -3121,7 +3246,7 @@
       "updatedAt": "2026-11-02T10:15:24Z",
       "firstSeenAt": "2026-11-03T01:25:46.164Z",
       "lastSeenAt": "2026-11-03T01:25:46.164Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Python repo for a Windows start-menu configuration installer; the description is generic and unverified.",
       "summaryKo": "Windows 시작 메뉴 설정 설치본용 Python 저장소이며 설명이 일반적이고 검증되지 않음.",
@@ -3159,7 +3284,7 @@
       "updatedAt": "2026-11-02T10:15:53Z",
       "firstSeenAt": "2026-11-03T01:25:46.164Z",
       "lastSeenAt": "2026-11-03T01:25:46.164Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Repo for a Windows tweak installer claiming frame-rate gains; the description has no verifiable technical detail.",
       "summaryKo": "프레임률 향상을 주장하는 Windows 최적화 설치본 저장소이며 검증 가능한 기술 설명이 없음.",
@@ -3197,7 +3322,7 @@
       "updatedAt": "2026-11-02T10:10:18Z",
       "firstSeenAt": "2026-11-03T01:25:46.164Z",
       "lastSeenAt": "2026-11-03T01:25:46.164Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Repo offering a packaged ad-blocker installer with filter-list tags; the description has no verifiable technical detail.",
       "summaryKo": "필터 목록 태그가 붙은 광고 차단 설치본을 제공하는 저장소이며 기술적 설명이 없음.",
@@ -3235,7 +3360,7 @@
       "updatedAt": "2026-11-02T10:10:25Z",
       "firstSeenAt": "2026-11-03T01:25:46.164Z",
       "lastSeenAt": "2026-11-03T01:25:46.164Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Repo for a device-unlock utility with tags referencing Apple ID removal and iOS bypass; description is generic.",
       "summaryKo": "Apple ID 제거와 iOS 우회를 암시하는 태그가 붙은 기기 잠금 해제 도구 저장소이며 설명이 일반적임.",
@@ -3273,7 +3398,7 @@
       "updatedAt": "2026-11-02T10:12:47Z",
       "firstSeenAt": "2026-11-03T01:25:46.164Z",
       "lastSeenAt": "2026-11-03T01:25:46.164Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Repo for a CPU and GPU cryptocurrency miner packaged as a desktop installer; the description is generic.",
       "summaryKo": "CPU와 GPU 채굴용 암호화폐 마이너를 데스크톱 설치본으로 묶은 저장소이며 설명이 일반적임.",
@@ -3311,7 +3436,7 @@
       "updatedAt": "2026-11-02T10:15:40Z",
       "firstSeenAt": "2026-11-03T01:25:46.164Z",
       "lastSeenAt": "2026-11-03T01:25:46.164Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Repo for an Android repair and unlock tool packaged as an installer; the description is generic and dated 2023.",
       "summaryKo": "Android 수리 및 잠금 해제 도구를 설치본으로 묶은 저장소이며 설명이 일반적이고 2023년 표기가 있음.",
@@ -3334,6 +3459,7 @@
         "stars": 37818
       },
       "source": "github-trending",
+      "updatedAt": "2026-11-02T23:56:50Z",
       "firstSeenAt": "2026-11-01T22:33:06.545Z",
       "lastSeenAt": "2026-11-02T09:23:53.161Z",
       "metricsRefreshedAt": "2026-11-06T23:36:33.344Z",
@@ -3341,8 +3467,7 @@
       "summaryEn": "A free, open source, and extensible speech-to-text application that works completely offline.",
       "summaryKo": "완전히 오프라인으로 작동하는 무료 오픈소스 확장형 음성 인식 애플리케이션입니다.",
       "reasonEn": "Trending with 383 stars today, reaching 36K total stars.",
-      "reasonKo": "오늘 383개의 별을 얻으며 총 3만 6천 개의 별을 기록 중입니다.",
-      "updatedAt": "2026-11-02T23:56:50Z"
+      "reasonKo": "오늘 383개의 별을 얻으며 총 3만 6천 개의 별을 기록 중입니다."
     },
     {
       "id": "gh:indexable-inc/blaze",
@@ -4237,13 +4362,13 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 86420
+        "stars": 86605
       },
       "source": "github-trending",
       "updatedAt": "2025-12-27T14:22:30Z",
       "firstSeenAt": "2026-10-31T22:07:10.334Z",
       "lastSeenAt": "2026-10-31T22:07:10.334Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "trending",
       "summaryEn": "Comprehensive collection of DevOps interview questions and exercises covering Linux, Kubernetes, Terraform, and more.",
       "summaryKo": "DevOps 면접 질문과 실습 문제를 모아놓은 종합 가이드입니다.",
@@ -4269,14 +4394,14 @@
         "mobile-development"
       ],
       "metrics": {
-        "stars": 4092
+        "stars": 4633
       },
       "source": "github-search",
       "publishedAt": "2026-08-07T22:28:53Z",
-      "updatedAt": "2026-11-02T09:16:13Z",
+      "updatedAt": "2026-11-03T19:51:53Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-10-31T22:07:10.334Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "Automation framework allowing AI agents to directly control and interact with mobile phones.",
       "summaryKo": "AI 에이전트가 휴대폰을 직접 제어하고 상호작용할 수 있게 해주는 자동화 프레임워크입니다.",
@@ -4308,14 +4433,14 @@
         "mcp-server"
       ],
       "metrics": {
-        "stars": 1416
+        "stars": 1439
       },
       "source": "github-search",
       "publishedAt": "2026-08-04T07:53:15Z",
-      "updatedAt": "2026-11-02T23:56:15Z",
+      "updatedAt": "2026-11-07T17:21:05Z",
       "firstSeenAt": "2026-10-03T21:56:27.615Z",
       "lastSeenAt": "2026-10-31T22:07:10.334Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "Unified command center harness designed to manage coding agents across multiple machines.",
       "summaryKo": "다양한 머신에서 코딩 에이전트를 관리하기 위한 통합 커맨드 센터 하네스.",
@@ -4432,14 +4557,14 @@
         "microsoft-office-alternative"
       ],
       "metrics": {
-        "stars": 11578
+        "stars": 11902
       },
       "source": "github-search",
       "publishedAt": "2026-07-31T09:40:58Z",
-      "updatedAt": "2026-11-02T16:46:56Z",
+      "updatedAt": "2026-11-06T12:26:32Z",
       "firstSeenAt": "2026-09-14T22:13:48.779Z",
       "lastSeenAt": "2026-10-28T22:55:38.716Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "An open-source AI office suite and CLI allowing local AI agents to read and write real docx, xlsx, and pptx files.",
       "summaryKo": "로컬 AI 에이전트가 문서 파일을 직접 편집할 수 있는 오픈소스 AI 오피스 스위트입니다.",
@@ -4603,13 +4728,13 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 99093
+        "stars": 103804
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-02T20:48:18Z",
+      "updatedAt": "2026-11-07T21:02:43Z",
       "firstSeenAt": "2026-09-02T22:54:08.675Z",
       "lastSeenAt": "2026-10-25T21:19:57.618Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "trending",
       "summaryEn": "An open-source, fully-local ElevenLabs alternative for voice cloning, dubbing, and transcription in 646 languages.",
       "summaryKo": "646개 언어의 음성 복제, 더빙, 전사를 지원하는 완전 로컬 오픈소스 ElevenLabs 대안입니다.",
@@ -4821,13 +4946,13 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 141213
+        "stars": 143965
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-02T19:38:53Z",
+      "updatedAt": "2026-11-06T17:11:19Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-10-22T22:01:31.062Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "trending",
       "summaryEn": "Convert codebases into queryable knowledge graphs using AST parsing; integrates with Claude Code and Cursor for code analysis.",
       "summaryKo": "코드베이스를 쿼리 가능한 그래프로 변환, Claude Code와 Cursor 통합."
@@ -4844,13 +4969,13 @@
       "lang": "Visual Basic .NET",
       "tags": [],
       "metrics": {
-        "stars": 9540
+        "stars": 9608
       },
       "source": "github-trending",
       "updatedAt": "2026-10-24T16:45:48Z",
       "firstSeenAt": "2026-10-22T22:01:31.062Z",
       "lastSeenAt": "2026-10-22T22:01:31.062Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "trending",
       "summaryEn": "Plain Craft Launcher (PCL) is a popular open-source Minecraft launcher with custom installation and management tools.",
       "summaryKo": "커스텀 설치 및 관리 기능을 제공하는 인기 있는 오픈소스 마인크래프트 런처입니다.",
@@ -4879,14 +5004,14 @@
         "websites"
       ],
       "metrics": {
-        "stars": 445
+        "stars": 453
       },
       "source": "github-search",
       "publishedAt": "2026-10-09T16:57:27Z",
       "updatedAt": "2026-10-30T02:35:43Z",
       "firstSeenAt": "2026-10-20T22:00:02.979Z",
       "lastSeenAt": "2026-10-22T22:01:31.062Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Turns website tasks into verified CLI and MCP actions supporting 20 languages with a local dashboard.",
       "summaryKo": "웹사이트 작업을 20개 언어를 지원하는 검증된 CLI 및 MCP 액션으로 변환합니다.",
@@ -5083,13 +5208,13 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 58138
+        "stars": 58408
       },
       "source": "github-trending",
       "updatedAt": "2026-09-22T02:01:29Z",
       "firstSeenAt": "2026-09-23T21:56:52.747Z",
       "lastSeenAt": "2026-10-19T22:44:18.534Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "trending",
       "summaryEn": "Toolkit aiming to make any software agent-native via a CLI-first hub.",
       "summaryKo": "모든 소프트웨어를 에이전트 친화적으로 만드는 CLI 허브",
@@ -5109,13 +5234,13 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 154304
+        "stars": 154909
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-03T01:25:46Z",
+      "updatedAt": "2026-11-06T17:04:01Z",
       "firstSeenAt": "2026-08-22T15:22:55.161Z",
       "lastSeenAt": "2026-10-19T22:44:18.534Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "trending",
       "summaryEn": "Agentic coding tool in your terminal that understands codebases and handles routine tasks via natural language.",
       "summaryKo": "코드베이스를 이해하고 터미널에서 자연어로 반복 작업을 처리하는 에이전틱 코딩 도구.",
@@ -5198,7 +5323,7 @@
       "updatedAt": "2026-09-14T03:26:53Z",
       "firstSeenAt": "2026-09-13T21:13:30.222Z",
       "lastSeenAt": "2026-10-19T22:44:18.534Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "An AI cognitive-enhancement skills suite based on Anthropic's J-space global workspace research.",
       "summaryKo": "Anthropic의 연구에 기반한 AI 인지 강화 스킬 수이트입니다.",
@@ -5454,13 +5579,13 @@
       "lang": "HTML",
       "tags": [],
       "metrics": {
-        "stars": 64359
+        "stars": 65669
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-01T09:13:30Z",
+      "updatedAt": "2026-11-06T15:20:25Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-10-13T23:10:18.192Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "trending",
       "summaryEn": "Collection of 29 editorial diagram types for Claude Code as self-contained HTML/SVG without bloated styling.",
       "summaryKo": "Claude Code용 29개 에디토리얼 다이어그램 타입으로 자체 포함 HTML/SVG."
@@ -5492,14 +5617,14 @@
         "hermes-agent"
       ],
       "metrics": {
-        "stars": 2185
+        "stars": 2203
       },
       "source": "github-search",
       "publishedAt": "2026-07-16T07:57:45Z",
-      "updatedAt": "2026-11-03T01:11:05Z",
+      "updatedAt": "2026-11-07T17:58:50Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-10-13T23:10:18.192Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "Personal AI agent and local memory hub providing a shared, persistent context across multiple AI coding assistants.",
       "summaryKo": "여러 AI 코딩 어시스턴트 전반에서 공유되는 지속적인 컨텍스트를 제공하는 개인용 AI 에이전트 및 로컬 메모리 허브입니다.",
@@ -5531,14 +5656,14 @@
         "terminal"
       ],
       "metrics": {
-        "stars": 2740
+        "stars": 2785
       },
       "source": "github-search",
       "publishedAt": "2026-07-16T07:09:47Z",
-      "updatedAt": "2026-10-29T08:32:45Z",
+      "updatedAt": "2026-11-05T13:20:07Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-10-13T23:10:18.192Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "Terminal-based user interface to find, download, and stream movies and TV shows using local media players.",
       "summaryKo": "로컬 미디어 플레이어를 사용하여 영화와 TV 프로그램을 찾고, 다운로드하고, 스트리밍하는 터미널 기반 UI입니다.",
@@ -5558,13 +5683,13 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 65961
+        "stars": 67166
       },
       "source": "github-trending",
-      "updatedAt": "2026-10-31T07:53:18Z",
+      "updatedAt": "2026-11-06T19:37:16Z",
       "firstSeenAt": "2026-08-22T09:28:16.052Z",
       "lastSeenAt": "2026-10-13T01:04:05.704Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "trending",
       "summaryEn": "Tool to use Claude Code, Codex, and other AI coding assistants with free tokens directly from your terminal, IDE, or phone.",
       "summaryKo": "터미널, IDE, 스마트폰에서 무료 토큰으로 Claude Code 및 코딩 도우미를 사용할 수 있게 하는 도구입니다.",
@@ -5597,14 +5722,14 @@
         "mcp"
       ],
       "metrics": {
-        "stars": 999
+        "stars": 998
       },
       "source": "github-search",
       "publishedAt": "2026-09-11T09:40:02Z",
       "updatedAt": "2026-10-28T22:40:45Z",
       "firstSeenAt": "2026-09-23T21:56:52.747Z",
       "lastSeenAt": "2026-10-13T01:04:05.704Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "A DeepSeek coding agent harness featuring a persistent shell, subagents, auto-approval, and Chrome MCP telemetry.",
       "summaryKo": "영구셸, 서브에이전트, 자동 승인 및 Chrome MCP 텔레메트리를 갖춘 DeepSeek 코딩 에이전트 하네스입니다.",
@@ -5957,14 +6082,14 @@
         "home-automation"
       ],
       "metrics": {
-        "stars": 998
+        "stars": 1079
       },
       "source": "github-search",
       "publishedAt": "2026-09-27T21:31:26Z",
-      "updatedAt": "2026-11-02T22:22:57Z",
+      "updatedAt": "2026-11-06T19:27:56Z",
       "firstSeenAt": "2026-10-06T22:51:26.692Z",
       "lastSeenAt": "2026-10-06T22:51:26.692Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "A custom 3D floor plan dashboard card and editor for Home Assistant to visualize and control smart home devices.",
       "summaryKo": "Home Assistant에서 스마트 홈 기기를 3D로 시각화하고 제어할 수 있는 커스텀 플로어플랜 대시보드 카드입니다.",
@@ -6239,13 +6364,13 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 6493
+        "stars": 6972
       },
       "source": "github-trending",
       "updatedAt": "2026-07-17T06:40:05Z",
       "firstSeenAt": "2026-10-01T22:57:43.726Z",
       "lastSeenAt": "2026-10-02T22:44:36.772Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "trending",
       "summaryEn": "A command-line tool that lets developers download any video directly from their terminal without ads.",
       "summaryKo": "광고 없이 터미널에서 직접 동영상을 다운로드할 수 있는 CLI 도구입니다.",
@@ -6279,14 +6404,14 @@
         "open-source"
       ],
       "metrics": {
-        "stars": 1092
+        "stars": 986
       },
       "source": "github-search",
       "publishedAt": "2026-09-19T06:55:24Z",
-      "updatedAt": "2026-11-02T13:31:05Z",
+      "updatedAt": "2026-11-07T05:44:47Z",
       "firstSeenAt": "2026-09-29T22:47:33.822Z",
       "lastSeenAt": "2026-10-02T22:44:36.772Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Allows Claude Code and Codex to work as a unified team on your machine with shared memory and agent messaging.",
       "summaryKo": "공유 메모리와 에이전트 메시징을 통해 Claude Code와 Codex가 단일 팀으로 작동하도록 지원합니다.",
@@ -6314,14 +6439,14 @@
         "typesafe-ai"
       ],
       "metrics": {
-        "stars": 313
+        "stars": 314
       },
       "source": "github-search",
       "publishedAt": "2026-09-19T02:12:23Z",
-      "updatedAt": "2026-10-28T04:01:25Z",
+      "updatedAt": "2026-11-04T23:12:22Z",
       "firstSeenAt": "2026-09-28T23:36:47.600Z",
       "lastSeenAt": "2026-10-02T22:44:36.772Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "A CLI tool to build calibrated AI functions from human feedback using Jev and GEPA for prompt optimization.",
       "summaryKo": "프롬프트 최적화를 위해 Jev와 GEPA를 사용하여 피드백 기반 보정된 AI 함수를 구축하는 CLI 도구입니다.",
@@ -6348,14 +6473,14 @@
         "tui"
       ],
       "metrics": {
-        "stars": 1371
+        "stars": 1376
       },
       "source": "github-search",
       "publishedAt": "2026-07-05T01:03:37Z",
       "updatedAt": "2026-09-10T18:33:46Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-10-02T22:44:36.772Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "Global DNS propagation checker TUI that displays record propagation across worldwide public resolvers on a terminal world map.",
       "summaryKo": "터미널 세계 지도에서 전 세계 공개 리졸버의 레코드 전파 상태를 보여주는 글로벌 DNS 전파 체커 TUI입니다.",
@@ -6387,14 +6512,14 @@
         "split-panes"
       ],
       "metrics": {
-        "stars": 3694
+        "stars": 3724
       },
       "source": "github-search",
       "publishedAt": "2026-07-05T12:17:36Z",
-      "updatedAt": "2026-11-02T16:15:28Z",
+      "updatedAt": "2026-11-07T16:21:29Z",
       "firstSeenAt": "2026-09-13T21:13:30.222Z",
       "lastSeenAt": "2026-10-02T22:44:36.772Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "An AI-native, GPU-accelerated Windows terminal emulator featuring SSH, persistent sessions, split panes, and AI CLI workflows.",
       "summaryKo": "SSH와 AI CLI 워크플로우를 지원하는 GPU 가속 윈도우 터미널입니다.",
@@ -6668,14 +6793,14 @@
         "self-learning-ai"
       ],
       "metrics": {
-        "stars": 2759
+        "stars": 2769
       },
       "source": "github-search",
       "publishedAt": "2026-07-02T11:49:31Z",
       "updatedAt": "2026-10-20T14:17:58Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-09-29T22:47:33.822Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "Browser infrastructure that learns and cuts token spend by up to 90%, optimizing LLM web automation costs.",
       "summaryKo": "토큰 비용을 최대 90%까지 절감하고 학습하는 브라우저 인프라입니다.",
@@ -6703,14 +6828,14 @@
         "tree-sitter"
       ],
       "metrics": {
-        "stars": 358
+        "stars": 316
       },
       "source": "github-search",
       "publishedAt": "2026-09-16T04:55:38Z",
-      "updatedAt": "2026-11-02T21:37:13Z",
+      "updatedAt": "2026-11-07T01:32:28Z",
       "firstSeenAt": "2026-09-28T23:36:47.600Z",
       "lastSeenAt": "2026-09-29T22:47:33.822Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "A static analysis tool that performs semantic code linting and code reviews using tree-sitter and Jev.",
       "summaryKo": "tree-sitter와 Jev를 사용하여 시맨틱 코드 린팅 및 코드 리뷰를 수행하는 정적 분석 도구입니다.",
@@ -6806,13 +6931,13 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 194509
+        "stars": 195140
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-03T01:21:25Z",
+      "updatedAt": "2026-11-07T21:00:51Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-26T21:44:07.106Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "trending",
       "summaryEn": "Industry-standard code editor with language support, debugging, extensions, and integrated terminal for most development workflows.",
       "summaryKo": "대부분의 개발 워크플로우를 위한 언어 지원, 디버깅, 확장 기능을 갖춘 산업 표준 코드 에디터."
@@ -6844,14 +6969,14 @@
         "oomol"
       ],
       "metrics": {
-        "stars": 6163
+        "stars": 6199
       },
       "source": "github-search",
       "publishedAt": "2026-06-29T10:49:36Z",
-      "updatedAt": "2026-11-03T01:23:16Z",
+      "updatedAt": "2026-11-07T07:23:22Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-09-26T21:44:07.106Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "An open-source auth gateway connecting over 1400 SaaS providers to AI agents via SDK, CLI, MCP, HTTP, and OpenAPI standards.",
       "summaryKo": "1,400개 이상의 SaaS를 AI 에이전트에 연결하는 오픈소스 인증 게이트웨이입니다.",
@@ -6992,13 +7117,13 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 33075
+        "stars": 33189
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-03T01:19:46Z",
+      "updatedAt": "2026-11-07T22:29:43Z",
       "firstSeenAt": "2026-09-22T21:44:36.199Z",
       "lastSeenAt": "2026-09-23T21:56:52.747Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "trending",
       "summaryEn": "A command-line interface tool built to simplify the configuration, management, and monitoring of Claude Code environments.",
       "summaryKo": "Claude Code 환경의 설정과 모니터링을 간소화하는 명령줄 인터페이스 도구.",
@@ -7037,7 +7162,7 @@
       "updatedAt": "2026-09-23T17:45:50Z",
       "firstSeenAt": "2026-09-23T21:56:52.747Z",
       "lastSeenAt": "2026-09-23T21:56:52.747Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Cleanupper is a free, open-source macOS disk cleanup CLI that removes caches, logs, and stale node_modules directly from your terminal.",
       "summaryKo": "터미널에서 캐시, 로그, 불필요한 node_modules 등을 정리해주는 macOS용 오픈소스 디스크 정리 CLI입니다.",
@@ -7068,14 +7193,14 @@
         "windows"
       ],
       "metrics": {
-        "stars": 999
+        "stars": 995
       },
       "source": "github-search",
       "publishedAt": "2026-06-26T05:08:01Z",
       "updatedAt": "2026-08-13T06:35:15Z",
       "firstSeenAt": "2026-09-19T21:13:14.478Z",
       "lastSeenAt": "2026-09-23T21:56:52.747Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "A minimal statusline HUD for Claude Code powered by Rust, providing quick insights.",
       "summaryKo": "Rust로 제작된 Claude Code용 미니멀 상태바 HUD입니다.",
@@ -7188,13 +7313,13 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 73729
+        "stars": 74229
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-03T00:56:00Z",
+      "updatedAt": "2026-11-07T00:44:57Z",
       "firstSeenAt": "2026-09-18T21:22:45.528Z",
       "lastSeenAt": "2026-09-18T21:22:45.528Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "trending",
       "summaryEn": "Spec-driven development (SDD) tool for AI coding assistants, streamlining development workflows.",
       "summaryKo": "AI 코딩 어시스턴트를 위한 사양 주도 개발(SDD) 도구입니다.",
@@ -7227,14 +7352,14 @@
         "markdown"
       ],
       "metrics": {
-        "stars": 850
+        "stars": 858
       },
       "source": "github-search",
       "publishedAt": "2026-09-05T21:26:04Z",
-      "updatedAt": "2026-10-29T12:37:24Z",
+      "updatedAt": "2026-11-05T22:45:47Z",
       "firstSeenAt": "2026-09-08T21:31:48.079Z",
       "lastSeenAt": "2026-09-18T21:22:45.528Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "new",
       "summaryEn": "Git-native persistent memory runtime for AI coding agents featuring fast in-memory BM25 search and zero external database dependencies.",
       "summaryKo": "외부 데이터베이스 없이 Git 기반으로 작동하는 AI 코딩 에이전트 메모리 도구입니다.",
@@ -7607,13 +7732,13 @@
       "lang": "C",
       "tags": [],
       "metrics": {
-        "stars": 5454
+        "stars": 5470
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-02T12:13:14Z",
+      "updatedAt": "2026-11-07T18:36:45Z",
       "firstSeenAt": "2026-09-10T21:20:01.286Z",
       "lastSeenAt": "2026-09-11T21:29:44.686Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "trending",
       "summaryEn": "ArmorPaint is a standalone software for 3D PBR texture painting, useful for game asset creation pipelines.",
       "summaryKo": "ArmorPaint는 게임 에셋 제작을 위한 3D PBR 텍스처 페인팅 소프트웨어입니다.",
@@ -7633,13 +7758,13 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 25284
+        "stars": 25381
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-02T16:17:01Z",
+      "updatedAt": "2026-11-07T21:32:53Z",
       "firstSeenAt": "2026-09-07T21:51:32.810Z",
       "lastSeenAt": "2026-09-11T21:29:44.686Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "trending",
       "summaryEn": "A web-based collaborative application to create and share 3D architectural projects.",
       "summaryKo": "3D 건축 프로젝트를 생성하고 공유하는 웹 기반 협업 애플리케이션.",
@@ -7673,7 +7798,7 @@
       "updatedAt": "2026-09-15T21:40:31Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-09-11T21:29:44.686Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "Codebase harness and loop engineer framework for AI agent workflows.",
       "summaryKo": "AI 에이전트 워크플로우를 위한 코드베이스 하니스 및 루프 엔지니어 프레임워크입니다.",
@@ -7692,13 +7817,13 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 5749
+        "stars": 5789
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-03T01:27:28Z",
+      "updatedAt": "2026-11-07T15:06:48Z",
       "firstSeenAt": "2026-09-09T21:27:06.431Z",
       "lastSeenAt": "2026-09-10T21:20:01.286Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "trending",
       "summaryEn": "A CLI tool by Tencent designed to integrate AI capabilities natively into team workflows and development processes.",
       "summaryKo": "팀 워크플로우와 개발 프로세스에 AI 기능을 네이티브로 통합하는 텐센트의 CLI 도구입니다.",
@@ -7770,14 +7895,14 @@
         "desktop-app"
       ],
       "metrics": {
-        "stars": 3886
+        "stars": 3897
       },
       "source": "github-search",
       "publishedAt": "2026-06-12T12:29:05Z",
       "updatedAt": "2026-10-08T07:05:00Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-09-09T21:27:06.431Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "Collaborative workspace and orchestration environment built for human users and AI agents to work together.",
       "summaryKo": "인간 사용자와 AI 에이전트가 함께 작업할 수 있도록 구축된 협업 워크스페이스 및 오케스트레이션 환경입니다.",
@@ -8067,14 +8192,14 @@
         "openai"
       ],
       "metrics": {
-        "stars": 92524
+        "stars": 92896
       },
       "source": "github-search",
       "publishedAt": "2024-03-13T03:33:31Z",
-      "updatedAt": "2026-11-03T01:17:02Z",
+      "updatedAt": "2026-11-07T21:25:13Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "AI-driven development platform using LLMs (Claude, GPT) to automate coding tasks and assist software engineers.",
       "summaryKo": "LLM 기반 AI 개발 플랫폼, 코딩 작업 자동화."
@@ -8105,14 +8230,14 @@
         "rust"
       ],
       "metrics": {
-        "stars": 85348
+        "stars": 85833
       },
       "source": "github-search",
       "publishedAt": "2026-01-22T16:54:16Z",
-      "updatedAt": "2026-11-03T00:58:41Z",
+      "updatedAt": "2026-11-07T15:25:51Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "CLI proxy reducing LLM token consumption by 60-90% for dev commands; single Rust binary optimizing AI coding cost.",
       "summaryKo": "개발 명령어의 LLM 토큰 사용 60-90% 감소, Rust 기반 CLI."
@@ -8139,14 +8264,14 @@
         "streamlit"
       ],
       "metrics": {
-        "stars": 46220
+        "stars": 46267
       },
       "source": "github-search",
       "publishedAt": "2019-08-24T00:14:52Z",
-      "updatedAt": "2026-11-03T00:49:32Z",
+      "updatedAt": "2026-11-07T15:04:20Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "Python framework for rapid data app development with visualization; simplifies building ML dashboards and analytics interfaces.",
       "summaryKo": "Python 데이터 앱 프레임워크, 머신러닝 대시보드 빠른 구축."
@@ -8551,14 +8676,14 @@
         "typewriter-mode"
       ],
       "metrics": {
-        "stars": 63518
+        "stars": 63706
       },
       "source": "github-search",
       "publishedAt": "2017-11-12T16:05:25Z",
-      "updatedAt": "2026-11-03T01:11:45Z",
+      "updatedAt": "2026-11-06T08:00:42Z",
       "firstSeenAt": "2026-09-01T22:53:39.547Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "MarkText is a simple and elegant open-source markdown editor for Linux, macOS, and Windows.",
       "summaryKo": "Linux, macOS, Windows를 지원하는 심플하고 우수한 오픈소스 마크다운 편집기입니다."
@@ -8626,14 +8751,14 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 18880
+        "stars": 18927
       },
       "source": "github-search",
       "publishedAt": "2025-01-02T17:45:02Z",
-      "updatedAt": "2026-11-02T23:05:55Z",
+      "updatedAt": "2026-11-07T18:47:59Z",
       "firstSeenAt": "2026-08-19T01:20:28.544Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "A runtime for composing, extending, and observing services together in real time, across JS, Python, and Rust.",
       "summaryKo": "JS·파이썬·러스트 서비스를 실시간으로 조합·확장·관찰하는 런타임."
@@ -8702,14 +8827,14 @@
         "react"
       ],
       "metrics": {
-        "stars": 40226
+        "stars": 40274
       },
       "source": "github-search",
       "publishedAt": "2023-07-16T17:09:20Z",
-      "updatedAt": "2026-11-01T17:54:52Z",
+      "updatedAt": "2026-11-07T10:17:57Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "Free online database diagram editor that also generates SQL from your schema design.",
       "summaryKo": "DB 다이어그램을 그리고 스키마에서 SQL을 생성하는 무료 온라인 에디터.",
@@ -8742,14 +8867,14 @@
         "sql"
       ],
       "metrics": {
-        "stars": 23411
+        "stars": 23465
       },
       "source": "github-search",
       "publishedAt": "2023-08-14T18:56:20Z",
-      "updatedAt": "2026-11-03T01:26:07Z",
+      "updatedAt": "2026-11-07T21:28:10Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "Reactive Python notebook supporting reproducible science, SQL queries, git versioning, deployment, and AI-native editing.",
       "summaryKo": "재현 가능한 과학, SQL 쿼리, git 버전 관리, 배포, AI 네이티브 편집을 지원하는 Python 리액티브 노트북."
@@ -8936,43 +9061,6 @@
       "admitReason": "notable",
       "summaryEn": "Zsh configuration framework with 300+ plugins and 140+ themes, maintained by 2,500+ contributors for terminal productivity.",
       "summaryKo": "2,500+ 기여자가 유지하는 300+ 플러그인, 140+ 테마의 zsh 설정 프레임워크."
-    },
-    {
-      "id": "gh:sherlock-project/sherlock",
-      "type": "repo",
-      "categories": [
-        "devtools"
-      ],
-      "title": "sherlock-project/sherlock",
-      "summaryOriginal": "Hunt down social media accounts by username across social networks",
-      "url": "https://github.com/sherlock-project/sherlock",
-      "lang": "Python",
-      "tags": [
-        "cli",
-        "cti",
-        "cybersecurity",
-        "forensics",
-        "hacktoberfest",
-        "information-gathering",
-        "infosec",
-        "linux",
-        "osint",
-        "pentesting",
-        "python",
-        "python3"
-      ],
-      "metrics": {
-        "stars": 95634
-      },
-      "source": "github-search",
-      "publishedAt": "2018-12-24T14:30:48Z",
-      "updatedAt": "2026-11-04T05:14:05Z",
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-11-05T00:04:20.450Z",
-      "admitReason": "notable",
-      "summaryEn": "OSINT CLI tool for hunting social media accounts by username across networks for reconnaissance and security research.",
-      "summaryKo": "사용자명으로 소셜 미디어 계정을 추적하는 OSINT CLI 도구."
     },
     {
       "id": "gh:junegunn/fzf",
@@ -9404,14 +9492,14 @@
         "low-code"
       ],
       "metrics": {
-        "stars": 48364
+        "stars": 48398
       },
       "source": "github-search",
       "publishedAt": "2018-11-26T10:40:00Z",
-      "updatedAt": "2026-11-02T01:31:30Z",
+      "updatedAt": "2026-11-05T14:34:39Z",
       "firstSeenAt": "2026-08-20T12:53:13.611Z",
       "lastSeenAt": "2026-09-04T21:10:24.767Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "Enterprise AI low-code platform generating full-stack code from natural language; includes AI chat, RAG, workflow automation, and MCP plugins for Java.",
       "summaryKo": "자연어로 전체 스택 코드를 생성하는 엔터프라이즈 AI 저코드 플랫폼으로, AI 채팅, RAG, 워크플로우 자동화 등을 포함합니다."
@@ -9440,14 +9528,14 @@
         "wtfutil"
       ],
       "metrics": {
-        "stars": 17140
+        "stars": 17143
       },
       "source": "github-search",
       "publishedAt": "2018-03-29T02:42:12Z",
       "updatedAt": "2026-10-21T23:32:55Z",
       "firstSeenAt": "2026-09-03T22:53:21.894Z",
       "lastSeenAt": "2026-09-04T21:10:24.767Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "A personal information dashboard designed to run directly in your terminal.",
       "summaryKo": "터미널에서 직접 실행할 수 있는 개인 정보 및 시스템 모니터링 대시보드입니다.",
@@ -9476,14 +9564,14 @@
         "tool"
       ],
       "metrics": {
-        "stars": 44932
+        "stars": 45112
       },
       "source": "github-search",
       "publishedAt": "2017-05-09T21:27:10Z",
-      "updatedAt": "2026-11-01T06:37:10Z",
+      "updatedAt": "2026-11-07T07:23:01Z",
       "firstSeenAt": "2026-08-28T00:16:59.828Z",
       "lastSeenAt": "2026-09-04T21:10:24.767Z",
-      "metricsRefreshedAt": "2026-11-03T01:25:46.164Z",
+      "metricsRefreshedAt": "2026-11-07T22:27:25.332Z",
       "admitReason": "notable",
       "summaryEn": "A simple, fast, and user-friendly Rust-based alternative to the standard find command.",
       "summaryKo": "표준 find 명령어를 대체하는 빠르고 사용자 친화적인 Rust 기반 도구"
@@ -10246,107 +10334,6 @@
       "admitReason": "new",
       "summaryEn": "Curated list of DeepSeek Harness plugins and integrations for agent development; bilingual English/Chinese reference.",
       "summaryKo": "DeepSeek Harness 플러그인과 통합 목록, 영문/중문 이중언어."
-    },
-    {
-      "id": "gh:openai/codex",
-      "type": "repo",
-      "categories": [
-        "ai-agents",
-        "devtools"
-      ],
-      "title": "openai/codex",
-      "summaryOriginal": "Lightweight coding agent that runs in your terminal",
-      "url": "https://github.com/openai/codex",
-      "lang": "Rust",
-      "tags": [],
-      "metrics": {
-        "stars": 133188
-      },
-      "source": "github-trending",
-      "updatedAt": "2026-11-05T00:05:51Z",
-      "firstSeenAt": "2026-08-22T15:22:55.161Z",
-      "lastSeenAt": "2026-08-26T09:43:03.049Z",
-      "metricsRefreshedAt": "2026-11-05T00:04:20.450Z",
-      "admitReason": "trending",
-      "summaryEn": "Lightweight coding agent that runs directly in your terminal for development assistance.",
-      "summaryKo": "터미널에서 직접 실행되어 개발을 지원하는 경량 코딩 에이전트.",
-      "reasonEn": "High developer interest in terminal-based AI coding agents",
-      "reasonKo": "터미널 기반 AI 코딩 에이전트에 대한 높은 개발자 관심"
-    },
-    {
-      "id": "gh:PostHog/posthog",
-      "type": "repo",
-      "categories": [
-        "ai-agents",
-        "infra",
-        "data",
-        "devtools"
-      ],
-      "title": "PostHog/posthog",
-      "summaryOriginal": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
-      "url": "https://github.com/PostHog/posthog",
-      "lang": "Python",
-      "tags": [
-        "ab-testing",
-        "ai-analytics",
-        "analytics",
-        "cdp",
-        "data-warehouse",
-        "experiments",
-        "feature-flags",
-        "javascript",
-        "product-analytics",
-        "python",
-        "react",
-        "session-replay"
-      ],
-      "metrics": {
-        "stars": 40644
-      },
-      "source": "github-search",
-      "publishedAt": "2020-01-23T22:46:58Z",
-      "updatedAt": "2026-11-05T00:07:35Z",
-      "firstSeenAt": "2026-08-20T12:53:13.611Z",
-      "lastSeenAt": "2026-08-25T09:36:47.621Z",
-      "metricsRefreshedAt": "2026-11-05T00:04:20.450Z",
-      "admitReason": "notable",
-      "summaryEn": "All-in-one product analytics platform featuring AI observability, session replay, feature flags, experiments, and error tracking for developer tools.",
-      "summaryKo": "AI 옵저버빌리티, 세션 리플레이, 기능 플래그, A/B 테스트, 오류 추적 등을 포함한 통합 제품 분석 플랫폼입니다."
-    },
-    {
-      "id": "gh:Automattic/harper",
-      "type": "repo",
-      "categories": [
-        "web",
-        "devtools"
-      ],
-      "title": "Automattic/harper",
-      "summaryOriginal": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
-      "url": "https://github.com/Automattic/harper",
-      "lang": "Rust",
-      "tags": [
-        "chrome-extension",
-        "developer-tools",
-        "english-language",
-        "grammar-checker",
-        "nodejs",
-        "react",
-        "rust",
-        "svelte",
-        "webassembly"
-      ],
-      "metrics": {
-        "stars": 17412
-      },
-      "source": "github-search",
-      "publishedAt": "2023-10-22T02:58:35Z",
-      "updatedAt": "2026-11-04T22:07:34Z",
-      "firstSeenAt": "2026-08-20T01:19:40.108Z",
-      "lastSeenAt": "2026-08-24T12:53:33.595Z",
-      "metricsRefreshedAt": "2026-11-05T00:04:20.450Z",
-      "admitReason": "notable",
-      "summaryEn": "Rust-powered offline grammar checker with browser and IDE integrations; prioritizes privacy over cloud submission.",
-      "summaryKo": "오프라인 동작하는 러스트 기반 문법 검사기로 브라우저 및 IDE 통합 지원."
     }
   ]
 }
