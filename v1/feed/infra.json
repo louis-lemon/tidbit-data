@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "infra",
-  "generatedAt": "2026-11-10T01:50:05.048Z",
+  "generatedAt": "2026-11-10T23:50:53.165Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,8 +13,8 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 20037,
-        "starsDelta": 551
+        "stars": 20475,
+        "starsDelta": 530
       },
       "source": "github-trending",
       "admitReason": "trending",
@@ -26,9 +26,9 @@
         "backend",
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
       "firstSeenAt": "2026-11-08T22:37:27.812Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
       "id": "gh:elie222/rakazo",
@@ -49,12 +49,12 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 7708
+        "stars": 7837
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-08-13T06:28:56Z",
-      "updatedAt": "2026-11-09T22:16:13Z",
+      "updatedAt": "2026-11-10T23:45:48Z",
       "summaryEn": "Open-source alternative to Grok's coding bot — pick your own model and sandbox.",
       "summaryKo": "Grok 봇의 오픈소스 대안, 모델과 샌드박스를 직접 선택",
       "categories": [
@@ -63,9 +63,9 @@
         "web",
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
       "id": "gh:AienTech/dossier",
@@ -89,7 +89,7 @@
         "self-hosted"
       ],
       "metrics": {
-        "stars": 4915
+        "stars": 4963
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -104,9 +104,43 @@
         "web",
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
       "firstSeenAt": "2026-10-27T22:47:56.693Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
+    },
+    {
+      "id": "gh:libracoder/kiri",
+      "type": "repo",
+      "title": "libracoder/kiri",
+      "summaryOriginal": "A small, fast container runtime for macOS, Windows and Linux",
+      "url": "https://github.com/libracoder/kiri",
+      "lang": "Rust",
+      "tags": [
+        "containers",
+        "docker",
+        "kubernetes",
+        "linux",
+        "macos",
+        "oci",
+        "windows"
+      ],
+      "metrics": {
+        "stars": 1470
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2026-11-02T16:11:30Z",
+      "updatedAt": "2026-11-10T21:37:01Z",
+      "summaryEn": "Small, fast container runtime that runs on macOS, Windows, and Linux, compatible with OCI images. An alternative to heavier container tooling.",
+      "summaryKo": "macOS, Windows, Linux에서 동작하는 작고 빠른 컨테이너 런타임입니다. OCI 이미지를 지원합니다.",
+      "reasonEn": "1.5K stars within 8 days of becoming established",
+      "reasonKo": "8일 만에 스타 1.5K개로 빠르게 자리 잡음",
+      "categories": [
+        "infra"
+      ],
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
+      "firstSeenAt": "2026-11-10T23:50:53.165Z",
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
       "id": "gh:mikehasa/golive-skill",
@@ -130,7 +164,7 @@
         "godaddy"
       ],
       "metrics": {
-        "stars": 1445
+        "stars": 1470
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -145,9 +179,42 @@
         "data",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
       "firstSeenAt": "2026-09-24T21:54:59.755Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
+    },
+    {
+      "id": "gh:HolyArrs/HolyArrs",
+      "type": "repo",
+      "title": "HolyArrs/HolyArrs",
+      "summaryOriginal": "One self-hosted app for your shows, movies and music.",
+      "url": "https://github.com/HolyArrs/HolyArrs",
+      "lang": "Go",
+      "tags": [
+        "docker",
+        "homelab",
+        "jellyfin",
+        "media-server",
+        "plex",
+        "self-hosted"
+      ],
+      "metrics": {
+        "stars": 568
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-11-09T23:53:25Z",
+      "updatedAt": "2026-11-10T21:37:35Z",
+      "summaryEn": "Self-hosted Docker app that manages shows, movies, and music in one place, similar in purpose to Plex or Jellyfin.",
+      "summaryKo": "TV 프로그램, 영화, 음악을 한곳에서 관리하는 셀프호스팅 Docker 앱으로, Plex나 Jellyfin과 비슷한 용도입니다.",
+      "reasonEn": "568 stars within 1 day of creation",
+      "reasonKo": "공개 1일 만에 스타 568개",
+      "categories": [
+        "infra"
+      ],
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
+      "firstSeenAt": "2026-11-10T23:50:53.165Z",
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
       "id": "gh:aimod-cc/Agent2API",
@@ -168,7 +235,7 @@
         "trae"
       ],
       "metrics": {
-        "stars": 2059
+        "stars": 2083
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -181,9 +248,9 @@
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
       "firstSeenAt": "2026-10-16T21:51:53.281Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
       "id": "gh:ChiefGyk3D/Clouds-Against-Humanity",
@@ -207,12 +274,12 @@
         "spacelift"
       ],
       "metrics": {
-        "stars": 1072
+        "stars": 1115
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-10-10T17:50:27Z",
-      "updatedAt": "2026-11-10T00:41:21Z",
+      "updatedAt": "2026-11-10T21:25:16Z",
       "summaryEn": "Open-source homelab for learning cloud security, Zero Trust, DevSecOps, and IaC from scratch.",
       "summaryKo": "클라우드 보안과 제로 트러스트를 배우기 위한 오픈소스 홈랩.",
       "reasonEn": "499 stars within 13 days of launch",
@@ -220,9 +287,35 @@
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
       "firstSeenAt": "2026-10-23T21:47:37.203Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
+    },
+    {
+      "id": "hn:50300683",
+      "type": "article",
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "summaryOriginal": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 1013,
+        "comments": 553
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-30T07:09:12Z",
+      "admitReason": "notable",
+      "summaryEn": "Reports a backdoor in a Claude Code VS Code extension distributed through the Cursor Marketplace, a supply-chain security risk for editor extension users.",
+      "summaryKo": "Cursor 마켓플레이스에 배포된 Claude Code VS Code 확장의 백도어 보고. 에디터 확장 공급망 보안 위험.",
+      "reasonEn": "1K upvotes and 553 comments within 11 days",
+      "reasonKo": "11일간 추천 1K, 댓글 553개",
+      "categories": [
+        "devtools",
+        "infra"
+      ],
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
+      "firstSeenAt": "2026-11-10T23:50:53.165Z",
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
       "id": "hn:50198675",
@@ -238,42 +331,17 @@
       "source": "hn",
       "publishedAt": "2026-10-22T17:44:06Z",
       "admitReason": "notable",
-      "summaryEn": "OpenShell is a runtime meant to run fleets of autonomous AI agents with sandboxing and privacy controls, aimed at keeping agent workloads contained.",
-      "summaryKo": "OpenShell은 자율 AI 에이전트 여러 개를 샌드박스와 프라이버시 제어 아래 실행하기 위한 런타임입니다.",
-      "reasonEn": "Notable: 508 upvotes and 217 comments within 18 days of posting",
-      "reasonKo": "게시 18일 만에 추천 508, 댓글 217로 주목받음",
+      "summaryEn": "OpenShell is a runtime meant to safely run fleets of autonomous AI agents with privacy controls, aimed at agent infrastructure.",
+      "summaryKo": "OpenShell은 자율 AI 에이전트 여러 개를 안전하고 사적으로 실행하기 위한 런타임. 에이전트 인프라 도구.",
+      "reasonEn": "508 upvotes and 217 comments within 19 days",
+      "reasonKo": "19일간 추천 508, 댓글 217개",
       "categories": [
         "ai-agents",
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
       "firstSeenAt": "2026-11-02T09:23:53.161Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
-    },
-    {
-      "id": "hn:50271640",
-      "type": "article",
-      "title": "Apple's git still trusts the compromised eMudhra certificates",
-      "summaryOriginal": "Apple's git still trusts the compromised eMudhra certificates",
-      "url": "https://emudhra.we-have-a-problem.com/apple.html",
-      "tags": [],
-      "metrics": {
-        "upvotes": 1202,
-        "comments": 413
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-28T11:03:40Z",
-      "admitReason": "notable",
-      "summaryEn": "Reports that Apple's git still trusts eMudhra certificates that were compromised, a supply-chain trust issue for developers signing code.",
-      "summaryKo": "침해된 eMudhra 인증서를 Apple의 git이 여전히 신뢰한다는 보고로, 코드 서명 신뢰 문제입니다.",
-      "reasonEn": "Notable: 1202 upvotes and 413 comments within 12 days",
-      "reasonKo": "게시 12일 만에 추천 1202, 댓글 413",
-      "categories": [
-        "infra"
-      ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
-      "firstSeenAt": "2026-11-10T01:50:05.048Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
       "id": "hn:50202681",
@@ -289,42 +357,43 @@
       "source": "hn",
       "publishedAt": "2026-10-22T23:45:56Z",
       "admitReason": "notable",
-      "summaryEn": "A critique arguing Docker's design and behavior are confusing and surprising for users. Useful context for anyone who runs containers daily.",
-      "summaryKo": "Docker의 설계와 동작이 사용자에게 혼란스럽고 예상과 다르다는 비판 글입니다.",
-      "reasonEn": "Notable: 887 upvotes and 370 comments within 18 days of posting",
-      "reasonKo": "18일 만에 추천 887, 댓글 370으로 주목받음",
+      "summaryEn": "A widely discussed critique of Docker's design and behavior, sparking debate on container tooling trade-offs.",
+      "summaryKo": "Docker의 설계와 동작에 대한 비판으로, 컨테이너 도구의 장단점 논쟁을 불러일으켰습니다.",
+      "reasonEn": "887 upvotes and 370 comments on a 19-day-old post",
+      "reasonKo": "19일 된 글에 추천 887, 댓글 370",
       "categories": [
         "infra",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
       "firstSeenAt": "2026-11-10T01:50:05.048Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
-      "id": "hn:50040547",
+      "id": "hn:50319143",
       "type": "article",
-      "title": "3rd Yandex Cloud Data Center Was Hit",
-      "summaryOriginal": "3rd Yandex Cloud Data Center Was Hit",
-      "url": "https://status.yandex.cloud/en/incidents/2136",
+      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "summaryOriginal": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
       "tags": [],
       "metrics": {
-        "upvotes": 644,
-        "comments": 809
+        "upvotes": 751,
+        "comments": 334
       },
       "source": "hn",
-      "publishedAt": "2026-10-11T07:34:45Z",
+      "publishedAt": "2026-10-31T19:16:30Z",
       "admitReason": "notable",
-      "summaryEn": "Report that a third Yandex Cloud data center was hit by an incident. Relevant to anyone assessing cloud provider reliability.",
-      "summaryKo": "Yandex Cloud의 세 번째 데이터센터가 장애 또는 공격을 겪었다는 소식입니다.",
-      "reasonEn": "Notable: 809 comments and 644 upvotes within 29 days",
-      "reasonKo": "29일 만에 댓글 809, 추천 644로 주목",
+      "summaryEn": "Disclosure of a use-after-free flaw in the Linux TCP stack, rated CVSS 9.8, so patching and exposure checks matter.",
+      "summaryKo": "Linux TCP 스택의 use-after-free 취약점 공개(CVSS 9.8)로, 패치와 노출 점검이 필요합니다.",
+      "reasonEn": "CVSS 9.8 flaw; 751 upvotes within 10 days",
+      "reasonKo": "CVSS 9.8 취약점, 10일 만에 추천 751",
       "categories": [
-        "infra"
+        "infra",
+        "engineering"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
-      "firstSeenAt": "2026-11-10T01:50:05.048Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
+      "firstSeenAt": "2026-11-10T23:50:53.165Z",
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
       "id": "hn:50149392",
@@ -340,16 +409,16 @@
       "source": "hn",
       "publishedAt": "2026-10-19T07:23:57Z",
       "admitReason": "notable",
-      "summaryEn": "Release of Linux kernel 7.3 with new features and fixes. Matters for those tracking kernel changes that affect drivers and systems.",
-      "summaryKo": "새 기능과 수정이 담긴 Linux 커널 7.3 릴리스입니다.",
-      "reasonEn": "Notable: 636 upvotes and 301 comments within 21 days",
-      "reasonKo": "21일 만에 추천 636, 댓글 301로 주목",
+      "summaryEn": "Release announcement for Linux kernel 7.3, bringing new features, drivers, and fixes to the kernel.",
+      "summaryKo": "Linux 커널 7.3 출시 소식으로, 새 기능, 드라이버, 수정 사항이 포함됩니다.",
+      "reasonEn": "636 upvotes and 301 comments on a 22-day-old post",
+      "reasonKo": "22일 된 글에 추천 636, 댓글 301",
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
       "firstSeenAt": "2026-11-08T22:37:27.812Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
       "id": "hn:50341462",
@@ -365,16 +434,16 @@
       "source": "hn",
       "publishedAt": "2026-11-02T18:39:38Z",
       "admitReason": "notable",
-      "summaryEn": "Ubuntu has left an unpatched remote code execution flaw in the Linux kernel unfixed for weeks. Important for anyone running Ubuntu servers.",
-      "summaryKo": "Ubuntu가 Linux 원격 코드 실행 제로데이 취약점 패치를 3주 가까이 내놓지 않았습니다.",
-      "reasonEn": "Notable: 627 upvotes within 7 days; unpatched RCE flaw",
-      "reasonKo": "7일 만에 추천 627; 미패치 원격 코드 실행 취약점",
+      "summaryEn": "Reports that Ubuntu has not yet shipped a fix for a Linux kernel 0day remote code execution bug nearly three weeks on.",
+      "summaryKo": "Linux 0day 원격 코드 실행 취약점에 대해 Ubuntu가 거의 3주째 패치를 내지 않았다는 보고입니다.",
+      "reasonEn": "Unpatched 0day RCE; 627 upvotes in 8 days",
+      "reasonKo": "미패치 0day RCE, 8일 만에 추천 627",
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
       "firstSeenAt": "2026-11-03T10:58:48.324Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
       "id": "hn:50379704",
@@ -390,16 +459,42 @@
       "source": "hn",
       "publishedAt": "2026-11-05T14:44:20Z",
       "admitReason": "notable",
-      "summaryEn": "Alpine Linux advisory on an OpenSSH-server bug that can bypass password authentication. Affects servers that expose SSH with password login.",
-      "summaryKo": "OpenSSH 서버의 비밀번호 인증 우회 취약점에 대한 Alpine Linux 보안 권고입니다.",
-      "reasonEn": "Notable: 627 upvotes within 4 days of a security advisory",
-      "reasonKo": "4일 만에 추천 627; 보안 권고 관련",
+      "summaryEn": "Alpine Linux advisory on an OpenSSH-server bug that allows password authentication bypass. Affected servers need updates.",
+      "summaryKo": "OpenSSH 서버의 비밀번호 인증 우회 취약점에 대한 Alpine Linux 보안 권고입니다. 영향받는 서버는 업데이트가 필요합니다.",
+      "reasonEn": "Auth bypass advisory; 627 upvotes within 5 days",
+      "reasonKo": "인증 우회 권고, 5일 만에 추천 627",
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
       "firstSeenAt": "2026-11-05T23:55:17.241Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
+    },
+    {
+      "id": "hn:50362905",
+      "type": "article",
+      "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+      "summaryOriginal": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+      "tags": [],
+      "metrics": {
+        "upvotes": 617,
+        "comments": 293
+      },
+      "source": "hn",
+      "publishedAt": "2026-11-04T08:46:29Z",
+      "admitReason": "notable",
+      "summaryEn": "Report that Nvidia RTX Spark's encrypted firmware cuts inference speed to 35% on Linux, a driver and firmware performance issue.",
+      "summaryKo": "Nvidia RTX Spark의 암호화된 펌웨어가 Linux에서 추론 속도를 35%로 낮춘다는 보고입니다.",
+      "reasonEn": "617 upvotes and 293 comments within 6 days",
+      "reasonKo": "6일 만에 추천 617, 댓글 293",
+      "categories": [
+        "ai-models",
+        "infra"
+      ],
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
+      "firstSeenAt": "2026-11-10T23:50:53.165Z",
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
       "id": "hn:50052163",
@@ -415,60 +510,17 @@
       "source": "hn",
       "publishedAt": "2026-10-12T06:36:53Z",
       "admitReason": "notable",
-      "summaryEn": "An argument that Postgres performance problems often come from slow storage, not the database. Helpful for diagnosing I/O bottlenecks.",
-      "summaryKo": "Postgres가 느린 게 아니라 저장소가 느린 것이라는 주장입니다. I/O 병목 진단에 도움이 됩니다.",
-      "reasonEn": "Notable: 180 upvotes and 187 comments within 28 days",
-      "reasonKo": "28일 만에 추천 180, 댓글 187로 주목",
+      "summaryEn": "An argument that Postgres performance problems often come from storage hardware and configuration, not the database itself.",
+      "summaryKo": "Postgres의 성능 문제는 데이터베이스보다 스토리지 하드웨어와 설정에서 오는 경우가 많다는 주장입니다.",
+      "reasonEn": "180 upvotes and 187 comments on a 29-day-old post",
+      "reasonKo": "29일 된 글에 추천 180, 댓글 187",
       "categories": [
         "data",
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
       "firstSeenAt": "2026-11-06T23:36:33.344Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
-    },
-    {
-      "id": "geeknews:36922",
-      "type": "article",
-      "title": "왜 이 모든 OT 시스템이 네트워크에 연결돼 있는지 이야기해 보자",
-      "summaryOriginal": "OT의 네트워크 연결은 운영 효율을 높이고 원격 제어를 도입하며 유지보수 비용을 줄이는 결정이 누적된 결과로, 이제 전력과 수도, 식품 보관에 깊이 얽혀 있어 단순히 끊기 어려움IT/OT 융합과 공급업체의 구축 방식 표준화로 산업 시스템의 비용은 줄었지만, 공격자가 익숙한 기술과 반복 가능한 구조가 확산돼 공격의 규모 확대와 자동화도 쉬워짐원격 지원은 산업 운영과 공급업체 계약의 일부가 됐으며, 공식 DMZ 외에도 현장 직원과 여러 업체가 설치한 접속 경로가 존재할 수 있음분산 설비와 예산 부족, 긴 수명주기가 겹치는…",
-      "url": "https://news.hada.io/topic?id=36922",
-      "tags": [],
-      "source": "geeknews",
-      "publishedAt": "2026-11-10T10:04:26+09:00",
-      "admitReason": "notable",
-      "summaryEn": "Explains how OT industrial systems ended up networked for remote control and lower costs, and why their standard, long-lived designs make attacks easier to scale.",
-      "summaryKo": "OT 산업 시스템이 원격 제어와 비용 절감을 위해 네트워크에 연결된 배경과, 표준화된 구조가 공격 확대를 쉽게 만드는 이유.",
-      "reasonEn": "Notable: rapidly established, posted today, ICS security",
-      "reasonKo": "오늘 게시, 산업 보안 주제로 빠르게 주목",
-      "categories": [
-        "infra"
-      ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
-      "firstSeenAt": "2026-11-10T01:50:05.048Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
-    },
-    {
-      "id": "geeknews:36918",
-      "type": "article",
-      "title": "TPU - 기밀 추론용 8tx와 대규모 컨텍스트용 8i Max 추가",
-      "summaryOriginal": "Google이 8세대 TPU에 TPU 8tx와 TPU 8i Max를 추가해, 대규모 학습부터 저지연 추론, 기밀 컴퓨팅, 대규모 컨텍스트까지 담당하는 네 가지 시스템을 구성함이번 확장은 새로운 칩 설계가 아니라 기존 실리콘의 패키징, 메모리, 네트워크, 보안을 조합한 시스템 구성 변경으로, 전문화된 하드웨어를 수년이 아닌 수개월 안에 개발하는 방식임TPU 8tx는 사용 중인 민감 데이터와 모델 가중치까지 하드웨어 수준에서 보호하며, TPU 8t 대비 지연 시간을 최대 절반으로 줄이고 같은 시스템에서 비공개 미세 조정과 에이전트 실행을 지원함…",
-      "url": "https://news.hada.io/topic?id=36918",
-      "tags": [],
-      "source": "geeknews",
-      "publishedAt": "2026-11-10T09:38:04+09:00",
-      "admitReason": "notable",
-      "summaryEn": "Google adds TPU 8tx for confidential inference and TPU 8i Max for large context, built by recombining existing silicon with new packaging, memory, and security.",
-      "summaryKo": "Google이 기밀 추론용 TPU 8tx와 대규모 컨텍스트용 TPU 8i Max를 추가, 기존 칩을 새 패키징과 메모리로 재구성.",
-      "reasonEn": "Notable: rapidly established, posted today, AI hardware",
-      "reasonKo": "오늘 게시, AI 하드웨어 주목",
-      "categories": [
-        "infra",
-        "ai-models"
-      ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
-      "firstSeenAt": "2026-11-10T01:50:05.048Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
       "id": "gh:dsx-ai-factory/nvke",

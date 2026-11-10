@@ -1,7 +1,7 @@
 {
   "version": 1,
   "category": "engineering",
-  "generatedAt": "2026-11-10T01:50:05.048Z",
+  "generatedAt": "2026-11-10T23:50:53.165Z",
   "ttlSeconds": 10800,
   "cards": [
     {
@@ -13,8 +13,8 @@
       "lang": "C++",
       "tags": [],
       "metrics": {
-        "stars": 16932,
-        "starsDelta": 574
+        "stars": 17338,
+        "starsDelta": 453
       },
       "source": "github-trending",
       "admitReason": "trending",
@@ -25,9 +25,9 @@
       "categories": [
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
       "firstSeenAt": "2026-11-10T01:50:05.048Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
       "id": "gh:shanselman/sandbox-mcp",
@@ -46,12 +46,12 @@
         "windows-sandbox"
       ],
       "metrics": {
-        "stars": 383
+        "stars": 401
       },
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-11-06T19:02:14Z",
-      "updatedAt": "2026-11-09T23:37:03Z",
+      "updatedAt": "2026-11-10T16:42:04Z",
       "summaryEn": "MCP server and CLI that automate Windows Sandbox to create disposable Windows machines for testing apps, including UI automation.",
       "summaryKo": "앱 테스트용 일회용 Windows 환경을 만들도록 Windows Sandbox를 자동화하는 MCP 서버와 CLI입니다.",
       "reasonEn": "New: 334 stars within 2 days of creation",
@@ -60,9 +60,9 @@
         "ai-agents",
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
       "firstSeenAt": "2026-11-08T22:37:27.812Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
       "id": "gh:google/artemis",
@@ -79,7 +79,7 @@
         "testing"
       ],
       "metrics": {
-        "stars": 17124
+        "stars": 17182
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -93,9 +93,9 @@
         "ai-agents",
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
       "firstSeenAt": "2026-09-10T21:20:01.286Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
       "id": "gh:seanhowarthdev/Roam-Control",
@@ -113,7 +113,7 @@
         "testing"
       ],
       "metrics": {
-        "stars": 1191
+        "stars": 1195
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -127,34 +127,61 @@
         "engineering",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
       "firstSeenAt": "2026-09-11T21:29:44.686Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
-      "id": "hn:50319143",
+      "id": "hn:50059523",
       "type": "article",
-      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
-      "summaryOriginal": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
-      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+      "title": "AI coding agents generate more code, but not more software",
+      "summaryOriginal": "AI coding agents generate more code, but not more software",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
       "tags": [],
       "metrics": {
-        "upvotes": 751,
-        "comments": 334
+        "upvotes": 365,
+        "comments": 314
       },
       "source": "hn",
-      "publishedAt": "2026-10-31T19:16:30Z",
+      "publishedAt": "2026-10-12T17:14:01Z",
       "admitReason": "notable",
-      "summaryEn": "Advisory for a TCP use-after-free vulnerability, CVE-2026-98432, rated CVSS 9.8. A critical memory-safety flaw in networking code that warrants patching.",
-      "summaryKo": "TCP use-after-free 취약점 CVE-2026-98432(CVSS 9.8) 공지. 네트워크 코드의 치명적 메모리 안전성 결함으로 패치 필요.",
-      "reasonEn": "751 upvotes and 334 comments within 9 days; CVSS 9.8",
-      "reasonKo": "9일 만에 추천 751, 댓글 334; CVSS 9.8",
+      "summaryEn": "Argues AI coding agents produce more code without proportionally more working software, raising questions about review, quality, and real productivity gains.",
+      "summaryKo": "AI 코딩 에이전트가 코드는 더 많이 만들지만 실제 동작하는 소프트웨어는 늘지 않는다는 주장.",
+      "reasonEn": "Notable discussion: 365 upvotes and 314 comments within 29 days",
+      "reasonKo": "29일 만에 추천 365, 댓글 314개로 주목받은 논의",
       "categories": [
+        "ai-agents",
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
-      "firstSeenAt": "2026-11-10T01:50:05.048Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
+      "firstSeenAt": "2026-11-10T23:50:53.165Z",
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
+    },
+    {
+      "id": "hn:50323088",
+      "type": "article",
+      "title": "The AI cost of JavaScript frameworks",
+      "summaryOriginal": "The AI cost of JavaScript frameworks",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 479,
+        "comments": 400
+      },
+      "source": "hn",
+      "publishedAt": "2026-11-01T06:06:19Z",
+      "admitReason": "notable",
+      "summaryEn": "Examines the compute and energy cost of JavaScript frameworks, questioning whether their overhead is worth it in an AI-heavy era.",
+      "summaryKo": "JavaScript 프레임워크의 연산·에너지 비용을 분석하고 그 오버헤드가 가치가 있는지 따져봄.",
+      "reasonEn": "479 upvotes and 400 comments within 9 days",
+      "reasonKo": "9일 만에 추천 479, 댓글 400개",
+      "categories": [
+        "web",
+        "engineering"
+      ],
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
+      "firstSeenAt": "2026-11-10T23:50:53.165Z",
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
       "id": "hn:50364336",
@@ -164,22 +191,22 @@
       "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
       "tags": [],
       "metrics": {
-        "upvotes": 1308,
-        "comments": 749
+        "upvotes": 1309,
+        "comments": 750
       },
       "source": "hn",
       "publishedAt": "2026-11-04T11:52:17Z",
       "admitReason": "notable",
-      "summaryEn": "An argument that AI tools are forcing teams to address decades of accumulated technical debt in codebases. A software engineering opinion piece.",
-      "summaryKo": "AI 도입으로 팀이 수십 년간 쌓인 코드 기술 부채를 해결해야 하게 되었다는 주장입니다.",
-      "reasonEn": "Notable: 1308 upvotes and 749 comments within 5 days",
-      "reasonKo": "게시 5일 만에 추천 1308, 댓글 749",
+      "summaryEn": "Essay arguing AI tools are exposing decades of accumulated technical debt that teams must now finally address.",
+      "summaryKo": "AI 도입이 수십 년 쌓인 기술 부채를 드러내고 이제 갚아야 한다고 주장하는 글.",
+      "reasonEn": "1309 upvotes and 750 comments within 6 days",
+      "reasonKo": "6일 만에 추천 1309, 댓글 750개",
       "categories": [
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
       "firstSeenAt": "2026-11-10T01:50:05.048Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
       "id": "hn:50069499",
@@ -195,16 +222,16 @@
       "source": "hn",
       "publishedAt": "2026-10-13T10:27:00Z",
       "admitReason": "notable",
-      "summaryEn": "Researchers found 11-year-old soundness bugs in Rust's borrow checker, where invalid code could pass safety checks. Important for Rust developers.",
-      "summaryKo": "Rust 빌림 검사기에서 11년 된 건전성 버그가 발견되어 잘못된 코드가 안전 검사를 통과할 수 있었습니다.",
-      "reasonEn": "Notable: 751 upvotes and 446 comments within 27 days",
-      "reasonKo": "게시 27일 만에 추천 751, 댓글 446",
+      "summaryEn": "Researchers found eleven-year-old soundness bugs in Rust's borrow checker, where unsound code could pass safety checks.",
+      "summaryKo": "Rust 빌림 검사기에서 11년 된 건전성(soundness) 버그가 발견됨. 안전 검사를 통과하는 위험한 코드가 가능했다는 내용.",
+      "reasonEn": "751 upvotes and 446 comments within 28 days",
+      "reasonKo": "28일 만에 추천 751, 댓글 446개",
       "categories": [
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
       "firstSeenAt": "2026-11-05T23:55:17.241Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
       "id": "hn:50389333",
@@ -215,47 +242,47 @@
       "tags": [],
       "metrics": {
         "upvotes": 738,
-        "comments": 290
+        "comments": 293
       },
       "source": "hn",
       "publishedAt": "2026-11-06T07:40:35Z",
       "admitReason": "notable",
-      "summaryEn": "Benchmarks and architecture notes comparing Blender's UI and runtime performance against GPUI, a Rust GUI framework. Useful for graphics tooling engineers.",
-      "summaryKo": "Blender의 UI와 런타임 성능을 Rust GUI 프레임워크 GPUI와 비교한 기술 분석입니다.",
-      "reasonEn": "Notable: 738 upvotes and 290 comments within 3 days",
-      "reasonKo": "게시 3일 만에 추천 738, 댓글 290",
+      "summaryEn": "Blender's engineers compare their UI and runtime performance against GPUI, showing where their custom stack outpaces it.",
+      "summaryKo": "Blender 엔지니어들이 자체 UI·런타임 성능을 GPUI와 비교한 기술 글.",
+      "reasonEn": "738 upvotes and 293 comments within 4 days",
+      "reasonKo": "게시 4일 만에 추천 738, 댓글 293개",
       "categories": [
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
       "firstSeenAt": "2026-11-08T22:37:27.812Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
-      "id": "hn:50418176",
+      "id": "hn:50319143",
       "type": "article",
-      "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
-      "summaryOriginal": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
-      "url": "https://ketchup3d.github.io/app/",
+      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "summaryOriginal": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
       "tags": [],
       "metrics": {
-        "upvotes": 732,
-        "comments": 225
+        "upvotes": 751,
+        "comments": 334
       },
       "source": "hn",
-      "publishedAt": "2026-11-08T22:35:35Z",
+      "publishedAt": "2026-10-31T19:16:30Z",
       "admitReason": "notable",
-      "summaryEn": "KetchUp is an open-source 3D modeling app, a SketchUp alternative built with Rust and WebGPU. Relevant as an example of a native-web graphics stack.",
-      "summaryKo": "KetchUp은 Rust와 WebGPU로 만든 오픈소스 3D 모델링 앱으로 SketchUp의 대안입니다.",
-      "reasonEn": "Notable: 732 upvotes and 225 comments within 1 day",
-      "reasonKo": "게시 1일 만에 추천 732, 댓글 225",
+      "summaryEn": "Disclosure of a use-after-free flaw in the Linux TCP stack, rated CVSS 9.8, so patching and exposure checks matter.",
+      "summaryKo": "Linux TCP 스택의 use-after-free 취약점 공개(CVSS 9.8)로, 패치와 노출 점검이 필요합니다.",
+      "reasonEn": "CVSS 9.8 flaw; 751 upvotes within 10 days",
+      "reasonKo": "CVSS 9.8 취약점, 10일 만에 추천 751",
       "categories": [
-        "web",
+        "infra",
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
       "firstSeenAt": "2026-11-10T01:50:05.048Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
       "id": "hn:50165953",
@@ -271,117 +298,95 @@
       "source": "hn",
       "publishedAt": "2026-10-20T13:18:07Z",
       "admitReason": "notable",
-      "summaryEn": "Tsrs is a port of the TypeScript compiler to Rust. Relevant to developers interested in faster TypeScript tooling and compiler design.",
-      "summaryKo": "TypeScript를 Rust로 옮긴 Tsrs 프로젝트입니다. 컴파일러 도구 성능에 관심 있는 개발자에게 유용합니다.",
-      "reasonEn": "Notable: 437 upvotes and 213 comments within 20 days",
-      "reasonKo": "20일 만에 추천 437, 댓글 213로 주목",
+      "summaryEn": "Tsrs is a port of the TypeScript compiler to Rust, aiming for faster type checking and builds in JS toolchains.",
+      "summaryKo": "Tsrs는 TypeScript를 Rust로 옮긴 프로젝트로, 더 빠른 타입 검사와 빌드를 목표로 합니다.",
+      "reasonEn": "437 upvotes and 213 comments on a 21-day-old post",
+      "reasonKo": "21일 된 글에 추천 437, 댓글 213",
       "categories": [
+        "devtools",
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
       "firstSeenAt": "2026-11-10T01:50:05.048Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
-      "id": "hn:50225695",
+      "id": "hn:50312408",
       "type": "article",
-      "title": "We should be more ambitious with the software we build",
-      "summaryOriginal": "We should be more ambitious with the software we build",
-      "url": "https://danluu.com/ambitious/",
+      "title": "Postgres 19 is late because so many more bugs are being found now",
+      "summaryOriginal": "Postgres 19 is late because so many more bugs are being found now",
+      "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
       "tags": [],
       "metrics": {
-        "upvotes": 919,
-        "comments": 780
+        "upvotes": 855,
+        "comments": 520
       },
       "source": "hn",
-      "publishedAt": "2026-10-24T21:47:31Z",
+      "publishedAt": "2026-10-31T01:38:56Z",
       "admitReason": "notable",
-      "summaryEn": "An essay urging engineers to build more ambitious software. A thoughtful piece on software engineering goals and scope.",
-      "summaryKo": "더 야심찬 소프트웨어를 만들자고 촉구하는 에세이입니다. 엔지니어링 목표를 생각하게 합니다.",
-      "reasonEn": "Notable: 919 upvotes and 780 comments within 16 days",
-      "reasonKo": "16일 만에 추천 919, 댓글 780로 주목",
+      "summaryEn": "Postgres 19 is delayed because testing finds many more bugs, showing how the release cycle is strained by defect discovery.",
+      "summaryKo": "Postgres 19는 더 많은 버그가 발견되어 출시가 늦어졌습니다. 결함 발견이 릴리스 일정을 압박하고 있습니다.",
+      "reasonEn": "855 upvotes and 520 comments within 10 days",
+      "reasonKo": "10일 만에 추천 855, 댓글 520",
       "categories": [
+        "data",
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
-      "firstSeenAt": "2026-11-02T09:23:53.161Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
+      "firstSeenAt": "2026-11-10T23:50:53.165Z",
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
-      "id": "hn:50218633",
+      "id": "hn:50119991",
       "type": "article",
-      "title": "Root shell on Samsung TV",
-      "summaryOriginal": "Root shell on Samsung TV",
-      "url": "https://twitter.com/log4j/status/2113014142600953868?s=46",
+      "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+      "summaryOriginal": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+      "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
       "tags": [],
       "metrics": {
-        "upvotes": 859,
-        "comments": 642
+        "upvotes": 227,
+        "comments": 93
       },
       "source": "hn",
-      "publishedAt": "2026-10-24T05:49:57Z",
+      "publishedAt": "2026-10-16T15:55:40Z",
       "admitReason": "notable",
-      "summaryEn": "A write-up on obtaining root shell access on a Samsung TV, detailing the device vulnerability and how it was exploited.",
-      "summaryKo": "삼성 TV에서 루트 셸을 얻은 취약점과 악용 방법을 다룬 글입니다.",
-      "reasonEn": "859 upvotes and 642 comments within 16 days of publication",
-      "reasonKo": "게시 16일 만에 추천 859, 댓글 642",
+      "summaryEn": "Postgres 19 is delayed because AI code reviewers surface more bugs than maintainers can fix, a sign of tooling changing review load.",
+      "summaryKo": "AI 코드 리뷰어가 유지보수자가 고칠 수 있는 것보다 많은 버그를 찾아 Postgres 19가 지연되었습니다.",
+      "reasonEn": "227 upvotes and 93 comments on a 25-day-old post",
+      "reasonKo": "25일 된 글에 추천 227, 댓글 93",
       "categories": [
+        "data",
         "engineering"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
-      "firstSeenAt": "2026-11-10T01:50:05.048Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
+      "firstSeenAt": "2026-11-10T23:50:53.165Z",
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
-      "id": "hn:50151036",
+      "id": "hn:50073633",
       "type": "article",
-      "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
-      "summaryOriginal": "Ask HN: How to deal with shipping AI-written code you don't understand?",
-      "url": "https://news.ycombinator.com/item?id=50151036",
+      "title": "Redesigning source control at Anthropic",
+      "summaryOriginal": "Redesigning source control at Anthropic",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
       "tags": [],
       "metrics": {
-        "upvotes": 630,
-        "comments": 767
+        "upvotes": 900,
+        "comments": 1014
       },
       "source": "hn",
-      "publishedAt": "2026-10-19T11:24:34Z",
+      "publishedAt": "2026-10-13T15:49:56Z",
       "admitReason": "notable",
-      "summaryEn": "A developer discussion on practices for reviewing and shipping AI-generated code that the team does not fully understand.",
-      "summaryKo": "팀이 완전히 이해하지 못한 AI 생성 코드를 검토하고 배포하는 방법에 대한 토론입니다.",
-      "reasonEn": "630 upvotes and 767 comments; heavy debate 21 days after posting",
-      "reasonKo": "공개 21일, 추천 630·댓글 767의 활발한 토론",
+      "summaryEn": "Anthropic describes how it is redesigning source control tooling for its engineering workflow. Useful as a look at version control rethinking at scale.",
+      "summaryKo": "Anthropic이 엔지니어링 워크플로에 맞춰 소스 컨트롤 도구를 재설계하는 방식을 설명합니다. 대규모 버전 관리 개선 사례로 참고할 만합니다.",
+      "reasonEn": "Notable: 900 upvotes and 614 comments within 28 days of posting",
+      "reasonKo": "주목: 게시 28일 만에 추천 900, 댓글 614",
       "categories": [
-        "ai-agents",
-        "engineering"
+        "engineering",
+        "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
-      "firstSeenAt": "2026-11-02T09:19:52.923Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
-    },
-    {
-      "id": "hn:50142573",
-      "type": "article",
-      "title": "Someone behind the software",
-      "summaryOriginal": "Someone behind the software",
-      "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 557,
-        "comments": 198
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-18T16:32:00Z",
-      "admitReason": "notable",
-      "summaryEn": "An essay about the people maintaining software behind the scenes, reflecting on the human labor that keeps projects running.",
-      "summaryKo": "소프트웨어 뒤에서 프로젝트를 유지하는 사람들의 노동에 관한 에세이입니다.",
-      "reasonEn": "557 upvotes and 198 comments within 22 days of posting",
-      "reasonKo": "공개 22일 만에 추천 557, 댓글 198",
-      "categories": [
-        "engineering"
-      ],
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
-      "firstSeenAt": "2026-11-08T22:37:27.812Z",
-      "lastSeenAt": "2026-11-10T01:50:05.048Z"
+      "metricsRefreshedAt": "2026-11-10T23:50:53.165Z",
+      "firstSeenAt": "2026-11-10T23:50:53.165Z",
+      "lastSeenAt": "2026-11-10T23:50:53.165Z"
     },
     {
       "id": "gh:cloudflare/security-audit-skill",
@@ -425,6 +430,7 @@
         "stars": 121707
       },
       "source": "github-trending",
+      "updatedAt": "2026-11-10T01:12:11Z",
       "firstSeenAt": "2026-10-14T21:59:54.837Z",
       "lastSeenAt": "2026-11-06T23:36:33.344Z",
       "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
@@ -432,8 +438,7 @@
       "summaryEn": "The Rust programming language compiler and standard library, empowering everyone to build reliable and efficient software.",
       "summaryKo": "신뢰할 수 있고 효율적인 소프트웨어를 구축할 수 있게 해주는 러스트 컴파일러와 표준 라이브러리입니다.",
       "reasonEn": "Trending with 205 stars today (119.9K total stars)",
-      "reasonKo": "오늘 205개의 스타를 얻으며 트렌딩 중 (총 11.99만 개)",
-      "updatedAt": "2026-11-10T01:12:11Z"
+      "reasonKo": "오늘 205개의 스타를 얻으며 트렌딩 중 (총 11.99만 개)"
     },
     {
       "id": "gh:github/spec-kit",
