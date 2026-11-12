@@ -1,52 +1,82 @@
 {
   "version": 1,
   "category": "ai-models",
-  "generatedAt": "2026-11-12T01:13:41.978Z",
+  "generatedAt": "2026-11-12T23:56:23.711Z",
   "ttlSeconds": 10800,
   "cards": [
     {
-      "id": "gh:ZhuLinsen/daily_stock_analysis",
+      "id": "gh:ashhart/TensorFold",
       "type": "repo",
-      "title": "ZhuLinsen/daily_stock_analysis",
-      "summaryOriginal": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "lang": "Python",
+      "title": "ashhart/TensorFold",
+      "summaryOriginal": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+      "url": "https://github.com/ashhart/TensorFold",
+      "lang": "Zig",
       "tags": [],
       "metrics": {
-        "stars": 70265,
-        "starsDelta": 278
+        "stars": 1927,
+        "starsDelta": 94
       },
       "source": "github-trending",
       "admitReason": "trending",
-      "summaryEn": "LLM-driven stock analysis across multiple markets with live news, a dashboard, and free scheduled runs.",
-      "summaryKo": "LLM 기반 다중 시장 주식 분석, 실시간 뉴스·대시보드·무료 예약 실행 지원.",
-      "reasonEn": "Trending: 68.9K stars, up 506 today",
-      "reasonKo": "트렌딩: 전체 6.89만 스타, 오늘 +506",
+      "summaryEn": "Inference engine for running LLMs on Metal, CUDA and Vulkan GPUs. Early-stage project; check benchmarks before relying on it.",
+      "summaryKo": "Metal, CUDA, Vulkan GPU에서 LLM을 추론하는 엔진이다. 초기 단계 프로젝트다.",
+      "reasonEn": "+94 stars today, 1.9K total",
+      "reasonKo": "오늘 +94 스타, 누적 1.9K",
       "categories": [
         "ai-models"
       ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-11-10T01:50:05.048Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-12T23:56:23.711Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "gh:ggml-org/llama.cpp",
+      "type": "repo",
+      "title": "ggml-org/llama.cpp",
+      "summaryOriginal": "LLM inference in C/C++",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "lang": "C++",
+      "tags": [],
+      "metrics": {
+        "stars": 134537,
+        "starsDelta": 287
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "C/C++ library for running LLM inference locally on CPUs and GPUs, with GGUF model support. A widely used base for local AI tools.",
+      "summaryKo": "CPU와 GPU에서 LLM을 로컬 추론하는 C/C++ 라이브러리다. GGUF 모델을 지원한다.",
+      "reasonEn": "134.5K stars; +287 stars today",
+      "reasonKo": "누적 134.5K 스타, 오늘 +287",
+      "categories": [
+        "ai-models"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-12T23:56:23.711Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
     },
     {
       "id": "gh:N1nEmAn/sapper-v2",
       "type": "repo",
       "title": "N1nEmAn/sapper-v2",
-      "summaryOriginal": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
+      "summaryOriginal": "The first fruit of the Nüwa tree — an autonomous AI pentest legion (634-team champion, 8h unattended, 1B tokens beat 4.5B). Not just a tool: evolvable by design. Grow your own fruit on the Nüwa Foundation (Create/Language/History).",
       "url": "https://github.com/N1nEmAn/sapper-v2",
       "lang": "Python",
       "tags": [
+        "agentic-workflows",
         "ai-agents",
+        "ai-security",
         "autonomous-agents",
         "claude-code",
         "ctf",
+        "cybersecurity",
+        "fact-graph",
         "llm",
         "multi-agent",
-        "pentest"
+        "pentest",
+        "swarm-intelligence"
       ],
       "metrics": {
-        "stars": 1990
+        "stars": 2019
       },
       "source": "github-search",
       "admitReason": "new",
@@ -60,9 +90,9 @@
         "ai-models",
         "ai-agents"
       ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
       "firstSeenAt": "2026-10-31T22:07:10.334Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
     },
     {
       "id": "gh:Sandflow-ai/sand3d",
@@ -81,12 +111,12 @@
         "usd"
       ],
       "metrics": {
-        "stars": 1856
+        "stars": 1920
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-11-03T08:23:03Z",
-      "updatedAt": "2026-11-11T11:48:05Z",
+      "updatedAt": "2026-11-12T16:28:07Z",
       "summaryEn": "Python library for procedural 3D modeling (Blender, CAD, USD output) designed for LLMs to generate geometry.",
       "summaryKo": "LLM이 기하 구조를 생성하도록 설계된 파이썬 절차적 3D 모델링 라이브러리 (Blender, CAD, USD 출력 지원).",
       "reasonEn": "777 stars within 3 days of creation",
@@ -94,9 +124,9 @@
       "categories": [
         "ai-models"
       ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
       "firstSeenAt": "2026-11-06T23:36:33.344Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
     },
     {
       "id": "gh:RunanywhereAI/trnrt",
@@ -118,7 +148,7 @@
         "trainium"
       ],
       "metrics": {
-        "stars": 1321
+        "stars": 1565
       },
       "source": "github-search",
       "admitReason": "new",
@@ -131,9 +161,49 @@
       "categories": [
         "ai-models"
       ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
       "firstSeenAt": "2026-11-10T23:50:53.165Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "gh:agentes-chat/agentes-chat",
+      "type": "repo",
+      "title": "agentes-chat/agentes-chat",
+      "summaryOriginal": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
+      "url": "https://github.com/agentes-chat/agentes-chat",
+      "lang": "TypeScript",
+      "tags": [
+        "agentic-ai",
+        "ai-agents",
+        "browser-automation",
+        "chat",
+        "claude",
+        "claude-code",
+        "codex",
+        "collaboration",
+        "computer-use",
+        "docker-compose",
+        "gemini",
+        "grok"
+      ],
+      "metrics": {
+        "stars": 1156
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-11-09T00:50:28Z",
+      "updatedAt": "2026-11-12T23:56:42Z",
+      "summaryEn": "Self-hosted Slack alternative where team members and AI agents share channels, with MCP tools, memory and approvals. Docker Compose plus Postgres; AGPL-3.0.",
+      "summaryKo": "팀원과 AI 에이전트가 채널에서 함께 일하는 자체 호스팅 Slack 대안. Docker Compose와 Postgres 기반.",
+      "reasonEn": "1.2K stars within 3 days of creation",
+      "reasonKo": "생성 3일 만에 1.2K 스타",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-12T23:56:23.711Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
     },
     {
       "id": "gh:SAOS-3624/dsh-see-now",
@@ -154,7 +224,7 @@
         "vision"
       ],
       "metrics": {
-        "stars": 589
+        "stars": 609
       },
       "source": "github-search",
       "admitReason": "new",
@@ -167,9 +237,9 @@
       "categories": [
         "ai-models"
       ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
       "firstSeenAt": "2026-11-05T00:04:20.450Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
     },
     {
       "id": "gh:aa1143/NamiAgent",
@@ -191,7 +261,7 @@
         "tutorial"
       ],
       "metrics": {
-        "stars": 500
+        "stars": 510
       },
       "source": "github-search",
       "admitReason": "new",
@@ -205,9 +275,9 @@
         "ai-models",
         "ai-agents"
       ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
       "firstSeenAt": "2026-11-05T00:04:20.450Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
     },
     {
       "id": "gh:Dodaios/ste80-humanizer",
@@ -231,7 +301,7 @@
         "plain-language"
       ],
       "metrics": {
-        "stars": 406
+        "stars": 456
       },
       "source": "github-search",
       "admitReason": "new",
@@ -244,9 +314,9 @@
       "categories": [
         "ai-models"
       ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
       "firstSeenAt": "2026-11-10T23:50:53.165Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
     },
     {
       "id": "gh:Interactive-Active-AI/NextTransformer",
@@ -269,7 +339,7 @@
         "transformer"
       ],
       "metrics": {
-        "stars": 404
+        "stars": 408
       },
       "source": "github-search",
       "admitReason": "new",
@@ -282,9 +352,80 @@
       "categories": [
         "ai-models"
       ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
       "firstSeenAt": "2026-11-05T23:55:17.241Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "gh:zaxiu88888/issue-rag",
+      "type": "repo",
+      "title": "zaxiu88888/issue-rag",
+      "summaryOriginal": "RAG over GitHub issues, with a hand-reviewed eval set and an audit of the judge itself. Reports the interval, not just the best number.",
+      "url": "https://github.com/zaxiu88888/issue-rag",
+      "lang": "Python",
+      "tags": [
+        "evaluation",
+        "github-issues",
+        "llm",
+        "llm-as-judge",
+        "python",
+        "rag",
+        "retrieval-augmented-generation"
+      ],
+      "metrics": {
+        "stars": 336
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-11-01T11:32:25Z",
+      "updatedAt": "2026-11-04T06:19:04Z",
+      "summaryEn": "RAG system over GitHub issues with a hand-reviewed eval set, plus an audit of its LLM judge and reported confidence intervals.",
+      "summaryKo": "GitHub 이슈 대상 RAG 시스템. 사람이 검토한 평가셋과 LLM 판정기 감사를 포함한다.",
+      "reasonEn": "336 stars within 11 days of creation",
+      "reasonKo": "생성 11일 만에 336 스타",
+      "categories": [
+        "ai-models"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-12T23:56:23.711Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "gh:Juneo-Lab/decision-forge",
+      "type": "repo",
+      "title": "Juneo-Lab/decision-forge",
+      "summaryOriginal": "Compile organizational policy into verifiable decision training data.",
+      "url": "https://github.com/Juneo-Lab/decision-forge",
+      "lang": "Python",
+      "tags": [
+        "ai-agents",
+        "data-provenance",
+        "decision-data",
+        "fine-tuning",
+        "llm",
+        "policy-as-code",
+        "python",
+        "synthetic-data",
+        "training-data"
+      ],
+      "metrics": {
+        "stars": 335
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-10-30T17:35:48Z",
+      "updatedAt": "2026-11-08T06:43:02Z",
+      "summaryEn": "Compiles organizational policy into verifiable decision training data for fine-tuning LLMs, with data provenance and synthetic data tooling.",
+      "summaryKo": "조직 정책을 검증 가능한 의사결정 학습 데이터로 바꿔 LLM 파인튜닝에 쓰는 도구다.",
+      "reasonEn": "335 stars within 13 days of creation",
+      "reasonKo": "생성 13일 만에 335 스타",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-12T23:56:23.711Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
     },
     {
       "id": "gh:yucezerey/turkish-anti-ai-skill",
@@ -308,7 +449,7 @@
         "tdk"
       ],
       "metrics": {
-        "stars": 304
+        "stars": 308
       },
       "source": "github-search",
       "admitReason": "new",
@@ -321,9 +462,9 @@
       "categories": [
         "ai-models"
       ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
       "firstSeenAt": "2026-11-10T23:50:53.165Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
     },
     {
       "id": "gh:Ebony-Vinyl/dsh-our-free-model",
@@ -345,7 +486,7 @@
         "openai-compatible"
       ],
       "metrics": {
-        "stars": 70049
+        "stars": 71300
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -360,9 +501,9 @@
         "ai-agents",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
       "firstSeenAt": "2026-10-06T00:31:42.162Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
     },
     {
       "id": "gh:yetone/magpie",
@@ -380,12 +521,12 @@
         "macos"
       ],
       "metrics": {
-        "stars": 34721
+        "stars": 35399
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-09-23T16:22:35Z",
-      "updatedAt": "2026-11-12T00:41:54Z",
+      "updatedAt": "2026-11-12T23:52:59Z",
       "summaryEn": "A menu bar utility that consolidates multiple AI coding models and agents into a single access point for developers.",
       "summaryKo": "여러 AI 코딩 모델과 에이전트를 메뉴 바에서 한곳에 모아 사용할 수 있는 유틸리티입니다.",
       "reasonEn": "Created 1 day ago with 595 stars",
@@ -393,9 +534,9 @@
       "categories": [
         "ai-models"
       ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
       "firstSeenAt": "2026-09-24T21:54:59.755Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
     },
     {
       "id": "gh:ccch1mneyyy/dsh-Go",
@@ -418,12 +559,12 @@
         "llm"
       ],
       "metrics": {
-        "stars": 19731
+        "stars": 20720
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-10-25T08:09:52Z",
-      "updatedAt": "2026-11-12T01:12:33Z",
+      "updatedAt": "2026-11-12T23:47:08Z",
       "summaryEn": "DeepSeek Harness runner for Android, enabling local execution and remote control of your PC.",
       "summaryKo": "안드로이드용 DeepSeek Harness 실행 및 PC 원격 제어 도구.",
       "reasonEn": "2.4K stars within 5 days of launch.",
@@ -431,9 +572,9 @@
       "categories": [
         "ai-models"
       ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
       "firstSeenAt": "2026-10-30T22:44:49.535Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
     },
     {
       "id": "gh:google/elephant-goldfish-model",
@@ -457,12 +598,12 @@
         "gemini"
       ],
       "metrics": {
-        "stars": 17693
+        "stars": 18169
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-09-13T16:31:06Z",
-      "updatedAt": "2026-11-11T23:57:19Z",
+      "updatedAt": "2026-11-12T21:42:19Z",
       "summaryEn": "An open-source methodology and skill set created at Google for spec-driven development workflows with LLMs.",
       "summaryKo": "LLM을 활용한 사양 주도 개발 워크플로우를 위해 구글에서 제작한 오픈소스 방법론.",
       "reasonEn": "Notable with 1.7K stars after 43 days",
@@ -472,9 +613,9 @@
         "ai-agents",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
       "firstSeenAt": "2026-10-27T22:47:56.693Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
     },
     {
       "id": "gh:KKKKhazix/AIHOT",
@@ -498,12 +639,12 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 10390
+        "stars": 10494
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-09-28T23:40:05Z",
-      "updatedAt": "2026-11-11T08:35:17Z",
+      "updatedAt": "2026-11-12T14:50:37Z",
       "summaryEn": "An open-source website framework that automatically discovers trending topics and writes daily digests, helping you build industry news sites.",
       "summaryKo": "트렌딩 토픽을 자동으로 찾아 일일 다이제스트를 작성해주는 오픈소스 웹사이트 프레임워크입니다.",
       "reasonEn": "3.0K stars",
@@ -513,9 +654,44 @@
         "ai-agents",
         "web"
       ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
       "firstSeenAt": "2026-09-29T22:47:33.822Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "gh:wangzan101/Mika",
+      "type": "repo",
+      "title": "wangzan101/Mika",
+      "summaryOriginal": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+      "url": "https://github.com/wangzan101/Mika",
+      "lang": "Kotlin",
+      "tags": [
+        "accessibility",
+        "ai-agent",
+        "android",
+        "automation",
+        "jetpack-compose",
+        "kotlin",
+        "llm",
+        "mobile-agent"
+      ],
+      "metrics": {
+        "stars": 8397
+      },
+      "source": "github-search",
+      "admitReason": "notable",
+      "publishedAt": "2026-10-29T14:34:07Z",
+      "updatedAt": "2026-11-12T13:00:34Z",
+      "summaryEn": "An on-device AI agent for Android that automates apps and web browsing.",
+      "summaryKo": "앱과 웹 브라우징을 자동화하는 안드로이드 온디바이스 AI 에이전트.",
+      "reasonEn": "1.1K stars within 1 day of launch.",
+      "reasonKo": "출시 1일 만에 1.1K 스타 획득.",
+      "categories": [
+        "ai-models"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-10-30T22:44:49.535Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
     },
     {
       "id": "gh:jev-chat/jev-chat-jarvis",
@@ -536,7 +712,7 @@
         "whatsapp"
       ],
       "metrics": {
-        "stars": 8337
+        "stars": 8356
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -549,44 +725,9 @@
       "categories": [
         "ai-models"
       ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
       "firstSeenAt": "2026-09-22T21:44:36.199Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
-    },
-    {
-      "id": "gh:wangzan101/Mika",
-      "type": "repo",
-      "title": "wangzan101/Mika",
-      "summaryOriginal": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
-      "url": "https://github.com/wangzan101/Mika",
-      "lang": "Kotlin",
-      "tags": [
-        "accessibility",
-        "ai-agent",
-        "android",
-        "automation",
-        "jetpack-compose",
-        "kotlin",
-        "llm",
-        "mobile-agent"
-      ],
-      "metrics": {
-        "stars": 8250
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2026-10-29T14:34:07Z",
-      "updatedAt": "2026-11-11T17:21:56Z",
-      "summaryEn": "An on-device AI agent for Android that automates apps and web browsing.",
-      "summaryKo": "앱과 웹 브라우징을 자동화하는 안드로이드 온디바이스 AI 에이전트.",
-      "reasonEn": "1.1K stars within 1 day of launch.",
-      "reasonKo": "출시 1일 만에 1.1K 스타 획득.",
-      "categories": [
-        "ai-models"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-10-30T22:44:49.535Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
     },
     {
       "id": "gh:Human-Agent-Society/reef",
@@ -606,12 +747,12 @@
         "self-improving-agents"
       ],
       "metrics": {
-        "stars": 7802
+        "stars": 7808
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-08-31T01:39:18Z",
-      "updatedAt": "2026-11-11T23:16:54Z",
+      "updatedAt": "2026-11-12T22:02:19Z",
       "summaryEn": "Continual learning infrastructure built for self-improving AI agents.",
       "summaryKo": "스스로 학습하고 발전하는 AI 에이전트를 위한 지속적 학습 인프라입니다.",
       "reasonEn": "Interest in self-improving AI agent loops.",
@@ -620,9 +761,9 @@
         "ai-models",
         "ai-agents"
       ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
       "firstSeenAt": "2026-09-02T22:54:08.675Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
     },
     {
       "id": "gh:bojieli/ai-infra-book",
@@ -646,7 +787,7 @@
         "llm-serving"
       ],
       "metrics": {
-        "stars": 7494
+        "stars": 7516
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -660,248 +801,9 @@
         "ai-models",
         "backend"
       ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
       "firstSeenAt": "2026-09-15T21:52:44.143Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
-    },
-    {
-      "id": "gh:QingYunA/answer-me-with-html",
-      "type": "repo",
-      "title": "QingYunA/answer-me-with-html",
-      "summaryOriginal": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
-      "url": "https://github.com/QingYunA/answer-me-with-html",
-      "lang": "JavaScript",
-      "tags": [
-        "agent-skill",
-        "ai-agent",
-        "claude-code",
-        "claude-code-skill",
-        "claude-skill",
-        "claude-skills",
-        "cli",
-        "diagram",
-        "dsh-plugin",
-        "explainer",
-        "html",
-        "llm"
-      ],
-      "metrics": {
-        "stars": 6239
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2026-10-02T09:57:40Z",
-      "updatedAt": "2026-11-11T19:55:14Z",
-      "summaryEn": "An agent skill that translates complex questions into clear, readable one-page HTML documents to help AI agents present answers effectively.",
-      "summaryKo": "복잡한 질문에 대해 AI 에이전트가 한 페이지 HTML 문서로 답변하게 돕는 스킬입니다.",
-      "reasonEn": "1.0K stars within 2 days of launch",
-      "reasonKo": "출시 2일 만에 1.0K 스타 획득",
-      "categories": [
-        "ai-models",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-10-04T22:09:02.469Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
-    },
-    {
-      "id": "gh:microsoft/TokenEconomizer",
-      "type": "repo",
-      "title": "microsoft/TokenEconomizer",
-      "summaryOriginal": "Experience-Driven Black-Box Cost Control for Coding Agents",
-      "url": "https://github.com/microsoft/TokenEconomizer",
-      "lang": "Python",
-      "tags": [
-        "agentic-ai",
-        "agentic-coding",
-        "ai-coding",
-        "ai-coding-assistant",
-        "anthropic",
-        "artificial-intelligence",
-        "claude-code",
-        "codex",
-        "coding-agent",
-        "coding-agents",
-        "cost-optimization",
-        "cost-reduction"
-      ],
-      "metrics": {
-        "stars": 5739
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2026-10-13T04:16:50Z",
-      "updatedAt": "2026-11-12T00:30:28Z",
-      "summaryEn": "Experience-driven black-box cost control tool for optimizing token usage in AI coding agents.",
-      "summaryKo": "AI 코딩 에이전트의 토큰 비용을 제어하는 최적화 도구입니다.",
-      "reasonEn": "2.9K stars within 18 days",
-      "reasonKo": "18일 만에 2.9천 개 스타 획득",
-      "categories": [
-        "ai-models",
-        "ai-agents",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-11-03T01:25:46.164Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
-    },
-    {
-      "id": "gh:AienTech/dossier",
-      "type": "repo",
-      "title": "AienTech/dossier",
-      "summaryOriginal": "A self-hosted job search and resume builder app that writes tailored resumes and cover letters from your profile.",
-      "url": "https://github.com/AienTech/dossier",
-      "lang": "TypeScript",
-      "tags": [
-        "caprover",
-        "cover-letter",
-        "docker",
-        "job-application-tracker",
-        "job-search",
-        "llm",
-        "local-llm",
-        "nextjs",
-        "ollama",
-        "postgresql",
-        "resume",
-        "self-hosted"
-      ],
-      "metrics": {
-        "stars": 5034
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2026-10-03T21:26:15Z",
-      "updatedAt": "2026-11-08T13:29:38Z",
-      "summaryEn": "Dossier is a self-hosted job search app that uses local LLMs to generate tailored resumes and cover letters from your profile.",
-      "summaryKo": "로컬 LLM을 사용해 맞춤형 이력서와 자기소개서를 작성하는 자바주최 구직 앱입니다.",
-      "reasonEn": "1.4K stars within 24 days",
-      "reasonKo": "24일 만에 1.4K개 스타 획득",
-      "categories": [
-        "ai-models",
-        "web",
-        "infra"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-11-05T23:55:17.241Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
-    },
-    {
-      "id": "gh:onehumanbeing/esp32-iphone-agent",
-      "type": "repo",
-      "title": "onehumanbeing/esp32-iphone-agent",
-      "summaryOriginal": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
-      "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
-      "lang": "Swift",
-      "tags": [
-        "ai-agent",
-        "airplay",
-        "automation",
-        "computer-use",
-        "dsh-plugin",
-        "esp32",
-        "esp32-s3",
-        "iphone",
-        "llm",
-        "usb-hid"
-      ],
-      "metrics": {
-        "stars": 4853
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2026-10-11T19:10:25Z",
-      "updatedAt": "2026-11-11T20:56:50Z",
-      "summaryEn": "Allows an AI model to control a real iPhone using a $7 ESP32 via AirPlay and USB HID without jailbreaking.",
-      "summaryKo": "탈옥 없이 7달러짜리 ESP32와 AirPlay를 이용해 AI가 실제 아이폰을 제어하게 합니다.",
-      "reasonEn": "638 stars within 1 day of launch",
-      "reasonKo": "출시 하루 만에 638개의 별 획득",
-      "categories": [
-        "ai-models"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-10-13T01:04:05.704Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
-    },
-    {
-      "id": "gh:tigerless-labs/agent-memory",
-      "type": "repo",
-      "title": "tigerless-labs/agent-memory",
-      "summaryOriginal": "Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer. Claude Code and Codex share one store. No API key.",
-      "url": "https://github.com/tigerless-labs/agent-memory",
-      "lang": "Python",
-      "tags": [
-        "agent-memory",
-        "ai-agents",
-        "claude-code",
-        "codex",
-        "llm",
-        "local-first",
-        "long-term-memory",
-        "markdown",
-        "mcp",
-        "python",
-        "retrieval",
-        "sqlite"
-      ],
-      "metrics": {
-        "stars": 4315
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2026-09-01T21:52:29Z",
-      "updatedAt": "2026-11-10T18:16:04Z",
-      "summaryEn": "Long-term memory runtime for AI agents using local Markdown files and ranked retrieval, sharing state between Claude Code and Codex without API keys.",
-      "summaryKo": "로컬 마크다운을 활용해 AI 에이전트의 장기 기억을 관리하는 런타임입니다.",
-      "reasonEn": "616 stars within 6 days of launch",
-      "reasonKo": "출시 6일 만에 616개 스타 획득",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-09-08T21:31:48.079Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
-    },
-    {
-      "id": "gh:Nanako0129/sepia",
-      "type": "repo",
-      "title": "Nanako0129/sepia",
-      "summaryOriginal": "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).",
-      "url": "https://github.com/Nanako0129/sepia",
-      "lang": "Python",
-      "tags": [
-        "agent-skills",
-        "ai-writing",
-        "antigravity",
-        "claude-code",
-        "codex",
-        "developer-tools",
-        "fiction",
-        "grok",
-        "humanizer",
-        "llm",
-        "prompt-engineering",
-        "writing-tools"
-      ],
-      "metrics": {
-        "stars": 3787
-      },
-      "source": "github-search",
-      "admitReason": "notable",
-      "publishedAt": "2026-08-28T05:56:49Z",
-      "updatedAt": "2026-11-03T05:53:57Z",
-      "summaryEn": "De-AI writing skill for Claude Code, Codex, and Grok, providing narrative-architecture repair and venue-matched rules for prose.",
-      "summaryKo": "Claude Code, Codex, Grok용 AI 글쓰기 교정 스킬로 서사 구조를 보정합니다.",
-      "reasonEn": "Gaining attention for AI writing workflow adjustments",
-      "reasonKo": "AI 글쓰기 워크플로우 조정으로 주목받는 중",
-      "categories": [
-        "ai-models",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-08-29T02:56:27.939Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
     },
     {
       "id": "hf-model:xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
@@ -925,9 +827,9 @@
         "gspo"
       ],
       "metrics": {
-        "likes": 3229,
-        "downloads": 16693,
-        "trendingScore": 2186
+        "likes": 4719,
+        "downloads": 18933,
+        "trendingScore": 2910
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -940,9 +842,9 @@
         "ai-models",
         "ai-agents"
       ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
       "firstSeenAt": "2026-11-07T22:27:25.332Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
     },
     {
       "id": "hf-model:MiniMaxAI/MiniMax-H3-Image",
@@ -966,9 +868,9 @@
         "region:us"
       ],
       "metrics": {
-        "likes": 714,
-        "downloads": 142989,
-        "trendingScore": 693
+        "likes": 866,
+        "downloads": 306718,
+        "trendingScore": 822
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -981,44 +883,9 @@
         "ai-models",
         "ai-agents"
       ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
       "firstSeenAt": "2026-11-10T23:50:53.165Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
-    },
-    {
-      "id": "hf-model:speridlabs/idol",
-      "type": "model",
-      "title": "speridlabs/idol",
-      "summaryOriginal": "image-to-3d model · idol, gaussian-splatting, 3d, image-to-3d, license:apache-2.0",
-      "url": "https://huggingface.co/speridlabs/idol",
-      "lang": "image-to-3d",
-      "tags": [
-        "idol",
-        "gaussian-splatting",
-        "3d",
-        "image-to-3d",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "metrics": {
-        "likes": 2144,
-        "downloads": 28250,
-        "trendingScore": 488.5
-      },
-      "source": "hf-models",
-      "admitReason": "trending",
-      "publishedAt": "2026-10-28T15:55:17.000Z",
-      "summaryEn": "Image-to-3D model built on Gaussian splatting, released under Apache-2.0 on Hugging Face.",
-      "summaryKo": "가우시안 스플래팅 기반 이미지-3D 모델, Apache-2.0 라이선스로 Hugging Face에 공개.",
-      "reasonEn": "Trending score 330 and 347 likes within 4 days",
-      "reasonKo": "트렌딩 점수 330, 공개 4일 만에 좋아요 347개",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-11-02T09:19:52.923Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
     },
     {
       "id": "hf-model:NousResearch/Arete-27B",
@@ -1042,9 +909,9 @@
         "license:apache-2.0"
       ],
       "metrics": {
-        "likes": 437,
-        "downloads": 4023,
-        "trendingScore": 416
+        "likes": 484,
+        "downloads": 4669,
+        "trendingScore": 455
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1057,9 +924,44 @@
         "ai-models",
         "ai-agents"
       ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
       "firstSeenAt": "2026-11-10T01:50:05.048Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "hf-model:speridlabs/idol",
+      "type": "model",
+      "title": "speridlabs/idol",
+      "summaryOriginal": "image-to-3d model · idol, gaussian-splatting, 3d, image-to-3d, license:apache-2.0",
+      "url": "https://huggingface.co/speridlabs/idol",
+      "lang": "image-to-3d",
+      "tags": [
+        "idol",
+        "gaussian-splatting",
+        "3d",
+        "image-to-3d",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "metrics": {
+        "likes": 2230,
+        "downloads": 29904,
+        "trendingScore": 427
+      },
+      "source": "hf-models",
+      "admitReason": "trending",
+      "publishedAt": "2026-10-28T15:55:17.000Z",
+      "summaryEn": "Image-to-3D model built on Gaussian splatting, released under Apache-2.0 on Hugging Face.",
+      "summaryKo": "가우시안 스플래팅 기반 이미지-3D 모델, Apache-2.0 라이선스로 Hugging Face에 공개.",
+      "reasonEn": "Trending score 330 and 347 likes within 4 days",
+      "reasonKo": "트렌딩 점수 330, 공개 4일 만에 좋아요 347개",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-02T09:19:52.923Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
     },
     {
       "id": "hf-model:Lightricks/LTX-2.5",
@@ -1083,9 +985,9 @@
         "image-text-to-audio-video"
       ],
       "metrics": {
-        "likes": 11516,
-        "downloads": 2848771,
-        "trendingScore": 404
+        "likes": 11628,
+        "downloads": 2782513,
+        "trendingScore": 407
       },
       "source": "hf-models",
       "admitReason": "trending",
@@ -1098,13 +1000,934 @@
         "ai-models",
         "ai-agents"
       ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "hf-model:Qwen/Qwen3.8-27B",
+      "type": "model",
+      "title": "Qwen/Qwen3.8-27B",
+      "summaryOriginal": "image-text-to-text model · transformers, safetensors, qwen3_5, image-text-to-text, conversational",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "lang": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "conversational",
+        "license:apache-2.0",
+        "eval-results",
+        "endpoints_compatible",
+        "deploy:azure",
+        "deploy:sagemaker",
+        "region:us"
+      ],
+      "metrics": {
+        "likes": 19742,
+        "downloads": 7094218,
+        "trendingScore": 355
+      },
+      "source": "hf-models",
+      "admitReason": "trending",
+      "publishedAt": "2026-08-05T08:22:59.000Z",
+      "summaryEn": "Qwen's 27B multimodal model for image-and-text-to-text tasks and conversation.",
+      "summaryKo": "이미지·텍스트를 함께 처리하는 Qwen의 27B 멀티모달 대화 모델",
+      "reasonEn": "Trending score and likes spike despite near-zero downloads.",
+      "reasonKo": "다운로드는 적지만 트렌딩 점수·좋아요 급증, 신규 공개 화제",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "hf-model:DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+      "type": "model",
+      "title": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+      "summaryOriginal": "image-text-to-text model · gguf, unsloth, fine tune, heretic, uncensored",
+      "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+      "lang": "image-text-to-text",
+      "tags": [
+        "gguf",
+        "unsloth",
+        "fine tune",
+        "heretic",
+        "uncensored",
+        "abliterated",
+        "ara",
+        "MTP GGUF Quants",
+        "Regular GGUF Quants",
+        "qwen3_8",
+        "qwen3_6",
+        "qwen3_5"
+      ],
+      "metrics": {
+        "likes": 2978,
+        "downloads": 1599836,
+        "trendingScore": 349
+      },
+      "source": "hf-models",
+      "admitReason": "trending",
+      "publishedAt": "2026-09-01T07:01:09.000Z",
+      "summaryEn": "Community fine-tune of a 27B Qwen model in GGUF quantized format, with safety refusals removed, for running locally with llama.cpp-style tools.",
+      "summaryKo": "27B Qwen 모델의 커뮤니티 파인튜닝 GGUF 양자화 버전으로, 안전 거부 응답이 제거되어 있고 로컬 실행용입니다.",
+      "reasonEn": "Trending: 2.7K likes and 1.55M downloads in 68 days",
+      "reasonKo": "트렌딩: 68일간 좋아요 2.7K, 다운로드 155만회",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-08T22:37:27.812Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "hf-model:ccore/Qwen3.5-4B-3D-Coder",
+      "type": "model",
+      "title": "ccore/Qwen3.5-4B-3D-Coder",
+      "summaryOriginal": "model · safetensors, gguf, qwen3_5, code, threejs",
+      "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+      "tags": [
+        "safetensors",
+        "gguf",
+        "qwen3_5",
+        "code",
+        "threejs",
+        "3d",
+        "preview",
+        "dataset:ccore/ThreeJS-3D-Scenes",
+        "base_model:Qwen/Qwen3.5-4B",
+        "base_model:finetune:Qwen/Qwen3.5-4B",
+        "license:apache-2.0",
+        "endpoints_compatible"
+      ],
+      "metrics": {
+        "likes": 1048,
+        "downloads": 368236,
+        "trendingScore": 301
+      },
+      "source": "hf-models",
+      "admitReason": "trending",
+      "publishedAt": "2026-10-25T05:43:34.000Z",
+      "summaryEn": "Small language model specialized for Three.js and 3D coding tasks, provided in safetensors and GGUF formats.",
+      "summaryKo": "Three.js 및 3D 코딩 작업에 특화된 소형 언어 모델입니다.",
+      "reasonEn": "29.6K downloads and star surge today",
+      "reasonKo": "오늘 급상승하며 2.96만 회 다운로드 기록",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-10-31T22:07:10.334Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "hf-model:Comfy-Org/MiniMax-H3-Image",
+      "type": "model",
+      "title": "Comfy-Org/MiniMax-H3-Image",
+      "summaryOriginal": "text-to-image model · diffusion-single-file, comfyui, text-to-image, base_model:MiniMaxAI/MiniMax-H3-Image, base_model:finetune:MiniMaxAI/MiniMax-H…",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+      "lang": "text-to-image",
+      "tags": [
+        "diffusion-single-file",
+        "comfyui",
+        "text-to-image",
+        "base_model:MiniMaxAI/MiniMax-H3-Image",
+        "base_model:finetune:MiniMaxAI/MiniMax-H…",
+        "license:other",
+        "region:us"
+      ],
+      "metrics": {
+        "likes": 290,
+        "downloads": 835593,
+        "trendingScore": 274
+      },
+      "source": "hf-models",
+      "admitReason": "trending",
+      "publishedAt": "2026-11-08T20:37:23.000Z",
+      "summaryEn": "Text-to-image diffusion model in single-file format for ComfyUI, fine-tuned from MiniMaxAI/MiniMax-H3-Image. License: other.",
+      "summaryKo": "ComfyUI용 단일 파일 형식의 텍스트-이미지 확산 모델. MiniMax-H3-Image 기반 파인튜닝 모델.",
+      "reasonEn": "835K downloads; trending within 4 days",
+      "reasonKo": "공개 4일, 다운로드 83.5만 회",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-12T23:56:23.711Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "hf-model:ricursiveAI/Ripple-65B-Preview",
+      "type": "model",
+      "title": "ricursiveAI/Ripple-65B-Preview",
+      "summaryOriginal": "model · safetensors, ricursive, custom_code, license:apache-2.0, region:us",
+      "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+      "tags": [
+        "safetensors",
+        "ricursive",
+        "custom_code",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "metrics": {
+        "likes": 534,
+        "downloads": 7667,
+        "trendingScore": 249
+      },
+      "source": "hf-models",
+      "admitReason": "trending",
+      "publishedAt": "2026-11-04T02:41:21.000Z",
+      "summaryEn": "65B-parameter preview language model from ricursiveAI, in safetensors under Apache-2.0, requiring custom code to load.",
+      "summaryKo": "ricursiveAI의 650억 파라미터 프리뷰 언어 모델. safetensors 형식, Apache-2.0, 커스텀 코드 필요.",
+      "reasonEn": "Trending: 329 likes, 2K downloads, 2 days old",
+      "reasonKo": "트렌딩: 좋아요 329, 등록 2일",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-06T23:36:33.344Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "hf-paper:2611.12304",
+      "type": "paper",
+      "title": "Evolving Infra: Agent-Adaptive LLM Serving at Scale",
+      "summaryOriginal": "Agentic workloads are a major source of LLM inference demand. Existing prefill--decode (PD) disaggregated serving systems offer limited flexibility for runtime adaptation of compute allocation and KV cache management, and rely on coarse signals that only partly capture the diverse and dynamic agent workload. These limitations lead to load imbalance between prefill and decode nodes and eviction of…",
+      "url": "https://huggingface.co/papers/2611.12304",
+      "tags": [],
+      "metrics": {
+        "upvotes": 11,
+        "comments": 1,
+        "githubStars": 12
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "admitReason": "notable",
+      "summaryEn": "Proposes runtime adaptation of prefill-decode disaggregated LLM serving to agent workloads, rebalancing compute and KV cache to cut load imbalance.",
+      "summaryKo": "에이전트 워크로드에 맞춰 LLM 서빙의 연산과 KV 캐시를 실행 중 조정하는 방법을 제안한다.",
+      "reasonEn": "11 upvotes; 3 days old",
+      "reasonKo": "추천 11, 공개 3일",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-12T23:56:23.711Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "hf-paper:2611.13410",
+      "type": "paper",
+      "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
+      "summaryOriginal": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references. Correcting these behavioral divergences remains difficult: offline data may miss the student's failur…",
+      "url": "https://huggingface.co/papers/2611.13410",
+      "tags": [],
+      "metrics": {
+        "upvotes": 31,
+        "comments": 2,
+        "githubStars": 7
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "admitReason": "notable",
+      "summaryEn": "Method for quantizing LLM agents to low bit-width while preserving task success, using closed-loop teacher steering to correct behavior divergences.",
+      "summaryKo": "작업 성공률을 지키며 LLM 에이전트를 저비트로 양자화하고 교사 모델로 행동을 교정하는 기법이다.",
+      "reasonEn": "31 upvotes; 2 days old",
+      "reasonKo": "추천 31, 공개 2일",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-12T23:56:23.711Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "hf-paper:2608.22237",
+      "type": "paper",
+      "title": "Read Less, Solve More: Token-Efficient Sparse Reading of External Content for AI Agents",
+      "summaryOriginal": "Web-facing AI agents repeatedly access webpages, documents, repositories, and tool responses, yet reading interfaces often expose entire objects when only sparse evidence is needed. This over-reading increases token and latency costs and can dilute relevant evidence. We present SparseRead, a reusable reading control layer that governs content admission without modifying the agent model. Its Read…",
+      "url": "https://huggingface.co/papers/2608.22237",
+      "tags": [],
+      "metrics": {
+        "upvotes": 18,
+        "comments": 4
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-11-07T00:00:00.000Z",
+      "admitReason": "notable",
+      "summaryEn": "Reading control layer that admits only sparse evidence from web pages and tool outputs, cutting token and latency costs for AI agents.",
+      "summaryKo": "웹과 도구 응답에서 필요한 근거만 읽어 AI 에이전트의 토큰과 지연 시간을 줄이는 읽기 제어 계층이다.",
+      "reasonEn": "18 upvotes; 5 days old",
+      "reasonKo": "추천 18, 공개 5일",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-12T23:56:23.711Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "hf-paper:2611.08286",
+      "type": "paper",
+      "title": "Interactive Visual Gym: Evaluating Visual Interaction Models with Simulated Users in Interactive Worlds",
+      "summaryOriginal": "Visual interaction models that support users during ongoing physical tasks require evaluation in closed loop, where assistant responses can change subsequent user behavior and task outcomes. Existing benchmarks largely rely on offline replay and therefore cannot capture these effects. We introduce Interactive Visual Gym, a framework for closed-loop evaluation and training of visual interaction mo…",
+      "url": "https://huggingface.co/papers/2611.08286",
+      "tags": [],
+      "metrics": {
+        "upvotes": 13,
+        "comments": 2,
+        "githubStars": 8
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "admitReason": "notable",
+      "summaryEn": "Framework for closed-loop evaluation and training of visual interaction models with simulated users in interactive physical-task environments.",
+      "summaryKo": "시뮬레이션 사용자와 상호작용하며 시각 상호작용 모델을 폐루프로 평가하고 학습하는 프레임워크다.",
+      "reasonEn": "13 upvotes, 8 GitHub stars; 7 days old",
+      "reasonKo": "추천 13, 공개 7일",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-12T23:56:23.711Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "hf-paper:2610.40394",
+      "type": "paper",
+      "title": "Scaling Mathematical Proof Supervision from Structured Textbooks",
+      "summaryOriginal": "Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding the curricular organization and evidential structure of the original sources. We introduce TOME-Math (Textbook-Oriented Mathematical Evidence), a large-scale corpus that converts 2,118 textbooks spanning the core areas of university-level mathematics subjects into approximately 380…",
+      "url": "https://huggingface.co/papers/2610.40394",
+      "tags": [],
+      "metrics": {
+        "upvotes": 39,
+        "comments": 2
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "admitReason": "notable",
+      "summaryEn": "Large corpus that turns 2,118 university math textbooks into structured proof supervision data, keeping curricular and evidential structure.",
+      "summaryKo": "대학 수학 교과서 2,118권을 구조화된 증명 학습 데이터 코퍼스로 바꾼 연구다.",
+      "reasonEn": "39 upvotes; 14 days old",
+      "reasonKo": "추천 39, 공개 14일",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-12T23:56:23.711Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "hf-paper:2611.10193",
+      "type": "paper",
+      "title": "Ensemble Routing for Prompt-Adaptive Cost-Aware LLM Inference",
+      "summaryOriginal": "Large language models (LLMs) increasingly support Web-based services that must balance response quality and inference cost across heterogeneous requests. Conventional routing selects one model per prompt, while fixed ensembles cannot adapt their composition and cost to individual requests. We introduce PISA, a prompt-adaptive, cost-aware single-model router, and PISA-E, its extension to ensemble…",
+      "url": "https://huggingface.co/papers/2611.10193",
+      "tags": [],
+      "metrics": {
+        "upvotes": 14,
+        "comments": 2
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "admitReason": "notable",
+      "summaryEn": "Prompt-adaptive, cost-aware router that picks one LLM per request, with an ensemble extension (PISA-E) to balance quality and inference cost.",
+      "summaryKo": "요청마다 LLM 하나를 골라 품질과 추론 비용을 맞추는 라우터와 앙상블 확장 PISA-E를 제안한다.",
+      "reasonEn": "14 upvotes; 6 days old",
+      "reasonKo": "추천 14, 공개 6일",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-12T23:56:23.711Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "hf-paper:2610.39671",
+      "type": "paper",
+      "title": "Incentivizing Self-Learning in Large Language Models via Reinforcement Learning",
+      "summaryOriginal": "Large language models (LLMs) draw on parametric knowledge and retrieval-augmented generation (RAG) to solve knowledge-intensive tasks. Yet problem solving in unfamiliar domains calls for tightly coupled knowledge acquisition and reasoning, beyond factual retrieval and aggregation or learning solely from a preassembled context. We study self-learning -- autonomously retrieving, studying, and apply…",
+      "url": "https://huggingface.co/papers/2610.39671",
+      "tags": [],
+      "metrics": {
+        "upvotes": 27,
+        "comments": 7
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "admitReason": "notable",
+      "summaryEn": "Reinforcement learning method that lets LLMs autonomously retrieve, study and apply knowledge in unfamiliar domains, beyond standard RAG.",
+      "summaryKo": "낯선 도메인에서 LLM이 스스로 지식을 검색하고 학습하고 적용하도록 강화학습으로 훈련하는 방법이다.",
+      "reasonEn": "27 upvotes, 7 comments; 14 days old",
+      "reasonKo": "추천 27, 댓글 7, 공개 14일",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-12T23:56:23.711Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "hf-paper:2611.13028",
+      "type": "paper",
+      "title": "GTAGym: Real AAA Game Tasks Environment for Evaluation and Reinforcement Learning",
+      "summaryOriginal": "AAA games offer a rich testbed for evaluating agent perception, reasoning, and control. However, evaluating whether agents can complete tasks in AAA games is challenging and often human-annotated because task outcomes are often difficult to verify automatically, let alone applying it for Reinforcement Learning (RL). We introduce GTAGym, an environment and framework for evaluation and RL on GTA V…",
+      "url": "https://huggingface.co/papers/2611.13028",
+      "tags": [],
+      "metrics": {
+        "upvotes": 13,
+        "comments": 4,
+        "githubStars": 10
+      },
+      "source": "hf-papers",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "admitReason": "notable",
+      "summaryEn": "Environment and framework for evaluating and reinforcement learning agents on GTA V AAA game tasks, aiming at automatic outcome verification.",
+      "summaryKo": "GTA V 게임 과제에서 에이전트를 평가하고 강화학습하는 환경과 프레임워크다.",
+      "reasonEn": "13 upvotes, 10 GitHub stars; 3 days old",
+      "reasonKo": "추천 13, 공개 3일",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-12T23:56:23.711Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "hn:50121179",
+      "type": "article",
+      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "summaryOriginal": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 634,
+        "comments": 581
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-16T17:08:38Z",
+      "admitReason": "notable",
+      "summaryEn": "Analysis finding that about 90% of US working hours go to tasks poorly covered by AI benchmarks, a useful critique of how AI capability is measured.",
+      "summaryKo": "미국 근무시간의 약 90%가 AI 벤치마크로 잘 측정되지 않는 업무에 쓰인다는 분석으로, AI 능력 평가 방식을 짚습니다.",
+      "reasonEn": "634 upvotes and 581 comments over 27 days",
+      "reasonKo": "27일간 추천 634건, 댓글 581개",
+      "categories": [
+        "ai-models"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-07T22:27:25.332Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "hn:50145337",
+      "type": "article",
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "summaryOriginal": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "tags": [],
+      "metrics": {
+        "upvotes": 520,
+        "comments": 239
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-18T20:48:14Z",
+      "admitReason": "notable",
+      "summaryEn": "Research proposal for hybrid reasoning agents that think in latent space and act through text, a technical AI agent architecture idea.",
+      "summaryKo": "잠재 공간에서 추론하고 텍스트로 행동하는 하이브리드 추론 에이전트에 대한 연구 아이디어입니다.",
+      "reasonEn": "520 upvotes and 239 comments over 25 days",
+      "reasonKo": "25일간 추천 520건, 댓글 239개",
+      "categories": [
+        "ai-agents",
+        "ai-models"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-10T23:50:53.165Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "hn:50397429",
+      "type": "article",
+      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+      "summaryOriginal": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+      "tags": [],
+      "metrics": {
+        "upvotes": 603,
+        "comments": 156
+      },
+      "source": "hn",
+      "publishedAt": "2026-11-06T19:48:51Z",
+      "admitReason": "notable",
+      "summaryEn": "Reports that a small model can call Opus for help on hard cases, reaching Opus-level accuracy at about a quarter of the cost. Relevant to LLM cost design.",
+      "summaryKo": "어려운 문제만 Opus에 위임하는 소형 모델이 Opus급 정확도를 약 1/4 비용으로 달성했다는 내용. LLM 비용 설계와 관련.",
+      "reasonEn": "Notable: 603 upvotes and 156 comments within 6 days",
+      "reasonKo": "6일 만에 추천 603, 댓글 156",
+      "categories": [
+        "ai-models"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-07T22:27:25.332Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "hn:50129045",
+      "type": "article",
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "summaryOriginal": "DeepSeek-v4.1-Flash-1017",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "tags": [],
+      "metrics": {
+        "upvotes": 959,
+        "comments": 727
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-17T08:21:25Z",
+      "admitReason": "notable",
+      "summaryEn": "Release of DeepSeek-v4.1-Flash-1017, a faster model variant in the DeepSeek v4 line. Relevant to developers choosing LLM APIs.",
+      "summaryKo": "DeepSeek v4 계열의 더 빠른 모델 DeepSeek-v4.1-Flash-1017 공개. LLM API 선택에 관련.",
+      "reasonEn": "Notable: 959 upvotes and 727 comments within 26 days",
+      "reasonKo": "26일 만에 추천 959, 댓글 727",
+      "categories": [
+        "ai-models"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-10-29T23:03:36.686Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "hn:50362905",
+      "type": "article",
+      "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+      "summaryOriginal": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+      "tags": [],
+      "metrics": {
+        "upvotes": 617,
+        "comments": 293
+      },
+      "source": "hn",
+      "publishedAt": "2026-11-04T08:46:29Z",
+      "admitReason": "notable",
+      "summaryEn": "Report that encrypted firmware on Nvidia RTX Spark GPUs cuts AI inference speed to about 35% when run on Linux.",
+      "summaryKo": "엔비디아 RTX Spark GPU의 암호화 펌웨어 때문에 리눅스에서 추론 속도가 약 35%로 떨어진다는 보고다.",
+      "reasonEn": "617 upvotes and 293 comments within 8 days",
+      "reasonKo": "8일 내 추천 617, 댓글 293개",
+      "categories": [
+        "ai-models",
+        "infra"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-06T23:36:33.344Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "hn:50202217",
+      "type": "article",
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "summaryOriginal": "LLMs are making formal software verification feasible at a much larger scale",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "tags": [],
+      "metrics": {
+        "upvotes": 476,
+        "comments": 313
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-22T22:54:43Z",
+      "admitReason": "notable",
+      "summaryEn": "Argues that LLMs are making formal software verification practical at larger scales. Matters for teams weighing proof-based correctness against cost.",
+      "summaryKo": "LLM이 대규모 형식 검증을 실용적으로 만들고 있다는 주장. 증명 기반 정확성과 비용을 고민하는 팀에 중요합니다.",
+      "reasonEn": "476 upvotes and 313 comments within 21 days",
+      "reasonKo": "21일 만에 추천 476, 댓글 313",
+      "categories": [
+        "ai-models",
+        "engineering"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-10T23:50:53.165Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "hn:50190363",
+      "type": "article",
+      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "summaryOriginal": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 654,
+        "comments": 195
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-22T02:18:41Z",
+      "admitReason": "notable",
+      "summaryEn": "A project that trains a 360M-parameter model to imitate a terminal's responses. A small, hands-on example of how language models can mimic structured interfaces.",
+      "summaryKo": "3억 6천만 파라미터 모델을 학습해 터미널 응답을 흉내 내는 프로젝트. 언어 모델이 구조화된 인터페이스를 모방하는 소규모 실험입니다.",
+      "reasonEn": "654 upvotes and 195 comments within 21 days",
+      "reasonKo": "21일 만에 추천 654, 댓글 195",
+      "categories": [
+        "ai-models"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-12T01:13:41.978Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "devto:4999883",
+      "type": "article",
+      "title": "How much does it cost to run a text game with LLMs",
+      "summaryOriginal": "AI costs are confusing. Providers give you a lot of numbers and nothing to actually know how much you are going to pay in the long run. There is no point in these input/cached/output token prices if you have no idea how many reasoning tokens you'll spend on your tasks. How much will be cached. We are going to review the real-world usage of 27 frontier models.",
+      "url": "https://dev.to/hiper2d/how-much-does-it-cost-to-run-a-text-game-with-llms-57o7",
+      "tags": [
+        "ai",
+        "llm",
+        "gamedev",
+        "machinelearning"
+      ],
+      "metrics": {
+        "upvotes": 76,
+        "comments": 82
+      },
+      "source": "devto",
+      "publishedAt": "2026-11-08T18:46:19Z",
+      "admitReason": "notable",
+      "summaryEn": "Real-world analysis of LLM costs across 27 frontier models for running a text game, including hidden reasoning tokens and caching effects.",
+      "summaryKo": "텍스트 게임 구동 시 27개 프런티어 모델의 실제 LLM 비용을 추론 토큰과 캐싱 효과까지 분석합니다.",
+      "reasonEn": "76 upvotes and 82 comments in 4 days",
+      "reasonKo": "4일 만에 추천 76, 댓글 82",
+      "categories": [
+        "ai-models"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-12T23:56:23.711Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "geeknews:37077",
+      "type": "article",
+      "title": "Gemini 4 Hydrogen과 Orchestrator - Google Antigravity의 새 코딩 모델과 동적 모델 전환 옵션",
+      "summaryOriginal": "Google Antigravity에 Gemini 4 Hydrogen과, Hydrogen을 Gemini 4 Carbon과 조합하는 모델 선택 옵션 Orchestrator가 도입됨Orchestrator는 첫 프롬프트만으로 작업 전체의 모델을 정하는 대신, 작업 진행 중 필요한 복잡도에 따라 Carbon과 Hydrogen을 양방향으로 전환함Google의 Terminal-Bench 4.1 평가에서 Orchestrator는 Carbon에 가까운 작업 성공률을 유지하면서 평균 할당량 소비를 24% 줄이고, 완료 속도를 19% 높임Hydrogen은 일상적인 코딩과 에이전트 작업에 단독으로 사용할 수 있으며, 추론 깊이를 기본값 high와 새 x…",
+      "url": "https://news.hada.io/topic?id=37077",
+      "tags": [],
+      "source": "geeknews",
+      "publishedAt": "2026-11-13T06:38:41+09:00",
+      "admitReason": "notable",
+      "summaryEn": "Google Antigravity adds Gemini 4 Hydrogen and an Orchestrator that switches between Carbon and Hydrogen mid-task. Google reports 24% lower quota use and 19% faster completion.",
+      "summaryKo": "Google Antigravity에 Gemini 4 Hydrogen과 작업 중 Carbon·Hydrogen을 전환하는 Orchestrator가 추가됐습니다. 할당량 24% 절감을 보고합니다.",
+      "reasonEn": "Notable: spread quickly, published today",
+      "reasonKo": "주목: 오늘 게시, 빠르게 확산",
+      "categories": [
+        "ai-models",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-12T23:56:23.711Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "geeknews:37071",
+      "type": "article",
+      "title": "작고 오래된 기기에서도 LLM이 돌아가게 만들고 있습니다",
+      "summaryOriginal": "smolmaxxing은 TV 박스와 오래된 iPad에서 실행 가능한 최대 규모의 언어 모델을 찾고, 맞춤형 커널과 메모리 최적화, 가중치 스트리밍으로 성능을 끌어올리는 프로젝트임실사용 RAM이 약 1GB인 Xiaomi TV Box S 3세대에서 Qwen3.5-2B는 실제 채팅 기준 7.7 tok/s, 8B MoE 모델은 7.2 tok/s, 16B MoE 모델은 5.1 tok/s로 실행됨2013년형 iPad Air에서는 CPU만으로 Bonsai-1.7B가 23.7~25.8 tok/s에 도달함. 다만 iOS 12.5.7 탈옥이 필요하며, 긴 대화에서는 18~22 tok/s 수준임RAM보다 큰 모델은 플래시 대역폭이 속도를 제한함. MoE …",
+      "url": "https://news.hada.io/topic?id=37071",
+      "tags": [],
+      "source": "geeknews",
+      "publishedAt": "2026-11-13T04:52:37+09:00",
+      "admitReason": "notable",
+      "summaryEn": "The smolmaxxing project runs the largest LLMs it can on old TV boxes and iPads using custom kernels, memory tuning, and weight streaming. It reports measured tokens per second.",
+      "summaryKo": "smolmaxxing은 커스텀 커널, 메모리 최적화, 가중치 스트리밍으로 오래된 TV 박스와 iPad에서 큰 LLM을 실행하고 초당 토큰 수를 측정합니다.",
+      "reasonEn": "Notable: spread quickly, published today",
+      "reasonKo": "주목: 오늘 게시, 빠르게 확산",
+      "categories": [
+        "ai-models"
+      ],
+      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "firstSeenAt": "2026-11-12T23:56:23.711Z",
+      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+    },
+    {
+      "id": "gh:ZhuLinsen/daily_stock_analysis",
+      "type": "repo",
+      "categories": [
+        "ai-models"
+      ],
+      "title": "ZhuLinsen/daily_stock_analysis",
+      "summaryOriginal": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "stars": 70265,
+        "starsDelta": 278
+      },
+      "source": "github-trending",
+      "firstSeenAt": "2026-11-10T01:50:05.048Z",
+      "lastSeenAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "admitReason": "trending",
+      "summaryEn": "LLM-driven stock analysis across multiple markets with live news, a dashboard, and free scheduled runs.",
+      "summaryKo": "LLM 기반 다중 시장 주식 분석, 실시간 뉴스·대시보드·무료 예약 실행 지원.",
+      "reasonEn": "Trending: 68.9K stars, up 506 today",
+      "reasonKo": "트렌딩: 전체 6.89만 스타, 오늘 +506"
+    },
+    {
+      "id": "gh:QingYunA/answer-me-with-html",
+      "type": "repo",
+      "categories": [
+        "ai-models",
+        "devtools"
+      ],
+      "title": "QingYunA/answer-me-with-html",
+      "summaryOriginal": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+      "url": "https://github.com/QingYunA/answer-me-with-html",
+      "lang": "JavaScript",
+      "tags": [
+        "agent-skill",
+        "ai-agent",
+        "claude-code",
+        "claude-code-skill",
+        "claude-skill",
+        "claude-skills",
+        "cli",
+        "diagram",
+        "dsh-plugin",
+        "explainer",
+        "html",
+        "llm"
+      ],
+      "metrics": {
+        "stars": 6239
+      },
+      "source": "github-search",
+      "publishedAt": "2026-10-02T09:57:40Z",
+      "updatedAt": "2026-11-11T19:55:14Z",
+      "firstSeenAt": "2026-10-04T22:09:02.469Z",
+      "lastSeenAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "admitReason": "notable",
+      "summaryEn": "An agent skill that translates complex questions into clear, readable one-page HTML documents to help AI agents present answers effectively.",
+      "summaryKo": "복잡한 질문에 대해 AI 에이전트가 한 페이지 HTML 문서로 답변하게 돕는 스킬입니다.",
+      "reasonEn": "1.0K stars within 2 days of launch",
+      "reasonKo": "출시 2일 만에 1.0K 스타 획득"
+    },
+    {
+      "id": "gh:microsoft/TokenEconomizer",
+      "type": "repo",
+      "categories": [
+        "ai-models",
+        "ai-agents",
+        "devtools"
+      ],
+      "title": "microsoft/TokenEconomizer",
+      "summaryOriginal": "Experience-Driven Black-Box Cost Control for Coding Agents",
+      "url": "https://github.com/microsoft/TokenEconomizer",
+      "lang": "Python",
+      "tags": [
+        "agentic-ai",
+        "agentic-coding",
+        "ai-coding",
+        "ai-coding-assistant",
+        "anthropic",
+        "artificial-intelligence",
+        "claude-code",
+        "codex",
+        "coding-agent",
+        "coding-agents",
+        "cost-optimization",
+        "cost-reduction"
+      ],
+      "metrics": {
+        "stars": 5739
+      },
+      "source": "github-search",
+      "publishedAt": "2026-10-13T04:16:50Z",
+      "updatedAt": "2026-11-12T00:30:28Z",
+      "firstSeenAt": "2026-11-03T01:25:46.164Z",
+      "lastSeenAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "admitReason": "notable",
+      "summaryEn": "Experience-driven black-box cost control tool for optimizing token usage in AI coding agents.",
+      "summaryKo": "AI 코딩 에이전트의 토큰 비용을 제어하는 최적화 도구입니다.",
+      "reasonEn": "2.9K stars within 18 days",
+      "reasonKo": "18일 만에 2.9천 개 스타 획득"
+    },
+    {
+      "id": "gh:AienTech/dossier",
+      "type": "repo",
+      "categories": [
+        "ai-models",
+        "web",
+        "infra"
+      ],
+      "title": "AienTech/dossier",
+      "summaryOriginal": "A self-hosted job search and resume builder app that writes tailored resumes and cover letters from your profile.",
+      "url": "https://github.com/AienTech/dossier",
+      "lang": "TypeScript",
+      "tags": [
+        "caprover",
+        "cover-letter",
+        "docker",
+        "job-application-tracker",
+        "job-search",
+        "llm",
+        "local-llm",
+        "nextjs",
+        "ollama",
+        "postgresql",
+        "resume",
+        "self-hosted"
+      ],
+      "metrics": {
+        "stars": 5034
+      },
+      "source": "github-search",
+      "publishedAt": "2026-10-03T21:26:15Z",
+      "updatedAt": "2026-11-08T13:29:38Z",
+      "firstSeenAt": "2026-11-05T23:55:17.241Z",
+      "lastSeenAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "admitReason": "notable",
+      "summaryEn": "Dossier is a self-hosted job search app that uses local LLMs to generate tailored resumes and cover letters from your profile.",
+      "summaryKo": "로컬 LLM을 사용해 맞춤형 이력서와 자기소개서를 작성하는 자바주최 구직 앱입니다.",
+      "reasonEn": "1.4K stars within 24 days",
+      "reasonKo": "24일 만에 1.4K개 스타 획득"
+    },
+    {
+      "id": "gh:onehumanbeing/esp32-iphone-agent",
+      "type": "repo",
+      "categories": [
+        "ai-models"
+      ],
+      "title": "onehumanbeing/esp32-iphone-agent",
+      "summaryOriginal": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+      "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+      "lang": "Swift",
+      "tags": [
+        "ai-agent",
+        "airplay",
+        "automation",
+        "computer-use",
+        "dsh-plugin",
+        "esp32",
+        "esp32-s3",
+        "iphone",
+        "llm",
+        "usb-hid"
+      ],
+      "metrics": {
+        "stars": 4853
+      },
+      "source": "github-search",
+      "publishedAt": "2026-10-11T19:10:25Z",
+      "updatedAt": "2026-11-11T20:56:50Z",
+      "firstSeenAt": "2026-10-13T01:04:05.704Z",
+      "lastSeenAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "admitReason": "notable",
+      "summaryEn": "Allows an AI model to control a real iPhone using a $7 ESP32 via AirPlay and USB HID without jailbreaking.",
+      "summaryKo": "탈옥 없이 7달러짜리 ESP32와 AirPlay를 이용해 AI가 실제 아이폰을 제어하게 합니다.",
+      "reasonEn": "638 stars within 1 day of launch",
+      "reasonKo": "출시 하루 만에 638개의 별 획득"
+    },
+    {
+      "id": "gh:tigerless-labs/agent-memory",
+      "type": "repo",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
+      "title": "tigerless-labs/agent-memory",
+      "summaryOriginal": "Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage layer. Claude Code and Codex share one store. No API key.",
+      "url": "https://github.com/tigerless-labs/agent-memory",
+      "lang": "Python",
+      "tags": [
+        "agent-memory",
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "llm",
+        "local-first",
+        "long-term-memory",
+        "markdown",
+        "mcp",
+        "python",
+        "retrieval",
+        "sqlite"
+      ],
+      "metrics": {
+        "stars": 4315
+      },
+      "source": "github-search",
+      "publishedAt": "2026-09-01T21:52:29Z",
+      "updatedAt": "2026-11-10T18:16:04Z",
+      "firstSeenAt": "2026-09-08T21:31:48.079Z",
+      "lastSeenAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "admitReason": "notable",
+      "summaryEn": "Long-term memory runtime for AI agents using local Markdown files and ranked retrieval, sharing state between Claude Code and Codex without API keys.",
+      "summaryKo": "로컬 마크다운을 활용해 AI 에이전트의 장기 기억을 관리하는 런타임입니다.",
+      "reasonEn": "616 stars within 6 days of launch",
+      "reasonKo": "출시 6일 만에 616개 스타 획득"
+    },
+    {
+      "id": "gh:Nanako0129/sepia",
+      "type": "repo",
+      "categories": [
+        "ai-models",
+        "devtools"
+      ],
+      "title": "Nanako0129/sepia",
+      "summaryOriginal": "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).",
+      "url": "https://github.com/Nanako0129/sepia",
+      "lang": "Python",
+      "tags": [
+        "agent-skills",
+        "ai-writing",
+        "antigravity",
+        "claude-code",
+        "codex",
+        "developer-tools",
+        "fiction",
+        "grok",
+        "humanizer",
+        "llm",
+        "prompt-engineering",
+        "writing-tools"
+      ],
+      "metrics": {
+        "stars": 3787
+      },
+      "source": "github-search",
+      "publishedAt": "2026-08-28T05:56:49Z",
+      "updatedAt": "2026-11-03T05:53:57Z",
+      "firstSeenAt": "2026-08-29T02:56:27.939Z",
+      "lastSeenAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "admitReason": "notable",
+      "summaryEn": "De-AI writing skill for Claude Code, Codex, and Grok, providing narrative-architecture repair and venue-matched rules for prose.",
+      "summaryKo": "Claude Code, Codex, Grok용 AI 글쓰기 교정 스킬로 서사 구조를 보정합니다.",
+      "reasonEn": "Gaining attention for AI writing workflow adjustments",
+      "reasonKo": "AI 글쓰기 워크플로우 조정으로 주목받는 중"
     },
     {
       "id": "hf-model:moonshotai/Kimi-K3.1-Pro",
       "type": "model",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
       "title": "moonshotai/Kimi-K3.1-Pro",
       "summaryOriginal": "image-text-to-text model · transformers, safetensors, kimi_k31, text-generation, compressed-tensors",
       "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
@@ -1129,177 +1952,23 @@
         "trendingScore": 396.5
       },
       "source": "hf-models",
-      "admitReason": "trending",
       "publishedAt": "2026-11-02T04:13:51.000Z",
+      "firstSeenAt": "2026-11-05T00:04:20.450Z",
+      "lastSeenAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
+      "admitReason": "trending",
       "summaryEn": "Image-text-to-text model on Hugging Face in safetensors format, using custom code for its kimi_k31 architecture and compressed-tensors quantization.",
       "summaryKo": "Hugging Face의 이미지-텍스트 모델로, kimi_k31 구조용 커스텀 코드와 압축 텐서 양자화를 사용합니다.",
       "reasonEn": "482 likes and 797 downloads within 2 days",
-      "reasonKo": "2일 만에 좋아요 482, 다운로드 797",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-11-05T00:04:20.450Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
-    },
-    {
-      "id": "hf-model:ricursiveAI/Ripple-65B-Preview",
-      "type": "model",
-      "title": "ricursiveAI/Ripple-65B-Preview",
-      "summaryOriginal": "model · safetensors, ricursive, custom_code, license:apache-2.0, region:us",
-      "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
-      "tags": [
-        "safetensors",
-        "ricursive",
-        "custom_code",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "metrics": {
-        "likes": 516,
-        "downloads": 7112,
-        "trendingScore": 380
-      },
-      "source": "hf-models",
-      "admitReason": "trending",
-      "publishedAt": "2026-11-04T02:41:21.000Z",
-      "summaryEn": "65B-parameter preview language model from ricursiveAI, in safetensors under Apache-2.0, requiring custom code to load.",
-      "summaryKo": "ricursiveAI의 650억 파라미터 프리뷰 언어 모델. safetensors 형식, Apache-2.0, 커스텀 코드 필요.",
-      "reasonEn": "Trending: 329 likes, 2K downloads, 2 days old",
-      "reasonKo": "트렌딩: 좋아요 329, 등록 2일",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-11-06T23:36:33.344Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
-    },
-    {
-      "id": "hf-model:DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-      "type": "model",
-      "title": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-      "summaryOriginal": "image-text-to-text model · gguf, unsloth, fine tune, heretic, uncensored",
-      "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-      "lang": "image-text-to-text",
-      "tags": [
-        "gguf",
-        "unsloth",
-        "fine tune",
-        "heretic",
-        "uncensored",
-        "abliterated",
-        "ara",
-        "MTP GGUF Quants",
-        "Regular GGUF Quants",
-        "qwen3_8",
-        "qwen3_6",
-        "qwen3_5"
-      ],
-      "metrics": {
-        "likes": 2908,
-        "downloads": 1532273,
-        "trendingScore": 340
-      },
-      "source": "hf-models",
-      "admitReason": "trending",
-      "publishedAt": "2026-09-01T07:01:09.000Z",
-      "summaryEn": "Community fine-tune of a 27B Qwen model in GGUF quantized format, with safety refusals removed, for running locally with llama.cpp-style tools.",
-      "summaryKo": "27B Qwen 모델의 커뮤니티 파인튜닝 GGUF 양자화 버전으로, 안전 거부 응답이 제거되어 있고 로컬 실행용입니다.",
-      "reasonEn": "Trending: 2.7K likes and 1.55M downloads in 68 days",
-      "reasonKo": "트렌딩: 68일간 좋아요 2.7K, 다운로드 155만회",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-11-08T22:37:27.812Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
-    },
-    {
-      "id": "hf-model:Qwen/Qwen3.8-27B",
-      "type": "model",
-      "title": "Qwen/Qwen3.8-27B",
-      "summaryOriginal": "image-text-to-text model · transformers, safetensors, qwen3_5, image-text-to-text, conversational",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-      "lang": "image-text-to-text",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5",
-        "image-text-to-text",
-        "conversational",
-        "license:apache-2.0",
-        "eval-results",
-        "endpoints_compatible",
-        "deploy:azure",
-        "deploy:sagemaker",
-        "region:us"
-      ],
-      "metrics": {
-        "likes": 19637,
-        "downloads": 7232703,
-        "trendingScore": 324
-      },
-      "source": "hf-models",
-      "admitReason": "trending",
-      "publishedAt": "2026-08-05T08:22:59.000Z",
-      "summaryEn": "Qwen's 27B multimodal model for image-and-text-to-text tasks and conversation.",
-      "summaryKo": "이미지·텍스트를 함께 처리하는 Qwen의 27B 멀티모달 대화 모델",
-      "reasonEn": "Trending score and likes spike despite near-zero downloads.",
-      "reasonKo": "다운로드는 적지만 트렌딩 점수·좋아요 급증, 신규 공개 화제",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
-    },
-    {
-      "id": "hf-model:ccore/Qwen3.5-4B-3D-Coder",
-      "type": "model",
-      "title": "ccore/Qwen3.5-4B-3D-Coder",
-      "summaryOriginal": "model · safetensors, gguf, qwen3_5, code, threejs",
-      "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
-      "tags": [
-        "safetensors",
-        "gguf",
-        "qwen3_5",
-        "code",
-        "threejs",
-        "3d",
-        "preview",
-        "dataset:ccore/ThreeJS-3D-Scenes",
-        "base_model:Qwen/Qwen3.5-4B",
-        "base_model:finetune:Qwen/Qwen3.5-4B",
-        "license:apache-2.0",
-        "endpoints_compatible"
-      ],
-      "metrics": {
-        "likes": 1017,
-        "downloads": 344727,
-        "trendingScore": 318
-      },
-      "source": "hf-models",
-      "admitReason": "trending",
-      "publishedAt": "2026-10-25T05:43:34.000Z",
-      "summaryEn": "Small language model specialized for Three.js and 3D coding tasks, provided in safetensors and GGUF formats.",
-      "summaryKo": "Three.js 및 3D 코딩 작업에 특화된 소형 언어 모델입니다.",
-      "reasonEn": "29.6K downloads and star surge today",
-      "reasonKo": "오늘 급상승하며 2.96만 회 다운로드 기록",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-10-31T22:07:10.334Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "reasonKo": "2일 만에 좋아요 482, 다운로드 797"
     },
     {
       "id": "hf-paper:2611.12177",
       "type": "paper",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
       "title": "Embodied First Exam",
       "summaryOriginal": "Early successes on agentic robotics point to a potential paradigm shift toward using coding agents to control robots. Existing robotics benchmarks are built around visuomotor policy learning, leaving it open whether coding agents can reliably control diverse robots under physical-world constraints. We therefore introduce the Embodied First Exam, a unified, comprehensive, and agent-native evaluati…",
       "url": "https://huggingface.co/papers/2611.12177",
@@ -1311,22 +1980,22 @@
       },
       "source": "hf-papers",
       "publishedAt": "2026-11-09T00:00:00.000Z",
+      "firstSeenAt": "2026-11-12T01:13:41.978Z",
+      "lastSeenAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
       "admitReason": "notable",
       "summaryEn": "Benchmark testing whether coding agents can reliably control diverse physical robots under real-world constraints, rather than learned visuomotor policies.",
       "summaryKo": "코딩 에이전트가 물리적 제약 아래 다양한 로봇을 안정적으로 제어할 수 있는지 평가하는 벤치마크 논문.",
       "reasonEn": "3 days old, 259 GitHub stars and 20 upvotes",
-      "reasonKo": "발행 3일, GitHub 스타 259개, 추천 20개",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-11-12T01:13:41.978Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "reasonKo": "발행 3일, GitHub 스타 259개, 추천 20개"
     },
     {
       "id": "hf-paper:2611.10866",
       "type": "paper",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
       "title": "The Surprising Effectiveness of Deleting Weights in LLM Post-Training",
       "summaryOriginal": "How little of a pretrained large language model (LLM) has to change for it to acquire new capabilities? We find that zeroing fewer than 0.05% of its weights, with no other modification, matches full fine-tuning (FFT) at scale across three LLM post-training regimes: reinforcement learning with verifiable rewards, supervised fine-tuning, and on-policy distillation. Our method, Deletion Tuning, lear…",
       "url": "https://huggingface.co/papers/2611.10866",
@@ -1338,22 +2007,22 @@
       },
       "source": "hf-papers",
       "publishedAt": "2026-11-07T00:00:00.000Z",
+      "firstSeenAt": "2026-11-12T01:13:41.978Z",
+      "lastSeenAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
       "admitReason": "notable",
       "summaryEn": "Paper showing that zeroing under 0.05% of an LLM's weights can match full fine-tuning across RL, supervised and distillation post-training.",
       "summaryKo": "LLM 가중치 0.05% 미만을 0으로 만드는 것만으로 전체 미세조정과 비슷한 성능을 낸다는 논문.",
       "reasonEn": "5 days old, 41 GitHub stars and 13 upvotes",
-      "reasonKo": "발행 5일, GitHub 스타 41개, 추천 13개",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-11-12T01:13:41.978Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "reasonKo": "발행 5일, GitHub 스타 41개, 추천 13개"
     },
     {
       "id": "hf-paper:2611.10649",
       "type": "paper",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
       "title": "MACaQ: Fast, Model Agnostic Calibrated Quantization for Low-Precision Weights and Activations",
       "summaryOriginal": "Weight-activation quantization can reduce the memory and compute cost of neural-network inference, but recent methods often require expensive optimization and architecture-specific propagation of basis transforms across layers. We introduce MACaQ, an MXFP4 W4A4 post-training quantization method that treats every linear layer independently. MACaQ applies a per-channel scale and a block-Hadamard tr…",
       "url": "https://huggingface.co/papers/2611.10649",
@@ -1365,22 +2034,22 @@
       },
       "source": "hf-papers",
       "publishedAt": "2026-11-07T00:00:00.000Z",
+      "firstSeenAt": "2026-11-12T01:13:41.978Z",
+      "lastSeenAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
       "admitReason": "notable",
       "summaryEn": "Post-training W4A4 MXFP4 quantization method that treats each linear layer independently, avoiding costly optimization and cross-layer transforms.",
       "summaryKo": "각 선형 계층을 독립적으로 처리해 비용 높은 최적화를 피하는 4비트 양자화 방법 논문.",
       "reasonEn": "5 days old, 89 GitHub stars and 20 upvotes",
-      "reasonKo": "발행 5일, GitHub 스타 89개, 추천 20개",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-11-12T01:13:41.978Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "reasonKo": "발행 5일, GitHub 스타 89개, 추천 20개"
     },
     {
       "id": "hf-paper:2611.14320",
       "type": "paper",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
       "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
       "summaryOriginal": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from traj…",
       "url": "https://huggingface.co/papers/2611.14320",
@@ -1392,22 +2061,22 @@
       },
       "source": "hf-papers",
       "publishedAt": "2026-11-10T00:00:00.000Z",
+      "firstSeenAt": "2026-11-12T01:13:41.978Z",
+      "lastSeenAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
       "admitReason": "notable",
       "summaryEn": "Paper proposing evidence-linked agent memory so LLM agents stop following incorrect or misread lessons that make them worse than having no memory.",
       "summaryKo": "잘못 해석된 교훈 때문에 성능이 떨어지는 LLM 에이전트 메모리 문제를 근거 연결 방식으로 줄이는 논문.",
       "reasonEn": "2 days old with 54 upvotes, fast early attention",
-      "reasonKo": "발행 2일, 추천 54개로 빠르게 주목",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-11-12T01:13:41.978Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "reasonKo": "발행 2일, 추천 54개로 빠르게 주목"
     },
     {
       "id": "hf-paper:2611.07464",
       "type": "paper",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
       "title": "FINCOSMOS: An Open-World Evaluation Paradigm for Agents in Finance",
       "summaryOriginal": "Language agents increasingly work for users on the open Web, and finance is where trusting them is hardest. The data must come from the Web, the strategy lives in the user's head, and correctness depends on time, so an agent can fail silently: a strategy the user never asked for, unverified data, or a backtest that uses the future yields a report as convincing as a correct one. Existing benchmark…",
       "url": "https://huggingface.co/papers/2611.07464",
@@ -1418,22 +2087,22 @@
       },
       "source": "hf-papers",
       "publishedAt": "2026-11-05T00:00:00.000Z",
+      "firstSeenAt": "2026-11-12T01:13:41.978Z",
+      "lastSeenAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
       "admitReason": "notable",
       "summaryEn": "Open-web evaluation framework for finance agents that tests silent failures such as unverified data, unrequested strategies and look-ahead backtests.",
       "summaryKo": "미검증 데이터나 미래 정보를 쓰는 백테스트 같은 금융 에이전트의 조용한 실패를 평가하는 프레임워크.",
       "reasonEn": "7 days old with 20 upvotes",
-      "reasonKo": "발행 7일, 추천 20개",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-11-12T01:13:41.978Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "reasonKo": "발행 7일, 추천 20개"
     },
     {
       "id": "hf-paper:2611.12527",
       "type": "paper",
+      "categories": [
+        "ai-models",
+        "ai-agents"
+      ],
       "title": "WaveGen: Truly End-to-End Waveform Generation via Internal Spectral Trajectory Learning",
       "summaryOriginal": "This work proposes WaveGen, a fully end-to-end diffusion-based text-to-waveform framework based on Spectral Forcing, which jointly learns an internal spectral trajectory and the target waveform trajectory within a single model, enabling direct end-to-end text-to-waveform generation. Unlike recent TTS pipelines, WaveGen does not rely on separately trained or externally decoded intermediate represe…",
       "url": "https://huggingface.co/papers/2611.12527",
@@ -1445,270 +2114,14 @@
       },
       "source": "hf-papers",
       "publishedAt": "2026-11-09T15:02:29.000Z",
+      "firstSeenAt": "2026-11-12T01:13:41.978Z",
+      "lastSeenAt": "2026-11-12T01:13:41.978Z",
+      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
       "admitReason": "notable",
       "summaryEn": "Diffusion model that generates speech waveforms directly from text in one network, without separately trained or externally decoded intermediate representations.",
       "summaryKo": "별도 중간 표현 없이 텍스트에서 음성 파형을 한 모델로 직접 생성하는 확산 모델 논문.",
       "reasonEn": "2 days old, 30 GitHub stars and 13 upvotes",
-      "reasonKo": "발행 2일, GitHub 스타 30개, 추천 13개",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-11-12T01:13:41.978Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
-    },
-    {
-      "id": "hn:50122800",
-      "type": "article",
-      "title": "Claude reveals ECDSA curve origins",
-      "summaryOriginal": "Claude reveals ECDSA curve origins",
-      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "tags": [],
-      "metrics": {
-        "upvotes": 1066,
-        "comments": 391
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-16T18:55:59Z",
-      "admitReason": "notable",
-      "summaryEn": "Claude is reported to have explained where the ECDSA curve constants came from. It is an AI analysis of a cryptographic standard's origins, relevant to developers using ECDSA.",
-      "summaryKo": "Claude가 ECDSA 곡선 상수의 출처를 설명했다는 보고. 암호 표준의 기원을 AI가 분석한 내용으로 ECDSA 사용자에게 관련 있음.",
-      "reasonEn": "1.1K upvotes and 391 comments within 26 days",
-      "reasonKo": "26일 만에 추천 1.1K, 댓글 391개",
-      "categories": [
-        "ai-models"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-11-01T22:33:06.545Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
-    },
-    {
-      "id": "hn:50429906",
-      "type": "article",
-      "title": "Claude Fable 5.2 and Mythos 5.2",
-      "summaryOriginal": "Claude Fable 5.2 and Mythos 5.2",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-      "tags": [],
-      "metrics": {
-        "upvotes": 995,
-        "comments": 8
-      },
-      "source": "hn",
-      "publishedAt": "2026-11-09T18:56:29Z",
-      "admitReason": "notable",
-      "summaryEn": "Announcement of Claude Fable 5.2 and Mythos 5.2 model releases. Details on capabilities and benchmarks matter for developers choosing models.",
-      "summaryKo": "Claude Fable 5.2와 Mythos 5.2 모델 출시 소식. 개발자가 모델을 고를 때 기능과 벤치마크 정보가 중요함.",
-      "reasonEn": "995 upvotes within 2 days of release",
-      "reasonKo": "출시 2일 만에 추천 995",
-      "categories": [
-        "ai-models"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-11-10T01:50:05.048Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
-    },
-    {
-      "id": "hn:50429068",
-      "type": "article",
-      "title": "Claude Fable 5.2 and Mythos 5.2",
-      "summaryOriginal": "Claude Fable 5.2 and Mythos 5.2",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-      "tags": [],
-      "metrics": {
-        "upvotes": 909,
-        "comments": 1039
-      },
-      "source": "hn",
-      "publishedAt": "2026-11-09T18:01:10Z",
-      "admitReason": "notable",
-      "summaryEn": "Discussion thread on the Claude Fable 5.2 and Mythos 5.2 model releases. Covers reactions and early capability comparisons.",
-      "summaryKo": "Claude Fable 5.2와 Mythos 5.2 모델 출시에 대한 토론. 반응과 초기 기능 비교를 다룸.",
-      "reasonEn": "1.0K comments within 2 days of release",
-      "reasonKo": "출시 2일 만에 댓글 1,039개",
-      "categories": [
-        "ai-models"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-11-10T23:50:53.165Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
-    },
-    {
-      "id": "hn:50121179",
-      "type": "article",
-      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-      "summaryOriginal": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 634,
-        "comments": 581
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-16T17:08:38Z",
-      "admitReason": "notable",
-      "summaryEn": "Analysis finding that 90% of US working hours go to tasks that AI benchmarks cover poorly. It is a capability-gap analysis useful for evaluating AI systems.",
-      "summaryKo": "미국 근무 시간의 90%가 AI 벤치마크로 잘 측정되지 않는 업무에 쓰인다는 분석. AI 시스템 평가에 참고할 만함.",
-      "reasonEn": "634 upvotes and 581 comments within 26 days",
-      "reasonKo": "26일 만에 추천 634, 댓글 581개",
-      "categories": [
-        "ai-models"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-11-07T22:27:25.332Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
-    },
-    {
-      "id": "hn:50145337",
-      "type": "article",
-      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
-      "summaryOriginal": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
-      "url": "https://arxiv.org/abs/2610.18861",
-      "tags": [],
-      "metrics": {
-        "upvotes": 520,
-        "comments": 239
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-18T20:48:14Z",
-      "admitReason": "notable",
-      "summaryEn": "Research on hybrid reasoning agents that think in latent space and act through text. It proposes an LLM agent architecture separating internal reasoning from outputs.",
-      "summaryKo": "잠재 공간에서 추론하고 텍스트로 행동하는 하이브리드 추론 에이전트 연구. 내부 추론과 출력을 분리한 LLM 에이전트 구조를 제안함.",
-      "reasonEn": "520 upvotes and 239 comments within 24 days",
-      "reasonKo": "24일 만에 추천 520, 댓글 239개",
-      "categories": [
-        "ai-agents",
-        "ai-models"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-11-10T23:50:53.165Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
-    },
-    {
-      "id": "hn:50397429",
-      "type": "article",
-      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
-      "summaryOriginal": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
-      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
-      "tags": [],
-      "metrics": {
-        "upvotes": 603,
-        "comments": 156
-      },
-      "source": "hn",
-      "publishedAt": "2026-11-06T19:48:51Z",
-      "admitReason": "notable",
-      "summaryEn": "A method where a smaller model asks Opus for help on hard cases, reporting Opus-level accuracy at about a quarter of the cost.",
-      "summaryKo": "작은 모델이 어려운 문제에서 Opus에게 도움을 요청해 Opus 수준 정확도를 4분의 1 비용으로 얻는 방식입니다.",
-      "reasonEn": "Notable: 603 upvotes and 156 comments within 5 days",
-      "reasonKo": "5일 만에 추천 603, 댓글 156",
-      "categories": [
-        "ai-models"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-11-07T22:27:25.332Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
-    },
-    {
-      "id": "hn:50129045",
-      "type": "article",
-      "title": "DeepSeek-v4.1-Flash-1017",
-      "summaryOriginal": "DeepSeek-v4.1-Flash-1017",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "tags": [],
-      "metrics": {
-        "upvotes": 959,
-        "comments": 727
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-17T08:21:25Z",
-      "admitReason": "notable",
-      "summaryEn": "A DeepSeek model checkpoint named v4.1-Flash-1017, a fast model release for inference and coding workloads.",
-      "summaryKo": "추론과 코딩 작업용 빠른 모델로 보이는 DeepSeek v4.1-Flash-1017 릴리스입니다.",
-      "reasonEn": "Notable: 959 upvotes and 727 comments within 25 days",
-      "reasonKo": "25일 만에 추천 959, 댓글 727",
-      "categories": [
-        "ai-models"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-10-29T23:03:36.686Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
-    },
-    {
-      "id": "hn:50362905",
-      "type": "article",
-      "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
-      "summaryOriginal": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
-      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
-      "tags": [],
-      "metrics": {
-        "upvotes": 617,
-        "comments": 293
-      },
-      "source": "hn",
-      "publishedAt": "2026-11-04T08:46:29Z",
-      "admitReason": "notable",
-      "summaryEn": "Report that Nvidia RTX Spark's encrypted firmware cuts inference speed to about 35% on Linux, affecting local AI workloads on that platform.",
-      "summaryKo": "Nvidia RTX Spark의 암호화된 펌웨어 때문에 Linux에서 추론 속도가 약 35%로 떨어진다는 보고입니다. 해당 환경의 로컬 AI 작업에 영향을 줍니다.",
-      "reasonEn": "617 upvotes and 293 comments within 7 days",
-      "reasonKo": "7일 내 추천 617, 댓글 293",
-      "categories": [
-        "ai-models"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-11-06T23:36:33.344Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
-    },
-    {
-      "id": "hn:50202217",
-      "type": "article",
-      "title": "LLMs are making formal software verification feasible at a much larger scale",
-      "summaryOriginal": "LLMs are making formal software verification feasible at a much larger scale",
-      "url": "https://www.anthropic.com/research/formal-verification",
-      "tags": [],
-      "metrics": {
-        "upvotes": 476,
-        "comments": 313
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-22T22:54:43Z",
-      "admitReason": "notable",
-      "summaryEn": "Argues that LLMs are making formal software verification practical at much larger scales than before. Relevant to engineers interested in proofs and correctness tooling.",
-      "summaryKo": "LLM이 기존보다 훨씬 큰 규모에서 형식 검증을 실용적으로 만들고 있다는 주장입니다.",
-      "reasonEn": "Notable: 476 upvotes and 313 comments within 20 days",
-      "reasonKo": "20일 만에 추천 476, 댓글 313으로 주목받음",
-      "categories": [
-        "ai-models",
-        "engineering"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-11-10T23:50:53.165Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
-    },
-    {
-      "id": "hn:50190363",
-      "type": "article",
-      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
-      "summaryOriginal": "WorldTUI: I trained a 360M model to pretend to be a terminal",
-      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 654,
-        "comments": 195
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-22T02:18:41Z",
-      "admitReason": "notable",
-      "summaryEn": "A project that trains a 360M-parameter model to simulate a terminal's output. An experiment in small models and generative interfaces.",
-      "summaryKo": "3억 6천만 파라미터 모델을 학습시켜 터미널 출력을 흉내 내는 실험 프로젝트입니다.",
-      "reasonEn": "Notable: 654 upvotes and 195 comments within 20 days",
-      "reasonKo": "20일 만에 추천 654, 댓글 195로 주목받음",
-      "categories": [
-        "ai-models"
-      ],
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "firstSeenAt": "2026-11-12T01:13:41.978Z",
-      "lastSeenAt": "2026-11-12T01:13:41.978Z"
+      "reasonKo": "발행 2일, GitHub 스타 30개, 추천 13개"
     },
     {
       "id": "gh:wanghao-SunSky/cs329z-chinese",
@@ -2030,6 +2443,7 @@
       },
       "source": "hf-models",
       "publishedAt": "2026-10-07T22:50:21.000Z",
+      "updatedAt": "2026-10-29T23:04:39.000Z",
       "firstSeenAt": "2026-10-29T23:03:36.686Z",
       "lastSeenAt": "2026-11-10T01:50:05.048Z",
       "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
@@ -2037,8 +2451,7 @@
       "summaryEn": "NVIDIA automatic speech recognition model with 30B parameters for text-to-text generation and speech tasks.",
       "summaryKo": "텍스트 생성 및 음성 작업을 위한 NVIDIA 30B 자동 음성 인식 모델.",
       "reasonEn": "399 likes within 3 weeks of release",
-      "reasonKo": "출시 3주 만에 399 좋아요 기록",
-      "updatedAt": "2026-10-29T23:04:39.000Z"
+      "reasonKo": "출시 3주 만에 399 좋아요 기록"
     },
     {
       "id": "hf-paper:2611.08175",
@@ -9005,275 +9418,6 @@
       "reasonKo": "7일 만에 1만 1천 다운로드 기록"
     },
     {
-      "id": "hf-paper:2609.36642",
-      "type": "paper",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "PR-OPD: Privileged Representation On-policy Self-Distillation for Agentic Reinforcement Learning",
-      "summaryOriginal": "Language-model agents are usually trained by reinforcement learning from one reward per episode, and privileged self-distillation enriches it by letting the same policy, given a skill, teach its skill-free self through token probabilities. However, we identify two phenomena that question this channel. Invisible Advantage: a skill in context lifts WebShop success from 42.2% to 56.2%, yet changes t…",
-      "url": "https://huggingface.co/papers/2609.36642",
-      "tags": [],
-      "metrics": {
-        "upvotes": 32,
-        "comments": 1,
-        "githubStars": 1
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "firstSeenAt": "2026-10-13T23:10:18.192Z",
-      "lastSeenAt": "2026-10-13T23:10:18.192Z",
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "admitReason": "notable",
-      "summaryEn": "Explores privileged self-distillation for language-model agents trained via reinforcement learning.",
-      "summaryKo": "강화학습 기반 언어 모델 에이전트를 위한 자기 증류 기법 연구.",
-      "reasonEn": "20 upvotes within 2 weeks of publication",
-      "reasonKo": "공개 후 2주간 20개 업보트"
-    },
-    {
-      "id": "hf-paper:2609.36616",
-      "type": "paper",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "CrossTimeEdit: A Decade-Spanning Cross-View Dataset and Reward-Guided Editing for Historical Street-View Generation",
-      "summaryOriginal": "Historical street-view imagery records urban evolution, but uneven coverage leaves substantial gaps in historical records. Generating plausible past appearances requires restoring changed structures while preserving persistent scene content. We construct VIGOR-his, a decade-spanning cross-view dataset containing 43,653 location-level quadruplets across 11 cities on three continents. Its automated…",
-      "url": "https://huggingface.co/papers/2609.36616",
-      "tags": [],
-      "metrics": {
-        "upvotes": 25,
-        "comments": 1,
-        "githubStars": 5
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "firstSeenAt": "2026-10-13T23:10:18.192Z",
-      "lastSeenAt": "2026-10-13T23:10:18.192Z",
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "admitReason": "notable",
-      "summaryEn": "Presents a decade-spanning cross-view dataset and reward-guided editing for historical street-view generation.",
-      "summaryKo": "역사적 거리뷰 생성을 위한 10년 치 교차 뷰 데이터셋 및 편집 기법.",
-      "reasonEn": "20 upvotes within 2 weeks of publication",
-      "reasonKo": "공개 후 2주간 20개 업보트"
-    },
-    {
-      "id": "hf-paper:2610.09326",
-      "type": "paper",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "VIS-Ground: Video Interactive Storytelling with Contextual Grounding",
-      "summaryOriginal": "Video interactive storytelling enables viewers to actively steer how a video unfolds. However, once we allow viewers to intervene during generation, a new challenge arises: The viewer's request can have latent dependencies on both the grounding source and the current rendered video state. These dependencies may not be explicitly stated in any individual input, but emerge only when the source, ren…",
-      "url": "https://huggingface.co/papers/2610.09326",
-      "tags": [],
-      "metrics": {
-        "upvotes": 31,
-        "comments": 1,
-        "githubStars": 16
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-10-07T00:00:00.000Z",
-      "firstSeenAt": "2026-10-13T23:10:18.192Z",
-      "lastSeenAt": "2026-10-13T23:10:18.192Z",
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "admitReason": "notable",
-      "summaryEn": "Introduces framework for video interactive storytelling with contextual grounding during generation.",
-      "summaryKo": "생성 중 문맥 그라운딩을 지원하는 비디오 인터랙티브 스토리텔링.",
-      "reasonEn": "78 upvotes within 6 days of publication",
-      "reasonKo": "공개 후 6일 만에 78개 업보트"
-    },
-    {
-      "id": "hf-paper:2610.13361",
-      "type": "paper",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
-      "summaryOriginal": "As the production of software passes into the hands of software itself, coding agents are increasingly commissioned to build agents fitted to their users' own workflows. This delegation carries a quiet assumption, that the delivered agent will faithfully serve the requirement it was built for, rather than merely appear to. No existing benchmark tests that assumption. We introduce AgentSWE, a benc…",
-      "url": "https://huggingface.co/papers/2610.13361",
-      "tags": [],
-      "metrics": {
-        "upvotes": 56,
-        "comments": 1,
-        "githubStars": 45
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-10-09T00:00:00.000Z",
-      "firstSeenAt": "2026-10-13T23:10:18.192Z",
-      "lastSeenAt": "2026-10-13T23:10:18.192Z",
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "admitReason": "notable",
-      "summaryEn": "Proposes AgentSWE benchmark to evaluate whether coding agents can reliably build other custom agents.",
-      "summaryKo": "코딩 에이전트의 맞춤형 에이전트 제작 능력을 평가하는 벤치마크.",
-      "reasonEn": "201 upvotes within 4 days of publication",
-      "reasonKo": "공개 후 4일 만에 201개 업보트"
-    },
-    {
-      "id": "hf-paper:2609.39600",
-      "type": "paper",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "GroundAnything: Reconciling Parallel Decoding with Precise Visual Grounding at Flash Speed",
-      "summaryOriginal": "Autoregressive (AR) grounding models serialize spatial predictions, introducing sequential latency and imposing a causal order on output tokens. We view grounding as visual evidence extraction: objects, locations, and spatial relations are jointly constrained by the image and query, yet their dependencies do not imply an intrinsic left-to-right generation order. This distinction makes bidirection…",
-      "url": "https://huggingface.co/papers/2609.39600",
-      "tags": [],
-      "metrics": {
-        "upvotes": 33,
-        "comments": 1,
-        "githubStars": 120
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "firstSeenAt": "2026-10-13T23:10:18.192Z",
-      "lastSeenAt": "2026-10-13T23:10:18.192Z",
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "admitReason": "notable",
-      "summaryEn": "Reconciles parallel decoding with precise visual grounding at high inference speed.",
-      "summaryKo": "고속 추론을 위한 병렬 디코딩과 정밀 시각 그라운딩 기법.",
-      "reasonEn": "73 upvotes within 13 days of publication",
-      "reasonKo": "공개 후 13일 만에 73개 업보트"
-    },
-    {
-      "id": "hf-paper:2609.39601",
-      "type": "paper",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
-      "summaryOriginal": "Precise grounding matters. It specifies which object is the target and where that object is, even in clutter and for tiny objects, and it has to be fast enough for closed-loop control. Yet vision-language-action (VLA) and world-action models (WAMs) take perception from general-purpose vision-language and video-generation backbones, which still fail in these settings. We introduce GroundingPI, a 4…",
-      "url": "https://huggingface.co/papers/2609.39601",
-      "tags": [],
-      "metrics": {
-        "upvotes": 92,
-        "comments": 1,
-        "githubStars": 433
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "firstSeenAt": "2026-10-13T23:10:18.192Z",
-      "lastSeenAt": "2026-10-13T23:10:18.192Z",
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "admitReason": "notable",
-      "summaryEn": "GroundingPI is a foundation model designed for physical intelligence and precise visual grounding.",
-      "summaryKo": "물리적 지능과 정밀 시각 그라운딩을 위한 기초 모델 GroundingPI.",
-      "reasonEn": "247 upvotes within 13 days of publication",
-      "reasonKo": "공개 후 13일 만에 247개 업보트"
-    },
-    {
-      "id": "hf-paper:2610.13166",
-      "type": "paper",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
-      "summaryOriginal": "Terminal agents are moving beyond local operations toward completing real-world professional tasks. Short trajectories can demonstrate commands and tool calls, but they do not fully show how agents accumulate evidence through exploration, use it to inform judgments, continually adjust strategies based on feedback, and turn intermediate results into final deliverables. High-quality long-horizon tr…",
-      "url": "https://huggingface.co/papers/2610.13166",
-      "tags": [],
-      "metrics": {
-        "upvotes": 127,
-        "comments": 1
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-10-09T00:00:00.000Z",
-      "firstSeenAt": "2026-10-13T23:10:18.192Z",
-      "lastSeenAt": "2026-10-13T23:10:18.192Z",
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "admitReason": "notable",
-      "summaryEn": "Focuses on scaling agentic data for long-horizon terminal operations and complex tasks.",
-      "summaryKo": "장기 터미널 작업과 복잡한 작업을 위한 에이전트 데이터 확장 연구.",
-      "reasonEn": "133 upvotes within 4 days of publication",
-      "reasonKo": "공개 후 4일 만에 133개 업보트"
-    },
-    {
-      "id": "hf-paper:2610.03308",
-      "type": "paper",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "T3lescope: Arbitrary-Resolution High-Fidelity Generative Surface Reconstruction from Images",
-      "summaryOriginal": "We reconstruct high-fidelity 3D scene meshes from posed multi-view images without per-scene optimization, across scales ranging from single objects to large outdoor scenes. Per-scene optimization methods lack the learned 3D prior needed when observations are sparse or surfaces are glossy or transparent. Existing generative methods leverage such priors to complete geometry in sparsely observed reg…",
-      "url": "https://huggingface.co/papers/2610.03308",
-      "tags": [],
-      "metrics": {
-        "upvotes": 14,
-        "comments": 1,
-        "githubStars": 14
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "firstSeenAt": "2026-10-13T23:10:18.192Z",
-      "lastSeenAt": "2026-10-13T23:10:18.192Z",
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "admitReason": "notable",
-      "summaryEn": "T3lescope generates high-fidelity 3D scene meshes from multi-view images without per-scene optimization.",
-      "summaryKo": "단일/다시점 이미지에서 고품질 3D 씬 메시를 생성하는 기법.",
-      "reasonEn": "10 upvotes within 11 days of publication",
-      "reasonKo": "공개 후 11일 만에 10개 업보트"
-    },
-    {
-      "id": "hf-paper:2609.33304",
-      "type": "paper",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents",
-      "summaryOriginal": "Personal Graphical User Interface (GUI) agents rely on interaction history to infer what a user wants from ambiguous instructions and to anticipate recurring routines. Existing approaches retrieve task-relevant history and append it to the policy's context, implicitly assuming that experience relevant to a task remains useful for each decision within it. We find that this help is largely spent at…",
-      "url": "https://huggingface.co/papers/2609.33304",
-      "tags": [],
-      "metrics": {
-        "upvotes": 10,
-        "comments": 1,
-        "githubStars": 89
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-09-27T00:00:00.000Z",
-      "firstSeenAt": "2026-10-13T23:10:18.192Z",
-      "lastSeenAt": "2026-10-13T23:10:18.192Z",
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "admitReason": "notable",
-      "summaryEn": "Analyzes limits of experience retrieval in personal GUI agents and shows task relevance differs from applicability.",
-      "summaryKo": "개인화 GUI 에이전트의 경험 검색 한계와 작업 관련성 분석.",
-      "reasonEn": "30 upvotes within 16 days of publication",
-      "reasonKo": "공개 후 16일 만에 30개 업보트"
-    },
-    {
-      "id": "hf-paper:2610.11765",
-      "type": "paper",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "Thinking Inertia: LLMs Keep Thinking When Told Not To",
-      "summaryOriginal": "Large Language Models (LLMs) increasingly ship with explicit \"thinking modes\", yet their counterpart, \"no-thinking\", has received far less attention. We study LLMs' no-thinking behavior along two axes. a. How to measure no-thinking? Prior work typically defines no-thinking through proxies such as a disabled thinking mode or the absence of long traces. These proxies are unreliable: disabled thinki…",
-      "url": "https://huggingface.co/papers/2610.11765",
-      "tags": [],
-      "metrics": {
-        "upvotes": 126,
-        "comments": 2,
-        "githubStars": 11
-      },
-      "source": "hf-papers",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "firstSeenAt": "2026-10-13T23:10:18.192Z",
-      "lastSeenAt": "2026-10-13T23:10:18.192Z",
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "admitReason": "notable",
-      "summaryEn": "Investigates 'thinking inertia' in LLMs where models continue internal reasoning despite explicit instructions not to.",
-      "summaryKo": "명시적 지시에도 사고 과정을 멈추지 않는 대형 언어 모델의 현상.",
-      "reasonEn": "215 upvotes within 5 days of publication",
-      "reasonKo": "공개 후 5일 만에 215개 업보트"
-    },
-    {
       "id": "gh:microsoft/BitNet",
       "type": "repo",
       "categories": [
@@ -9438,155 +9582,6 @@
       "summaryKo": "파이토치는 연구 프로토타이핑에서 프로덕션 배포까지의 과정을 가속화하는 오픈소스 머신러닝 프레임워크입니다.",
       "reasonEn": "81 stars surge today",
       "reasonKo": "오늘 81개의 스타 급증"
-    },
-    {
-      "id": "hf-model:abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-      "type": "model",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-      "summaryOriginal": "text-to-image model · gguf, qwen, image-generation, comfyui, comfyui-gguf",
-      "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-      "lang": "text-to-image",
-      "tags": [
-        "gguf",
-        "qwen",
-        "image-generation",
-        "comfyui",
-        "comfyui-gguf",
-        "text-to-image",
-        "base_model:Qwen/Qwen-Image-2.1",
-        "base_model:quantized:Qwen/Qwen-Image-2.1",
-        "license:other",
-        "region:us"
-      ],
-      "metrics": {
-        "likes": 5841,
-        "downloads": 112002,
-        "trendingScore": 605
-      },
-      "source": "hf-models",
-      "publishedAt": "2026-09-20T15:51:13.000Z",
-      "updatedAt": "2026-11-03T23:51:10.000Z",
-      "firstSeenAt": "2026-09-22T21:44:36.199Z",
-      "lastSeenAt": "2026-10-11T22:38:04.361Z",
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "admitReason": "trending",
-      "summaryEn": "An uncensored GGUF quantized text-to-image model based on Qwen-Image-2.1, designed for local ComfyUI generation pipelines.",
-      "summaryKo": "로컬 ComfyUI 파이프라인을 위한 Qwen-Image-2.1 기반 비검열 텍스트-이미지 GGUF 모델.",
-      "reasonEn": "Trending with 182K downloads in 2 days",
-      "reasonKo": "2일 만에 182K 다운로드 기록하며 급상승"
-    },
-    {
-      "id": "hf-model:Aleph-Alpha/Kolibri-1",
-      "type": "model",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "Aleph-Alpha/Kolibri-1",
-      "summaryOriginal": "text-generation model · vllm, safetensors, kolibri1, reasoning, moe",
-      "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
-      "lang": "text-generation",
-      "tags": [
-        "vllm",
-        "safetensors",
-        "kolibri1",
-        "reasoning",
-        "moe",
-        "text-generation",
-        "conversational",
-        "de",
-        "en",
-        "arxiv:2512.11614",
-        "arxiv:2601.17858",
-        "base_model:Aleph-Alpha/Kolibri-1-BF16"
-      ],
-      "metrics": {
-        "likes": 1010,
-        "downloads": 13664,
-        "trendingScore": 433
-      },
-      "source": "hf-models",
-      "publishedAt": "2026-10-02T05:54:02.000Z",
-      "updatedAt": "2026-11-06T08:24:04.000Z",
-      "firstSeenAt": "2026-10-04T22:09:02.469Z",
-      "lastSeenAt": "2026-10-11T22:38:04.361Z",
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "admitReason": "trending",
-      "summaryEn": "A text generation model utilizing mixture-of-experts and reasoning capabilities, optimized for vLLM and safetensors.",
-      "summaryKo": "vLLM 및 safetensors에 최적화된 텍스트 생성 모델입니다.",
-      "reasonEn": "Trending with 385 likes",
-      "reasonKo": "385개 좋아요를 받으며 트렌딩 중"
-    },
-    {
-      "id": "hf-model:Venastine-Research/Xing4.0-29B-A4B-GGUF",
-      "type": "model",
-      "categories": [
-        "ai-models",
-        "ai-agents"
-      ],
-      "title": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
-      "summaryOriginal": "text-generation model · transformers, safetensors, gguf, xing4_0, text-generation",
-      "url": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF",
-      "lang": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "gguf",
-        "xing4_0",
-        "text-generation",
-        "conversational",
-        "custom_code",
-        "arxiv:2512.24157",
-        "arxiv:2507.18013",
-        "base_model:XingChen-AGI/Xing4.0-29B-A4B",
-        "base_model:quantized:XingChen-AGI/Xing4…",
-        "license:apache-2.0"
-      ],
-      "metrics": {
-        "likes": 791,
-        "downloads": 27949,
-        "trendingScore": 385
-      },
-      "source": "hf-models",
-      "publishedAt": "2026-09-17T18:37:31.000Z",
-      "updatedAt": "2026-10-11T13:34:13.000Z",
-      "firstSeenAt": "2026-10-04T22:09:02.469Z",
-      "lastSeenAt": "2026-10-11T22:38:04.361Z",
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "admitReason": "trending",
-      "summaryEn": "A 29B parameter conversational text generation model available in GGUF format for localized execution.",
-      "summaryKo": "GGUF 포맷으로 제공되는 29B 파라미터 대화형 텍스트 생성 모델입니다.",
-      "reasonEn": "14.3K downloads within 17 days",
-      "reasonKo": "17일 만에 14.3K 다운로드 기록"
-    },
-    {
-      "id": "gh:tensorflow/tensorflow",
-      "type": "repo",
-      "categories": [
-        "ai-models"
-      ],
-      "title": "tensorflow/tensorflow",
-      "summaryOriginal": "An Open Source Machine Learning Framework for Everyone",
-      "url": "https://github.com/tensorflow/tensorflow",
-      "lang": "C++",
-      "tags": [],
-      "metrics": {
-        "stars": 201401
-      },
-      "source": "github-trending",
-      "updatedAt": "2026-11-08T22:39:44Z",
-      "firstSeenAt": "2026-09-26T21:44:07.106Z",
-      "lastSeenAt": "2026-10-10T22:08:18.423Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
-      "admitReason": "trending",
-      "summaryEn": "An open-source machine learning framework for everyone, providing comprehensive tools and libraries for building and deploying AI models.",
-      "summaryKo": "모두를 위한 오픈소스 머신러닝 프레임워크로, AI 모델 구축 및 배포를 위한 종합 도구 제공.",
-      "reasonEn": "Gained 31 stars today.",
-      "reasonKo": "오늘 31개의 스타 획득."
     }
   ]
 }
