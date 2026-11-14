@@ -1,35 +1,9 @@
 {
   "version": 1,
   "category": "backend",
-  "generatedAt": "2026-11-14T00:05:27.914Z",
+  "generatedAt": "2026-11-14T22:49:56.471Z",
   "ttlSeconds": 10800,
   "cards": [
-    {
-      "id": "gh:block/buzz",
-      "type": "repo",
-      "title": "block/buzz",
-      "summaryOriginal": "A hive mind communication platform",
-      "url": "https://github.com/block/buzz",
-      "lang": "Rust",
-      "tags": [],
-      "metrics": {
-        "stars": 37294,
-        "starsDelta": 97
-      },
-      "source": "github-trending",
-      "admitReason": "trending",
-      "summaryEn": "A hive mind communication platform for teams to collaborate seamlessly.",
-      "summaryKo": "팀 협업을 위한 하이브 마인드 커뮤니케이션 플랫폼입니다.",
-      "reasonEn": "Rapidly gaining stars for its unique communication approach",
-      "reasonKo": "독특한 소통 방식으로 스타 급증 중",
-      "categories": [
-        "backend",
-        "engineering"
-      ],
-      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
-      "firstSeenAt": "2026-08-23T12:42:30.740Z",
-      "lastSeenAt": "2026-11-14T00:05:27.914Z"
-    },
     {
       "id": "gh:bojieli/ai-infra-book",
       "type": "repo",
@@ -52,7 +26,7 @@
         "llm-serving"
       ],
       "metrics": {
-        "stars": 7561
+        "stars": 7720
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -66,9 +40,9 @@
         "ai-models",
         "backend"
       ],
-      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
+      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
       "firstSeenAt": "2026-09-14T22:13:48.779Z",
-      "lastSeenAt": "2026-11-14T00:05:27.914Z"
+      "lastSeenAt": "2026-11-14T22:49:56.471Z"
     },
     {
       "id": "gh:workersio/breakscale",
@@ -90,7 +64,7 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 2034
+        "stars": 2048
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -104,9 +78,96 @@
         "web",
         "backend"
       ],
-      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
+      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
       "firstSeenAt": "2026-10-28T22:55:38.716Z",
-      "lastSeenAt": "2026-11-14T00:05:27.914Z"
+      "lastSeenAt": "2026-11-14T22:49:56.471Z"
+    },
+    {
+      "id": "devto:4977112",
+      "type": "article",
+      "title": "Our Looping Factory Cut DEV Page Load Time by 75% and Counting",
+      "summaryOriginal": "A month ago, an average web request on DEV took about 70 milliseconds inside Rails, with P99 response...",
+      "url": "https://dev.to/dailycontext/our-looping-factory-cut-dev-page-load-time-by-75-and-counting-1hnf",
+      "tags": [
+        "ai",
+        "agents",
+        "automation",
+        "architecture"
+      ],
+      "metrics": {
+        "upvotes": 142,
+        "comments": 39
+      },
+      "source": "devto",
+      "publishedAt": "2026-11-09T16:12:25Z",
+      "admitReason": "notable",
+      "summaryEn": "A write-up on how DEV cut Rails page load time by 75% through an agent-driven looping process, with latency and P99 figures.",
+      "summaryKo": "에이전트 기반 반복 작업으로 DEV의 Rails 페이지 로딩 시간을 75% 줄인 과정을 설명합니다.",
+      "reasonEn": "142 upvotes and 39 comments within 5 days",
+      "reasonKo": "5일 만에 추천 142개, 댓글 39개",
+      "categories": [
+        "backend",
+        "infra"
+      ],
+      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "firstSeenAt": "2026-11-14T22:49:56.471Z",
+      "lastSeenAt": "2026-11-14T22:49:56.471Z"
+    },
+    {
+      "id": "devto:5024286",
+      "type": "article",
+      "title": "Long Live Rails",
+      "summaryOriginal": "When DHH took the stage at Rails World 2026 and talked openly about going \"pencils down\" on...",
+      "url": "https://dev.to/ben/long-live-rails-3p21",
+      "tags": [
+        "rails",
+        "ruby",
+        "rust",
+        "ai"
+      ],
+      "metrics": {
+        "upvotes": 123,
+        "comments": 19
+      },
+      "source": "devto",
+      "publishedAt": "2026-11-12T15:30:50Z",
+      "admitReason": "notable",
+      "summaryEn": "A reflection on DHH's Rails World 2026 talk about stepping back from Rails development, and what that means for the framework's future.",
+      "summaryKo": "Rails World 2026에서 DHH가 Rails 개발에서 물러나겠다고 밝힌 발표를 돌아보고 프레임워크의 미래를 다룹니다.",
+      "reasonEn": "123 upvotes and 19 comments within 2 days",
+      "reasonKo": "2일 만에 추천 123개, 댓글 19개",
+      "categories": [
+        "backend"
+      ],
+      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "firstSeenAt": "2026-11-14T22:49:56.471Z",
+      "lastSeenAt": "2026-11-14T22:49:56.471Z"
+    },
+    {
+      "id": "gh:block/buzz",
+      "type": "repo",
+      "categories": [
+        "backend",
+        "engineering"
+      ],
+      "title": "block/buzz",
+      "summaryOriginal": "A hive mind communication platform",
+      "url": "https://github.com/block/buzz",
+      "lang": "Rust",
+      "tags": [],
+      "metrics": {
+        "stars": 37294,
+        "starsDelta": 97
+      },
+      "source": "github-trending",
+      "firstSeenAt": "2026-08-23T12:42:30.740Z",
+      "lastSeenAt": "2026-11-14T00:05:27.914Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
+      "admitReason": "trending",
+      "summaryEn": "A hive mind communication platform for teams to collaborate seamlessly.",
+      "summaryKo": "팀 협업을 위한 하이브 마인드 커뮤니케이션 플랫폼입니다.",
+      "reasonEn": "Rapidly gaining stars for its unique communication approach",
+      "reasonKo": "독특한 소통 방식으로 스타 급증 중"
     },
     {
       "id": "gh:nodejs/node",
