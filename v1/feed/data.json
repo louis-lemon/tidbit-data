@@ -1,9 +1,37 @@
 {
   "version": 1,
   "category": "data",
-  "generatedAt": "2026-11-12T23:56:23.711Z",
+  "generatedAt": "2026-11-14T00:05:27.914Z",
   "ttlSeconds": 10800,
   "cards": [
+    {
+      "id": "gh:alibaba/open-code-review",
+      "type": "repo",
+      "title": "alibaba/open-code-review",
+      "summaryOriginal": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "url": "https://github.com/alibaba/open-code-review",
+      "lang": "Go",
+      "tags": [],
+      "metrics": {
+        "stars": 50592,
+        "starsDelta": 215
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "Alibaba's open-source code review tool combining deterministic pipelines with an LLM agent for line-level comments.",
+      "summaryKo": "알리바바 오픈소스 코드 리뷰 도구. 결정적 파이프라인 + LLM 에이전트로 라인 단위 코멘트.",
+      "reasonEn": "Slow, steady growth",
+      "reasonKo": "완만한 성장",
+      "categories": [
+        "ai-models",
+        "ai-agents",
+        "data",
+        "engineering"
+      ],
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
+      "firstSeenAt": "2026-09-13T21:13:30.222Z",
+      "lastSeenAt": "2026-11-14T00:05:27.914Z"
+    },
     {
       "id": "gh:AbhiKamane/ai-app-builder-open",
       "type": "repo",
@@ -31,7 +59,7 @@
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-11-06T20:33:39Z",
-      "updatedAt": "2026-11-12T23:08:02Z",
+      "updatedAt": "2026-11-13T20:16:13Z",
       "summaryEn": "Open-source tool that generates full-stack Next.js apps with hosting and auth, an alternative to commercial AI app builders like Bolt.",
       "summaryKo": "호스팅과 인증을 포함한 풀스택 Next.js 앱을 생성하는 오픈소스 도구로, Bolt 같은 상용 AI 앱 빌더의 대안입니다.",
       "reasonEn": "New: 332 stars within 2 days of creation",
@@ -40,9 +68,9 @@
         "web",
         "data"
       ],
-      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "firstSeenAt": "2026-11-08T22:37:27.812Z",
-      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+      "lastSeenAt": "2026-11-14T00:05:27.914Z"
     },
     {
       "id": "gh:mikehasa/golive-skill",
@@ -66,7 +94,7 @@
         "godaddy"
       ],
       "metrics": {
-        "stars": 1514
+        "stars": 1532
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -81,9 +109,9 @@
         "data",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "firstSeenAt": "2026-09-24T21:54:59.755Z",
-      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+      "lastSeenAt": "2026-11-14T00:05:27.914Z"
     },
     {
       "id": "gh:ShayanAbbas1/dbdelve",
@@ -107,12 +135,12 @@
         "mysql"
       ],
       "metrics": {
-        "stars": 1221
+        "stars": 1299
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-08-17T14:41:16Z",
-      "updatedAt": "2026-11-12T16:24:38Z",
+      "updatedAt": "2026-11-13T19:32:58Z",
       "summaryEn": "Lightweight local database client written in Rust with the GPUI framework, supporting MariaDB on macOS and Linux.",
       "summaryKo": "Rust와 GPUI로 만든 가벼운 로컬 데이터베이스 클라이언트로, macOS와 Linux에서 MariaDB를 지원한다.",
       "reasonEn": "1.1K stars within 86 days, established quickly",
@@ -121,9 +149,9 @@
         "data",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "firstSeenAt": "2026-11-12T01:13:41.978Z",
-      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+      "lastSeenAt": "2026-11-14T00:05:27.914Z"
     },
     {
       "id": "gh:kividbio/kividb",
@@ -147,12 +175,12 @@
         "nosql"
       ],
       "metrics": {
-        "stars": 1103
+        "stars": 1111
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-10-16T01:07:52Z",
-      "updatedAt": "2026-11-12T23:08:56Z",
+      "updatedAt": "2026-11-13T23:46:15Z",
       "summaryEn": "A fast, multi-threaded Redis and Valkey alternative written in Rust with built-in full-text and vector search.",
       "summaryKo": "전체 텍스트 및 벡터 검색이 내장된 러스트 기반의 고속 Redis 및 Valkey 대안입니다.",
       "reasonEn": "326 stars within 4 days of launch",
@@ -160,9 +188,9 @@
       "categories": [
         "data"
       ],
-      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "firstSeenAt": "2026-10-20T22:00:02.979Z",
-      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+      "lastSeenAt": "2026-11-14T00:05:27.914Z"
     },
     {
       "id": "hn:50312408",
@@ -178,16 +206,16 @@
       "source": "hn",
       "publishedAt": "2026-10-31T01:38:56Z",
       "admitReason": "notable",
-      "summaryEn": "Postgres 19 release is delayed because more bugs are being found in testing, a sign of the database's rigorous QA.",
-      "summaryKo": "Postgres 19 출시가 테스트에서 더 많은 버그가 발견되어 늦어졌다. 데이터베이스의 엄격한 품질 검증을 보여준다.",
-      "reasonEn": "855 upvotes and 521 comments within 12 days",
-      "reasonKo": "12일 내 추천 855, 댓글 521개",
+      "summaryEn": "Postgres 19 is delayed because maintainers are finding many more bugs than before. Signals the release pace and quality bar for a major database.",
+      "summaryKo": "유지관리자들이 이전보다 훨씬 많은 버그를 발견해 Postgres 19 출시가 지연되었습니다. 주요 데이터베이스의 품질 기준을 보여줍니다.",
+      "reasonEn": "855 upvotes and 521 comments within 13 days",
+      "reasonKo": "13일 내 추천 855, 댓글 521",
       "categories": [
         "data"
       ],
-      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "firstSeenAt": "2026-11-02T09:19:52.923Z",
-      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+      "lastSeenAt": "2026-11-14T00:05:27.914Z"
     },
     {
       "id": "hn:50181136",
@@ -203,16 +231,16 @@
       "source": "hn",
       "publishedAt": "2026-10-21T14:01:22Z",
       "admitReason": "notable",
-      "summaryEn": "DuckDB 2.0.0 LTS release, a long-term-support version of the in-process analytical SQL database.",
-      "summaryKo": "DuckDB 2.0.0 LTS 출시로, 프로세스 내 분석용 SQL 데이터베이스의 장기 지원 버전이다.",
-      "reasonEn": "463 upvotes; major LTS release 22 days ago",
-      "reasonKo": "추천 463; 22일 전 주요 LTS 출시",
+      "summaryEn": "DuckDB 2.0.0 LTS release, a new long-term support line for the embedded analytics database. Brings a stable base for analytics workloads.",
+      "summaryKo": "임베디드 분석 데이터베이스 DuckDB 2.0.0 LTS 출시입니다. 분석 워크로드를 위한 안정적인 기반을 제공합니다.",
+      "reasonEn": "463 upvotes and 63 comments within 23 days",
+      "reasonKo": "23일 내 추천 463, 댓글 63",
       "categories": [
         "data"
       ],
-      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "firstSeenAt": "2026-11-08T22:37:27.812Z",
-      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+      "lastSeenAt": "2026-11-14T00:05:27.914Z"
     },
     {
       "id": "hn:50217500",
@@ -228,16 +256,17 @@
       "source": "hn",
       "publishedAt": "2026-10-24T01:16:58Z",
       "admitReason": "notable",
-      "summaryEn": "A retrospective on twelve years of building distributed SQLite systems, covering design lessons and trade-offs.",
-      "summaryKo": "12년간 분산 SQLite 시스템을 구축하며 얻은 설계 교훈과 트레이드오프를 정리한 글이다.",
-      "reasonEn": "394 upvotes and 70 comments within 19 days",
-      "reasonKo": "19일 내 추천 394, 댓글 70개",
+      "summaryEn": "A twelve-year retrospective on building distributed SQLite systems. Offers practical lessons on replication, consistency, and operations.",
+      "summaryKo": "분산 SQLite 시스템을 12년간 구축한 회고입니다. 복제, 일관성, 운영에 대한 실용적 교훈을 담고 있습니다.",
+      "reasonEn": "394 upvotes and 70 comments within 20 days",
+      "reasonKo": "20일 내 추천 394, 댓글 70",
       "categories": [
-        "data"
+        "data",
+        "engineering"
       ],
-      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "firstSeenAt": "2026-10-26T22:58:48.719Z",
-      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+      "lastSeenAt": "2026-11-14T00:05:27.914Z"
     },
     {
       "id": "hn:50358702",
@@ -253,16 +282,41 @@
       "source": "hn",
       "publishedAt": "2026-11-03T21:51:06Z",
       "admitReason": "notable",
-      "summaryEn": "A deep dive into PostgreSQL internals, explaining how the database stores data, runs queries, and manages processes.",
-      "summaryKo": "PostgreSQL 내부 구조를 깊이 있게 다루며, 데이터 저장과 쿼리 처리 방식을 설명한다.",
-      "reasonEn": "379 upvotes within 9 days of publication",
-      "reasonKo": "게시 9일 만에 추천 379",
+      "summaryEn": "A guide to how PostgreSQL works internally, covering storage, query processing, and concurrency. Useful for debugging and tuning.",
+      "summaryKo": "PostgreSQL의 내부 동작을 저장, 쿼리 처리, 동시성 측면에서 설명합니다. 디버깅과 튜닝에 유용합니다.",
+      "reasonEn": "379 upvotes and 38 comments within 10 days",
+      "reasonKo": "10일 내 추천 379, 댓글 38",
       "categories": [
         "data"
       ],
-      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "firstSeenAt": "2026-11-05T00:04:20.450Z",
-      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+      "lastSeenAt": "2026-11-14T00:05:27.914Z"
+    },
+    {
+      "id": "hn:50471761",
+      "type": "article",
+      "title": "Turning a 22-year-old Postgres type-confusion primitive into RCE",
+      "summaryOriginal": "Turning a 22-year-old Postgres type-confusion primitive into RCE",
+      "url": "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 229,
+        "comments": 40
+      },
+      "source": "hn",
+      "publishedAt": "2026-11-12T18:22:22Z",
+      "admitReason": "notable",
+      "summaryEn": "Write-up showing how a 22-year-old Postgres type-confusion bug can be chained into remote code execution. Relevant for anyone running Postgres.",
+      "summaryKo": "22년 된 Postgres 타입 혼동 결함을 원격 코드 실행으로 연결한 분석입니다. Postgres를 운영하는 모든 사람에게 중요합니다.",
+      "reasonEn": "229 upvotes and 40 comments within 1 day",
+      "reasonKo": "하루 만에 추천 229, 댓글 40",
+      "categories": [
+        "data"
+      ],
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
+      "firstSeenAt": "2026-11-14T00:05:27.914Z",
+      "lastSeenAt": "2026-11-14T00:05:27.914Z"
     },
     {
       "id": "hn:50119991",
@@ -278,17 +332,17 @@
       "source": "hn",
       "publishedAt": "2026-10-16T15:55:40Z",
       "admitReason": "notable",
-      "summaryEn": "Postgres 19 is delayed because AI-assisted code reviewers surfaced more bugs than maintainers can fix in time.",
-      "summaryKo": "AI 코드 리뷰어가 유지보수자가 처리할 수 있는 양보다 많은 버그를 찾아내 Postgres 19가 지연됐다.",
-      "reasonEn": "227 upvotes and 93 comments within 27 days",
-      "reasonKo": "27일 내 추천 227, 댓글 93개",
+      "summaryEn": "Postgres 19 is delayed after AI-based code reviewers surfaced more bugs than maintainers can fix. Shows the strain AI review puts on release work.",
+      "summaryKo": "AI 코드 리뷰어가 유지관리자들이 고칠 수 있는 것보다 많은 버그를 찾아 Postgres 19가 지연되었습니다. AI 리뷰의 부담을 보여줍니다.",
+      "reasonEn": "227 upvotes and 93 comments within 28 days",
+      "reasonKo": "28일 내 추천 227, 댓글 93",
       "categories": [
         "data",
-        "ai-agents"
+        "ai-models"
       ],
-      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "firstSeenAt": "2026-10-17T21:10:51.961Z",
-      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+      "lastSeenAt": "2026-11-14T00:05:27.914Z"
     },
     {
       "id": "hn:50338747",
@@ -304,42 +358,16 @@
       "source": "hn",
       "publishedAt": "2026-11-02T16:02:26Z",
       "admitReason": "notable",
-      "summaryEn": "An engineering write-up on a team moving its data warehouse off DuckDB, with reasons and migration lessons.",
-      "summaryKo": "팀이 데이터 웨어하우스를 DuckDB에서 옮긴 과정과 이유, 마이그레이션 교훈을 다룬 엔지니어링 글이다.",
-      "reasonEn": "188 upvotes and 120 comments within 10 days",
-      "reasonKo": "10일 내 추천 188, 댓글 120개",
+      "summaryEn": "A team describes moving its data warehouse away from DuckDB and the reasons behind it. Useful for evaluating analytics engine tradeoffs.",
+      "summaryKo": "한 팀이 데이터 웨어하우스를 DuckDB에서 옮긴 이유를 설명합니다. 분석 엔진의 장단점을 평가할 때 참고가 됩니다.",
+      "reasonEn": "188 upvotes and 120 comments within 11 days",
+      "reasonKo": "11일 내 추천 188, 댓글 120",
       "categories": [
         "data"
       ],
-      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "firstSeenAt": "2026-11-03T01:25:46.164Z",
-      "lastSeenAt": "2026-11-12T23:56:23.711Z"
-    },
-    {
-      "id": "hn:50435898",
-      "type": "article",
-      "title": "Ultorg: The User Interface for Relational Databases",
-      "summaryOriginal": "Ultorg: The User Interface for Relational Databases",
-      "url": "https://www.ultorg.com/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 153,
-        "comments": 62
-      },
-      "source": "hn",
-      "publishedAt": "2026-11-10T03:59:39Z",
-      "admitReason": "notable",
-      "summaryEn": "Ultorg is a user interface for browsing and editing relational databases, aimed at easier data exploration.",
-      "summaryKo": "Ultorg는 관계형 데이터베이스를 탐색하고 편집하기 쉽게 만든 사용자 인터페이스 도구다.",
-      "reasonEn": "153 upvotes and 62 comments within 2 days of posting",
-      "reasonKo": "게시 2일 만에 추천 153, 댓글 62개",
-      "categories": [
-        "data",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-12T23:56:23.711Z",
-      "firstSeenAt": "2026-11-12T01:13:41.978Z",
-      "lastSeenAt": "2026-11-12T23:56:23.711Z"
+      "lastSeenAt": "2026-11-14T00:05:27.914Z"
     },
     {
       "id": "gh:pgrundev/pgbot",
@@ -360,14 +388,14 @@
         "postgresql-database"
       ],
       "metrics": {
-        "stars": 1486
+        "stars": 1492
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T23:41:52Z",
-      "updatedAt": "2026-11-02T21:08:41Z",
+      "updatedAt": "2026-11-09T21:07:18Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-11-08T22:37:27.812Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "notable",
       "summaryEn": "AI agent toolkit for Postgres databases, enabling intelligent data analysis and query generation directly against PostgreSQL with LLM integration.",
       "summaryKo": "PostgreSQL 데이터베이스용 AI 에이전트로, LLM을 통한 지능형 데이터 분석 및 쿼리 생성을 제공합니다."
@@ -410,13 +438,13 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 99834
+        "stars": 102494
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-08T13:18:31Z",
+      "updatedAt": "2026-11-11T19:16:10Z",
       "firstSeenAt": "2026-11-03T01:25:46.164Z",
       "lastSeenAt": "2026-11-05T23:55:17.241Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "trending",
       "summaryEn": "Python web scraping framework covering single requests through full-scale crawls, with adaptive parsing for sites that change their markup.",
       "summaryKo": "단일 요청부터 대규모 크롤링까지 지원하는 웹 스크래핑 프레임워크입니다.",
@@ -438,14 +466,14 @@
         "duckdb"
       ],
       "metrics": {
-        "stars": 309
+        "stars": 319
       },
       "source": "github-search",
       "publishedAt": "2026-10-25T07:57:16Z",
-      "updatedAt": "2026-11-08T22:35:06Z",
+      "updatedAt": "2026-11-13T23:21:49Z",
       "firstSeenAt": "2026-11-03T23:50:20.273Z",
       "lastSeenAt": "2026-11-05T23:55:17.241Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "new",
       "summaryEn": "Data transformation tool built on DuckDB for data engineering tasks; the README is a generic tagline with little technical detail.",
       "summaryKo": "DuckDB 기반 데이터 변환 도구. README 설명이 일반적이라 기술 세부 정보는 적음.",
@@ -556,14 +584,14 @@
         "stripe"
       ],
       "metrics": {
-        "stars": 2288
+        "stars": 2289
       },
       "source": "github-search",
       "publishedAt": "2026-07-29T07:56:49Z",
       "updatedAt": "2026-10-25T11:11:11Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-10-26T22:58:48.719Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "notable",
       "summaryEn": "Open-source, self-hosted revenue-first analytics tool for founders offering web analytics, session replay, and attribution.",
       "summaryKo": "웹 분석, 세션 리플레이 및 기여 분석을 제공하는 창업가용 오픈소스 자체 호스팅 수익 중심 분석 도구입니다.",
@@ -598,7 +626,7 @@
       "updatedAt": "2026-10-26T18:26:05Z",
       "firstSeenAt": "2026-10-09T22:59:18.171Z",
       "lastSeenAt": "2026-10-26T22:58:48.719Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "notable",
       "summaryEn": "An analytical platform skill that profiles messy data, selects appropriate methods, and produces visual reports for decision-making.",
       "summaryKo": "정형화되지 않은 데이터를 분석하고 의사결정을 위한 시각적 보고서를 생성하는 플랫폼 분석 스킬입니다.",
@@ -691,13 +719,13 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 56495
+        "stars": 57063
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-02T09:23:27Z",
+      "updatedAt": "2026-11-09T09:17:48Z",
       "firstSeenAt": "2026-08-26T12:55:17.882Z",
       "lastSeenAt": "2026-10-17T21:10:51.961Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "trending",
       "summaryEn": "An agent skills library for scientific databases, turning AI agents into science assistants.",
       "summaryKo": "과학 데이터베이스 연동을 통해 AI 에이전트를 과학 연구 보조원으로 만들어주는 라이브러리입니다.",
@@ -743,34 +771,6 @@
       "summaryKo": "20개의 데이터베이스와 통합 AI 어시스턴트를 지원하는 빠르고 네이티브한 macOS용 데이터베이스 클라이언트입니다.",
       "reasonEn": "307 stars within 4 days of launch",
       "reasonKo": "출시 4일 만에 307개 스타 획득"
-    },
-    {
-      "id": "gh:alibaba/open-code-review",
-      "type": "repo",
-      "categories": [
-        "ai-models",
-        "ai-agents",
-        "data",
-        "engineering"
-      ],
-      "title": "alibaba/open-code-review",
-      "summaryOriginal": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "url": "https://github.com/alibaba/open-code-review",
-      "lang": "Go",
-      "tags": [],
-      "metrics": {
-        "stars": 49841
-      },
-      "source": "github-trending",
-      "updatedAt": "2026-11-11T11:46:39Z",
-      "firstSeenAt": "2026-09-13T21:13:30.222Z",
-      "lastSeenAt": "2026-10-09T22:59:18.171Z",
-      "metricsRefreshedAt": "2026-11-12T01:13:41.978Z",
-      "admitReason": "trending",
-      "summaryEn": "Alibaba's open-source code review tool combining deterministic pipelines with an LLM agent for line-level comments.",
-      "summaryKo": "알리바바 오픈소스 코드 리뷰 도구. 결정적 파이프라인 + LLM 에이전트로 라인 단위 코멘트.",
-      "reasonEn": "Slow, steady growth",
-      "reasonKo": "완만한 성장"
     },
     {
       "id": "gh:Robbyant/lingbot-map",
@@ -888,13 +888,13 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 29568
+        "stars": 30306
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-08T18:18:57Z",
+      "updatedAt": "2026-11-13T18:20:00Z",
       "firstSeenAt": "2026-08-21T09:38:23.718Z",
       "lastSeenAt": "2026-09-30T22:45:38.760Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "trending",
       "summaryEn": "Dbx is a lightweight cross-platform database client supporting 70+ databases with built-in AI, MCP server, CLI, and Docker capabilities.",
       "summaryKo": "70개 이상의 데이터베이스를 지원하는 가벼운 크로스플랫폼 클라이언트로 AI와 MCP를 내장했습니다."
@@ -1007,14 +1007,14 @@
         "machine-learning"
       ],
       "metrics": {
-        "stars": 81305
+        "stars": 81402
       },
       "source": "github-search",
       "publishedAt": "2013-06-17T18:39:10Z",
-      "updatedAt": "2026-11-08T21:41:39Z",
+      "updatedAt": "2026-11-13T23:41:02Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "notable",
       "summaryEn": "Real-time full-stack observability and monitoring platform with AI-assisted alerting, covering infra, containers, and databases.",
       "summaryKo": "인프라·컨테이너·DB를 아우르는 실시간 풀스택 관측·모니터링 플랫폼, AI 기반 알림 지원."
@@ -1045,14 +1045,14 @@
         "etl"
       ],
       "metrics": {
-        "stars": 47420
+        "stars": 47472
       },
       "source": "github-search",
       "publishedAt": "2015-04-13T18:04:58Z",
-      "updatedAt": "2026-11-08T14:39:35Z",
+      "updatedAt": "2026-11-13T23:39:41Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "notable",
       "summaryEn": "Workflow orchestration platform for authoring, scheduling, and monitoring data pipelines, ETL jobs, and complex DAGs programmatically.",
       "summaryKo": "데이터 파이프라인, ETL, DAG를 프로그래밍으로 작성, 스케줄링, 모니터링하는 오케스트레이션 플랫폼."
@@ -1080,14 +1080,14 @@
         "science"
       ],
       "metrics": {
-        "stars": 30306
+        "stars": 30329
       },
       "source": "github-search",
       "publishedAt": "2014-07-05T07:07:43Z",
-      "updatedAt": "2026-11-04T15:46:48Z",
+      "updatedAt": "2026-11-10T10:15:31Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "notable",
       "summaryEn": "Curated collection of data science resources, tools, and learning materials covering analytics, machine learning, and visualization.",
       "summaryKo": "데이터 사이언스, 머신러닝, 시각화 리소스와 학습 자료 모음."
@@ -1118,14 +1118,14 @@
         "data-visualization"
       ],
       "metrics": {
-        "stars": 75453
+        "stars": 75519
       },
       "source": "github-search",
       "publishedAt": "2015-07-21T18:55:34Z",
-      "updatedAt": "2026-11-08T18:04:52Z",
+      "updatedAt": "2026-11-14T00:03:41Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "notable",
       "summaryEn": "Open-source data visualization and exploration platform for analytics and business intelligence"
     },
@@ -1194,14 +1194,14 @@
         "session-replay"
       ],
       "metrics": {
-        "stars": 13118
+        "stars": 13144
       },
       "source": "github-search",
       "publishedAt": "2021-04-29T12:15:50Z",
-      "updatedAt": "2026-11-06T17:29:52Z",
+      "updatedAt": "2026-11-13T16:30:13Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "notable",
       "summaryEn": "Self-hosted session replay, co-browsing, and product analytics platform for debugging user behavior and iterating on web applications.",
       "summaryKo": "사용자 행동 디버깅 및 웹 앱 개선를 위한 자체 호스팅 세션 리플레이 및 분석 플랫폼."
@@ -1232,14 +1232,14 @@
         "svelte"
       ],
       "metrics": {
-        "stars": 7099
+        "stars": 7117
       },
       "source": "github-search",
       "publishedAt": "2021-05-27T03:50:19Z",
-      "updatedAt": "2026-11-06T22:29:21Z",
+      "updatedAt": "2026-11-13T20:59:51Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "notable",
       "summaryEn": "Business intelligence as code: build interactive dashboards and visualizations using SQL, markdown, dbt, and DuckDB.",
       "summaryKo": "SQL, 마크다운, dbt, DuckDB로 대시보드와 시각화를 작성하는 BI 플랫폼."
@@ -1383,14 +1383,14 @@
         "no-sql"
       ],
       "metrics": {
-        "stars": 77308
+        "stars": 77491
       },
       "source": "github-search",
       "publishedAt": "2009-03-21T22:32:25Z",
-      "updatedAt": "2026-11-08T17:19:24Z",
+      "updatedAt": "2026-11-13T15:50:38Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "notable",
       "summaryEn": "In-memory data structure server and cache supporting real-time applications, message queues, vector search, and time-series data.",
       "summaryKo": "실시간 애플리케이션, 메시지 큐, 벡터 검색, 시계열 데이터를 지원하는 메모리 데이터 서버."
@@ -1420,14 +1420,14 @@
         "raft"
       ],
       "metrics": {
-        "stars": 52673
+        "stars": 52603
       },
       "source": "github-search",
       "publishedAt": "2013-07-06T21:57:21Z",
-      "updatedAt": "2026-11-06T12:29:27Z",
+      "updatedAt": "2026-11-13T15:35:08Z",
       "firstSeenAt": "2026-08-18T21:26:34.657Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "notable",
       "summaryEn": "Distributed key-value store for critical data in distributed systems; powers Kubernetes consensus.",
       "summaryKo": "분산 시스템의 핵심 데이터를 저장하는 분산 키-값 저장소."
@@ -1456,14 +1456,14 @@
         "sqlite"
       ],
       "metrics": {
-        "stars": 17937
+        "stars": 17947
       },
       "source": "github-search",
       "publishedAt": "2014-08-23T04:31:18Z",
-      "updatedAt": "2026-11-08T22:33:44Z",
+      "updatedAt": "2026-11-13T17:59:04Z",
       "firstSeenAt": "2026-08-20T12:53:13.611Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "notable",
       "summaryEn": "Lightweight, fault-tolerant distributed database built on SQLite using Raft consensus, designed for high availability with minimal operational overhead.",
       "summaryKo": "Raft 합의를 기반으로 하는 SQLite 기반 경량 분산 데이터베이스로, 최소한의 운영 오버헤드로 높은 가용성을 제공합니다."
@@ -1494,14 +1494,14 @@
         "iceberg"
       ],
       "metrics": {
-        "stars": 13486
+        "stars": 13511
       },
       "source": "github-search",
       "publishedAt": "2019-01-19T06:38:14Z",
-      "updatedAt": "2026-11-08T20:20:36Z",
+      "updatedAt": "2026-11-13T23:50:34Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "notable",
       "summaryEn": "Distributed SQL query engine for querying data across multiple sources including Hadoop, data lakes, and various databases at scale.",
       "summaryKo": "Hadoop, 데이터 레이크, 여러 데이터베이스를 쿼리하는 분산 SQL 엔진."
@@ -2736,14 +2736,14 @@
         "eda"
       ],
       "metrics": {
-        "stars": 11919
+        "stars": 11926
       },
       "source": "github-search",
       "publishedAt": "2017-09-11T00:18:46Z",
-      "updatedAt": "2026-11-06T16:06:15Z",
+      "updatedAt": "2026-11-13T10:21:18Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-05T20:52:55.871Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "notable",
       "summaryEn": "Data quality testing tool that validates datasets against expectations to catch bad data early.",
       "summaryKo": "데이터셋을 기대값과 비교 검증해 이상 데이터를 조기에 잡는 데이터 품질 테스트 도구.",
@@ -3069,14 +3069,14 @@
         "numpy"
       ],
       "metrics": {
-        "stars": 78412
+        "stars": 78704
       },
       "source": "github-search",
       "publishedAt": "2019-11-19T17:24:16Z",
       "updatedAt": "2026-09-30T08:10:34Z",
       "firstSeenAt": "2026-08-20T21:29:24.742Z",
       "lastSeenAt": "2026-08-29T22:55:06.972Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "notable",
       "summaryEn": "Step-by-step Python learning guide covering fundamentals, data science, web frameworks, and databases over 30 days.",
       "summaryKo": "30일에 걸쳐 Python 기초, 데이터 과학, 웹 프레임워크, 데이터베이스를 학습하는 단계별 가이드."
@@ -3143,14 +3143,14 @@
         "postgres"
       ],
       "metrics": {
-        "stars": 47659
+        "stars": 47670
       },
       "source": "github-search",
       "publishedAt": "2019-06-20T13:33:47Z",
-      "updatedAt": "2026-11-06T22:43:00Z",
+      "updatedAt": "2026-11-13T20:42:09Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-26T06:52:39.327Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "notable",
       "summaryEn": "Modern ORM for Node.js and TypeScript supporting PostgreSQL, MySQL, MongoDB, SQLite, and other databases with type-safe queries.",
       "summaryKo": "PostgreSQL, MySQL, MongoDB, SQLite를 지원하는 Node.js/TypeScript ORM으로 타입 안전성 제공."
@@ -3180,14 +3180,14 @@
         "mysql"
       ],
       "metrics": {
-        "stars": 20822
+        "stars": 20830
       },
       "source": "github-search",
       "publishedAt": "2016-01-18T12:49:26Z",
-      "updatedAt": "2026-11-08T14:55:54Z",
+      "updatedAt": "2026-11-13T07:26:32Z",
       "firstSeenAt": "2026-08-19T01:20:28.544Z",
       "lastSeenAt": "2026-08-25T15:43:44.793Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "notable",
       "summaryEn": "Distributed SQL database middleware enabling sharding, scaling, and security across heterogeneous databases.",
       "summaryKo": "이기종 데이터베이스 간 샤딩, 확장 및 보안을 지원하는 분산 SQL 미들웨어."
@@ -3294,14 +3294,14 @@
         "indexing"
       ],
       "metrics": {
-        "stars": 11834
+        "stars": 11895
       },
       "source": "github-search",
       "publishedAt": "2025-03-03T23:03:09Z",
-      "updatedAt": "2026-11-08T20:54:23Z",
+      "updatedAt": "2026-11-13T23:46:28Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-25T06:51:09.551Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "notable",
       "summaryEn": "Incremental data indexing engine built for long-running AI agents that need real-time context.",
       "summaryKo": "실시간 컨텍스트가 필요한 장기 실행 AI 에이전트용 증분 데이터 인덱싱 엔진.",
@@ -3489,14 +3489,14 @@
         "postgresql"
       ],
       "metrics": {
-        "stars": 17512
+        "stars": 17528
       },
       "source": "github-search",
       "publishedAt": "2014-04-28T23:29:15Z",
-      "updatedAt": "2026-11-08T21:25:27Z",
+      "updatedAt": "2026-11-13T23:38:11Z",
       "firstSeenAt": "2026-08-23T01:26:23.378Z",
       "lastSeenAt": "2026-08-24T09:50:01.036Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "notable",
       "summaryEn": "High-performance open-source time-series database optimized for real-time analytics and financial data.",
       "summaryKo": "실시간 분석과 금융 데이터 처리에 최적화된 고성능 시계열 DB입니다."
@@ -3558,14 +3558,14 @@
         "vicuna"
       ],
       "metrics": {
-        "stars": 20273
+        "stars": 20294
       },
       "source": "github-search",
       "publishedAt": "2023-04-13T14:52:43Z",
-      "updatedAt": "2026-11-08T13:58:58Z",
+      "updatedAt": "2026-11-13T15:55:00Z",
       "firstSeenAt": "2026-08-23T01:26:23.378Z",
       "lastSeenAt": "2026-08-23T18:32:03.330Z",
-      "metricsRefreshedAt": "2026-11-08T22:37:27.812Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "notable",
       "summaryEn": "Open-source agentic AI data assistant leveraging LLMs and RAG for private database querying and analytics.",
       "summaryKo": "LLM과 RAG를 활용하는 오픈소스 에이전틱 AI 데이터 어시스턴트입니다."
@@ -3601,14 +3601,14 @@
         "xyflow"
       ],
       "metrics": {
-        "stars": 23104
+        "stars": 23121
       },
       "source": "github-search",
       "publishedAt": "2024-08-05T07:19:19Z",
       "updatedAt": "2026-11-01T10:28:44Z",
       "firstSeenAt": "2026-08-20T12:53:13.611Z",
       "lastSeenAt": "2026-08-22T18:33:05.265Z",
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "notable",
       "summaryEn": "Visual database diagram editor for designing schemas and relationships across SQL databases; generates ERDs from single queries for quick iteration.",
       "summaryKo": "SQL 데이터베이스의 스키마와 관계를 시각적으로 설계하고 단일 쿼리로 ERD를 생성하는 데이터베이스 다이어그램 편집기입니다."
@@ -3637,14 +3637,14 @@
         "webhook"
       ],
       "metrics": {
-        "stars": 9407
+        "stars": 9411
       },
       "source": "github-search",
       "publishedAt": "2022-01-28T12:58:03Z",
-      "updatedAt": "2026-11-10T01:45:56Z",
+      "updatedAt": "2026-11-13T20:06:35Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-08-18T21:26:34.657Z",
-      "metricsRefreshedAt": "2026-11-10T01:50:05.048Z",
+      "metricsRefreshedAt": "2026-11-14T00:05:27.914Z",
       "admitReason": "notable"
     }
   ]
