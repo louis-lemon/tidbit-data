@@ -1,34 +1,111 @@
 {
   "version": 1,
   "category": "devtools",
-  "generatedAt": "2026-11-18T01:27:49.193Z",
+  "generatedAt": "2026-11-19T00:54:08.201Z",
   "ttlSeconds": 10800,
   "cards": [
     {
-      "id": "gh:elementalsouls/Claude-BugHunter",
+      "id": "gh:cursor/plugins",
       "type": "repo",
-      "title": "elementalsouls/Claude-BugHunter",
-      "summaryOriginal": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "lang": "Python",
+      "title": "cursor/plugins",
+      "summaryOriginal": "Cursor plugin specification and official plugins",
+      "url": "https://github.com/cursor/plugins",
+      "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 9343,
-        "starsDelta": 1005
+        "stars": 17202,
+        "starsDelta": 314
       },
       "source": "github-trending",
       "admitReason": "trending",
-      "summaryEn": "A Claude Code skill bundle for bug hunting and external red-team work, with 82 skills, 15 slash commands, and 681 disclosed-report patterns.",
-      "summaryKo": "버그 헌팅과 외부 레드팀 작업용 Claude Code 스킬 묶음. 스킬 82개, 슬래시 명령 15개, 공개 보고서 패턴 681개 포함.",
-      "reasonEn": "6.4K stars, up 221 today (trending)",
-      "reasonKo": "스타 6.4K, 오늘 221개 증가 (트렌딩)",
+      "summaryEn": "Official specification and plugins for the Cursor AI code editor, enabling custom extensions and integrations.",
+      "summaryKo": "Cursor AI 에디터를 위한 플러그인 사양 및 공식 플러그인입니다.",
+      "reasonEn": "Gained 157 stars today.",
+      "reasonKo": "오늘 157개의 별을 얻었습니다.",
+      "categories": [
+        "devtools",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-10-01T22:57:43.726Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "gh:HKUDS/CLI-Anything",
+      "type": "repo",
+      "title": "HKUDS/CLI-Anything",
+      "summaryOriginal": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "stars": 59739,
+        "starsDelta": 389
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "Toolkit aiming to make any software agent-native via a CLI-first hub.",
+      "summaryKo": "모든 소프트웨어를 에이전트 친화적으로 만드는 CLI 허브",
+      "reasonEn": "Gained 41 stars today",
+      "reasonKo": "오늘 41개의 스타 획득",
       "categories": [
         "ai-agents",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-15T23:17:28.765Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-09-23T21:56:52.747Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "gh:nvm-sh/nvm",
+      "type": "repo",
+      "title": "nvm-sh/nvm",
+      "summaryOriginal": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "url": "https://github.com/nvm-sh/nvm",
+      "lang": "Shell",
+      "tags": [],
+      "metrics": {
+        "stars": 96145,
+        "starsDelta": 237
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "Node Version Manager (nvm) is a POSIX-compliant bash script to manage multiple active Node.js versions on a single machine.",
+      "summaryKo": "단일 머신에서 여러 Node.js 버전을 관리하는 POSIX 호환 배시 스크립트입니다.",
+      "reasonEn": "Trending with 70 stars today (95.4K total stars)",
+      "reasonKo": "오늘 70개의 스타를 얻으며 트렌딩 중 (총 9.54만 개)",
+      "categories": [
+        "infra",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-10-14T21:59:54.837Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "gh:astral-sh/uv",
+      "type": "repo",
+      "title": "astral-sh/uv",
+      "summaryOriginal": "An extremely fast Python package and project manager, written in Rust.",
+      "url": "https://github.com/astral-sh/uv",
+      "lang": "Rust",
+      "tags": [],
+      "metrics": {
+        "stars": 92217,
+        "starsDelta": 258
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "A fast Python package and project manager written in Rust, replacing pip, virtualenv and related tools in one binary. Useful for faster installs and reproducible Python projects.",
+      "summaryKo": "Rust로 작성된 빠른 Python 패키지·프로젝트 관리자. pip, virtualenv 등을 하나의 바이너리로 대체합니다.",
+      "reasonEn": "92K stars, up 258 today; trending in the developer tools space",
+      "reasonKo": "스타 92K, 오늘 258개 증가. 개발자 도구 중 급상승 중",
+      "categories": [
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-19T00:54:08.201Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:google-labs-code/stitch-skills",
@@ -39,8 +116,8 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 10115,
-        "starsDelta": 350
+        "stars": 10403,
+        "starsDelta": 365
       },
       "source": "github-trending",
       "admitReason": "trending",
@@ -53,35 +130,9 @@
         "backend",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-11-15T23:17:28.765Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
-    {
-      "id": "gh:cursor/plugins",
-      "type": "repo",
-      "title": "cursor/plugins",
-      "summaryOriginal": "Cursor plugin specification and official plugins",
-      "url": "https://github.com/cursor/plugins",
-      "lang": "TypeScript",
-      "tags": [],
-      "metrics": {
-        "stars": 16909,
-        "starsDelta": 201
-      },
-      "source": "github-trending",
-      "admitReason": "trending",
-      "summaryEn": "Official specification and plugins for the Cursor AI code editor, enabling custom extensions and integrations.",
-      "summaryKo": "Cursor AI 에디터를 위한 플러그인 사양 및 공식 플러그인입니다.",
-      "reasonEn": "Gained 157 stars today.",
-      "reasonKo": "오늘 157개의 별을 얻었습니다.",
-      "categories": [
-        "devtools",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-10-01T22:57:43.726Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:YellowLaborerMarket/Gemini-Config-Checker-",
@@ -120,91 +171,9 @@
         "web",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-11-15T23:17:28.765Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
-    {
-      "id": "gh:VortexHostFeel/Gemini-Config-Checker-",
-      "type": "repo",
-      "title": "VortexHostFeel/Gemini-Config-Checker-",
-      "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
-      "url": "https://github.com/VortexHostFeel/Gemini-Config-Checker-",
-      "lang": "Makefile",
-      "tags": [
-        "ai",
-        "ai-search",
-        "aichecker",
-        "chatgpt",
-        "cli",
-        "config-checker",
-        "gemeni",
-        "gemeni-checker",
-        "generative-ai",
-        "lim-seo",
-        "llm",
-        "mcp-server"
-      ],
-      "metrics": {
-        "stars": 473
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-11-15T16:46:07Z",
-      "updatedAt": "2026-11-15T16:47:03Z",
-      "summaryEn": "CLI scanner that tests proxy configs to find ones that reach Google AI Studio and Gemini past regional limits. A circumvention tool, not an official client.",
-      "summaryKo": "지역 제한을 넘어 Google AI Studio와 Gemini에 접속되는 프록시 설정을 찾는 CLI 검사 도구입니다.",
-      "reasonEn": "Created today, already 473 stars",
-      "reasonKo": "오늘 생성, 스타 473개",
-      "categories": [
-        "ai-models",
-        "web",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-15T23:17:28.765Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
-    {
-      "id": "gh:Visionbeyondtrack/Gemini-Config-Checker-",
-      "type": "repo",
-      "title": "Visionbeyondtrack/Gemini-Config-Checker-",
-      "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
-      "url": "https://github.com/Visionbeyondtrack/Gemini-Config-Checker-",
-      "lang": "Makefile",
-      "tags": [
-        "ai",
-        "ai-search",
-        "aichecker",
-        "chatgpt",
-        "cli",
-        "config-checker",
-        "gemeni",
-        "gemeni-checker",
-        "generative-ai",
-        "lim-seo",
-        "llm",
-        "mcp-server"
-      ],
-      "metrics": {
-        "stars": 473
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-11-15T16:46:05Z",
-      "updatedAt": "2026-11-15T16:47:00Z",
-      "summaryEn": "CLI scanner that tests proxy configs to find ones that reach Google AI Studio and Gemini past regional limits. A circumvention tool, not an official client.",
-      "summaryKo": "지역 제한을 넘어 Google AI Studio와 Gemini에 접속되는 프록시 설정을 찾는 CLI 검사 도구입니다.",
-      "reasonEn": "Created today, already 473 stars",
-      "reasonKo": "오늘 생성, 스타 473개",
-      "categories": [
-        "ai-models",
-        "web",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-15T23:17:28.765Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:WinnerSpecialist/Gemini-Config-Checker-",
@@ -243,132 +212,9 @@
         "web",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-11-15T23:17:28.765Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
-    {
-      "id": "gh:TurtleReside/Gemini-Config-Checker-",
-      "type": "repo",
-      "title": "TurtleReside/Gemini-Config-Checker-",
-      "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
-      "url": "https://github.com/TurtleReside/Gemini-Config-Checker-",
-      "lang": "Go",
-      "tags": [
-        "ai",
-        "ai-search",
-        "aichecker",
-        "chatgpt",
-        "cli",
-        "config-checker",
-        "gemeni",
-        "gemeni-checker",
-        "generative-ai",
-        "lim-seo",
-        "llm",
-        "mcp-server"
-      ],
-      "metrics": {
-        "stars": 473
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-11-15T16:46:04Z",
-      "updatedAt": "2026-11-15T16:47:00Z",
-      "summaryEn": "CLI scanner that tests proxy configs to find ones that reach Google AI Studio and Gemini past regional limits. A circumvention tool, not an official client.",
-      "summaryKo": "지역 제한을 넘어 Google AI Studio와 Gemini에 접속되는 프록시 설정을 찾는 CLI 검사 도구입니다.",
-      "reasonEn": "Created today, already 473 stars",
-      "reasonKo": "오늘 생성, 스타 473개",
-      "categories": [
-        "ai-models",
-        "web",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-15T23:17:28.765Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
-    {
-      "id": "gh:wisemeadowlarkspike/Gemini-Config-Checker-",
-      "type": "repo",
-      "title": "wisemeadowlarkspike/Gemini-Config-Checker-",
-      "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
-      "url": "https://github.com/wisemeadowlarkspike/Gemini-Config-Checker-",
-      "lang": "Go",
-      "tags": [
-        "ai",
-        "ai-search",
-        "aichecker",
-        "chatgpt",
-        "cli",
-        "config-checker",
-        "gemeni",
-        "gemeni-checker",
-        "generative-ai",
-        "lim-seo",
-        "llm",
-        "mcp-server"
-      ],
-      "metrics": {
-        "stars": 473
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-11-15T16:48:18Z",
-      "updatedAt": "2026-11-15T16:49:28Z",
-      "summaryEn": "CLI scanner that tests proxy configs to find ones that reach Google AI Studio and Gemini past regional limits. A circumvention tool, not an official client.",
-      "summaryKo": "지역 제한을 넘어 Google AI Studio와 Gemini에 접속되는 프록시 설정을 찾는 CLI 검사 도구입니다.",
-      "reasonEn": "Created today, already 473 stars",
-      "reasonKo": "오늘 생성, 스타 473개",
-      "categories": [
-        "ai-models",
-        "web",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-15T23:17:28.765Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
-    {
-      "id": "gh:Watchlespeed/Gemini-Config-Checker-",
-      "type": "repo",
-      "title": "Watchlespeed/Gemini-Config-Checker-",
-      "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
-      "url": "https://github.com/Watchlespeed/Gemini-Config-Checker-",
-      "lang": "Makefile",
-      "tags": [
-        "ai",
-        "ai-search",
-        "aichecker",
-        "chatgpt",
-        "cli",
-        "config-checker",
-        "gemeni",
-        "gemeni-checker",
-        "generative-ai",
-        "lim-seo",
-        "llm",
-        "mcp-server"
-      ],
-      "metrics": {
-        "stars": 473
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-11-15T16:47:11Z",
-      "updatedAt": "2026-11-15T16:48:08Z",
-      "summaryEn": "CLI scanner that tests proxy configs to find ones that reach Google AI Studio and Gemini past regional limits. A circumvention tool, not an official client.",
-      "summaryKo": "지역 제한을 넘어 Google AI Studio와 Gemini에 접속되는 프록시 설정을 찾는 CLI 검사 도구입니다.",
-      "reasonEn": "Created today, already 473 stars",
-      "reasonKo": "오늘 생성, 스타 473개",
-      "categories": [
-        "ai-models",
-        "web",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-15T23:17:28.765Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:weightcashiercupola/Gemini-Config-Checker-",
@@ -407,16 +253,16 @@
         "web",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-11-15T23:17:28.765Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
-      "id": "gh:WindowStaffGate11/Gemini-Config-Checker-",
+      "id": "gh:Visionbeyondtrack/Gemini-Config-Checker-",
       "type": "repo",
-      "title": "WindowStaffGate11/Gemini-Config-Checker-",
+      "title": "Visionbeyondtrack/Gemini-Config-Checker-",
       "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
-      "url": "https://github.com/WindowStaffGate11/Gemini-Config-Checker-",
+      "url": "https://github.com/Visionbeyondtrack/Gemini-Config-Checker-",
       "lang": "Makefile",
       "tags": [
         "ai",
@@ -437,8 +283,8 @@
       },
       "source": "github-search",
       "admitReason": "new",
-      "publishedAt": "2026-11-15T16:47:18Z",
-      "updatedAt": "2026-11-15T16:48:20Z",
+      "publishedAt": "2026-11-15T16:46:05Z",
+      "updatedAt": "2026-11-15T16:47:00Z",
       "summaryEn": "CLI scanner that tests proxy configs to find ones that reach Google AI Studio and Gemini past regional limits. A circumvention tool, not an official client.",
       "summaryKo": "지역 제한을 넘어 Google AI Studio와 Gemini에 접속되는 프록시 설정을 찾는 CLI 검사 도구입니다.",
       "reasonEn": "Created today, already 473 stars",
@@ -448,255 +294,9 @@
         "web",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-11-15T23:17:28.765Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
-    {
-      "id": "gh:WerewolfEmuHub/Gemini-Config-Checker-",
-      "type": "repo",
-      "title": "WerewolfEmuHub/Gemini-Config-Checker-",
-      "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
-      "url": "https://github.com/WerewolfEmuHub/Gemini-Config-Checker-",
-      "lang": "Go",
-      "tags": [
-        "ai",
-        "ai-search",
-        "aichecker",
-        "chatgpt",
-        "cli",
-        "config-checker",
-        "gemeni",
-        "gemeni-checker",
-        "generative-ai",
-        "lim-seo",
-        "llm",
-        "mcp-server"
-      ],
-      "metrics": {
-        "stars": 473
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-11-15T16:47:11Z",
-      "updatedAt": "2026-11-15T16:48:11Z",
-      "summaryEn": "CLI scanner that tests proxy configs to find ones that reach Google AI Studio and Gemini past regional limits. A circumvention tool, not an official client.",
-      "summaryKo": "지역 제한을 넘어 Google AI Studio와 Gemini에 접속되는 프록시 설정을 찾는 CLI 검사 도구입니다.",
-      "reasonEn": "Created today, already 473 stars",
-      "reasonKo": "오늘 생성, 스타 473개",
-      "categories": [
-        "ai-models",
-        "web",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-15T23:17:28.765Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
-    {
-      "id": "gh:WyrmClimberManacle/Gemini-Config-Checker-",
-      "type": "repo",
-      "title": "WyrmClimberManacle/Gemini-Config-Checker-",
-      "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
-      "url": "https://github.com/WyrmClimberManacle/Gemini-Config-Checker-",
-      "lang": "Makefile",
-      "tags": [
-        "ai",
-        "ai-search",
-        "aichecker",
-        "chatgpt",
-        "cli",
-        "config-checker",
-        "gemeni",
-        "gemeni-checker",
-        "generative-ai",
-        "lim-seo",
-        "llm",
-        "mcp-server"
-      ],
-      "metrics": {
-        "stars": 473
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-11-15T16:48:18Z",
-      "updatedAt": "2026-11-15T16:49:29Z",
-      "summaryEn": "CLI scanner that tests proxy configs to find ones that reach Google AI Studio and Gemini past regional limits. A circumvention tool, not an official client.",
-      "summaryKo": "지역 제한을 넘어 Google AI Studio와 Gemini에 접속되는 프록시 설정을 찾는 CLI 검사 도구입니다.",
-      "reasonEn": "Created today, already 473 stars",
-      "reasonKo": "오늘 생성, 스타 473개",
-      "categories": [
-        "ai-models",
-        "web",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-15T23:17:28.765Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
-    {
-      "id": "gh:weldbladesmithwharf/Gemini-Config-Checker-",
-      "type": "repo",
-      "title": "weldbladesmithwharf/Gemini-Config-Checker-",
-      "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
-      "url": "https://github.com/weldbladesmithwharf/Gemini-Config-Checker-",
-      "lang": "Makefile",
-      "tags": [
-        "ai",
-        "ai-search",
-        "aichecker",
-        "chatgpt",
-        "cli",
-        "config-checker",
-        "gemeni",
-        "gemeni-checker",
-        "generative-ai",
-        "lim-seo",
-        "llm",
-        "mcp-server"
-      ],
-      "metrics": {
-        "stars": 473
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-11-15T16:47:11Z",
-      "updatedAt": "2026-11-15T16:48:07Z",
-      "summaryEn": "Repo claiming to find proxy configs that reach Google AI Studio and Gemini from restricted regions; one of several identical clones.",
-      "summaryKo": "제한 지역에서 Google AI Studio와 Gemini에 접속하는 프록시 설정을 찾는다고 주장하는 저장소. 동일한 복제본 중 하나.",
-      "reasonEn": "New repo: 473 stars at age 0 days; same text in 4 clones",
-      "reasonKo": "신규 저장소: 생성 0일에 스타 473; 동일 복제본 4개",
-      "categories": [
-        "ai-models",
-        "web",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-15T23:17:28.765Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
-    {
-      "id": "gh:TypeTyrantScheme/Gemini-Config-Checker-",
-      "type": "repo",
-      "title": "TypeTyrantScheme/Gemini-Config-Checker-",
-      "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
-      "url": "https://github.com/TypeTyrantScheme/Gemini-Config-Checker-",
-      "lang": "Makefile",
-      "tags": [
-        "ai",
-        "ai-search",
-        "aichecker",
-        "chatgpt",
-        "cli",
-        "config-checker",
-        "gemeni",
-        "gemeni-checker",
-        "generative-ai",
-        "lim-seo",
-        "llm",
-        "mcp-server"
-      ],
-      "metrics": {
-        "stars": 473
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-11-15T16:46:04Z",
-      "updatedAt": "2026-11-15T16:47:01Z",
-      "summaryEn": "Repo claiming to find proxy configs that reach Google AI Studio and Gemini from restricted regions; one of several identical clones.",
-      "summaryKo": "제한 지역에서 Google AI Studio와 Gemini에 접속하는 프록시 설정을 찾는다고 주장하는 저장소. 동일한 복제본 중 하나.",
-      "reasonEn": "New repo: 473 stars at age 0 days; same text in 4 clones",
-      "reasonKo": "신규 저장소: 생성 0일에 스타 473; 동일 복제본 4개",
-      "categories": [
-        "ai-models",
-        "web",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-15T23:17:28.765Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
-    {
-      "id": "gh:WingDataVacuum/Gemini-Config-Checker-",
-      "type": "repo",
-      "title": "WingDataVacuum/Gemini-Config-Checker-",
-      "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
-      "url": "https://github.com/WingDataVacuum/Gemini-Config-Checker-",
-      "lang": "Makefile",
-      "tags": [
-        "ai",
-        "ai-search",
-        "aichecker",
-        "chatgpt",
-        "cli",
-        "config-checker",
-        "gemeni",
-        "gemeni-checker",
-        "generative-ai",
-        "lim-seo",
-        "llm",
-        "mcp-server"
-      ],
-      "metrics": {
-        "stars": 473
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-11-15T16:47:17Z",
-      "updatedAt": "2026-11-15T16:48:21Z",
-      "summaryEn": "Repo claiming to find proxy configs that reach Google AI Studio and Gemini from restricted regions; one of several identical clones.",
-      "summaryKo": "제한 지역에서 Google AI Studio와 Gemini에 접속하는 프록시 설정을 찾는다고 주장하는 저장소. 동일한 복제본 중 하나.",
-      "reasonEn": "New repo: 473 stars at age 0 days; same text in 4 clones",
-      "reasonKo": "신규 저장소: 생성 0일에 스타 473; 동일 복제본 4개",
-      "categories": [
-        "ai-models",
-        "web",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-15T23:17:28.765Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
-    {
-      "id": "gh:WharfBoulderColander/Gemini-Config-Checker-",
-      "type": "repo",
-      "title": "WharfBoulderColander/Gemini-Config-Checker-",
-      "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
-      "url": "https://github.com/WharfBoulderColander/Gemini-Config-Checker-",
-      "lang": "Makefile",
-      "tags": [
-        "ai",
-        "ai-search",
-        "aichecker",
-        "chatgpt",
-        "cli",
-        "config-checker",
-        "gemeni",
-        "gemeni-checker",
-        "generative-ai",
-        "lim-seo",
-        "llm",
-        "mcp-server"
-      ],
-      "metrics": {
-        "stars": 473
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-11-15T16:47:12Z",
-      "updatedAt": "2026-11-15T16:48:06Z",
-      "summaryEn": "CLI scanner that tests proxy configs to find ones that reach Google AI Studio and Gemini past regional limits. A circumvention tool, not an official client.",
-      "summaryKo": "지역 제한을 넘어 Google AI Studio와 Gemini에 접속되는 프록시 설정을 찾는 CLI 검사 도구입니다.",
-      "reasonEn": "Created today, already 473 stars",
-      "reasonKo": "오늘 생성, 스타 473개",
-      "categories": [
-        "ai-models",
-        "web",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-15T23:17:28.765Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:WireProvostPucker/Gemini-Config-Checker-",
@@ -735,9 +335,296 @@
         "web",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-11-15T23:17:28.765Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "gh:TurtleReside/Gemini-Config-Checker-",
+      "type": "repo",
+      "title": "TurtleReside/Gemini-Config-Checker-",
+      "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+      "url": "https://github.com/TurtleReside/Gemini-Config-Checker-",
+      "lang": "Go",
+      "tags": [
+        "ai",
+        "ai-search",
+        "aichecker",
+        "chatgpt",
+        "cli",
+        "config-checker",
+        "gemeni",
+        "gemeni-checker",
+        "generative-ai",
+        "lim-seo",
+        "llm",
+        "mcp-server"
+      ],
+      "metrics": {
+        "stars": 473
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-11-15T16:46:04Z",
+      "updatedAt": "2026-11-15T16:47:00Z",
+      "summaryEn": "CLI scanner that tests proxy configs to find ones that reach Google AI Studio and Gemini past regional limits. A circumvention tool, not an official client.",
+      "summaryKo": "지역 제한을 넘어 Google AI Studio와 Gemini에 접속되는 프록시 설정을 찾는 CLI 검사 도구입니다.",
+      "reasonEn": "Created today, already 473 stars",
+      "reasonKo": "오늘 생성, 스타 473개",
+      "categories": [
+        "ai-models",
+        "web",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-15T23:17:28.765Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "gh:VortexHostFeel/Gemini-Config-Checker-",
+      "type": "repo",
+      "title": "VortexHostFeel/Gemini-Config-Checker-",
+      "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+      "url": "https://github.com/VortexHostFeel/Gemini-Config-Checker-",
+      "lang": "Makefile",
+      "tags": [
+        "ai",
+        "ai-search",
+        "aichecker",
+        "chatgpt",
+        "cli",
+        "config-checker",
+        "gemeni",
+        "gemeni-checker",
+        "generative-ai",
+        "lim-seo",
+        "llm",
+        "mcp-server"
+      ],
+      "metrics": {
+        "stars": 473
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-11-15T16:46:07Z",
+      "updatedAt": "2026-11-15T16:47:03Z",
+      "summaryEn": "CLI scanner that tests proxy configs to find ones that reach Google AI Studio and Gemini past regional limits. A circumvention tool, not an official client.",
+      "summaryKo": "지역 제한을 넘어 Google AI Studio와 Gemini에 접속되는 프록시 설정을 찾는 CLI 검사 도구입니다.",
+      "reasonEn": "Created today, already 473 stars",
+      "reasonKo": "오늘 생성, 스타 473개",
+      "categories": [
+        "ai-models",
+        "web",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-15T23:17:28.765Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "gh:wisemeadowlarkspike/Gemini-Config-Checker-",
+      "type": "repo",
+      "title": "wisemeadowlarkspike/Gemini-Config-Checker-",
+      "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+      "url": "https://github.com/wisemeadowlarkspike/Gemini-Config-Checker-",
+      "lang": "Go",
+      "tags": [
+        "ai",
+        "ai-search",
+        "aichecker",
+        "chatgpt",
+        "cli",
+        "config-checker",
+        "gemeni",
+        "gemeni-checker",
+        "generative-ai",
+        "lim-seo",
+        "llm",
+        "mcp-server"
+      ],
+      "metrics": {
+        "stars": 473
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-11-15T16:48:18Z",
+      "updatedAt": "2026-11-15T16:49:28Z",
+      "summaryEn": "CLI scanner that tests proxy configs to find ones that reach Google AI Studio and Gemini past regional limits. A circumvention tool, not an official client.",
+      "summaryKo": "지역 제한을 넘어 Google AI Studio와 Gemini에 접속되는 프록시 설정을 찾는 CLI 검사 도구입니다.",
+      "reasonEn": "Created today, already 473 stars",
+      "reasonKo": "오늘 생성, 스타 473개",
+      "categories": [
+        "ai-models",
+        "web",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-15T23:17:28.765Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "gh:Watchlespeed/Gemini-Config-Checker-",
+      "type": "repo",
+      "title": "Watchlespeed/Gemini-Config-Checker-",
+      "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+      "url": "https://github.com/Watchlespeed/Gemini-Config-Checker-",
+      "lang": "Makefile",
+      "tags": [
+        "ai",
+        "ai-search",
+        "aichecker",
+        "chatgpt",
+        "cli",
+        "config-checker",
+        "gemeni",
+        "gemeni-checker",
+        "generative-ai",
+        "lim-seo",
+        "llm",
+        "mcp-server"
+      ],
+      "metrics": {
+        "stars": 473
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-11-15T16:47:11Z",
+      "updatedAt": "2026-11-15T16:48:08Z",
+      "summaryEn": "CLI scanner that tests proxy configs to find ones that reach Google AI Studio and Gemini past regional limits. A circumvention tool, not an official client.",
+      "summaryKo": "지역 제한을 넘어 Google AI Studio와 Gemini에 접속되는 프록시 설정을 찾는 CLI 검사 도구입니다.",
+      "reasonEn": "Created today, already 473 stars",
+      "reasonKo": "오늘 생성, 스타 473개",
+      "categories": [
+        "ai-models",
+        "web",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-15T23:17:28.765Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "gh:WyrmClimberManacle/Gemini-Config-Checker-",
+      "type": "repo",
+      "title": "WyrmClimberManacle/Gemini-Config-Checker-",
+      "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+      "url": "https://github.com/WyrmClimberManacle/Gemini-Config-Checker-",
+      "lang": "Makefile",
+      "tags": [
+        "ai",
+        "ai-search",
+        "aichecker",
+        "chatgpt",
+        "cli",
+        "config-checker",
+        "gemeni",
+        "gemeni-checker",
+        "generative-ai",
+        "lim-seo",
+        "llm",
+        "mcp-server"
+      ],
+      "metrics": {
+        "stars": 473
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-11-15T16:48:18Z",
+      "updatedAt": "2026-11-15T16:49:29Z",
+      "summaryEn": "CLI scanner that tests proxy configs to find ones that reach Google AI Studio and Gemini past regional limits. A circumvention tool, not an official client.",
+      "summaryKo": "지역 제한을 넘어 Google AI Studio와 Gemini에 접속되는 프록시 설정을 찾는 CLI 검사 도구입니다.",
+      "reasonEn": "Created today, already 473 stars",
+      "reasonKo": "오늘 생성, 스타 473개",
+      "categories": [
+        "ai-models",
+        "web",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-15T23:17:28.765Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "gh:WharfBoulderColander/Gemini-Config-Checker-",
+      "type": "repo",
+      "title": "WharfBoulderColander/Gemini-Config-Checker-",
+      "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+      "url": "https://github.com/WharfBoulderColander/Gemini-Config-Checker-",
+      "lang": "Makefile",
+      "tags": [
+        "ai",
+        "ai-search",
+        "aichecker",
+        "chatgpt",
+        "cli",
+        "config-checker",
+        "gemeni",
+        "gemeni-checker",
+        "generative-ai",
+        "lim-seo",
+        "llm",
+        "mcp-server"
+      ],
+      "metrics": {
+        "stars": 473
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-11-15T16:47:12Z",
+      "updatedAt": "2026-11-15T16:48:06Z",
+      "summaryEn": "CLI scanner that tests proxy configs to find ones that reach Google AI Studio and Gemini past regional limits. A circumvention tool, not an official client.",
+      "summaryKo": "지역 제한을 넘어 Google AI Studio와 Gemini에 접속되는 프록시 설정을 찾는 CLI 검사 도구입니다.",
+      "reasonEn": "Created today, already 473 stars",
+      "reasonKo": "오늘 생성, 스타 473개",
+      "categories": [
+        "ai-models",
+        "web",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-15T23:17:28.765Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "gh:weldbladesmithwharf/Gemini-Config-Checker-",
+      "type": "repo",
+      "title": "weldbladesmithwharf/Gemini-Config-Checker-",
+      "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+      "url": "https://github.com/weldbladesmithwharf/Gemini-Config-Checker-",
+      "lang": "Makefile",
+      "tags": [
+        "ai",
+        "ai-search",
+        "aichecker",
+        "chatgpt",
+        "cli",
+        "config-checker",
+        "gemeni",
+        "gemeni-checker",
+        "generative-ai",
+        "lim-seo",
+        "llm",
+        "mcp-server"
+      ],
+      "metrics": {
+        "stars": 473
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-11-15T16:47:11Z",
+      "updatedAt": "2026-11-15T16:48:07Z",
+      "summaryEn": "Repo claiming to find proxy configs that reach Google AI Studio and Gemini from restricted regions; one of several identical clones.",
+      "summaryKo": "제한 지역에서 Google AI Studio와 Gemini에 접속하는 프록시 설정을 찾는다고 주장하는 저장소. 동일한 복제본 중 하나.",
+      "reasonEn": "New repo: 473 stars at age 0 days; same text in 4 clones",
+      "reasonKo": "신규 저장소: 생성 0일에 스타 473; 동일 복제본 4개",
+      "categories": [
+        "ai-models",
+        "web",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-15T23:17:28.765Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:Violetnyudress/Gemini-Config-Checker-",
@@ -776,9 +663,91 @@
         "web",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-11-15T23:17:28.765Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "gh:TypeTyrantScheme/Gemini-Config-Checker-",
+      "type": "repo",
+      "title": "TypeTyrantScheme/Gemini-Config-Checker-",
+      "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+      "url": "https://github.com/TypeTyrantScheme/Gemini-Config-Checker-",
+      "lang": "Makefile",
+      "tags": [
+        "ai",
+        "ai-search",
+        "aichecker",
+        "chatgpt",
+        "cli",
+        "config-checker",
+        "gemeni",
+        "gemeni-checker",
+        "generative-ai",
+        "lim-seo",
+        "llm",
+        "mcp-server"
+      ],
+      "metrics": {
+        "stars": 473
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-11-15T16:46:04Z",
+      "updatedAt": "2026-11-15T16:47:01Z",
+      "summaryEn": "Repo claiming to find proxy configs that reach Google AI Studio and Gemini from restricted regions; one of several identical clones.",
+      "summaryKo": "제한 지역에서 Google AI Studio와 Gemini에 접속하는 프록시 설정을 찾는다고 주장하는 저장소. 동일한 복제본 중 하나.",
+      "reasonEn": "New repo: 473 stars at age 0 days; same text in 4 clones",
+      "reasonKo": "신규 저장소: 생성 0일에 스타 473; 동일 복제본 4개",
+      "categories": [
+        "ai-models",
+        "web",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-15T23:17:28.765Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "gh:WingDataVacuum/Gemini-Config-Checker-",
+      "type": "repo",
+      "title": "WingDataVacuum/Gemini-Config-Checker-",
+      "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+      "url": "https://github.com/WingDataVacuum/Gemini-Config-Checker-",
+      "lang": "Makefile",
+      "tags": [
+        "ai",
+        "ai-search",
+        "aichecker",
+        "chatgpt",
+        "cli",
+        "config-checker",
+        "gemeni",
+        "gemeni-checker",
+        "generative-ai",
+        "lim-seo",
+        "llm",
+        "mcp-server"
+      ],
+      "metrics": {
+        "stars": 473
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-11-15T16:47:17Z",
+      "updatedAt": "2026-11-15T16:48:21Z",
+      "summaryEn": "Repo claiming to find proxy configs that reach Google AI Studio and Gemini from restricted regions; one of several identical clones.",
+      "summaryKo": "제한 지역에서 Google AI Studio와 Gemini에 접속하는 프록시 설정을 찾는다고 주장하는 저장소. 동일한 복제본 중 하나.",
+      "reasonEn": "New repo: 473 stars at age 0 days; same text in 4 clones",
+      "reasonKo": "신규 저장소: 생성 0일에 스타 473; 동일 복제본 4개",
+      "categories": [
+        "ai-models",
+        "web",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-15T23:17:28.765Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:WindGatorRise37/Gemini-Config-Checker-",
@@ -817,50 +786,9 @@
         "web",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-11-15T23:17:28.765Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
-    {
-      "id": "gh:WestLocksmithSpout/Gemini-Config-Checker-",
-      "type": "repo",
-      "title": "WestLocksmithSpout/Gemini-Config-Checker-",
-      "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
-      "url": "https://github.com/WestLocksmithSpout/Gemini-Config-Checker-",
-      "lang": "Go",
-      "tags": [
-        "ai",
-        "ai-search",
-        "aichecker",
-        "chatgpt",
-        "cli",
-        "config-checker",
-        "gemeni",
-        "gemeni-checker",
-        "generative-ai",
-        "lim-seo",
-        "llm",
-        "mcp-server"
-      ],
-      "metrics": {
-        "stars": 473
-      },
-      "source": "github-search",
-      "admitReason": "new",
-      "publishedAt": "2026-11-15T16:47:12Z",
-      "updatedAt": "2026-11-15T16:48:13Z",
-      "summaryEn": "CLI scanner that tests proxy configs to find ones that reach Google AI Studio and Gemini past regional limits. A circumvention tool, not an official client.",
-      "summaryKo": "지역 제한을 넘어 Google AI Studio와 Gemini에 접속되는 프록시 설정을 찾는 CLI 검사 도구입니다.",
-      "reasonEn": "Created today, already 473 stars",
-      "reasonKo": "오늘 생성, 스타 473개",
-      "categories": [
-        "ai-models",
-        "web",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-15T23:17:28.765Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:VisionWormStudio/Gemini-Config-Checker-",
@@ -899,9 +827,50 @@
         "web",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-11-15T23:17:28.765Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "gh:WestLocksmithSpout/Gemini-Config-Checker-",
+      "type": "repo",
+      "title": "WestLocksmithSpout/Gemini-Config-Checker-",
+      "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+      "url": "https://github.com/WestLocksmithSpout/Gemini-Config-Checker-",
+      "lang": "Go",
+      "tags": [
+        "ai",
+        "ai-search",
+        "aichecker",
+        "chatgpt",
+        "cli",
+        "config-checker",
+        "gemeni",
+        "gemeni-checker",
+        "generative-ai",
+        "lim-seo",
+        "llm",
+        "mcp-server"
+      ],
+      "metrics": {
+        "stars": 473
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-11-15T16:47:12Z",
+      "updatedAt": "2026-11-15T16:48:13Z",
+      "summaryEn": "CLI scanner that tests proxy configs to find ones that reach Google AI Studio and Gemini past regional limits. A circumvention tool, not an official client.",
+      "summaryKo": "지역 제한을 넘어 Google AI Studio와 Gemini에 접속되는 프록시 설정을 찾는 CLI 검사 도구입니다.",
+      "reasonEn": "Created today, already 473 stars",
+      "reasonKo": "오늘 생성, 스타 473개",
+      "categories": [
+        "ai-models",
+        "web",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-15T23:17:28.765Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:TrooperFilter/Gemini-Config-Checker-",
@@ -940,9 +909,91 @@
         "web",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-11-15T23:17:28.765Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "gh:WindowStaffGate11/Gemini-Config-Checker-",
+      "type": "repo",
+      "title": "WindowStaffGate11/Gemini-Config-Checker-",
+      "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+      "url": "https://github.com/WindowStaffGate11/Gemini-Config-Checker-",
+      "lang": "Makefile",
+      "tags": [
+        "ai",
+        "ai-search",
+        "aichecker",
+        "chatgpt",
+        "cli",
+        "config-checker",
+        "gemeni",
+        "gemeni-checker",
+        "generative-ai",
+        "lim-seo",
+        "llm",
+        "mcp-server"
+      ],
+      "metrics": {
+        "stars": 473
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-11-15T16:47:18Z",
+      "updatedAt": "2026-11-15T16:48:20Z",
+      "summaryEn": "CLI scanner that tests proxy configs to find ones that reach Google AI Studio and Gemini past regional limits. A circumvention tool, not an official client.",
+      "summaryKo": "지역 제한을 넘어 Google AI Studio와 Gemini에 접속되는 프록시 설정을 찾는 CLI 검사 도구입니다.",
+      "reasonEn": "Created today, already 473 stars",
+      "reasonKo": "오늘 생성, 스타 473개",
+      "categories": [
+        "ai-models",
+        "web",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-15T23:17:28.765Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "gh:WerewolfEmuHub/Gemini-Config-Checker-",
+      "type": "repo",
+      "title": "WerewolfEmuHub/Gemini-Config-Checker-",
+      "summaryOriginal": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+      "url": "https://github.com/WerewolfEmuHub/Gemini-Config-Checker-",
+      "lang": "Go",
+      "tags": [
+        "ai",
+        "ai-search",
+        "aichecker",
+        "chatgpt",
+        "cli",
+        "config-checker",
+        "gemeni",
+        "gemeni-checker",
+        "generative-ai",
+        "lim-seo",
+        "llm",
+        "mcp-server"
+      ],
+      "metrics": {
+        "stars": 473
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-11-15T16:47:11Z",
+      "updatedAt": "2026-11-15T16:48:11Z",
+      "summaryEn": "CLI scanner that tests proxy configs to find ones that reach Google AI Studio and Gemini past regional limits. A circumvention tool, not an official client.",
+      "summaryKo": "지역 제한을 넘어 Google AI Studio와 Gemini에 접속되는 프록시 설정을 찾는 CLI 검사 도구입니다.",
+      "reasonEn": "Created today, already 473 stars",
+      "reasonKo": "오늘 생성, 스타 473개",
+      "categories": [
+        "ai-models",
+        "web",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-15T23:17:28.765Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:Ebony-Vinyl/dsh-our-free-model",
@@ -964,12 +1015,12 @@
         "openai-compatible"
       ],
       "metrics": {
-        "stars": 78586
+        "stars": 79804
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-09-24T16:17:19Z",
-      "updatedAt": "2026-11-18T00:46:26Z",
+      "updatedAt": "2026-11-18T02:24:22Z",
       "summaryEn": "A plugin for dsh offering free, unlimited access to frontier models like DeepSeek V4.1 Flash and Kimi K3 without requiring logins or API keys.",
       "summaryKo": "로그인이나 API 키 없이 DeepSeek V4.1 Flash 등의 모델을 무료로 제공하는 dsh 플러그인.",
       "reasonEn": "1.6K stars within 11 days of launch",
@@ -979,9 +1030,9 @@
         "ai-agents",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-10-06T00:31:42.162Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:google/elephant-goldfish-model",
@@ -1005,12 +1056,12 @@
         "gemini"
       ],
       "metrics": {
-        "stars": 20805
+        "stars": 21150
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-09-13T16:31:06Z",
-      "updatedAt": "2026-11-17T23:54:02Z",
+      "updatedAt": "2026-11-18T11:01:30Z",
       "summaryEn": "An open-source methodology and skill set created at Google for spec-driven development workflows with LLMs.",
       "summaryKo": "LLM을 활용한 사양 주도 개발 워크플로우를 위해 구글에서 제작한 오픈소스 방법론.",
       "reasonEn": "Notable with 1.7K stars after 43 days",
@@ -1020,9 +1071,9 @@
         "ai-agents",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-10-26T22:58:48.719Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:microsoft/TokenEconomizer",
@@ -1046,12 +1097,12 @@
         "cost-reduction"
       ],
       "metrics": {
-        "stars": 7513
+        "stars": 7664
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-10-13T04:16:50Z",
-      "updatedAt": "2026-11-17T21:37:28Z",
+      "updatedAt": "2026-11-18T05:47:00Z",
       "summaryEn": "Experience-driven black-box cost control tool for optimizing token usage in AI coding agents.",
       "summaryKo": "AI 코딩 에이전트의 토큰 비용을 제어하는 최적화 도구입니다.",
       "reasonEn": "2.9K stars within 18 days",
@@ -1061,9 +1112,9 @@
         "ai-agents",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-10-31T22:07:10.334Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:QingYunA/answer-me-with-html",
@@ -1087,12 +1138,12 @@
         "llm"
       ],
       "metrics": {
-        "stars": 6500
+        "stars": 6531
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-10-02T09:57:40Z",
-      "updatedAt": "2026-11-17T10:14:14Z",
+      "updatedAt": "2026-11-18T19:55:16Z",
       "summaryEn": "An agent skill that translates complex questions into clear, readable one-page HTML documents to help AI agents present answers effectively.",
       "summaryKo": "복잡한 질문에 대해 AI 에이전트가 한 페이지 HTML 문서로 답변하게 돕는 스킬입니다.",
       "reasonEn": "1.0K stars within 2 days of launch",
@@ -1101,9 +1152,9 @@
         "ai-models",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-10-04T22:09:02.469Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:Folkbench/folkbench",
@@ -1127,12 +1178,12 @@
         "gemini"
       ],
       "metrics": {
-        "stars": 3955
+        "stars": 3975
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-10-02T09:50:45Z",
-      "updatedAt": "2026-11-17T21:24:51Z",
+      "updatedAt": "2026-11-18T20:56:22Z",
       "summaryEn": "A benchmark and service directory for AI API relays, comparing availability, speed, price, privacy, and operations across models.",
       "summaryKo": "모델별 가용성, 속도, 가격, 프라이버시를 비교하는 AI API 중레이 벤치마크 및 디렉토리.",
       "reasonEn": "306 stars within 9 days of launch.",
@@ -1141,9 +1192,9 @@
         "ai-models",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-11-17T02:14:34.388Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:Nanako0129/sepia",
@@ -1167,7 +1218,7 @@
         "writing-tools"
       ],
       "metrics": {
-        "stars": 3867
+        "stars": 3890
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1181,9 +1232,47 @@
         "ai-models",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-08-29T02:56:27.939Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "gh:alexeyw/lot-map",
+      "type": "repo",
+      "title": "alexeyw/lot-map",
+      "summaryOriginal": "A live map beside the chat that shows what Claude Code is doing: tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in 7 languages.",
+      "url": "https://github.com/alexeyw/lot-map",
+      "lang": "TypeScript",
+      "tags": [
+        "agent-observability",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "developer-tools",
+        "svg-animation",
+        "typescript",
+        "visualization"
+      ],
+      "metrics": {
+        "stars": 1008
+      },
+      "source": "github-search",
+      "admitReason": "new",
+      "publishedAt": "2026-11-09T19:13:52Z",
+      "updatedAt": "2026-11-19T00:37:02Z",
+      "summaryEn": "Local live map beside Claude Code that shows tool calls, model steps, hooks, skills and subagents as they run.",
+      "summaryKo": "Claude Code의 도구 호출, 모델 단계, 훅, 서브에이전트를 실행 중 실시간으로 보여주는 로컬 지도.",
+      "reasonEn": "402 stars within 2 days of creation",
+      "reasonKo": "생성 2일 만에 스타 402개",
+      "categories": [
+        "ai-agents",
+        "web",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-19T00:54:08.201Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:berkantay/gpucanvas",
@@ -1207,12 +1296,12 @@
         "wgsl"
       ],
       "metrics": {
-        "stars": 516
+        "stars": 526
       },
       "source": "github-search",
       "admitReason": "new",
       "publishedAt": "2026-11-12T23:19:42Z",
-      "updatedAt": "2026-11-15T21:14:18Z",
+      "updatedAt": "2026-11-18T13:30:07Z",
       "summaryEn": "Infinite canvas that draws thousands of live DOM nodes on the GPU, with editing, shaders, and AI agent access to the nodes.",
       "summaryKo": "GPU로 수천 개의 실시간 DOM 노드를 무한 캔버스에 그리고, 편집·셰이더·AI 에이전트 접근을 지원하는 도구.",
       "reasonEn": "418 stars within 1 day of creation",
@@ -1222,9 +1311,9 @@
         "web",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-11-14T22:49:56.471Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:monid-ai/monid",
@@ -1238,7 +1327,7 @@
         "developer-tools"
       ],
       "metrics": {
-        "stars": 6215
+        "stars": 6210
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1252,9 +1341,9 @@
         "ai-agents",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-10-03T21:56:27.615Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:KKKKhazix/agent-autoloop",
@@ -1277,12 +1366,12 @@
         "workflow"
       ],
       "metrics": {
-        "stars": 5803
+        "stars": 5905
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-11-03T08:02:11Z",
-      "updatedAt": "2026-11-18T01:23:27Z",
+      "updatedAt": "2026-11-18T18:25:56Z",
       "summaryEn": "CLI agent runner that picks up and follows tasks in the background, interrupting you with a card only when it needs a decision. Works with Claude Code and Codex.",
       "summaryKo": "백그라운드에서 작업을 이어가고 결정이 필요할 때만 카드로 알려주는 CLI 에이전트 실행기로, Claude Code와 Codex를 지원합니다.",
       "reasonEn": "2.5K stars within 1 day of creation",
@@ -1292,9 +1381,9 @@
         "web",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-11-05T00:04:20.450Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:sheprd-labs/sheprd",
@@ -1315,12 +1404,12 @@
         "terminal"
       ],
       "metrics": {
-        "stars": 2324
+        "stars": 2352
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-09-20T05:22:39Z",
-      "updatedAt": "2026-11-18T00:07:14Z",
+      "updatedAt": "2026-11-19T00:55:42Z",
       "summaryEn": "Native desktop client for Herdr on macOS, Linux, and Windows, showing terminal sessions, workspaces, worktrees, and agent activity.",
       "summaryKo": "macOS·Linux·Windows용 Herdr 네이티브 클라이언트. 터미널 세션, 워크트리, 에이전트 활동을 표시.",
       "reasonEn": "2.2K stars, established within 47 days",
@@ -1329,9 +1418,9 @@
         "ai-agents",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-11-06T23:36:33.344Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:devswha/ovis",
@@ -1355,12 +1444,12 @@
         "push-notifications"
       ],
       "metrics": {
-        "stars": 2118
+        "stars": 2136
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-09-17T18:52:07Z",
-      "updatedAt": "2026-11-17T23:18:25Z",
+      "updatedAt": "2026-11-19T00:37:24Z",
       "summaryEn": "Ovis is a free web and phone client providing chat and a live terminal interface for coding agents like Claude Code.",
       "summaryKo": "Claude Code 같은 코딩 에이전트를 위한 웹 및 모바일 클라이언트 인터페이스를 제공합니다.",
       "reasonEn": "1.3K stars within 35 days",
@@ -1370,9 +1459,9 @@
         "web",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-10-22T22:01:31.062Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:erkamyaman/rust-anything",
@@ -1396,12 +1485,12 @@
         "napi"
       ],
       "metrics": {
-        "stars": 1368
+        "stars": 3369
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-11-16T12:10:36Z",
-      "updatedAt": "2026-11-18T01:20:09Z",
+      "updatedAt": "2026-11-18T21:09:57Z",
       "summaryEn": "Tool for incrementally rewriting apps in Rust, checking each step against the original's recorded behavior across several languages.",
       "summaryKo": "여러 언어로 된 앱을 단계적으로 Rust로 재작성하고, 각 단계마다 원본 동작과 비교하는 도구입니다.",
       "reasonEn": "1.4K stars within 1 day of creation",
@@ -1411,9 +1500,9 @@
         "web",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-11-18T01:27:49.193Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:shader-effects-inc/shaders",
@@ -1434,12 +1523,12 @@
         "webgpu-shaders"
       ],
       "metrics": {
-        "stars": 5988
+        "stars": 6000
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-09-29T16:36:26Z",
-      "updatedAt": "2026-11-18T01:20:57Z",
+      "updatedAt": "2026-11-18T19:49:02Z",
       "summaryEn": "A collection of WebGPU-powered shader components for React, Vue, Svelte, Solid, and Vanilla JS.",
       "summaryKo": "React, Vue, Svelte, Solid 등을 지원하는 WebGPU 기반 셰이더 컴포넌트 모음입니다.",
       "reasonEn": "1.1K stars within 7 days of launch",
@@ -1449,9 +1538,9 @@
         "web",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-10-06T22:51:26.692Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:dagoSte/squadra",
@@ -1475,7 +1564,7 @@
         "developer-tools"
       ],
       "metrics": {
-        "stars": 1282
+        "stars": 1283
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -1489,13 +1578,266 @@
         "ai-agents",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-10-29T23:03:36.686Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "hn:50385272",
+      "type": "article",
+      "title": "Claude Code sends your email address to websites",
+      "summaryOriginal": "Claude Code sends your email address to websites",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "tags": [],
+      "metrics": {
+        "upvotes": 1616,
+        "comments": 535
+      },
+      "source": "hn",
+      "publishedAt": "2026-11-05T22:17:15Z",
+      "admitReason": "notable",
+      "summaryEn": "Report that Claude Code sends users' email addresses to websites, a privacy concern for developers using the agent.",
+      "summaryKo": "Claude Code가 사용자 이메일 주소를 웹사이트에 전송한다는 보고. 개발자 프라이버시 우려.",
+      "reasonEn": "1.6K upvotes and 535 comments within 13 days",
+      "reasonKo": "13일 만에 추천 1.6K, 댓글 535개",
+      "categories": [
+        "ai-agents",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-06T23:36:33.344Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "hn:50300683",
+      "type": "article",
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "summaryOriginal": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 1014,
+        "comments": 553
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-30T07:09:12Z",
+      "admitReason": "notable",
+      "summaryEn": "Report of a backdoor in a Claude Code VS Code extension sold via the Cursor Marketplace, a supply-chain security risk for editor users.",
+      "summaryKo": "Cursor 마켓플레이스의 Claude Code VS Code 확장에서 백도어 발견 보고. 공급망 보안 위험.",
+      "reasonEn": "1K upvotes and 553 comments within 19 days",
+      "reasonKo": "19일 만에 추천 1K, 댓글 553개",
+      "categories": [
+        "devtools",
+        "ai-agents"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-10-30T22:44:49.535Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "hn:50524736",
+      "type": "article",
+      "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+      "summaryOriginal": "Windows 11 is collecting data on which coding agents and developer tools you use",
+      "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 728,
+        "comments": 619
+      },
+      "source": "hn",
+      "publishedAt": "2026-11-16T22:58:20Z",
+      "admitReason": "notable",
+      "summaryEn": "Report that Windows 11 collects data on which coding agents and developer tools users run, a privacy concern for dev machines.",
+      "summaryKo": "Windows 11이 사용자가 쓰는 코딩 에이전트와 개발 도구 정보를 수집한다는 보고. 개발 환경 프라이버시 문제.",
+      "reasonEn": "728 upvotes and 619 comments within 2 days",
+      "reasonKo": "2일 만에 추천 728, 댓글 619개",
+      "categories": [
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-18T01:27:49.193Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "hn:50284255",
+      "type": "article",
+      "title": "Claude Code regularly sends each background agent’s transcript to its model",
+      "summaryOriginal": "Claude Code regularly sends each background agent’s transcript to its model",
+      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "tags": [],
+      "metrics": {
+        "upvotes": 591,
+        "comments": 236
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-29T03:33:42Z",
+      "admitReason": "notable",
+      "summaryEn": "Report that Claude Code regularly sends each background agent's transcript to the model, relevant to data handling in agent tools.",
+      "summaryKo": "Claude Code가 백그라운드 에이전트의 대화 기록을 정기적으로 모델에 전송한다는 보고. 데이터 처리 우려.",
+      "reasonEn": "591 upvotes and 236 comments in 20 days",
+      "reasonKo": "20일간 추천 591, 댓글 236개",
+      "categories": [
+        "ai-agents",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-02T09:23:53.161Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "hn:50354960",
+      "type": "article",
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "summaryOriginal": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "tags": [],
+      "metrics": {
+        "upvotes": 1533,
+        "comments": 500
+      },
+      "source": "hn",
+      "publishedAt": "2026-11-03T17:22:37Z",
+      "admitReason": "notable",
+      "summaryEn": "Postman reportedly installs AI plugins without notice and tries to send all API data to them. A privacy concern for anyone using this tool.",
+      "summaryKo": "Postman이 알림 없이 AI 플러그인을 자동 설치하고 모든 API 데이터를 전송하려 한다는 보고입니다. 이 도구를 쓰는 사람에게 프라이버시 문제입니다.",
+      "reasonEn": "1.5K upvotes and 500 comments within 15 days",
+      "reasonKo": "15일간 추천 1533, 댓글 500",
+      "categories": [
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-03T23:50:20.273Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "hn:50202681",
+      "type": "article",
+      "title": "Docker is weird",
+      "summaryOriginal": "Docker is weird",
+      "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+      "tags": [],
+      "metrics": {
+        "upvotes": 887,
+        "comments": 370
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-22T23:45:56Z",
+      "admitReason": "notable",
+      "summaryEn": "A discussion post arguing Docker's behavior and design feel unintuitive, with practical points on container tooling quirks developers run into.",
+      "summaryKo": "Docker의 동작과 설계가 직관적이지 않다는 점을 다루며, 개발자가 겪는 컨테이너 도구의 특이점을 논합니다.",
+      "reasonEn": "887 upvotes and 370 comments within 27 days",
+      "reasonKo": "게시 27일 만에 추천 887건, 댓글 370개",
+      "categories": [
+        "infra",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-12T23:56:23.711Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "hn:50340088",
+      "type": "article",
+      "title": "Show HN: Subvocal – Talk to your computer without making noise",
+      "summaryOriginal": "Show HN: Subvocal – Talk to your computer without making noise",
+      "url": "https://news.ycombinator.com/item?id=50340088",
+      "tags": [],
+      "metrics": {
+        "upvotes": 849,
+        "comments": 395
+      },
+      "source": "hn",
+      "publishedAt": "2026-11-02T17:16:17Z",
+      "admitReason": "notable",
+      "summaryEn": "Subvocal is a Show HN project for talking to a computer silently, using subvocal speech input rather than audible voice commands.",
+      "summaryKo": "Subvocal은 소리 없이 컴퓨터와 대화하는 Show HN 프로젝트로, 소리 내지 않는 음성 입력 방식을 씁니다.",
+      "reasonEn": "849 upvotes and 395 comments within 16 days",
+      "reasonKo": "게시 16일 만에 추천 849건, 댓글 395개",
+      "categories": [
+        "ai-agents",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-19T00:54:08.201Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "geeknews:37440",
+      "type": "article",
+      "title": "Reticle - AI 코딩 에이전트가 웹/데스크톱 앱을 직접 조작해 검증하는 도구",
+      "summaryOriginal": "코딩 에이전트가 기능을 수정한 뒤 실제 앱에서 버튼을 누르고 값을 입력해 로그인이나 결제가 의도대로 동작하는지 확인클릭에 이어 발생한 API 요청과 응답, 콘솔 오류, 화면 변화, 등록한 앱 상태를 함께 확인 결제 버튼을 한 번 눌렀을 때 주문 요청이 두 번 나가는 문제 같은 것도 잡을 수 있음각 검증 항목에 통과/실패/판단 불가를 반환하고, 실패한 요청이나 조건을 근거로 남김. 소스 위치가 연결된 경우 파일과 줄 번호까지 표시검증한 작업을 플로우로 저장해 AI 모델 없이 재실행하고, CI에서 코드 변경 후 같은 기능이 …",
+      "url": "https://news.hada.io/topic?id=37440",
+      "tags": [],
+      "source": "geeknews",
+      "publishedAt": "2026-11-19T09:30:02+09:00",
+      "admitReason": "notable",
+      "summaryEn": "Reticle lets coding agents drive web and desktop apps to verify behavior, checking API calls, console errors, and screen state, and saving replayable flows for CI.",
+      "summaryKo": "Reticle은 코딩 에이전트가 웹과 데스크톱 앱을 직접 조작해 API 호출, 콘솔 오류, 화면 상태를 검증하고 CI용 플로우로 저장하게 합니다.",
+      "reasonEn": "Notable: rapidly drew attention on the day of publication",
+      "reasonKo": "발표 당일 빠르게 주목받은 개발 도구",
+      "categories": [
+        "ai-agents",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-19T00:54:08.201Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "geeknews:37437",
+      "type": "article",
+      "title": "Codeberg 도메인이 계정에서 갑자기 사라져 사이트 접속 불가",
+      "summaryOriginal": "codeberg.org가 아직 원인이 확인되지 않은 도메인 문제로 접속 불가 상태가 됨도메인은 만료되거나 이전되지 않았는데도 Codeberg 계정에서 완전히 사라짐Codeberg는 이와 관련한 이메일 알림을 받지 못함공지 시점에 도메인은 clientHold 상태임Codeberg는 원인 파악과 해결을 위해 도메인 등록업체에 연락을 시도 중이며, 해결에 시간이 걸릴 수 있음도메인 상태와 접속 장애codeberg.org는 원인이 아직 확인되지 않은 도메인 문제로 접속할 수 없는 상태임도메인은 만료나 이전 없이 Codeberg 계정에서 완전히 사라졌으며, 관…",
+      "url": "https://news.hada.io/topic?id=37437",
+      "tags": [],
+      "source": "geeknews",
+      "publishedAt": "2026-11-19T09:05:42+09:00",
+      "admitReason": "notable",
+      "summaryEn": "codeberg.org became unreachable after its domain vanished from the Codeberg account without expiry or transfer. The cause is unknown and clientHold is set.",
+      "summaryKo": "만료나 이전 없이 도메인이 계정에서 사라지면서 codeberg.org에 접속할 수 없게 되었습니다. 원인은 아직 확인되지 않았습니다.",
+      "reasonEn": "Notable: rapidly drew attention on the day of publication",
+      "reasonKo": "발표 당일 빠르게 주목받은 개발 플랫폼 장애",
+      "categories": [
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-19T00:54:08.201Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "gh:elementalsouls/Claude-BugHunter",
+      "type": "repo",
+      "categories": [
+        "ai-agents",
+        "devtools"
+      ],
+      "title": "elementalsouls/Claude-BugHunter",
+      "summaryOriginal": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "lang": "Python",
+      "tags": [],
+      "metrics": {
+        "stars": 9343,
+        "starsDelta": 1005
+      },
+      "source": "github-trending",
+      "firstSeenAt": "2026-11-15T23:17:28.765Z",
+      "lastSeenAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "admitReason": "trending",
+      "summaryEn": "A Claude Code skill bundle for bug hunting and external red-team work, with 82 skills, 15 slash commands, and 681 disclosed-report patterns.",
+      "summaryKo": "버그 헌팅과 외부 레드팀 작업용 Claude Code 스킬 묶음. 스킬 82개, 슬래시 명령 15개, 공개 보고서 패턴 681개 포함.",
+      "reasonEn": "6.4K stars, up 221 today (trending)",
+      "reasonKo": "스타 6.4K, 오늘 221개 증가 (트렌딩)"
     },
     {
       "id": "gh:emanuele-em/kanzo",
       "type": "repo",
+      "categories": [
+        "ai-agents",
+        "devtools"
+      ],
       "title": "emanuele-em/kanzo",
       "summaryOriginal": "Self-hosted, sharable kanban for humans and agents. One 4.7 MB binary, 5 MB of RAM, 10 to 60 tokens per agent reply, starts in 3 ms, zero setup.",
       "url": "https://github.com/emanuele-em/kanzo",
@@ -1518,24 +1860,24 @@
         "stars": 1227
       },
       "source": "github-search",
-      "admitReason": "notable",
       "publishedAt": "2026-10-25T11:14:03Z",
       "updatedAt": "2026-11-17T13:38:26Z",
+      "firstSeenAt": "2026-11-01T22:33:06.545Z",
+      "lastSeenAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "admitReason": "notable",
       "summaryEn": "A self-hosted kanban board designed for both humans and AI agents, packaged as a lightweight 4MB binary with instant startup.",
       "summaryKo": "사람과 AI 에이전트를 위해 설계된 4MB 크기의 가벼운 셀프 호스팅 칸반.",
       "reasonEn": "Created 7 days ago with 564 stars",
-      "reasonKo": "7일 전 생성, 564개 스타",
-      "categories": [
-        "ai-agents",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-01T22:33:06.545Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "reasonKo": "7일 전 생성, 564개 스타"
     },
     {
       "id": "gh:dzhng/jevgrep",
       "type": "repo",
+      "categories": [
+        "web",
+        "devtools"
+      ],
       "title": "dzhng/jevgrep",
       "summaryOriginal": "Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.",
       "url": "https://github.com/dzhng/jevgrep",
@@ -1555,282 +1897,19 @@
         "vercel-ai-gateway"
       ],
       "metrics": {
-        "stars": 3241
+        "stars": 3246
       },
       "source": "github-search",
-      "admitReason": "notable",
       "publishedAt": "2026-09-26T04:06:56Z",
       "updatedAt": "2026-11-12T18:29:23Z",
+      "firstSeenAt": "2026-09-27T21:48:07.220Z",
+      "lastSeenAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "admitReason": "notable",
       "summaryEn": "Jevgrep is a CLI tool for coding agents that finds relevant files and source context by letting you search code using natural language questions.",
       "summaryKo": "자연어 질문으로 관련 파일과 소스 컨텍스트를 찾는 코딩 에이전트용 CLI 검색 도구입니다.",
       "reasonEn": "696 stars within 1 day of launch",
-      "reasonKo": "출시 1일 만에 696개의 별 획득",
-      "categories": [
-        "web",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-09-27T21:48:07.220Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
-    {
-      "id": "hn:50385272",
-      "type": "article",
-      "title": "Claude Code sends your email address to websites",
-      "summaryOriginal": "Claude Code sends your email address to websites",
-      "url": "https://github.com/anthropics/claude-code/issues/107757",
-      "tags": [],
-      "metrics": {
-        "upvotes": 1616,
-        "comments": 535
-      },
-      "source": "hn",
-      "publishedAt": "2026-11-05T22:17:15Z",
-      "admitReason": "notable",
-      "summaryEn": "Report that Claude Code exposes users' email addresses to websites, a privacy leak developers should check for in their tooling and settings.",
-      "summaryKo": "Claude Code가 사용자의 이메일 주소를 웹사이트에 전송한다는 보고로, 개발 도구 설정에서 확인이 필요한 개인정보 노출 문제입니다.",
-      "reasonEn": "1.6K upvotes and 535 comments within 12 days of posting",
-      "reasonKo": "게시 12일 만에 추천 1.6K, 댓글 535개",
-      "categories": [
-        "devtools",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-06T23:36:33.344Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
-    {
-      "id": "hn:50300683",
-      "type": "article",
-      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-      "summaryOriginal": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 1014,
-        "comments": 553
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-30T07:09:12Z",
-      "admitReason": "notable",
-      "summaryEn": "Report of a backdoor in a Claude Code VS Code extension listed on the Cursor Marketplace, a supply-chain security risk for editor extension users.",
-      "summaryKo": "Cursor 마켓플레이스에 올라온 Claude Code VS Code 확장에서 백도어가 발견되었다는 보고로, 확장 공급망 보안 위험입니다.",
-      "reasonEn": "1K upvotes and 553 comments within 18 days; security risk",
-      "reasonKo": "게시 18일 만에 추천 1K, 댓글 553개; 보안 위험",
-      "categories": [
-        "devtools",
-        "engineering"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-10-30T22:44:49.535Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
-    {
-      "id": "hn:50410107",
-      "type": "article",
-      "title": "Goodbye Claude, hello Pi",
-      "summaryOriginal": "Goodbye Claude, hello Pi",
-      "url": "https://caleb.software/posts/claude-to-pi.html",
-      "tags": [],
-      "metrics": {
-        "upvotes": 833,
-        "comments": 493
-      },
-      "source": "hn",
-      "publishedAt": "2026-11-08T03:11:48Z",
-      "admitReason": "notable",
-      "summaryEn": "Personal post about switching from Claude to Pi, an AI coding tool choice that shows how developers are comparing agent options.",
-      "summaryKo": "Claude에서 Pi로 옮긴다는 개인 글로, 개발자들이 코딩 에이전트를 비교하는 흐름을 보여줍니다.",
-      "reasonEn": "833 upvotes and 493 comments within 9 days",
-      "reasonKo": "게시 9일 만에 추천 833, 댓글 493개",
-      "categories": [
-        "ai-agents",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-18T01:27:49.193Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
-    {
-      "id": "hn:50524736",
-      "type": "article",
-      "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
-      "summaryOriginal": "Windows 11 is collecting data on which coding agents and developer tools you use",
-      "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 710,
-        "comments": 591
-      },
-      "source": "hn",
-      "publishedAt": "2026-11-16T22:58:20Z",
-      "admitReason": "notable",
-      "summaryEn": "Report that Windows 11 collects data on which coding agents and developer tools users run, a telemetry concern for developers.",
-      "summaryKo": "Windows 11이 사용자가 쓰는 코딩 에이전트와 개발 도구 정보를 수집한다는 보고로, 개발자에게 중요한 텔레메트리 문제입니다.",
-      "reasonEn": "710 upvotes and 591 comments within 1 day",
-      "reasonKo": "게시 1일 만에 추천 710, 댓글 591개",
-      "categories": [
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-18T01:27:49.193Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
-    {
-      "id": "hn:50284255",
-      "type": "article",
-      "title": "Claude Code regularly sends each background agent’s transcript to its model",
-      "summaryOriginal": "Claude Code regularly sends each background agent’s transcript to its model",
-      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-      "tags": [],
-      "metrics": {
-        "upvotes": 591,
-        "comments": 236
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-29T03:33:42Z",
-      "admitReason": "notable",
-      "summaryEn": "Finding that Claude Code regularly sends each background agent's transcript to the model, a data-flow behavior developers should know about.",
-      "summaryKo": "Claude Code가 백그라운드 에이전트의 대화 기록을 주기적으로 모델에 전송한다는 발견으로, 개발자가 알아야 할 데이터 흐름입니다.",
-      "reasonEn": "591 upvotes and 236 comments within 19 days",
-      "reasonKo": "게시 19일 만에 추천 591, 댓글 236개",
-      "categories": [
-        "devtools",
-        "ai-agents"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-02T09:23:53.161Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
-    {
-      "id": "hn:50354960",
-      "type": "article",
-      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
-      "summaryOriginal": "Postman silently auto-installs AI plugins and attempts to share all API data",
-      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
-      "tags": [],
-      "metrics": {
-        "upvotes": 1533,
-        "comments": 500
-      },
-      "source": "hn",
-      "publishedAt": "2026-11-03T17:22:37Z",
-      "admitReason": "notable",
-      "summaryEn": "Postman reportedly installs AI plugins without asking and tries to send all API data to them. A privacy and security issue in a major developer tool.",
-      "summaryKo": "Postman이 묻지 않고 AI 플러그인을 자동 설치하고 모든 API 데이터를 전송하려 한다고 보고되었다. 주요 개발 도구의 보안·개인정보 문제다.",
-      "reasonEn": "Notable: 1.5K upvotes and 500 comments in 14 days",
-      "reasonKo": "14일간 추천 1.5K, 댓글 500개",
-      "categories": [
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-03T23:50:20.273Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
-    {
-      "id": "hn:50202681",
-      "type": "article",
-      "title": "Docker is weird",
-      "summaryOriginal": "Docker is weird",
-      "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
-      "tags": [],
-      "metrics": {
-        "upvotes": 887,
-        "comments": 370
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-22T23:45:56Z",
-      "admitReason": "notable",
-      "summaryEn": "A developer's critique of Docker's confusing behaviors and design choices, sparking a long discussion about container tooling pitfalls.",
-      "summaryKo": "Docker의 혼란스러운 동작과 설계 선택을 비판한 글로, 컨테이너 도구의 함정에 대한 긴 토론을 불러왔습니다.",
-      "reasonEn": "887 upvotes and 370 comments within 26 days of posting",
-      "reasonKo": "게시 26일 만에 추천 887, 댓글 370",
-      "categories": [
-        "devtools",
-        "infra"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-12T23:56:23.711Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
-    {
-      "id": "hn:50435898",
-      "type": "article",
-      "title": "Ultorg: The User Interface for Relational Databases",
-      "summaryOriginal": "Ultorg: The User Interface for Relational Databases",
-      "url": "https://www.ultorg.com/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 157,
-        "comments": 62
-      },
-      "source": "hn",
-      "publishedAt": "2026-11-10T03:59:39Z",
-      "admitReason": "notable",
-      "summaryEn": "Ultorg is a user interface for browsing and editing relational databases, aimed at making database work easier than raw SQL tools.",
-      "summaryKo": "Ultorg는 관계형 데이터베이스를 탐색하고 편집하는 사용자 인터페이스로, 원시 SQL 도구보다 쉬운 작업을 목표로 합니다.",
-      "reasonEn": "157 upvotes and 62 comments within 7 days",
-      "reasonKo": "게시 7일 만에 추천 157, 댓글 62",
-      "categories": [
-        "data",
-        "devtools"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-15T23:17:28.765Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
-    {
-      "id": "devto:4999208",
-      "type": "article",
-      "title": "Meet type-tune! 🦀 Give Your TypeScript Types a Better Home! 😸",
-      "summaryOriginal": "Hoi hoi! 👋 I'm @nyaomaru, a frontend engineer who is actually allergic to crabs! 🙀🦀 Today, I have...",
-      "url": "https://dev.to/necoz/meet-type-tune-give-your-typescript-types-a-better-home-1p6l",
-      "tags": [
-        "rust",
-        "typescript",
-        "showdev",
-        "opensource"
-      ],
-      "metrics": {
-        "upvotes": 119,
-        "comments": 43
-      },
-      "source": "devto",
-      "publishedAt": "2026-11-11T17:19:22Z",
-      "admitReason": "notable",
-      "summaryEn": "Introduces type-tune, an open-source tool for organizing TypeScript type definitions into a dedicated home, written with a Rust component.",
-      "summaryKo": "TypeScript 타입 정의를 별도 위치에 정리하는 오픈소스 도구 type-tune 소개. Rust 기반.",
-      "reasonEn": "119 upvotes and 43 comments in 6 days; new open-source tool",
-      "reasonKo": "6일 만에 추천 119, 댓글 43; 새 오픈소스 도구",
-      "categories": [
-        "devtools",
-        "web"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-17T02:14:34.388Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
-    {
-      "id": "geeknews:37379",
-      "type": "article",
-      "title": "chrome-capture - Chrome 탭의 화면과 소리를 최대 4K 120fps로 녹화하는 도구",
-      "summaryOriginal": "URL과 녹화 시간을 지정하면 Chrome 탭의 화면과 소리를 AV1 MP4로 저장함기본값은 720p 60fps이며 탭 오디오도 함께 녹음Chrome 153의 내장 녹화 API를 사용해 브라우저가 녹화 중에 바로 인코딩하며, FFmpeg 설치 없이 MP4를 만들 수 있음Playwright, Puppeteer, CDP에서 녹화 시작과 종료를 제어할 수 있어 로그인이나 페이지 로딩을 마친 뒤 필요한 구간만 녹화 가능Playwright 테스트의 녹화 영상을 테스트 리포트에 자동 첨부할 수 있음. 마우스 커서와 클릭 위치도 표시 가능M4 Max로 같은 6.4초 UI 조작을 녹화했을 때, 녹화…",
-      "url": "https://news.hada.io/topic?id=37379",
-      "tags": [],
-      "source": "geeknews",
-      "publishedAt": "2026-11-18T09:30:02+09:00",
-      "admitReason": "notable",
-      "summaryEn": "Open-source tool that records a Chrome tab to AV1 MP4 up to 4K 120fps, using Chrome's built-in recording API, with Playwright and Puppeteer control and no FFmpeg install.",
-      "summaryKo": "Chrome 내장 녹화 API로 탭을 최대 4K 120fps AV1 MP4로 저장하는 도구. Playwright 연동 가능.",
-      "reasonEn": "Flagged notable; published today, no metrics yet",
-      "reasonKo": "주목 표시, 오늘 게시됨. 지표 없음",
-      "categories": [
-        "devtools",
-        "web"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-18T01:27:49.193Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "reasonKo": "출시 1일 만에 696개의 별 획득"
     },
     {
       "id": "gh:kajisho5/ffmpeg-skill",
@@ -1996,18 +2075,18 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 30304,
-        "starsDelta": 116
+        "stars": 30765
       },
       "source": "github-trending",
       "firstSeenAt": "2026-11-12T23:56:23.711Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "Open-source AI coding agent that runs in your terminal, from the Qwen team, for editing code and running tasks from the command line.",
       "summaryKo": "터미널에서 동작하는 오픈소스 AI 코딩 에이전트다. Qwen 팀의 프로젝트다.",
       "reasonEn": "29.8K stars; +151 stars today",
-      "reasonKo": "누적 29.8K 스타, 오늘 +151"
+      "reasonKo": "누적 29.8K 스타, 오늘 +151",
+      "updatedAt": "2026-11-19T00:56:09Z"
     },
     {
       "id": "gh:ShayanAbbas1/dbdelve",
@@ -2035,14 +2114,14 @@
         "mysql"
       ],
       "metrics": {
-        "stars": 1339
+        "stars": 1570
       },
       "source": "github-search",
       "publishedAt": "2026-08-17T14:41:16Z",
-      "updatedAt": "2026-11-14T22:08:00Z",
+      "updatedAt": "2026-11-18T20:18:39Z",
       "firstSeenAt": "2026-11-12T23:56:23.711Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Lightweight local database client written in Rust with the GPUI framework, supporting MariaDB on macOS and Linux.",
       "summaryKo": "Rust와 GPUI로 만든 가벼운 로컬 데이터베이스 클라이언트로, macOS와 Linux에서 MariaDB를 지원한다.",
@@ -2074,10 +2153,10 @@
       },
       "source": "github-search",
       "publishedAt": "2026-11-02T00:40:47Z",
-      "updatedAt": "2026-11-08T08:17:00Z",
+      "updatedAt": "2026-11-18T00:51:02Z",
       "firstSeenAt": "2026-11-03T01:25:46.164Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "new",
       "summaryEn": "Terminal tool that values a Steam inventory per game and market and prints a share card; Windows portable build.",
       "summaryKo": "Steam 인벤토리를 게임과 시장별로 평가해 공유용 카드를 출력하는 터미널 도구.",
@@ -2108,14 +2187,14 @@
         "swift"
       ],
       "metrics": {
-        "stars": 6096
+        "stars": 6171
       },
       "source": "github-search",
       "publishedAt": "2026-09-29T11:02:39Z",
-      "updatedAt": "2026-11-14T06:47:00Z",
+      "updatedAt": "2026-11-18T10:55:17Z",
       "firstSeenAt": "2026-10-04T22:09:02.469Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "A macOS command-line utility that disables Apple Intelligence and reclaims disk space safely and reversibly.",
       "summaryKo": "Apple Intelligence를 비활성화하고 디스크 공간을 확보하는 macOS CLI 유틸리티입니다.",
@@ -2147,14 +2226,14 @@
         "kotlin"
       ],
       "metrics": {
-        "stars": 3468
+        "stars": 3637
       },
       "source": "github-search",
       "publishedAt": "2026-10-31T21:34:39Z",
-      "updatedAt": "2026-11-14T15:43:20Z",
+      "updatedAt": "2026-11-16T03:43:17Z",
       "firstSeenAt": "2026-11-02T09:19:52.923Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Desktop tool that audits Android apps over adb for permissions, reporting endpoints, and data flows, with reversible fixes.",
       "summaryKo": "adb로 안드로이드 앱의 권한, 전송 엔드포인트, 데이터 흐름을 점검하고 되돌릴 수 있는 조치를 제시하는 도구.",
@@ -2186,14 +2265,14 @@
         "linux"
       ],
       "metrics": {
-        "stars": 2905
+        "stars": 2991
       },
       "source": "github-search",
       "publishedAt": "2026-10-21T17:29:28Z",
-      "updatedAt": "2026-11-13T17:51:26Z",
+      "updatedAt": "2026-11-16T20:28:37Z",
       "firstSeenAt": "2026-10-23T21:47:37.203Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "CLI utility to extract large archives in-place by shrinking the archive file as files are extracted.",
       "summaryKo": "파일을 추출하면서 압축파일 크기를 줄여 공간을 절약하는 CLI 도구.",
@@ -2225,14 +2304,14 @@
         "text-editor"
       ],
       "metrics": {
-        "stars": 1790
+        "stars": 1816
       },
       "source": "github-search",
       "publishedAt": "2026-09-10T10:50:03Z",
-      "updatedAt": "2026-11-13T01:23:53Z",
+      "updatedAt": "2026-11-18T14:18:12Z",
       "firstSeenAt": "2026-09-12T21:08:18.614Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "A development environment and CLI designed for AI coding agents and agent orchestration.",
       "summaryKo": "AI 코딩 에이전트와 에이전트 오케스트레이션을 위해 설계된 개발 환경 및 CLI입니다.",
@@ -2264,14 +2343,14 @@
         "coding-agent"
       ],
       "metrics": {
-        "stars": 1237
+        "stars": 1253
       },
       "source": "github-search",
       "publishedAt": "2026-08-17T22:40:47Z",
       "updatedAt": "2026-10-04T09:13:14Z",
       "firstSeenAt": "2026-08-19T06:46:44.114Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Agentic coding skill that reduces failure rates by 45% on autonomous coding tasks through intelligent prompt engineering and test-driven workflows.",
       "summaryKo": "자동 코딩 작업의 실패율을 45% 감소시키는 에이전트 코딩 스킬."
@@ -2306,7 +2385,7 @@
       "updatedAt": "2026-10-14T00:33:50Z",
       "firstSeenAt": "2026-10-13T01:04:05.704Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "An open-source terminal coding agent that plans, edits files, and runs tests autonomously until a task is done.",
       "summaryKo": "작업이 완료될 때까지 코드를 수정하고 테스트를 실행하는 오픈소스 터미널 코딩 에이전트.",
@@ -2338,14 +2417,14 @@
         "mcp"
       ],
       "metrics": {
-        "stars": 1001
+        "stars": 1002
       },
       "source": "github-search",
       "publishedAt": "2026-09-11T09:40:02Z",
       "updatedAt": "2026-11-13T05:37:05Z",
       "firstSeenAt": "2026-09-23T21:56:52.747Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "A DeepSeek coding agent harness featuring a persistent shell, subagents, auto-approval, and Chrome MCP telemetry.",
       "summaryKo": "영구셸, 서브에이전트, 자동 승인 및 Chrome MCP 텔레메트리를 갖춘 DeepSeek 코딩 에이전트 하네스입니다.",
@@ -2384,7 +2463,7 @@
       "updatedAt": "2026-11-14T21:19:02Z",
       "firstSeenAt": "2026-11-10T01:50:05.048Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Repo offering a standalone Acrobat Pro 2026 PDF processor with 'no limits' in its tags. Unverified and likely piracy-linked; treat as untrusted.",
       "summaryKo": "Acrobat Pro 2026 대체를 내세우는 PDF 처리기 저장소. 검증되지 않아 불법 배포 가능성이 있음.",
@@ -2423,7 +2502,7 @@
       "updatedAt": "2026-11-14T21:42:43Z",
       "firstSeenAt": "2026-11-10T01:50:05.048Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Repo offering a desktop installer for Adobe Substance 3D with a claimed 'secure asset pipeline'. Unverified and likely piracy-linked; treat as untrusted.",
       "summaryKo": "Adobe Substance 3D 설치 프로그램을 내세우지만 검증되지 않아 불법 배포 가능성이 있는 저장소.",
@@ -2462,7 +2541,7 @@
       "updatedAt": "2026-11-14T20:50:23Z",
       "firstSeenAt": "2026-11-12T01:13:41.978Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Repo offering a pre-configured AIDA64 Extreme installer with features unlocked; unofficial activated bundles carry malware and license risk.",
       "summaryKo": "기능이 잠금 해제된 AIDA64 Extreme 설치본을 제공하는 저장소로, 비공식 활성화 설치본은 악성코드와 라이선스 위험이 있다.",
@@ -2501,7 +2580,7 @@
       "updatedAt": "2026-11-14T20:50:28Z",
       "firstSeenAt": "2026-11-12T01:13:41.978Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Repo bundling a Cubase Studio 2026 desktop setup with plugins; unofficial installers of licensed audio software carry security and license risk.",
       "summaryKo": "플러그인을 포함한 Cubase Studio 2026 설치본을 묶은 저장소로, 비공식 오디오 소프트웨어 설치본은 보안 위험이 있다.",
@@ -2537,10 +2616,10 @@
       },
       "source": "github-search",
       "publishedAt": "2026-11-06T20:53:28Z",
-      "updatedAt": "2026-11-14T20:50:32Z",
+      "updatedAt": "2026-11-18T20:59:46Z",
       "firstSeenAt": "2026-11-12T01:13:41.978Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Repo claiming to be a full Aomei Backupper 2026 disk backup and partition tool, apparently a repackaged installer from an unknown source. Verify before running.",
       "summaryKo": "Aomei Backupper 2026 디스크 백업 및 파티션 도구를 자처하는 저장소입니다. 출처가 불명확한 재포장 설치 파일로 보여 실행 전 검증이 필요합니다.",
@@ -2579,7 +2658,7 @@
       "updatedAt": "2026-11-14T21:10:17Z",
       "firstSeenAt": "2026-11-12T01:13:41.978Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Repo billed as an Aion 2 AI prompt toolkit and desktop trainer; the tags point to game cheat tooling. Unverified code, so treat it as risky to run.",
       "summaryKo": "Aion 2 AI 프롬프트 도구이자 데스크톱 트레이너를 내세운 저장소입니다. 태그상 게임 치트 도구일 가능성이 높아 실행은 위험합니다.",
@@ -2615,10 +2694,10 @@
       },
       "source": "github-search",
       "publishedAt": "2026-11-06T20:51:54Z",
-      "updatedAt": "2026-11-14T20:50:31Z",
+      "updatedAt": "2026-11-18T20:58:44Z",
       "firstSeenAt": "2026-11-12T01:13:41.978Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Repo offering a Delta Executor installer for PC with exploit-related tags, a game exploit tool from an unknown source. Unsafe to run without review.",
       "summaryKo": "PC용 Delta Executor 설치본을 제공하는 저장소로, 익스플로잇 관련 태그가 붙어 있습니다. 출처 불명이라 검토 없이 실행하면 안 됩니다.",
@@ -2657,7 +2736,7 @@
       "updatedAt": "2026-11-14T20:50:27Z",
       "firstSeenAt": "2026-11-12T01:13:41.978Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Repo offering a complete standalone DAEMON Tools Pro/Ultra setup, likely a pirated installer. Binaries are unverified, so running it is risky.",
       "summaryKo": "DAEMON Tools Pro/Ultra 독립 설치본을 제공하는 저장소로, 불법 복제 설치 파일일 가능성이 큽니다. 검증되지 않아 실행이 위험합니다.",
@@ -2696,7 +2775,7 @@
       "updatedAt": "2026-11-14T20:50:27Z",
       "firstSeenAt": "2026-11-12T01:13:41.978Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Repo offering a Delta Force game trainer with aim assist tags, which is cheat tooling from an unknown source. Unverified and risky to run.",
       "summaryKo": "Delta Force 게임 트레이너를 제공하는 저장소이며 에임 어시스트 태그가 있습니다. 출처가 불분명한 치트 도구이므로 실행이 위험합니다.",
@@ -2735,7 +2814,7 @@
       "updatedAt": "2026-11-14T20:50:29Z",
       "firstSeenAt": "2026-11-12T01:13:41.978Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Repo offering an unofficial Designcenter-NX CAD desktop installer for immediate deployment, with no clear provenance. Unverified; treat as risky.",
       "summaryKo": "공식이 아닌 Designcenter-NX CAD 데스크톱 설치본을 제공하는 저장소입니다. 출처가 명확하지 않아 검증 전까지 위험으로 간주해야 합니다.",
@@ -2767,14 +2846,14 @@
         "monitor-profiles"
       ],
       "metrics": {
-        "stars": 1175
+        "stars": 1178
       },
       "source": "github-search",
       "publishedAt": "2026-11-06T20:54:55Z",
-      "updatedAt": "2026-11-14T20:50:35Z",
+      "updatedAt": "2026-11-18T22:04:21Z",
       "firstSeenAt": "2026-11-14T00:05:27.914Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "new",
       "summaryEn": "Repo offering a bundled all-features-enabled build of commercial multi-monitor software. Pirated-software style lure; treat as unsafe.",
       "summaryKo": "상용 다중 모니터 소프트웨어를 기능 전체 해제 형태로 묶은 저장소입니다. 불법 배포 유인 가능성이 있어 주의가 필요합니다.",
@@ -2813,7 +2892,7 @@
       "updatedAt": "2026-11-14T21:41:55Z",
       "firstSeenAt": "2026-11-14T00:05:27.914Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "new",
       "summaryEn": "Repo offering a bundled every-feature-enabled build of commercial video and recovery software. Pirated-software style lure; treat as unsafe.",
       "summaryKo": "상용 영상·복구 소프트웨어를 전 기능 활성화 형태로 묶은 저장소입니다. 불법 배포 유인 가능성이 있어 주의가 필요합니다.",
@@ -2852,7 +2931,7 @@
       "updatedAt": "2026-11-14T20:50:32Z",
       "firstSeenAt": "2026-11-14T00:05:27.914Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "new",
       "summaryEn": "Repo offering a standalone nothing-held-back build of commercial photo editing software, promoted with coupon keywords. Treat as unsafe.",
       "summaryKo": "상용 사진 편집 소프트웨어를 제한 없는 형태로 묶고 쿠폰 키워드를 내세운 저장소입니다. 주의가 필요합니다.",
@@ -2891,7 +2970,7 @@
       "updatedAt": "2026-11-14T20:50:32Z",
       "firstSeenAt": "2026-11-14T00:05:27.914Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "new",
       "summaryEn": "Repo offering a complete standalone build of church presentation software with all features enabled. Pirated-style lure; treat as unsafe.",
       "summaryKo": "교회 발표 소프트웨어를 전 기능 활성화 상태로 묶은 저장소입니다. 불법 배포 유인 가능성이 있어 주의가 필요합니다.",
@@ -2923,14 +3002,14 @@
         "mt5-stealth"
       ],
       "metrics": {
-        "stars": 1110
+        "stars": 1120
       },
       "source": "github-search",
       "publishedAt": "2026-11-06T21:09:36Z",
-      "updatedAt": "2026-11-14T22:48:01Z",
+      "updatedAt": "2026-11-18T20:57:47Z",
       "firstSeenAt": "2026-11-14T00:05:27.914Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "new",
       "summaryEn": "Repo offering a MetaTrader 5 trading bot described as full-featured. Unverified trading software; review code before running anything.",
       "summaryKo": "전 기능을 갖췄다고 설명하는 MetaTrader 5 트레이딩 봇 저장소입니다. 검증되지 않았으니 실행 전 코드를 확인하세요.",
@@ -2954,6 +3033,7 @@
         "stars": 13961
       },
       "source": "github-trending",
+      "updatedAt": "2026-11-18T01:18:10Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-11-14T00:05:27.914Z",
       "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
@@ -2961,34 +3041,7 @@
       "summaryEn": "OpenAI's Codex Security CLI and TypeScript SDK designed to help developers find, validate, and fix application security vulnerabilities.",
       "summaryKo": "보안 취약점 탐지 및 수정을 지원하는 OpenAI의 CLI 및 SDK입니다.",
       "reasonEn": "10.5K stars within 2 months of launch",
-      "reasonKo": "출시 후 두 달 만에 1만 스타 돌파",
-      "updatedAt": "2026-11-18T01:18:10Z"
-    },
-    {
-      "id": "gh:nvm-sh/nvm",
-      "type": "repo",
-      "categories": [
-        "infra",
-        "devtools"
-      ],
-      "title": "nvm-sh/nvm",
-      "summaryOriginal": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
-      "url": "https://github.com/nvm-sh/nvm",
-      "lang": "Shell",
-      "tags": [],
-      "metrics": {
-        "stars": 96083
-      },
-      "source": "github-trending",
-      "updatedAt": "2026-11-16T18:43:51Z",
-      "firstSeenAt": "2026-10-14T21:59:54.837Z",
-      "lastSeenAt": "2026-11-12T23:56:23.711Z",
-      "metricsRefreshedAt": "2026-11-17T02:14:34.388Z",
-      "admitReason": "trending",
-      "summaryEn": "Node Version Manager (nvm) is a POSIX-compliant bash script to manage multiple active Node.js versions on a single machine.",
-      "summaryKo": "단일 머신에서 여러 Node.js 버전을 관리하는 POSIX 호환 배시 스크립트입니다.",
-      "reasonEn": "Trending with 70 stars today (95.4K total stars)",
-      "reasonKo": "오늘 70개의 스타를 얻으며 트렌딩 중 (총 9.54만 개)"
+      "reasonKo": "출시 후 두 달 만에 1만 스타 돌파"
     },
     {
       "id": "gh:Alishahryar1/free-claude-code",
@@ -6332,13 +6385,13 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 38884
+        "stars": 39223
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-15T14:40:06Z",
+      "updatedAt": "2026-11-16T04:01:38Z",
       "firstSeenAt": "2026-11-01T22:33:06.545Z",
       "lastSeenAt": "2026-11-02T09:23:53.161Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "A free, open source, and extensible speech-to-text application that works completely offline.",
       "summaryKo": "완전히 오프라인으로 작동하는 무료 오픈소스 확장형 음성 인식 애플리케이션입니다.",
@@ -6368,14 +6421,14 @@
         "rust-analyzer"
       ],
       "metrics": {
-        "stars": 2383
+        "stars": 2422
       },
       "source": "github-search",
       "publishedAt": "2026-10-19T23:31:09Z",
-      "updatedAt": "2026-11-15T22:53:34Z",
+      "updatedAt": "2026-11-19T00:05:55Z",
       "firstSeenAt": "2026-10-25T21:19:57.618Z",
       "lastSeenAt": "2026-11-02T09:23:53.161Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "indexable-inc/blaze provides incremental Rust builds that are significantly faster than standard cargo and rustc compilation.",
       "summaryKo": "표준 cargo 및 rustc보다 훨씬 빠른 증분 Rust 빌드를 제공하는 컴파일 도구입니다.",
@@ -6407,14 +6460,14 @@
         "system-data"
       ],
       "metrics": {
-        "stars": 2222
+        "stars": 2268
       },
       "source": "github-search",
       "publishedAt": "2026-09-05T23:29:13Z",
       "updatedAt": "2026-11-12T10:26:50Z",
       "firstSeenAt": "2026-09-12T21:08:18.614Z",
       "lastSeenAt": "2026-11-02T09:23:53.161Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "A free macOS menu bar app that breaks down and cleans system data cache items safely.",
       "summaryKo": "macOS 시스템 데이터 캐시 항목을 분석하고 안전하게 정리해 주는 메뉴바 앱입니다.",
@@ -6443,14 +6496,14 @@
         "php"
       ],
       "metrics": {
-        "stars": 1531
+        "stars": 1535
       },
       "source": "github-search",
       "publishedAt": "2026-08-18T13:28:19Z",
       "updatedAt": "2026-11-12T15:10:00Z",
       "firstSeenAt": "2026-10-04T22:09:02.469Z",
       "lastSeenAt": "2026-11-02T09:23:53.161Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "An open-source AI chat platform providing free access to multiple powerful LLMs through a unified interface.",
       "summaryKo": "여러 강력한 LLM에 무료로 접속할 수 있는 오픈소스 AI 채팅 플랫폼입니다.",
@@ -6482,14 +6535,14 @@
         "hallucination-detection"
       ],
       "metrics": {
-        "stars": 1343
+        "stars": 1347
       },
       "source": "github-search",
       "publishedAt": "2026-08-31T01:02:18Z",
       "updatedAt": "2026-11-01T11:28:54Z",
       "firstSeenAt": "2026-09-02T22:54:08.675Z",
       "lastSeenAt": "2026-11-02T09:23:53.161Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Verified reverse engineering tool combining AI with deterministic tool checks to prevent hallucinations.",
       "summaryKo": "환각 방지를 위해 AI와 확정적 도구 검증을 결합한 검증된 리버스 엔지니어링 도구입니다.",
@@ -6521,14 +6574,14 @@
         "dsh"
       ],
       "metrics": {
-        "stars": 1370
+        "stars": 1384
       },
       "source": "github-search",
       "publishedAt": "2026-08-11T13:14:49Z",
       "updatedAt": "2026-11-06T07:27:30Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-11-02T09:23:53.161Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Curated hub of plugins, tools, and infrastructure for the DeepSeek Harness (DSH) ecosystem.",
       "summaryKo": "DeepSeek Harness(DSH) 생태계 플러그인·도구·인프라를 정리한 큐레이션 허브"
@@ -6562,10 +6615,10 @@
       },
       "source": "github-search",
       "publishedAt": "2026-10-11T15:38:03Z",
-      "updatedAt": "2026-11-09T18:05:18Z",
+      "updatedAt": "2026-11-16T17:36:37Z",
       "firstSeenAt": "2026-10-18T21:12:06.384Z",
       "lastSeenAt": "2026-11-02T09:23:53.161Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Trace-native CI/CD for AI agents that grades production traces, clusters failures, and blocks regressions in PRs.",
       "summaryKo": "프로덕션 추적 평가, 실패 군집화, PR 회귀 차단을 지원하는 AI 에이전트용 CI/CD 도구입니다.",
@@ -6597,14 +6650,14 @@
         "llm"
       ],
       "metrics": {
-        "stars": 1400
+        "stars": 1412
       },
       "source": "github-search",
       "publishedAt": "2026-10-05T06:50:33Z",
       "updatedAt": "2026-11-07T20:59:58Z",
       "firstSeenAt": "2026-10-18T21:12:06.384Z",
       "lastSeenAt": "2026-11-02T09:23:53.161Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "An API pricing aggregator and MCP server that helps AI agents find and connect to the cheapest model APIs.",
       "summaryKo": "AI 에이전트가 가장 저렴한 모델 API를 찾아 연결할 수 있도록 돕는 API 가격 집계기 및 MCP 서버입니다.",
@@ -6634,14 +6687,14 @@
         "vnc"
       ],
       "metrics": {
-        "stars": 1121
+        "stars": 1464
       },
       "source": "github-search",
       "publishedAt": "2026-10-22T09:56:24Z",
-      "updatedAt": "2026-11-15T13:18:29Z",
+      "updatedAt": "2026-11-18T18:13:43Z",
       "firstSeenAt": "2026-11-02T09:19:52.923Z",
       "lastSeenAt": "2026-11-02T09:23:53.161Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "new",
       "summaryEn": "Native Go desktop app combining SSH, SFTP, port forwarding, VNC/RDP, and an MCP AI assistant in one window, without a webview.",
       "summaryKo": "SSH, SFTP, 포트 포워딩, VNC/RDP, MCP AI 어시스턴트를 하나로 묶은 웹뷰 없는 네이티브 Go 데스크톱 앱.",
@@ -6680,7 +6733,7 @@
       "updatedAt": "2026-11-02T09:09:08Z",
       "firstSeenAt": "2026-09-23T21:56:52.747Z",
       "lastSeenAt": "2026-11-02T09:23:53.161Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "An open-source AI-powered security terminal and vulnerability scanner featuring autonomous AI agents for automated DevSecOps and security workflows.",
       "summaryKo": "자동화된 보안 워크플로우를 위한 자율형 AI 에이전트 기반 오픈소스 보안 터미널 및 취약점 스캐너입니다.",
@@ -7335,13 +7388,13 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 8271
+        "stars": 8351
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-15T23:19:05Z",
+      "updatedAt": "2026-11-19T00:41:08Z",
       "firstSeenAt": "2026-10-25T21:19:57.618Z",
       "lastSeenAt": "2026-10-30T22:44:49.535Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "JetBrains/thinkrail is a lightweight, customizable IDE designed to adapt around modern developer workflows for vibe coding.",
       "summaryKo": "개발자 작업 스타일에 맞춰 커스텀할 수 있는 가벼운 지브 코딩용 IDE입니다.",
@@ -7475,14 +7528,14 @@
         "llm"
       ],
       "metrics": {
-        "stars": 369
+        "stars": 370
       },
       "source": "github-search",
       "publishedAt": "2026-10-14T09:06:49Z",
       "updatedAt": "2026-11-11T21:06:04Z",
       "firstSeenAt": "2026-10-24T21:22:37.863Z",
       "lastSeenAt": "2026-10-27T22:47:56.693Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "new",
       "summaryEn": "Tool to replay your coding agent sessions visually as a map and a timeline for debugging.",
       "summaryKo": "코딩 에이전트 세션을 맵과 타임라인으로 시각화하여 재생하는 도구입니다.",
@@ -7512,14 +7565,14 @@
         "screen-recording"
       ],
       "metrics": {
-        "stars": 927
+        "stars": 939
       },
       "source": "github-search",
       "publishedAt": "2026-10-14T23:21:44Z",
       "updatedAt": "2026-11-01T04:01:54Z",
       "firstSeenAt": "2026-10-19T22:44:18.534Z",
       "lastSeenAt": "2026-10-27T22:47:56.693Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "new",
       "summaryEn": "A developer tool to mark up, record, and send problems to coding agents, built in Rust for macOS.",
       "summaryKo": "문제를 마크업하고 기록하여 코딩 에이전트에 전달하는 macOS용 개발 도구입니다.",
@@ -7552,14 +7605,14 @@
         "developer-tools"
       ],
       "metrics": {
-        "stars": 576
+        "stars": 581
       },
       "source": "github-search",
       "publishedAt": "2026-10-14T12:25:36Z",
-      "updatedAt": "2026-11-14T06:01:54Z",
+      "updatedAt": "2026-11-16T06:03:03Z",
       "firstSeenAt": "2026-10-19T22:44:18.534Z",
       "lastSeenAt": "2026-10-27T22:47:56.693Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "new",
       "summaryEn": "Provides code graph intelligence and memory for coding agents compatible with Claude Code, Cursor, and MCP clients.",
       "summaryKo": "코딩 에이전트를 위한 코드 그래프 분석 및 메모리를 제공하는 도구입니다.",
@@ -7631,13 +7684,13 @@
       "lang": "Rust",
       "tags": [],
       "metrics": {
-        "stars": 21650
+        "stars": 21780
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-15T19:35:48Z",
+      "updatedAt": "2026-11-19T00:57:18Z",
       "firstSeenAt": "2026-09-29T22:47:33.822Z",
       "lastSeenAt": "2026-10-24T21:22:37.863Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "A safe, private runtime environment for running autonomous AI agents.",
       "summaryKo": "자율 AI 에이전트를 안전하고 사적으로 실행하는 런타임 환경.",
@@ -7657,13 +7710,13 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 108852
+        "stars": 108925
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-15T01:12:38Z",
+      "updatedAt": "2026-11-19T00:14:21Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-10-24T21:22:37.863Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "Terminal-based AI agent bringing Gemini model capabilities to CLI; includes MCP client/server for tool integration.",
       "summaryKo": "터미널용 Gemini AI 에이전트, MCP 클라이언트/서버 지원."
@@ -7694,14 +7747,14 @@
         "voice-ai"
       ],
       "metrics": {
-        "stars": 3228
+        "stars": 3254
       },
       "source": "github-search",
       "publishedAt": "2026-07-27T05:04:26Z",
-      "updatedAt": "2026-11-12T09:14:43Z",
+      "updatedAt": "2026-11-18T10:17:17Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-10-24T21:22:37.863Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Real-time voice runtime environment designed to keep AI agents talking and interacting seamlessly.",
       "summaryKo": "AI 에이전트가 지속적으로 대화하고 상호작용할 수 있도록 설계된 실시간 음성 런타임 환경입니다.",
@@ -7737,7 +7790,7 @@
       "updatedAt": "2026-09-17T20:57:23Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-10-24T21:22:37.863Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Visual tool for editing HTML and Markdown files with Google Doc-style comments to provide feedback to AI agents.",
       "summaryKo": "AI 에이전트에 피드백을 제공할 수 있도록 Google 문서 스타일의 댓글 기능으로 HTML 및 Markdown을 편집하는 시각적 도구입니다.",
@@ -7915,14 +7968,14 @@
         "swift"
       ],
       "metrics": {
-        "stars": 879
+        "stars": 883
       },
       "source": "github-search",
       "publishedAt": "2026-10-08T08:39:15Z",
       "updatedAt": "2026-11-15T16:21:32Z",
       "firstSeenAt": "2026-10-09T22:59:18.171Z",
       "lastSeenAt": "2026-10-21T22:03:13.438Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "new",
       "summaryEn": "A CLI tool for macOS that lets AI agents draw visual indicators and text overlays directly on the screen.",
       "summaryKo": "AI 에이전트가 macOS 화면 위에 직접 시각적 표시와 텍스트를 그릴 수 있게 해주는 CLI 도구입니다.",
@@ -7954,14 +8007,14 @@
         "xterm"
       ],
       "metrics": {
-        "stars": 2075
+        "stars": 2136
       },
       "source": "github-search",
       "publishedAt": "2026-09-17T18:52:07Z",
-      "updatedAt": "2026-11-15T23:20:37Z",
+      "updatedAt": "2026-11-19T00:37:24Z",
       "firstSeenAt": "2026-10-15T21:53:40.774Z",
       "lastSeenAt": "2026-10-21T22:03:13.438Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Herdr Web UI is a browser and mobile client offering chat, live terminal access, and remote SSH for agent panes.",
       "summaryKo": "에이전트 창을 위한 채팅, 라이브 터미널 액세스, 원격 SSH를 제공하는 브라우저 및 모바일 클라이언트입니다.",
@@ -7995,14 +8048,14 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 1533
+        "stars": 1545
       },
       "source": "github-search",
       "publishedAt": "2026-07-24T02:17:34Z",
-      "updatedAt": "2026-11-15T23:08:47Z",
+      "updatedAt": "2026-11-18T20:56:31Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-10-21T22:03:13.438Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Allows tagging and collaborating with AI agents directly where your team works.",
       "summaryKo": "팀이 일하는 곳에서 직접 AI 에이전트를 태그하고 협업할 수 있게 해줍니다.",
@@ -8031,14 +8084,14 @@
         "skills"
       ],
       "metrics": {
-        "stars": 3493
+        "stars": 3505
       },
       "source": "github-search",
       "publishedAt": "2026-07-24T14:14:07Z",
       "updatedAt": "2026-11-13T07:00:29Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-10-21T22:03:13.438Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Flexible, embeddable task board supporting Codex and DeepSeek Harness integrations.",
       "summaryKo": "Codex 및 DeepSeek Harness 통합을 지원하는 유연하고 내장 가능한 작업 보드입니다.",
@@ -8070,32 +8123,6 @@
       "summaryKo": "Claude Code 기반의 로컬 AI 구직 지원 프레임워크로 이력서 작성 및 면접 준비를 돕습니다.",
       "reasonEn": "1.3K stars surge today",
       "reasonKo": "오늘 스타 1,300개 이상 급증"
-    },
-    {
-      "id": "gh:HKUDS/CLI-Anything",
-      "type": "repo",
-      "categories": [
-        "ai-agents",
-        "devtools"
-      ],
-      "title": "HKUDS/CLI-Anything",
-      "summaryOriginal": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "lang": "Python",
-      "tags": [],
-      "metrics": {
-        "stars": 58843
-      },
-      "source": "github-trending",
-      "updatedAt": "2026-09-22T02:01:29Z",
-      "firstSeenAt": "2026-09-23T21:56:52.747Z",
-      "lastSeenAt": "2026-10-19T22:44:18.534Z",
-      "metricsRefreshedAt": "2026-11-17T02:14:34.388Z",
-      "admitReason": "trending",
-      "summaryEn": "Toolkit aiming to make any software agent-native via a CLI-first hub.",
-      "summaryKo": "모든 소프트웨어를 에이전트 친화적으로 만드는 CLI 허브",
-      "reasonEn": "Gained 41 stars today",
-      "reasonKo": "오늘 41개의 스타 획득"
     },
     {
       "id": "gh:anthropics/claude-code",
@@ -8151,14 +8178,14 @@
         "llm"
       ],
       "metrics": {
-        "stars": 2544
+        "stars": 2554
       },
       "source": "github-search",
       "publishedAt": "2026-07-29T15:58:33Z",
-      "updatedAt": "2026-11-15T23:01:00Z",
+      "updatedAt": "2026-11-19T00:22:07Z",
       "firstSeenAt": "2026-09-07T21:51:32.810Z",
       "lastSeenAt": "2026-10-19T22:44:18.534Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "A C++23 CLI and MCP server giving AI coding agents a ranked, deterministic code map to reduce token usage during navigation.",
       "summaryKo": "AI 코딩 에이전트에 순위가 지정된 코드 맵을 제공하는 C++23 CLI 및 MCP 서버.",
@@ -8219,13 +8246,13 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 47392
+        "stars": 47665
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-14T07:27:28Z",
+      "updatedAt": "2026-11-18T23:34:06Z",
       "firstSeenAt": "2026-08-26T12:55:17.882Z",
       "lastSeenAt": "2026-10-18T21:12:06.384Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "Official directory of high-quality Claude Code plugins managed by Anthropic.",
       "summaryKo": "앤스로픽이 관리하는 고품질 클로드 코드 플러그인 공식 디렉토리."
@@ -8294,14 +8321,14 @@
         "macos"
       ],
       "metrics": {
-        "stars": 834
+        "stars": 849
       },
       "source": "github-search",
       "publishedAt": "2026-10-02T18:35:24Z",
       "updatedAt": "2026-11-13T20:15:32Z",
       "firstSeenAt": "2026-10-13T23:10:18.192Z",
       "lastSeenAt": "2026-10-15T21:53:40.774Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "new",
       "summaryEn": "AOT-compiled native version of the Pi coding agent that starts 3x faster and uses less CPU than Bun.",
       "summaryKo": "Bun 버전보다 3배 빠르게 실행되는 네이티브 코딩 에이전트.",
@@ -8335,14 +8362,14 @@
         "drawio"
       ],
       "metrics": {
-        "stars": 957
+        "stars": 982
       },
       "source": "github-search",
       "publishedAt": "2026-10-02T18:41:07Z",
       "updatedAt": "2026-11-02T16:22:29Z",
       "firstSeenAt": "2026-10-13T01:04:05.704Z",
       "lastSeenAt": "2026-10-15T21:53:40.774Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "new",
       "summaryEn": "Generates animated, explorable architecture diagrams for Claude and other coding agents from simple JSON specs.",
       "summaryKo": "간단한 JSON 사양으로 Claude 및 코딩 에이전트를 위한 애니메이션 아키텍처 다이어그램을 생성합니다.",
@@ -8506,13 +8533,13 @@
       "lang": "C++",
       "tags": [],
       "metrics": {
-        "stars": 54191
+        "stars": 56027
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-15T23:19:59Z",
+      "updatedAt": "2026-11-19T00:51:46Z",
       "firstSeenAt": "2026-10-06T00:31:42.162Z",
       "lastSeenAt": "2026-10-11T22:38:04.361Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "Tool for automatically porting PlayStation 5 executables to Linux and Windows.",
       "summaryKo": "플레이스테이션 5 실행 파일을 리눅스와 윈도우로 자동 포팅하는 도구입니다.",
@@ -8544,14 +8571,14 @@
         "secrets"
       ],
       "metrics": {
-        "stars": 8087
+        "stars": 8446
       },
       "source": "github-search",
       "publishedAt": "2026-07-15T13:38:07Z",
-      "updatedAt": "2026-11-15T23:19:36Z",
+      "updatedAt": "2026-11-19T00:36:01Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-10-11T22:38:04.361Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Proxy tool functioning as an OpenRouter for managing agent tools and credentials.",
       "summaryKo": "에이전트 도구와 자격 증명을 관리하기 위한 OpenRouter 역할의 프록시 도구입니다.",
@@ -8584,14 +8611,14 @@
         "native-app"
       ],
       "metrics": {
-        "stars": 436
+        "stars": 440
       },
       "source": "github-search",
       "publishedAt": "2026-09-28T18:47:06Z",
-      "updatedAt": "2026-11-09T00:30:59Z",
+      "updatedAt": "2026-11-16T00:31:02Z",
       "firstSeenAt": "2026-10-02T22:44:36.772Z",
       "lastSeenAt": "2026-10-11T22:38:04.361Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "new",
       "summaryEn": "A fast, native, keyboard-driven database client for macOS supporting 20 databases with an integrated AI assistant.",
       "summaryKo": "20개의 데이터베이스와 통합 AI 어시스턴트를 지원하는 빠르고 네이티브한 macOS용 데이터베이스 클라이언트입니다.",
@@ -8620,14 +8647,14 @@
         "token-optimization"
       ],
       "metrics": {
-        "stars": 1446
+        "stars": 1447
       },
       "source": "github-search",
       "publishedAt": "2026-07-15T10:23:15Z",
-      "updatedAt": "2026-11-06T23:15:20Z",
+      "updatedAt": "2026-11-17T21:08:11Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-10-11T22:38:04.361Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "First open-source compression model built specifically for coding agents, 4B parameters, Apache 2.0.",
       "summaryKo": "코딩 에이전트 전용으로 훈련된 최초의 오픈소스 압축 모델, 4B, Apache 2.0",
@@ -8672,13 +8699,13 @@
       "lang": "C",
       "tags": [],
       "metrics": {
-        "stars": 8844
+        "stars": 8857
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-10T23:22:57Z",
+      "updatedAt": "2026-11-17T22:13:38Z",
       "firstSeenAt": "2026-10-07T23:25:18.180Z",
       "lastSeenAt": "2026-10-08T23:36:44.943Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "Raddebugger is a native, user-mode, multi-process graphical debugger built by Epic Games.",
       "summaryKo": "에픽게임즈가 개발한 네이티브 사용자 모드의 멀티 프로세스 그래픽 디버거입니다.",
@@ -8839,14 +8866,14 @@
         "openai-compatible"
       ],
       "metrics": {
-        "stars": 75733
+        "stars": 79805
       },
       "source": "github-search",
       "publishedAt": "2026-09-24T16:17:19Z",
-      "updatedAt": "2026-11-15T03:42:29Z",
+      "updatedAt": "2026-11-18T02:24:22Z",
       "firstSeenAt": "2026-09-28T23:36:47.600Z",
       "lastSeenAt": "2026-10-04T22:09:02.469Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "A dsh plugin that provides free and unlimited access to frontier models like Muse Spark 1.3 and MiMo V2.6 without requiring any login or API key.",
       "summaryKo": "로그인이나 API 키 없이 프론티어 모델을 무료로 사용할 수 있는 dsh 플러그인입니다.",
@@ -8878,14 +8905,14 @@
         "openguass"
       ],
       "metrics": {
-        "stars": 2170
+        "stars": 2192
       },
       "source": "github-search",
       "publishedAt": "2026-07-10T06:01:54Z",
-      "updatedAt": "2026-11-15T14:10:28Z",
+      "updatedAt": "2026-11-18T14:49:11Z",
       "firstSeenAt": "2026-09-08T21:31:48.079Z",
       "lastSeenAt": "2026-10-04T22:09:02.469Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "An all-in-one developer workspace combining database management, SSH clients, terminals, remote desktop, and monitoring tools.",
       "summaryKo": "데이터베이스, SSH, 터미널, 모니터링을 통합 제공하는 개발자 워크스페이스입니다.",
@@ -9267,14 +9294,14 @@
         "typesafe-ai"
       ],
       "metrics": {
-        "stars": 731
+        "stars": 736
       },
       "source": "github-search",
       "publishedAt": "2026-09-18T06:41:50Z",
-      "updatedAt": "2026-11-15T23:06:54Z",
+      "updatedAt": "2026-11-19T00:32:35Z",
       "firstSeenAt": "2026-09-21T22:23:23.865Z",
       "lastSeenAt": "2026-10-01T22:57:43.726Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "new",
       "summaryEn": "Ecosystem radar and curated list for open-source projects built on the Jev decision model.",
       "summaryKo": "Jev 결정 모델 기반의 오픈소스 프로젝트를 모은 생태계 레이더 및 목록입니다.",
@@ -9714,13 +9741,13 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 3580
+        "stars": 3622
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-14T03:36:39Z",
+      "updatedAt": "2026-11-18T22:22:15Z",
       "firstSeenAt": "2026-09-25T21:55:53.679Z",
       "lastSeenAt": "2026-09-25T21:55:53.679Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "Cross-platform and USB-only version of Wifite, a wireless auditing tool.",
       "summaryKo": "무선 감사 도구인 Wifite의 USB 전용 크로스플랫폼 버전.",
@@ -9749,14 +9776,14 @@
         "software-architecture"
       ],
       "metrics": {
-        "stars": 689
+        "stars": 700
       },
       "source": "github-search",
       "publishedAt": "2026-09-12T06:59:27Z",
       "updatedAt": "2026-11-14T14:01:30Z",
       "firstSeenAt": "2026-09-16T21:50:05.780Z",
       "lastSeenAt": "2026-09-25T21:55:53.679Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "new",
       "summaryEn": "Maps software architecture before making code changes to help AI coding agents understand context better.",
       "summaryKo": "코드 변경 전 아키텍처를 시각화하여 AI 에이전트의 이해를 돕습니다.",
@@ -9784,14 +9811,14 @@
         "python"
       ],
       "metrics": {
-        "stars": 4811
+        "stars": 4816
       },
       "source": "github-search",
       "publishedAt": "2026-06-28T04:38:07Z",
       "updatedAt": "2026-09-27T15:12:31Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-09-25T21:55:53.679Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Versioned Codex instruction deployment tool with previews, ownership manifests, and recovery features.",
       "summaryKo": "미리보기, 소유권 매니페스트, 복구 기능을 갖춘 버전 관리형 Codex 명령어 배포 도구입니다.",
@@ -9950,14 +9977,14 @@
         "disk-space"
       ],
       "metrics": {
-        "stars": 1057
+        "stars": 1060
       },
       "source": "github-search",
       "publishedAt": "2026-06-25T08:09:33Z",
       "updatedAt": "2026-08-26T12:21:54Z",
       "firstSeenAt": "2026-09-20T21:07:54.921Z",
       "lastSeenAt": "2026-09-22T21:44:36.199Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "A CLI tool to clean Xcode, Docker, Homebrew, and developer caches to free disk space.",
       "summaryKo": "Xcode, Docker, 홈브루 캐시를 정리하여 디스크를 확보하는 CLI 도구.",
@@ -10005,13 +10032,13 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 10424
+        "stars": 10562
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-15T11:04:10Z",
+      "updatedAt": "2026-11-18T13:20:28Z",
       "firstSeenAt": "2026-09-17T21:51:41.893Z",
       "lastSeenAt": "2026-09-18T21:22:45.528Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "Tencent/BrowserSkill provides a CLI and extension that lets AI agents interact with your logged-in browser without interrupting you.",
       "summaryKo": "AI 에이전트가 로그인된 브라우저를 방해 없이 활용할 수 있게 합니다.",
@@ -10128,13 +10155,13 @@
       "lang": "Swift",
       "tags": [],
       "metrics": {
-        "stars": 9470
+        "stars": 9543
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-15T13:05:55Z",
+      "updatedAt": "2026-11-18T21:36:14Z",
       "firstSeenAt": "2026-09-16T21:50:05.780Z",
       "lastSeenAt": "2026-09-17T21:51:41.893Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "Tinycast is a tiny, fully native macOS launcher, hotkeys, and clipboard history tool.",
       "summaryKo": "macOS용 경량 네이티브 런처, 단축키 및 클립보드 기록 도구입니다.",
@@ -10293,13 +10320,13 @@
       "lang": "QML",
       "tags": [],
       "metrics": {
-        "stars": 26572
+        "stars": 26577
       },
       "source": "github-trending",
       "updatedAt": "2026-05-31T10:12:54Z",
       "firstSeenAt": "2026-09-13T21:13:30.222Z",
       "lastSeenAt": "2026-09-13T21:13:30.222Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "A customizable terminal emulator designed to mimic the appearance of old cathode ray tube displays.",
       "summaryKo": "구형 브라운관 디스플레이의 외형을 모방하는 터미널 에뮬레이터입니다.",
@@ -10318,13 +10345,13 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 4981
+        "stars": 5097
       },
       "source": "github-trending",
       "updatedAt": "2026-11-01T00:12:00Z",
       "firstSeenAt": "2026-09-11T21:29:44.686Z",
       "lastSeenAt": "2026-09-12T21:08:18.614Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "A user-friendly sideloading tool for applications.",
       "summaryKo": "사용자 친화적인 앱 사이드로드 도구입니다.",
@@ -10344,13 +10371,13 @@
       "lang": "Batchfile",
       "tags": [],
       "metrics": {
-        "stars": 36227
+        "stars": 36396
       },
       "source": "github-trending",
       "updatedAt": "2026-11-04T08:56:59Z",
       "firstSeenAt": "2026-09-12T21:08:18.614Z",
       "lastSeenAt": "2026-09-12T21:08:18.614Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "A tool to bypass DPI and restrictions for Discord and YouTube on various networks.",
       "summaryKo": "디스코드와 유튜브 등의 차단 및 DPI를 우회하기 위한 도구입니다.",
@@ -10384,14 +10411,14 @@
         "dsh-plugin"
       ],
       "metrics": {
-        "stars": 2957
+        "stars": 2953
       },
       "source": "github-search",
       "publishedAt": "2026-07-22T00:34:24Z",
       "updatedAt": "2026-09-14T03:26:53Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-09-12T21:08:18.614Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Provides AI cognitive-enhancement skills for coding workflows based on Anthropic's J-space global workspace research.",
       "summaryKo": "Anthropic 연구 기반의 AI 인지 강화 코딩 스킬을 제공합니다.",
@@ -10424,14 +10451,14 @@
         "macos"
       ],
       "metrics": {
-        "stars": 2540
+        "stars": 2557
       },
       "source": "github-search",
       "publishedAt": "2026-06-15T21:25:13Z",
-      "updatedAt": "2026-11-15T19:02:40Z",
+      "updatedAt": "2026-11-18T20:45:06Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-09-12T21:08:18.614Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Node-based terminal manager for AI coding agents, organizing tmux-backed sessions on an infinite canvas.",
       "summaryKo": "무한 캔버스에서 tmux 기반 세션을 구성하는 AI 코딩 에이전트용 노드 기반 터미널 관리자입니다.",
@@ -10547,45 +10574,6 @@
       "summaryKo": "팀 워크플로우와 개발 프로세스에 AI 기능을 네이티브로 통합하는 텐센트의 CLI 도구입니다.",
       "reasonEn": "2.9K stars with 563 new stars today",
       "reasonKo": "2.9K 스타 및 오늘 563개 신규 스타 증가"
-    },
-    {
-      "id": "gh:DietrichGebert/ponytail",
-      "type": "repo",
-      "categories": [
-        "ai-models",
-        "ai-agents",
-        "devtools"
-      ],
-      "title": "DietrichGebert/ponytail",
-      "summaryOriginal": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "lang": "JavaScript",
-      "tags": [
-        "agent-skills",
-        "ai-agents",
-        "claude",
-        "claude-code",
-        "claude-code-plugin",
-        "cursor-rules",
-        "developer-tools",
-        "llm",
-        "prompt-engineering",
-        "yagni"
-      ],
-      "metrics": {
-        "stars": 193083
-      },
-      "source": "github-search",
-      "publishedAt": "2026-06-12T00:52:37Z",
-      "updatedAt": "2026-10-29T11:59:31Z",
-      "firstSeenAt": "2026-09-04T21:10:24.767Z",
-      "lastSeenAt": "2026-09-09T21:27:06.431Z",
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "admitReason": "notable",
-      "summaryEn": "An AI agent utility designed to encourage minimalist, lazy senior developer coding habits.",
-      "summaryKo": "미니멀하고 효율적인 시니어 개발자 방식을 지향하는 AI 에이전트 도구입니다.",
-      "reasonEn": "Rapid popularity gain among developers",
-      "reasonKo": "개발자들 사이에서 빠르게 인기 상승"
     }
   ]
 }

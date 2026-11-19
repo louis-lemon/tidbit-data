@@ -1,35 +1,9 @@
 {
   "version": 1,
   "category": "infra",
-  "generatedAt": "2026-11-18T01:27:49.193Z",
+  "generatedAt": "2026-11-19T00:54:08.201Z",
   "ttlSeconds": 10800,
   "cards": [
-    {
-      "id": "gh:Tencent/LoopForge",
-      "type": "repo",
-      "title": "Tencent/LoopForge",
-      "summaryOriginal": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
-      "url": "https://github.com/Tencent/LoopForge",
-      "lang": "Go",
-      "tags": [],
-      "metrics": {
-        "stars": 3176,
-        "starsDelta": 591
-      },
-      "source": "github-trending",
-      "admitReason": "trending",
-      "summaryEn": "Self-hosted workflow tool that chains coding agents (CodeBuddy, Codex, Claude Code) with scripts and human approval gates.",
-      "summaryKo": "CodeBuddy, Codex, Claude Code 같은 코딩 에이전트를 스크립트와 사람 승인 단계로 묶어 실행하는 자체 호스팅 워크플로 도구.",
-      "reasonEn": "867 stars, up 101 today",
-      "reasonKo": "오늘 스타 101개 증가, 총 867개",
-      "categories": [
-        "ai-agents",
-        "infra"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-14T22:49:56.471Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
     {
       "id": "gh:getarcaneapp/arcane",
       "type": "repo",
@@ -39,8 +13,8 @@
       "lang": "Go",
       "tags": [],
       "metrics": {
-        "stars": 9344,
-        "starsDelta": 618
+        "stars": 9802,
+        "starsDelta": 547
       },
       "source": "github-trending",
       "admitReason": "trending",
@@ -51,9 +25,112 @@
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-11-17T02:14:34.388Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "gh:nvm-sh/nvm",
+      "type": "repo",
+      "title": "nvm-sh/nvm",
+      "summaryOriginal": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "url": "https://github.com/nvm-sh/nvm",
+      "lang": "Shell",
+      "tags": [],
+      "metrics": {
+        "stars": 96145,
+        "starsDelta": 237
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "Node Version Manager (nvm) is a POSIX-compliant bash script to manage multiple active Node.js versions on a single machine.",
+      "summaryKo": "단일 머신에서 여러 Node.js 버전을 관리하는 POSIX 호환 배시 스크립트입니다.",
+      "reasonEn": "Trending with 70 stars today (95.4K total stars)",
+      "reasonKo": "오늘 70개의 스타를 얻으며 트렌딩 중 (총 9.54만 개)",
+      "categories": [
+        "infra",
+        "devtools"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-10-14T21:59:54.837Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "gh:appwrite/appwrite",
+      "type": "repo",
+      "title": "appwrite/appwrite",
+      "summaryOriginal": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
+      "url": "https://github.com/appwrite/appwrite",
+      "lang": "TypeScript",
+      "tags": [],
+      "metrics": {
+        "stars": 58226,
+        "starsDelta": 232
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "Complete backend-as-a-service platform: auth, databases, storage, functions, and messaging for web, mobile, and AI apps.",
+      "summaryKo": "인증·DB·스토리지·함수·메시징을 아우르는 웹·모바일·AI용 완전한 백엔드 플랫폼.",
+      "categories": [
+        "ai-agents",
+        "backend",
+        "infra",
+        "data"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-08-18T12:50:05.916Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "gh:openvinotoolkit/openvino",
+      "type": "repo",
+      "title": "openvinotoolkit/openvino",
+      "summaryOriginal": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+      "url": "https://github.com/openvinotoolkit/openvino",
+      "lang": "C++",
+      "tags": [],
+      "metrics": {
+        "stars": 11324,
+        "starsDelta": 24
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "Open-source toolkit for optimizing and deploying AI inference across hardware, useful for shipping faster models in production.",
+      "summaryKo": "여러 하드웨어에서 AI 추론을 최적화하고 배포하는 오픈소스 툴킷입니다. 모델을 운영 환경에서 더 빠르게 돌릴 수 있습니다.",
+      "reasonEn": "Trending: 11.3K stars, 24 new stars today",
+      "reasonKo": "스타 11.3K, 오늘 +24 급상승",
+      "categories": [
+        "ai-models",
+        "infra"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-19T00:54:08.201Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "gh:n8n-io/n8n",
+      "type": "repo",
+      "title": "n8n-io/n8n",
+      "summaryOriginal": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "url": "https://github.com/n8n-io/n8n",
+      "lang": "TypeScript",
+      "tags": [],
+      "metrics": {
+        "stars": 211071,
+        "starsDelta": 325
+      },
+      "source": "github-trending",
+      "admitReason": "trending",
+      "summaryEn": "Fair-code workflow automation platform with visual building, custom code, self-hosting, and 400+ integrations plus native AI.",
+      "summaryKo": "시각적 구성, 커스텀 코드, 셀프호스팅을 지원하는 워크플로 자동화 플랫폼으로 400개 이상의 연동을 제공합니다.",
+      "reasonEn": "Trending: 211K stars, 325 new stars today",
+      "reasonKo": "스타 21.1만, 오늘 +325 급상승",
+      "categories": [
+        "infra"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-08-22T15:22:55.161Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:AienTech/dossier",
@@ -77,12 +154,12 @@
         "self-hosted"
       ],
       "metrics": {
-        "stars": 5262
+        "stars": 5297
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-10-03T21:26:15Z",
-      "updatedAt": "2026-11-13T11:30:34Z",
+      "updatedAt": "2026-11-18T13:41:21Z",
       "summaryEn": "Dossier is a self-hosted job search app that uses local LLMs to generate tailored resumes and cover letters from your profile.",
       "summaryKo": "로컬 LLM을 사용해 맞춤형 이력서와 자기소개서를 작성하는 자바주최 구직 앱입니다.",
       "reasonEn": "1.4K stars within 24 days",
@@ -92,9 +169,9 @@
         "web",
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-10-27T22:47:56.693Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:libracoder/kiri",
@@ -113,12 +190,12 @@
         "windows"
       ],
       "metrics": {
-        "stars": 10134
+        "stars": 10792
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-11-02T16:11:30Z",
-      "updatedAt": "2026-11-18T00:50:57Z",
+      "updatedAt": "2026-11-18T20:20:50Z",
       "summaryEn": "Small, fast container runtime that runs on macOS, Windows, and Linux, compatible with OCI images. An alternative to heavier container tooling.",
       "summaryKo": "macOS, Windows, Linux에서 동작하는 작고 빠른 컨테이너 런타임입니다. OCI 이미지를 지원합니다.",
       "reasonEn": "1.5K stars within 8 days of becoming established",
@@ -126,9 +203,9 @@
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-11-10T23:50:53.165Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:serveroshq/panel",
@@ -149,12 +226,12 @@
         "vps"
       ],
       "metrics": {
-        "stars": 1144
+        "stars": 1163
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-11-09T00:47:33Z",
-      "updatedAt": "2026-11-17T21:55:46Z",
+      "updatedAt": "2026-11-19T00:14:45Z",
       "summaryEn": "Open-source control panel to run and manage Linux servers you own from one place. Self-hosted, AGPL licensed.",
       "summaryKo": "직접 소유한 리눅스 서버를 한곳에서 관리하는 AGPL 오픈소스 제어판이다.",
       "reasonEn": "483 stars within 3 days of creation",
@@ -162,9 +239,9 @@
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-11-12T23:56:23.711Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:mikehasa/golive-skill",
@@ -188,7 +265,7 @@
         "godaddy"
       ],
       "metrics": {
-        "stars": 1606
+        "stars": 1626
       },
       "source": "github-search",
       "admitReason": "notable",
@@ -203,9 +280,9 @@
         "data",
         "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-09-24T21:54:59.755Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:HolyArrs/HolyArrs",
@@ -223,12 +300,12 @@
         "self-hosted"
       ],
       "metrics": {
-        "stars": 1429
+        "stars": 1976
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-11-09T23:53:25Z",
-      "updatedAt": "2026-11-18T00:16:43Z",
+      "updatedAt": "2026-11-18T22:55:53Z",
       "summaryEn": "Self-hosted Docker app that manages shows, movies, and music in one place, similar in purpose to Plex or Jellyfin.",
       "summaryKo": "TV 프로그램, 영화, 음악을 한곳에서 관리하는 셀프호스팅 Docker 앱으로, Plex나 Jellyfin과 비슷한 용도입니다.",
       "reasonEn": "568 stars within 1 day of creation",
@@ -236,9 +313,9 @@
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-11-10T23:50:53.165Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:aimod-cc/Agent2API",
@@ -259,12 +336,12 @@
         "trae"
       ],
       "metrics": {
-        "stars": 2466
+        "stars": 2510
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-09-11T07:42:14Z",
-      "updatedAt": "2026-11-09T17:20:11Z",
+      "updatedAt": "2026-11-19T00:34:58Z",
       "summaryEn": "Local OpenAI-compatible gateway that reuses desktop client login states to expose model quotas.",
       "summaryKo": "데스크톱 클라이언트 로그인 상태를 재사용하는 로컬 OpenAI 호환 API 게이트웨이입니다.",
       "reasonEn": "1.1K stars within 35 days",
@@ -272,9 +349,9 @@
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-10-16T21:51:53.281Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "gh:ChiefGyk3D/Clouds-Against-Humanity",
@@ -298,12 +375,12 @@
         "spacelift"
       ],
       "metrics": {
-        "stars": 1269
+        "stars": 1296
       },
       "source": "github-search",
       "admitReason": "notable",
       "publishedAt": "2026-10-10T17:50:27Z",
-      "updatedAt": "2026-11-18T00:44:29Z",
+      "updatedAt": "2026-11-19T00:44:15Z",
       "summaryEn": "Open-source homelab for learning cloud security, Zero Trust, DevSecOps, and IaC from scratch.",
       "summaryKo": "클라우드 보안과 제로 트러스트를 배우기 위한 오픈소스 홈랩.",
       "reasonEn": "499 stars within 13 days of launch",
@@ -311,9 +388,85 @@
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-10-23T21:47:37.203Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "hn:50198675",
+      "type": "article",
+      "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "summaryOriginal": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "tags": [],
+      "metrics": {
+        "upvotes": 508,
+        "comments": 217
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-22T17:44:06Z",
+      "admitReason": "notable",
+      "summaryEn": "OpenShell is a runtime for running fleets of autonomous AI agents with a focus on safety and privacy, relevant to agent infrastructure.",
+      "summaryKo": "자율 AI 에이전트 여러 개를 안전하고 비공개로 실행하는 런타임 OpenShell. 에이전트 인프라 도구.",
+      "reasonEn": "508 upvotes and 217 comments in 27 days",
+      "reasonKo": "27일간 추천 508, 댓글 217개",
+      "categories": [
+        "ai-agents",
+        "infra"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-19T00:54:08.201Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "hn:50319143",
+      "type": "article",
+      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "summaryOriginal": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+      "tags": [],
+      "metrics": {
+        "upvotes": 751,
+        "comments": 334
+      },
+      "source": "hn",
+      "publishedAt": "2026-10-31T19:16:30Z",
+      "admitReason": "notable",
+      "summaryEn": "Write-up of a use-after-free bug in the TCP stack, rated CVSS 9.8 (critical). Relevant to anyone running networked systems and planning patches.",
+      "summaryKo": "TCP 스택의 use-after-free 취약점을 다룬 글이며 CVSS 9.8(치명적)로 평가되었습니다. 네트워크 시스템 패치 계획에 중요합니다.",
+      "reasonEn": "CVSS 9.8 critical flaw; 751 upvotes, 334 comments in 18 days",
+      "reasonKo": "CVSS 9.8 치명적 취약점, 18일간 추천 751",
+      "categories": [
+        "infra"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-19T00:54:08.201Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "hn:50471731",
+      "type": "article",
+      "title": "Service degradation on Microsoft 365",
+      "summaryOriginal": "Service degradation on Microsoft 365",
+      "url": "https://status.cloud.microsoft/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 1176,
+        "comments": 996
+      },
+      "source": "hn",
+      "publishedAt": "2026-11-12T18:20:48Z",
+      "admitReason": "notable",
+      "summaryEn": "Microsoft reports a degradation affecting Microsoft 365 services; widely discussed as a broad outage affecting many users and admins.",
+      "summaryKo": "Microsoft 365 서비스 장애 및 성능 저하가 보고되어 많은 사용자와 관리자가 논의 중입니다.",
+      "reasonEn": "1.2K upvotes and 996 comments within 6 days of posting",
+      "reasonKo": "게시 후 6일 만에 추천 1,176건, 댓글 996개",
+      "categories": [
+        "infra"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-19T00:54:08.201Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "hn:50202681",
@@ -329,42 +482,17 @@
       "source": "hn",
       "publishedAt": "2026-10-22T23:45:56Z",
       "admitReason": "notable",
-      "summaryEn": "A developer's critique of Docker's confusing behaviors and design choices, sparking a long discussion about container tooling pitfalls.",
-      "summaryKo": "Docker의 혼란스러운 동작과 설계 선택을 비판한 글로, 컨테이너 도구의 함정에 대한 긴 토론을 불러왔습니다.",
-      "reasonEn": "887 upvotes and 370 comments within 26 days of posting",
-      "reasonKo": "게시 26일 만에 추천 887, 댓글 370",
+      "summaryEn": "A discussion post arguing Docker's behavior and design feel unintuitive, with practical points on container tooling quirks developers run into.",
+      "summaryKo": "Docker의 동작과 설계가 직관적이지 않다는 점을 다루며, 개발자가 겪는 컨테이너 도구의 특이점을 논합니다.",
+      "reasonEn": "887 upvotes and 370 comments within 27 days",
+      "reasonKo": "게시 27일 만에 추천 887건, 댓글 370개",
       "categories": [
-        "devtools",
-        "infra"
+        "infra",
+        "devtools"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-11-10T01:50:05.048Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
-    },
-    {
-      "id": "hn:50149392",
-      "type": "article",
-      "title": "Linux 7.3",
-      "summaryOriginal": "Linux 7.3",
-      "url": "https://lwn.net/Articles/1101143/",
-      "tags": [],
-      "metrics": {
-        "upvotes": 636,
-        "comments": 301
-      },
-      "source": "hn",
-      "publishedAt": "2026-10-19T07:23:57Z",
-      "admitReason": "notable",
-      "summaryEn": "Release announcement for Linux 7.3 kernel, covering new features, driver updates, and changes that affect system builders and operators.",
-      "summaryKo": "Linux 7.3 커널 출시 소식으로, 새 기능과 드라이버 업데이트, 시스템 운영에 영향을 주는 변경점을 담습니다.",
-      "reasonEn": "636 upvotes and 301 comments within 29 days of release",
-      "reasonKo": "출시 29일 만에 추천 636, 댓글 301",
-      "categories": [
-        "infra"
-      ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "firstSeenAt": "2026-11-08T22:37:27.812Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "hn:50341462",
@@ -375,21 +503,21 @@
       "tags": [],
       "metrics": {
         "upvotes": 629,
-        "comments": 222
+        "comments": 223
       },
       "source": "hn",
       "publishedAt": "2026-11-02T18:39:38Z",
       "admitReason": "notable",
-      "summaryEn": "Criticism that Ubuntu has not shipped a fix for a Linux zero-day remote code execution bug nearly three weeks after disclosure.",
-      "summaryKo": "공개 후 거의 3주가 지나도록 Ubuntu가 Linux 제로데이 원격 코드 실행 취약점 패치를 내놓지 않았다는 지적입니다.",
-      "reasonEn": "629 upvotes and 222 comments; unpatched 0day RCE for ~3 weeks",
-      "reasonKo": "추천 629, 댓글 222; 약 3주간 미패치 RCE 제로데이",
+      "summaryEn": "Ubuntu has not yet shipped a fix for a Linux kernel remote code execution zero-day, nearly three weeks after disclosure; relevant for anyone patching servers.",
+      "summaryKo": "Ubuntu가 리눅스 원격 코드 실행 제로데이에 대한 패치를 거의 3주째 배포하지 않아 서버 관리자에게 중요합니다.",
+      "reasonEn": "629 upvotes and 223 comments; unpatched for about 3 weeks",
+      "reasonKo": "추천 629건, 댓글 223개; 약 3주간 미패치",
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-11-03T10:58:48.324Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
     },
     {
       "id": "hn:50379704",
@@ -399,22 +527,141 @@
       "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
       "tags": [],
       "metrics": {
-        "upvotes": 627,
+        "upvotes": 628,
         "comments": 2
       },
       "source": "hn",
       "publishedAt": "2026-11-05T14:44:20Z",
       "admitReason": "notable",
-      "summaryEn": "Alpine Linux advisory for a password authentication bypass in the OpenSSH server package, which operators should patch promptly.",
-      "summaryKo": "Alpine Linux의 OpenSSH 서버 비밀번호 인증 우회 취약점 보안 권고로, 운영자는 신속한 패치가 필요합니다.",
-      "reasonEn": "627 upvotes; auth bypass advisory notable within 12 days",
-      "reasonKo": "추천 627; 12일 내 인증 우회 보안 권고",
+      "summaryEn": "Alpine Linux advisory for an OpenSSH-server flaw that allows password authentication bypass; patch affected servers promptly.",
+      "summaryKo": "Alpine Linux 보안 권고로, OpenSSH 서버의 비밀번호 인증 우회 취약점입니다. 영향받는 서버는 즉시 패치하세요.",
+      "reasonEn": "628 upvotes on a 13-day-old security advisory",
+      "reasonKo": "게시 13일 된 보안 권고, 추천 628건",
       "categories": [
         "infra"
       ],
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "firstSeenAt": "2026-11-05T23:55:17.241Z",
-      "lastSeenAt": "2026-11-18T01:27:49.193Z"
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "hn:50362905",
+      "type": "article",
+      "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+      "summaryOriginal": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+      "tags": [],
+      "metrics": {
+        "upvotes": 617,
+        "comments": 293
+      },
+      "source": "hn",
+      "publishedAt": "2026-11-04T08:46:29Z",
+      "admitReason": "notable",
+      "summaryEn": "Report that Nvidia RTX Spark encrypted firmware cuts inference speed to about 35% on Linux, affecting local AI workloads.",
+      "summaryKo": "Nvidia RTX Spark의 암호화 펌웨어가 리눅스에서 추론 속도를 약 35%로 떨어뜨린다는 보고입니다. 로컬 AI 작업에 영향을 줍니다.",
+      "reasonEn": "617 upvotes and 293 comments within 14 days",
+      "reasonKo": "게시 14일 만에 추천 617건, 댓글 293개",
+      "categories": [
+        "ai-models",
+        "infra"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-19T00:54:08.201Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "hn:50442736",
+      "type": "article",
+      "title": ".name Grandfathered",
+      "summaryOriginal": ".name Grandfathered",
+      "url": "https://neil.fraser.name/news/2026/11/10/",
+      "tags": [],
+      "metrics": {
+        "upvotes": 937,
+        "comments": 212
+      },
+      "source": "hn",
+      "publishedAt": "2026-11-10T16:37:44Z",
+      "admitReason": "notable",
+      "summaryEn": "Covers the .name top-level domain being grandfathered, meaning its legacy registration rules are kept rather than updated. Relevant to domain and DNS policy watchers.",
+      "summaryKo": "레거시 등록 규칙을 유지하는 .name 최상위 도메인 관련 내용. 도메인과 DNS 정책을 추적하는 개발자에게 관련이 있음.",
+      "reasonEn": "Notable: 937 upvotes and 212 comments within 8 days of posting",
+      "reasonKo": "게시 8일 만에 추천 937, 댓글 212",
+      "categories": [
+        "infra"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-19T00:54:08.201Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "geeknews:37438",
+      "type": "article",
+      "title": "nginx2root - nginx 원격 코드 실행 취약점 5개와 Linux 커널 권한 상승 취약점",
+      "summaryOriginal": "Xint가 서로 다른 설정에 영향을 주는 nginx 비인증 원격 코드 실행 취약점 5개와 별도의 Linux SCTP 취약점을 발견함. nginx 취약점은 각각 독립적으로 워커 권한의 명령 실행으로 이어짐가장 광범위한 CVE-2026-123007은 HTTP/2가 활성화된 미패치 서버에 영향을 주며, nginx 1.9.5부터 1.31.8까지 취약 코드가 포함됨nginx 취약점을 SCTP 커널 취약점과 연결해 호스트 root 권한을 확보하고 Docker 컨테이너 탈출에도 성공함. SCTP 접근 가능 여부는 커널, 모듈, 컨테이너 제한에 따라 달라짐수정 릴리스 1.31.9가 공개되면 업데이…",
+      "url": "https://news.hada.io/topic?id=37438",
+      "tags": [],
+      "source": "geeknews",
+      "publishedAt": "2026-11-19T09:08:42+09:00",
+      "admitReason": "notable",
+      "summaryEn": "Xint found five unauthenticated nginx RCE bugs and a Linux SCTP kernel flaw, chained to gain host root and escape Docker. Fixed in nginx 1.31.9.",
+      "summaryKo": "Xint가 nginx 인증 없는 RCE 취약점 5개와 Linux SCTP 커널 취약점을 연계해 호스트 root와 Docker 탈출에 성공했습니다. 1.31.9에서 수정됩니다.",
+      "reasonEn": "Notable: rapidly drew attention on the day of publication",
+      "reasonKo": "발표 당일 빠르게 주목받은 보안 이슈",
+      "categories": [
+        "infra"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-19T00:54:08.201Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "geeknews:37435",
+      "type": "article",
+      "title": "KVM: x86: INIT 에뮬레이션 시 MMU 컨텍스트를 무조건 초기화하도록 수정(CVE-2026-99312)",
+      "summaryOriginal": "Linux 커널의 KVM에서 INIT 에뮬레이션 시 MMU 컨텍스트가 오래된 상태로 남는 취약점을 수정함L2가 CR0.PG=0으로 실행 중일 때 INIT가 발생하면 L1이 오래된 MMU 컨텍스트로 실행될 수 있어, 페이징이 이미 비활성화된 경우에도 MMU를 초기화하도록 변경함이 버그는 중첩 SVM에만 영향을 주며, VMX에서는 INIT를 무조건 가로채므로 L2가 활성화된 상태에서 INIT를 에뮬레이션할 수 없음MMU 페이지 역할에는 guest_mode(L2)와 SMM 상태가 포함되므로, 일부 조건만 검사하는 대신 INIT마다 초기화하는 방식을 택함INIT 처리는 빈번한 …",
+      "url": "https://news.hada.io/topic?id=37435",
+      "tags": [],
+      "source": "geeknews",
+      "publishedAt": "2026-11-19T07:36:07+09:00",
+      "admitReason": "notable",
+      "summaryEn": "Linux KVM fix: INIT emulation now always resets the MMU context, preventing L1 from running on a stale context when L2 is active (CVE-2026-99312).",
+      "summaryKo": "Linux KVM 수정: INIT 에뮬레이션 시 MMU 컨텍스트를 항상 초기화해 오래된 컨텍스트로 L1이 실행되는 문제를 막습니다(CVE-2026-99312).",
+      "reasonEn": "Notable: rapidly drew attention on the day of publication",
+      "reasonKo": "발표 당일 빠르게 주목받은 커널 보안 패치",
+      "categories": [
+        "infra"
+      ],
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
+      "firstSeenAt": "2026-11-19T00:54:08.201Z",
+      "lastSeenAt": "2026-11-19T00:54:08.201Z"
+    },
+    {
+      "id": "gh:Tencent/LoopForge",
+      "type": "repo",
+      "categories": [
+        "ai-agents",
+        "infra"
+      ],
+      "title": "Tencent/LoopForge",
+      "summaryOriginal": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+      "url": "https://github.com/Tencent/LoopForge",
+      "lang": "Go",
+      "tags": [],
+      "metrics": {
+        "stars": 3176,
+        "starsDelta": 591
+      },
+      "source": "github-trending",
+      "firstSeenAt": "2026-11-14T22:49:56.471Z",
+      "lastSeenAt": "2026-11-18T01:27:49.193Z",
+      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
+      "admitReason": "trending",
+      "summaryEn": "Self-hosted workflow tool that chains coding agents (CodeBuddy, Codex, Claude Code) with scripts and human approval gates.",
+      "summaryKo": "CodeBuddy, Codex, Claude Code 같은 코딩 에이전트를 스크립트와 사람 승인 단계로 묶어 실행하는 자체 호스팅 워크플로 도구.",
+      "reasonEn": "867 stars, up 101 today",
+      "reasonKo": "오늘 스타 101개 증가, 총 867개"
     },
     {
       "id": "gh:kajisho5/ffmpeg-skill",
@@ -509,18 +756,18 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 94214,
-        "starsDelta": 432
+        "stars": 94611
       },
       "source": "github-trending",
       "firstSeenAt": "2026-11-14T00:05:27.914Z",
       "lastSeenAt": "2026-11-14T22:49:56.471Z",
-      "metricsRefreshedAt": "2026-11-14T22:49:56.471Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "Self-hosted uptime monitoring tool with a web dashboard for checking services and sending alerts. Widely used for ops visibility.",
       "summaryKo": "서비스 상태를 점검하고 알림을 보내는 셀프호스팅 가동시간 모니터링 도구입니다.",
       "reasonEn": "93.9K stars, up 71 today",
-      "reasonKo": "스타 9.4만 개, 오늘 71개 증가"
+      "reasonKo": "스타 9.4만 개, 오늘 71개 증가",
+      "updatedAt": "2026-11-19T00:05:15Z"
     },
     {
       "id": "gh:tailscale/tailcat",
@@ -537,6 +784,7 @@
         "stars": 10059
       },
       "source": "github-trending",
+      "updatedAt": "2026-11-17T05:02:21Z",
       "firstSeenAt": "2026-08-29T22:55:06.972Z",
       "lastSeenAt": "2026-11-14T00:05:27.914Z",
       "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
@@ -544,34 +792,7 @@
       "summaryEn": "Like netcat, but over Tailscale's data plane without using its control plane.",
       "summaryKo": "Tailscale 데이터 플레인을 사용하는 netcat 대안 도구입니다.",
       "reasonEn": "Gaining traction for secure peer-to-peer networking.",
-      "reasonKo": "보안 P2P 네트워킹 도구로 주목받는 중",
-      "updatedAt": "2026-11-17T05:02:21Z"
-    },
-    {
-      "id": "gh:nvm-sh/nvm",
-      "type": "repo",
-      "categories": [
-        "infra",
-        "devtools"
-      ],
-      "title": "nvm-sh/nvm",
-      "summaryOriginal": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
-      "url": "https://github.com/nvm-sh/nvm",
-      "lang": "Shell",
-      "tags": [],
-      "metrics": {
-        "stars": 96083
-      },
-      "source": "github-trending",
-      "updatedAt": "2026-11-16T18:43:51Z",
-      "firstSeenAt": "2026-10-14T21:59:54.837Z",
-      "lastSeenAt": "2026-11-12T23:56:23.711Z",
-      "metricsRefreshedAt": "2026-11-17T02:14:34.388Z",
-      "admitReason": "trending",
-      "summaryEn": "Node Version Manager (nvm) is a POSIX-compliant bash script to manage multiple active Node.js versions on a single machine.",
-      "summaryKo": "단일 머신에서 여러 Node.js 버전을 관리하는 POSIX 호환 배시 스크립트입니다.",
-      "reasonEn": "Trending with 70 stars today (95.4K total stars)",
-      "reasonKo": "오늘 70개의 스타를 얻으며 트렌딩 중 (총 9.54만 개)"
+      "reasonKo": "보안 P2P 네트워킹 도구로 주목받는 중"
     },
     {
       "id": "gh:anthropics/claude-quickstarts",
@@ -1008,14 +1229,14 @@
         "ollama"
       ],
       "metrics": {
-        "stars": 434
+        "stars": 440
       },
       "source": "github-search",
       "publishedAt": "2026-10-11T13:12:31Z",
       "updatedAt": "2026-11-02T14:07:52Z",
       "firstSeenAt": "2026-10-23T21:47:37.203Z",
       "lastSeenAt": "2026-10-24T21:22:37.863Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "new",
       "summaryEn": "Open-source personal agent running in Docker with Telegram control, an encrypted vault, and support for any LLM.",
       "summaryKo": "도커와 텔레그램으로 제어하고 암호화된 볼트를 지원하는 오픈소스 개인 에이전트.",
@@ -1049,14 +1270,14 @@
         "typescript"
       ],
       "metrics": {
-        "stars": 1533
+        "stars": 1545
       },
       "source": "github-search",
       "publishedAt": "2026-07-24T02:17:34Z",
-      "updatedAt": "2026-11-15T23:08:47Z",
+      "updatedAt": "2026-11-18T20:56:31Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-10-21T22:03:13.438Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Allows tagging and collaborating with AI agents directly where your team works.",
       "summaryKo": "팀이 일하는 곳에서 직접 AI 에이전트를 태그하고 협업할 수 있게 해줍니다.",
@@ -1076,13 +1297,13 @@
       "lang": "TypeScript",
       "tags": [],
       "metrics": {
-        "stars": 81815
+        "stars": 82057
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-15T16:20:49Z",
+      "updatedAt": "2026-11-18T06:42:49Z",
       "firstSeenAt": "2026-08-22T01:19:03.673Z",
       "lastSeenAt": "2026-10-20T22:00:02.979Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "The original agent harness for deploying multi-player swarms, autonomous workflows, and conversational AI systems with RAG integration.",
       "summaryKo": "멀티 에이전트 스웜과 자율 워크플로우를 배포하기 위한 오리지널 에이전트 하네스입니다.",
@@ -1116,14 +1337,14 @@
         "react"
       ],
       "metrics": {
-        "stars": 21508
+        "stars": 22748
       },
       "source": "github-search",
       "publishedAt": "2026-07-18T20:41:24Z",
-      "updatedAt": "2026-11-15T20:49:57Z",
+      "updatedAt": "2026-11-18T21:18:42Z",
       "firstSeenAt": "2026-09-19T21:13:14.478Z",
       "lastSeenAt": "2026-10-15T21:53:40.774Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Self-hosted gym and body-weight tracker with routine planning, workout logging, and fatigue tracking.",
       "summaryKo": "루틴 계획과 피로도 추적이 가능한 자체 호스팅 체육관 및 운동 기록 도구.",
@@ -1193,13 +1414,13 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 45782
+        "stars": 45795
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-15T21:42:32Z",
+      "updatedAt": "2026-11-19T00:49:18Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-10-04T22:09:02.469Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "Error tracking and performance monitoring platform helping developers catch, track, and debug production issues in real-time.",
       "summaryKo": "개발자가 프로덕션 오류를 추적하고 디버깅하는 에러 모니터링 및 성능 분석 플랫폼.",
@@ -1231,14 +1452,14 @@
         "inky-impression"
       ],
       "metrics": {
-        "stars": 4080
+        "stars": 4096
       },
       "source": "github-search",
       "publishedAt": "2026-07-08T19:01:49Z",
-      "updatedAt": "2026-11-15T22:21:48Z",
+      "updatedAt": "2026-11-18T21:00:10Z",
       "firstSeenAt": "2026-09-15T21:52:44.143Z",
       "lastSeenAt": "2026-10-04T22:09:02.469Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "E-ink bird frame powered by Raspberry Pi and local AI audio detection, styled like vintage illustrations.",
       "summaryKo": "라즈베리 파이와 로컬 AI 오디오 감지로 작동하는 빈티지 스타일의 전자잉크 새 액자입니다.",
@@ -1266,14 +1487,14 @@
         "self-hosted"
       ],
       "metrics": {
-        "stars": 1916
+        "stars": 1951
       },
       "source": "github-search",
       "publishedAt": "2026-07-08T13:02:44Z",
       "updatedAt": "2026-11-12T05:12:53Z",
       "firstSeenAt": "2026-09-07T05:17:00.892Z",
       "lastSeenAt": "2026-10-04T22:09:02.469Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Self-hosted, E2B-compatible SQLite alternative for agent sandboxes, offering persistent environments with zero idle costs.",
       "summaryKo": "에이전트 샌드박스를 위한 자체 호스팅 E2B 호환 SQLite 대안으로, 유휴 비용 없이 영구 환경을 제공합니다.",
@@ -1369,13 +1590,13 @@
       "lang": "PLSQL",
       "tags": [],
       "metrics": {
-        "stars": 27420
+        "stars": 27451
       },
       "source": "github-trending",
       "updatedAt": "2026-10-14T01:52:46Z",
       "firstSeenAt": "2026-09-28T23:36:47.600Z",
       "lastSeenAt": "2026-09-28T23:36:47.600Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "An open-source, low-cost 10.5 GHz PLFM phased array RADAR system.",
       "summaryKo": "오픈소스 저비용 10.5 GHz PLFM 위상 배열 레이더 시스템.",
@@ -1407,14 +1628,14 @@
         "kubernetes"
       ],
       "metrics": {
-        "stars": 1869
+        "stars": 1883
       },
       "source": "github-search",
       "publishedAt": "2026-07-01T12:31:02Z",
-      "updatedAt": "2026-11-15T23:08:58Z",
+      "updatedAt": "2026-11-18T16:01:25Z",
       "firstSeenAt": "2026-09-10T21:20:01.286Z",
       "lastSeenAt": "2026-09-28T23:36:47.600Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "A modern Kubernetes terminal user interface written in Rust using kube-rs and ratatui for async cluster management.",
       "summaryKo": "비동기 클러스터 관리를 위해 kube-rs와 ratatui로 러스트로 작성된 모던 쿠버네티스 TUI입니다.",
@@ -1513,13 +1734,13 @@
       "lang": "Python",
       "tags": [],
       "metrics": {
-        "stars": 3580
+        "stars": 3622
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-14T03:36:39Z",
+      "updatedAt": "2026-11-18T22:22:15Z",
       "firstSeenAt": "2026-09-25T21:55:53.679Z",
       "lastSeenAt": "2026-09-25T21:55:53.679Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "Cross-platform and USB-only version of Wifite, a wireless auditing tool.",
       "summaryKo": "무선 감사 도구인 Wifite의 USB 전용 크로스플랫폼 버전.",
@@ -1537,13 +1758,13 @@
       "url": "https://github.com/kelseyhightower/kubernetes-the-hard-way",
       "tags": [],
       "metrics": {
-        "stars": 50710
+        "stars": 50732
       },
       "source": "github-trending",
       "updatedAt": "2025-04-10T06:11:47Z",
       "firstSeenAt": "2026-09-25T21:55:53.679Z",
       "lastSeenAt": "2026-09-25T21:55:53.679Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "Comprehensive guide for bootstrapping a Kubernetes cluster manually without helper scripts.",
       "summaryKo": "헬퍼 스크립트 없이 수동으로 쿠버네티스 클러스터를 구축하는 종합 가이드입니다.",
@@ -1642,14 +1863,14 @@
         "disk-space"
       ],
       "metrics": {
-        "stars": 1057
+        "stars": 1060
       },
       "source": "github-search",
       "publishedAt": "2026-06-25T08:09:33Z",
       "updatedAt": "2026-08-26T12:21:54Z",
       "firstSeenAt": "2026-09-20T21:07:54.921Z",
       "lastSeenAt": "2026-09-22T21:44:36.199Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "A CLI tool to clean Xcode, Docker, Homebrew, and developer caches to free disk space.",
       "summaryKo": "Xcode, Docker, 홈브루 캐시를 정리하여 디스크를 확보하는 CLI 도구.",
@@ -1719,13 +1940,13 @@
       "lang": "Go",
       "tags": [],
       "metrics": {
-        "stars": 6286
+        "stars": 6310
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-15T18:11:30Z",
+      "updatedAt": "2026-11-18T17:48:02Z",
       "firstSeenAt": "2026-09-19T21:13:14.478Z",
       "lastSeenAt": "2026-09-19T21:13:14.478Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "Your own self-hosted search engine for private web indexing and querying.",
       "summaryKo": "개인 웹 색인 및 검색을 위한 자체 호스팅 검색 엔진입니다.",
@@ -1813,41 +2034,16 @@
       "lang": "Go",
       "tags": [],
       "metrics": {
-        "stars": 25844
+        "stars": 25866
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-15T22:44:23Z",
+      "updatedAt": "2026-11-18T23:35:08Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-17T21:51:41.893Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "eBPF-based networking, security, and observability layer for Kubernetes providing CNI, load balancing, and network policy enforcement.",
       "summaryKo": "쿠버네티스용 eBPF 기반 네트워킹, 보안, 관찰성 레이어로 CNI, 로드밸런싱 제공."
-    },
-    {
-      "id": "gh:n8n-io/n8n",
-      "type": "repo",
-      "categories": [
-        "infra"
-      ],
-      "title": "n8n-io/n8n",
-      "summaryOriginal": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "url": "https://github.com/n8n-io/n8n",
-      "lang": "TypeScript",
-      "tags": [],
-      "metrics": {
-        "stars": 210929
-      },
-      "source": "github-trending",
-      "updatedAt": "2026-11-18T01:11:19Z",
-      "firstSeenAt": "2026-08-22T15:22:55.161Z",
-      "lastSeenAt": "2026-09-17T21:51:41.893Z",
-      "metricsRefreshedAt": "2026-11-18T01:27:49.193Z",
-      "admitReason": "trending",
-      "summaryEn": "n8n is a fair-code workflow automation platform combining visual node-building with custom code and native AI capabilities.",
-      "summaryKo": "시각적 빌더와 커스텀 코드를 결합한 워크플로우 자동화 플랫폼입니다.",
-      "reasonEn": "Added 319 stars today, reaching 204K total.",
-      "reasonKo": "오늘 319개의 스타가 추가되어 총 204K를 달성했습니다."
     },
     {
       "id": "gh:Augani/dory",
@@ -1928,13 +2124,13 @@
       "lang": "Batchfile",
       "tags": [],
       "metrics": {
-        "stars": 36227
+        "stars": 36396
       },
       "source": "github-trending",
       "updatedAt": "2026-11-04T08:56:59Z",
       "firstSeenAt": "2026-09-12T21:08:18.614Z",
       "lastSeenAt": "2026-09-12T21:08:18.614Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "A tool to bypass DPI and restrictions for Discord and YouTube on various networks.",
       "summaryKo": "디스코드와 유튜브 등의 차단 및 DPI를 우회하기 위한 도구입니다.",
@@ -1981,13 +2177,13 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 12311
+        "stars": 12373
       },
       "source": "github-trending",
       "updatedAt": "2026-11-10T16:46:12Z",
       "firstSeenAt": "2026-09-07T21:51:32.810Z",
       "lastSeenAt": "2026-09-08T21:31:48.079Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "A stealth headless browser designed for AI agents to bypass Cloudflare and bot detection, acting as a Puppeteer drop-in.",
       "summaryKo": "클라우드플레어와 봇 탐지를 우회하는 AI 에이전트용 스텔스 헤드리스 브라우저.",
@@ -2006,13 +2202,13 @@
       "lang": "JavaScript",
       "tags": [],
       "metrics": {
-        "stars": 11629
+        "stars": 11847
       },
       "source": "github-trending",
-      "updatedAt": "2026-11-15T17:42:58Z",
+      "updatedAt": "2026-11-19T00:55:47Z",
       "firstSeenAt": "2026-09-06T20:59:25.857Z",
       "lastSeenAt": "2026-09-07T05:50:34.565Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "trending",
       "summaryEn": "A cross-platform voice-to-text dictation app supporting local models for privacy.",
       "summaryKo": "프라이버시를 위해 로컬 모델을 지원하는 크로스플랫폼 음성 텍스트 변환 앱입니다.",
@@ -2207,45 +2403,6 @@
       "metricsRefreshedAt": "2026-11-17T02:14:34.388Z",
       "admitReason": "notable",
       "summaryEn": "Open-source project management platform and Jira alternative with boards, sprints, and docs"
-    },
-    {
-      "id": "gh:appwrite/appwrite",
-      "type": "repo",
-      "categories": [
-        "web",
-        "backend",
-        "infra"
-      ],
-      "title": "appwrite/appwrite",
-      "summaryOriginal": "Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more",
-      "url": "https://github.com/appwrite/appwrite",
-      "lang": "TypeScript",
-      "tags": [
-        "android",
-        "appwrite",
-        "backend",
-        "backend-as-a-service",
-        "docker",
-        "firebase",
-        "flutter",
-        "hosting",
-        "ios",
-        "javascript",
-        "nextjs",
-        "react"
-      ],
-      "metrics": {
-        "stars": 58122
-      },
-      "source": "github-search",
-      "publishedAt": "2019-04-08T16:36:25Z",
-      "updatedAt": "2026-11-15T22:48:23Z",
-      "firstSeenAt": "2026-08-18T12:50:05.916Z",
-      "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
-      "admitReason": "notable",
-      "summaryEn": "Complete backend-as-a-service platform: auth, databases, storage, functions, and messaging for web, mobile, and AI apps.",
-      "summaryKo": "인증·DB·스토리지·함수·메시징을 아우르는 웹·모바일·AI용 완전한 백엔드 플랫폼."
     },
     {
       "id": "gh:go-gitea/gitea",
@@ -3329,14 +3486,14 @@
         "sandbox"
       ],
       "metrics": {
-        "stars": 20008
+        "stars": 20048
       },
       "source": "github-search",
       "publishedAt": "2018-04-26T21:28:49Z",
-      "updatedAt": "2026-11-15T23:06:10Z",
+      "updatedAt": "2026-11-19T00:09:01Z",
       "firstSeenAt": "2026-08-23T01:26:23.378Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Application kernel for containers from Google that provides an isolation sandbox layer for workloads.",
       "summaryKo": "컨테이너 격리 샌드박스 레이어를 제공하는 구글의 애플리케이션 커널입니다."
@@ -3364,14 +3521,14 @@
         "kubespray"
       ],
       "metrics": {
-        "stars": 18842
+        "stars": 18847
       },
       "source": "github-search",
       "publishedAt": "2015-10-03T20:18:11Z",
-      "updatedAt": "2026-11-15T15:11:56Z",
+      "updatedAt": "2026-11-18T11:32:23Z",
       "firstSeenAt": "2026-08-23T01:26:23.378Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Ansible-based deployment tool to provision production-ready Kubernetes clusters across various infrastructures.",
       "summaryKo": "프로덕션 수준의 쿠버네티스 클러스터를 구성하는 앤서블 배포 도구입니다."
@@ -3402,14 +3559,14 @@
         "infra-ops"
       ],
       "metrics": {
-        "stars": 30234
+        "stars": 30279
       },
       "source": "github-search",
       "publishedAt": "2019-08-24T13:56:15Z",
-      "updatedAt": "2026-11-14T01:10:32Z",
+      "updatedAt": "2026-11-18T23:06:34Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Event-driven workflow orchestration platform for data pipelines, ETL, and mission-critical automation with infrastructure-as-code support."
     },
@@ -3436,14 +3593,14 @@
         "pipelines-as-code"
       ],
       "metrics": {
-        "stars": 26775
+        "stars": 26796
       },
       "source": "github-search",
       "publishedAt": "2010-11-22T21:21:23Z",
-      "updatedAt": "2026-11-15T13:05:33Z",
+      "updatedAt": "2026-11-18T10:35:26Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-06T20:59:25.857Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Widely used automation server for building CI/CD pipelines, with extensive plugin support.",
       "summaryKo": "CI/CD 파이프라인을 구축하는 널리 쓰이는 자동화 서버, 풍부한 플러그인 지원.",
@@ -3813,10 +3970,10 @@
       },
       "source": "github-search",
       "publishedAt": "2023-05-12T23:53:30Z",
-      "updatedAt": "2026-11-09T16:39:02Z",
+      "updatedAt": "2026-11-16T15:26:49Z",
       "firstSeenAt": "2026-09-01T22:53:39.547Z",
       "lastSeenAt": "2026-09-02T22:54:08.675Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Quivr is an opinionated RAG framework designed for easily integrating generative AI capabilities and custom vector stores into existing applications.",
       "summaryKo": "생성형 AI 기능과 사용자 지정 벡터 저장소를 기존 앱에 쉽게 통합하도록 설계된 RAG 프레임워크.",
@@ -3848,14 +4005,14 @@
         "nerdctl"
       ],
       "metrics": {
-        "stars": 31707
+        "stars": 31763
       },
       "source": "github-search",
       "publishedAt": "2021-09-04T09:52:22Z",
       "updatedAt": "2026-10-13T21:49:45Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-02T22:54:08.675Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Container runtime setup for macOS that provides Docker and Kubernetes with minimal configuration.",
       "summaryKo": "macOS에서 Docker와 Kubernetes를 간편하게 설정하는 도구."
@@ -3877,14 +4034,14 @@
         "kubernetes-kuboard"
       ],
       "metrics": {
-        "stars": 25278
+        "stars": 25286
       },
       "source": "github-search",
       "publishedAt": "2019-07-24T16:45:29Z",
-      "updatedAt": "2026-11-15T10:52:26Z",
+      "updatedAt": "2026-11-18T09:19:50Z",
       "firstSeenAt": "2026-08-18T12:50:05.916Z",
       "lastSeenAt": "2026-09-02T22:54:08.675Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Kubernetes management dashboard and educational resource providing Chinese tutorials, installation guides, and visual administration tools for K8s.",
       "summaryKo": "쿠버네티스 관리 대시보드 및 중국어 튜토리얼, 설치 가이드, 시각적 관리 도구."
@@ -3920,10 +4077,10 @@
       },
       "source": "github-search",
       "publishedAt": "2023-05-12T23:53:30Z",
-      "updatedAt": "2026-11-09T16:39:02Z",
+      "updatedAt": "2026-11-16T15:26:49Z",
       "firstSeenAt": "2026-09-01T00:11:05.708Z",
       "lastSeenAt": "2026-09-01T00:11:05.708Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Quivr is an opinionated RAG framework for integrating generative AI and LLMs into applications with various vector stores.",
       "summaryKo": "다양한 LLM과 벡터 저장소를 연동하는 RAG 프레임워크입니다."
@@ -3953,14 +4110,14 @@
         "kubernetes-access"
       ],
       "metrics": {
-        "stars": 21099
+        "stars": 21118
       },
       "source": "github-search",
       "publishedAt": "2015-03-02T19:36:00Z",
-      "updatedAt": "2026-11-13T23:19:03Z",
+      "updatedAt": "2026-11-17T16:44:18Z",
       "firstSeenAt": "2026-08-20T01:19:40.108Z",
       "lastSeenAt": "2026-09-01T00:11:05.708Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Zero-trust infrastructure access proxy supporting SSH, RDP, databases, and Kubernetes with built-in audit and RBAC.",
       "summaryKo": "SSH, RDP, 데이터베이스, Kubernetes를 지원하는 제로트러스트 인프라 접근 프록시."
@@ -3987,14 +4144,14 @@
         "kubernetes-ha"
       ],
       "metrics": {
-        "stars": 18395
+        "stars": 18399
       },
       "source": "github-search",
       "publishedAt": "2018-08-15T12:22:50Z",
-      "updatedAt": "2026-11-12T09:02:48Z",
+      "updatedAt": "2026-11-18T12:15:28Z",
       "firstSeenAt": "2026-08-23T01:26:23.378Z",
       "lastSeenAt": "2026-09-01T00:11:05.708Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
+      "metricsRefreshedAt": "2026-11-19T00:54:08.201Z",
       "admitReason": "notable",
       "summaryEn": "Cloud OS distributed system that turns Kubernetes into a single computer for running containerized workloads.",
       "summaryKo": "쿠버네티스를 단일 컴퓨터처럼 다루게 해주는 클라우드 운영체제입니다."
@@ -4443,47 +4600,6 @@
       "summaryKo": "로컬 데스크톱에서 전체 서버 인프라, SSH 연결 및 컨테이너를 관리하는 데스크톱 앱.",
       "reasonEn": "Unified desktop GUI demand for system administration",
       "reasonKo": "시스템 관리를 위한 통합 데스크톱 GUI 수요"
-    },
-    {
-      "id": "gh:immich-app/immich",
-      "type": "repo",
-      "categories": [
-        "infra",
-        "web"
-      ],
-      "title": "immich-app/immich",
-      "summaryOriginal": "High performance self-hosted photo and video management solution.",
-      "url": "https://github.com/immich-app/immich",
-      "lang": "TypeScript",
-      "tags": [
-        "backup-tool",
-        "flutter",
-        "google-photos",
-        "google-photos-alternative",
-        "javascript",
-        "mobile-app",
-        "nestjs",
-        "nodejs",
-        "photo-gallery",
-        "photos",
-        "photos-management",
-        "self-hosted",
-        "svelte",
-        "sveltekit",
-        "typescript",
-        "videos"
-      ],
-      "metrics": {
-        "stars": 119296
-      },
-      "source": "github-search",
-      "publishedAt": "2022-02-03T15:56:27Z",
-      "updatedAt": "2026-11-15T19:02:48Z",
-      "firstSeenAt": "2026-08-19T15:33:13.943Z",
-      "lastSeenAt": "2026-08-20T09:36:42.325Z",
-      "metricsRefreshedAt": "2026-11-15T23:17:28.765Z",
-      "admitReason": "notable",
-      "summaryEn": "Self-hosted photo/video management platform built with TypeScript, React, NestJS, and Flutter."
     }
   ]
 }
